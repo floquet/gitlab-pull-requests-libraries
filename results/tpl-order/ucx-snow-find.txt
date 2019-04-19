@@ -1,3 +1,0 @@
-Tue Apr 16 10:42:36 MDT 2019
-
-bin/spack find ucx

@@ -46,16 +46,20 @@ echo "export spack_architecture='arch=$(spack arch)'"
 echo "spack clean -a"
       spack clean -a
 
-myLog="${dir_results}/log-files/${hpc}-${partition}-${tpl}.log"
-echo $(date) > ${myLog}
+export command_log="${dir_results}/command-log/${hpc}-${partition}-${tpl}-command.log"
+echo $(date) > ${command_log}
+
+export install_log="${dir_results}/install-log/${hpc}-${partition}-${tpl}-install.log"
+echo $(date) >  ${install_log}
+echo ""      >> ${install_log}
 
 # installs: sweep tpl versions, sweep compilers
 for v in ${versions}; do
     for c in ${compilers}; do
         echo ""
-        echo "spack install ${tpl} @ ${v} % ${c} ${klingons} ${spack_architecture}" >> ${myLog}
-        echo "spack install ${tpl} @ ${v} % ${c} ${klingons} ${spack_architecture}"
-              spack install ${tpl} @ ${v} % ${c} ${klingons} ${spack_architecture}
+        echo "spack install ${tpl} @ ${v} % ${c} ${klingons} ${spack_architecture}" >> ${command_log}
+        echo "spack install ${tpl} @ ${v} % ${c} ${klingons} ${spack_architecture}  >> ${install_log}"
+              spack install ${tpl} @ ${v} % ${c} ${klingons} ${spack_architecture}  >> ${install_log}
     done
 done
 
@@ -63,19 +67,19 @@ done
 echo 'mkdir -p "${dir_results}/tpl-order"'
       mkdir -p "${dir_results}/tpl-order"
 
-myFile="${dir_results}/spack-find/${tpl}-${hpc}-${partition}.out"
+myFile="${dir_results}/tpl-order/${tpl}-${hpc}-${partition}.out"
 echo $(date) > ${myFile}
 echo "spack find ${tpl} >> ${myFile}" >> ${myFile}
 echo "spack find ${tpl} >> ${myFile}"
       spack find ${tpl} >> ${myFile}
 
-myFile="${dir_results}/spack-find/${tpl}-ldf-${hpc}-${partition}.out"
+myFile="${dir_results}/tpl-order/${tpl}-${hpc}-${partition}-ldf.out"
 echo $(date) > ${myFile}
 echo "spack find -ldf ${tpl}  >> ${myFile}"
 echo "spack find -ldf ${tpl}" >> ${myFile}
       spack find -ldf ${tpl}  >> ${myFile}
 
-myFile="${dir_results}/spack-find/${tpl}-graph-${hpc}-${partition}.out"
+myFile="${dir_results}/tpl-order/${tpl}-${hpc}-${partition}-graph.out"
 echo $(date) > ${myFile}
 echo "spack graph ${tpl} >> ${myFile}" >> ${myFile}
 echo "spack graph ${tpl} >> ${myFile}"

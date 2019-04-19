@@ -9,7 +9,7 @@ export hpc="rzansel"
 export partition="power9"
 
 # input and output directories
-export    dir_pull="/scratch/users/dantopa/repos/gitlab/pull-requests/libraries"
+export    dir_pull="/usr/workspace/wsrzc/topa1/repos/Github/gitlab-pull-requests-libraries"
 export   dir_tools="${dir_pull}/tools"
 export dir_results="${dir_pull}/results"
 

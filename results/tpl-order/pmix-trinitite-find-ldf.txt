@@ -1,4 +1,0 @@
-Thu Apr 18 17:19:00 MDT 2019
-
-bin/spack find -ldf pmix
-==> No package matches the query: pmix
