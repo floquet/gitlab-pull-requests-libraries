@@ -1,0 +1,477 @@
+Thu Apr 18 18:45:44 MDT 2019 [1m/home/dantopa/.mybash(B[m
+Thu Apr 18 18:45:44 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/platforms.sh(B[m
+attempting to mkdir /scratch/users/dantopa/repos/gitlab/node-queries/darwin/arm-cn823/dir-configuration
+directory of core scripts = ${core} = /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts
+Thu Apr 18 18:45:44 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/master.sh(B[m
+Thu Apr 18 18:45:44 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh(B[m
+Thu Apr 18 18:45:44 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh(B[m
+Thu Apr 18 18:45:44 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Thu Apr 18 18:45:44 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh(B[m
+Thu Apr 18 18:45:44 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/gcc.sh(B[m
+Thu Apr 18 18:45:44 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh: line 5: gonode: command not found
+Thu Apr 18 18:45:44 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/git.sh(B[m
+Thu Apr 18 18:45:44 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Thu Apr 18 18:45:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/ssh.sh(B[m
+Thu Apr 18 18:45:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/vim.sh(B[m
+Thu Apr 18 18:45:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bash.sh(B[m
+Thu Apr 18 18:45:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/finds.sh(B[m
+Thu Apr 18 18:45:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/cmake.sh(B[m
+Thu Apr 18 18:45:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/fortran.sh(B[m
+Thu Apr 18 18:45:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/copy-configuration.sh(B[m
+Thu Apr 18 18:45:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks.sh(B[m
+Thu Apr 18 18:45:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-bitbucket.sh(B[m
+Thu Apr 18 18:45:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-github.sh(B[m
+Thu Apr 18 18:45:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-gitlab.sh(B[m
+Thu Apr 18 18:45:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/disk.sh(B[m
+[master 80c9758] darwin-arm-cn823 Thu Apr 18 18:45:45 MDT 2019
+ 2 files changed, 15 insertions(+), 39 deletions(-)
+ rewrite libraries/tools/bash/darwin-arm-batch.out (80%)
+Thu Apr 18 18:45:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh: line 33: sinfo_s: command not found
+Thu Apr 18 18:45:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh(B[m
+Thu Apr 18 18:45:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Thu Apr 18 18:45:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh(B[m
+Thu Apr 18 18:45:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh(B[m
+Thu Apr 18 18:45:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/spack.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh: line 5: gonode: command not found
+Thu Apr 18 18:45:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/uname.sh(B[m
+Thu Apr 18 18:45:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/modules.sh(B[m
+Thu Apr 18 18:45:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Thu Apr 18 18:45:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/alias.sh(B[m
+Thu Apr 18 18:45:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh: line 11: myprompt: command not found
+[master 852c3f4] darwin-arm-cn823 Thu Apr 18 18:45:45 MDT 2019
+ 1 file changed, 24 insertions(+)
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh: line 33: sinfo_s: command not found
+Thu Apr 18 18:45:49 MDT 2019 /tmp/slurmd/job5185791/slurm_script
+source "${dir_tools}/bash/master-tpl-sweep.sh"
+Thu Apr 18 18:45:49 MDT 2019 /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh
+cd /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools
+source directories/libraries-darwin.sh
+Thu Apr 18 18:45:49 MDT 2019 [1mdirectories/libraries-darwin.sh(B[m
+source tpl-versions/versions-pmix.sh
+Thu Apr 18 18:45:49 MDT 2019 [1mtpl-versions/versions-pmix.sh(B[m
+4 pmix versions loaded:
+3.1.2  3.0.2  2.2.2  2.1.4
+
+source compilers/compilers-darwin-arm.sh
+Thu Apr 18 18:45:49 MDT 2019 [1mcompilers/compilers-darwin-arm.sh(B[m
+9 Spack-recognized compilers loaded:
+gcc@8.2.0  gcc@8.1.0  gcc@7.1.0  gcc@4.8.5  arm@19.1  clang@18.4.2  clang@18.4.1  clang@18.4.0  clang@7.0.0
+
+source klingons/darwin-arm-pmix.sh
+/scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 34: klingons/darwin-arm-pmix.sh: No such file or directory
+cd /darwin-arm.pmix
+/scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 37: cd: /darwin-arm.pmix: No such file or directory
+. share/spack/setup-env.sh
+/scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 40: share/spack/setup-env.sh: No such file or directory
+export spack_architecture='arch=linux-rhel7-aarch64'
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+
+spack install pmix @ 3.1.2 % gcc@8.2.0  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/opt/spack/linux-rhel7-aarch64/gcc-8.2.0/util-macros-1.19.1-6itlqdju436m5c7lx2hp6m2dgkb57g4d
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/opt/spack/linux-rhel7-aarch64/gcc-8.2.0/libpciaccess-0.13.5-vfd6u24jr5smqmn62ejiwkyyai3pqgoy
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> Installing hwloc
+==> Searching for binary cache of hwloc
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hwloc found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/hwloc/hwloc-2.0.2.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/hwloc-2.0.2-7wi3bolrt6mqv3hgzma5pkl66iecw4zm/hwloc-2.0.2.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/hwloc-2.0.2-7wi3bolrt6mqv3hgzma5pkl66iecw4zm
+==> No patches needed for hwloc
+==> Building hwloc [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed hwloc
+  Fetch: 0.47s.  Build: 39.63s.  Total: 40.10s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/opt/spack/linux-rhel7-aarch64/gcc-8.2.0/hwloc-2.0.2-7wi3bolrt6mqv3hgzma5pkl66iecw4zm
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : generating module file
+==> openssl@1.1.1b : registering into DB
+==> Installing libevent
+==> Searching for binary cache of libevent
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libevent found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/libevent/libevent-2.1.8.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libevent-2.1.8-rlmdkq5xecs2ydk4tzy2oa3xu2ubkrhv/libevent-2.1.8-stable.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libevent-2.1.8-rlmdkq5xecs2ydk4tzy2oa3xu2ubkrhv
+==> No patches needed for libevent
+==> Building libevent [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libevent
+  Fetch: 0.06s.  Build: 25.84s.  Total: 25.90s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/opt/spack/linux-rhel7-aarch64/gcc-8.2.0/libevent-2.1.8-rlmdkq5xecs2ydk4tzy2oa3xu2ubkrhv
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+curl: (37) Couldn't open file /usr/projects/draco/vendors/spack.mirror/pmix/pmix-3.1.2.tar.bz2
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/pmix/pmix-3.1.2.tar.bz2
+==> Fetching from file:///usr/projects/draco/vendors/spack.mirror/pmix/pmix-3.1.2.tar.bz2 failed.
+==> Fetching https://github.com/pmix/pmix/releases/download/v3.1.2/pmix-3.1.2.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/pmix-3.1.2-2dhlnqq5zrhrkq7sbx6hynewfiqveqig/pmix-3.1.2.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/pmix-3.1.2-2dhlnqq5zrhrkq7sbx6hynewfiqveqig
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 1.83s.  Build: 2m 36.35s.  Total: 2m 38.18s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/opt/spack/linux-rhel7-aarch64/gcc-8.2.0/pmix-3.1.2-2dhlnqq5zrhrkq7sbx6hynewfiqveqig
+
+spack install pmix @ 3.1.2 % gcc@8.1.0  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/opt/spack/linux-rhel7-aarch64/gcc-8.1.0/util-macros-1.19.1-ebpysshggo32zk4dga537yakdo5wdeia
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-gpzuvig2ughdn2tbygwjwwo4sjjjpckx/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-gpzuvig2ughdn2tbygwjwwo4sjjjpckx
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Error: ProcessError: Command exited with status 77:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-gpzuvig2ughdn2tbygwjwwo4sjjjpckx/libpciaccess-0.13.5/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/opt/spack/linux-rhel7-aarch64/gcc-8.1.0/libpciaccess-0.13.5-gpzuvig2ughdn2tbygwjwwo4sjjjpckx'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /scratch/users/dantopa/new-spack/libraries/darwi
+           n-arm.libhio/lib/spack/env/gcc/gcc
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-iIB5W
+           Z/libpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-gpzuvig2ughdn2tbygwjwwo4sjjjpckx/spack-build.out
+
+spack install pmix @ 3.1.2 % gcc@7.1.0  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/opt/spack/linux-rhel7-aarch64/gcc-7.1.0/util-macros-1.19.1-kiskvsircx35vjhzzbi52mc6wdcvvcbl
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/opt/spack/linux-rhel7-aarch64/gcc-7.1.0/libpciaccess-0.13.5-gmwtdrwzcwy4fhsfwwhkhjrqj4gyilqg
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> Installing hwloc
+==> Searching for binary cache of hwloc
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hwloc found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/cache/hwloc/hwloc-2.0.2.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/hwloc-2.0.2-baktpuvisjrak3obpch253qnwguaxbkh/hwloc-2.0.2.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/hwloc-2.0.2-baktpuvisjrak3obpch253qnwguaxbkh
+==> No patches needed for hwloc
+==> Building hwloc [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed hwloc
+  Fetch: 0.02s.  Build: 38.34s.  Total: 38.36s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/opt/spack/linux-rhel7-aarch64/gcc-7.1.0/hwloc-2.0.2-baktpuvisjrak3obpch253qnwguaxbkh
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : generating module file
+==> openssl@1.1.1b : registering into DB
+==> Installing libevent
+==> Searching for binary cache of libevent
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libevent found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/cache/libevent/libevent-2.1.8.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libevent-2.1.8-egwtufx5ykmfrxgmugmsyx3xcuics2cy/libevent-2.1.8-stable.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libevent-2.1.8-egwtufx5ykmfrxgmugmsyx3xcuics2cy
+==> No patches needed for libevent
+==> Building libevent [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libevent
+  Fetch: 0.01s.  Build: 24.62s.  Total: 24.62s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/opt/spack/linux-rhel7-aarch64/gcc-7.1.0/libevent-2.1.8-egwtufx5ykmfrxgmugmsyx3xcuics2cy
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/cache/pmix/pmix-3.1.2.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/pmix-3.1.2-2zgcz6d2l6qd47i6i2jqf4hnafswlyim/pmix-3.1.2.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/pmix-3.1.2-2zgcz6d2l6qd47i6i2jqf4hnafswlyim
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 0.01s.  Build: 2m 26.80s.  Total: 2m 26.80s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/opt/spack/linux-rhel7-aarch64/gcc-7.1.0/pmix-3.1.2-2zgcz6d2l6qd47i6i2jqf4hnafswlyim
+
+spack install pmix @ 3.1.2 % gcc@4.8.5  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/util-macros-1.19.1-taxopdvexxiaknvfyhfpeu27t7t57ogv
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/libpciaccess-0.13.5-6a4he357fqas3e73eduk56vxa4ljss4g
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> Installing hwloc
+==> Searching for binary cache of hwloc
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hwloc found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/cache/hwloc/hwloc-2.0.2.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/hwloc-2.0.2-uql4obmyconlrw6aa4f6lkxvsx3h4gvd/hwloc-2.0.2.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/hwloc-2.0.2-uql4obmyconlrw6aa4f6lkxvsx3h4gvd
+==> No patches needed for hwloc
+==> Building hwloc [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed hwloc
+  Fetch: 0.02s.  Build: 35.57s.  Total: 35.60s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/hwloc-2.0.2-uql4obmyconlrw6aa4f6lkxvsx3h4gvd
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : generating module file
+==> openssl@1.1.1b : registering into DB
+==> Installing libevent
+==> Searching for binary cache of libevent
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libevent found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/cache/libevent/libevent-2.1.8.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libevent-2.1.8-bl5wflwggzdy3l5dx2vgbbitjvis4k4o/libevent-2.1.8-stable.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libevent-2.1.8-bl5wflwggzdy3l5dx2vgbbitjvis4k4o
+==> No patches needed for libevent
+==> Building libevent [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libevent
+  Fetch: 0.01s.  Build: 23.50s.  Total: 23.51s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/libevent-2.1.8-bl5wflwggzdy3l5dx2vgbbitjvis4k4o
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/cache/pmix/pmix-3.1.2.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/pmix-3.1.2-ospnwd6ezzpxgm3w2mqiuhxzfjk2aigb/pmix-3.1.2.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/pmix-3.1.2-ospnwd6ezzpxgm3w2mqiuhxzfjk2aigb
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 0.01s.  Build: 2m 12.45s.  Total: 2m 12.46s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/pmix-3.1.2-ospnwd6ezzpxgm3w2mqiuhxzfjk2aigb
+
+spack install pmix @ 3.1.2 % arm@19.1  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/opt/spack/linux-rhel7-aarch64/arm-19.1/util-macros-1.19.1-6334hbdfcbbks7mxvueh7ol2e2q55gt3
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-syimrildzpuh3cythz2l2zkwmk4e2buv/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-syimrildzpuh3cythz2l2zkwmk4e2buv
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-syimrildzpuh3cythz2l2zkwmk4e2buv/libpciaccess-0.13.5/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/opt/spack/linux-rhel7-aarch64/arm-19.1/libpciaccess-0.13.5-syimrildzpuh3cythz2l2zkwmk4e2buv'
+
+2 errors found in build log:
+     17    checking whether we are using the GNU C compiler... yes
+     18    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.libhio/lib/spack/env/arm/armclang accepts -g... yes
+     19    checking for /scratch/users/dantopa/new-spack/libraries/darwin-arm.l
+           ibhio/lib/spack/env/arm/armclang option to accept ISO C89... none ne
+           eded
+     20    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.libhio/lib/spack/env/arm/armclang understands -c and -o together.
+           .. yes
+     21    checking dependency style of /scratch/users/dantopa/new-spack/librar
+           ies/darwin-arm.libhio/lib/spack/env/arm/armclang... gcc3
+     22    checking how to run the C preprocessor... cpp\ -mcpu=thunderx2t99
+  >> 23    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-kaikU
+           G/libpciaccess-0.13.5':
+  >> 24    configure: error: C preprocessor "cpp\ -mcpu=thunderx2t99" fails san
+           ity check
+     25    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-syimrildzpuh3cythz2l2zkwmk4e2buv/spack-build.out
+
+spack install pmix @ 3.1.2 % clang@18.4.2  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/opt/spack/linux-rhel7-aarch64/clang-18.4.2/util-macros-1.19.1-cn7b44vbwcvskh5rebgthm37uii37nu7
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-zmhg7tt5i5efkdqkbklhejtqo2trvtr7/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-zmhg7tt5i5efkdqkbklhejtqo2trvtr7
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-zmhg7tt5i5efkdqkbklhejtqo2trvtr7/libpciaccess-0.13.5/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/opt/spack/linux-rhel7-aarch64/clang-18.4.2/libpciaccess-0.13.5-zmhg7tt5i5efkdqkbklhejtqo2trvtr7'
+
+2 errors found in build log:
+     17    checking whether we are using the GNU C compiler... yes
+     18    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.libhio/lib/spack/env/clang/clang accepts -g... yes
+     19    checking for /scratch/users/dantopa/new-spack/libraries/darwin-arm.l
+           ibhio/lib/spack/env/clang/clang option to accept ISO C89... none nee
+           ded
+     20    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.libhio/lib/spack/env/clang/clang understands -c and -o together..
+           . yes
+     21    checking dependency style of /scratch/users/dantopa/new-spack/librar
+           ies/darwin-arm.libhio/lib/spack/env/clang/clang... gcc3
+     22    checking how to run the C preprocessor... armclang\ -E
+  >> 23    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-K2PiF
+           A/libpciaccess-0.13.5':
+  >> 24    configure: error: C preprocessor "armclang\ -E" fails sanity check
+     25    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-zmhg7tt5i5efkdqkbklhejtqo2trvtr7/spack-build.out
+
+spack install pmix @ 3.1.2 % clang@18.4.1  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/opt/spack/linux-rhel7-aarch64/clang-18.4.1/util-macros-1.19.1-l6bywkvjvdjtht56dcesy2736lyzzpp7
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-q2f4lw2hjiy26w67orjs4od4jvewx5ir/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-q2f4lw2hjiy26w67orjs4od4jvewx5ir
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-q2f4lw2hjiy26w67orjs4od4jvewx5ir/libpciaccess-0.13.5/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/opt/spack/linux-rhel7-aarch64/clang-18.4.1/libpciaccess-0.13.5-q2f4lw2hjiy26w67orjs4od4jvewx5ir'
+
+2 errors found in build log:
+     17    checking whether we are using the GNU C compiler... yes
+     18    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.libhio/lib/spack/env/clang/clang accepts -g... yes
+     19    checking for /scratch/users/dantopa/new-spack/libraries/darwin-arm.l
+           ibhio/lib/spack/env/clang/clang option to accept ISO C89... none nee
+           ded
+     20    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.libhio/lib/spack/env/clang/clang understands -c and -o together..
+           . yes
+     21    checking dependency style of /scratch/users/dantopa/new-spack/librar
+           ies/darwin-arm.libhio/lib/spack/env/clang/clang... gcc3
+     22    checking how to run the C preprocessor... armclang\ -E
+  >> 23    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-i7Wot
+           H/libpciaccess-0.13.5':
+  >> 24    configure: error: C preprocessor "armclang\ -E" fails sanity check
+     25    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-q2f4lw2hjiy26w67orjs4od4jvewx5ir/spack-build.out
+
+spack install pmix @ 3.1.2 % clang@18.4.0  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/opt/spack/linux-rhel7-aarch64/clang-18.4.0/util-macros-1.19.1-rcfd7zo4un7ptsj6svdyc4aamhwhzztr
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/opt/spack/linux-rhel7-aarch64/clang-18.4.0/libpciaccess-0.13.5-m4ndyt2tktxlhjkaefppigljxuam6qqk
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> Installing hwloc
+==> Searching for binary cache of hwloc
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hwloc found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/cache/hwloc/hwloc-2.0.2.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/hwloc-2.0.2-pctjipwcaaclc5ijqvv4tdt7ptkl7hlc/hwloc-2.0.2.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/hwloc-2.0.2-pctjipwcaaclc5ijqvv4tdt7ptkl7hlc
+==> No patches needed for hwloc
+==> Building hwloc [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed hwloc
+  Fetch: 0.02s.  Build: 40.54s.  Total: 40.56s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/opt/spack/linux-rhel7-aarch64/clang-18.4.0/hwloc-2.0.2-pctjipwcaaclc5ijqvv4tdt7ptkl7hlc
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : generating module file
+==> openssl@1.1.1b : registering into DB
+==> Installing libevent
+==> Searching for binary cache of libevent
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libevent found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/cache/libevent/libevent-2.1.8.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libevent-2.1.8-ee2n6mske2hfzhw5eholrxx2345tkhsq/libevent-2.1.8-stable.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libevent-2.1.8-ee2n6mske2hfzhw5eholrxx2345tkhsq
+==> No patches needed for libevent
+==> Building libevent [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libevent
+  Fetch: 0.01s.  Build: 24.62s.  Total: 24.62s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/opt/spack/linux-rhel7-aarch64/clang-18.4.0/libevent-2.1.8-ee2n6mske2hfzhw5eholrxx2345tkhsq
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/cache/pmix/pmix-3.1.2.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/pmix-3.1.2-4unymgkttyr43l42xiaumexinre5j7cb/pmix-3.1.2.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/pmix-3.1.2-4unymgkttyr43l42xiaumexinre5j7cb
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'

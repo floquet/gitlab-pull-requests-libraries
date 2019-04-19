@@ -1,0 +1,2023 @@
+ New Users: 
+
+Tutorials available on the Wiki at
+         https://darwin.lanl.gov/doku.php?id=tutorial:tutorials
+
+ Foreign National Users: 
+
+Darwin is a Yellow resource. Users assigned to the OCE only have access to
+those Yellow resources that their collective roles allow. OCE users found
+operating outside of the OCE and allowed Yellow resources will be detected
+automatically with the Yellow Network Surveillance system and will be
+reported to the Security Inquiry Team (SIT).
+
+
+Disk quotas for user dantopa (uid 15003):
+Filesystem                                               Used       Hard
+darwin_home                                           35.278G    500.00G
+/projects/eap                                         1.2522T      1.38T
+/projects/shavano                                     58.798G    500.00G
+/projects/users/bak                                   72.635G    500.00G
+/projects/pv_dev                                      20.265G    500.00G
+/projects/artab                                      409.250G    500.00G
+Mon Apr  8 12:49:11 MDT 2019 /home/dantopa/.mybash
+Mon Apr  8 12:49:11 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/platforms.sh
+attempting to mkdir /scratch/users/dantopa/repos/gitlab/node-queries/darwin/log.in-darwin-fe2/dir-configuration
+directory of core scripts = ${core} = /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts
+Mon Apr  8 12:49:11 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/master.sh
+Mon Apr  8 12:49:11 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh
+Mon Apr  8 12:49:11 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh
+Mon Apr  8 12:49:11 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+Mon Apr  8 12:49:11 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh
+Mon Apr  8 12:49:11 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh
+Mon Apr  8 12:49:11 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/gcc.sh
+-bash: gonode: command not found
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+Mon Apr  8 12:49:11 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/git.sh
+Mon Apr  8 12:49:11 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+Mon Apr  8 12:49:11 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/ssh.sh
+Mon Apr  8 12:49:11 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/vim.sh
+Mon Apr  8 12:49:11 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bash.sh
+Mon Apr  8 12:49:11 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/finds.sh
+Mon Apr  8 12:49:11 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/cmake.sh
+Mon Apr  8 12:49:11 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/fortran.sh
+Mon Apr  8 12:49:11 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/copy-configuration.sh
+Mon Apr  8 12:49:11 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks.sh
+Mon Apr  8 12:49:11 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-bitbucket.sh
+Mon Apr  8 12:49:11 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-github.sh
+Mon Apr  8 12:49:11 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-gitlab.sh
+Mon Apr  8 12:49:11 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/disk.sh
+Mon Apr  8 12:49:11 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh
+Mon Apr  8 12:49:11 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh
+Mon Apr  8 12:49:11 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+Mon Apr  8 12:49:11 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh
+Mon Apr  8 12:49:11 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/spack.sh
+Mon Apr  8 12:49:11 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh
+Mon Apr  8 12:49:11 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/uname.sh
+/scratch/users/dantopa/repos/gitlab/node-queries
+Mon Apr  8 12:49:11 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/modules.sh
+Mon Apr  8 12:49:11 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+Mon Apr  8 12:49:11 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/alias.sh
+Mon Apr  8 12:49:11 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh
+[master 2e5ebc5] darwin-log.in-darwin-fe2 Mon Apr  8 12:49:13 MDT 2019
+ 42 files changed, 248 insertions(+), 239 deletions(-)
+dantopa@darwin-fe2.lanl.gov:~ $ grab-compute 
+salloc -N 1 -t 48:00:00 --qos=long
+salloc: Granted job allocation 5167908
+salloc: Waiting for resource configuration
+salloc: Nodes cn195 are ready for job
+Mon Apr  8 13:22:07 MDT 2019 /home/dantopa/.mybash
+Mon Apr  8 13:22:07 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/platforms.sh
+attempting to mkdir /scratch/users/dantopa/repos/gitlab/node-queries/darwin/general-cn195/dir-configuration
+directory of core scripts = ${core} = /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts
+Mon Apr  8 13:22:07 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/master.sh
+Mon Apr  8 13:22:07 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh
+Mon Apr  8 13:22:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh
+Mon Apr  8 13:22:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+Mon Apr  8 13:22:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/gcc.sh
+Mon Apr  8 13:22:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh
+Mon Apr  8 13:22:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh
+bash: gonode: command not found
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+Mon Apr  8 13:22:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+Mon Apr  8 13:22:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/git.sh
+Mon Apr  8 13:22:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/ssh.sh
+Mon Apr  8 13:22:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/vim.sh
+Mon Apr  8 13:22:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bash.sh
+Mon Apr  8 13:22:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/finds.sh
+Mon Apr  8 13:22:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/cmake.sh
+Mon Apr  8 13:22:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/fortran.sh
+Mon Apr  8 13:22:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/copy-configuration.sh
+Mon Apr  8 13:22:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks.sh
+Mon Apr  8 13:22:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-bitbucket.sh
+Mon Apr  8 13:22:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-github.sh
+Mon Apr  8 13:22:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-gitlab.sh
+Mon Apr  8 13:22:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/disk.sh
+Mon Apr  8 13:22:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh
+Mon Apr  8 13:22:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh
+Mon Apr  8 13:22:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+Mon Apr  8 13:22:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh
+Mon Apr  8 13:22:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh
+/scratch/users/dantopa/repos/gitlab/node-queries
+Mon Apr  8 13:22:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/uname.sh
+Mon Apr  8 13:22:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+Mon Apr  8 13:22:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/spack.sh
+Mon Apr  8 13:22:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/modules.sh
+Mon Apr  8 13:22:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/alias.sh
+Mon Apr  8 13:22:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh
+[master f783c3f] darwin-general-cn195 Mon Apr  8 13:22:33 MDT 2019
+ 128 files changed, 1841 insertions(+), 1939 deletions(-)
+ rewrite darwin/arm-cn816/proc-filesystem/proc-stat.txt (98%)
+ rewrite darwin/arm-cn816/slurm-queries/slurm-sinfo.txt (79%)
+ rewrite darwin/general-cn195/proc-filesystem/proc-buddyinfo.txt (61%)
+ rewrite darwin/general-cn195/proc-filesystem/proc-locks.txt (86%)
+ rewrite darwin/general-cn195/proc-filesystem/proc-modules.txt (69%)
+ rewrite darwin/general-cn195/proc-filesystem/proc-stat.txt (96%)
+ rewrite darwin/general-cn195/slurm-queries/slurm-sinfo.txt (79%)
+ rewrite darwin/power9-cn2024/proc-filesystem/proc-stat.txt (88%)
+ rewrite darwin/power9-cn2024/slurm-queries/slurm-sinfo.txt (70%)
+dantopa@cn195:~ $ 
+dantopa@cn195:~ $ gospack
+/scratch/users/dantopa/new-spack
+dantopa@cn195:new-spack $ lss
+total 7.2M
+drwxrwxr-x 40 dantopa dantopa   44 Apr  8 12:57 .
+drwxr-x--- 13 dantopa dantopa   14 Jan 31 12:52 ..
+drwxrwxr-x 12 dantopa dantopa   27 Nov  9 14:23 branson.spack.arm
+-rw-rw-r--  1 dantopa dantopa  492 Aug 19  2018 broadcast-spack-package.sh
+drwxrwxr-x 11 dantopa dantopa   26 Nov  1 14:32 compilers.arm.spack
+drwxrwxr-x  9 dantopa dantopa   24 Jan 28 15:09 compilers.general.spack
+drwxrwxr-x  9 dantopa dantopa   24 Jan 28 15:09 compilers.power9.spack
+-rw-rw-r--  1 dantopa dantopa 550K Oct 26 20:52 files.txt
+drwxrwxr-x 11 dantopa dantopa   26 Mar  3 19:33 flag.power9.spack
+drwxrwxr-x 12 dantopa dantopa   83 Dec  7 10:48 howard.arm.spack
+drwxrwxr-x 11 dantopa dantopa   12 Apr  1 11:40 libraries
+drwxrwxr-x  9 dantopa dantopa   24 Mar  3 18:16 mtt.spack
+drwxrwxr-x 13 dantopa dantopa   28 Apr  1 18:15 mymirror.spack
+drwxrwxr-x 12 dantopa dantopa   27 Feb 15 11:29 openmpi.arm.spack
+drwxrwxr-x 11 dantopa dantopa   26 Feb 28 10:02 openmpi.darwin-general.spack
+drwxrwxr-x 11 dantopa dantopa   26 Feb  6 13:14 openmpi.general.spack
+drwxrwxr-x 10 dantopa dantopa   25 Feb 14 10:31 openmpi.power9.spack
+drwxrwxr-x 11 dantopa dantopa   26 Mar 29 10:23 pmix.general.spack
+drwxrwxr-x 10 dantopa dantopa   25 Feb  6 09:52 python.darwin-arm.spack
+drwxrwxr-x 12 dantopa dantopa   27 Feb 28 13:25 python.darwin-general.spack
+drwxrwxr-x 11 dantopa dantopa   26 Feb 28 13:12 python.darwin-power9.spack
+drwxrwxr-x  2 dantopa dantopa    7 Oct 10 10:06 sbatch-output
+drwxrwxr-x 10 dantopa dantopa   25 Apr  1 10:24 spack
+drwxrwxr-x  8 dantopa dantopa   23 Nov 13 10:05 spack-0.12.0
+drwxrwxr-x  8 dantopa dantopa   23 Jan 13 15:29 spack-0.12.1
+-rw-rw-r--  1 dantopa dantopa 2.9M Jan 13 16:38 spack-0.12.1.tar.gz
+drwxrwxr-x 12 dantopa dantopa   27 Feb  4 14:46 spack.arm.libhio
+drwxrwxr-x 11 dantopa dantopa   28 Jan 22 14:14 spack.darwin.arm-0.12.1
+drwxrwxr-x 11 dantopa dantopa   26 Jan 22 14:08 spack.darwin.general-0.12.1
+drwxrwxr-x 10 dantopa dantopa   27 Jan 22 14:39 spack.darwin.power9-0.12.1
+drwxrwxr-x  8 dantopa dantopa   23 Nov 13 10:05 spack.general-0.11.3
+drwxrwxr-x 10 dantopa dantopa   27 Oct 29 12:52 spack.general.compilers
+drwxrwxr-x  9 dantopa dantopa   24 Nov  8 10:26 spack.general.hypre
+drwxrwxr-x 11 dantopa dantopa   26 Feb  1 10:21 spack.general.libhio
+drwxrwxr-x 13 dantopa dantopa   29 Aug 13  2018 spack.general.openmpi
+drwxrwxr-x 11 dantopa dantopa   26 Oct  4  2018 spack.general.zoltan
+drwxrwxr-x  9 dantopa dantopa   22 Sep  1  2018 spack.power9.essl
+drwxrwxr-x 10 dantopa dantopa   25 Oct 31 13:54 spack.power9.hypre
+drwxrwxr-x 11 dantopa dantopa   26 Feb  2 11:19 spack.power9.libhio
+drwxrwxr-x 14 dantopa dantopa   30 Sep  4  2018 spack.power9.ompi
+drwxrwxr-x 11 dantopa dantopa   23 Oct  3  2018 spack.power9.zoltan
+drwxrwxr-x 11 dantopa dantopa   32 Mar 25 17:08 strawman.pr.libhio
+-rw-rw-r--  1 dantopa dantopa 2.9M Dec 18 09:59 v0.12.0.tar.gz
+drwxrwxr-x 11 dantopa dantopa   27 Feb  9 14:32 Xopenmpi.power9.spack
+dantopa@cn195:new-spack $ cd libraries/
+dantopa@cn195:libraries $ lss
+total 219K
+drwxrwxr-x 11 dantopa dantopa  12 Apr  1 11:40 .
+drwxrwxr-x 40 dantopa dantopa  44 Apr  8 12:57 ..
+-rw-rw-r--  1 dantopa dantopa 448 Apr  1 10:37 create-spack-directories.sh
+drwxrwxr-x 11 dantopa dantopa  26 Apr  1 12:34 darwin-arm.libhio
+drwxrwxr-x 11 dantopa dantopa  26 Apr  1 19:35 darwin-arm.openmpi
+drwxrwxr-x 11 dantopa dantopa  26 Apr  1 12:47 darwin-arm.pmix
+drwxrwxr-x 11 dantopa dantopa  26 Apr  1 17:24 darwin-general.libhio
+drwxrwxr-x 11 dantopa dantopa  26 Apr  2 10:47 darwin-general.openmpi
+drwxrwxr-x 11 dantopa dantopa  26 Apr  1 12:55 darwin-general.pmix
+drwxrwxr-x 11 dantopa dantopa  26 Apr  1 19:36 darwin-power9.libhio
+drwxrwxr-x 11 dantopa dantopa  26 Apr  1 12:55 darwin-power9.openmpi
+drwxrwxr-x 11 dantopa dantopa  26 Apr  2 10:48 darwin-power9.pmix
+dantopa@cn195:libraries $ cd darwin-general.libhio/
+dantopa@cn195:darwin-general.libhio $ bin/spack find
+==> 154 installed packages
+-- linux-centos7-x86_64 / gcc@4.8.5 -----------------------------
+autoconf@2.69  hdf5@1.8.17    json-c@0.13.1   libhio@1.4.1.3       libtool@2.4.6  numactl@2.0.12  pkg-config@0.29.2   zlib@1.2.11
+bzip2@1.0.6    hwloc@1.11.11  libhio@1.4.1.2  libpciaccess@0.13.5  libxml2@2.9.8  openmpi@3.1.3   util-macros@1.19.1
+
+-- linux-centos7-x86_64 / gcc@4.9.3 -----------------------------
+autoconf@2.69  hdf5@1.8.17    json-c@0.13.1   libhio@1.4.1.3       libtool@2.4.6  numactl@2.0.12  pkg-config@0.29.2   zlib@1.2.11
+bzip2@1.0.6    hwloc@1.11.11  libhio@1.4.1.2  libpciaccess@0.13.5  libxml2@2.9.8  openmpi@3.1.3   util-macros@1.19.1
+
+-- linux-centos7-x86_64 / gcc@5.5.0 -----------------------------
+autoconf@2.69  hdf5@1.8.17    json-c@0.13.1   libhio@1.4.1.3       libtool@2.4.6  numactl@2.0.12  pkg-config@0.29.2   zlib@1.2.11
+bzip2@1.0.6    hwloc@1.11.11  libhio@1.4.1.2  libpciaccess@0.13.5  libxml2@2.9.8  openmpi@3.1.3   util-macros@1.19.1
+
+-- linux-centos7-x86_64 / gcc@6.4.0 -----------------------------
+autoconf@2.69  hdf5@1.8.17    json-c@0.13.1   libhio@1.4.1.3       libtool@2.4.6  numactl@2.0.12  pkg-config@0.29.2   zlib@1.2.11
+bzip2@1.0.6    hwloc@1.11.11  libhio@1.4.1.2  libpciaccess@0.13.5  libxml2@2.9.8  openmpi@3.1.3   util-macros@1.19.1
+
+-- linux-centos7-x86_64 / gcc@7.3.0 -----------------------------
+autoconf@2.69  hdf5@1.8.17    json-c@0.13.1   libhio@1.4.1.3       libtool@2.4.6  numactl@2.0.12  pkg-config@0.29.2   zlib@1.2.11
+bzip2@1.0.6    hwloc@1.11.11  libhio@1.4.1.2  libpciaccess@0.13.5  libxml2@2.9.8  openmpi@3.1.3   util-macros@1.19.1
+
+-- linux-centos7-x86_64 / gcc@8.2.0 -----------------------------
+autoconf@2.69  hdf5@1.8.17    json-c@0.13.1   libpciaccess@0.13.5  libxml2@2.9.8   openmpi@3.1.3      util-macros@1.19.1
+bzip2@1.0.6    hwloc@1.11.11  libhio@1.4.1.2  libtool@2.4.6        numactl@2.0.12  pkg-config@0.29.2  zlib@1.2.11
+
+-- linux-centos7-x86_64 / intel@16.0.4 --------------------------
+autoconf@2.69  hdf5@1.8.17    json-c@0.13.1   libhio@1.4.1.3       libtool@2.4.6  numactl@2.0.12  pkg-config@0.29.2   zlib@1.2.11
+bzip2@1.0.6    hwloc@1.11.11  libhio@1.4.1.2  libpciaccess@0.13.5  libxml2@2.9.8  openmpi@3.1.3   util-macros@1.19.1
+
+-- linux-centos7-x86_64 / intel@17.0.6 --------------------------
+autoconf@2.69  hdf5@1.8.17    json-c@0.13.1   libhio@1.4.1.3       libtool@2.4.6  numactl@2.0.12  pkg-config@0.29.2   zlib@1.2.11
+bzip2@1.0.6    hwloc@1.11.11  libhio@1.4.1.2  libpciaccess@0.13.5  libxml2@2.9.8  openmpi@3.1.3   util-macros@1.19.1
+
+-- linux-centos7-x86_64 / intel@18.0.3 --------------------------
+autoconf@2.69  hdf5@1.8.17    json-c@0.13.1   libhio@1.4.1.3       libtool@2.4.6  numactl@2.0.12  pkg-config@0.29.2   zlib@1.2.11
+bzip2@1.0.6    hwloc@1.11.11  libhio@1.4.1.2  libpciaccess@0.13.5  libxml2@2.9.8  openmpi@3.1.3   util-macros@1.19.1
+
+-- linux-centos7-x86_64 / pgi@16.10 -----------------------------
+bzip2@1.0.6  libtool@2.4.6  numactl@2.0.12  pkg-config@0.29.2  util-macros@1.19.1
+
+-- linux-centos7-x86_64 / pgi@17.10 -----------------------------
+bzip2@1.0.6  libtool@2.4.6  numactl@2.0.12  pkg-config@0.29.2  util-macros@1.19.1
+
+-- linux-centos7-x86_64 / pgi@18.7 ------------------------------
+bzip2@1.0.6  libtool@2.4.6  numactl@2.0.12  pkg-config@0.29.2  util-macros@1.19.1
+
+-- linux-centos7-x86_64 / pgi@18.10 -----------------------------
+bzip2@1.0.6  libtool@2.4.6  numactl@2.0.12  pkg-config@0.29.2  util-macros@1.19.1
+dantopa@cn195:darwin-general.libhio $ bin/spack find pmix
+==> No package matches the query: pmix
+dantopa@cn195:darwin-general.libhio $ bin/spack find libhio
+==> 17 installed packages
+-- linux-centos7-x86_64 / gcc@4.8.5 -----------------------------
+libhio@1.4.1.2  libhio@1.4.1.3
+
+-- linux-centos7-x86_64 / gcc@4.9.3 -----------------------------
+libhio@1.4.1.2  libhio@1.4.1.3
+
+-- linux-centos7-x86_64 / gcc@5.5.0 -----------------------------
+libhio@1.4.1.2  libhio@1.4.1.3
+
+-- linux-centos7-x86_64 / gcc@6.4.0 -----------------------------
+libhio@1.4.1.2  libhio@1.4.1.3
+
+-- linux-centos7-x86_64 / gcc@7.3.0 -----------------------------
+libhio@1.4.1.2  libhio@1.4.1.3
+
+-- linux-centos7-x86_64 / gcc@8.2.0 -----------------------------
+libhio@1.4.1.2
+
+-- linux-centos7-x86_64 / intel@16.0.4 --------------------------
+libhio@1.4.1.2  libhio@1.4.1.3
+
+-- linux-centos7-x86_64 / intel@17.0.6 --------------------------
+libhio@1.4.1.2  libhio@1.4.1.3
+
+-- linux-centos7-x86_64 / intel@18.0.3 --------------------------
+libhio@1.4.1.2  libhio@1.4.1.3
+dantopa@cn195:darwin-general.libhio $ 
+dantopa@cn195:darwin-general.libhio $ 
+dantopa@cn195:darwin-general.libhio $ date
+Mon Apr  8 13:23:42 MDT 2019
+dantopa@cn195:darwin-general.libhio $ pwd
+/scratch/users/dantopa/new-spack/libraries/darwin-general.libhio
+dantopa@cn195:darwin-general.libhio $ 
+  [Restored Apr 8, 2019, 1:27:57 PM]
+Last login: Mon Apr  8 13:28:03 on ttys010
+pn1249300:~ l127914$ source ~/.bashrc; darwin
+Mon Apr  8 13:28:33 MDT 2019 /Users/l127914/.bashrc
+Mon Apr  8 13:28:51 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/platforms.sh
+attempting to mkdir /Users/l127914/Documents/repos/gitlab/node-queries/Cauchy.Schwarz/log.in-pn1249300/dir-configuration
+directory of core scripts = ${core} = /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts
+Mon Apr  8 13:29:24 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/master.sh
+Mon Apr  8 13:29:25 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/info.sh
+Mon Apr  8 13:29:27 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/info-git.sh
+Mon Apr  8 13:29:27 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/gcc.sh
+-bash: gonode: command not found
+Mon Apr  8 13:29:27 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/git.sh
+Mon Apr  8 13:29:27 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/ssh.sh
+Mon Apr  8 13:29:27 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/vim.sh
+Mon Apr  8 13:29:27 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bash.sh
+Mon Apr  8 13:29:32 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/finds.sh
+Mon Apr  8 13:29:32 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/cmake.sh
+Mon Apr  8 13:29:32 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/copy-configuration.sh
+Mon Apr  8 13:29:32 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/fortran.sh
+Mon Apr  8 13:29:32 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bookmarks.sh
+Mon Apr  8 13:29:32 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bookmarks-bitbucket.sh
+Mon Apr  8 13:29:32 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bookmarks-github.sh
+Mon Apr  8 13:29:32 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bookmarks-gitlab.sh
+Mon Apr  8 13:29:32 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/disk.sh
+Mon Apr  8 13:29:33 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/info.sh
+[2]+  Done                    source "${core}/copy-configuration.sh"
+Mon Apr  8 13:29:33 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/info-git.sh
+Mon Apr  8 13:29:33 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/uname.sh
+/Users/l127914/Documents/repos/gitlab/node-queries
+Mon Apr  8 13:29:33 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/spack.sh
+uname: illegal option -- i
+usage: uname [-amnprsv]
+Mon Apr  8 13:29:33 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/modules.sh
+uname: illegal option -- o
+usage: uname [-amnprsv]
+[4]+  Exit 127                module available >> ${my_log} 2>&1
+Mon Apr  8 13:29:33 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/alias.sh
+[3]-  Done                    source "${core}/uname.sh"
+[4]+  Exit 127                module list >> ${my_log} 2>&1
+Mon Apr  8 13:29:33 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/environment.sh
+fatal: Unable to create '/Users/l127914/Documents/repos/gitlab/node-queries/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Not a git repository (or any of the parent directories): .git
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 49 and 50 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+nothing to commit, working tree clean
+fatal: Not a git repository (or any of the parent directories): .git
+[1]-  Done                    source ${core}/info-git.sh
+[2]+  Done                    source ${core}/info-git.sh
+Mon Apr  8 13:29:50 MDT 2019, /Users/l127914/.bash-platform-specific
+-bash: darwin: command not found
+l127914@pn1249300.lanl.gov:~ $ darwin
+ssh -l dantopa -XY darwin-fe.lanl.gov
+dantopa@darwin-fe.lanl.gov's password: 
+Last login: Mon Apr  8 13:32:31 2019 from 141.111.175.17
+**WARNING**WARNING**WARNING**WARNING**WARNING**
+
+This is a Department of Energy (DOE) computer system. DOE computer
+systems are provided for the processing of official U.S. Government
+information only. All data contained within DOE computer systems is
+owned by the DOE, and may be audited, intercepted, recorded, read,
+copied, or captured in any manner and disclosed in any manner, by
+authorized personnel. THERE IS NO RIGHT OF PRIVACY IN THIS SYSTEM.
+System personnel may disclose any potential evidence of crime found on
+DOE computer systems to appropriate authorities.
+
+USE OF THIS SYSTEM BY ANY USER, AUTHORIZED OR UNAUTHORIZED, CONSTITUTES
+CONSENT TO THIS AUDITING, INTERCEPTION, RECORDING, READING, COPYING, 
+CAPTURING, and DISCLOSURE OF COMPUTER ACTIVITY.
+
+**WARNING**WARNING**WARNING**WARNING**WARNING**
+
+
+ All Users: 
+
+Email darwin-admin@lanl.gov for support questions, package/module install requests, etc.
+
+And, check out the Darwin Wiki at
+         https://darwin.lanl.gov/doku.php?id=start
+
+ New Users: 
+
+Tutorials available on the Wiki at
+         https://darwin.lanl.gov/doku.php?id=tutorial:tutorials
+
+ Foreign National Users: 
+
+Darwin is a Yellow resource. Users assigned to the OCE only have access to
+those Yellow resources that their collective roles allow. OCE users found
+operating outside of the OCE and allowed Yellow resources will be detected
+automatically with the Yellow Network Surveillance system and will be
+reported to the Security Inquiry Team (SIT).
+
+
+Disk quotas for user dantopa (uid 15003):
+Filesystem                                               Used       Hard
+darwin_home                                           35.278G    500.00G
+/projects/eap                                         1.2522T      1.38T
+/projects/shavano                                     58.798G    500.00G
+/projects/users/bak                                   72.635G    500.00G
+/projects/pv_dev                                      20.265G    500.00G
+/projects/artab                                      409.250G    500.00G
+Mon Apr  8 13:32:40 MDT 2019 /home/dantopa/.mybash
+Mon Apr  8 13:32:40 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/platforms.sh
+attempting to mkdir /scratch/users/dantopa/repos/gitlab/node-queries/darwin/log.in-darwin-fe1/dir-configuration
+directory of core scripts = ${core} = /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts
+Mon Apr  8 13:32:40 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/master.sh
+Mon Apr  8 13:32:40 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh
+Mon Apr  8 13:32:40 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh
+Mon Apr  8 13:32:40 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+Mon Apr  8 13:32:41 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/gcc.sh
+Mon Apr  8 13:32:41 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh
+Mon Apr  8 13:32:41 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh
+-bash: gonode: command not found
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+Mon Apr  8 13:32:41 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/git.sh
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+Mon Apr  8 13:32:41 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+Mon Apr  8 13:32:41 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/ssh.sh
+Mon Apr  8 13:32:41 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/vim.sh
+Mon Apr  8 13:32:41 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bash.sh
+Mon Apr  8 13:32:41 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/finds.sh
+Mon Apr  8 13:32:41 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/cmake.sh
+Mon Apr  8 13:32:41 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/copy-configuration.sh
+Mon Apr  8 13:32:41 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/fortran.sh
+Mon Apr  8 13:32:41 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks.sh
+Mon Apr  8 13:32:41 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-bitbucket.sh
+Mon Apr  8 13:32:41 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-github.sh
+Mon Apr  8 13:32:41 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-gitlab.sh
+Mon Apr  8 13:32:41 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/disk.sh
+Mon Apr  8 13:32:41 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh
+Mon Apr  8 13:32:41 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh
+Mon Apr  8 13:32:41 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+Mon Apr  8 13:32:41 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh
+Mon Apr  8 13:32:41 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/spack.sh
+Mon Apr  8 13:32:41 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh
+Mon Apr  8 13:32:41 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/uname.sh
+/scratch/users/dantopa/repos/gitlab/node-queries
+Mon Apr  8 13:32:41 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/modules.sh
+Mon Apr  8 13:32:41 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+Mon Apr  8 13:32:41 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/alias.sh
+Mon Apr  8 13:32:41 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh
+[master 6cf5e6f] darwin-log.in-darwin-fe1 Mon Apr  8 13:32:41 MDT 2019
+ 42 files changed, 618 insertions(+), 306 deletions(-)
+ rewrite darwin/log.in-darwin-fe1/proc-filesystem/proc-stat.txt (60%)
+dantopa@darwin-fe1.lanl.gov:~ $ grab-compute 
+salloc -N 1 -t 48:00:00 --qos=long
+salloc: Granted job allocation 5167915
+salloc: Waiting for resource configuration
+salloc: Nodes cn128 are ready for job
+Mon Apr  8 13:39:07 MDT 2019 /home/dantopa/.mybash
+Mon Apr  8 13:39:07 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/platforms.sh
+attempting to mkdir /scratch/users/dantopa/repos/gitlab/node-queries/darwin/general-cn128/dir-configuration
+directory of core scripts = ${core} = /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts
+Mon Apr  8 13:39:07 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/master.sh
+Mon Apr  8 13:39:07 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh
+Mon Apr  8 13:39:07 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh
+Mon Apr  8 13:39:07 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+Mon Apr  8 13:39:07 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh
+Mon Apr  8 13:39:07 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/gcc.sh
+Mon Apr  8 13:39:07 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh
+bash: gonode: command not found
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+Mon Apr  8 13:39:07 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/git.sh
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+Mon Apr  8 13:39:07 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+Mon Apr  8 13:39:07 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/ssh.sh
+Mon Apr  8 13:39:07 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/vim.sh
+Mon Apr  8 13:39:07 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bash.sh
+Mon Apr  8 13:39:07 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/finds.sh
+Mon Apr  8 13:39:07 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/cmake.sh
+Mon Apr  8 13:39:07 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/copy-configuration.sh
+Mon Apr  8 13:39:07 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/fortran.sh
+Mon Apr  8 13:39:07 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks.sh
+Mon Apr  8 13:39:07 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-bitbucket.sh
+Mon Apr  8 13:39:07 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-github.sh
+Mon Apr  8 13:39:07 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-gitlab.sh
+Mon Apr  8 13:39:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/disk.sh
+Mon Apr  8 13:39:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh
+Mon Apr  8 13:39:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh
+Mon Apr  8 13:39:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+Mon Apr  8 13:39:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh
+Mon Apr  8 13:39:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh
+Mon Apr  8 13:39:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/spack.sh
+Mon Apr  8 13:39:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/uname.sh
+/scratch/users/dantopa/repos/gitlab/node-queries
+Mon Apr  8 13:39:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/modules.sh
+Mon Apr  8 13:39:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+Mon Apr  8 13:39:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/alias.sh
+Mon Apr  8 13:39:08 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh
+[master 6a2559f] darwin-general-cn128 Mon Apr  8 13:39:09 MDT 2019
+ 43 files changed, 460 insertions(+), 363 deletions(-)
+ rewrite darwin/general-cn128/slurm-queries/slurm-sinfo.txt (67%)
+dantopa@cn128:~ $ echo $hpc
+
+dantopa@cn128:~ $ show_names
+${host_name} = darwin
+${partition} = general
+${node_name} = cn128
+${prefix}    = darwin-general-cn128
+${ego}       = /scratch/users/dantopa/repos/gitlab/node-queries/darwin
+${id}        = /scratch/users/dantopa/repos/gitlab/node-queries/darwin/general-cn128
+${vault}     = /scratch/users/dantopa/repos/gitlab/node-queries/darwin/general-cn128/dir-configuration
+dantopa@cn128:~ $ gospack
+/scratch/users/dantopa/new-spack
+dantopa@cn128:new-spack $ cd libraries/
+dantopa@cn128:libraries $ lss
+total 219K
+drwxrwxr-x 11 dantopa dantopa  12 Apr  1 11:40 .
+drwxrwxr-x 40 dantopa dantopa  44 Apr  8 12:57 ..
+-rw-rw-r--  1 dantopa dantopa 448 Apr  1 10:37 create-spack-directories.sh
+drwxrwxr-x 11 dantopa dantopa  26 Apr  1 12:34 darwin-arm.libhio
+drwxrwxr-x 11 dantopa dantopa  26 Apr  1 19:35 darwin-arm.openmpi
+drwxrwxr-x 11 dantopa dantopa  26 Apr  1 12:47 darwin-arm.pmix
+drwxrwxr-x 11 dantopa dantopa  26 Apr  1 17:24 darwin-general.libhio
+drwxrwxr-x 11 dantopa dantopa  26 Apr  2 10:47 darwin-general.openmpi
+drwxrwxr-x 11 dantopa dantopa  26 Apr  1 12:55 darwin-general.pmix
+drwxrwxr-x 11 dantopa dantopa  26 Apr  1 19:36 darwin-power9.libhio
+drwxrwxr-x 11 dantopa dantopa  26 Apr  1 12:55 darwin-power9.openmpi
+drwxrwxr-x 11 dantopa dantopa  26 Apr  2 10:48 darwin-power9.pmix
+dantopa@cn128:libraries $ cd ${host_name}-general.libhio
+dantopa@cn128:darwin-general.libhio $ gopull
+/scratch/users/dantopa/repos/gitlab/pull-requests
+dantopa@cn128:pull-requests $ cd libraries/scripts/spack-status/
+dantopa@cn128:spack-status $ lss
+total 494K
+drwxrwxr-x 2 dantopa dantopa   47 Apr  4 15:40 .
+drwxrwxr-x 6 dantopa dantopa   14 Apr  4 15:40 ..
+-rw-rw-r-- 1 dantopa dantopa 1.2K Apr  3 15:01 darwin-arm-libhio.log
+-rw-rw-r-- 1 dantopa dantopa 2.5K Apr  4 11:54 darwin-arm-openmpi.log
+-rw-rw-r-- 1 dantopa dantopa 1.5K Apr  3 13:34 darwin-arm-pmix.log
+-rw-rw-r-- 1 dantopa dantopa 1.7K Apr  3 15:01 darwin-general-libhio.log
+-rw-rw-r-- 1 dantopa dantopa 3.6K Apr  4 11:43 darwin-general-openmpi.log
+-rw-rw-r-- 1 dantopa dantopa 2.1K Apr  3 13:40 darwin-general-pmix.log
+-rw-rw-r-- 1 dantopa dantopa 1.1K Apr  3 15:01 darwin-power9-libhio.log
+-rw-rw-r-- 1 dantopa dantopa 2.2K Apr  4 11:39 darwin-power9-openmpi.log
+-rw-rw-r-- 1 dantopa dantopa 1.3K Apr  3 13:34 darwin-power9-pmix.log
+-rw-rw-r-- 1 dantopa dantopa  467 Apr  3 15:01 libhio-darwin-arm.out
+-rw-rw-r-- 1 dantopa dantopa 1.1K Apr  3 15:01 libhio-darwin-general.out
+-rw-rw-r-- 1 dantopa dantopa  196 Apr  3 15:01 libhio-darwin-power9.out
+-rw-rw-r-- 1 dantopa dantopa  670 Apr  3 15:01 libhio-graph-darwin-arm.out
+-rw-rw-r-- 1 dantopa dantopa  674 Apr  3 15:01 libhio-graph-darwin-general.out
+-rw-rw-r-- 1 dantopa dantopa  673 Apr  3 15:01 libhio-graph-darwin-power9.out
+-rw-rw-r-- 1 dantopa dantopa 2.6K Apr  3 15:01 libhio-ldf-darwin-arm.out
+-rw-rw-r-- 1 dantopa dantopa 7.2K Apr  3 15:01 libhio-ldf-darwin-general.out
+-rw-rw-r-- 1 dantopa dantopa   92 Apr  3 15:01 libhio-ldf-darwin-power9.out
+-rw-rw-r-- 1 dantopa dantopa  629 Apr  4 11:55 openmpi-darwin-arm.out
+-rw-rw-r-- 1 dantopa dantopa 1.3K Apr  4 11:44 openmpi-darwin-general.out
+-rw-rw-r-- 1 dantopa dantopa  427 Apr  4 11:40 openmpi-darwin-power9.out
+-rw-rw-r-- 1 dantopa dantopa  380 Apr  4 11:55 openmpi-graph-darwin-arm.out
+-rw-rw-r-- 1 dantopa dantopa  384 Apr  4 11:44 openmpi-graph-darwin-general.out
+-rw-rw-r-- 1 dantopa dantopa  383 Apr  4 11:41 openmpi-graph-darwin-power9.out
+-rw-rw-r-- 1 dantopa dantopa 3.1K Apr  4 11:55 openmpi-ldf-darwin-arm.out
+-rw-rw-r-- 1 dantopa dantopa 8.2K Apr  4 11:44 openmpi-ldf-darwin-general.out
+-rw-rw-r-- 1 dantopa dantopa 1.9K Apr  4 11:40 openmpi-ldf-darwin-power9.out
+-rw-rw-r-- 1 dantopa dantopa  617 Apr  3 13:35 pmix-darwin-arm.out
+-rw-rw-r-- 1 dantopa dantopa 1.5K Apr  3 13:40 pmix-darwin-general.out
+-rw-rw-r-- 1 dantopa dantopa  731 Apr  3 13:34 pmix-darwin-power9.out
+-rw-rw-r-- 1 dantopa dantopa  360 Apr  3 13:35 pmix-graph-darwin-arm.out
+-rw-rw-r-- 1 dantopa dantopa  364 Apr  3 13:40 pmix-graph-darwin-general.out
+-rw-rw-r-- 1 dantopa dantopa  363 Apr  3 13:34 pmix-graph-darwin-power9.out
+-rw-rw-r-- 1 dantopa dantopa  162 Apr  4 15:40 pmix-graph-snow-standard.out
+-rw-rw-r-- 1 dantopa dantopa  566 Apr  4 15:40 pmix-graph-trinitite-standard.out
+-rw-rw-r-- 1 dantopa dantopa 3.0K Apr  3 13:35 pmix-ldf-darwin-arm.out
+-rw-rw-r-- 1 dantopa dantopa 7.1K Apr  3 13:40 pmix-ldf-darwin-general.out
+-rw-rw-r-- 1 dantopa dantopa 4.0K Apr  3 13:34 pmix-ldf-darwin-power9.out
+-rw-rw-r-- 1 dantopa dantopa   49 Apr  4 15:40 pmix-ldf-snow-standard.out
+-rw-rw-r-- 1 dantopa dantopa   88 Apr  4 15:40 pmix-ldf-trinitite-standard.out
+-rw-rw-r-- 1 dantopa dantopa  155 Apr  4 15:40 pmix-snow-standard.out
+-rw-rw-r-- 1 dantopa dantopa  199 Apr  4 15:40 pmix-trinitite-standard.out
+-rw-rw-r-- 1 dantopa dantopa   28 Apr  4 15:40 snow-standard-.log
+-rw-rw-r-- 1 dantopa dantopa 1.9K Apr  4 15:40 snow-standard-pmix.log
+-rw-rw-r-- 1 dantopa dantopa 1.8K Apr  4 15:40 trinitite-standard-pmix.log
+dantopa@cn128:spack-status $ gospack
+/scratch/users/dantopa/new-spack
+dantopa@cn128:new-spack $ cd libraries/
+dantopa@cn128:libraries $ lss
+total 219K
+drwxrwxr-x 11 dantopa dantopa  12 Apr  1 11:40 .
+drwxrwxr-x 40 dantopa dantopa  44 Apr  8 12:57 ..
+-rw-rw-r--  1 dantopa dantopa 448 Apr  1 10:37 create-spack-directories.sh
+drwxrwxr-x 11 dantopa dantopa  26 Apr  1 12:34 darwin-arm.libhio
+drwxrwxr-x 11 dantopa dantopa  26 Apr  1 19:35 darwin-arm.openmpi
+drwxrwxr-x 11 dantopa dantopa  26 Apr  1 12:47 darwin-arm.pmix
+drwxrwxr-x 11 dantopa dantopa  26 Apr  1 17:24 darwin-general.libhio
+drwxrwxr-x 11 dantopa dantopa  26 Apr  2 10:47 darwin-general.openmpi
+drwxrwxr-x 11 dantopa dantopa  26 Apr  1 12:55 darwin-general.pmix
+drwxrwxr-x 11 dantopa dantopa  26 Apr  1 19:36 darwin-power9.libhio
+drwxrwxr-x 11 dantopa dantopa  26 Apr  1 12:55 darwin-power9.openmpi
+drwxrwxr-x 11 dantopa dantopa  26 Apr  2 10:48 darwin-power9.pmix
+dantopa@cn128:libraries $ cd darwin-general.libhio/
+dantopa@cn128:darwin-general.libhio $ bin/spack findlibhio
+==> Error: Unknown command: findlibhio
+dantopa@cn128:darwin-general.libhio $ bin/spack find libhio
+==> 17 installed packages
+-- linux-centos7-x86_64 / gcc@4.8.5 -----------------------------
+libhio@1.4.1.2  libhio@1.4.1.3
+
+-- linux-centos7-x86_64 / gcc@4.9.3 -----------------------------
+libhio@1.4.1.2  libhio@1.4.1.3
+
+-- linux-centos7-x86_64 / gcc@5.5.0 -----------------------------
+libhio@1.4.1.2  libhio@1.4.1.3
+
+-- linux-centos7-x86_64 / gcc@6.4.0 -----------------------------
+libhio@1.4.1.2  libhio@1.4.1.3
+
+-- linux-centos7-x86_64 / gcc@7.3.0 -----------------------------
+libhio@1.4.1.2  libhio@1.4.1.3
+
+-- linux-centos7-x86_64 / gcc@8.2.0 -----------------------------
+libhio@1.4.1.2
+
+-- linux-centos7-x86_64 / intel@16.0.4 --------------------------
+libhio@1.4.1.2  libhio@1.4.1.3
+
+-- linux-centos7-x86_64 / intel@17.0.6 --------------------------
+libhio@1.4.1.2  libhio@1.4.1.3
+
+-- linux-centos7-x86_64 / intel@18.0.3 --------------------------
+libhio@1.4.1.2  libhio@1.4.1.3
+dantopa@cn128:darwin-general.libhio $ esp
+${SPACK_ROOT}:
+
+dantopa@cn128:darwin-general.libhio $ show_names 
+${host_name} = darwin
+${partition} = general
+${node_name} = cn128
+${prefix}    = darwin-general-cn128
+${ego}       = /scratch/users/dantopa/repos/gitlab/node-queries/darwin
+${id}        = /scratch/users/dantopa/repos/gitlab/node-queries/darwin/general-cn128
+${vault}     = /scratch/users/dantopa/repos/gitlab/node-queries/darwin/general-cn128/dir-configuration
+dantopa@cn128:darwin-general.libhio $ gopull 
+/scratch/users/dantopa/repos/gitlab/pull-requests
+dantopa@cn128:pull-requests $ git pull
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 5 (delta 3), reused 0 (delta 0)
+Unpacking objects: 100% (5/5), done.
+From gitlab.lanl.gov:dantopa/pull-requests
+   d346473..4d6c62e  master     -> origin/master
+Updating d346473..4d6c62e
+Fast-forward
+ libraries/scripts/interrogater.sh | 1 +
+ 1 file changed, 1 insertion(+)
+dantopa@cn128:pull-requests $ git add -A .
+dantopa@cn128:pull-requests $ git commit -m "darwin sweep"
+[master 7f421bf] darwin sweep
+ 3 files changed, 270 insertions(+)
+ create mode 100644 libraries/scripts/spack-status/libhio-darwin.find
+ create mode 100644 libraries/scripts/spack-status/openmpi-darwin.find
+ create mode 100644 libraries/scripts/spack-status/pmix-darwin.find
+dantopa@cn128:pull-requests $ git push
+Counting objects: 12, done.
+Delta compression using up to 40 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (8/8), 1.25 KiB | 0 bytes/s, done.
+Total 8 (delta 4), reused 0 (delta 0)
+To git@gitlab.lanl.gov:dantopa/pull-requests.git
+   4d6c62e..7f421bf  master -> master
+dantopa@cn128:pull-requests $ git pull
+remote: Enumerating objects: 45, done.
+remote: Counting objects: 100% (42/42), done.
+remote: Compressing objects: 100% (24/24), done.
+remote: Total 30 (delta 16), reused 0 (delta 0)
+Unpacking objects: 100% (30/30), done.
+From gitlab.lanl.gov:dantopa/pull-requests
+   7f421bf..4862c81  master     -> origin/master
+Updating 7f421bf..4862c81
+Fast-forward
+ libraries/scripts/batch-files/snow-standard-pmix-2019-04-08-batch.out | 950 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ libraries/scripts/build-status/delete                                 |   1 +
+ libraries/scripts/interrogater.sh                                     |   6 +-
+ libraries/scripts/spack-status/pmix-graph-snow-standard.out           |  23 ++-
+ libraries/scripts/spack-status/pmix-ldf-snow-standard.out             | 134 ++++++++++++++++-
+ libraries/scripts/spack-status/pmix-snow-standard.out                 |  40 ++++-
+ libraries/scripts/spack-status/snow-standard-pmix.log                 |  82 +++++------
+ 7 files changed, 1187 insertions(+), 49 deletions(-)
+ create mode 100644 libraries/scripts/batch-files/snow-standard-pmix-2019-04-08-batch.out
+ create mode 100644 libraries/scripts/build-status/delete
+dantopa@cn128:pull-requests $ cd libraries/scripts/
+dantopa@cn128:scripts $ . interrogater.sh 
+Mon Apr  8 16:42:35 MDT 2019 interrogater.sh
+/scratch/users/dantopa/repos/gitlab/pull-requests
+${myFile} = /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/scripts/build-status/libhio-darwin.find
+partition = 
+/scratch/users/dantopa/new-spack
+/scratch/users/dantopa/new-spack
+/scratch/users/dantopa/new-spack
+/scratch/users/dantopa/repos/gitlab/pull-requests
+${myFile} = /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/scripts/build-status/openmpi-darwin.find
+partition = power9
+/scratch/users/dantopa/new-spack
+/scratch/users/dantopa/new-spack
+/scratch/users/dantopa/new-spack
+/scratch/users/dantopa/repos/gitlab/pull-requests
+${myFile} = /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/scripts/build-status/pmix-darwin.find
+partition = power9
+/scratch/users/dantopa/new-spack
+/scratch/users/dantopa/new-spack
+/scratch/users/dantopa/new-spack
+/scratch/users/dantopa/repos/gitlab/pull-requests
+dantopa@cn128:spack-status $ gopull
+/scratch/users/dantopa/repos/gitlab/pull-requests
+dantopa@cn128:pull-requests $ git pull
+Already up-to-date.
+dantopa@cn128:pull-requests $ git add -A .
+dantopa@cn128:pull-requests $ git commit -m "darwin sweep, interrogater.sh"
+[master 6411e00] darwin sweep, interrogater.sh
+ 3 files changed, 270 insertions(+)
+ create mode 100644 libraries/scripts/build-status/libhio-darwin.find
+ create mode 100644 libraries/scripts/build-status/openmpi-darwin.find
+ create mode 100644 libraries/scripts/build-status/pmix-darwin.find
+dantopa@cn128:pull-requests $ git push
+Counting objects: 12, done.
+Delta compression using up to 40 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (8/8), 1.23 KiB | 0 bytes/s, done.
+Total 8 (delta 3), reused 0 (delta 0)
+To git@gitlab.lanl.gov:dantopa/pull-requests.git
+   4862c81..6411e00  master -> master
+dantopa@cn128:pull-requests $ cd libraries/scripts/
+dantopa@cn128:scripts $ sbatch batch-tpl-darwin-power9.sh libhio
+Submitted batch job 5168024
+dantopa@cn128:scripts $ q
+squeue -u ${USER}
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+           5168024    power9  sweeper  dantopa  R       1:45      1 cn2027
+           5167917    power9       sh  dantopa  R    3:08:37      1 cn2025
+           5167916       arm       sh  dantopa  R    3:08:42      1 cn817
+           5167915   general       sh  dantopa  R    3:08:46      1 cn128
+dantopa@cn128:scripts $ q
+squeue -u ${USER}
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+           5167917    power9       sh  dantopa  R   19:21:26      1 cn2025
+           5167916       arm       sh  dantopa  R   19:21:31      1 cn817
+           5167915   general       sh  dantopa  R   19:21:35      1 cn128
+dantopa@cn128:scripts $ gopull 
+/scratch/users/dantopa/repos/gitlab/pull-requests
+dantopa@cn128:pull-requests $ git pull
+remote: Enumerating objects: 11, done.
+remote: Counting objects: 100% (11/11), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 6 (delta 4), reused 0 (delta 0)
+Unpacking objects: 100% (6/6), done.
+From gitlab.lanl.gov:dantopa/pull-requests
+   6411e00..9b506ae  master     -> origin/master
+Removing libraries/scripts/build-status/delete
+Error detected while processing /home/dantopa/.vimrc:
+line  113:
+E538: No mouse support: mouse=a
+Press ENTER or type command to continue
+Merge made by the 'recursive' strategy.
+ libraries/scripts/build-status/delete | 1 -
+ libraries/scripts/interrogater.sh     | 5 +++--
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+ delete mode 100644 libraries/scripts/build-status/delete
+dantopa@cn128:pull-requests $ git add -A .
+dantopa@cn128:pull-requests $ git status
+# On branch master
+# Your branch is ahead of 'origin/master' by 4 commits.
+#   (use "git push" to publish your local commits)
+#
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   libraries/scripts/batch-files/darwin-power9-libhio-2019-04-08-batch.out
+#
+dantopa@cn128:pull-requests $ git commit -m "modified:   libraries/scripts/batch-files/darwin-power9-libhio-2019-04-08-batch.out"
+[master 6ee8ee4] modified:   libraries/scripts/batch-files/darwin-power9-libhio-2019-04-08-batch.out
+ 1 file changed, 7 insertions(+)
+dantopa@cn128:pull-requests $ git push
+Counting objects: 41, done.
+Delta compression using up to 40 threads.
+Compressing objects: 100% (26/26), done.
+Writing objects: 100% (31/31), 8.06 KiB | 0 bytes/s, done.
+Total 31 (delta 17), reused 0 (delta 0)
+To git@gitlab.lanl.gov:dantopa/pull-requests.git
+   9b506ae..6ee8ee4  master -> master
+dantopa@cn128:pull-requests $ cd /scratch/users/dantopa/new-spack/pr-openmpi.spack
+dantopa@cn128:pr-openmpi.spack $ initspack 
+. share/spack/setup-env.sh
+l-spack
+Tue Apr  9 10:39:15 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/spack-init.sh
+spack compilers
+dantopa@cn128:pr-openmpi.spack $ spack compilers
+spack==> Available compilers
+ -- gcc centos7-x86_64 -------------------------------------------
+gcc@4.8.5
+
+-- gcc rhel7-aarch64 --------------------------------------------
+gcc@4.8.5
+
+-- gcc rhel7-ppc64le --------------------------------------------
+gcc@4.8.5
+dantopa@cn128:pr-openmpi.spack $ spack find openmpi
+==> 3 installed packages
+-- linux-centos7-x86_64 / gcc@4.8.5 -----------------------------
+openmpi@3.0.4rc1
+
+-- linux-rhel7-aarch64 / gcc@4.8.5 ------------------------------
+openmpi@3.0.4rc1
+
+-- linux-rhel7-ppc64le / gcc@4.8.5 ------------------------------
+openmpi@3.0.4rc1
+dantopa@cn128:pr-openmpi.spack $ spack install openmpi@3.1.4rc1
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/pr-openmpi.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/util-macros-1.19.1-p66qdrtaslf2cq4wyc6mitrxzhnyujhc
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/pr-openmpi.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/libpciaccess-0.13.5-5chyfxo6gpmcf74gpv3sqni2aa6v5x57
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/pr-openmpi.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/hwloc-1.11.11-bkkhvejler5rcxoz6mufxxb7fm3qdqbe
+==> zlib is already installed in /scratch/users/dantopa/new-spack/pr-openmpi.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/zlib-1.2.11-64vg6e4evdrlqgx7iicwhu2hs7lv6gpz
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Warning: There is no checksum on file to fetch openmpi@3.1.4rc1 safely.
+==>   Fetch anyway? [y/N] y
+==> Fetching with no checksum.
+  Add a checksum or use --no-checksum to skip this check.
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/openmpi/openmpi-3.1.4rc1.tar.bz2
+######################################################################## 100.0%
+==> Staging archive: /scratch/users/dantopa/new-spack/pr-openmpi.spack/var/spack/stage/openmpi-3.1.4rc1-zepwaub5bc6knjydqoclvih3ihn46uuz/openmpi-3.1.4rc1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/pr-openmpi.spack/var/spack/stage/openmpi-3.1.4rc1-zepwaub5bc6knjydqoclvih3ihn46uuz
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 6.99s.  Build: 14m 44.43s.  Total: 14m 51.42s.
+[+] /scratch/users/dantopa/new-spack/pr-openmpi.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/openmpi-3.1.4rc1-zepwaub5bc6knjydqoclvih3ihn46uuz
+dantopa@cn128:pr-openmpi.spack $ salloc: Job 5167915 has exceeded its time limit and its allocation has been revoked.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: cn128: task 0: Killed
+dantopa@darwin-fe1.lanl.gov:~ $ esp
+${SPACK_ROOT}:
+
+dantopa@darwin-fe1.lanl.gov:~ $ gospack
+/scratch/users/dantopa/new-spack
+dantopa@darwin-fe1.lanl.gov:new-spack $ cd libraries/
+dantopa@darwin-fe1.lanl.gov:libraries $ lss
+total 276K
+drwxrwxr-x 14 dantopa dantopa  15 Apr 15 09:35 .
+drwxrwxr-x 38 dantopa dantopa  44 Apr 15 10:41 ..
+-rw-rw-r--  1 dantopa dantopa 497 Apr 15 09:33 create-spack-directories.sh
+drwxrwxr-x 11 dantopa dantopa  27 Apr  8 14:21 darwin-arm.libhio
+drwxrwxr-x 11 dantopa dantopa  27 Apr  8 14:21 darwin-arm.openmpi
+drwxrwxr-x 11 dantopa dantopa  27 Apr  8 14:22 darwin-arm.pmix
+drwxrwxr-x 11 dantopa dantopa  27 Apr 15 09:46 darwin-arm.ucx
+drwxrwxr-x 11 dantopa dantopa  27 Apr  8 14:21 darwin-general.libhio
+drwxrwxr-x 11 dantopa dantopa  27 Apr  8 14:21 darwin-general.openmpi
+drwxrwxr-x 11 dantopa dantopa  27 Apr  8 14:21 darwin-general.pmix
+drwxrwxr-x 11 dantopa dantopa  27 Apr 15 09:45 darwin-general.ucx
+drwxrwxr-x 11 dantopa dantopa  26 Apr  1 19:36 darwin-power9.libhio
+drwxrwxr-x 11 dantopa dantopa  26 Apr  1 12:55 darwin-power9.openmpi
+drwxrwxr-x 11 dantopa dantopa  26 Apr  2 10:48 darwin-power9.pmix
+drwxrwxr-x 11 dantopa dantopa  27 Apr 15 09:46 darwin-power9.ucx
+dantopa@darwin-fe1.lanl.gov:libraries $ grab-compute
+salloc -N 1 -t 48:00:00 --qos=long
+salloc: Granted job allocation 5174034
+salloc: Waiting for resource configuration
+salloc: Nodes cn210 are ready for job
+3Mon Apr 15 14:37:02 MDT 2019 /home/dantopa/.mybash
+Mon Apr 15 14:37:02 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/platforms.sh
+attempting to mkdir /scratch/users/dantopa/repos/gitlab/node-queries/darwin/general-cn210/dir-configuration
+directory of core scripts = ${core} = /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts
+Mon Apr 15 14:37:03 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/master.sh
+Mon Apr 15 14:37:03 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh
+Mon Apr 15 14:37:03 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh
+Mon Apr 15 14:37:03 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+Mon Apr 15 14:37:03 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh
+Mon Apr 15 14:37:03 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/gcc.sh
+Mon Apr 15 14:37:03 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh
+bash: gonode: command not found
+Mon Apr 15 14:37:03 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+fatal: Not a git repository (or any parent up to mount point /scratch)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+Mon Apr 15 14:37:03 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/git.sh
+fatal: Not a git repository (or any parent up to mount point /scratch)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+Mon Apr 15 14:37:03 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/ssh.sh
+Mon Apr 15 14:37:03 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/vim.sh
+Mon Apr 15 14:37:03 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bash.sh
+Mon Apr 15 14:37:03 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/finds.sh
+Mon Apr 15 14:37:03 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/cmake.sh
+Mon Apr 15 14:37:03 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/copy-configuration.sh
+Mon Apr 15 14:37:03 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/fortran.sh
+Mon Apr 15 14:37:03 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks.sh
+Mon Apr 15 14:37:03 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-bitbucket.sh
+Mon Apr 15 14:37:03 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-github.sh
+Mon Apr 15 14:37:03 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-gitlab.sh
+Mon Apr 15 14:37:03 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/disk.sh
+Mon Apr 15 14:37:03 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh
+Mon Apr 15 14:37:03 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh
+Mon Apr 15 14:37:03 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+Mon Apr 15 14:37:03 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh
+Mon Apr 15 14:37:03 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh
+/scratch/users/dantopa/repos/gitlab/node-queries
+Mon Apr 15 14:37:03 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+Mon Apr 15 14:37:03 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/uname.sh
+Mon Apr 15 14:37:03 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/spack.sh
+Mon Apr 15 14:37:03 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/modules.sh
+Mon Apr 15 14:37:03 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/alias.sh
+Mon Apr 15 14:37:03 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh
+[master 7bd0a83] darwin-general-cn210 Mon Apr 15 14:37:42 MDT 2019
+ 380 files changed, 5157 insertions(+), 5077 deletions(-)
+ rewrite darwin/arm-cn815/proc-filesystem/proc-stat.txt (97%)
+ rewrite darwin/arm-cn815/slurm-queries/slurm-sinfo.txt (71%)
+ rewrite darwin/arm-cn816/proc-filesystem/proc-stat.txt (97%)
+ rewrite darwin/arm-cn816/slurm-queries/slurm-sinfo_s.txt (99%)
+ rename darwin/{general-cn125 => general-cn122}/modules-available.txt (84%)
+ rewrite darwin/general-cn122/proc-filesystem/proc-buddyinfo.txt (61%)
+ rewrite darwin/general-cn122/proc-filesystem/proc-locks.txt (85%)
+ rewrite darwin/general-cn122/proc-filesystem/proc-modules.txt (62%)
+ rewrite darwin/general-cn122/proc-filesystem/proc-stat.txt (97%)
+ rewrite darwin/general-cn122/slurm-queries/slurm-sinfo.txt (75%)
+ rename darwin/{general-cn122 => general-cn125}/modules-available.txt (56%)
+ rewrite darwin/general-cn125/proc-filesystem/proc-locks.txt (85%)
+ rewrite darwin/general-cn125/proc-filesystem/proc-modules.txt (61%)
+ rewrite darwin/general-cn125/slurm-queries/slurm-sinfo.txt (81%)
+ rewrite darwin/general-cn125/slurm-queries/slurm-sinfo_s.txt (99%)
+ rewrite darwin/general-cn210/proc-filesystem/proc-buddyinfo.txt (72%)
+ rewrite darwin/general-cn210/proc-filesystem/proc-cmdline.txt (84%)
+ rewrite darwin/general-cn210/proc-filesystem/proc-locks.txt (80%)
+ rewrite darwin/general-cn210/proc-filesystem/proc-modules.txt (95%)
+ rewrite darwin/general-cn210/slurm-queries/slurm-sinfo.txt (75%)
+ rename darwin/{power9-cn2024 => general-cn210}/slurm-queries/slurm-sinfo_s.txt (99%)
+ rewrite darwin/general-cn210/uname-variables.txt (60%)
+ rewrite darwin/power9-cn2022/proc-filesystem/proc-stat.txt (93%)
+ rewrite darwin/power9-cn2022/slurm-queries/slurm-sinfo.txt (68%)
+ rewrite darwin/power9-cn2023/proc-filesystem/proc-buddyinfo.txt (68%)
+ rewrite darwin/power9-cn2023/proc-filesystem/proc-stat.txt (90%)
+ rewrite darwin/power9-cn2023/slurm-queries/slurm-sinfo.txt (78%)
+ rewrite darwin/power9-cn2023/slurm-queries/slurm-sinfo_s.txt (99%)
+ rewrite darwin/power9-cn2024/proc-filesystem/proc-buddyinfo.txt (73%)
+ rewrite darwin/power9-cn2024/proc-filesystem/proc-stat.txt (86%)
+ rewrite darwin/power9-cn2024/slurm-queries/slurm-sinfo_s.txt (99%)
+ rewrite darwin/power9-cn2027/proc-filesystem/proc-buddyinfo.txt (78%)
+ rewrite darwin/power9-cn2027/proc-filesystem/proc-stat.txt (90%)
+ rewrite darwin/power9-cn2027/slurm-queries/slurm-sinfo.txt (77%)
+ rewrite darwin/power9-cn2027/slurm-queries/slurm-sinfo_s.txt (99%)
+dantopa@cn210:libraries $ cd /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/
+dantopa@cn210:pr-openmpi-3.1.4.spack $ lss
+total 269K
+drwxrwxr-x 10 dantopa dantopa   26 Apr 15 09:29 .
+drwxrwxr-x 39 dantopa dantopa   44 Apr 15 17:45 ..
+drwxrwxr-x  2 dantopa dantopa    7 Feb 21 14:55 bin
+-rw-rw-r--  1 dantopa dantopa  669 Jan 28 15:09 .codecov.yml
+-rw-rw-r--  1 dantopa dantopa 3.2K Nov 12 20:31 CODE_OF_CONDUCT.md
+-rw-rw-r--  1 dantopa dantopa  339 Nov 12 20:31 CONTRIBUTING.md
+-rw-rw-r--  1 dantopa dantopa 2.6K Nov 12 20:31 COPYRIGHT
+-rw-rw-r--  1 dantopa dantopa  725 Jan 28 15:09 .coveragerc
+-rw-rw-r--  1 dantopa dantopa  141 Jan 28 15:09 .dockerignore
+drwxrwxr-x  3 dantopa dantopa    3 Nov 12 20:31 etc
+-rw-rw-r--  1 dantopa dantopa  854 Jan 28 15:09 .flake8
+-rw-rw-r--  1 dantopa dantopa  805 Jan 28 15:09 .flake8_packages
+drwxrwxr-x  8 dantopa dantopa   15 Apr 15 09:34 .git
+drwxrwxr-x  3 dantopa dantopa    3 Nov 12 20:31 .github
+-rw-rw-r--  1 dantopa dantopa  414 Nov 12 20:31 .gitignore
+drwxrwxr-x  3 dantopa dantopa    3 Nov 12 20:31 lib
+-rw-rw-r--  1 dantopa dantopa  12K Nov 12 20:31 LICENSE-APACHE
+-rw-rw-r--  1 dantopa dantopa 1.2K Jan 28 15:09 LICENSE-MIT
+-rw-rw-r--  1 dantopa dantopa 6.0K Nov 12 20:31 .mailmap
+-rw-rw-r--  1 dantopa dantopa 1.2K Nov 12 20:31 NOTICE
+-rw-rw-r--  1 dantopa dantopa 5.1K Jan 28 15:09 README.md
+-rw-rw-r--  1 dantopa dantopa  147 Apr 15 09:29 .readthedocs.yml
+drwxrwxr-x  2 dantopa dantopa    3 Apr  1 10:28 scripts
+drwxrwxr-x  3 dantopa dantopa    3 Nov 12 20:31 share
+-rw-rw-r--  1 dantopa dantopa 6.1K Apr 15 09:29 .travis.yml
+drwxrwxr-x  3 dantopa dantopa    3 Nov 12 20:31 var
+dantopa@cn210:pr-openmpi-3.1.4.spack $ cd scripts/
+dantopa@cn210:scripts $ lss
+total 29K
+drwxrwxr-x  2 dantopa dantopa   3 Apr  1 10:28 .
+drwxrwxr-x 10 dantopa dantopa  26 Apr 15 09:29 ..
+-rw-rw-r--  1 dantopa dantopa 230 Apr  1 10:28 make-directories.sh
+dantopa@cn210:scripts $ vi sweep-darwin-general.sh
+dantopa@cn210:scripts $ pwd
+/scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/scripts
+dantopa@cn210:scripts $ vi sweep-darwin-general.sh
+dantopa@cn210:scripts $ sp
+bash: sp: command not found
+dantopa@cn210:scripts $ vi sweep-darwin-general.sh
+dantopa@cn210:scripts $ vi sweep-darwin-general.sh
+dantopa@cn210:scripts $ . sweep-darwin-general.sh 
+Mon Apr 15 18:05:51 MDT 2019 sweep-darwin-general.sh
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+
+spack install openmpi@3.1.4 % gcc@8.2.0
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : generating module file
+==> libtool@2.4.6 : registering into DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : generating module file
+==> pkg-config@0.29.2 : registering into DB
+==> Installing util-macros
+==> Searching for binary cache of util-macros
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for util-macros found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/util-macros/util-macros-1.19.1.tar.bz2
+######################################################################## 100.0%
+==> Staging archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/util-macros-1.19.1-4smpt37rsocd54ufitlrzzampd6iyp5z/util-macros-1.19.1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/util-macros-1.19.1-4smpt37rsocd54ufitlrzzampd6iyp5z
+==> No patches needed for util-macros
+==> Building util-macros [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed util-macros
+  Fetch: 0.16s.  Build: 1.50s.  Total: 1.66s.
+[+] /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-8.2.0/util-macros-1.19.1-4smpt37rsocd54ufitlrzzampd6iyp5z
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/libpciaccess/libpciaccess-0.13.5.tar.gz
+######################################################################## 100.0%
+==> Staging archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/libpciaccess-0.13.5-svkyphbquafpjfs4tfsgr3wlmgfknhtu/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/libpciaccess-0.13.5-svkyphbquafpjfs4tfsgr3wlmgfknhtu
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libpciaccess
+  Fetch: 0.12s.  Build: 8.36s.  Total: 8.47s.
+[+] /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-8.2.0/libpciaccess-0.13.5-svkyphbquafpjfs4tfsgr3wlmgfknhtu
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : generating module file
+==> libxml2@2.9.8 : registering into DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : generating module file
+==> numactl@2.0.12 : registering into DB
+==> Installing hwloc
+==> Searching for binary cache of hwloc
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hwloc found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/hwloc/hwloc-1.11.11.tar.gz
+######################################################################## 100.0%
+==> Staging archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/hwloc-1.11.11-kpmr675gpfrqmo5u2es2bfpc2z4nb52b/hwloc-1.11.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/hwloc-1.11.11-kpmr675gpfrqmo5u2es2bfpc2z4nb52b
+==> No patches needed for hwloc
+==> Building hwloc [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed hwloc
+  Fetch: 0.16s.  Build: 25.16s.  Total: 25.32s.
+[+] /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-8.2.0/hwloc-1.11.11-kpmr675gpfrqmo5u2es2bfpc2z4nb52b
+==> Installing zlib
+==> Searching for binary cache of zlib
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for zlib found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/zlib/zlib-1.2.11.tar.gz
+######################################################################## 100.0%
+==> Staging archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/zlib-1.2.11-6wdekzyadff6repdb5bxinnzizvnn35t/zlib-1.2.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/zlib-1.2.11-6wdekzyadff6repdb5bxinnzizvnn35t
+==> No patches needed for zlib
+==> Building zlib [Package]
+==> Executing phase: 'install'
+==> Successfully installed zlib
+  Fetch: 0.14s.  Build: 3.13s.  Total: 3.28s.
+[+] /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-8.2.0/zlib-1.2.11-6wdekzyadff6repdb5bxinnzizvnn35t
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/openmpi/openmpi-3.1.4.tar.bz2
+curl: (37) Couldn't open file /usr/projects/draco/vendors/spack.mirror/openmpi/openmpi-3.1.4.tar.bz2
+==> Fetching from file:///usr/projects/draco/vendors/spack.mirror/openmpi/openmpi-3.1.4.tar.bz2 failed.
+==> Fetching http://www.open-mpi.org/software/ompi/v3.1/downloads/openmpi-3.1.4.tar.bz2
+######################################################################## 100.0%
+==> Staging archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/openmpi-3.1.4-6hdcscre2aej66sw45p3rxm2g2dj6khs/openmpi-3.1.4.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/openmpi-3.1.4-6hdcscre2aej66sw45p3rxm2g2dj6khs
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 1.95s.  Build: 8m 1.27s.  Total: 8m 3.22s.
+[+] /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-8.2.0/openmpi-3.1.4-6hdcscre2aej66sw45p3rxm2g2dj6khs
+
+spack install openmpi@3.0.4 % gcc@8.2.0
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-8.2.0/util-macros-1.19.1-4smpt37rsocd54ufitlrzzampd6iyp5z
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-8.2.0/libpciaccess-0.13.5-svkyphbquafpjfs4tfsgr3wlmgfknhtu
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-8.2.0/hwloc-1.11.11-kpmr675gpfrqmo5u2es2bfpc2z4nb52b
+==> zlib is already installed in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-8.2.0/zlib-1.2.11-6wdekzyadff6repdb5bxinnzizvnn35t
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/openmpi/openmpi-3.0.4.tar.bz2
+curl: (37) Couldn't open file /usr/projects/draco/vendors/spack.mirror/openmpi/openmpi-3.0.4.tar.bz2
+==> Fetching from file:///usr/projects/draco/vendors/spack.mirror/openmpi/openmpi-3.0.4.tar.bz2 failed.
+==> Fetching http://www.open-mpi.org/software/ompi/v3.0/downloads/openmpi-3.0.4.tar.bz2
+######################################################################## 100.0%
+==> Staging archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/openmpi-3.0.4-avx6fofutfq6jy7fhafjew7holwtmxxb/openmpi-3.0.4.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/openmpi-3.0.4-avx6fofutfq6jy7fhafjew7holwtmxxb
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 1.75s.  Build: 7m 47.08s.  Total: 7m 48.83s.
+[+] /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-8.2.0/openmpi-3.0.4-avx6fofutfq6jy7fhafjew7holwtmxxb
+
+spack install openmpi@3.1.4 % gcc@7.3.0
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : generating module file
+==> libtool@2.4.6 : registering into DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : generating module file
+==> pkg-config@0.29.2 : registering into DB
+==> Installing util-macros
+==> Searching for binary cache of util-macros
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for util-macros found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/cache/util-macros/util-macros-1.19.1.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/util-macros-1.19.1-ttsbvbkpzqvo7mondef6nb6lu7dxxp72/util-macros-1.19.1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/util-macros-1.19.1-ttsbvbkpzqvo7mondef6nb6lu7dxxp72
+==> No patches needed for util-macros
+==> Building util-macros [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed util-macros
+  Fetch: 0.00s.  Build: 1.46s.  Total: 1.46s.
+[+] /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-7.3.0/util-macros-1.19.1-ttsbvbkpzqvo7mondef6nb6lu7dxxp72
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/libpciaccess-0.13.5-f5k35g4jnofnql3akgfs5iuhijsfbjsq/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/libpciaccess-0.13.5-f5k35g4jnofnql3akgfs5iuhijsfbjsq
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libpciaccess
+  Fetch: 0.00s.  Build: 7.72s.  Total: 7.72s.
+[+] /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-7.3.0/libpciaccess-0.13.5-f5k35g4jnofnql3akgfs5iuhijsfbjsq
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : generating module file
+==> libxml2@2.9.8 : registering into DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : generating module file
+==> numactl@2.0.12 : registering into DB
+==> Installing hwloc
+==> Searching for binary cache of hwloc
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hwloc found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/cache/hwloc/hwloc-1.11.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/hwloc-1.11.11-vrpknachibeddukex6lxpao5ext5jhko/hwloc-1.11.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/hwloc-1.11.11-vrpknachibeddukex6lxpao5ext5jhko
+==> No patches needed for hwloc
+==> Building hwloc [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed hwloc
+  Fetch: 0.01s.  Build: 23.50s.  Total: 23.52s.
+[+] /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-7.3.0/hwloc-1.11.11-vrpknachibeddukex6lxpao5ext5jhko
+==> Installing zlib
+==> Searching for binary cache of zlib
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for zlib found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/cache/zlib/zlib-1.2.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/zlib-1.2.11-zknfwanbwk6tnyaplsykwghx7cvnz4cr/zlib-1.2.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/zlib-1.2.11-zknfwanbwk6tnyaplsykwghx7cvnz4cr
+==> No patches needed for zlib
+==> Building zlib [Package]
+==> Executing phase: 'install'
+==> Successfully installed zlib
+  Fetch: 0.00s.  Build: 1.59s.  Total: 1.60s.
+[+] /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-7.3.0/zlib-1.2.11-zknfwanbwk6tnyaplsykwghx7cvnz4cr
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/cache/openmpi/openmpi-3.1.4.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/openmpi-3.1.4-zjghxabcbkxuplwzdrjjx4mbodwjlnws/openmpi-3.1.4.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/openmpi-3.1.4-zjghxabcbkxuplwzdrjjx4mbodwjlnws
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.03s.  Build: 7m 56.07s.  Total: 7m 56.09s.
+[+] /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-7.3.0/openmpi-3.1.4-zjghxabcbkxuplwzdrjjx4mbodwjlnws
+
+spack install openmpi@3.0.4 % gcc@7.3.0
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-7.3.0/util-macros-1.19.1-ttsbvbkpzqvo7mondef6nb6lu7dxxp72
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-7.3.0/libpciaccess-0.13.5-f5k35g4jnofnql3akgfs5iuhijsfbjsq
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-7.3.0/hwloc-1.11.11-vrpknachibeddukex6lxpao5ext5jhko
+==> zlib is already installed in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-7.3.0/zlib-1.2.11-zknfwanbwk6tnyaplsykwghx7cvnz4cr
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/cache/openmpi/openmpi-3.0.4.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/openmpi-3.0.4-2gn23y72wthqg7pyxcpwug6ls5wrowj5/openmpi-3.0.4.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/openmpi-3.0.4-2gn23y72wthqg7pyxcpwug6ls5wrowj5
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.03s.  Build: 7m 43.93s.  Total: 7m 43.96s.
+[+] /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-7.3.0/openmpi-3.0.4-2gn23y72wthqg7pyxcpwug6ls5wrowj5
+
+spack install openmpi@3.1.4 % gcc@6.4.0
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : generating module file
+==> libtool@2.4.6 : registering into DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : generating module file
+==> pkg-config@0.29.2 : registering into DB
+==> Installing util-macros
+==> Searching for binary cache of util-macros
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for util-macros found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/cache/util-macros/util-macros-1.19.1.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/util-macros-1.19.1-br2o7vt364vjeq3osmev6e6kgxekzh2f/util-macros-1.19.1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/util-macros-1.19.1-br2o7vt364vjeq3osmev6e6kgxekzh2f
+==> No patches needed for util-macros
+==> Building util-macros [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed util-macros
+  Fetch: 0.00s.  Build: 1.44s.  Total: 1.45s.
+[+] /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-6.4.0/util-macros-1.19.1-br2o7vt364vjeq3osmev6e6kgxekzh2f
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/libpciaccess-0.13.5-j6fsyhpv7edgisytx4vyvimj6rvpmdav/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/libpciaccess-0.13.5-j6fsyhpv7edgisytx4vyvimj6rvpmdav
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libpciaccess
+  Fetch: 0.00s.  Build: 7.97s.  Total: 7.98s.
+[+] /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-6.4.0/libpciaccess-0.13.5-j6fsyhpv7edgisytx4vyvimj6rvpmdav
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : generating module file
+==> libxml2@2.9.8 : registering into DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : generating module file
+==> numactl@2.0.12 : registering into DB
+==> Installing hwloc
+==> Searching for binary cache of hwloc
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hwloc found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/cache/hwloc/hwloc-1.11.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/hwloc-1.11.11-ydbwr4wo75ihkeic2ab4p6ud6onyx6jw/hwloc-1.11.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/hwloc-1.11.11-ydbwr4wo75ihkeic2ab4p6ud6onyx6jw
+==> No patches needed for hwloc
+==> Building hwloc [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed hwloc
+  Fetch: 0.02s.  Build: 23.03s.  Total: 23.05s.
+[+] /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-6.4.0/hwloc-1.11.11-ydbwr4wo75ihkeic2ab4p6ud6onyx6jw
+==> Installing zlib
+==> Searching for binary cache of zlib
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for zlib found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/cache/zlib/zlib-1.2.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/zlib-1.2.11-ufwqfd4zrwuuu7fmguamaqokn5plxyns/zlib-1.2.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/zlib-1.2.11-ufwqfd4zrwuuu7fmguamaqokn5plxyns
+==> No patches needed for zlib
+==> Building zlib [Package]
+==> Executing phase: 'install'
+==> Successfully installed zlib
+  Fetch: 0.00s.  Build: 1.54s.  Total: 1.55s.
+[+] /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-6.4.0/zlib-1.2.11-ufwqfd4zrwuuu7fmguamaqokn5plxyns
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/cache/openmpi/openmpi-3.1.4.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/openmpi-3.1.4-23cc447bttmqtyoltzc3bhpf62clyo4b/openmpi-3.1.4.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/openmpi-3.1.4-23cc447bttmqtyoltzc3bhpf62clyo4b
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.03s.  Build: 7m 53.67s.  Total: 7m 53.70s.
+[+] /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-6.4.0/openmpi-3.1.4-23cc447bttmqtyoltzc3bhpf62clyo4b
+
+spack install openmpi@3.0.4 % gcc@6.4.0
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-6.4.0/util-macros-1.19.1-br2o7vt364vjeq3osmev6e6kgxekzh2f
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-6.4.0/libpciaccess-0.13.5-j6fsyhpv7edgisytx4vyvimj6rvpmdav
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-6.4.0/hwloc-1.11.11-ydbwr4wo75ihkeic2ab4p6ud6onyx6jw
+==> zlib is already installed in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-6.4.0/zlib-1.2.11-ufwqfd4zrwuuu7fmguamaqokn5plxyns
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/cache/openmpi/openmpi-3.0.4.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/openmpi-3.0.4-rsexzkxvqmibxfqrdcdbxt3emewxmny5/openmpi-3.0.4.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/openmpi-3.0.4-rsexzkxvqmibxfqrdcdbxt3emewxmny5
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.03s.  Build: 7m 41.12s.  Total: 7m 41.14s.
+[+] /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-6.4.0/openmpi-3.0.4-rsexzkxvqmibxfqrdcdbxt3emewxmny5
+
+spack install openmpi@3.1.4 % gcc@4.8.5
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : generating module file
+==> libtool@2.4.6 : registering into DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : generating module file
+==> pkg-config@0.29.2 : registering into DB
+==> Installing util-macros
+==> Searching for binary cache of util-macros
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for util-macros found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/cache/util-macros/util-macros-1.19.1.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/util-macros-1.19.1-p66qdrtaslf2cq4wyc6mitrxzhnyujhc/util-macros-1.19.1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/util-macros-1.19.1-p66qdrtaslf2cq4wyc6mitrxzhnyujhc
+==> No patches needed for util-macros
+==> Building util-macros [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed util-macros
+  Fetch: 0.00s.  Build: 1.43s.  Total: 1.44s.
+[+] /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/util-macros-1.19.1-p66qdrtaslf2cq4wyc6mitrxzhnyujhc
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/libpciaccess-0.13.5-5chyfxo6gpmcf74gpv3sqni2aa6v5x57/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/libpciaccess-0.13.5-5chyfxo6gpmcf74gpv3sqni2aa6v5x57
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libpciaccess
+  Fetch: 0.00s.  Build: 6.06s.  Total: 6.06s.
+[+] /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/libpciaccess-0.13.5-5chyfxo6gpmcf74gpv3sqni2aa6v5x57
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : generating module file
+==> libxml2@2.9.8 : registering into DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : generating module file
+==> numactl@2.0.12 : registering into DB
+==> Installing hwloc
+==> Searching for binary cache of hwloc
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hwloc found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/cache/hwloc/hwloc-1.11.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/hwloc-1.11.11-bkkhvejler5rcxoz6mufxxb7fm3qdqbe/hwloc-1.11.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/hwloc-1.11.11-bkkhvejler5rcxoz6mufxxb7fm3qdqbe
+==> No patches needed for hwloc
+==> Building hwloc [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed hwloc
+  Fetch: 0.01s.  Build: 19.87s.  Total: 19.88s.
+[+] /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/hwloc-1.11.11-bkkhvejler5rcxoz6mufxxb7fm3qdqbe
+==> Installing zlib
+==> Searching for binary cache of zlib
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for zlib found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/cache/zlib/zlib-1.2.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/zlib-1.2.11-64vg6e4evdrlqgx7iicwhu2hs7lv6gpz/zlib-1.2.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/zlib-1.2.11-64vg6e4evdrlqgx7iicwhu2hs7lv6gpz
+==> No patches needed for zlib
+==> Building zlib [Package]
+==> Executing phase: 'install'
+==> Successfully installed zlib
+  Fetch: 0.00s.  Build: 1.41s.  Total: 1.42s.
+[+] /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/zlib-1.2.11-64vg6e4evdrlqgx7iicwhu2hs7lv6gpz
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/cache/openmpi/openmpi-3.1.4.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/openmpi-3.1.4-bjftvhynq6wfiqkdjme7gyeeuiviu6vu/openmpi-3.1.4.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/openmpi-3.1.4-bjftvhynq6wfiqkdjme7gyeeuiviu6vu
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.03s.  Build: 6m 48.47s.  Total: 6m 48.50s.
+[+] /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/openmpi-3.1.4-bjftvhynq6wfiqkdjme7gyeeuiviu6vu
+
+spack install openmpi@3.0.4 % gcc@4.8.5
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/util-macros-1.19.1-p66qdrtaslf2cq4wyc6mitrxzhnyujhc
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/libpciaccess-0.13.5-5chyfxo6gpmcf74gpv3sqni2aa6v5x57
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/hwloc-1.11.11-bkkhvejler5rcxoz6mufxxb7fm3qdqbe
+==> zlib is already installed in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/zlib-1.2.11-64vg6e4evdrlqgx7iicwhu2hs7lv6gpz
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/cache/openmpi/openmpi-3.0.4.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/openmpi-3.0.4-5ienfvwpcxky3nz5jt3rygxzxzltkwm4/openmpi-3.0.4.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/openmpi-3.0.4-5ienfvwpcxky3nz5jt3rygxzxzltkwm4
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+srun: error: Node failure on cn210
+salloc: error: Node failure on cn210
+salloc: Relinquishing job allocation 5174034
+dantopa@darwin-fe1.lanl.gov:libraries $ grab-compute
+salloc -N 1 -t 48:00:00 --qos=long
+salloc: Pending job allocation 5174212
+salloc: job 5174212 queued and waiting for resources
+salloc: job 5174212 has been allocated resources
+salloc: Granted job allocation 5174212
+salloc: Waiting for resource configuration
+salloc: Nodes cn211 are ready for job
+Tue Apr 16 09:39:45 MDT 2019 /home/dantopa/.mybash
+Tue Apr 16 09:39:45 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/platforms.sh
+attempting to mkdir /scratch/users/dantopa/repos/gitlab/node-queries/darwin/general-cn211/dir-configuration
+directory of core scripts = ${core} = /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts
+Tue Apr 16 09:39:45 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/master.sh
+Tue Apr 16 09:39:45 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh
+Tue Apr 16 09:39:45 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh
+Tue Apr 16 09:39:45 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+Tue Apr 16 09:39:45 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh
+Tue Apr 16 09:39:45 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh
+bash: gonode: command not found
+Tue Apr 16 09:39:45 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/gcc.sh
+Tue Apr 16 09:39:45 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+fatal: Not a git repository (or any parent up to mount point /scratch)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+Tue Apr 16 09:39:45 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/git.sh
+fatal: Not a git repository (or any parent up to mount point /scratch)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+Tue Apr 16 09:39:45 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/ssh.sh
+Tue Apr 16 09:39:45 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/vim.sh
+Tue Apr 16 09:39:45 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bash.sh
+Tue Apr 16 09:39:45 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/finds.sh
+Tue Apr 16 09:39:45 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/cmake.sh
+Tue Apr 16 09:39:45 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/copy-configuration.sh
+Tue Apr 16 09:39:45 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/fortran.sh
+Tue Apr 16 09:39:45 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks.sh
+Tue Apr 16 09:39:45 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-bitbucket.sh
+Tue Apr 16 09:39:45 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-github.sh
+Tue Apr 16 09:39:45 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-gitlab.sh
+Tue Apr 16 09:39:45 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/disk.sh
+Tue Apr 16 09:39:45 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh
+Tue Apr 16 09:39:45 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh
+Tue Apr 16 09:39:46 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+Tue Apr 16 09:39:46 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh
+Tue Apr 16 09:39:46 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh
+/scratch/users/dantopa/repos/gitlab/node-queries
+Tue Apr 16 09:39:46 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+Tue Apr 16 09:39:46 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/spack.sh
+Tue Apr 16 09:39:46 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/uname.sh
+Tue Apr 16 09:39:46 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/modules.sh
+Tue Apr 16 09:39:46 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/alias.sh
+Tue Apr 16 09:39:46 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh
+[master 0a39016] darwin-general-cn211 Tue Apr 16 09:40:10 MDT 2019
+ 127 files changed, 1886 insertions(+), 1703 deletions(-)
+ rewrite darwin/arm-cn815/proc-filesystem/proc-stat.txt (96%)
+ rewrite darwin/general-cn211/proc-filesystem/proc-buddyinfo.txt (72%)
+ rewrite darwin/general-cn211/proc-filesystem/proc-cmdline.txt (84%)
+ rewrite darwin/general-cn211/proc-filesystem/proc-locks.txt (80%)
+ rewrite darwin/general-cn211/proc-filesystem/proc-modules.txt (95%)
+ rewrite darwin/general-cn211/slurm-queries/slurm-sinfo.txt (75%)
+ rewrite darwin/general-cn211/uname-variables.txt (60%)
+ rewrite darwin/power9-cn2024/proc-filesystem/proc-buddyinfo.txt (73%)
+ rewrite darwin/power9-cn2024/proc-filesystem/proc-stat.txt (86%)
+dantopa@cn211:libraries $ lss
+total 276K
+drwxrwxr-x 14 dantopa dantopa  15 Apr 15 09:35 .
+drwxrwxr-x 39 dantopa dantopa  44 Apr 15 17:45 ..
+-rw-rw-r--  1 dantopa dantopa 497 Apr 15 09:33 create-spack-directories.sh
+drwxrwxr-x 11 dantopa dantopa  28 Apr 15 14:44 darwin-arm.libhio
+drwxrwxr-x 11 dantopa dantopa  27 Apr  8 14:21 darwin-arm.openmpi
+drwxrwxr-x 11 dantopa dantopa  27 Apr  8 14:22 darwin-arm.pmix
+drwxrwxr-x 11 dantopa dantopa  27 Apr 15 09:46 darwin-arm.ucx
+drwxrwxr-x 11 dantopa dantopa  27 Apr  8 14:21 darwin-general.libhio
+drwxrwxr-x 11 dantopa dantopa  28 Apr 15 14:55 darwin-general.openmpi
+drwxrwxr-x 11 dantopa dantopa  27 Apr  8 14:21 darwin-general.pmix
+drwxrwxr-x 11 dantopa dantopa  27 Apr 15 09:45 darwin-general.ucx
+drwxrwxr-x 11 dantopa dantopa  26 Apr  1 19:36 darwin-power9.libhio
+drwxrwxr-x 11 dantopa dantopa  26 Apr  1 12:55 darwin-power9.openmpi
+drwxrwxr-x 11 dantopa dantopa  26 Apr  2 10:48 darwin-power9.pmix
+drwxrwxr-x 11 dantopa dantopa  27 Apr 15 09:46 darwin-power9.ucx
+dantopa@cn211:libraries $ esp
+${SPACK_ROOT}:
+
+dantopa@cn211:libraries $ gospack
+/scratch/users/dantopa/new-spack
+dantopa@cn211:new-spack $ lss
+total 12M
+drwxrwxr-x 39 dantopa dantopa   44 Apr 15 17:45 .
+drwxr-x--- 13 dantopa dantopa   14 Jan 31 12:52 ..
+drwxrwxr-x 12 dantopa dantopa   27 Nov  9 14:23 branson.spack.arm
+-rw-rw-r--  1 dantopa dantopa  492 Aug 19  2018 broadcast-spack-package.sh
+drwxrwxr-x 11 dantopa dantopa   26 Nov  1 14:32 compilers.arm.spack
+drwxrwxr-x  9 dantopa dantopa   24 Jan 28 15:09 compilers.general.spack
+drwxrwxr-x  9 dantopa dantopa   24 Jan 28 15:09 compilers.power9.spack
+-rw-rw-r--  1 dantopa dantopa 550K Oct 26 20:52 files.txt
+drwxrwxr-x 11 dantopa dantopa   26 Mar  3 19:33 flag.power9.spack
+drwxrwxr-x 12 dantopa dantopa   83 Dec  7 10:48 howard.arm.spack
+drwxrwxr-x 14 dantopa dantopa   15 Apr 15 09:35 libraries
+drwxrwxr-x  9 dantopa dantopa   24 Mar  3 18:16 mtt.spack
+drwxrwxr-x 13 dantopa dantopa   28 Apr  1 18:15 mymirror.spack
+drwxrwxr-x 12 dantopa dantopa   27 Feb 15 11:29 openmpi.arm.spack
+drwxrwxr-x 11 dantopa dantopa   26 Feb 28 10:02 openmpi.darwin-general.spack
+drwxrwxr-x 11 dantopa dantopa   26 Feb  6 13:14 openmpi.general.spack
+drwxrwxr-x 10 dantopa dantopa   25 Feb 14 10:31 openmpi.power9.spack
+drwxrwxr-x 11 dantopa dantopa   27 Apr 15 18:06 pr-openmpi-3.1.4.spack
+drwxrwxr-x 10 dantopa dantopa   25 Feb  6 09:52 python.darwin-arm.spack
+drwxrwxr-x 12 dantopa dantopa   27 Feb 28 13:25 python.darwin-general.spack
+drwxrwxr-x 11 dantopa dantopa   26 Feb 28 13:12 python.darwin-power9.spack
+drwxrwxr-x  2 dantopa dantopa    7 Oct 10  2018 sbatch-output
+drwxrwxr-x 10 dantopa dantopa   26 Apr 15 09:29 spack
+drwxrwxr-x  8 dantopa dantopa   23 Nov 13 10:05 spack-0.12.0
+drwxrwxr-x  8 dantopa dantopa   23 Jan 13 15:29 spack-0.12.1
+-rw-rw-r--  1 dantopa dantopa 2.9M Jan 13 16:38 spack-0.12.1.tar.gz
+drwxrwxr-x 12 dantopa dantopa   27 Feb  4 14:46 spack.arm.libhio
+drwxrwxr-x 11 dantopa dantopa   28 Jan 22 14:14 spack.darwin.arm-0.12.1
+drwxrwxr-x 11 dantopa dantopa   26 Jan 22 14:08 spack.darwin.general-0.12.1
+drwxrwxr-x 10 dantopa dantopa   27 Jan 22 14:39 spack.darwin.power9-0.12.1
+drwxrwxr-x  8 dantopa dantopa   23 Nov 13 10:05 spack.general-0.11.3
+drwxrwxr-x 10 dantopa dantopa   27 Oct 29 12:52 spack.general.compilers
+drwxrwxr-x  9 dantopa dantopa   24 Nov  8 10:26 spack.general.hypre
+drwxrwxr-x 11 dantopa dantopa   26 Feb  1 10:21 spack.general.libhio
+drwxrwxr-x 13 dantopa dantopa   29 Aug 13  2018 spack.general.openmpi
+drwxrwxr-x 11 dantopa dantopa   26 Oct  4  2018 spack.general.zoltan
+drwxrwxr-x  9 dantopa dantopa   22 Sep  1  2018 spack.power9.essl
+drwxrwxr-x 10 dantopa dantopa   25 Oct 31 13:54 spack.power9.hypre
+drwxrwxr-x 11 dantopa dantopa   26 Feb  2 11:19 spack.power9.libhio
+drwxrwxr-x 14 dantopa dantopa   30 Sep  4  2018 spack.power9.ompi
+drwxrwxr-x 11 dantopa dantopa   23 Oct  3  2018 spack.power9.zoltan
+-rw-rw-r--  1 dantopa dantopa 4.0M Apr 15 10:37 spack-tarball.tar
+drwxrwxr-x 11 dantopa dantopa   32 Mar 25 17:08 strawman.pr.libhio
+-rw-rw-r--  1 dantopa dantopa 2.9M Dec 18 09:59 v0.12.0.tar.gz
+dantopa@cn211:new-spack $ cd pr-openmpi-3.1.4.spack/
+dantopa@cn211:pr-openmpi-3.1.4.spack $ initspack 
+. share/spack/setup-env.sh
+l-spack
+Tue Apr 16 09:40:50 MDT 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/spack-init.sh
+dantopa@cn211:pr-openmpi-3.1.4.spack $ spack find openmpi
+==> 7 installed packages
+-- linux-centos7-x86_64 / gcc@4.8.5 -----------------------------
+openmpi@3.1.4
+
+-- linux-centos7-x86_64 / gcc@6.4.0 -----------------------------
+openmpi@3.0.4  openmpi@3.1.4
+
+-- linux-centos7-x86_64 / gcc@7.3.0 -----------------------------
+openmpi@3.0.4  openmpi@3.1.4
+
+-- linux-centos7-x86_64 / gcc@8.2.0 -----------------------------
+openmpi@3.0.4  openmpi@3.1.4
+dantopa@cn211:pr-openmpi-3.1.4.spack $ spack install openmpi@3.0.4 % gcc@4.8.5
+	^C
+==> Error: Keyboard interrupt.
+dantopa@cn211:pr-openmpi-3.1.4.spack $ top
+
+top - 09:51:39 up 33 days, 18:29,  0 users,  load average: 0.00, 0.00, 0.13
+Tasks: 350 total,   1 running, 162 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 13190232+total, 12933532+free,   936780 used,  1630220 buff/cache
+KiB Swap:        0 total,        0 free,        0 used. 12895948+avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND                                                                                                       
+    1 root      20   0   45788   6324   2768 S   0.0  0.0   0:09.85 systemd                                                                                                       
+    2 root      20   0       0      0      0 S   0.0  0.0   0:00.51 kthreadd                                                                                                      
+    3 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 rcu_gp                                                                                                        
+    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 rcu_par_gp                                                                                                    
+    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:0H-kb                                                                                               
+    9 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_wq                                                                                                  
+   10 root      20   0       0      0      0 S   0.0  0.0   0:03.63 ksoftirqd/0                                                                                                   
+   11 root      20   0       0      0      0 I   0.0  0.0   4:20.51 rcu_sched                                                                                                     
+   12 root      rt   0       0      0      0 S   0.0  0.0   0:13.43 migration/0                                                                                                   
+   14 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0                                                                                                       
+   15 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1                                                                                                       
+   16 root      rt   0       0      0      0 S   0.0  0.0   0:12.92 migration/1                                                                                                   
+   17 root      20   0       0      0      0 S   0.0  0.0   0:00.88 ksoftirqd/1                                                                                                   
+   19 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/1:0H                                                                                                  
+   20 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/2                                                                                                       
+   21 root      rt   0       0      0      0 S   0.0  0.0   0:12.50 migration/2                                                                                                   
+   22 root      20   0       0      0      0 S   0.0  0.0   0:00.75 ksoftirqd/2                                                                                                   
+   23 root      20   0       0      0      0 I   0.0  0.0   0:00.00 kworker/2:0-rcu                                                                                               
+   24 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/2:0H                                                                                                  
+   25 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/3                                                                                                       
+   26 root      rt   0       0      0      0 S   0.0  0.0   0:12.18 migration/3                                                                                                   
+   27 root      20   0       0      0      0 S   0.0  0.0   0:00.87 ksoftirqd/3                                                                                                   
+   28 root      20   0       0      0      0 I   0.0  0.0   0:00.00 kworker/3:0-eve                                                                                               
+   29 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/3:0H                                                                                                  
+   30 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/4                                                                                                       
+   31 root      rt   0       0      0      0 S   0.0  0.0   0:11.92 migration/4                                                                                                   
+   32 root      20   0       0      0      0 S   0.0  0.0   0:00.75 ksoftirqd/4                                                                                                   
+   34 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/4:0H                                                                                                  
+   35 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/5                                                                                                       
+   36 root      rt   0       0      0      0 S   0.0  0.0   0:11.59 migration/5                                                                                                   
+   37 root      20   0       0      0      0 S   0.0  0.0   0:00.71 ksoftirqd/5                                                                                                   
+   39 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/5:0H                                                                                                  
+   40 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/6                                                                                                       
+   41 root      rt   0       0      0      0 S   0.0  0.0   0:11.36 migration/6                                                                                                   
+   42 root      20   0       0      0      0 S   0.0  0.0   0:00.71 ksoftirqd/6                                                                                                   
+   43 root      20   0       0      0      0 I   0.0  0.0   0:11.30 kworker/6:0-eve                                                                                               
+   44 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/6:0H                                                                                                  
+   45 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/7                                                                                                       
+   46 root      rt   0       0      0      0 S   0.0  0.0   0:11.16 migration/7                                                                                                   
+   47 root      20   0       0      0      0 S   0.0  0.0   0:00.59 ksoftirqd/7                                                                                                   
+   48 root      20   0       0      0      0 I   0.0  0.0   0:00.00 kworker/7:0-eve                                                                                               
+dantopa@cn211:pr-openmpi-3.1.4.spack $ ^C
+dantopa@cn211:pr-openmpi-3.1.4.spack $ spack find openmpi
+==> 7 installed packages
+-- linux-centos7-x86_64 / gcc@4.8.5 -----------------------------
+openmpi@3.1.4
+
+-- linux-centos7-x86_64 / gcc@6.4.0 -----------------------------
+openmpi@3.0.4  openmpi@3.1.4
+
+-- linux-centos7-x86_64 / gcc@7.3.0 -----------------------------
+openmpi@3.0.4  openmpi@3.1.4
+
+-- linux-centos7-x86_64 / gcc@8.2.0 -----------------------------
+openmpi@3.0.4  openmpi@3.1.4
+dantopa@cn211:pr-openmpi-3.1.4.spack $ spack install openmpi@3.0.4 % gcc@4.8.5
+v
+d
+^C
+==> Error: Keyboard interrupt.
+dantopa@cn211:pr-openmpi-3.1.4.spack $ spack -d install openmpi@3.0.4 % gcc@4.8.5
+==> [2019-04-16-09:52:16.382976] Reading config file /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/etc/spack/defaults/modules.yaml
+==> [2019-04-16-09:52:16.407736] Reading config file /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/etc/spack/defaults/linux/modules.yaml
+==> [2019-04-16-09:52:16.410173] Reading config file /home/dantopa/.spack/linux/modules.yaml
+==> [2019-04-16-09:52:16.414749] Reading config file /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/etc/spack/defaults/config.yaml
+==> [2019-04-16-09:52:16.457635] Imported install from built-in commands
+==> [2019-04-16-09:52:16.458606] Imported install from built-in commands
+==> [2019-04-16-09:52:16.525255] Reading config file /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/etc/spack/defaults/repos.yaml
+==> [2019-04-16-09:52:17.782147] '/usr/bin/ibv_devices'
+==> [2019-04-16-09:52:17.931359] Reading config file /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/etc/spack/defaults/packages.yaml
+==> [2019-04-16-09:52:17.975924] READ LOCK: /home/dantopa/.spack/cache/tags/.builtin-index.json.lock[0:0] [Acquiring]
+==> [2019-04-16-09:52:17.977386] READ LOCK: /home/dantopa/.spack/cache/tags/.builtin-index.json.lock[0:0] [Acquired]
+==> [2019-04-16-09:52:17.978020] READ LOCK: /home/dantopa/.spack/cache/tags/.builtin-index.json.lock[0:0] [Released]
+==> [2019-04-16-09:52:17.980813] READ LOCK: /home/dantopa/.spack/cache/patches/.builtin-index.json.lock[0:0] [Acquiring]
+==> [2019-04-16-09:52:17.982090] READ LOCK: /home/dantopa/.spack/cache/patches/.builtin-index.json.lock[0:0] [Acquired]
+==> [2019-04-16-09:52:17.990320] READ LOCK: /home/dantopa/.spack/cache/patches/.builtin-index.json.lock[0:0] [Released]
+==> [2019-04-16-09:52:17.992993] READ LOCK: /home/dantopa/.spack/cache/providers/.builtin-index.json.lock[0:0] [Acquiring]
+==> [2019-04-16-09:52:17.994416] READ LOCK: /home/dantopa/.spack/cache/providers/.builtin-index.json.lock[0:0] [Acquired]
+==> [2019-04-16-09:52:18.013505] READ LOCK: /home/dantopa/.spack/cache/providers/.builtin-index.json.lock[0:0] [Released]
+==> [2019-04-16-09:52:18.112254] Reading config file /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/etc/spack/defaults/compilers.yaml
+==> [2019-04-16-09:52:18.180365] Reading config file /home/dantopa/.spack/linux/compilers.yaml
+==> [2019-04-16-09:52:19.230378] DATABASE LOCK TIMEOUT: 120s
+==> [2019-04-16-09:52:19.230447] PACKAGE LOCK TIMEOUT: No timeout
+==> [2019-04-16-09:52:19.230829] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-09:52:19.241913] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-09:52:19.254655] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-09:52:19.255085] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-09:52:19.256768] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-09:52:19.267164] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-09:52:19.268077] WRITE LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/prefix_lock[8431980312363985606:1] [Acquiring]
+^Z
+[1]+  Stopped                 spack -d install openmpi@3.0.4 % gcc@4.8.5
+dantopa@cn211:pr-openmpi-3.1.4.spack $ ^C
+dantopa@cn211:pr-openmpi-3.1.4.spack $ vi scripts/sweep-darwin-general.sh 
+dantopa@cn211:pr-openmpi-3.1.4.spack $ q
+squeue -u ${USER}
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+           5174221    power9       sh  dantopa  R      43:27      1 cn2024
+           5174220       arm       sh  dantopa  R      43:33      1 cn816
+           5174212   general       sh  dantopa  R      46:25      1 cn211
+           5174046    power9       sh  dantopa  R   19:17:23      1 cn2022
+dantopa@cn211:pr-openmpi-3.1.4.spack $ esp
+${SPACK_ROOT}:
+/scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack
+dantopa@cn211:pr-openmpi-3.1.4.spack $ spack -d install openmpi@3.0.4 % gcc@4.8.5
+==> [2019-04-16-14:00:29.161731] Reading config file /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/etc/spack/defaults/modules.yaml
+==> [2019-04-16-14:00:29.186024] Reading config file /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/etc/spack/defaults/linux/modules.yaml
+==> [2019-04-16-14:00:29.200913] Reading config file /home/dantopa/.spack/linux/modules.yaml
+==> [2019-04-16-14:00:29.205491] Reading config file /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/etc/spack/defaults/config.yaml
+==> [2019-04-16-14:00:29.313848] Imported install from built-in commands
+==> [2019-04-16-14:00:29.314834] Imported install from built-in commands
+==> [2019-04-16-14:00:29.347776] Reading config file /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/etc/spack/defaults/repos.yaml
+==> [2019-04-16-14:00:30.146904] '/usr/bin/ibv_devices'
+==> [2019-04-16-14:00:30.292549] Reading config file /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/etc/spack/defaults/packages.yaml
+==> [2019-04-16-14:00:30.370156] WRITE LOCK: /home/dantopa/.spack/cache/tags/.builtin-index.json.lock[0:0] [Acquiring]
+==> [2019-04-16-14:00:30.372961] WRITE LOCK: /home/dantopa/.spack/cache/tags/.builtin-index.json.lock[0:0] [Acquired]
+==> [2019-04-16-14:00:49.438488] WRITE LOCK: /home/dantopa/.spack/cache/tags/.builtin-index.json.lock[0:0] [Released]
+==> [2019-04-16-14:00:49.445333] WRITE LOCK: /home/dantopa/.spack/cache/patches/.builtin-index.json.lock[0:0] [Acquiring]
+==> [2019-04-16-14:00:49.447049] WRITE LOCK: /home/dantopa/.spack/cache/patches/.builtin-index.json.lock[0:0] [Acquired]
+==> [2019-04-16-14:00:51.859544] WRITE LOCK: /home/dantopa/.spack/cache/patches/.builtin-index.json.lock[0:0] [Released]
+==> [2019-04-16-14:00:51.866375] WRITE LOCK: /home/dantopa/.spack/cache/providers/.builtin-index.json.lock[0:0] [Acquiring]
+==> [2019-04-16-14:00:51.868124] WRITE LOCK: /home/dantopa/.spack/cache/providers/.builtin-index.json.lock[0:0] [Acquired]
+==> [2019-04-16-14:00:52.441574] WRITE LOCK: /home/dantopa/.spack/cache/providers/.builtin-index.json.lock[0:0] [Released]
+==> [2019-04-16-14:00:52.478549] Reading config file /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/etc/spack/defaults/compilers.yaml
+==> [2019-04-16-14:00:52.501543] Reading config file /home/dantopa/.spack/linux/compilers.yaml
+==> [2019-04-16-14:00:52.699837] DATABASE LOCK TIMEOUT: 120s
+==> [2019-04-16-14:00:52.699892] PACKAGE LOCK TIMEOUT: No timeout
+==> [2019-04-16-14:00:52.700265] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-14:00:52.713880] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-14:00:52.729916] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-14:00:52.730274] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-14:00:52.731112] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-14:00:52.746348] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-14:00:52.747269] WRITE LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/prefix_lock[8431980312363985606:1] [Acquiring]
+^Z
+[2]+  Stopped                 spack -d install openmpi@3.0.4 % gcc@4.8.5
+dantopa@cn211:pr-openmpi-3.1.4.spack $ ^C
+dantopa@cn211:pr-openmpi-3.1.4.spack $ spack -d install openmpi@3.0.4 % gcc@4.8.5
+==> [2019-04-16-16:46:56.224748] Reading config file /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/etc/spack/defaults/modules.yaml
+==> [2019-04-16-16:46:56.254067] Reading config file /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/etc/spack/defaults/linux/modules.yaml
+==> [2019-04-16-16:46:56.256934] Reading config file /home/dantopa/.spack/linux/modules.yaml
+==> [2019-04-16-16:46:56.261661] Reading config file /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/etc/spack/defaults/config.yaml
+==> [2019-04-16-16:46:56.278490] Imported install from built-in commands
+==> [2019-04-16-16:46:56.279521] Imported install from built-in commands
+==> [2019-04-16-16:46:56.318927] Reading config file /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/etc/spack/defaults/repos.yaml
+==> [2019-04-16-16:46:59.632826] '/usr/bin/ibv_devices'
+==> [2019-04-16-16:46:59.779345] Reading config file /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/etc/spack/defaults/packages.yaml
+==> [2019-04-16-16:46:59.826667] READ LOCK: /home/dantopa/.spack/cache/tags/.builtin-index.json.lock[0:0] [Acquiring]
+==> [2019-04-16-16:46:59.828964] READ LOCK: /home/dantopa/.spack/cache/tags/.builtin-index.json.lock[0:0] [Acquired]
+==> [2019-04-16-16:46:59.832044] READ LOCK: /home/dantopa/.spack/cache/tags/.builtin-index.json.lock[0:0] [Released]
+==> [2019-04-16-16:46:59.835694] READ LOCK: /home/dantopa/.spack/cache/patches/.builtin-index.json.lock[0:0] [Acquiring]
+==> [2019-04-16-16:46:59.837526] READ LOCK: /home/dantopa/.spack/cache/patches/.builtin-index.json.lock[0:0] [Acquired]
+==> [2019-04-16-16:46:59.847727] READ LOCK: /home/dantopa/.spack/cache/patches/.builtin-index.json.lock[0:0] [Released]
+==> [2019-04-16-16:46:59.851217] READ LOCK: /home/dantopa/.spack/cache/providers/.builtin-index.json.lock[0:0] [Acquiring]
+==> [2019-04-16-16:46:59.852753] READ LOCK: /home/dantopa/.spack/cache/providers/.builtin-index.json.lock[0:0] [Acquired]
+==> [2019-04-16-16:46:59.874268] READ LOCK: /home/dantopa/.spack/cache/providers/.builtin-index.json.lock[0:0] [Released]
+==> [2019-04-16-16:46:59.930525] Reading config file /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/etc/spack/defaults/compilers.yaml
+==> [2019-04-16-16:46:59.954408] Reading config file /home/dantopa/.spack/linux/compilers.yaml
+==> [2019-04-16-16:47:00.209803] DATABASE LOCK TIMEOUT: 120s
+==> [2019-04-16-16:47:00.209877] PACKAGE LOCK TIMEOUT: No timeout
+==> [2019-04-16-16:47:00.210253] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-16:47:00.225799] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-16:47:00.241963] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-16:47:00.242337] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-16:47:00.243203] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-16:47:00.258649] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-16:47:00.259604] WRITE LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/prefix_lock[8431980312363985606:1] [Acquiring]
+==> [2019-04-16-16:47:00.260998] WRITE LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/prefix_lock[8431980312363985606:1] [Acquired]
+==> [2019-04-16-16:47:00.261108] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-16:47:00.261852] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-16:47:00.277341] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-16:47:00.277785] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-16:47:00.278660] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-16:47:00.294997] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-16:47:00.322798] WRITE LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/prefix_lock[8431980312363985606:1] [Released]
+==> [2019-04-16-16:47:00.345075] link /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/openmpi-3.0.4-5ienfvwpcxky3nz5jt3rygxzxzltkwm4 -> /tmp/dantopa/spack-stage/spack-stage-l2mYtU
+==> [2019-04-16-16:47:00.345524] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/prefix_lock[8431980312363985606:1] [Acquiring]
+==> [2019-04-16-16:47:00.346366] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/prefix_lock[8431980312363985606:1] [Acquired]
+==> [2019-04-16-16:47:00.346636] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/prefix_lock[8431980312363985606:1] [Released]
+==> [2019-04-16-16:47:00.347022] Installing openmpi dependencies
+==> [2019-04-16-16:47:00.347312] libtool@2.4.6 : externally installed in /usr
+==> [2019-04-16-16:47:00.349254] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-16:47:00.350133] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-16:47:00.365814] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-16:47:00.366186] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-16:47:00.367096] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-16:47:00.382886] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-16:47:00.383201] libtool@2.4.6 : already registered in DB
+==> [2019-04-16-16:47:00.383288] pkg-config@0.29.2 : externally installed in /usr
+==> [2019-04-16-16:47:00.385189] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-16:47:00.386008] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-16:47:00.402318] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-16:47:00.402630] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-16:47:00.403430] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-16:47:00.418867] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-16:47:00.419210] pkg-config@0.29.2 : already registered in DB
+==> [2019-04-16-16:47:00.420917] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-16:47:00.421822] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-16:47:00.437395] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-16:47:00.437824] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-16:47:00.438671] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-16:47:00.455032] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-16:47:00.455715] WRITE LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/prefix_lock[4602257582475273680:1] [Acquiring]
+==> [2019-04-16-16:47:00.456558] WRITE LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/prefix_lock[4602257582475273680:1] [Acquired]
+==> [2019-04-16-16:47:00.456628] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-16:47:00.457341] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-16:47:00.472764] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-16:47:00.473187] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-16:47:00.473994] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-16:47:00.489689] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-16:47:00.489994] WRITE LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/prefix_lock[4602257582475273680:1] [Released]
+==> [2019-04-16-16:47:00.498488] link /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/util-macros-1.19.1-p66qdrtaslf2cq4wyc6mitrxzhnyujhc -> /tmp/dantopa/spack-stage/spack-stage-3TRYMo
+==> [2019-04-16-16:47:00.499356] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/prefix_lock[4602257582475273680:1] [Acquiring]
+==> [2019-04-16-16:47:00.500282] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/prefix_lock[4602257582475273680:1] [Acquired]
+==> [2019-04-16-16:47:00.516131] util-macros is already installed in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/util-macros-1.19.1-p66qdrtaslf2cq4wyc6mitrxzhnyujhc
+==> [2019-04-16-16:47:00.516206] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-16:47:00.517050] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-16:47:00.533264] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-16:47:00.533563] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-16:47:00.534374] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-16:47:00.549930] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-16:47:00.550768] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/prefix_lock[4602257582475273680:1] [Released]
+==> [2019-04-16-16:47:00.551068] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-16:47:00.551941] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-16:47:00.567701] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-16:47:00.568040] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-16:47:00.568828] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-16:47:00.586220] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-16:47:00.586956] WRITE LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/prefix_lock[8378878313948113937:1] [Acquiring]
+==> [2019-04-16-16:47:00.587777] WRITE LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/prefix_lock[8378878313948113937:1] [Acquired]
+==> [2019-04-16-16:47:00.587861] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-16:47:00.588493] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-16:47:00.603803] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-16:47:00.604092] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-16:47:00.604883] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-16:47:00.620408] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-16:47:00.620693] WRITE LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/prefix_lock[8378878313948113937:1] [Released]
+==> [2019-04-16-16:47:00.623860] link /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/libpciaccess-0.13.5-5chyfxo6gpmcf74gpv3sqni2aa6v5x57 -> /tmp/dantopa/spack-stage/spack-stage-GmjXv2
+==> [2019-04-16-16:47:00.624242] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/prefix_lock[8378878313948113937:1] [Acquiring]
+==> [2019-04-16-16:47:00.624906] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/prefix_lock[8378878313948113937:1] [Acquired]
+==> [2019-04-16-16:47:00.635852] libpciaccess is already installed in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/libpciaccess-0.13.5-5chyfxo6gpmcf74gpv3sqni2aa6v5x57
+==> [2019-04-16-16:47:00.635927] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-16:47:00.636648] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-16:47:00.652918] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-16:47:00.653173] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-16:47:00.654048] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-16:47:00.669526] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-16:47:00.670426] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/prefix_lock[8378878313948113937:1] [Released]
+==> [2019-04-16-16:47:00.670857] libxml2@2.9.8 : externally installed in /usr
+==> [2019-04-16-16:47:00.670929] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-16:47:00.671657] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-16:47:00.687188] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-16:47:00.687473] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-16:47:00.688267] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-16:47:00.704628] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-16:47:00.704913] libxml2@2.9.8 : already registered in DB
+==> [2019-04-16-16:47:00.705002] numactl@2.0.12 : externally installed in /usr
+==> [2019-04-16-16:47:00.705067] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-16:47:00.705871] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-16:47:00.721129] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-16:47:00.721436] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-16:47:00.722224] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-16:47:00.737784] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-16:47:00.738081] numactl@2.0.12 : already registered in DB
+==> [2019-04-16-16:47:00.738177] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-16:47:00.739023] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-16:47:00.755363] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-16:47:00.755668] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-16:47:00.756547] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-16:47:00.772082] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-16:47:00.772751] WRITE LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/prefix_lock[381184500422557064:1] [Acquiring]
+==> [2019-04-16-16:47:00.773602] WRITE LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/prefix_lock[381184500422557064:1] [Acquired]
+==> [2019-04-16-16:47:00.773687] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-16:47:00.774463] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-16:47:00.790055] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-16:47:00.790357] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-16:47:00.791178] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-16:47:00.807493] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-16:47:00.807777] WRITE LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/prefix_lock[381184500422557064:1] [Released]
+==> [2019-04-16-16:47:00.808673] link /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/hwloc-1.11.11-bkkhvejler5rcxoz6mufxxb7fm3qdqbe -> /tmp/dantopa/spack-stage/spack-stage-iQBx9D
+==> [2019-04-16-16:47:00.809135] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/prefix_lock[381184500422557064:1] [Acquiring]
+==> [2019-04-16-16:47:00.809905] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/prefix_lock[381184500422557064:1] [Acquired]
+==> [2019-04-16-16:47:00.861999] hwloc is already installed in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/hwloc-1.11.11-bkkhvejler5rcxoz6mufxxb7fm3qdqbe
+==> [2019-04-16-16:47:00.862076] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-16:47:00.862856] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-16:47:00.878405] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-16:47:00.878693] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-16:47:00.879563] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-16:47:00.895978] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-16:47:00.896862] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/prefix_lock[381184500422557064:1] [Released]
+==> [2019-04-16-16:47:00.897159] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-16:47:00.898015] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-16:47:00.932378] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-16:47:00.932821] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-16:47:00.933694] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-16:47:00.948894] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-16:47:00.949579] WRITE LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/prefix_lock[8905084903005385052:1] [Acquiring]
+==> [2019-04-16-16:47:00.950366] WRITE LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/prefix_lock[8905084903005385052:1] [Acquired]
+==> [2019-04-16-16:47:00.950463] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-16:47:00.951226] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-16:47:00.966429] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-16:47:00.966742] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-16:47:00.967617] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-16:47:00.983665] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-16:47:00.983977] WRITE LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/prefix_lock[8905084903005385052:1] [Released]
+==> [2019-04-16-16:47:00.985344] link /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/zlib-1.2.11-64vg6e4evdrlqgx7iicwhu2hs7lv6gpz -> /tmp/dantopa/spack-stage/spack-stage-1h48mR
+==> [2019-04-16-16:47:00.985816] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/prefix_lock[8905084903005385052:1] [Acquiring]
+==> [2019-04-16-16:47:00.986507] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/prefix_lock[8905084903005385052:1] [Acquired]
+==> [2019-04-16-16:47:01.004082] zlib is already installed in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/zlib-1.2.11-64vg6e4evdrlqgx7iicwhu2hs7lv6gpz
+==> [2019-04-16-16:47:01.004155] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-16:47:01.004999] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-16:47:01.020321] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-16:47:01.020618] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-16:47:01.021473] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-16:47:01.037573] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-16:47:01.038431] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/prefix_lock[8905084903005385052:1] [Released]
+==> [2019-04-16-16:47:01.038705] Boostrapping gcc@4.8.5 compiler for openmpi
+==> [2019-04-16-16:47:01.039681] Installing openmpi
+==> [2019-04-16-16:47:01.039728] Searching for binary cache of openmpi
+==> [2019-04-16-16:47:01.040260] Reading config file /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/etc/spack/defaults/mirrors.yaml
+==> [2019-04-16-16:47:01.061743] Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> [2019-04-16-16:47:01.074303] No binary for openmpi found: installing from source
+==> [2019-04-16-16:47:01.289549] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-16:47:01.290411] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-16:47:01.307169] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-16:47:01.307446] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-16:47:01.308308] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-16:47:01.325295] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-16:47:01.349436] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-16:47:01.350313] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-16:47:01.366216] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-16:47:01.381349] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-16-16:47:01.382172] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-16-16:47:01.397980] READ LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-16-16:47:01.464911] A dependency has updated CPATH, this may lead pkg-config to assume that the package is part of the system includes and omit it when invoked with '--cflags'.
+==> [2019-04-16-16:47:01.477374] Fetching file:///usr/projects/draco/vendors/spack.mirror/openmpi/openmpi-3.0.4.tar.bz2
+==> [2019-04-16-16:47:01.498711] '/usr/bin/curl' '-C' '-' '-o' '/scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/openmpi-3.0.4-5ienfvwpcxky3nz5jt3rygxzxzltkwm4/openmpi-3.0.4.tar.bz2.part' '-f' '-D' '-' '-L' 'file:///usr/projects/draco/vendors/spack.mirror/openmpi/openmpi-3.0.4.tar.bz2' '-#'
+curl: (37) Couldn't open file /usr/projects/draco/vendors/spack.mirror/openmpi/openmpi-3.0.4.tar.bz2
+==> [2019-04-16-16:47:01.574229] Fetching from file:///usr/projects/draco/vendors/spack.mirror/openmpi/openmpi-3.0.4.tar.bz2 failed.
+==> [2019-04-16-16:47:01.574335] Failed to fetch file from URL: file:///usr/projects/draco/vendors/spack.mirror/openmpi/openmpi-3.0.4.tar.bz2
+    Curl failed with error 37
+==> [2019-04-16-16:47:01.574481] Fetching http://www.open-mpi.org/software/ompi/v3.0/downloads/openmpi-3.0.4.tar.bz2
+==> [2019-04-16-16:47:01.575299] '/usr/bin/curl' '-C' '-' '-o' '/scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/openmpi-3.0.4-5ienfvwpcxky3nz5jt3rygxzxzltkwm4/openmpi-3.0.4.tar.bz2.part' '-f' '-D' '-' '-L' 'http://www.open-mpi.org/software/ompi/v3.0/downloads/openmpi-3.0.4.tar.bz2' '-#'
+######################################################################## 100.0%
+==> [2019-04-16-16:47:04.137411] Staging archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/openmpi-3.0.4-5ienfvwpcxky3nz5jt3rygxzxzltkwm4/openmpi-3.0.4.tar.bz2
+==> [2019-04-16-16:47:04.139608] '/usr/bin/tar' '-xf' '/scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/openmpi-3.0.4-5ienfvwpcxky3nz5jt3rygxzxzltkwm4/openmpi-3.0.4.tar.bz2'
+==> [2019-04-16-16:47:05.921001] Created stage in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/openmpi-3.0.4-5ienfvwpcxky3nz5jt3rygxzxzltkwm4
+==> [2019-04-16-16:47:05.921526] No patches needed for openmpi
+==> [2019-04-16-16:47:05.921600] Building openmpi [AutotoolsPackage]
+==> [2019-04-16-16:47:05.921739] WRITE LOCK: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/.lock[7012335152316597301:1] [Acquiring]
+==> [2019-04-16-16:48:06.102409] Error: LockTimeoutError: Timed out waiting for lock.
+
+/scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/lib/spack/spack/package.py:1263, in _stage_and_write_lock:
+       1261    @contextlib.contextmanager
+       1262    def _stage_and_write_lock(self):
+  >>   1263        """Prefix lock nested in a stage."""
+       1264        with self.stage:
+       1265            with spack.store.db.prefix_write_lock(self.spec):
+       1266                yield
+
+
+Traceback (most recent call last):
+  File "/scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/lib/spack/spack/build_environment.py", line 767, in child_process
+    return_value = function()
+  File "/scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/lib/spack/spack/package.py", line 1503, in build_process
+    with self._stage_and_write_lock():
+  File "/usr/lib64/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/lib/spack/spack/package.py", line 1264, in _stage_and_write_lock
+    with self.stage:
+  File "/scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/lib/spack/spack/stage.py", line 569, in __enter__
+    item.__enter__()
+  File "/scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/lib/spack/spack/stage.py", line 228, in __enter__
+    self._lock.acquire_write(timeout=60)
+  File "/scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/lib/spack/llnl/util/lock.py", line 279, in acquire_write
+    wait_time, nattempts = self._lock(fcntl.LOCK_EX, timeout=timeout)
+  File "/scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/lib/spack/spack/util/lock.py", line 31, in _lock
+    return super(Lock, self)._lock(op, timeout)
+  File "/scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/lib/spack/llnl/util/lock.py", line 151, in _lock
+    raise LockTimeoutError("Timed out waiting for lock.")
+LockTimeoutError: Timed out waiting for lock.
+dantopa@cn211:pr-openmpi-3.1.4.spack $ 

@@ -1,0 +1,4 @@
+Tue Apr 16 10:36:51 MDT 2019
+
+bin/spack find libhio
+==> No package matches the query: libhio

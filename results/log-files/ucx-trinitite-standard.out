@@ -1,0 +1,3 @@
+Thu Apr 18 17:07:45 MDT 2019
+spack find ucx >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/scripts/spack-status/ucx-trinitite-standard.out
+==> No package matches the query: ucx

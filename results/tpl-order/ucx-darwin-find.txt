@@ -1,0 +1,63 @@
+Mon Apr 15 14:26:11 MDT 2019
+bin/spack find ucx
+
+==> 22 installed packages
+-- linux-centos7-x86_64 / gcc@4.8.5 -----------------------------
+ucx@1.2.2
+ucx@1.3.1
+ucx@1.4.0
+ucx@1.5.0
+
+-- linux-centos7-x86_64 / gcc@4.9.3 -----------------------------
+ucx@1.2.2
+ucx@1.3.1
+ucx@1.4.0
+ucx@1.5.0
+
+-- linux-centos7-x86_64 / gcc@5.5.0 -----------------------------
+ucx@1.2.2
+ucx@1.3.1
+ucx@1.4.0
+ucx@1.5.0
+
+-- linux-centos7-x86_64 / gcc@6.4.0 -----------------------------
+ucx@1.2.2
+ucx@1.3.1
+ucx@1.4.0
+ucx@1.5.0
+
+-- linux-centos7-x86_64 / gcc@7.3.0 -----------------------------
+ucx@1.2.2
+ucx@1.3.1
+ucx@1.4.0
+ucx@1.5.0
+
+-- linux-centos7-x86_64 / gcc@8.2.0 -----------------------------
+ucx@1.3.1
+ucx@1.4.0
+bin/spack find ucx
+
+==> 13 installed packages
+-- linux-rhel7-aarch64 / clang@18.4.0 ---------------------------
+ucx@1.3.1
+ucx@1.4.0
+ucx@1.5.0
+
+-- linux-rhel7-aarch64 / gcc@4.8.5 ------------------------------
+ucx@1.2.2
+ucx@1.3.1
+ucx@1.4.0
+ucx@1.5.0
+
+-- linux-rhel7-aarch64 / gcc@7.1.0 ------------------------------
+ucx@1.2.2
+ucx@1.3.1
+ucx@1.4.0
+ucx@1.5.0
+
+-- linux-rhel7-aarch64 / gcc@8.2.0 ------------------------------
+ucx@1.3.1
+ucx@1.4.0
+bin/spack find ucx
+
+==> No package matches the query: ucx

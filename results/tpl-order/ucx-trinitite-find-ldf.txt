@@ -1,0 +1,4 @@
+Thu Apr 18 17:19:02 MDT 2019
+
+bin/spack find -ldf ucx
+==> No package matches the query: ucx

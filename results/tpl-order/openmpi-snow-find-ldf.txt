@@ -1,0 +1,4 @@
+Tue Apr 16 10:39:32 MDT 2019
+
+bin/spack find -ldf openmpi
+==> No package matches the query: openmpi
