@@ -1,0 +1,1449 @@
+Wed Apr 24 10:40:22 MDT 2019
+
+
+spack install openmpi @ 4.0.1 % clang@7.0.0  arch=linux-rhel7-ppc64le
+
+spack install openmpi @ 4.0.1 % gcc@8.2.0  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : generating module file
+==> libtool@2.4.6 : registering into DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : generating module file
+==> pkg-config@0.29.2 : registering into DB
+==> Installing util-macros
+==> Searching for binary cache of util-macros
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for util-macros found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/util-macros/util-macros-1.19.1.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/util-macros-1.19.1-mkq77h7pb7svkcvmftbhlbi4brdoc4w4/util-macros-1.19.1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/util-macros-1.19.1-mkq77h7pb7svkcvmftbhlbi4brdoc4w4
+==> No patches needed for util-macros
+==> Building util-macros [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed util-macros
+  Fetch: 0.11s.  Build: 1.60s.  Total: 1.72s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-8.2.0/util-macros-1.19.1-mkq77h7pb7svkcvmftbhlbi4brdoc4w4
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-34jrd4xrlvsdpdv65gf3slewdqn65br5/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-34jrd4xrlvsdpdv65gf3slewdqn65br5
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libpciaccess
+  Fetch: 0.09s.  Build: 9.04s.  Total: 9.12s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-8.2.0/libpciaccess-0.13.5-34jrd4xrlvsdpdv65gf3slewdqn65br5
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : generating module file
+==> libxml2@2.9.8 : registering into DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : generating module file
+==> numactl@2.0.12 : registering into DB
+==> Installing hwloc
+==> Searching for binary cache of hwloc
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hwloc found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/hwloc/hwloc-1.11.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/hwloc-1.11.11-bnthjtz4l3g7ogazywtwomwuzvubxrr7/hwloc-1.11.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/hwloc-1.11.11-bnthjtz4l3g7ogazywtwomwuzvubxrr7
+==> No patches needed for hwloc
+==> Building hwloc [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed hwloc
+  Fetch: 0.18s.  Build: 32.10s.  Total: 32.28s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-8.2.0/hwloc-1.11.11-bnthjtz4l3g7ogazywtwomwuzvubxrr7
+==> Installing zlib
+==> Searching for binary cache of zlib
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for zlib found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/zlib/zlib-1.2.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/zlib-1.2.11-vgftsvfmckp36w2o6y5zrv45yoa52bfs/zlib-1.2.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/zlib-1.2.11-vgftsvfmckp36w2o6y5zrv45yoa52bfs
+==> No patches needed for zlib
+==> Building zlib [Package]
+==> Executing phase: 'install'
+==> Successfully installed zlib
+  Fetch: 0.48s.  Build: 17.59s.  Total: 18.07s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-8.2.0/zlib-1.2.11-vgftsvfmckp36w2o6y5zrv45yoa52bfs
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/openmpi/openmpi-4.0.1.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-4.0.1-fnxfedqrrw76misoir2g6c2gaxj66fag/openmpi-4.0.1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-4.0.1-fnxfedqrrw76misoir2g6c2gaxj66fag
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.14s.  Build: 11m 9.64s.  Total: 11m 9.78s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-8.2.0/openmpi-4.0.1-fnxfedqrrw76misoir2g6c2gaxj66fag
+
+spack install openmpi @ 4.0.1 % gcc@7.3.0  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : generating module file
+==> libtool@2.4.6 : registering into DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : generating module file
+==> pkg-config@0.29.2 : registering into DB
+==> Installing util-macros
+==> Searching for binary cache of util-macros
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for util-macros found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/util-macros/util-macros-1.19.1.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/util-macros-1.19.1-qfyd3bruhmravrxxgnry6btczexk3hld/util-macros-1.19.1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/util-macros-1.19.1-qfyd3bruhmravrxxgnry6btczexk3hld
+==> No patches needed for util-macros
+==> Building util-macros [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed util-macros
+  Fetch: 0.00s.  Build: 1.56s.  Total: 1.56s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.0/util-macros-1.19.1-qfyd3bruhmravrxxgnry6btczexk3hld
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-flx3yxjcuze5f3euuzhsq3y52telzr3z/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-flx3yxjcuze5f3euuzhsq3y52telzr3z
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libpciaccess
+  Fetch: 0.00s.  Build: 9.41s.  Total: 9.42s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.0/libpciaccess-0.13.5-flx3yxjcuze5f3euuzhsq3y52telzr3z
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : generating module file
+==> libxml2@2.9.8 : registering into DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : generating module file
+==> numactl@2.0.12 : registering into DB
+==> Installing hwloc
+==> Searching for binary cache of hwloc
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hwloc found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/hwloc/hwloc-1.11.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/hwloc-1.11.11-u522lpowjlbwhcomkq4rvjubah42juhd/hwloc-1.11.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/hwloc-1.11.11-u522lpowjlbwhcomkq4rvjubah42juhd
+==> No patches needed for hwloc
+==> Building hwloc [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed hwloc
+  Fetch: 0.02s.  Build: 31.37s.  Total: 31.39s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.0/hwloc-1.11.11-u522lpowjlbwhcomkq4rvjubah42juhd
+==> Installing zlib
+==> Searching for binary cache of zlib
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for zlib found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/zlib/zlib-1.2.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/zlib-1.2.11-p5okwa3bjpvjro3jy73qdstf655cyfru/zlib-1.2.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/zlib-1.2.11-p5okwa3bjpvjro3jy73qdstf655cyfru
+==> No patches needed for zlib
+==> Building zlib [Package]
+==> Executing phase: 'install'
+==> Successfully installed zlib
+  Fetch: 0.01s.  Build: 2.18s.  Total: 2.19s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.0/zlib-1.2.11-p5okwa3bjpvjro3jy73qdstf655cyfru
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/openmpi/openmpi-4.0.1.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-4.0.1-2iz2f5xsr35vlo6trflttyphgotqagar/openmpi-4.0.1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-4.0.1-2iz2f5xsr35vlo6trflttyphgotqagar
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.04s.  Build: 11m 1.43s.  Total: 11m 1.47s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.0/openmpi-4.0.1-2iz2f5xsr35vlo6trflttyphgotqagar
+
+spack install openmpi @ 4.0.1 % gcc@6.4.0  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : generating module file
+==> libtool@2.4.6 : registering into DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : generating module file
+==> pkg-config@0.29.2 : registering into DB
+==> Installing util-macros
+==> Searching for binary cache of util-macros
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for util-macros found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/util-macros/util-macros-1.19.1.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/util-macros-1.19.1-rcz3ib2mo2jxwbwgznnzgumuxigj6j23/util-macros-1.19.1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/util-macros-1.19.1-rcz3ib2mo2jxwbwgznnzgumuxigj6j23
+==> No patches needed for util-macros
+==> Building util-macros [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed util-macros
+  Fetch: 0.00s.  Build: 1.63s.  Total: 1.64s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-6.4.0/util-macros-1.19.1-rcz3ib2mo2jxwbwgznnzgumuxigj6j23
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-xsxy3snffcrsfzdgst5htepwondbd2gb/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-xsxy3snffcrsfzdgst5htepwondbd2gb
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libpciaccess
+  Fetch: 0.00s.  Build: 9.23s.  Total: 9.23s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-6.4.0/libpciaccess-0.13.5-xsxy3snffcrsfzdgst5htepwondbd2gb
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : generating module file
+==> libxml2@2.9.8 : registering into DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : generating module file
+==> numactl@2.0.12 : registering into DB
+==> Installing hwloc
+==> Searching for binary cache of hwloc
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hwloc found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/hwloc/hwloc-1.11.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/hwloc-1.11.11-grntfnjig2h47kid4o6klmzvlgt2fao7/hwloc-1.11.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/hwloc-1.11.11-grntfnjig2h47kid4o6klmzvlgt2fao7
+==> No patches needed for hwloc
+==> Building hwloc [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed hwloc
+  Fetch: 0.02s.  Build: 30.52s.  Total: 30.54s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-6.4.0/hwloc-1.11.11-grntfnjig2h47kid4o6klmzvlgt2fao7
+==> Installing zlib
+==> Searching for binary cache of zlib
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for zlib found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/zlib/zlib-1.2.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/zlib-1.2.11-fvgnqf6k3ffhltldndu7pmntzvoyfsk4/zlib-1.2.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/zlib-1.2.11-fvgnqf6k3ffhltldndu7pmntzvoyfsk4
+==> No patches needed for zlib
+==> Building zlib [Package]
+==> Executing phase: 'install'
+==> Successfully installed zlib
+  Fetch: 0.01s.  Build: 2.09s.  Total: 2.10s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-6.4.0/zlib-1.2.11-fvgnqf6k3ffhltldndu7pmntzvoyfsk4
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/openmpi/openmpi-4.0.1.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-4.0.1-sqjk33aedbqsol6jph4xfugaid7xlswp/openmpi-4.0.1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-4.0.1-sqjk33aedbqsol6jph4xfugaid7xlswp
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.04s.  Build: 10m 51.41s.  Total: 10m 51.45s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-6.4.0/openmpi-4.0.1-sqjk33aedbqsol6jph4xfugaid7xlswp
+
+spack install openmpi @ 4.0.1 % gcc@4.8.5  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : generating module file
+==> libtool@2.4.6 : registering into DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : generating module file
+==> pkg-config@0.29.2 : registering into DB
+==> Installing util-macros
+==> Searching for binary cache of util-macros
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for util-macros found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/util-macros/util-macros-1.19.1.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/util-macros-1.19.1-bgjmgbpsppmylrvzzup2sniygreyyjik/util-macros-1.19.1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/util-macros-1.19.1-bgjmgbpsppmylrvzzup2sniygreyyjik
+==> No patches needed for util-macros
+==> Building util-macros [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed util-macros
+  Fetch: 0.00s.  Build: 1.54s.  Total: 1.54s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/util-macros-1.19.1-bgjmgbpsppmylrvzzup2sniygreyyjik
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-uzm3xdvyt3yjt3rgvnwuok5rlqvxeuho/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-uzm3xdvyt3yjt3rgvnwuok5rlqvxeuho
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libpciaccess
+  Fetch: 0.00s.  Build: 7.85s.  Total: 7.85s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/libpciaccess-0.13.5-uzm3xdvyt3yjt3rgvnwuok5rlqvxeuho
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : generating module file
+==> libxml2@2.9.8 : registering into DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : generating module file
+==> numactl@2.0.12 : registering into DB
+==> Installing hwloc
+==> Searching for binary cache of hwloc
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hwloc found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/hwloc/hwloc-1.11.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/hwloc-1.11.11-r6cylpu5w4cpe73wc6febasafsb4e3l3/hwloc-1.11.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/hwloc-1.11.11-r6cylpu5w4cpe73wc6febasafsb4e3l3
+==> No patches needed for hwloc
+==> Building hwloc [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed hwloc
+  Fetch: 0.02s.  Build: 25.23s.  Total: 25.25s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/hwloc-1.11.11-r6cylpu5w4cpe73wc6febasafsb4e3l3
+==> Installing zlib
+==> Searching for binary cache of zlib
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for zlib found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/zlib/zlib-1.2.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/zlib-1.2.11-4v3ticyykh2xcgw5fzltjrfuxkx7ipqh/zlib-1.2.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/zlib-1.2.11-4v3ticyykh2xcgw5fzltjrfuxkx7ipqh
+==> No patches needed for zlib
+==> Building zlib [Package]
+==> Executing phase: 'install'
+==> Successfully installed zlib
+  Fetch: 0.00s.  Build: 1.98s.  Total: 1.98s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/zlib-1.2.11-4v3ticyykh2xcgw5fzltjrfuxkx7ipqh
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/openmpi/openmpi-4.0.1.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-4.0.1-tkze2gfc7cpy4qye5tu4qvuq6vx6uopj/openmpi-4.0.1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-4.0.1-tkze2gfc7cpy4qye5tu4qvuq6vx6uopj
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.04s.  Build: 9m 21.06s.  Total: 9m 21.10s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/openmpi-4.0.1-tkze2gfc7cpy4qye5tu4qvuq6vx6uopj
+
+spack install openmpi @ 4.0.1 % pgi@18.10  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : generating module file
+==> libtool@2.4.6 : registering into DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : generating module file
+==> pkg-config@0.29.2 : registering into DB
+==> Installing util-macros
+==> Searching for binary cache of util-macros
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for util-macros found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/util-macros/util-macros-1.19.1.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/util-macros-1.19.1-mldraxpsgrs5xbwdy4hh4np7b4pdhryn/util-macros-1.19.1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/util-macros-1.19.1-mldraxpsgrs5xbwdy4hh4np7b4pdhryn
+==> No patches needed for util-macros
+==> Building util-macros [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed util-macros
+  Fetch: 0.00s.  Build: 1.59s.  Total: 1.60s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-18.10/util-macros-1.19.1-mldraxpsgrs5xbwdy4hh4np7b4pdhryn
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-tuuifqhuodpxphvj2455uzqursorzbwr/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-tuuifqhuodpxphvj2455uzqursorzbwr
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libpciaccess
+  Fetch: 0.00s.  Build: 58.04s.  Total: 58.04s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-18.10/libpciaccess-0.13.5-tuuifqhuodpxphvj2455uzqursorzbwr
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : generating module file
+==> libxml2@2.9.8 : registering into DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : generating module file
+==> numactl@2.0.12 : registering into DB
+==> Installing hwloc
+==> Searching for binary cache of hwloc
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hwloc found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/hwloc/hwloc-1.11.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/hwloc-1.11.11-ckoq5tzku3yybcivov2txkmy3wj7e4ae/hwloc-1.11.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/hwloc-1.11.11-ckoq5tzku3yybcivov2txkmy3wj7e4ae
+==> No patches needed for hwloc
+==> Building hwloc [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed hwloc
+  Fetch: 0.02s.  Build: 4m 11.79s.  Total: 4m 11.81s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-18.10/hwloc-1.11.11-ckoq5tzku3yybcivov2txkmy3wj7e4ae
+==> Installing zlib
+==> Searching for binary cache of zlib
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for zlib found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/zlib/zlib-1.2.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/zlib-1.2.11-ygyqqzne7bmtohiyllxfxaiwqybbrnz2/zlib-1.2.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/zlib-1.2.11-ygyqqzne7bmtohiyllxfxaiwqybbrnz2
+==> No patches needed for zlib
+==> Building zlib [Package]
+==> Executing phase: 'install'
+==> Successfully installed zlib
+  Fetch: 0.01s.  Build: 17.11s.  Total: 17.12s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-18.10/zlib-1.2.11-ygyqqzne7bmtohiyllxfxaiwqybbrnz2
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/openmpi/openmpi-4.0.1.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-4.0.1-sw6xtdt3n5nnmv7acomwl5bc53rp6hin/openmpi-4.0.1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-4.0.1-sw6xtdt3n5nnmv7acomwl5bc53rp6hin
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.04s.  Build: 45m 11.44s.  Total: 45m 11.48s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-18.10/openmpi-4.0.1-sw6xtdt3n5nnmv7acomwl5bc53rp6hin
+
+spack install openmpi @ 4.0.1 % pgi@17.10  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : generating module file
+==> libtool@2.4.6 : registering into DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : generating module file
+==> pkg-config@0.29.2 : registering into DB
+==> Installing util-macros
+==> Searching for binary cache of util-macros
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for util-macros found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/util-macros/util-macros-1.19.1.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/util-macros-1.19.1-ao4zgmpb6usiklhsh36smkhkdgjdtdgn/util-macros-1.19.1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/util-macros-1.19.1-ao4zgmpb6usiklhsh36smkhkdgjdtdgn
+==> No patches needed for util-macros
+==> Building util-macros [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed util-macros
+  Fetch: 0.00s.  Build: 1.70s.  Total: 1.70s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-17.10/util-macros-1.19.1-ao4zgmpb6usiklhsh36smkhkdgjdtdgn
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-dy65i7h5q2jb43avosgtmgjuqfq43qyf/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-dy65i7h5q2jb43avosgtmgjuqfq43qyf
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libpciaccess
+  Fetch: 0.00s.  Build: 15.96s.  Total: 15.96s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-17.10/libpciaccess-0.13.5-dy65i7h5q2jb43avosgtmgjuqfq43qyf
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : generating module file
+==> libxml2@2.9.8 : registering into DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : generating module file
+==> numactl@2.0.12 : registering into DB
+==> Installing hwloc
+==> Searching for binary cache of hwloc
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hwloc found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/hwloc/hwloc-1.11.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/hwloc-1.11.11-ebtztl3uh65jvyxh4d3o6tm6qbkjq23c/hwloc-1.11.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/hwloc-1.11.11-ebtztl3uh65jvyxh4d3o6tm6qbkjq23c
+==> No patches needed for hwloc
+==> Building hwloc [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed hwloc
+  Fetch: 0.02s.  Build: 45.52s.  Total: 45.53s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-17.10/hwloc-1.11.11-ebtztl3uh65jvyxh4d3o6tm6qbkjq23c
+==> Installing zlib
+==> Searching for binary cache of zlib
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for zlib found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/zlib/zlib-1.2.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/zlib-1.2.11-djtus7bgda7vbkc6szkviz4gvsgjn7md/zlib-1.2.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/zlib-1.2.11-djtus7bgda7vbkc6szkviz4gvsgjn7md
+==> No patches needed for zlib
+==> Building zlib [Package]
+==> Executing phase: 'install'
+==> Successfully installed zlib
+  Fetch: 0.01s.  Build: 3.48s.  Total: 3.48s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-17.10/zlib-1.2.11-djtus7bgda7vbkc6szkviz4gvsgjn7md
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/openmpi/openmpi-4.0.1.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-4.0.1-625f3b7n5heuqcumlddjqn63c5dsyk6d/openmpi-4.0.1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-4.0.1-625f3b7n5heuqcumlddjqn63c5dsyk6d
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.04s.  Build: 18m 37.39s.  Total: 18m 37.43s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-17.10/openmpi-4.0.1-625f3b7n5heuqcumlddjqn63c5dsyk6d
+
+spack install openmpi @ 4.0.1 % pgi@16.10  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : generating module file
+==> libtool@2.4.6 : registering into DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : generating module file
+==> pkg-config@0.29.2 : registering into DB
+==> Installing util-macros
+==> Searching for binary cache of util-macros
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for util-macros found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/util-macros/util-macros-1.19.1.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/util-macros-1.19.1-x5kdgd5jg4lonc2p663jiod4ykxmhcqc/util-macros-1.19.1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/util-macros-1.19.1-x5kdgd5jg4lonc2p663jiod4ykxmhcqc
+==> No patches needed for util-macros
+==> Building util-macros [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed util-macros
+  Fetch: 0.00s.  Build: 1.69s.  Total: 1.69s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-16.10/util-macros-1.19.1-x5kdgd5jg4lonc2p663jiod4ykxmhcqc
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-7tjc2smd3drwxcu5k24nlp7jr2cadihv/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-7tjc2smd3drwxcu5k24nlp7jr2cadihv
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libpciaccess
+  Fetch: 0.00s.  Build: 15.52s.  Total: 15.53s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-16.10/libpciaccess-0.13.5-7tjc2smd3drwxcu5k24nlp7jr2cadihv
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : generating module file
+==> libxml2@2.9.8 : registering into DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : generating module file
+==> numactl@2.0.12 : registering into DB
+==> Installing hwloc
+==> Searching for binary cache of hwloc
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hwloc found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/hwloc/hwloc-1.11.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/hwloc-1.11.11-d3vvnhhglbj4vpqag3ite5ymvpyo46l7/hwloc-1.11.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/hwloc-1.11.11-d3vvnhhglbj4vpqag3ite5ymvpyo46l7
+==> No patches needed for hwloc
+==> Building hwloc [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed hwloc
+  Fetch: 0.02s.  Build: 44.30s.  Total: 44.32s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-16.10/hwloc-1.11.11-d3vvnhhglbj4vpqag3ite5ymvpyo46l7
+==> Installing zlib
+==> Searching for binary cache of zlib
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for zlib found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/zlib/zlib-1.2.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/zlib-1.2.11-r6wazffbckf6xq2ttxzrjj5uperx4bvb/zlib-1.2.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/zlib-1.2.11-r6wazffbckf6xq2ttxzrjj5uperx4bvb
+==> No patches needed for zlib
+==> Building zlib [Package]
+==> Executing phase: 'install'
+
+spack install openmpi @ 4.0.1 % xl@16.1  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : generating module file
+==> libtool@2.4.6 : registering into DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : generating module file
+==> pkg-config@0.29.2 : registering into DB
+==> Installing util-macros
+==> Searching for binary cache of util-macros
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for util-macros found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/util-macros/util-macros-1.19.1.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/util-macros-1.19.1-tcfngius5m55spkimeko3a4bn4egqmm5/util-macros-1.19.1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/util-macros-1.19.1-tcfngius5m55spkimeko3a4bn4egqmm5
+==> No patches needed for util-macros
+==> Building util-macros [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed util-macros
+  Fetch: 0.00s.  Build: 1.85s.  Total: 1.86s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.1/util-macros-1.19.1-tcfngius5m55spkimeko3a4bn4egqmm5
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-lq2srmbiltnl3igxtxc5oncnfzyat6si/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-lq2srmbiltnl3igxtxc5oncnfzyat6si
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libpciaccess
+  Fetch: 0.00s.  Build: 12.86s.  Total: 12.86s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.1/libpciaccess-0.13.5-lq2srmbiltnl3igxtxc5oncnfzyat6si
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : generating module file
+==> libxml2@2.9.8 : registering into DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : generating module file
+==> numactl@2.0.12 : registering into DB
+==> Installing hwloc
+==> Searching for binary cache of hwloc
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hwloc found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/hwloc/hwloc-1.11.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/hwloc-1.11.11-nbsasky5tkr7ydihxqnq32vkwq6o3fhs/hwloc-1.11.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/hwloc-1.11.11-nbsasky5tkr7ydihxqnq32vkwq6o3fhs
+==> No patches needed for hwloc
+==> Building hwloc [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed hwloc
+  Fetch: 0.02s.  Build: 1m 24.73s.  Total: 1m 24.75s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.1/hwloc-1.11.11-nbsasky5tkr7ydihxqnq32vkwq6o3fhs
+==> Installing zlib
+==> Searching for binary cache of zlib
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for zlib found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/zlib/zlib-1.2.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/zlib-1.2.11-cx7rtvagkpnjod4wpcgpkvnm2zduvlf3/zlib-1.2.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/zlib-1.2.11-cx7rtvagkpnjod4wpcgpkvnm2zduvlf3
+==> No patches needed for zlib
+==> Building zlib [Package]
+==> Executing phase: 'install'
+==> Successfully installed zlib
+  Fetch: 0.01s.  Build: 2.49s.  Total: 2.50s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.1/zlib-1.2.11-cx7rtvagkpnjod4wpcgpkvnm2zduvlf3
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/openmpi/openmpi-4.0.1.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-4.0.1-hf2apoylsdoysab57gdq47zdtkqk7lsy/openmpi-4.0.1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-4.0.1-hf2apoylsdoysab57gdq47zdtkqk7lsy
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install openmpi @ 3.1.4 % clang@7.0.0  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : generating module file
+==> libtool@2.4.6 : registering into DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : generating module file
+==> pkg-config@0.29.2 : registering into DB
+==> Installing util-macros
+==> Searching for binary cache of util-macros
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for util-macros found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/util-macros/util-macros-1.19.1.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/util-macros-1.19.1-3kyopixydtgnpmyyq6f7vcnpf2thqwwk/util-macros-1.19.1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/util-macros-1.19.1-3kyopixydtgnpmyyq6f7vcnpf2thqwwk
+==> No patches needed for util-macros
+==> Building util-macros [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed util-macros
+  Fetch: 0.00s.  Build: 1.62s.  Total: 1.62s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/clang-7.0.0/util-macros-1.19.1-3kyopixydtgnpmyyq6f7vcnpf2thqwwk
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-kwmfvvula65cikru2gzpt3uls4vrhs6h/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-kwmfvvula65cikru2gzpt3uls4vrhs6h
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install openmpi @ 3.1.4 % gcc@8.2.0  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-8.2.0/util-macros-1.19.1-mkq77h7pb7svkcvmftbhlbi4brdoc4w4
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-8.2.0/libpciaccess-0.13.5-34jrd4xrlvsdpdv65gf3slewdqn65br5
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-8.2.0/hwloc-1.11.11-bnthjtz4l3g7ogazywtwomwuzvubxrr7
+==> zlib is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-8.2.0/zlib-1.2.11-vgftsvfmckp36w2o6y5zrv45yoa52bfs
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/openmpi/openmpi-3.1.4.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-3.1.4-2nrealqardkn3kkx26v5f4otplbqxujf/openmpi-3.1.4.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-3.1.4-2nrealqardkn3kkx26v5f4otplbqxujf
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.20s.  Build: 11m 23.54s.  Total: 11m 23.73s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-8.2.0/openmpi-3.1.4-2nrealqardkn3kkx26v5f4otplbqxujf
+
+spack install openmpi @ 3.1.4 % gcc@7.3.0  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.0/util-macros-1.19.1-qfyd3bruhmravrxxgnry6btczexk3hld
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.0/libpciaccess-0.13.5-flx3yxjcuze5f3euuzhsq3y52telzr3z
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.0/hwloc-1.11.11-u522lpowjlbwhcomkq4rvjubah42juhd
+==> zlib is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.0/zlib-1.2.11-p5okwa3bjpvjro3jy73qdstf655cyfru
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/openmpi/openmpi-3.1.4.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-3.1.4-jxdcwfnwrier2r4upv4lph7knc4aloap/openmpi-3.1.4.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-3.1.4-jxdcwfnwrier2r4upv4lph7knc4aloap
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.02s.  Build: 11m 21.29s.  Total: 11m 21.31s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.0/openmpi-3.1.4-jxdcwfnwrier2r4upv4lph7knc4aloap
+
+spack install openmpi @ 3.1.4 % gcc@6.4.0  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-6.4.0/util-macros-1.19.1-rcz3ib2mo2jxwbwgznnzgumuxigj6j23
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-6.4.0/libpciaccess-0.13.5-xsxy3snffcrsfzdgst5htepwondbd2gb
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-6.4.0/hwloc-1.11.11-grntfnjig2h47kid4o6klmzvlgt2fao7
+==> zlib is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-6.4.0/zlib-1.2.11-fvgnqf6k3ffhltldndu7pmntzvoyfsk4
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/openmpi/openmpi-3.1.4.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-3.1.4-modtwyat3nxuldf4ke7ksc5lt52lfvmr/openmpi-3.1.4.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-3.1.4-modtwyat3nxuldf4ke7ksc5lt52lfvmr
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.02s.  Build: 11m 8.72s.  Total: 11m 8.74s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-6.4.0/openmpi-3.1.4-modtwyat3nxuldf4ke7ksc5lt52lfvmr
+
+spack install openmpi @ 3.1.4 % gcc@4.8.5  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/util-macros-1.19.1-bgjmgbpsppmylrvzzup2sniygreyyjik
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/libpciaccess-0.13.5-uzm3xdvyt3yjt3rgvnwuok5rlqvxeuho
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/hwloc-1.11.11-r6cylpu5w4cpe73wc6febasafsb4e3l3
+==> zlib is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/zlib-1.2.11-4v3ticyykh2xcgw5fzltjrfuxkx7ipqh
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/openmpi/openmpi-3.1.4.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-3.1.4-tv3vjxhnn2jj44qc6dkf6ri65ebxqcwn/openmpi-3.1.4.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-3.1.4-tv3vjxhnn2jj44qc6dkf6ri65ebxqcwn
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.02s.  Build: 9m 35.39s.  Total: 9m 35.41s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/openmpi-3.1.4-tv3vjxhnn2jj44qc6dkf6ri65ebxqcwn
+
+spack install openmpi @ 3.1.4 % pgi@18.10  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-18.10/util-macros-1.19.1-mldraxpsgrs5xbwdy4hh4np7b4pdhryn
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-18.10/libpciaccess-0.13.5-tuuifqhuodpxphvj2455uzqursorzbwr
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-18.10/hwloc-1.11.11-ckoq5tzku3yybcivov2txkmy3wj7e4ae
+==> zlib is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-18.10/zlib-1.2.11-ygyqqzne7bmtohiyllxfxaiwqybbrnz2
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/openmpi/openmpi-3.1.4.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-3.1.4-l55e3eb3l425lh2ydaa5wbctgokvzjg4/openmpi-3.1.4.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-3.1.4-l55e3eb3l425lh2ydaa5wbctgokvzjg4
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install openmpi @ 3.1.4 % pgi@17.10  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-17.10/util-macros-1.19.1-ao4zgmpb6usiklhsh36smkhkdgjdtdgn
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-17.10/libpciaccess-0.13.5-dy65i7h5q2jb43avosgtmgjuqfq43qyf
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-17.10/hwloc-1.11.11-ebtztl3uh65jvyxh4d3o6tm6qbkjq23c
+==> zlib is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-17.10/zlib-1.2.11-djtus7bgda7vbkc6szkviz4gvsgjn7md
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/openmpi/openmpi-3.1.4.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-3.1.4-hmwh4o5qhsp5zvug2t2wlapimg5ex5sk/openmpi-3.1.4.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-3.1.4-hmwh4o5qhsp5zvug2t2wlapimg5ex5sk
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.02s.  Build: 19m 9.92s.  Total: 19m 9.94s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-17.10/openmpi-3.1.4-hmwh4o5qhsp5zvug2t2wlapimg5ex5sk
+
+spack install openmpi @ 3.1.4 % pgi@16.10  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-16.10/util-macros-1.19.1-x5kdgd5jg4lonc2p663jiod4ykxmhcqc
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-16.10/libpciaccess-0.13.5-7tjc2smd3drwxcu5k24nlp7jr2cadihv
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-16.10/hwloc-1.11.11-d3vvnhhglbj4vpqag3ite5ymvpyo46l7
+==> Installing zlib
+==> Searching for binary cache of zlib
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for zlib found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/zlib/zlib-1.2.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/zlib-1.2.11-r6wazffbckf6xq2ttxzrjj5uperx4bvb/zlib-1.2.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/zlib-1.2.11-r6wazffbckf6xq2ttxzrjj5uperx4bvb
+==> No patches needed for zlib
+==> Building zlib [Package]
+==> Executing phase: 'install'
+
+spack install openmpi @ 3.1.4 % xl@16.1  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.1/util-macros-1.19.1-tcfngius5m55spkimeko3a4bn4egqmm5
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.1/libpciaccess-0.13.5-lq2srmbiltnl3igxtxc5oncnfzyat6si
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.1/hwloc-1.11.11-nbsasky5tkr7ydihxqnq32vkwq6o3fhs
+==> zlib is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.1/zlib-1.2.11-cx7rtvagkpnjod4wpcgpkvnm2zduvlf3
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/openmpi/openmpi-3.1.4.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-3.1.4-jo7kqya6ocpa637taap3mf3pylw5w6e3/openmpi-3.1.4.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-3.1.4-jo7kqya6ocpa637taap3mf3pylw5w6e3
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install openmpi @ 3.0.4 % clang@7.0.0  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/clang-7.0.0/util-macros-1.19.1-3kyopixydtgnpmyyq6f7vcnpf2thqwwk
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-kwmfvvula65cikru2gzpt3uls4vrhs6h/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-kwmfvvula65cikru2gzpt3uls4vrhs6h
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install openmpi @ 3.0.4 % gcc@8.2.0  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-8.2.0/util-macros-1.19.1-mkq77h7pb7svkcvmftbhlbi4brdoc4w4
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-8.2.0/libpciaccess-0.13.5-34jrd4xrlvsdpdv65gf3slewdqn65br5
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-8.2.0/hwloc-1.11.11-bnthjtz4l3g7ogazywtwomwuzvubxrr7
+==> zlib is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-8.2.0/zlib-1.2.11-vgftsvfmckp36w2o6y5zrv45yoa52bfs
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/openmpi/openmpi-3.0.4.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-3.0.4-ww7e7zm2m5yg7fpk3l5f6z3jqbw6htzr/openmpi-3.0.4.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-3.0.4-ww7e7zm2m5yg7fpk3l5f6z3jqbw6htzr
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.18s.  Build: 11m 4.54s.  Total: 11m 4.72s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-8.2.0/openmpi-3.0.4-ww7e7zm2m5yg7fpk3l5f6z3jqbw6htzr
+
+spack install openmpi @ 3.0.4 % gcc@7.3.0  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.0/util-macros-1.19.1-qfyd3bruhmravrxxgnry6btczexk3hld
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.0/libpciaccess-0.13.5-flx3yxjcuze5f3euuzhsq3y52telzr3z
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.0/hwloc-1.11.11-u522lpowjlbwhcomkq4rvjubah42juhd
+==> zlib is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.0/zlib-1.2.11-p5okwa3bjpvjro3jy73qdstf655cyfru
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/openmpi/openmpi-3.0.4.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-3.0.4-7u27rpr34wheobgf7klsqqvu7zqlp5b7/openmpi-3.0.4.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-3.0.4-7u27rpr34wheobgf7klsqqvu7zqlp5b7
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.04s.  Build: 11m 0.97s.  Total: 11m 1.01s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.0/openmpi-3.0.4-7u27rpr34wheobgf7klsqqvu7zqlp5b7
+
+spack install openmpi @ 3.0.4 % gcc@6.4.0  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-6.4.0/util-macros-1.19.1-rcz3ib2mo2jxwbwgznnzgumuxigj6j23
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-6.4.0/libpciaccess-0.13.5-xsxy3snffcrsfzdgst5htepwondbd2gb
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-6.4.0/hwloc-1.11.11-grntfnjig2h47kid4o6klmzvlgt2fao7
+==> zlib is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-6.4.0/zlib-1.2.11-fvgnqf6k3ffhltldndu7pmntzvoyfsk4
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/openmpi/openmpi-3.0.4.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-3.0.4-5wclfey6qgli524k7glh4yfq5ais7yfp/openmpi-3.0.4.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-3.0.4-5wclfey6qgli524k7glh4yfq5ais7yfp
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.04s.  Build: 10m 55.68s.  Total: 10m 55.72s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-6.4.0/openmpi-3.0.4-5wclfey6qgli524k7glh4yfq5ais7yfp
+
+spack install openmpi @ 3.0.4 % gcc@4.8.5  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/util-macros-1.19.1-bgjmgbpsppmylrvzzup2sniygreyyjik
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/libpciaccess-0.13.5-uzm3xdvyt3yjt3rgvnwuok5rlqvxeuho
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/hwloc-1.11.11-r6cylpu5w4cpe73wc6febasafsb4e3l3
+==> zlib is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/zlib-1.2.11-4v3ticyykh2xcgw5fzltjrfuxkx7ipqh
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/openmpi/openmpi-3.0.4.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-3.0.4-otirvfntqreagzb4e3wxit3rpaijw5kj/openmpi-3.0.4.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-3.0.4-otirvfntqreagzb4e3wxit3rpaijw5kj
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.04s.  Build: 9m 20.43s.  Total: 9m 20.47s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/openmpi-3.0.4-otirvfntqreagzb4e3wxit3rpaijw5kj
+
+spack install openmpi @ 3.0.4 % pgi@18.10  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-18.10/util-macros-1.19.1-mldraxpsgrs5xbwdy4hh4np7b4pdhryn
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-18.10/libpciaccess-0.13.5-tuuifqhuodpxphvj2455uzqursorzbwr
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-18.10/hwloc-1.11.11-ckoq5tzku3yybcivov2txkmy3wj7e4ae
+==> zlib is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-18.10/zlib-1.2.11-ygyqqzne7bmtohiyllxfxaiwqybbrnz2
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/openmpi/openmpi-3.0.4.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-3.0.4-ck5kl5ashax3hpl6e2b5ppwjenhhgzg6/openmpi-3.0.4.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-3.0.4-ck5kl5ashax3hpl6e2b5ppwjenhhgzg6
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.04s.  Build: 45m 54.53s.  Total: 45m 54.56s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-18.10/openmpi-3.0.4-ck5kl5ashax3hpl6e2b5ppwjenhhgzg6
+
+spack install openmpi @ 3.0.4 % pgi@17.10  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-17.10/util-macros-1.19.1-ao4zgmpb6usiklhsh36smkhkdgjdtdgn
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-17.10/libpciaccess-0.13.5-dy65i7h5q2jb43avosgtmgjuqfq43qyf
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-17.10/hwloc-1.11.11-ebtztl3uh65jvyxh4d3o6tm6qbkjq23c
+==> zlib is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-17.10/zlib-1.2.11-djtus7bgda7vbkc6szkviz4gvsgjn7md
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/openmpi/openmpi-3.0.4.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-3.0.4-uodyippegpirvvxpvsca4mxnarzsuety/openmpi-3.0.4.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-3.0.4-uodyippegpirvvxpvsca4mxnarzsuety
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.04s.  Build: 18m 46.40s.  Total: 18m 46.44s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-17.10/openmpi-3.0.4-uodyippegpirvvxpvsca4mxnarzsuety
+
+spack install openmpi @ 3.0.4 % pgi@16.10  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-16.10/util-macros-1.19.1-x5kdgd5jg4lonc2p663jiod4ykxmhcqc
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-16.10/libpciaccess-0.13.5-7tjc2smd3drwxcu5k24nlp7jr2cadihv
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-16.10/hwloc-1.11.11-d3vvnhhglbj4vpqag3ite5ymvpyo46l7
+==> Installing zlib
+==> Searching for binary cache of zlib
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for zlib found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/zlib/zlib-1.2.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/zlib-1.2.11-r6wazffbckf6xq2ttxzrjj5uperx4bvb/zlib-1.2.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/zlib-1.2.11-r6wazffbckf6xq2ttxzrjj5uperx4bvb
+==> No patches needed for zlib
+==> Building zlib [Package]
+==> Executing phase: 'install'
+
+spack install openmpi @ 3.0.4 % xl@16.1  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.1/util-macros-1.19.1-tcfngius5m55spkimeko3a4bn4egqmm5
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.1/libpciaccess-0.13.5-lq2srmbiltnl3igxtxc5oncnfzyat6si
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.1/hwloc-1.11.11-nbsasky5tkr7ydihxqnq32vkwq6o3fhs
+==> zlib is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.1/zlib-1.2.11-cx7rtvagkpnjod4wpcgpkvnm2zduvlf3
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/openmpi/openmpi-3.0.4.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-3.0.4-e64b6qubun6qvvsnasuaoe7t2my3x26c/openmpi-3.0.4.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-3.0.4-e64b6qubun6qvvsnasuaoe7t2my3x26c
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install openmpi @ 2.1.6 % clang@7.0.0  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/clang-7.0.0/util-macros-1.19.1-3kyopixydtgnpmyyq6f7vcnpf2thqwwk
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-kwmfvvula65cikru2gzpt3uls4vrhs6h/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-kwmfvvula65cikru2gzpt3uls4vrhs6h
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install openmpi @ 2.1.6 % gcc@8.2.0  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-8.2.0/util-macros-1.19.1-mkq77h7pb7svkcvmftbhlbi4brdoc4w4
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-8.2.0/libpciaccess-0.13.5-34jrd4xrlvsdpdv65gf3slewdqn65br5
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-8.2.0/hwloc-1.11.11-bnthjtz4l3g7ogazywtwomwuzvubxrr7
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/openmpi/openmpi-2.1.6.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-2.1.6-7qb3bnnzsaas2c7uba5jvpkmhojleoxf/openmpi-2.1.6.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-2.1.6-7qb3bnnzsaas2c7uba5jvpkmhojleoxf
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.14s.  Build: 9m 24.85s.  Total: 9m 25.00s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-8.2.0/openmpi-2.1.6-7qb3bnnzsaas2c7uba5jvpkmhojleoxf
+
+spack install openmpi @ 2.1.6 % gcc@7.3.0  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.0/util-macros-1.19.1-qfyd3bruhmravrxxgnry6btczexk3hld
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.0/libpciaccess-0.13.5-flx3yxjcuze5f3euuzhsq3y52telzr3z
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.0/hwloc-1.11.11-u522lpowjlbwhcomkq4rvjubah42juhd
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/openmpi/openmpi-2.1.6.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-2.1.6-67q7d67wt3qkm7bklvw5vv2t4fuuebkb/openmpi-2.1.6.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-2.1.6-67q7d67wt3qkm7bklvw5vv2t4fuuebkb
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.03s.  Build: 9m 19.62s.  Total: 9m 19.65s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.0/openmpi-2.1.6-67q7d67wt3qkm7bklvw5vv2t4fuuebkb
+
+spack install openmpi @ 2.1.6 % gcc@6.4.0  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-6.4.0/util-macros-1.19.1-rcz3ib2mo2jxwbwgznnzgumuxigj6j23
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-6.4.0/libpciaccess-0.13.5-xsxy3snffcrsfzdgst5htepwondbd2gb
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-6.4.0/hwloc-1.11.11-grntfnjig2h47kid4o6klmzvlgt2fao7
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/openmpi/openmpi-2.1.6.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-2.1.6-w37zjffr2kdkno3j4uriegpp2mpzzyhc/openmpi-2.1.6.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-2.1.6-w37zjffr2kdkno3j4uriegpp2mpzzyhc
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.03s.  Build: 9m 12.60s.  Total: 9m 12.64s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-6.4.0/openmpi-2.1.6-w37zjffr2kdkno3j4uriegpp2mpzzyhc
+
+spack install openmpi @ 2.1.6 % gcc@4.8.5  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/util-macros-1.19.1-bgjmgbpsppmylrvzzup2sniygreyyjik
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/libpciaccess-0.13.5-uzm3xdvyt3yjt3rgvnwuok5rlqvxeuho
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/hwloc-1.11.11-r6cylpu5w4cpe73wc6febasafsb4e3l3
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/openmpi/openmpi-2.1.6.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-2.1.6-nva7q77c7b6ccjcyzczo7amg2da2u7ih/openmpi-2.1.6.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-2.1.6-nva7q77c7b6ccjcyzczo7amg2da2u7ih
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.03s.  Build: 7m 49.14s.  Total: 7m 49.17s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/openmpi-2.1.6-nva7q77c7b6ccjcyzczo7amg2da2u7ih
+
+spack install openmpi @ 2.1.6 % pgi@18.10  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-18.10/util-macros-1.19.1-mldraxpsgrs5xbwdy4hh4np7b4pdhryn
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-18.10/libpciaccess-0.13.5-tuuifqhuodpxphvj2455uzqursorzbwr
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-18.10/hwloc-1.11.11-ckoq5tzku3yybcivov2txkmy3wj7e4ae
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/openmpi/openmpi-2.1.6.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-2.1.6-c7r2x6juxumgoy7e3kzjp5ggmvy2tghg/openmpi-2.1.6.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-2.1.6-c7r2x6juxumgoy7e3kzjp5ggmvy2tghg
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install openmpi @ 2.1.6 % pgi@17.10  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-17.10/util-macros-1.19.1-ao4zgmpb6usiklhsh36smkhkdgjdtdgn
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-17.10/libpciaccess-0.13.5-dy65i7h5q2jb43avosgtmgjuqfq43qyf
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-17.10/hwloc-1.11.11-ebtztl3uh65jvyxh4d3o6tm6qbkjq23c
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/openmpi/openmpi-2.1.6.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-2.1.6-cvqehog73xtiummx7j3pr72zpx3swffg/openmpi-2.1.6.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-2.1.6-cvqehog73xtiummx7j3pr72zpx3swffg
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.03s.  Build: 16m 9.08s.  Total: 16m 9.12s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-17.10/openmpi-2.1.6-cvqehog73xtiummx7j3pr72zpx3swffg
+
+spack install openmpi @ 2.1.6 % pgi@16.10  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-16.10/util-macros-1.19.1-x5kdgd5jg4lonc2p663jiod4ykxmhcqc
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-16.10/libpciaccess-0.13.5-7tjc2smd3drwxcu5k24nlp7jr2cadihv
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-16.10/hwloc-1.11.11-d3vvnhhglbj4vpqag3ite5ymvpyo46l7
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/openmpi/openmpi-2.1.6.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-2.1.6-qwkjn7jjt7urlq7dqpdvq5ln72qgdk2g/openmpi-2.1.6.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-2.1.6-qwkjn7jjt7urlq7dqpdvq5ln72qgdk2g
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install openmpi @ 2.1.6 % xl@16.1  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.1/util-macros-1.19.1-tcfngius5m55spkimeko3a4bn4egqmm5
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.1/libpciaccess-0.13.5-lq2srmbiltnl3igxtxc5oncnfzyat6si
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.1/hwloc-1.11.11-nbsasky5tkr7ydihxqnq32vkwq6o3fhs
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/cache/openmpi/openmpi-2.1.6.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-2.1.6-nql7aevnqasd6fxiedlcgy6akbqx27zj/openmpi-2.1.6.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-2.1.6-nql7aevnqasd6fxiedlcgy6akbqx27zj
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'

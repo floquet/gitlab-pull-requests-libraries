@@ -1,0 +1,24 @@
+Fri Apr 19 04:17:58 MDT 2019
+spack graph openmpi >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/openmpi-snow-standard-graph.out
+o  openmpi
+|\
+| |\
+o | |  zlib
+ / /
+| o  hwloc
+|/| 
+| |\
+| | |\
+| | | o  libpciaccess
+| | |/| 
+| |/| | 
+| | | |\
+| | | o |  util-macros
+| | |  /
+| o | |  pkg-config
+|  / /
+o | |  numactl
+ / /
+o |  libxml2
+ /
+o  libtool

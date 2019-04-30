@@ -1,0 +1,64 @@
+Fri Apr 26 14:09:47 MDT 2019
+/lustre/cpscratch1/dantopa/repos/spack/libraries/capulin-arm.libhio
+spack find -ldf libhio
+==> 5 installed packages
+-- cray-cnl6-arm_thunderx2 / gcc@7.3.0 --------------------------
+3rj4syy    libhio@1.4.1.2%gcc 
+d7nlyf6        ^bzip2@1.0.6%gcc 
+xu3jocj        ^hdf5@1.10.5%gcc 
+7ycszou            ^openmpi@3.1.4%gcc 
+escua5m                ^hwloc@1.11.11%gcc 
+x7gsesv                    ^libpciaccess@0.13.5%gcc 
+4wvodxv                    ^libxml2@2.9.8%gcc 
+7qperrt                ^numactl@2.0.12%gcc 
+23nzrkz                ^zlib@1.2.11%gcc 
+qxxks7t        ^json-c@0.13.1%gcc 
+
+wijwbtz    libhio@1.4.1.3%gcc 
+d7nlyf6        ^bzip2@1.0.6%gcc 
+xu3jocj        ^hdf5@1.10.5%gcc 
+7ycszou            ^openmpi@3.1.4%gcc 
+escua5m                ^hwloc@1.11.11%gcc 
+x7gsesv                    ^libpciaccess@0.13.5%gcc 
+4wvodxv                    ^libxml2@2.9.8%gcc 
+7qperrt                ^numactl@2.0.12%gcc 
+23nzrkz                ^zlib@1.2.11%gcc 
+qxxks7t        ^json-c@0.13.1%gcc 
+
+
+-- cray-cnl6-arm_thunderx2 / gcc@8.2.0 --------------------------
+4wtvyj3    libhio@1.4.1.2%gcc 
+kbzhw7t        ^bzip2@1.0.6%gcc 
+xnccfd4        ^hdf5@1.10.5%gcc 
+3qdkta5            ^openmpi@3.1.4%gcc 
+fyyzqam                ^hwloc@1.11.11%gcc 
+kjzalvs                    ^libpciaccess@0.13.5%gcc 
+f6rwdah                    ^libxml2@2.9.8%gcc 
+4sxssb5                ^numactl@2.0.12%gcc 
+qd2bcw6                ^zlib@1.2.11%gcc 
+p2eptqz        ^json-c@0.13.1%gcc 
+
+
+-- cray-cnl6-arm_thunderx2 / gcc@8.3.0 --------------------------
+u57k5f4    libhio@1.4.1.2%gcc 
+a4xtfhc        ^bzip2@1.0.6%gcc 
+pkymrat        ^hdf5@1.10.5%gcc 
+byf4fml            ^openmpi@3.1.4%gcc 
+jhuy6gg                ^hwloc@1.11.11%gcc 
+ozcefcx                    ^libpciaccess@0.13.5%gcc 
+ij6hual                    ^libxml2@2.9.8%gcc 
+qucctbn                ^numactl@2.0.12%gcc 
+khreydq                ^zlib@1.2.11%gcc 
+ycff6c5        ^json-c@0.13.1%gcc 
+
+wyoc62c    libhio@1.4.1.3%gcc 
+a4xtfhc        ^bzip2@1.0.6%gcc 
+pkymrat        ^hdf5@1.10.5%gcc 
+byf4fml            ^openmpi@3.1.4%gcc 
+jhuy6gg                ^hwloc@1.11.11%gcc 
+ozcefcx                    ^libpciaccess@0.13.5%gcc 
+ij6hual                    ^libxml2@2.9.8%gcc 
+qucctbn                ^numactl@2.0.12%gcc 
+khreydq                ^zlib@1.2.11%gcc 
+ycff6c5        ^json-c@0.13.1%gcc 
+

@@ -1,0 +1,25 @@
+Mon Apr 29 10:41:14 MDT 2019
+/scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi
+spack graph openmpi >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/graphs/openmpi-darwin-arm-graph.out
+o  openmpi
+|\
+| |\
+o | |  zlib
+ / /
+| o  hwloc
+|/| 
+| |\
+| | |\
+| | | o  libpciaccess
+| | |/| 
+| |/| | 
+| | | |\
+| | | o |  util-macros
+| | |  /
+| o | |  pkg-config
+|  / /
+o | |  numactl
+ / /
+o |  libxml2
+ /
+o  libtool

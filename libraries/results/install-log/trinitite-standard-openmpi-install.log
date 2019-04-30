@@ -1,0 +1,110 @@
+Mon Apr 29 10:38:13 MDT 2019
+
+
+spack install openmpi @ 4.0.1 % cce@8.7.9  arch=cray-cnl6-haswell
+
+spack install openmpi @ 4.0.1 % cce@8.7.8  arch=cray-cnl6-haswell
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+
+spack install openmpi @ 4.0.1 % gcc@8.2.0  arch=cray-cnl6-haswell
+
+spack install openmpi @ 4.0.1 % gcc@7.3.0  arch=cray-cnl6-haswell
+
+spack install openmpi @ 4.0.1 % gcc@6.3.0  arch=cray-cnl6-haswell
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+
+spack install openmpi @ 4.0.1 % intel@19.0.1  arch=cray-cnl6-haswell
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : generating module file
+
+spack install openmpi @ 4.0.1 % intel@18.0.5  arch=cray-cnl6-haswell
+
+spack install openmpi @ 3.1.4 % cce@8.7.9  arch=cray-cnl6-haswell
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+
+spack install openmpi @ 3.1.4 % cce@8.7.8  arch=cray-cnl6-haswell
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+
+spack install openmpi @ 3.1.4 % gcc@8.2.0  arch=cray-cnl6-haswell
+
+spack install openmpi @ 3.1.4 % gcc@7.3.0  arch=cray-cnl6-haswell
+
+spack install openmpi @ 3.1.4 % gcc@6.3.0  arch=cray-cnl6-haswell
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+
+spack install openmpi @ 3.1.4 % intel@19.0.1  arch=cray-cnl6-haswell
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : generating module file
+
+spack install openmpi @ 3.1.4 % intel@18.0.5  arch=cray-cnl6-haswell
+
+spack install openmpi @ 3.0.4 % cce@8.7.9  arch=cray-cnl6-haswell
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+
+spack install openmpi @ 3.0.4 % cce@8.7.8  arch=cray-cnl6-haswell
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+
+spack install openmpi @ 3.0.4 % gcc@8.2.0  arch=cray-cnl6-haswell
+
+spack install openmpi @ 3.0.4 % gcc@7.3.0  arch=cray-cnl6-haswell
+
+spack install openmpi @ 3.0.4 % gcc@6.3.0  arch=cray-cnl6-haswell
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+
+spack install openmpi @ 3.0.4 % intel@19.0.1  arch=cray-cnl6-haswell
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : generating module file
+
+spack install openmpi @ 3.0.4 % intel@18.0.5  arch=cray-cnl6-haswell
+
+spack install openmpi @ 2.1.6 % cce@8.7.9  arch=cray-cnl6-haswell
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+
+spack install openmpi @ 2.1.6 % cce@8.7.8  arch=cray-cnl6-haswell
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+
+spack install openmpi @ 2.1.6 % gcc@8.2.0  arch=cray-cnl6-haswell
+
+spack install openmpi @ 2.1.6 % gcc@7.3.0  arch=cray-cnl6-haswell
+
+spack install openmpi @ 2.1.6 % gcc@6.3.0  arch=cray-cnl6-haswell
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+
+spack install openmpi @ 2.1.6 % intel@19.0.1  arch=cray-cnl6-haswell
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : generating module file
+
+spack install openmpi @ 2.1.6 % intel@18.0.5  arch=cray-cnl6-haswell

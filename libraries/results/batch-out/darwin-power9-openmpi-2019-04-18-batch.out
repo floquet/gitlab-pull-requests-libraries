@@ -1,0 +1,676 @@
+Thu Apr 18 23:59:34 MDT 2019 [1m/home/dantopa/.mybash(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/platforms.sh(B[m
+attempting to mkdir /scratch/users/dantopa/repos/gitlab/node-queries/darwin/power9-cn2020/dir-configuration
+directory of core scripts = ${core} = /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/master.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/gcc.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh: line 5: gonode: command not found
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/git.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/ssh.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/vim.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bash.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/finds.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/cmake.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/copy-configuration.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/fortran.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-bitbucket.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-github.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-gitlab.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/disk.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh: line 33: sinfo_s: command not found
+[master 5c36a71] darwin-power9-cn2020 Thu Apr 18 23:59:34 MDT 2019
+ 2 files changed, 20 insertions(+)
+Thu Apr 18 23:59:35 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh(B[m
+Thu Apr 18 23:59:35 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Thu Apr 18 23:59:35 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh(B[m
+Thu Apr 18 23:59:35 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh(B[m
+Thu Apr 18 23:59:35 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/spack.sh(B[m
+Thu Apr 18 23:59:35 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/uname.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh: line 5: gonode: command not found
+Thu Apr 18 23:59:35 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/modules.sh(B[m
+Thu Apr 18 23:59:35 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Thu Apr 18 23:59:35 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/alias.sh(B[m
+Thu Apr 18 23:59:35 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh: line 11: myprompt: command not found
+[master f939e4b] darwin-power9-cn2020 Thu Apr 18 23:59:35 MDT 2019
+ 2 files changed, 22 insertions(+)
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh: line 33: sinfo_s: command not found
+Thu Apr 18 23:59:38 MDT 2019 /tmp/slurmd/job5185851/slurm_script
+source "${dir_tools}/bash/master-tpl-sweep.sh"
+Thu Apr 18 23:59:38 MDT 2019 /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh
+cd /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools
+source directories/libraries-darwin.sh
+Thu Apr 18 23:59:38 MDT 2019 [1mdirectories/libraries-darwin.sh(B[m
+source tpl-versions/versions-openmpi.sh
+Thu Apr 18 23:59:38 MDT 2019 [1mtpl-versions/versions-openmpi.sh(B[m
+4 openmpi versions loaded:
+4.0.1  3.1.3  3.0.3  2.1.6
+
+source compilers/compilers-darwin-power9.sh
+Thu Apr 18 23:59:38 MDT 2019 [1mcompilers/compilers-darwin-power9.sh(B[m
+9 Spack-recognized compilers loaded:
+clang@7.0.0 gcc@8.2.0  gcc@7.3.0  gcc@6.4.0  gcc@4.8.5 pgi@18.10  pgi@17.10  pgi@16.10 xl@16.1
+
+source klingons/darwin-power9-openmpi.sh
+/scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 36: klingons/darwin-power9-openmpi.sh: No such file or directory
+cd /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi
+. share/spack/setup-env.sh
+export spack_architecture='arch=linux-rhel7-ppc64le'
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+spack install openmpi @ 4.0.1 % clang@7.0.0  arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-kwmfvvula65cikru2gzpt3uls4vrhs6h/libpciaccess-0.13.5/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/clang-7.0.0/libpciaccess-0.13.5-kwmfvvula65cikru2gzpt3uls4vrhs6h'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /scratch/users/dantopa/new-spack/libraries/darwi
+           n-power9.openmpi/lib/spack/env/clang/clang
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-_8ypw
+           G/libpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-kwmfvvula65cikru2gzpt3uls4vrhs6h/spack-build.out
+spack install openmpi @ 4.0.1 % gcc@8.2.0  arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-4.0.1-fnxfedqrrw76misoir2g6c2gaxj66fag/openmpi-4.0.1/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-8.2.0/openmpi-4.0.1-fnxfedqrrw76misoir2g6c2gaxj66fag' '--enable-shared' '--with-wrapper-ldflags=' '--enable-static' '--without-pmi' '--enable-mpi-cxx' '--with-zlib=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-8.2.0/zlib-1.2.11-vgftsvfmckp36w2o6y5zrv45yoa52bfs' '--without-psm' '--without-libfabric' '--without-ucx' '--without-mxm' '--with-verbs' '--without-psm2' '--without-alps' '--without-lsf' '--without-sge' '--without-slurm' '--without-tm' '--without-loadleveler' '--disable-memchecker' '--with-hwloc=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-8.2.0/hwloc-1.11.11-bnthjtz4l3g7ogazywtwomwuzvubxrr7' '--disable-java' '--disable-mpi-java' '--without-cuda' '--enable-cxx-exceptions'
+
+1 error found in build log:
+     388    * execute.  Note that this is likely not a problem with Open MPI,
+     389    * but a problem with the local compiler installation.  More
+     390    * information (including exactly what command was given to the
+     391    * compiler and what error resulted when the command was executed) i
+            s
+     392    * available in the config.log file in the Open MPI build directory.
+     393    *******************************************************************
+            ***
+  >> 394    configure: error: Could not run a simple Fortran program.  Aborting
+            .
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-4.0.1-fnxfedqrrw76misoir2g6c2gaxj66fag/spack-build.out
+spack install openmpi @ 4.0.1 % gcc@7.3.0  arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-4.0.1-2iz2f5xsr35vlo6trflttyphgotqagar/openmpi-4.0.1/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.0/openmpi-4.0.1-2iz2f5xsr35vlo6trflttyphgotqagar' '--enable-shared' '--with-wrapper-ldflags=' '--enable-static' '--without-pmi' '--enable-mpi-cxx' '--with-zlib=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.0/zlib-1.2.11-p5okwa3bjpvjro3jy73qdstf655cyfru' '--without-psm' '--without-libfabric' '--without-ucx' '--without-mxm' '--with-verbs' '--without-psm2' '--without-alps' '--without-lsf' '--without-sge' '--without-slurm' '--without-tm' '--without-loadleveler' '--disable-memchecker' '--with-hwloc=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.0/hwloc-1.11.11-u522lpowjlbwhcomkq4rvjubah42juhd' '--disable-java' '--disable-mpi-java' '--without-cuda' '--enable-cxx-exceptions'
+
+1 error found in build log:
+     386    * execute.  Note that this is likely not a problem with Open MPI,
+     387    * but a problem with the local compiler installation.  More
+     388    * information (including exactly what command was given to the
+     389    * compiler and what error resulted when the command was executed) i
+            s
+     390    * available in the config.log file in the Open MPI build directory.
+     391    *******************************************************************
+            ***
+  >> 392    configure: error: Could not run a simple Fortran program.  Aborting
+            .
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-4.0.1-2iz2f5xsr35vlo6trflttyphgotqagar/spack-build.out
+spack install openmpi @ 4.0.1 % gcc@6.4.0  arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+spack install openmpi @ 4.0.1 % gcc@4.8.5  arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+spack install openmpi @ 4.0.1 % pgi@18.10  arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-tuuifqhuodpxphvj2455uzqursorzbwr/libpciaccess-0.13.5/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-18.10/libpciaccess-0.13.5-tuuifqhuodpxphvj2455uzqursorzbwr'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /scratch/users/dantopa/new-spack/libraries/darwi
+           n-power9.openmpi/lib/spack/env/pgi/pgcc
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-lxg4t
+           1/libpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-tuuifqhuodpxphvj2455uzqursorzbwr/spack-build.out
+spack install openmpi @ 4.0.1 % pgi@17.10  arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-dy65i7h5q2jb43avosgtmgjuqfq43qyf/libpciaccess-0.13.5/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-17.10/libpciaccess-0.13.5-dy65i7h5q2jb43avosgtmgjuqfq43qyf'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /scratch/users/dantopa/new-spack/libraries/darwi
+           n-power9.openmpi/lib/spack/env/pgi/pgcc
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-u2ovq
+           F/libpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-dy65i7h5q2jb43avosgtmgjuqfq43qyf/spack-build.out
+spack install openmpi @ 4.0.1 % pgi@16.10  arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: ProcessError: Command exited with status 1:
+    './configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-16.10/zlib-1.2.11-r6wazffbckf6xq2ttxzrjj5uperx4bvb'
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/zlib-1.2.11-r6wazffbckf6xq2ttxzrjj5uperx4bvb/spack-build.out
+spack install openmpi @ 4.0.1 % xl@16.1  arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-4.0.1-hf2apoylsdoysab57gdq47zdtkqk7lsy/openmpi-4.0.1/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.1/openmpi-4.0.1-hf2apoylsdoysab57gdq47zdtkqk7lsy' '--enable-shared' '--with-wrapper-ldflags=' '--enable-static' '--without-pmi' '--enable-mpi-cxx' '--with-zlib=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.1/zlib-1.2.11-cx7rtvagkpnjod4wpcgpkvnm2zduvlf3' '--without-psm' '--without-libfabric' '--without-ucx' '--without-mxm' '--with-verbs' '--without-psm2' '--without-alps' '--without-lsf' '--without-sge' '--without-slurm' '--without-tm' '--without-loadleveler' '--disable-memchecker' '--with-hwloc=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.1/hwloc-1.11.11-nbsasky5tkr7ydihxqnq32vkwq6o3fhs' '--disable-java' '--disable-mpi-java' '--without-cuda' '--enable-cxx-exceptions'
+
+1 error found in build log:
+     408    * execute.  Note that this is likely not a problem with Open MPI,
+     409    * but a problem with the local compiler installation.  More
+     410    * information (including exactly what command was given to the
+     411    * compiler and what error resulted when the command was executed) i
+            s
+     412    * available in the config.log file in the Open MPI build directory.
+     413    *******************************************************************
+            ***
+  >> 414    configure: error: Could not run a simple Fortran program.  Aborting
+            .
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-4.0.1-hf2apoylsdoysab57gdq47zdtkqk7lsy/spack-build.out
+spack install openmpi @ 3.1.3 % clang@7.0.0  arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-kwmfvvula65cikru2gzpt3uls4vrhs6h/libpciaccess-0.13.5/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/clang-7.0.0/libpciaccess-0.13.5-kwmfvvula65cikru2gzpt3uls4vrhs6h'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /scratch/users/dantopa/new-spack/libraries/darwi
+           n-power9.openmpi/lib/spack/env/clang/clang
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-7R0Vg
+           U/libpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-kwmfvvula65cikru2gzpt3uls4vrhs6h/spack-build.out
+spack install openmpi @ 3.1.3 % gcc@8.2.0  arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-3.1.3-536n5jvjkd3fmpkvwjorjfqtxch43uuk/openmpi-3.1.3/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-8.2.0/openmpi-3.1.3-536n5jvjkd3fmpkvwjorjfqtxch43uuk' '--enable-shared' '--with-wrapper-ldflags=' '--enable-static' '--without-pmi' '--enable-mpi-cxx' '--with-zlib=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-8.2.0/zlib-1.2.11-vgftsvfmckp36w2o6y5zrv45yoa52bfs' '--without-psm' '--without-libfabric' '--without-ucx' '--without-mxm' '--with-verbs' '--without-psm2' '--without-alps' '--without-lsf' '--without-sge' '--without-slurm' '--without-tm' '--without-loadleveler' '--disable-memchecker' '--with-hwloc=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-8.2.0/hwloc-1.11.11-bnthjtz4l3g7ogazywtwomwuzvubxrr7' '--disable-java' '--disable-mpi-java' '--without-cuda' '--enable-cxx-exceptions'
+
+1 error found in build log:
+     370    * execute.  Note that this is likely not a problem with Open MPI,
+     371    * but a problem with the local compiler installation.  More
+     372    * information (including exactly what command was given to the
+     373    * compiler and what error resulted when the command was executed) i
+            s
+     374    * available in the config.log file in the Open MPI build directory.
+     375    *******************************************************************
+            ***
+  >> 376    configure: error: Could not run a simple Fortran program.  Aborting
+            .
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-3.1.3-536n5jvjkd3fmpkvwjorjfqtxch43uuk/spack-build.out
+spack install openmpi @ 3.1.3 % gcc@7.3.0  arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-3.1.3-ffeeofygmhfkbyltjgrcmofclfthxqq6/openmpi-3.1.3/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.0/openmpi-3.1.3-ffeeofygmhfkbyltjgrcmofclfthxqq6' '--enable-shared' '--with-wrapper-ldflags=' '--enable-static' '--without-pmi' '--enable-mpi-cxx' '--with-zlib=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.0/zlib-1.2.11-p5okwa3bjpvjro3jy73qdstf655cyfru' '--without-psm' '--without-libfabric' '--without-ucx' '--without-mxm' '--with-verbs' '--without-psm2' '--without-alps' '--without-lsf' '--without-sge' '--without-slurm' '--without-tm' '--without-loadleveler' '--disable-memchecker' '--with-hwloc=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.0/hwloc-1.11.11-u522lpowjlbwhcomkq4rvjubah42juhd' '--disable-java' '--disable-mpi-java' '--without-cuda' '--enable-cxx-exceptions'
+
+1 error found in build log:
+     368    * execute.  Note that this is likely not a problem with Open MPI,
+     369    * but a problem with the local compiler installation.  More
+     370    * information (including exactly what command was given to the
+     371    * compiler and what error resulted when the command was executed) i
+            s
+     372    * available in the config.log file in the Open MPI build directory.
+     373    *******************************************************************
+            ***
+  >> 374    configure: error: Could not run a simple Fortran program.  Aborting
+            .
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-3.1.3-ffeeofygmhfkbyltjgrcmofclfthxqq6/spack-build.out
+spack install openmpi @ 3.1.3 % gcc@6.4.0  arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+spack install openmpi @ 3.1.3 % gcc@4.8.5  arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+spack install openmpi @ 3.1.3 % pgi@18.10  arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-tuuifqhuodpxphvj2455uzqursorzbwr/libpciaccess-0.13.5/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-18.10/libpciaccess-0.13.5-tuuifqhuodpxphvj2455uzqursorzbwr'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /scratch/users/dantopa/new-spack/libraries/darwi
+           n-power9.openmpi/lib/spack/env/pgi/pgcc
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-QWKvT
+           D/libpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-tuuifqhuodpxphvj2455uzqursorzbwr/spack-build.out
+spack install openmpi @ 3.1.3 % pgi@17.10  arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-dy65i7h5q2jb43avosgtmgjuqfq43qyf/libpciaccess-0.13.5/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-17.10/libpciaccess-0.13.5-dy65i7h5q2jb43avosgtmgjuqfq43qyf'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /scratch/users/dantopa/new-spack/libraries/darwi
+           n-power9.openmpi/lib/spack/env/pgi/pgcc
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-M1XQO
+           e/libpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-dy65i7h5q2jb43avosgtmgjuqfq43qyf/spack-build.out
+spack install openmpi @ 3.1.3 % pgi@16.10  arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: ProcessError: Command exited with status 1:
+    './configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-16.10/zlib-1.2.11-r6wazffbckf6xq2ttxzrjj5uperx4bvb'
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/zlib-1.2.11-r6wazffbckf6xq2ttxzrjj5uperx4bvb/spack-build.out
+spack install openmpi @ 3.1.3 % xl@16.1  arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-3.1.3-nstltg4knpnthdwshnx6srli3ovogij7/openmpi-3.1.3/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.1/openmpi-3.1.3-nstltg4knpnthdwshnx6srli3ovogij7' '--enable-shared' '--with-wrapper-ldflags=' '--enable-static' '--without-pmi' '--enable-mpi-cxx' '--with-zlib=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.1/zlib-1.2.11-cx7rtvagkpnjod4wpcgpkvnm2zduvlf3' '--without-psm' '--without-libfabric' '--without-ucx' '--without-mxm' '--with-verbs' '--without-psm2' '--without-alps' '--without-lsf' '--without-sge' '--without-slurm' '--without-tm' '--without-loadleveler' '--disable-memchecker' '--with-hwloc=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.1/hwloc-1.11.11-nbsasky5tkr7ydihxqnq32vkwq6o3fhs' '--disable-java' '--disable-mpi-java' '--without-cuda' '--enable-cxx-exceptions'
+
+1 error found in build log:
+     372    * execute.  Note that this is likely not a problem with Open MPI,
+     373    * but a problem with the local compiler installation.  More
+     374    * information (including exactly what command was given to the
+     375    * compiler and what error resulted when the command was executed) i
+            s
+     376    * available in the config.log file in the Open MPI build directory.
+     377    *******************************************************************
+            ***
+  >> 378    configure: error: Could not run a simple Fortran program.  Aborting
+            .
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-3.1.3-nstltg4knpnthdwshnx6srli3ovogij7/spack-build.out
+spack install openmpi @ 3.0.3 % clang@7.0.0  arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-kwmfvvula65cikru2gzpt3uls4vrhs6h/libpciaccess-0.13.5/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/clang-7.0.0/libpciaccess-0.13.5-kwmfvvula65cikru2gzpt3uls4vrhs6h'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /scratch/users/dantopa/new-spack/libraries/darwi
+           n-power9.openmpi/lib/spack/env/clang/clang
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-EiFPq
+           Z/libpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-kwmfvvula65cikru2gzpt3uls4vrhs6h/spack-build.out
+spack install openmpi @ 3.0.3 % gcc@8.2.0  arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-3.0.3-6alyyddnbxnzcdi56hcufzmet24u3ae5/openmpi-3.0.3/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-8.2.0/openmpi-3.0.3-6alyyddnbxnzcdi56hcufzmet24u3ae5' '--enable-shared' '--with-wrapper-ldflags=' '--enable-static' '--without-pmi' '--enable-mpi-cxx' '--with-zlib=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-8.2.0/zlib-1.2.11-vgftsvfmckp36w2o6y5zrv45yoa52bfs' '--without-psm' '--without-libfabric' '--without-ucx' '--without-mxm' '--with-verbs' '--without-psm2' '--without-alps' '--without-lsf' '--without-sge' '--without-slurm' '--without-tm' '--without-loadleveler' '--disable-memchecker' '--with-hwloc=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-8.2.0/hwloc-1.11.11-bnthjtz4l3g7ogazywtwomwuzvubxrr7' '--disable-java' '--disable-mpi-java' '--without-cuda' '--enable-cxx-exceptions'
+
+1 error found in build log:
+     372    * execute.  Note that this is likely not a problem with Open MPI,
+     373    * but a problem with the local compiler installation.  More
+     374    * information (including exactly what command was given to the
+     375    * compiler and what error resulted when the command was executed) i
+            s
+     376    * available in the config.log file in the Open MPI build directory.
+     377    *******************************************************************
+            ***
+  >> 378    configure: error: Could not run a simple Fortran program.  Aborting
+            .
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-3.0.3-6alyyddnbxnzcdi56hcufzmet24u3ae5/spack-build.out
+spack install openmpi @ 3.0.3 % gcc@7.3.0  arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-3.0.3-mooqis55uuc2pmlmmvwhkkcbic2j35tx/openmpi-3.0.3/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.0/openmpi-3.0.3-mooqis55uuc2pmlmmvwhkkcbic2j35tx' '--enable-shared' '--with-wrapper-ldflags=' '--enable-static' '--without-pmi' '--enable-mpi-cxx' '--with-zlib=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.0/zlib-1.2.11-p5okwa3bjpvjro3jy73qdstf655cyfru' '--without-psm' '--without-libfabric' '--without-ucx' '--without-mxm' '--with-verbs' '--without-psm2' '--without-alps' '--without-lsf' '--without-sge' '--without-slurm' '--without-tm' '--without-loadleveler' '--disable-memchecker' '--with-hwloc=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.0/hwloc-1.11.11-u522lpowjlbwhcomkq4rvjubah42juhd' '--disable-java' '--disable-mpi-java' '--without-cuda' '--enable-cxx-exceptions'
+
+1 error found in build log:
+     370    * execute.  Note that this is likely not a problem with Open MPI,
+     371    * but a problem with the local compiler installation.  More
+     372    * information (including exactly what command was given to the
+     373    * compiler and what error resulted when the command was executed) i
+            s
+     374    * available in the config.log file in the Open MPI build directory.
+     375    *******************************************************************
+            ***
+  >> 376    configure: error: Could not run a simple Fortran program.  Aborting
+            .
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-3.0.3-mooqis55uuc2pmlmmvwhkkcbic2j35tx/spack-build.out
+spack install openmpi @ 3.0.3 % gcc@6.4.0  arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+spack install openmpi @ 3.0.3 % gcc@4.8.5  arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+spack install openmpi @ 3.0.3 % pgi@18.10  arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-tuuifqhuodpxphvj2455uzqursorzbwr/libpciaccess-0.13.5/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-18.10/libpciaccess-0.13.5-tuuifqhuodpxphvj2455uzqursorzbwr'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /scratch/users/dantopa/new-spack/libraries/darwi
+           n-power9.openmpi/lib/spack/env/pgi/pgcc
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-ZoErU
+           d/libpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-tuuifqhuodpxphvj2455uzqursorzbwr/spack-build.out
+spack install openmpi @ 3.0.3 % pgi@17.10  arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-dy65i7h5q2jb43avosgtmgjuqfq43qyf/libpciaccess-0.13.5/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-17.10/libpciaccess-0.13.5-dy65i7h5q2jb43avosgtmgjuqfq43qyf'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /scratch/users/dantopa/new-spack/libraries/darwi
+           n-power9.openmpi/lib/spack/env/pgi/pgcc
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-fHj6F
+           p/libpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-dy65i7h5q2jb43avosgtmgjuqfq43qyf/spack-build.out
+spack install openmpi @ 3.0.3 % pgi@16.10  arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: ProcessError: Command exited with status 1:
+    './configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-16.10/zlib-1.2.11-r6wazffbckf6xq2ttxzrjj5uperx4bvb'
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/zlib-1.2.11-r6wazffbckf6xq2ttxzrjj5uperx4bvb/spack-build.out
+spack install openmpi @ 3.0.3 % xl@16.1  arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-3.0.3-qyqbcab7722uxsrmnrucfreuemsd4uay/openmpi-3.0.3/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.1/openmpi-3.0.3-qyqbcab7722uxsrmnrucfreuemsd4uay' '--enable-shared' '--with-wrapper-ldflags=' '--enable-static' '--without-pmi' '--enable-mpi-cxx' '--with-zlib=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.1/zlib-1.2.11-cx7rtvagkpnjod4wpcgpkvnm2zduvlf3' '--without-psm' '--without-libfabric' '--without-ucx' '--without-mxm' '--with-verbs' '--without-psm2' '--without-alps' '--without-lsf' '--without-sge' '--without-slurm' '--without-tm' '--without-loadleveler' '--disable-memchecker' '--with-hwloc=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.1/hwloc-1.11.11-nbsasky5tkr7ydihxqnq32vkwq6o3fhs' '--disable-java' '--disable-mpi-java' '--without-cuda' '--enable-cxx-exceptions'
+
+1 error found in build log:
+     370    * execute.  Note that this is likely not a problem with Open MPI,
+     371    * but a problem with the local compiler installation.  More
+     372    * information (including exactly what command was given to the
+     373    * compiler and what error resulted when the command was executed) i
+            s
+     374    * available in the config.log file in the Open MPI build directory.
+     375    *******************************************************************
+            ***
+  >> 376    configure: error: Could not run a simple Fortran program.  Aborting
+            .
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-3.0.3-qyqbcab7722uxsrmnrucfreuemsd4uay/spack-build.out
+spack install openmpi @ 2.1.6 % clang@7.0.0  arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-kwmfvvula65cikru2gzpt3uls4vrhs6h/libpciaccess-0.13.5/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/clang-7.0.0/libpciaccess-0.13.5-kwmfvvula65cikru2gzpt3uls4vrhs6h'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /scratch/users/dantopa/new-spack/libraries/darwi
+           n-power9.openmpi/lib/spack/env/clang/clang
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-aNikH
+           V/libpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-kwmfvvula65cikru2gzpt3uls4vrhs6h/spack-build.out
+spack install openmpi @ 2.1.6 % gcc@8.2.0  arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-2.1.6-7qb3bnnzsaas2c7uba5jvpkmhojleoxf/openmpi-2.1.6/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-8.2.0/openmpi-2.1.6-7qb3bnnzsaas2c7uba5jvpkmhojleoxf' '--enable-shared' '--with-wrapper-ldflags=' '--enable-static' '--without-pmi' '--enable-mpi-cxx' '--without-psm' '--without-libfabric' '--without-ucx' '--without-mxm' '--with-verbs' '--without-psm2' '--without-alps' '--without-lsf' '--without-sge' '--without-slurm' '--without-tm' '--without-loadleveler' '--disable-memchecker' '--with-hwloc=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-8.2.0/hwloc-1.11.11-bnthjtz4l3g7ogazywtwomwuzvubxrr7' '--disable-java' '--disable-mpi-java' '--disable-mpi-thread-multiple' '--without-cuda' '--enable-cxx-exceptions'
+
+1 error found in build log:
+     364    * execute.  Note that this is likely not a problem with Open MPI,
+     365    * but a problem with the local compiler installation.  More
+     366    * information (including exactly what command was given to the
+     367    * compiler and what error resulted when the command was executed) i
+            s
+     368    * available in the config.log file in the Open MPI build directory.
+     369    *******************************************************************
+            ***
+  >> 370    configure: error: Could not run a simple Fortran program.  Aborting
+            .
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-2.1.6-7qb3bnnzsaas2c7uba5jvpkmhojleoxf/spack-build.out
+spack install openmpi @ 2.1.6 % gcc@7.3.0  arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-2.1.6-67q7d67wt3qkm7bklvw5vv2t4fuuebkb/openmpi-2.1.6/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.0/openmpi-2.1.6-67q7d67wt3qkm7bklvw5vv2t4fuuebkb' '--enable-shared' '--with-wrapper-ldflags=' '--enable-static' '--without-pmi' '--enable-mpi-cxx' '--without-psm' '--without-libfabric' '--without-ucx' '--without-mxm' '--with-verbs' '--without-psm2' '--without-alps' '--without-lsf' '--without-sge' '--without-slurm' '--without-tm' '--without-loadleveler' '--disable-memchecker' '--with-hwloc=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.0/hwloc-1.11.11-u522lpowjlbwhcomkq4rvjubah42juhd' '--disable-java' '--disable-mpi-java' '--disable-mpi-thread-multiple' '--without-cuda' '--enable-cxx-exceptions'
+
+1 error found in build log:
+     362    * execute.  Note that this is likely not a problem with Open MPI,
+     363    * but a problem with the local compiler installation.  More
+     364    * information (including exactly what command was given to the
+     365    * compiler and what error resulted when the command was executed) i
+            s
+     366    * available in the config.log file in the Open MPI build directory.
+     367    *******************************************************************
+            ***
+  >> 368    configure: error: Could not run a simple Fortran program.  Aborting
+            .
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-2.1.6-67q7d67wt3qkm7bklvw5vv2t4fuuebkb/spack-build.out
+spack install openmpi @ 2.1.6 % gcc@6.4.0  arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+spack install openmpi @ 2.1.6 % gcc@4.8.5  arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+spack install openmpi @ 2.1.6 % pgi@18.10  arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-tuuifqhuodpxphvj2455uzqursorzbwr/libpciaccess-0.13.5/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-18.10/libpciaccess-0.13.5-tuuifqhuodpxphvj2455uzqursorzbwr'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /scratch/users/dantopa/new-spack/libraries/darwi
+           n-power9.openmpi/lib/spack/env/pgi/pgcc
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-PXpUn
+           a/libpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-tuuifqhuodpxphvj2455uzqursorzbwr/spack-build.out
+spack install openmpi @ 2.1.6 % pgi@17.10  arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-dy65i7h5q2jb43avosgtmgjuqfq43qyf/libpciaccess-0.13.5/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-17.10/libpciaccess-0.13.5-dy65i7h5q2jb43avosgtmgjuqfq43qyf'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /scratch/users/dantopa/new-spack/libraries/darwi
+           n-power9.openmpi/lib/spack/env/pgi/pgcc
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-y6Q3x
+           6/libpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/libpciaccess-0.13.5-dy65i7h5q2jb43avosgtmgjuqfq43qyf/spack-build.out
+spack install openmpi @ 2.1.6 % pgi@16.10  arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-2.1.6-qwkjn7jjt7urlq7dqpdvq5ln72qgdk2g/openmpi-2.1.6/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-16.10/openmpi-2.1.6-qwkjn7jjt7urlq7dqpdvq5ln72qgdk2g' '--enable-shared' '--with-wrapper-ldflags=' '--enable-static' '--without-pmi' '--enable-mpi-cxx' '--without-psm' '--without-libfabric' '--without-ucx' '--without-mxm' '--with-verbs' '--without-psm2' '--without-alps' '--without-lsf' '--without-sge' '--without-slurm' '--without-tm' '--without-loadleveler' '--disable-memchecker' '--with-hwloc=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-16.10/hwloc-1.11.11-d3vvnhhglbj4vpqag3ite5ymvpyo46l7' '--disable-java' '--disable-mpi-java' '--disable-mpi-thread-multiple' '--without-cuda' '--enable-cxx-exceptions'
+
+1 error found in build log:
+     227    checking for C bool type... no
+     228    checking size of _Bool... 0
+     229    checking for weak symbol support... no
+     230    checking for macro weak symbol support... no
+     231    checking for functional offsetof macro... no
+     232    configure: WARNING: Your compiler does not support offsetof macro
+  >> 233    configure: error: Configure: Cannot continue
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-2.1.6-qwkjn7jjt7urlq7dqpdvq5ln72qgdk2g/spack-build.out
+spack install openmpi @ 2.1.6 % xl@16.1  arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-2.1.6-nql7aevnqasd6fxiedlcgy6akbqx27zj/openmpi-2.1.6/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.1/openmpi-2.1.6-nql7aevnqasd6fxiedlcgy6akbqx27zj' '--enable-shared' '--with-wrapper-ldflags=' '--enable-static' '--without-pmi' '--enable-mpi-cxx' '--without-psm' '--without-libfabric' '--without-ucx' '--without-mxm' '--with-verbs' '--without-psm2' '--without-alps' '--without-lsf' '--without-sge' '--without-slurm' '--without-tm' '--without-loadleveler' '--disable-memchecker' '--with-hwloc=/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.1/hwloc-1.11.11-nbsasky5tkr7ydihxqnq32vkwq6o3fhs' '--disable-java' '--disable-mpi-java' '--disable-mpi-thread-multiple' '--without-cuda' '--enable-cxx-exceptions'
+
+1 error found in build log:
+     362    * execute.  Note that this is likely not a problem with Open MPI,
+     363    * but a problem with the local compiler installation.  More
+     364    * information (including exactly what command was given to the
+     365    * compiler and what error resulted when the command was executed) i
+            s
+     366    * available in the config.log file in the Open MPI build directory.
+     367    *******************************************************************
+            ***
+  >> 368    configure: error: Could not run a simple Fortran program.  Aborting
+            .
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi/var/spack/stage/openmpi-2.1.6-nql7aevnqasd6fxiedlcgy6akbqx27zj/spack-build.out
+mkdir -p "${dir_results}/tpl-order"
+spack find openmpi >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/openmpi-darwin-power9.out
+spack find -ldf openmpi  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/openmpi-darwin-power9-ldf.out
+spack graph openmpi >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/openmpi-darwin-power9-graph.out
+spack compilers
+==> Available compilers
+-- clang rhel7-ppc64le ------------------------------------------
+clang@7.0.0
+
+-- gcc centos7-x86_64 -------------------------------------------
+gcc@4.8.5
+
+-- gcc rhel7-ppc64le --------------------------------------------
+gcc@8.2.0
+gcc@8.1.0
+gcc@7.3.0
+gcc@6.4.0
+gcc@4.8.5
+
+-- pgi rhel7-ppc64le --------------------------------------------
+pgi@18.10
+pgi@18.7
+pgi@18.4
+pgi@18.3
+pgi@17.10
+pgi@16.10
+
+-- xl rhel7-ppc64le ---------------------------------------------
+xl@16.1
+
+-- xl_r rhel7-ppc64le -------------------------------------------
+xl_r@16.1
+spack find openmpi
+==> 9 installed packages
+-- linux-rhel7-ppc64le / gcc@4.8.5 ------------------------------
+openmpi@2.1.6
+openmpi@3.0.3
+openmpi@3.0.4
+openmpi@3.1.3
+openmpi@4.0.1
+
+-- linux-rhel7-ppc64le / gcc@6.4.0 ------------------------------
+openmpi@2.1.6
+openmpi@3.0.3
+openmpi@3.1.3
+openmpi@4.0.1
+spack find -ldf openmpi
+==> 9 installed packages
+-- linux-rhel7-ppc64le / gcc@4.8.5 ------------------------------
+nva7q77    openmpi@2.1.6%gcc
+r6cylpu        ^hwloc@1.11.11%gcc
+uzm3xdv            ^libpciaccess@0.13.5%gcc
+trik6hj            ^libxml2@2.9.8%gcc
+pmgndwh            ^numactl@2.0.12%gcc
+
+u3jtxxk    openmpi@3.0.3%gcc
+r6cylpu        ^hwloc@1.11.11%gcc
+uzm3xdv            ^libpciaccess@0.13.5%gcc
+trik6hj            ^libxml2@2.9.8%gcc
+pmgndwh            ^numactl@2.0.12%gcc
+4v3ticy        ^zlib@1.2.11%gcc
+
+otirvfn    openmpi@3.0.4%gcc
+r6cylpu        ^hwloc@1.11.11%gcc
+uzm3xdv            ^libpciaccess@0.13.5%gcc
+trik6hj            ^libxml2@2.9.8%gcc
+pmgndwh            ^numactl@2.0.12%gcc
+4v3ticy        ^zlib@1.2.11%gcc
+
+nygyhtf    openmpi@3.1.3%gcc
+r6cylpu        ^hwloc@1.11.11%gcc
+uzm3xdv            ^libpciaccess@0.13.5%gcc
+trik6hj            ^libxml2@2.9.8%gcc
+pmgndwh            ^numactl@2.0.12%gcc
+4v3ticy        ^zlib@1.2.11%gcc
+
+tkze2gf    openmpi@4.0.1%gcc
+r6cylpu        ^hwloc@1.11.11%gcc
+uzm3xdv            ^libpciaccess@0.13.5%gcc
+trik6hj            ^libxml2@2.9.8%gcc
+pmgndwh            ^numactl@2.0.12%gcc
+4v3ticy        ^zlib@1.2.11%gcc
+
+
+-- linux-rhel7-ppc64le / gcc@6.4.0 ------------------------------
+w37zjff    openmpi@2.1.6%gcc
+grntfnj        ^hwloc@1.11.11%gcc
+xsxy3sn            ^libpciaccess@0.13.5%gcc
+ch633d6            ^libxml2@2.9.8%gcc
+tcpcexo            ^numactl@2.0.12%gcc
+
+7wk5x7g    openmpi@3.0.3%gcc
+grntfnj        ^hwloc@1.11.11%gcc
+xsxy3sn            ^libpciaccess@0.13.5%gcc
+ch633d6            ^libxml2@2.9.8%gcc
+tcpcexo            ^numactl@2.0.12%gcc
+fvgnqf6        ^zlib@1.2.11%gcc
+
+tlwwzoc    openmpi@3.1.3%gcc
+grntfnj        ^hwloc@1.11.11%gcc
+xsxy3sn            ^libpciaccess@0.13.5%gcc
+ch633d6            ^libxml2@2.9.8%gcc
+tcpcexo            ^numactl@2.0.12%gcc
+fvgnqf6        ^zlib@1.2.11%gcc
+
+sqjk33a    openmpi@4.0.1%gcc
+grntfnj        ^hwloc@1.11.11%gcc
+xsxy3sn            ^libpciaccess@0.13.5%gcc
+ch633d6            ^libxml2@2.9.8%gcc
+tcpcexo            ^numactl@2.0.12%gcc
+fvgnqf6        ^zlib@1.2.11%gcc
+
+mv  /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/darwin-power9-batch.out   /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/batch-out/darwin-power9-openmpi-2019-04-18-batch.out
+cd /scratch/users/dantopa/repos/gitlab/pull-requests/libraries
+git add -A .
+git commit -m "${USER} ${tpl} ${hpc} ${partition} ${ymd}"
+[master 034ff03] dantopa openmpi darwin power9 2019-04-18
+ 7 files changed, 540 insertions(+)
+ rename libraries/{tools/bash/darwin-power9-batch.out => results/batch-out/darwin-power9-openmpi-2019-04-18-batch.out} (68%)
+ create mode 100644 libraries/results/tpl-order/openmpi-darwin-power9-graph.out
+ create mode 100644 libraries/results/tpl-order/openmpi-darwin-power9-ldf.out
+ create mode 100644 libraries/results/tpl-order/openmpi-darwin-power9.out
+Fri Apr 19 00:09:23 MDT 2019

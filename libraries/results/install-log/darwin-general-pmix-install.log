@@ -1,0 +1,1784 @@
+Thu Apr 18 19:45:47 MDT 2019
+
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> Installing util-macros
+==> Searching for binary cache of util-macros
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for util-macros found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/util-macros/util-macros-1.19.1.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/util-macros-1.19.1-ttsbvbkpzqvo7mondef6nb6lu7dxxp72/util-macros-1.19.1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/util-macros-1.19.1-ttsbvbkpzqvo7mondef6nb6lu7dxxp72
+==> No patches needed for util-macros
+==> Building util-macros [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed util-macros
+  Fetch: 0.11s.  Build: 1.87s.  Total: 1.98s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-7.3.0/util-macros-1.19.1-ttsbvbkpzqvo7mondef6nb6lu7dxxp72
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libpciaccess-0.13.5-f5k35g4jnofnql3akgfs5iuhijsfbjsq/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libpciaccess-0.13.5-f5k35g4jnofnql3akgfs5iuhijsfbjsq
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libpciaccess
+  Fetch: 0.11s.  Build: 10.74s.  Total: 10.85s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-7.3.0/libpciaccess-0.13.5-f5k35g4jnofnql3akgfs5iuhijsfbjsq
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> Installing hwloc
+==> Searching for binary cache of hwloc
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hwloc found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/hwloc/hwloc-2.0.2.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/hwloc-2.0.2-t3vq65naxndk4zed4t2oq2zr4tufs2nl/hwloc-2.0.2.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/hwloc-2.0.2-t3vq65naxndk4zed4t2oq2zr4tufs2nl
+==> No patches needed for hwloc
+==> Building hwloc [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed hwloc
+  Fetch: 0.18s.  Build: 32.65s.  Total: 32.83s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-7.3.0/hwloc-2.0.2-t3vq65naxndk4zed4t2oq2zr4tufs2nl
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> Installing libevent
+==> Searching for binary cache of libevent
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libevent found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/libevent/libevent-2.1.8.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libevent-2.1.8-gxgeywzuuwckafa35qjsd3dnmsputvy5/libevent-2.1.8-stable.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libevent-2.1.8-gxgeywzuuwckafa35qjsd3dnmsputvy5
+==> No patches needed for libevent
+==> Building libevent [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libevent
+  Fetch: 0.05s.  Build: 22.60s.  Total: 22.64s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-7.3.0/libevent-2.1.8-gxgeywzuuwckafa35qjsd3dnmsputvy5
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/pmix/pmix-3.1.2.tar.bz2
+==> Fetching from file:///usr/projects/draco/vendors/spack.mirror/pmix/pmix-3.1.2.tar.bz2 failed.
+==> Fetching https://github.com/pmix/pmix/releases/download/v3.1.2/pmix-3.1.2.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-3.1.2-c3yenlyffdsd5ajco5opx2q7l5jvbmex/pmix-3.1.2.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-3.1.2-c3yenlyffdsd5ajco5opx2q7l5jvbmex
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 1.55s.  Build: 1m 48.39s.  Total: 1m 49.94s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-7.3.0/pmix-3.1.2-c3yenlyffdsd5ajco5opx2q7l5jvbmex
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> Installing util-macros
+==> Searching for binary cache of util-macros
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for util-macros found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/util-macros/util-macros-1.19.1.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/util-macros-1.19.1-br2o7vt364vjeq3osmev6e6kgxekzh2f/util-macros-1.19.1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/util-macros-1.19.1-br2o7vt364vjeq3osmev6e6kgxekzh2f
+==> No patches needed for util-macros
+==> Building util-macros [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed util-macros
+  Fetch: 0.00s.  Build: 1.79s.  Total: 1.80s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-6.4.0/util-macros-1.19.1-br2o7vt364vjeq3osmev6e6kgxekzh2f
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libpciaccess-0.13.5-j6fsyhpv7edgisytx4vyvimj6rvpmdav/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libpciaccess-0.13.5-j6fsyhpv7edgisytx4vyvimj6rvpmdav
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libpciaccess
+  Fetch: 0.00s.  Build: 9.81s.  Total: 9.82s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-6.4.0/libpciaccess-0.13.5-j6fsyhpv7edgisytx4vyvimj6rvpmdav
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> Installing hwloc
+==> Searching for binary cache of hwloc
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hwloc found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/hwloc/hwloc-2.0.2.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/hwloc-2.0.2-d3tv6w2qaccctrporv3ferxhgbhb6fzb/hwloc-2.0.2.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/hwloc-2.0.2-d3tv6w2qaccctrporv3ferxhgbhb6fzb
+==> No patches needed for hwloc
+==> Building hwloc [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed hwloc
+  Fetch: 0.02s.  Build: 32.94s.  Total: 32.96s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-6.4.0/hwloc-2.0.2-d3tv6w2qaccctrporv3ferxhgbhb6fzb
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> Installing libevent
+==> Searching for binary cache of libevent
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libevent found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/libevent/libevent-2.1.8.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libevent-2.1.8-td73grk4pk44cebnv52jy7wckf672ioc/libevent-2.1.8-stable.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libevent-2.1.8-td73grk4pk44cebnv52jy7wckf672ioc
+==> No patches needed for libevent
+==> Building libevent [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libevent
+  Fetch: 0.01s.  Build: 20.55s.  Total: 20.56s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-6.4.0/libevent-2.1.8-td73grk4pk44cebnv52jy7wckf672ioc
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/pmix/pmix-3.1.2.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-3.1.2-htufkb7s3dkyufj5ezwbu7xcd6rkfjzu/pmix-3.1.2.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-3.1.2-htufkb7s3dkyufj5ezwbu7xcd6rkfjzu
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 0.01s.  Build: 1m 48.87s.  Total: 1m 48.88s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-6.4.0/pmix-3.1.2-htufkb7s3dkyufj5ezwbu7xcd6rkfjzu
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> Installing util-macros
+==> Searching for binary cache of util-macros
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for util-macros found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/util-macros/util-macros-1.19.1.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/util-macros-1.19.1-s4t4zharyopk6hdh6aprfxbodbjj7cy4/util-macros-1.19.1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/util-macros-1.19.1-s4t4zharyopk6hdh6aprfxbodbjj7cy4
+==> No patches needed for util-macros
+==> Building util-macros [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed util-macros
+  Fetch: 0.01s.  Build: 1.80s.  Total: 1.80s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-5.5.0/util-macros-1.19.1-s4t4zharyopk6hdh6aprfxbodbjj7cy4
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libpciaccess-0.13.5-ygiicn2xej7gbbn757mrwxaqyw3a4qmv/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libpciaccess-0.13.5-ygiicn2xej7gbbn757mrwxaqyw3a4qmv
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libpciaccess
+  Fetch: 0.00s.  Build: 10.28s.  Total: 10.28s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-5.5.0/libpciaccess-0.13.5-ygiicn2xej7gbbn757mrwxaqyw3a4qmv
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> Installing hwloc
+==> Searching for binary cache of hwloc
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hwloc found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/hwloc/hwloc-2.0.2.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/hwloc-2.0.2-ay37u7nstrliewrxyp7yigniu3cy7krn/hwloc-2.0.2.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/hwloc-2.0.2-ay37u7nstrliewrxyp7yigniu3cy7krn
+==> No patches needed for hwloc
+==> Building hwloc [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed hwloc
+  Fetch: 0.04s.  Build: 33.62s.  Total: 33.65s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-5.5.0/hwloc-2.0.2-ay37u7nstrliewrxyp7yigniu3cy7krn
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> Installing libevent
+==> Searching for binary cache of libevent
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libevent found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/libevent/libevent-2.1.8.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libevent-2.1.8-p3lav6sz7beqvgyoqzq6sxlwaguxxwqh/libevent-2.1.8-stable.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libevent-2.1.8-p3lav6sz7beqvgyoqzq6sxlwaguxxwqh
+==> No patches needed for libevent
+==> Building libevent [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libevent
+  Fetch: 0.01s.  Build: 20.60s.  Total: 20.61s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-5.5.0/libevent-2.1.8-p3lav6sz7beqvgyoqzq6sxlwaguxxwqh
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/pmix/pmix-3.1.2.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-3.1.2-bz2bka4akl7zwbhigo2xxi5e756z2vw5/pmix-3.1.2.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-3.1.2-bz2bka4akl7zwbhigo2xxi5e756z2vw5
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 0.01s.  Build: 1m 47.10s.  Total: 1m 47.12s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-5.5.0/pmix-3.1.2-bz2bka4akl7zwbhigo2xxi5e756z2vw5
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> Installing util-macros
+==> Searching for binary cache of util-macros
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for util-macros found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/util-macros/util-macros-1.19.1.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/util-macros-1.19.1-7ti2tnfjzr7mu3izk342x4muriojjomd/util-macros-1.19.1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/util-macros-1.19.1-7ti2tnfjzr7mu3izk342x4muriojjomd
+==> No patches needed for util-macros
+==> Building util-macros [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed util-macros
+  Fetch: 0.00s.  Build: 2.02s.  Total: 2.02s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-4.9.3/util-macros-1.19.1-7ti2tnfjzr7mu3izk342x4muriojjomd
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libpciaccess-0.13.5-nqafs22xikrjx7a4eiwzbtfxk2inwnhu/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libpciaccess-0.13.5-nqafs22xikrjx7a4eiwzbtfxk2inwnhu
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libpciaccess
+  Fetch: 0.00s.  Build: 10.39s.  Total: 10.39s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-4.9.3/libpciaccess-0.13.5-nqafs22xikrjx7a4eiwzbtfxk2inwnhu
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> Installing hwloc
+==> Searching for binary cache of hwloc
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hwloc found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/hwloc/hwloc-2.0.2.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/hwloc-2.0.2-wqqeec5noqxcq4udtkb6wxhhv3zx674x/hwloc-2.0.2.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/hwloc-2.0.2-wqqeec5noqxcq4udtkb6wxhhv3zx674x
+==> No patches needed for hwloc
+==> Building hwloc [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed hwloc
+  Fetch: 0.02s.  Build: 32.50s.  Total: 32.52s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-4.9.3/hwloc-2.0.2-wqqeec5noqxcq4udtkb6wxhhv3zx674x
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> Installing libevent
+==> Searching for binary cache of libevent
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libevent found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/libevent/libevent-2.1.8.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libevent-2.1.8-tqniyndee7f3mnqio2fnv6b5nbl2kpsg/libevent-2.1.8-stable.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libevent-2.1.8-tqniyndee7f3mnqio2fnv6b5nbl2kpsg
+==> No patches needed for libevent
+==> Building libevent [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libevent
+  Fetch: 0.01s.  Build: 21.07s.  Total: 21.08s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-4.9.3/libevent-2.1.8-tqniyndee7f3mnqio2fnv6b5nbl2kpsg
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/pmix/pmix-3.1.2.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-3.1.2-omyzj6fjy4mxinqadeigy6onhve6pcx4/pmix-3.1.2.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-3.1.2-omyzj6fjy4mxinqadeigy6onhve6pcx4
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 0.01s.  Build: 1m 49.66s.  Total: 1m 49.67s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-4.9.3/pmix-3.1.2-omyzj6fjy4mxinqadeigy6onhve6pcx4
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> Installing util-macros
+==> Searching for binary cache of util-macros
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for util-macros found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/util-macros/util-macros-1.19.1.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/util-macros-1.19.1-p66qdrtaslf2cq4wyc6mitrxzhnyujhc/util-macros-1.19.1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/util-macros-1.19.1-p66qdrtaslf2cq4wyc6mitrxzhnyujhc
+==> No patches needed for util-macros
+==> Building util-macros [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed util-macros
+  Fetch: 0.00s.  Build: 1.80s.  Total: 1.80s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-4.8.5/util-macros-1.19.1-p66qdrtaslf2cq4wyc6mitrxzhnyujhc
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libpciaccess-0.13.5-5chyfxo6gpmcf74gpv3sqni2aa6v5x57/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libpciaccess-0.13.5-5chyfxo6gpmcf74gpv3sqni2aa6v5x57
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libpciaccess
+  Fetch: 0.00s.  Build: 8.60s.  Total: 8.61s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-4.8.5/libpciaccess-0.13.5-5chyfxo6gpmcf74gpv3sqni2aa6v5x57
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> Installing hwloc
+==> Searching for binary cache of hwloc
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hwloc found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/hwloc/hwloc-2.0.2.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/hwloc-2.0.2-zlofgxmgcyx4b32kh3nwg6xpa2avqoqb/hwloc-2.0.2.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/hwloc-2.0.2-zlofgxmgcyx4b32kh3nwg6xpa2avqoqb
+==> No patches needed for hwloc
+==> Building hwloc [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed hwloc
+  Fetch: 0.03s.  Build: 30.40s.  Total: 30.43s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-4.8.5/hwloc-2.0.2-zlofgxmgcyx4b32kh3nwg6xpa2avqoqb
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> Installing libevent
+==> Searching for binary cache of libevent
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libevent found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/libevent/libevent-2.1.8.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libevent-2.1.8-m76ljabepud7scvtkpkpmizwvpkwqr6i/libevent-2.1.8-stable.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libevent-2.1.8-m76ljabepud7scvtkpkpmizwvpkwqr6i
+==> No patches needed for libevent
+==> Building libevent [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libevent
+  Fetch: 0.01s.  Build: 21.01s.  Total: 21.01s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-4.8.5/libevent-2.1.8-m76ljabepud7scvtkpkpmizwvpkwqr6i
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/pmix/pmix-3.1.2.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-3.1.2-qt2qf4ykk4rexi65muigjyrp54udpjc3/pmix-3.1.2.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-3.1.2-qt2qf4ykk4rexi65muigjyrp54udpjc3
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 0.01s.  Build: 1m 40.20s.  Total: 1m 40.21s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-4.8.5/pmix-3.1.2-qt2qf4ykk4rexi65muigjyrp54udpjc3
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : generating module file
+==> libtool@2.4.6 : registering into DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : generating module file
+==> pkg-config@0.29.2 : registering into DB
+==> Installing util-macros
+==> Searching for binary cache of util-macros
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for util-macros found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/util-macros/util-macros-1.19.1.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/util-macros-1.19.1-mcpc6iksxiwi524dnk62ir3v4iobcqiu/util-macros-1.19.1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/util-macros-1.19.1-mcpc6iksxiwi524dnk62ir3v4iobcqiu
+==> No patches needed for util-macros
+==> Building util-macros [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed util-macros
+  Fetch: 0.56s.  Build: 1.99s.  Total: 2.55s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-18.0.3/util-macros-1.19.1-mcpc6iksxiwi524dnk62ir3v4iobcqiu
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libpciaccess-0.13.5-zrun5pczkvhnmswkgbeomikpiqfikpn3/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libpciaccess-0.13.5-zrun5pczkvhnmswkgbeomikpiqfikpn3
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libpciaccess
+  Fetch: 0.02s.  Build: 30.80s.  Total: 30.82s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-18.0.3/libpciaccess-0.13.5-zrun5pczkvhnmswkgbeomikpiqfikpn3
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : generating module file
+==> libxml2@2.9.8 : registering into DB
+==> Installing hwloc
+==> Searching for binary cache of hwloc
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hwloc found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/hwloc/hwloc-2.0.2.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/hwloc-2.0.2-e2f3np3ftuwymnr5s3djf5azuhsskmbg/hwloc-2.0.2.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/hwloc-2.0.2-e2f3np3ftuwymnr5s3djf5azuhsskmbg
+==> No patches needed for hwloc
+==> Building hwloc [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed hwloc
+  Fetch: 0.02s.  Build: 1m 25.40s.  Total: 1m 25.42s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-18.0.3/hwloc-2.0.2-e2f3np3ftuwymnr5s3djf5azuhsskmbg
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : generating module file
+==> openssl@1.1.1b : registering into DB
+==> Installing libevent
+==> Searching for binary cache of libevent
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libevent found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/libevent/libevent-2.1.8.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libevent-2.1.8-eblktd6e2gnun6ty7sgqmv6ncnvsxcch/libevent-2.1.8-stable.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libevent-2.1.8-eblktd6e2gnun6ty7sgqmv6ncnvsxcch
+==> No patches needed for libevent
+==> Building libevent [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libevent
+  Fetch: 0.03s.  Build: 1m 4.88s.  Total: 1m 4.90s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-18.0.3/libevent-2.1.8-eblktd6e2gnun6ty7sgqmv6ncnvsxcch
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/pmix/pmix-3.1.2.tar.bz2
+==> Fetching from file:///usr/projects/draco/vendors/spack.mirror/pmix/pmix-3.1.2.tar.bz2 failed.
+==> Fetching https://github.com/pmix/pmix/releases/download/v3.1.2/pmix-3.1.2.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-3.1.2-x57elychd3bavsrpjnsgkllxftbkdt4a/pmix-3.1.2.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-3.1.2-x57elychd3bavsrpjnsgkllxftbkdt4a
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 1.37s.  Build: 3m 14.04s.  Total: 3m 15.41s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-18.0.3/pmix-3.1.2-x57elychd3bavsrpjnsgkllxftbkdt4a
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : generating module file
+==> libtool@2.4.6 : registering into DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : generating module file
+==> pkg-config@0.29.2 : registering into DB
+==> Installing util-macros
+==> Searching for binary cache of util-macros
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for util-macros found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/util-macros/util-macros-1.19.1.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/util-macros-1.19.1-y3nqwmg55xx2dwoidsgahtr4dncw4mju/util-macros-1.19.1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/util-macros-1.19.1-y3nqwmg55xx2dwoidsgahtr4dncw4mju
+==> No patches needed for util-macros
+==> Building util-macros [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed util-macros
+  Fetch: 0.00s.  Build: 2.53s.  Total: 2.54s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-17.0.6/util-macros-1.19.1-y3nqwmg55xx2dwoidsgahtr4dncw4mju
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libpciaccess-0.13.5-5ywhccxysycmzgtwkagjl26ivjvvgh6u/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libpciaccess-0.13.5-5ywhccxysycmzgtwkagjl26ivjvvgh6u
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libpciaccess
+  Fetch: 0.00s.  Build: 32.07s.  Total: 32.08s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-17.0.6/libpciaccess-0.13.5-5ywhccxysycmzgtwkagjl26ivjvvgh6u
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : generating module file
+==> libxml2@2.9.8 : registering into DB
+==> Installing hwloc
+==> Searching for binary cache of hwloc
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hwloc found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/hwloc/hwloc-2.0.2.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/hwloc-2.0.2-i5mpdo5oko5m3hynm6iknqgqzkfdow6w/hwloc-2.0.2.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/hwloc-2.0.2-i5mpdo5oko5m3hynm6iknqgqzkfdow6w
+==> No patches needed for hwloc
+==> Building hwloc [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed hwloc
+  Fetch: 0.02s.  Build: 1m 23.05s.  Total: 1m 23.06s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-17.0.6/hwloc-2.0.2-i5mpdo5oko5m3hynm6iknqgqzkfdow6w
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : generating module file
+==> openssl@1.1.1b : registering into DB
+==> Installing libevent
+==> Searching for binary cache of libevent
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libevent found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/libevent/libevent-2.1.8.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libevent-2.1.8-wlqy7atfn7bwogbws4gwcozazrz7kv3u/libevent-2.1.8-stable.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libevent-2.1.8-wlqy7atfn7bwogbws4gwcozazrz7kv3u
+==> No patches needed for libevent
+==> Building libevent [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libevent
+  Fetch: 0.01s.  Build: 1m 2.69s.  Total: 1m 2.70s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-17.0.6/libevent-2.1.8-wlqy7atfn7bwogbws4gwcozazrz7kv3u
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/pmix/pmix-3.1.2.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-3.1.2-tuzuph2hxo6wwayxrky4ssxeh62oq3ft/pmix-3.1.2.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-3.1.2-tuzuph2hxo6wwayxrky4ssxeh62oq3ft
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 0.01s.  Build: 3m 1.37s.  Total: 3m 1.38s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-17.0.6/pmix-3.1.2-tuzuph2hxo6wwayxrky4ssxeh62oq3ft
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : generating module file
+==> libtool@2.4.6 : registering into DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : generating module file
+==> pkg-config@0.29.2 : registering into DB
+==> Installing util-macros
+==> Searching for binary cache of util-macros
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for util-macros found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/util-macros/util-macros-1.19.1.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/util-macros-1.19.1-2db62iqhhnn5oouz3hv6tfpdr5zeeei2/util-macros-1.19.1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/util-macros-1.19.1-2db62iqhhnn5oouz3hv6tfpdr5zeeei2
+==> No patches needed for util-macros
+==> Building util-macros [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed util-macros
+  Fetch: 0.00s.  Build: 3.22s.  Total: 3.22s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-16.0.4/util-macros-1.19.1-2db62iqhhnn5oouz3hv6tfpdr5zeeei2
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libpciaccess-0.13.5-jtzzof2rndp4opcv7uva43gzokrgwc7e/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libpciaccess-0.13.5-jtzzof2rndp4opcv7uva43gzokrgwc7e
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libpciaccess
+  Fetch: 0.00s.  Build: 52.07s.  Total: 52.08s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-16.0.4/libpciaccess-0.13.5-jtzzof2rndp4opcv7uva43gzokrgwc7e
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : generating module file
+==> libxml2@2.9.8 : registering into DB
+==> Installing hwloc
+==> Searching for binary cache of hwloc
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hwloc found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/hwloc/hwloc-2.0.2.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/hwloc-2.0.2-khoithdiphkafvlinjcutk3padjghlrk/hwloc-2.0.2.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/hwloc-2.0.2-khoithdiphkafvlinjcutk3padjghlrk
+==> No patches needed for hwloc
+==> Building hwloc [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed hwloc
+  Fetch: 0.02s.  Build: 2m 19.38s.  Total: 2m 19.40s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-16.0.4/hwloc-2.0.2-khoithdiphkafvlinjcutk3padjghlrk
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : generating module file
+==> openssl@1.1.1b : registering into DB
+==> Installing libevent
+==> Searching for binary cache of libevent
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libevent found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/libevent/libevent-2.1.8.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libevent-2.1.8-vtvgbjanj3dlhonautroxv7wf6xfda6o/libevent-2.1.8-stable.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libevent-2.1.8-vtvgbjanj3dlhonautroxv7wf6xfda6o
+==> No patches needed for libevent
+==> Building libevent [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libevent
+  Fetch: 0.01s.  Build: 1m 49.11s.  Total: 1m 49.12s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-16.0.4/libevent-2.1.8-vtvgbjanj3dlhonautroxv7wf6xfda6o
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/pmix/pmix-3.1.2.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-3.1.2-widkpkk5aekdaaho6vbq6bs4u7jjh2zo/pmix-3.1.2.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-3.1.2-widkpkk5aekdaaho6vbq6bs4u7jjh2zo
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 0.01s.  Build: 4m 40.32s.  Total: 4m 40.33s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-16.0.4/pmix-3.1.2-widkpkk5aekdaaho6vbq6bs4u7jjh2zo
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : generating module file
+==> libtool@2.4.6 : registering into DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : generating module file
+==> pkg-config@0.29.2 : registering into DB
+==> Installing util-macros
+==> Searching for binary cache of util-macros
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for util-macros found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/util-macros/util-macros-1.19.1.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/util-macros-1.19.1-p26vno4mxna3np6an2bogyoinzmckg7s/util-macros-1.19.1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/util-macros-1.19.1-p26vno4mxna3np6an2bogyoinzmckg7s
+==> No patches needed for util-macros
+==> Building util-macros [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed util-macros
+  Fetch: 0.00s.  Build: 1.91s.  Total: 1.91s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/pgi-18.10/util-macros-1.19.1-p26vno4mxna3np6an2bogyoinzmckg7s
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libpciaccess-0.13.5-txmk33tz4pwzoqpu7kzmtcuskj56yt5y/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libpciaccess-0.13.5-txmk33tz4pwzoqpu7kzmtcuskj56yt5y
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : generating module file
+==> libtool@2.4.6 : registering into DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : generating module file
+==> pkg-config@0.29.2 : registering into DB
+==> Installing util-macros
+==> Searching for binary cache of util-macros
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for util-macros found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/util-macros/util-macros-1.19.1.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/util-macros-1.19.1-5sqm34ostddk6yqg5ll77hbotyokjfku/util-macros-1.19.1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/util-macros-1.19.1-5sqm34ostddk6yqg5ll77hbotyokjfku
+==> No patches needed for util-macros
+==> Building util-macros [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed util-macros
+  Fetch: 0.01s.  Build: 1.87s.  Total: 1.88s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/pgi-18.7/util-macros-1.19.1-5sqm34ostddk6yqg5ll77hbotyokjfku
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libpciaccess-0.13.5-v53lqyxkusuk5gzpa2c27if6gz74i6ef/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libpciaccess-0.13.5-v53lqyxkusuk5gzpa2c27if6gz74i6ef
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : generating module file
+==> libtool@2.4.6 : registering into DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : generating module file
+==> pkg-config@0.29.2 : registering into DB
+==> Installing util-macros
+==> Searching for binary cache of util-macros
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for util-macros found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/util-macros/util-macros-1.19.1.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/util-macros-1.19.1-ckl2v44aw75men242etgy4goazq3qhsh/util-macros-1.19.1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/util-macros-1.19.1-ckl2v44aw75men242etgy4goazq3qhsh
+==> No patches needed for util-macros
+==> Building util-macros [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed util-macros
+  Fetch: 0.00s.  Build: 1.98s.  Total: 1.99s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/pgi-17.10/util-macros-1.19.1-ckl2v44aw75men242etgy4goazq3qhsh
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libpciaccess-0.13.5-pg2xuuyhcjdndbls4t7dgpig6zg6rbgi/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libpciaccess-0.13.5-pg2xuuyhcjdndbls4t7dgpig6zg6rbgi
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : generating module file
+==> libtool@2.4.6 : registering into DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : generating module file
+==> pkg-config@0.29.2 : registering into DB
+==> Installing util-macros
+==> Searching for binary cache of util-macros
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for util-macros found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/util-macros/util-macros-1.19.1.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/util-macros-1.19.1-3oqcy5lvjwez4ndko6eqmrltddcecktv/util-macros-1.19.1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/util-macros-1.19.1-3oqcy5lvjwez4ndko6eqmrltddcecktv
+==> No patches needed for util-macros
+==> Building util-macros [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed util-macros
+  Fetch: 0.00s.  Build: 1.99s.  Total: 2.00s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/pgi-16.10/util-macros-1.19.1-3oqcy5lvjwez4ndko6eqmrltddcecktv
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libpciaccess-0.13.5-nl5rxpywvoxmxgoo22g2rne5btq2crh5/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libpciaccess-0.13.5-nl5rxpywvoxmxgoo22g2rne5btq2crh5
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> Installing util-macros
+==> Searching for binary cache of util-macros
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for util-macros found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/util-macros/util-macros-1.19.1.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/util-macros-1.19.1-4smpt37rsocd54ufitlrzzampd6iyp5z/util-macros-1.19.1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/util-macros-1.19.1-4smpt37rsocd54ufitlrzzampd6iyp5z
+==> No patches needed for util-macros
+==> Building util-macros [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed util-macros
+  Fetch: 0.00s.  Build: 1.94s.  Total: 1.94s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-8.2.0/util-macros-1.19.1-4smpt37rsocd54ufitlrzzampd6iyp5z
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libpciaccess-0.13.5-svkyphbquafpjfs4tfsgr3wlmgfknhtu/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libpciaccess-0.13.5-svkyphbquafpjfs4tfsgr3wlmgfknhtu
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libpciaccess
+  Fetch: 0.00s.  Build: 9.65s.  Total: 9.65s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-8.2.0/libpciaccess-0.13.5-svkyphbquafpjfs4tfsgr3wlmgfknhtu
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> Installing hwloc
+==> Searching for binary cache of hwloc
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hwloc found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/hwloc/hwloc-2.0.2.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/hwloc-2.0.2-bpazekbcllhga5cmhrrziq5jtmvepsbr/hwloc-2.0.2.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/hwloc-2.0.2-bpazekbcllhga5cmhrrziq5jtmvepsbr
+==> No patches needed for hwloc
+==> Building hwloc [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed hwloc
+  Fetch: 0.02s.  Build: 33.67s.  Total: 33.69s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-8.2.0/hwloc-2.0.2-bpazekbcllhga5cmhrrziq5jtmvepsbr
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> Installing libevent
+==> Searching for binary cache of libevent
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libevent found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/libevent/libevent-2.1.8.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libevent-2.1.8-nxtv7vbvnb63mmytl4i5ynzzfnzrfvd5/libevent-2.1.8-stable.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libevent-2.1.8-nxtv7vbvnb63mmytl4i5ynzzfnzrfvd5
+==> No patches needed for libevent
+==> Building libevent [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libevent
+  Fetch: 0.01s.  Build: 21.58s.  Total: 21.59s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-8.2.0/libevent-2.1.8-nxtv7vbvnb63mmytl4i5ynzzfnzrfvd5
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/pmix/pmix-3.0.2.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-3.0.2-nd3qsexnf2dmkywfzicuucf46fc43xjp/pmix-3.0.2.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-3.0.2-nd3qsexnf2dmkywfzicuucf46fc43xjp
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 0.05s.  Build: 1m 35.49s.  Total: 1m 35.54s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-8.2.0/pmix-3.0.2-nd3qsexnf2dmkywfzicuucf46fc43xjp
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-7.3.0/util-macros-1.19.1-ttsbvbkpzqvo7mondef6nb6lu7dxxp72
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-7.3.0/libpciaccess-0.13.5-f5k35g4jnofnql3akgfs5iuhijsfbjsq
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-7.3.0/hwloc-2.0.2-t3vq65naxndk4zed4t2oq2zr4tufs2nl
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> libevent is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-7.3.0/libevent-2.1.8-gxgeywzuuwckafa35qjsd3dnmsputvy5
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/pmix/pmix-3.0.2.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-3.0.2-zar4otg247d3624kkguoujm32owf474t/pmix-3.0.2.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-3.0.2-zar4otg247d3624kkguoujm32owf474t
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 0.01s.  Build: 1m 34.40s.  Total: 1m 34.41s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-7.3.0/pmix-3.0.2-zar4otg247d3624kkguoujm32owf474t
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-6.4.0/util-macros-1.19.1-br2o7vt364vjeq3osmev6e6kgxekzh2f
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-6.4.0/libpciaccess-0.13.5-j6fsyhpv7edgisytx4vyvimj6rvpmdav
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-6.4.0/hwloc-2.0.2-d3tv6w2qaccctrporv3ferxhgbhb6fzb
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> libevent is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-6.4.0/libevent-2.1.8-td73grk4pk44cebnv52jy7wckf672ioc
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/pmix/pmix-3.0.2.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-3.0.2-hxdtzsjpwdcheue3q7gvmlhd7pk57pjf/pmix-3.0.2.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-3.0.2-hxdtzsjpwdcheue3q7gvmlhd7pk57pjf
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 0.01s.  Build: 1m 38.66s.  Total: 1m 38.67s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-6.4.0/pmix-3.0.2-hxdtzsjpwdcheue3q7gvmlhd7pk57pjf
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-5.5.0/util-macros-1.19.1-s4t4zharyopk6hdh6aprfxbodbjj7cy4
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-5.5.0/libpciaccess-0.13.5-ygiicn2xej7gbbn757mrwxaqyw3a4qmv
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-5.5.0/hwloc-2.0.2-ay37u7nstrliewrxyp7yigniu3cy7krn
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> libevent is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-5.5.0/libevent-2.1.8-p3lav6sz7beqvgyoqzq6sxlwaguxxwqh
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/pmix/pmix-3.0.2.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-3.0.2-6ehlkwd6ol4gfj2v2egmqtw7cdl7lf3w/pmix-3.0.2.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-3.0.2-6ehlkwd6ol4gfj2v2egmqtw7cdl7lf3w
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 0.01s.  Build: 1m 36.23s.  Total: 1m 36.24s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-5.5.0/pmix-3.0.2-6ehlkwd6ol4gfj2v2egmqtw7cdl7lf3w
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-4.9.3/util-macros-1.19.1-7ti2tnfjzr7mu3izk342x4muriojjomd
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-4.9.3/libpciaccess-0.13.5-nqafs22xikrjx7a4eiwzbtfxk2inwnhu
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-4.9.3/hwloc-2.0.2-wqqeec5noqxcq4udtkb6wxhhv3zx674x
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> libevent is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-4.9.3/libevent-2.1.8-tqniyndee7f3mnqio2fnv6b5nbl2kpsg
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/pmix/pmix-3.0.2.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-3.0.2-mjesokqglynd3b63cfjka2n34lb7gxzf/pmix-3.0.2.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-3.0.2-mjesokqglynd3b63cfjka2n34lb7gxzf
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 0.01s.  Build: 1m 39.35s.  Total: 1m 39.36s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-4.9.3/pmix-3.0.2-mjesokqglynd3b63cfjka2n34lb7gxzf
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-4.8.5/util-macros-1.19.1-p66qdrtaslf2cq4wyc6mitrxzhnyujhc
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-4.8.5/libpciaccess-0.13.5-5chyfxo6gpmcf74gpv3sqni2aa6v5x57
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-4.8.5/hwloc-2.0.2-zlofgxmgcyx4b32kh3nwg6xpa2avqoqb
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> libevent is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-4.8.5/libevent-2.1.8-m76ljabepud7scvtkpkpmizwvpkwqr6i
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/pmix/pmix-3.0.2.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-3.0.2-wari6qwsj4reortbjfbqgyxk5kkguuex/pmix-3.0.2.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-3.0.2-wari6qwsj4reortbjfbqgyxk5kkguuex
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 0.01s.  Build: 1m 29.33s.  Total: 1m 29.34s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-4.8.5/pmix-3.0.2-wari6qwsj4reortbjfbqgyxk5kkguuex
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-18.0.3/util-macros-1.19.1-mcpc6iksxiwi524dnk62ir3v4iobcqiu
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-18.0.3/libpciaccess-0.13.5-zrun5pczkvhnmswkgbeomikpiqfikpn3
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-18.0.3/hwloc-2.0.2-e2f3np3ftuwymnr5s3djf5azuhsskmbg
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> libevent is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-18.0.3/libevent-2.1.8-eblktd6e2gnun6ty7sgqmv6ncnvsxcch
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/pmix/pmix-3.0.2.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-3.0.2-cqcdgfwp4omr5hedpdakgsczluoovpxc/pmix-3.0.2.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-3.0.2-cqcdgfwp4omr5hedpdakgsczluoovpxc
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 0.01s.  Build: 3m 7.91s.  Total: 3m 7.93s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-18.0.3/pmix-3.0.2-cqcdgfwp4omr5hedpdakgsczluoovpxc
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-17.0.6/util-macros-1.19.1-y3nqwmg55xx2dwoidsgahtr4dncw4mju
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-17.0.6/libpciaccess-0.13.5-5ywhccxysycmzgtwkagjl26ivjvvgh6u
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-17.0.6/hwloc-2.0.2-i5mpdo5oko5m3hynm6iknqgqzkfdow6w
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> libevent is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-17.0.6/libevent-2.1.8-wlqy7atfn7bwogbws4gwcozazrz7kv3u
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/pmix/pmix-3.0.2.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-3.0.2-ltydryhwjkrgrz2axbrhetgc6lbbe5zu/pmix-3.0.2.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-3.0.2-ltydryhwjkrgrz2axbrhetgc6lbbe5zu
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 0.01s.  Build: 3m 4.81s.  Total: 3m 4.81s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-17.0.6/pmix-3.0.2-ltydryhwjkrgrz2axbrhetgc6lbbe5zu
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-16.0.4/util-macros-1.19.1-2db62iqhhnn5oouz3hv6tfpdr5zeeei2
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-16.0.4/libpciaccess-0.13.5-jtzzof2rndp4opcv7uva43gzokrgwc7e
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-16.0.4/hwloc-2.0.2-khoithdiphkafvlinjcutk3padjghlrk
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> libevent is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-16.0.4/libevent-2.1.8-vtvgbjanj3dlhonautroxv7wf6xfda6o
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/pmix/pmix-3.0.2.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-3.0.2-j5q64akzrxuwjdws5j6yig3lcwsrzmaw/pmix-3.0.2.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-3.0.2-j5q64akzrxuwjdws5j6yig3lcwsrzmaw
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 0.01s.  Build: 4m 36.59s.  Total: 4m 36.60s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-16.0.4/pmix-3.0.2-j5q64akzrxuwjdws5j6yig3lcwsrzmaw
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/pgi-18.10/util-macros-1.19.1-p26vno4mxna3np6an2bogyoinzmckg7s
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libpciaccess-0.13.5-txmk33tz4pwzoqpu7kzmtcuskj56yt5y/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libpciaccess-0.13.5-txmk33tz4pwzoqpu7kzmtcuskj56yt5y
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/pgi-18.7/util-macros-1.19.1-5sqm34ostddk6yqg5ll77hbotyokjfku
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libpciaccess-0.13.5-v53lqyxkusuk5gzpa2c27if6gz74i6ef/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libpciaccess-0.13.5-v53lqyxkusuk5gzpa2c27if6gz74i6ef
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/pgi-17.10/util-macros-1.19.1-ckl2v44aw75men242etgy4goazq3qhsh
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libpciaccess-0.13.5-pg2xuuyhcjdndbls4t7dgpig6zg6rbgi/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libpciaccess-0.13.5-pg2xuuyhcjdndbls4t7dgpig6zg6rbgi
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/pgi-16.10/util-macros-1.19.1-3oqcy5lvjwez4ndko6eqmrltddcecktv
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libpciaccess-0.13.5-nl5rxpywvoxmxgoo22g2rne5btq2crh5/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libpciaccess-0.13.5-nl5rxpywvoxmxgoo22g2rne5btq2crh5
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> libevent is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-8.2.0/libevent-2.1.8-nxtv7vbvnb63mmytl4i5ynzzfnzrfvd5
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/pmix/pmix-2.2.2.tar.bz2
+==> Fetching from file:///usr/projects/draco/vendors/spack.mirror/pmix/pmix-2.2.2.tar.bz2 failed.
+==> Fetching https://github.com/pmix/pmix/releases/download/v2.2.2/pmix-2.2.2.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.2.2-hiqrojoe4wq4y3sgibtofpptgcjikwn6/pmix-2.2.2.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.2.2-hiqrojoe4wq4y3sgibtofpptgcjikwn6
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 1.57s.  Build: 1m 29.76s.  Total: 1m 31.32s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-8.2.0/pmix-2.2.2-hiqrojoe4wq4y3sgibtofpptgcjikwn6
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> libevent is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-7.3.0/libevent-2.1.8-gxgeywzuuwckafa35qjsd3dnmsputvy5
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/pmix/pmix-2.2.2.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.2.2-bf3d4bjixmmsu6sm2qkvtwkbkiujcieg/pmix-2.2.2.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.2.2-bf3d4bjixmmsu6sm2qkvtwkbkiujcieg
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 0.01s.  Build: 1m 32.44s.  Total: 1m 32.46s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-7.3.0/pmix-2.2.2-bf3d4bjixmmsu6sm2qkvtwkbkiujcieg
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> libevent is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-6.4.0/libevent-2.1.8-td73grk4pk44cebnv52jy7wckf672ioc
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/pmix/pmix-2.2.2.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.2.2-635m5zqbtgmedxjzfs7uyyawfacxdmaz/pmix-2.2.2.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.2.2-635m5zqbtgmedxjzfs7uyyawfacxdmaz
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 0.01s.  Build: 1m 34.39s.  Total: 1m 34.40s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-6.4.0/pmix-2.2.2-635m5zqbtgmedxjzfs7uyyawfacxdmaz
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> libevent is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-5.5.0/libevent-2.1.8-p3lav6sz7beqvgyoqzq6sxlwaguxxwqh
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/pmix/pmix-2.2.2.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.2.2-wwkxv23yzjznpd4wjn4fusniequirn5q/pmix-2.2.2.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.2.2-wwkxv23yzjznpd4wjn4fusniequirn5q
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 0.01s.  Build: 1m 28.26s.  Total: 1m 28.27s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-5.5.0/pmix-2.2.2-wwkxv23yzjznpd4wjn4fusniequirn5q
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> libevent is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-4.9.3/libevent-2.1.8-tqniyndee7f3mnqio2fnv6b5nbl2kpsg
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/pmix/pmix-2.2.2.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.2.2-xbsy5bcwfpkaec63ibbtqye5ov2btqgk/pmix-2.2.2.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.2.2-xbsy5bcwfpkaec63ibbtqye5ov2btqgk
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 0.01s.  Build: 1m 32.72s.  Total: 1m 32.73s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-4.9.3/pmix-2.2.2-xbsy5bcwfpkaec63ibbtqye5ov2btqgk
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> libevent is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-4.8.5/libevent-2.1.8-m76ljabepud7scvtkpkpmizwvpkwqr6i
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/pmix/pmix-2.2.2.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.2.2-f5zodjlnqd2nt4utkiquqnht5lr3fics/pmix-2.2.2.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.2.2-f5zodjlnqd2nt4utkiquqnht5lr3fics
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 0.01s.  Build: 1m 19.37s.  Total: 1m 19.38s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-4.8.5/pmix-2.2.2-f5zodjlnqd2nt4utkiquqnht5lr3fics
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> libevent is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-18.0.3/libevent-2.1.8-eblktd6e2gnun6ty7sgqmv6ncnvsxcch
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/pmix/pmix-2.2.2.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.2.2-6dqqbeegmqo37uojcryvs5eegsb7pgjw/pmix-2.2.2.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.2.2-6dqqbeegmqo37uojcryvs5eegsb7pgjw
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 0.01s.  Build: 2m 44.94s.  Total: 2m 44.94s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-18.0.3/pmix-2.2.2-6dqqbeegmqo37uojcryvs5eegsb7pgjw
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> libevent is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-17.0.6/libevent-2.1.8-wlqy7atfn7bwogbws4gwcozazrz7kv3u
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/pmix/pmix-2.2.2.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.2.2-hlga54byqgu2ojmzslbr47m77oxvreow/pmix-2.2.2.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.2.2-hlga54byqgu2ojmzslbr47m77oxvreow
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 0.01s.  Build: 2m 46.29s.  Total: 2m 46.30s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-17.0.6/pmix-2.2.2-hlga54byqgu2ojmzslbr47m77oxvreow
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> libevent is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-16.0.4/libevent-2.1.8-vtvgbjanj3dlhonautroxv7wf6xfda6o
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/pmix/pmix-2.2.2.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.2.2-szkdm7k5p5w6is5b6ho4ywwsmdmcgwjf/pmix-2.2.2.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.2.2-szkdm7k5p5w6is5b6ho4ywwsmdmcgwjf
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 0.01s.  Build: 4m 16.00s.  Total: 4m 16.01s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-16.0.4/pmix-2.2.2-szkdm7k5p5w6is5b6ho4ywwsmdmcgwjf
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : generating module file
+==> openssl@1.1.1b : registering into DB
+==> Installing libevent
+==> Searching for binary cache of libevent
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libevent found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/libevent/libevent-2.1.8.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libevent-2.1.8-y4vcnis7dzkoq3rllxmudpqzvasqub3u/libevent-2.1.8-stable.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libevent-2.1.8-y4vcnis7dzkoq3rllxmudpqzvasqub3u
+==> No patches needed for libevent
+==> Building libevent [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libevent
+  Fetch: 0.01s.  Build: 37.62s.  Total: 37.62s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/pgi-18.10/libevent-2.1.8-y4vcnis7dzkoq3rllxmudpqzvasqub3u
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/pmix/pmix-2.2.2.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.2.2-fm3lyvuop2sb2vs2oayrhc44myvkc6xy/pmix-2.2.2.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.2.2-fm3lyvuop2sb2vs2oayrhc44myvkc6xy
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : generating module file
+==> openssl@1.1.1b : registering into DB
+==> Installing libevent
+==> Searching for binary cache of libevent
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libevent found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/libevent/libevent-2.1.8.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libevent-2.1.8-uijxqwh7kvysyinnbb4a4dvzqnxtlt5b/libevent-2.1.8-stable.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libevent-2.1.8-uijxqwh7kvysyinnbb4a4dvzqnxtlt5b
+==> No patches needed for libevent
+==> Building libevent [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libevent
+  Fetch: 0.01s.  Build: 37.38s.  Total: 37.39s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/pgi-18.7/libevent-2.1.8-uijxqwh7kvysyinnbb4a4dvzqnxtlt5b
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/pmix/pmix-2.2.2.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.2.2-lb3yw5qundoimjfatioas567gr7mqzip/pmix-2.2.2.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.2.2-lb3yw5qundoimjfatioas567gr7mqzip
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : generating module file
+==> openssl@1.1.1b : registering into DB
+==> Installing libevent
+==> Searching for binary cache of libevent
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libevent found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/libevent/libevent-2.1.8.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libevent-2.1.8-cp7ssrh5njili27irpr6wouaiuxxp6pj/libevent-2.1.8-stable.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libevent-2.1.8-cp7ssrh5njili27irpr6wouaiuxxp6pj
+==> No patches needed for libevent
+==> Building libevent [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libevent
+  Fetch: 0.01s.  Build: 36.70s.  Total: 36.71s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/pgi-17.10/libevent-2.1.8-cp7ssrh5njili27irpr6wouaiuxxp6pj
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/pmix/pmix-2.2.2.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.2.2-n57hepbeqfjqat2kuiiqkelipcm5xuke/pmix-2.2.2.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.2.2-n57hepbeqfjqat2kuiiqkelipcm5xuke
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : generating module file
+==> openssl@1.1.1b : registering into DB
+==> Installing libevent
+==> Searching for binary cache of libevent
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libevent found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/libevent/libevent-2.1.8.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libevent-2.1.8-mpewtbrmurxyap5rzqlswtczswixqc4z/libevent-2.1.8-stable.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libevent-2.1.8-mpewtbrmurxyap5rzqlswtczswixqc4z
+==> No patches needed for libevent
+==> Building libevent [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libevent
+  Fetch: 0.01s.  Build: 36.30s.  Total: 36.31s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/pgi-16.10/libevent-2.1.8-mpewtbrmurxyap5rzqlswtczswixqc4z
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/pmix/pmix-2.2.2.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.2.2-oqahvatmesjcxyp2wtbeflabm5epn35i/pmix-2.2.2.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.2.2-oqahvatmesjcxyp2wtbeflabm5epn35i
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> libevent is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-8.2.0/libevent-2.1.8-nxtv7vbvnb63mmytl4i5ynzzfnzrfvd5
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/pmix/pmix-2.1.4.tar.bz2
+==> Fetching from file:///usr/projects/draco/vendors/spack.mirror/pmix/pmix-2.1.4.tar.bz2 failed.
+==> Fetching https://github.com/pmix/pmix/releases/download/v2.1.4/pmix-2.1.4.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.1.4-usyrk5j5ktkj2fdf5rgflq6jxsgp3rrl/pmix-2.1.4.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.1.4-usyrk5j5ktkj2fdf5rgflq6jxsgp3rrl
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 1.61s.  Build: 1m 14.95s.  Total: 1m 16.56s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-8.2.0/pmix-2.1.4-usyrk5j5ktkj2fdf5rgflq6jxsgp3rrl
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> libevent is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-7.3.0/libevent-2.1.8-gxgeywzuuwckafa35qjsd3dnmsputvy5
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/pmix/pmix-2.1.4.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.1.4-iebxtpchuenukg56p3mhhl2hutqt4j2y/pmix-2.1.4.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.1.4-iebxtpchuenukg56p3mhhl2hutqt4j2y
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 0.01s.  Build: 1m 19.15s.  Total: 1m 19.17s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-7.3.0/pmix-2.1.4-iebxtpchuenukg56p3mhhl2hutqt4j2y
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> libevent is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-6.4.0/libevent-2.1.8-td73grk4pk44cebnv52jy7wckf672ioc
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/pmix/pmix-2.1.4.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.1.4-gtbzipu3heik6336hofosqmvaqbgfven/pmix-2.1.4.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.1.4-gtbzipu3heik6336hofosqmvaqbgfven
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 0.01s.  Build: 1m 20.05s.  Total: 1m 20.05s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-6.4.0/pmix-2.1.4-gtbzipu3heik6336hofosqmvaqbgfven
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> libevent is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-5.5.0/libevent-2.1.8-p3lav6sz7beqvgyoqzq6sxlwaguxxwqh
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/pmix/pmix-2.1.4.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.1.4-y7wly63deyoebi4dmqza6pyea3hsfiyv/pmix-2.1.4.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.1.4-y7wly63deyoebi4dmqza6pyea3hsfiyv
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 0.01s.  Build: 1m 19.50s.  Total: 1m 19.50s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-5.5.0/pmix-2.1.4-y7wly63deyoebi4dmqza6pyea3hsfiyv
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> libevent is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-4.9.3/libevent-2.1.8-tqniyndee7f3mnqio2fnv6b5nbl2kpsg
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/pmix/pmix-2.1.4.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.1.4-e3qycivko4ghrdf6quvzei3hnzydd5eu/pmix-2.1.4.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.1.4-e3qycivko4ghrdf6quvzei3hnzydd5eu
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 0.01s.  Build: 1m 21.45s.  Total: 1m 21.46s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-4.9.3/pmix-2.1.4-e3qycivko4ghrdf6quvzei3hnzydd5eu
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> libevent is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-4.8.5/libevent-2.1.8-m76ljabepud7scvtkpkpmizwvpkwqr6i
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/pmix/pmix-2.1.4.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.1.4-sredt4jv46urg75hlkqd54mjzig3eqop/pmix-2.1.4.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.1.4-sredt4jv46urg75hlkqd54mjzig3eqop
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 0.01s.  Build: 1m 14.62s.  Total: 1m 14.62s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-4.8.5/pmix-2.1.4-sredt4jv46urg75hlkqd54mjzig3eqop
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> libevent is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-18.0.3/libevent-2.1.8-eblktd6e2gnun6ty7sgqmv6ncnvsxcch
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/pmix/pmix-2.1.4.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.1.4-wvughvutynwbuzgorpklw7xocknecqol/pmix-2.1.4.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.1.4-wvughvutynwbuzgorpklw7xocknecqol
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 0.01s.  Build: 2m 43.63s.  Total: 2m 43.64s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-18.0.3/pmix-2.1.4-wvughvutynwbuzgorpklw7xocknecqol
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> libevent is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-17.0.6/libevent-2.1.8-wlqy7atfn7bwogbws4gwcozazrz7kv3u
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/pmix/pmix-2.1.4.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.1.4-5tjk7nzra6unzsxi3nc2g32ul2niqa2f/pmix-2.1.4.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.1.4-5tjk7nzra6unzsxi3nc2g32ul2niqa2f
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 0.01s.  Build: 2m 43.01s.  Total: 2m 43.01s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-17.0.6/pmix-2.1.4-5tjk7nzra6unzsxi3nc2g32ul2niqa2f
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> libevent is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-16.0.4/libevent-2.1.8-vtvgbjanj3dlhonautroxv7wf6xfda6o
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/pmix/pmix-2.1.4.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.1.4-xndylu37t56t5dswdzl5ismvxtv2rwxe/pmix-2.1.4.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.1.4-xndylu37t56t5dswdzl5ismvxtv2rwxe
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 0.01s.  Build: 4m 6.71s.  Total: 4m 6.71s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/intel-16.0.4/pmix-2.1.4-xndylu37t56t5dswdzl5ismvxtv2rwxe
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> libevent is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/pgi-18.10/libevent-2.1.8-y4vcnis7dzkoq3rllxmudpqzvasqub3u
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/pmix/pmix-2.1.4.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.1.4-2a3qprecyhgarskvqvdy5t6rmbcvqrhj/pmix-2.1.4.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.1.4-2a3qprecyhgarskvqvdy5t6rmbcvqrhj
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 0.01s.  Build: 1m 50.61s.  Total: 1m 50.61s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/pgi-18.10/pmix-2.1.4-2a3qprecyhgarskvqvdy5t6rmbcvqrhj
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> libevent is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/pgi-18.7/libevent-2.1.8-uijxqwh7kvysyinnbb4a4dvzqnxtlt5b
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/pmix/pmix-2.1.4.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.1.4-ncghlbcoisnmgctbwdn2jmgwgzx63z7d/pmix-2.1.4.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.1.4-ncghlbcoisnmgctbwdn2jmgwgzx63z7d
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 0.01s.  Build: 1m 48.70s.  Total: 1m 48.71s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/pgi-18.7/pmix-2.1.4-ncghlbcoisnmgctbwdn2jmgwgzx63z7d
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> libevent is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/pgi-17.10/libevent-2.1.8-cp7ssrh5njili27irpr6wouaiuxxp6pj
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/pmix/pmix-2.1.4.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.1.4-nogtnxeo2qhxwgbzkyy5krnrplar7agu/pmix-2.1.4.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.1.4-nogtnxeo2qhxwgbzkyy5krnrplar7agu
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 0.01s.  Build: 1m 40.17s.  Total: 1m 40.18s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/pgi-17.10/pmix-2.1.4-nogtnxeo2qhxwgbzkyy5krnrplar7agu
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> libevent is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/pgi-16.10/libevent-2.1.8-mpewtbrmurxyap5rzqlswtczswixqc4z
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/pmix/pmix-2.1.4.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.1.4-bs5vndn2i6k4u4uar7my3keot4on7uht/pmix-2.1.4.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/pmix-2.1.4-bs5vndn2i6k4u4uar7my3keot4on7uht
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 0.01s.  Build: 1m 39.40s.  Total: 1m 39.41s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/pgi-16.10/pmix-2.1.4-bs5vndn2i6k4u4uar7my3keot4on7uht

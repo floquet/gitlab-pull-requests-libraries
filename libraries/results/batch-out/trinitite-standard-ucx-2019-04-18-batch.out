@@ -1,0 +1,626 @@
+Thu Apr 18 23:19:46 MDT 2019 /var/spool/slurm/job542881/slurm_script
+source "${dir_tools}/bash/master-tpl-sweep.sh"
+Thu Apr 18 23:19:46 MDT 2019 /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh
+cd /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools
+source directories/libraries-trinitite.sh
+Thu Apr 18 23:19:46 MDT 2019 [1mdirectories/libraries-trinitite.sh(B[m
+source tpl-versions/versions-ucx.sh
+Thu Apr 18 23:19:46 MDT 2019 [1mtpl-versions/versions-ucx.sh(B[m
+4 ucx versions loaded:
+1.5.0  1.4.0  1.3.1  1.2.2
+
+source compilers/compilers-trinitite-standard.sh
+Thu Apr 18 23:19:46 MDT 2019 [1mcompilers/compilers-trinitite-standard.sh(B[m
+7 Spack-recognized compilers loaded:
+cce@8.7.9  cce@8.7.8  gcc@8.2.0  gcc@7.3.0  gcc@6.3.0  intel@19.0.1  intel@18.0.5
+
+source klingons/trinitite-standard-ucx.sh
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 36: klingons/trinitite-standard-ucx.sh: No such file or directory
+cd /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx
+. share/spack/setup-env.sh
+export spack_architecture='arch=cray-cnl6-haswell'
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+spack install ucx @ 1.5.0 % cce@8.7.9  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-ucx-install.log
+==> Error: ProcessError: Command exited with status 1:
+    'cmake' '/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-lohpaykt22txejldu32npfbr57ja3ptm/rdma-core-20' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:PATH=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.9/rdma-core-20-lohpaykt22txejldu32npfbr57ja3ptm' '-DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=FALSE' '-DCMAKE_INSTALL_RPATH:STRING=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.9/rdma-core-20-lohpaykt22txejldu32npfbr57ja3ptm/lib;/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.9/rdma-core-20-lohpaykt22txejldu32npfbr57ja3ptm/lib64;/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.9/libnl-3.3.0-jq2kvxyfmftq5iqinsfe7geenbm3tu2u/lib;/opt/cray/pe/cce/8.7.9/cce/x86_64' '-DCMAKE_PREFIX_PATH:STRING=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.9/libnl-3.3.0-jq2kvxyfmftq5iqinsfe7geenbm3tu2u;/usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1' '-DCMAKE_INSTALL_SYSCONFDIR=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.9/rdma-core-20-lohpaykt22txejldu32npfbr57ja3ptm/etc' '-DCMAKE_INSTALL_RUNDIR=/var/run'
+
+1 error found in build log:
+     53    -- Performing Test SUPPORTS_AS_NEEDED
+     54    -- Performing Test SUPPORTS_AS_NEEDED - Failed
+     55    -- Performing Test SUPPORTS_NO_UNDEFINED
+     56    -- Performing Test SUPPORTS_NO_UNDEFINED - Failed
+     57    -- Performing Test _LDSYMVER_SUCCESS
+     58    -- Performing Test _LDSYMVER_SUCCESS - Failed
+  >> 59    CMake Error at /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1/shar
+           e/cmake-3.12/Modules/FindPackageHandleStandardArgs.cmake:137 (messag
+           e):
+     60      Could NOT find LDSymVer (missing: LDSYMVER_MODE)
+     61    Call Stack (most recent call first):
+     62      /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1/share/cmake-3.12/
+           Modules/FindPackageHandleStandardArgs.cmake:378 (_FPHSA_FAILURE_MESS
+           AGE)
+     63      buildlib/FindLDSymVer.cmake:49 (find_package_handle_standard_args)
+     64      CMakeLists.txt:343 (find_package)
+     65    
+
+See build log for details:
+  /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-lohpaykt22txejldu32npfbr57ja3ptm/spack-build.out
+spack install ucx @ 1.5.0 % cce@8.7.8  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-ucx-install.log
+==> Error: ProcessError: Command exited with status 1:
+    'cmake' '/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-yjfm7fb5beiae3wp7f7rc4poy5byhrt3/rdma-core-20' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:PATH=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.8/rdma-core-20-yjfm7fb5beiae3wp7f7rc4poy5byhrt3' '-DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=FALSE' '-DCMAKE_INSTALL_RPATH:STRING=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.8/rdma-core-20-yjfm7fb5beiae3wp7f7rc4poy5byhrt3/lib;/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.8/rdma-core-20-yjfm7fb5beiae3wp7f7rc4poy5byhrt3/lib64;/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.8/libnl-3.3.0-rapk5ylsifpczjuq26sav3p4vmmbnwjd/lib;/opt/cray/pe/cce/8.7.8/cce/x86_64' '-DCMAKE_PREFIX_PATH:STRING=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.8/libnl-3.3.0-rapk5ylsifpczjuq26sav3p4vmmbnwjd;/usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1' '-DCMAKE_INSTALL_SYSCONFDIR=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.8/rdma-core-20-yjfm7fb5beiae3wp7f7rc4poy5byhrt3/etc' '-DCMAKE_INSTALL_RUNDIR=/var/run'
+
+1 error found in build log:
+     53    -- Performing Test SUPPORTS_AS_NEEDED
+     54    -- Performing Test SUPPORTS_AS_NEEDED - Failed
+     55    -- Performing Test SUPPORTS_NO_UNDEFINED
+     56    -- Performing Test SUPPORTS_NO_UNDEFINED - Failed
+     57    -- Performing Test _LDSYMVER_SUCCESS
+     58    -- Performing Test _LDSYMVER_SUCCESS - Failed
+  >> 59    CMake Error at /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1/shar
+           e/cmake-3.12/Modules/FindPackageHandleStandardArgs.cmake:137 (messag
+           e):
+     60      Could NOT find LDSymVer (missing: LDSYMVER_MODE)
+     61    Call Stack (most recent call first):
+     62      /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1/share/cmake-3.12/
+           Modules/FindPackageHandleStandardArgs.cmake:378 (_FPHSA_FAILURE_MESS
+           AGE)
+     63      buildlib/FindLDSymVer.cmake:49 (find_package_handle_standard_args)
+     64      CMakeLists.txt:343 (find_package)
+     65    
+
+See build log for details:
+  /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-yjfm7fb5beiae3wp7f7rc4poy5byhrt3/spack-build.out
+spack install ucx @ 1.5.0 % gcc@8.2.0  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-ucx-install.log
+==> Error: ProcessError: Command exited with status 1:
+    'cmake' '/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-kh35sfe3lvpamma6yrnb23voeyy455um/rdma-core-20' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:PATH=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-8.2.0/rdma-core-20-kh35sfe3lvpamma6yrnb23voeyy455um' '-DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=FALSE' '-DCMAKE_INSTALL_RPATH:STRING=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-8.2.0/rdma-core-20-kh35sfe3lvpamma6yrnb23voeyy455um/lib;/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-8.2.0/rdma-core-20-kh35sfe3lvpamma6yrnb23voeyy455um/lib64;/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-8.2.0/libnl-3.3.0-q4rgvq4sjsafpceamk2mrqavkpyb2n2d/lib;/opt/gcc/8.2.0/snos' '-DCMAKE_PREFIX_PATH:STRING=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-8.2.0/libnl-3.3.0-q4rgvq4sjsafpceamk2mrqavkpyb2n2d;/usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1' '-DCMAKE_INSTALL_SYSCONFDIR=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-8.2.0/rdma-core-20-kh35sfe3lvpamma6yrnb23voeyy455um/etc' '-DCMAKE_INSTALL_RUNDIR=/var/run'
+
+1 error found in build log:
+     53    -- Performing Test SUPPORTS_AS_NEEDED
+     54    -- Performing Test SUPPORTS_AS_NEEDED - Success
+     55    -- Performing Test SUPPORTS_NO_UNDEFINED
+     56    -- Performing Test SUPPORTS_NO_UNDEFINED - Success
+     57    -- Performing Test _LDSYMVER_SUCCESS
+     58    -- Performing Test _LDSYMVER_SUCCESS - Failed
+  >> 59    CMake Error at /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1/shar
+           e/cmake-3.12/Modules/FindPackageHandleStandardArgs.cmake:137 (messag
+           e):
+     60      Could NOT find LDSymVer (missing: LDSYMVER_MODE)
+     61    Call Stack (most recent call first):
+     62      /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1/share/cmake-3.12/
+           Modules/FindPackageHandleStandardArgs.cmake:378 (_FPHSA_FAILURE_MESS
+           AGE)
+     63      buildlib/FindLDSymVer.cmake:49 (find_package_handle_standard_args)
+     64      CMakeLists.txt:343 (find_package)
+     65    
+
+See build log for details:
+  /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-kh35sfe3lvpamma6yrnb23voeyy455um/spack-build.out
+spack install ucx @ 1.5.0 % gcc@7.3.0  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-ucx-install.log
+==> Warning: cannot perform the requested write operation on module files [some tokens cannot be part of the module naming scheme [PACKAGE, COMPILERNAME, COMPILERVER]. Did you check your "modules.yaml" configuration?]
+==> Error: ProcessError: Command exited with status 1:
+    'cmake' '/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-hgw6nh2xqkjb2aqjqcjy6wjft75ntqkg/rdma-core-20' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:PATH=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-7.3.0/rdma-core-20-hgw6nh2xqkjb2aqjqcjy6wjft75ntqkg' '-DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=FALSE' '-DCMAKE_INSTALL_RPATH:STRING=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-7.3.0/rdma-core-20-hgw6nh2xqkjb2aqjqcjy6wjft75ntqkg/lib;/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-7.3.0/rdma-core-20-hgw6nh2xqkjb2aqjqcjy6wjft75ntqkg/lib64;/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-7.3.0/libnl-3.3.0-4bomwwjjku537bsd5mbcwy55gtxdst5g/lib;/opt/gcc/7.3.0/snos' '-DCMAKE_PREFIX_PATH:STRING=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-7.3.0/libnl-3.3.0-4bomwwjjku537bsd5mbcwy55gtxdst5g;/usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1' '-DCMAKE_INSTALL_SYSCONFDIR=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-7.3.0/rdma-core-20-hgw6nh2xqkjb2aqjqcjy6wjft75ntqkg/etc' '-DCMAKE_INSTALL_RUNDIR=/var/run'
+
+1 error found in build log:
+     53    -- Performing Test SUPPORTS_AS_NEEDED
+     54    -- Performing Test SUPPORTS_AS_NEEDED - Success
+     55    -- Performing Test SUPPORTS_NO_UNDEFINED
+     56    -- Performing Test SUPPORTS_NO_UNDEFINED - Success
+     57    -- Performing Test _LDSYMVER_SUCCESS
+     58    -- Performing Test _LDSYMVER_SUCCESS - Failed
+  >> 59    CMake Error at /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1/shar
+           e/cmake-3.12/Modules/FindPackageHandleStandardArgs.cmake:137 (messag
+           e):
+     60      Could NOT find LDSymVer (missing: LDSYMVER_MODE)
+     61    Call Stack (most recent call first):
+     62      /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1/share/cmake-3.12/
+           Modules/FindPackageHandleStandardArgs.cmake:378 (_FPHSA_FAILURE_MESS
+           AGE)
+     63      buildlib/FindLDSymVer.cmake:49 (find_package_handle_standard_args)
+     64      CMakeLists.txt:343 (find_package)
+     65    
+
+See build log for details:
+  /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-hgw6nh2xqkjb2aqjqcjy6wjft75ntqkg/spack-build.out
+spack install ucx @ 1.5.0 % gcc@6.3.0  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-ucx-install.log
+==> Error: SyntaxError: invalid syntax (<string>, line 1)
+
+/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/lib/spack/spack/build_environment.py:784, in child_process:
+        781            tb_string = traceback.format_exc()
+        782
+        783            # build up some context from the offending package so we can
+  >>    784            # show that, too.
+        785            package_context = get_package_context(tb)
+        786
+        787            build_log = None
+
+
+spack install ucx @ 1.5.0 % intel@19.0.1  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-ucx-install.log
+==> Error: Conflicts in concretized spec "ucx@1.5.0%intel@19.0.1 arch=cray-cnl6-haswell/cpqxtat"
+List of matching conflicts for spec:
+
+    rdma-core@20%intel@19.0.1 build_type=RelWithDebInfo arch=cray-cnl6-haswell
+        ^cmake@3.14.2%intel@19.0.1~doc+ncurses+openssl~ownlibs~qt arch=cray-cnl6-haswell
+        ^libnl@3.3.0%intel@19.0.1 arch=cray-cnl6-haswell
+            ^bison@3.0.5%intel@19.0.1 arch=cray-cnl6-haswell
+            ^flex@2.6.4%intel@19.0.1+lex patches=09c22e5c6fef327d3e48eb23f0d610dcd3a35ab9207f12e0f875701c677978d3 arch=cray-cnl6-haswell
+            ^m4@1.4.18%intel@19.0.1 patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,c0a408fbffb7255fcc75e26bd8edab116fc81d216bfd18b473668b7739a4158e,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 +sigsegv arch=cray-cnl6-haswell
+        ^pkg-config@0.29.2%intel@19.0.1+internal_glib arch=cray-cnl6-haswell
+
+1. "%intel" conflicts with "rdma-core" [rdma-core cannot be built with intel (use gcc instead)]
+
+spack install ucx @ 1.5.0 % intel@18.0.5  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-ucx-install.log
+==> Error: Conflicts in concretized spec "ucx@1.5.0%intel@18.0.5 arch=cray-cnl6-haswell/fxhggbc"
+List of matching conflicts for spec:
+
+    rdma-core@20%intel@18.0.5 build_type=RelWithDebInfo arch=cray-cnl6-haswell
+        ^cmake@3.14.2%intel@18.0.5~doc+ncurses+openssl~ownlibs~qt arch=cray-cnl6-haswell
+        ^libnl@3.3.0%intel@18.0.5 arch=cray-cnl6-haswell
+            ^bison@3.0.5%intel@18.0.5 arch=cray-cnl6-haswell
+            ^flex@2.6.4%intel@18.0.5+lex patches=09c22e5c6fef327d3e48eb23f0d610dcd3a35ab9207f12e0f875701c677978d3 arch=cray-cnl6-haswell
+            ^m4@1.4.18%intel@18.0.5 patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,c0a408fbffb7255fcc75e26bd8edab116fc81d216bfd18b473668b7739a4158e,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 +sigsegv arch=cray-cnl6-haswell
+        ^pkg-config@0.29.2%intel@18.0.5+internal_glib arch=cray-cnl6-haswell
+
+1. "%intel" conflicts with "rdma-core" [rdma-core cannot be built with intel (use gcc instead)]
+
+spack install ucx @ 1.4.0 % cce@8.7.9  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-ucx-install.log
+==> Error: ProcessError: Command exited with status 1:
+    'cmake' '/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-lohpaykt22txejldu32npfbr57ja3ptm/rdma-core-20' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:PATH=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.9/rdma-core-20-lohpaykt22txejldu32npfbr57ja3ptm' '-DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=FALSE' '-DCMAKE_INSTALL_RPATH:STRING=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.9/rdma-core-20-lohpaykt22txejldu32npfbr57ja3ptm/lib;/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.9/rdma-core-20-lohpaykt22txejldu32npfbr57ja3ptm/lib64;/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.9/libnl-3.3.0-jq2kvxyfmftq5iqinsfe7geenbm3tu2u/lib;/opt/cray/pe/cce/8.7.9/cce/x86_64' '-DCMAKE_PREFIX_PATH:STRING=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.9/libnl-3.3.0-jq2kvxyfmftq5iqinsfe7geenbm3tu2u;/usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1' '-DCMAKE_INSTALL_SYSCONFDIR=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.9/rdma-core-20-lohpaykt22txejldu32npfbr57ja3ptm/etc' '-DCMAKE_INSTALL_RUNDIR=/var/run'
+
+1 error found in build log:
+     53    -- Performing Test SUPPORTS_AS_NEEDED
+     54    -- Performing Test SUPPORTS_AS_NEEDED - Failed
+     55    -- Performing Test SUPPORTS_NO_UNDEFINED
+     56    -- Performing Test SUPPORTS_NO_UNDEFINED - Failed
+     57    -- Performing Test _LDSYMVER_SUCCESS
+     58    -- Performing Test _LDSYMVER_SUCCESS - Failed
+  >> 59    CMake Error at /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1/shar
+           e/cmake-3.12/Modules/FindPackageHandleStandardArgs.cmake:137 (messag
+           e):
+     60      Could NOT find LDSymVer (missing: LDSYMVER_MODE)
+     61    Call Stack (most recent call first):
+     62      /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1/share/cmake-3.12/
+           Modules/FindPackageHandleStandardArgs.cmake:378 (_FPHSA_FAILURE_MESS
+           AGE)
+     63      buildlib/FindLDSymVer.cmake:49 (find_package_handle_standard_args)
+     64      CMakeLists.txt:343 (find_package)
+     65    
+
+See build log for details:
+  /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-lohpaykt22txejldu32npfbr57ja3ptm/spack-build.out
+spack install ucx @ 1.4.0 % cce@8.7.8  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-ucx-install.log
+==> Error: ProcessError: Command exited with status 1:
+    'cmake' '/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-yjfm7fb5beiae3wp7f7rc4poy5byhrt3/rdma-core-20' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:PATH=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.8/rdma-core-20-yjfm7fb5beiae3wp7f7rc4poy5byhrt3' '-DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=FALSE' '-DCMAKE_INSTALL_RPATH:STRING=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.8/rdma-core-20-yjfm7fb5beiae3wp7f7rc4poy5byhrt3/lib;/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.8/rdma-core-20-yjfm7fb5beiae3wp7f7rc4poy5byhrt3/lib64;/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.8/libnl-3.3.0-rapk5ylsifpczjuq26sav3p4vmmbnwjd/lib;/opt/cray/pe/cce/8.7.8/cce/x86_64' '-DCMAKE_PREFIX_PATH:STRING=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.8/libnl-3.3.0-rapk5ylsifpczjuq26sav3p4vmmbnwjd;/usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1' '-DCMAKE_INSTALL_SYSCONFDIR=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.8/rdma-core-20-yjfm7fb5beiae3wp7f7rc4poy5byhrt3/etc' '-DCMAKE_INSTALL_RUNDIR=/var/run'
+
+1 error found in build log:
+     53    -- Performing Test SUPPORTS_AS_NEEDED
+     54    -- Performing Test SUPPORTS_AS_NEEDED - Failed
+     55    -- Performing Test SUPPORTS_NO_UNDEFINED
+     56    -- Performing Test SUPPORTS_NO_UNDEFINED - Failed
+     57    -- Performing Test _LDSYMVER_SUCCESS
+     58    -- Performing Test _LDSYMVER_SUCCESS - Failed
+  >> 59    CMake Error at /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1/shar
+           e/cmake-3.12/Modules/FindPackageHandleStandardArgs.cmake:137 (messag
+           e):
+     60      Could NOT find LDSymVer (missing: LDSYMVER_MODE)
+     61    Call Stack (most recent call first):
+     62      /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1/share/cmake-3.12/
+           Modules/FindPackageHandleStandardArgs.cmake:378 (_FPHSA_FAILURE_MESS
+           AGE)
+     63      buildlib/FindLDSymVer.cmake:49 (find_package_handle_standard_args)
+     64      CMakeLists.txt:343 (find_package)
+     65    
+
+See build log for details:
+  /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-yjfm7fb5beiae3wp7f7rc4poy5byhrt3/spack-build.out
+spack install ucx @ 1.4.0 % gcc@8.2.0  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-ucx-install.log
+==> Error: ProcessError: Command exited with status 1:
+    'cmake' '/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-kh35sfe3lvpamma6yrnb23voeyy455um/rdma-core-20' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:PATH=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-8.2.0/rdma-core-20-kh35sfe3lvpamma6yrnb23voeyy455um' '-DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=FALSE' '-DCMAKE_INSTALL_RPATH:STRING=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-8.2.0/rdma-core-20-kh35sfe3lvpamma6yrnb23voeyy455um/lib;/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-8.2.0/rdma-core-20-kh35sfe3lvpamma6yrnb23voeyy455um/lib64;/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-8.2.0/libnl-3.3.0-q4rgvq4sjsafpceamk2mrqavkpyb2n2d/lib;/opt/gcc/8.2.0/snos' '-DCMAKE_PREFIX_PATH:STRING=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-8.2.0/libnl-3.3.0-q4rgvq4sjsafpceamk2mrqavkpyb2n2d;/usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1' '-DCMAKE_INSTALL_SYSCONFDIR=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-8.2.0/rdma-core-20-kh35sfe3lvpamma6yrnb23voeyy455um/etc' '-DCMAKE_INSTALL_RUNDIR=/var/run'
+
+1 error found in build log:
+     53    -- Performing Test SUPPORTS_AS_NEEDED
+     54    -- Performing Test SUPPORTS_AS_NEEDED - Success
+     55    -- Performing Test SUPPORTS_NO_UNDEFINED
+     56    -- Performing Test SUPPORTS_NO_UNDEFINED - Success
+     57    -- Performing Test _LDSYMVER_SUCCESS
+     58    -- Performing Test _LDSYMVER_SUCCESS - Failed
+  >> 59    CMake Error at /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1/shar
+           e/cmake-3.12/Modules/FindPackageHandleStandardArgs.cmake:137 (messag
+           e):
+     60      Could NOT find LDSymVer (missing: LDSYMVER_MODE)
+     61    Call Stack (most recent call first):
+     62      /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1/share/cmake-3.12/
+           Modules/FindPackageHandleStandardArgs.cmake:378 (_FPHSA_FAILURE_MESS
+           AGE)
+     63      buildlib/FindLDSymVer.cmake:49 (find_package_handle_standard_args)
+     64      CMakeLists.txt:343 (find_package)
+     65    
+
+See build log for details:
+  /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-kh35sfe3lvpamma6yrnb23voeyy455um/spack-build.out
+spack install ucx @ 1.4.0 % gcc@7.3.0  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-ucx-install.log
+==> Error: ProcessError: Command exited with status 1:
+    'cmake' '/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-hgw6nh2xqkjb2aqjqcjy6wjft75ntqkg/rdma-core-20' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:PATH=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-7.3.0/rdma-core-20-hgw6nh2xqkjb2aqjqcjy6wjft75ntqkg' '-DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=FALSE' '-DCMAKE_INSTALL_RPATH:STRING=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-7.3.0/rdma-core-20-hgw6nh2xqkjb2aqjqcjy6wjft75ntqkg/lib;/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-7.3.0/rdma-core-20-hgw6nh2xqkjb2aqjqcjy6wjft75ntqkg/lib64;/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-7.3.0/libnl-3.3.0-4bomwwjjku537bsd5mbcwy55gtxdst5g/lib;/opt/gcc/7.3.0/snos' '-DCMAKE_PREFIX_PATH:STRING=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-7.3.0/libnl-3.3.0-4bomwwjjku537bsd5mbcwy55gtxdst5g;/usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1' '-DCMAKE_INSTALL_SYSCONFDIR=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-7.3.0/rdma-core-20-hgw6nh2xqkjb2aqjqcjy6wjft75ntqkg/etc' '-DCMAKE_INSTALL_RUNDIR=/var/run'
+
+1 error found in build log:
+     53    -- Performing Test SUPPORTS_AS_NEEDED
+     54    -- Performing Test SUPPORTS_AS_NEEDED - Success
+     55    -- Performing Test SUPPORTS_NO_UNDEFINED
+     56    -- Performing Test SUPPORTS_NO_UNDEFINED - Success
+     57    -- Performing Test _LDSYMVER_SUCCESS
+     58    -- Performing Test _LDSYMVER_SUCCESS - Failed
+  >> 59    CMake Error at /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1/shar
+           e/cmake-3.12/Modules/FindPackageHandleStandardArgs.cmake:137 (messag
+           e):
+     60      Could NOT find LDSymVer (missing: LDSYMVER_MODE)
+     61    Call Stack (most recent call first):
+     62      /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1/share/cmake-3.12/
+           Modules/FindPackageHandleStandardArgs.cmake:378 (_FPHSA_FAILURE_MESS
+           AGE)
+     63      buildlib/FindLDSymVer.cmake:49 (find_package_handle_standard_args)
+     64      CMakeLists.txt:343 (find_package)
+     65    
+
+See build log for details:
+  /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-hgw6nh2xqkjb2aqjqcjy6wjft75ntqkg/spack-build.out
+spack install ucx @ 1.4.0 % gcc@6.3.0  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-ucx-install.log
+==> Error: SyntaxError: invalid syntax (<string>, line 1)
+
+/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/lib/spack/spack/build_environment.py:784, in child_process:
+        781            tb_string = traceback.format_exc()
+        782
+        783            # build up some context from the offending package so we can
+  >>    784            # show that, too.
+        785            package_context = get_package_context(tb)
+        786
+        787            build_log = None
+
+
+spack install ucx @ 1.4.0 % intel@19.0.1  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-ucx-install.log
+==> Error: Conflicts in concretized spec "ucx@1.4.0%intel@19.0.1 arch=cray-cnl6-haswell/cgie5c4"
+List of matching conflicts for spec:
+
+    rdma-core@20%intel@19.0.1 build_type=RelWithDebInfo arch=cray-cnl6-haswell
+        ^cmake@3.14.2%intel@19.0.1~doc+ncurses+openssl~ownlibs~qt arch=cray-cnl6-haswell
+        ^libnl@3.3.0%intel@19.0.1 arch=cray-cnl6-haswell
+            ^bison@3.0.5%intel@19.0.1 arch=cray-cnl6-haswell
+            ^flex@2.6.4%intel@19.0.1+lex patches=09c22e5c6fef327d3e48eb23f0d610dcd3a35ab9207f12e0f875701c677978d3 arch=cray-cnl6-haswell
+            ^m4@1.4.18%intel@19.0.1 patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,c0a408fbffb7255fcc75e26bd8edab116fc81d216bfd18b473668b7739a4158e,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 +sigsegv arch=cray-cnl6-haswell
+        ^pkg-config@0.29.2%intel@19.0.1+internal_glib arch=cray-cnl6-haswell
+
+1. "%intel" conflicts with "rdma-core" [rdma-core cannot be built with intel (use gcc instead)]
+
+spack install ucx @ 1.4.0 % intel@18.0.5  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-ucx-install.log
+==> Error: Conflicts in concretized spec "ucx@1.4.0%intel@18.0.5 arch=cray-cnl6-haswell/5ffrzw6"
+List of matching conflicts for spec:
+
+    rdma-core@20%intel@18.0.5 build_type=RelWithDebInfo arch=cray-cnl6-haswell
+        ^cmake@3.14.2%intel@18.0.5~doc+ncurses+openssl~ownlibs~qt arch=cray-cnl6-haswell
+        ^libnl@3.3.0%intel@18.0.5 arch=cray-cnl6-haswell
+            ^bison@3.0.5%intel@18.0.5 arch=cray-cnl6-haswell
+            ^flex@2.6.4%intel@18.0.5+lex patches=09c22e5c6fef327d3e48eb23f0d610dcd3a35ab9207f12e0f875701c677978d3 arch=cray-cnl6-haswell
+            ^m4@1.4.18%intel@18.0.5 patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,c0a408fbffb7255fcc75e26bd8edab116fc81d216bfd18b473668b7739a4158e,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 +sigsegv arch=cray-cnl6-haswell
+        ^pkg-config@0.29.2%intel@18.0.5+internal_glib arch=cray-cnl6-haswell
+
+1. "%intel" conflicts with "rdma-core" [rdma-core cannot be built with intel (use gcc instead)]
+
+spack install ucx @ 1.3.1 % cce@8.7.9  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-ucx-install.log
+==> Error: ProcessError: Command exited with status 1:
+    'cmake' '/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-lohpaykt22txejldu32npfbr57ja3ptm/rdma-core-20' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:PATH=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.9/rdma-core-20-lohpaykt22txejldu32npfbr57ja3ptm' '-DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=FALSE' '-DCMAKE_INSTALL_RPATH:STRING=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.9/rdma-core-20-lohpaykt22txejldu32npfbr57ja3ptm/lib;/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.9/rdma-core-20-lohpaykt22txejldu32npfbr57ja3ptm/lib64;/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.9/libnl-3.3.0-jq2kvxyfmftq5iqinsfe7geenbm3tu2u/lib;/opt/cray/pe/cce/8.7.9/cce/x86_64' '-DCMAKE_PREFIX_PATH:STRING=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.9/libnl-3.3.0-jq2kvxyfmftq5iqinsfe7geenbm3tu2u;/usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1' '-DCMAKE_INSTALL_SYSCONFDIR=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.9/rdma-core-20-lohpaykt22txejldu32npfbr57ja3ptm/etc' '-DCMAKE_INSTALL_RUNDIR=/var/run'
+
+1 error found in build log:
+     53    -- Performing Test SUPPORTS_AS_NEEDED
+     54    -- Performing Test SUPPORTS_AS_NEEDED - Failed
+     55    -- Performing Test SUPPORTS_NO_UNDEFINED
+     56    -- Performing Test SUPPORTS_NO_UNDEFINED - Failed
+     57    -- Performing Test _LDSYMVER_SUCCESS
+     58    -- Performing Test _LDSYMVER_SUCCESS - Failed
+  >> 59    CMake Error at /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1/shar
+           e/cmake-3.12/Modules/FindPackageHandleStandardArgs.cmake:137 (messag
+           e):
+     60      Could NOT find LDSymVer (missing: LDSYMVER_MODE)
+     61    Call Stack (most recent call first):
+     62      /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1/share/cmake-3.12/
+           Modules/FindPackageHandleStandardArgs.cmake:378 (_FPHSA_FAILURE_MESS
+           AGE)
+     63      buildlib/FindLDSymVer.cmake:49 (find_package_handle_standard_args)
+     64      CMakeLists.txt:343 (find_package)
+     65    
+
+See build log for details:
+  /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-lohpaykt22txejldu32npfbr57ja3ptm/spack-build.out
+spack install ucx @ 1.3.1 % cce@8.7.8  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-ucx-install.log
+==> Error: ProcessError: Command exited with status 1:
+    'cmake' '/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-yjfm7fb5beiae3wp7f7rc4poy5byhrt3/rdma-core-20' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:PATH=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.8/rdma-core-20-yjfm7fb5beiae3wp7f7rc4poy5byhrt3' '-DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=FALSE' '-DCMAKE_INSTALL_RPATH:STRING=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.8/rdma-core-20-yjfm7fb5beiae3wp7f7rc4poy5byhrt3/lib;/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.8/rdma-core-20-yjfm7fb5beiae3wp7f7rc4poy5byhrt3/lib64;/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.8/libnl-3.3.0-rapk5ylsifpczjuq26sav3p4vmmbnwjd/lib;/opt/cray/pe/cce/8.7.8/cce/x86_64' '-DCMAKE_PREFIX_PATH:STRING=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.8/libnl-3.3.0-rapk5ylsifpczjuq26sav3p4vmmbnwjd;/usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1' '-DCMAKE_INSTALL_SYSCONFDIR=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.8/rdma-core-20-yjfm7fb5beiae3wp7f7rc4poy5byhrt3/etc' '-DCMAKE_INSTALL_RUNDIR=/var/run'
+
+1 error found in build log:
+     53    -- Performing Test SUPPORTS_AS_NEEDED
+     54    -- Performing Test SUPPORTS_AS_NEEDED - Failed
+     55    -- Performing Test SUPPORTS_NO_UNDEFINED
+     56    -- Performing Test SUPPORTS_NO_UNDEFINED - Failed
+     57    -- Performing Test _LDSYMVER_SUCCESS
+     58    -- Performing Test _LDSYMVER_SUCCESS - Failed
+  >> 59    CMake Error at /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1/shar
+           e/cmake-3.12/Modules/FindPackageHandleStandardArgs.cmake:137 (messag
+           e):
+     60      Could NOT find LDSymVer (missing: LDSYMVER_MODE)
+     61    Call Stack (most recent call first):
+     62      /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1/share/cmake-3.12/
+           Modules/FindPackageHandleStandardArgs.cmake:378 (_FPHSA_FAILURE_MESS
+           AGE)
+     63      buildlib/FindLDSymVer.cmake:49 (find_package_handle_standard_args)
+     64      CMakeLists.txt:343 (find_package)
+     65    
+
+See build log for details:
+  /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-yjfm7fb5beiae3wp7f7rc4poy5byhrt3/spack-build.out
+spack install ucx @ 1.3.1 % gcc@8.2.0  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-ucx-install.log
+==> Error: ProcessError: Command exited with status 1:
+    'cmake' '/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-kh35sfe3lvpamma6yrnb23voeyy455um/rdma-core-20' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:PATH=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-8.2.0/rdma-core-20-kh35sfe3lvpamma6yrnb23voeyy455um' '-DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=FALSE' '-DCMAKE_INSTALL_RPATH:STRING=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-8.2.0/rdma-core-20-kh35sfe3lvpamma6yrnb23voeyy455um/lib;/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-8.2.0/rdma-core-20-kh35sfe3lvpamma6yrnb23voeyy455um/lib64;/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-8.2.0/libnl-3.3.0-q4rgvq4sjsafpceamk2mrqavkpyb2n2d/lib;/opt/gcc/8.2.0/snos' '-DCMAKE_PREFIX_PATH:STRING=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-8.2.0/libnl-3.3.0-q4rgvq4sjsafpceamk2mrqavkpyb2n2d;/usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1' '-DCMAKE_INSTALL_SYSCONFDIR=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-8.2.0/rdma-core-20-kh35sfe3lvpamma6yrnb23voeyy455um/etc' '-DCMAKE_INSTALL_RUNDIR=/var/run'
+
+1 error found in build log:
+     53    -- Performing Test SUPPORTS_AS_NEEDED
+     54    -- Performing Test SUPPORTS_AS_NEEDED - Success
+     55    -- Performing Test SUPPORTS_NO_UNDEFINED
+     56    -- Performing Test SUPPORTS_NO_UNDEFINED - Success
+     57    -- Performing Test _LDSYMVER_SUCCESS
+     58    -- Performing Test _LDSYMVER_SUCCESS - Failed
+  >> 59    CMake Error at /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1/shar
+           e/cmake-3.12/Modules/FindPackageHandleStandardArgs.cmake:137 (messag
+           e):
+     60      Could NOT find LDSymVer (missing: LDSYMVER_MODE)
+     61    Call Stack (most recent call first):
+     62      /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1/share/cmake-3.12/
+           Modules/FindPackageHandleStandardArgs.cmake:378 (_FPHSA_FAILURE_MESS
+           AGE)
+     63      buildlib/FindLDSymVer.cmake:49 (find_package_handle_standard_args)
+     64      CMakeLists.txt:343 (find_package)
+     65    
+
+See build log for details:
+  /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-kh35sfe3lvpamma6yrnb23voeyy455um/spack-build.out
+spack install ucx @ 1.3.1 % gcc@7.3.0  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-ucx-install.log
+==> Error: ProcessError: Command exited with status 1:
+    'cmake' '/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-hgw6nh2xqkjb2aqjqcjy6wjft75ntqkg/rdma-core-20' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:PATH=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-7.3.0/rdma-core-20-hgw6nh2xqkjb2aqjqcjy6wjft75ntqkg' '-DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=FALSE' '-DCMAKE_INSTALL_RPATH:STRING=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-7.3.0/rdma-core-20-hgw6nh2xqkjb2aqjqcjy6wjft75ntqkg/lib;/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-7.3.0/rdma-core-20-hgw6nh2xqkjb2aqjqcjy6wjft75ntqkg/lib64;/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-7.3.0/libnl-3.3.0-4bomwwjjku537bsd5mbcwy55gtxdst5g/lib;/opt/gcc/7.3.0/snos' '-DCMAKE_PREFIX_PATH:STRING=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-7.3.0/libnl-3.3.0-4bomwwjjku537bsd5mbcwy55gtxdst5g;/usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1' '-DCMAKE_INSTALL_SYSCONFDIR=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-7.3.0/rdma-core-20-hgw6nh2xqkjb2aqjqcjy6wjft75ntqkg/etc' '-DCMAKE_INSTALL_RUNDIR=/var/run'
+
+1 error found in build log:
+     53    -- Performing Test SUPPORTS_AS_NEEDED
+     54    -- Performing Test SUPPORTS_AS_NEEDED - Success
+     55    -- Performing Test SUPPORTS_NO_UNDEFINED
+     56    -- Performing Test SUPPORTS_NO_UNDEFINED - Success
+     57    -- Performing Test _LDSYMVER_SUCCESS
+     58    -- Performing Test _LDSYMVER_SUCCESS - Failed
+  >> 59    CMake Error at /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1/shar
+           e/cmake-3.12/Modules/FindPackageHandleStandardArgs.cmake:137 (messag
+           e):
+     60      Could NOT find LDSymVer (missing: LDSYMVER_MODE)
+     61    Call Stack (most recent call first):
+     62      /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1/share/cmake-3.12/
+           Modules/FindPackageHandleStandardArgs.cmake:378 (_FPHSA_FAILURE_MESS
+           AGE)
+     63      buildlib/FindLDSymVer.cmake:49 (find_package_handle_standard_args)
+     64      CMakeLists.txt:343 (find_package)
+     65    
+
+See build log for details:
+  /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-hgw6nh2xqkjb2aqjqcjy6wjft75ntqkg/spack-build.out
+spack install ucx @ 1.3.1 % gcc@6.3.0  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-ucx-install.log
+==> Error: SyntaxError: invalid syntax (<string>, line 1)
+
+/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/lib/spack/spack/build_environment.py:784, in child_process:
+        781            tb_string = traceback.format_exc()
+        782
+        783            # build up some context from the offending package so we can
+  >>    784            # show that, too.
+        785            package_context = get_package_context(tb)
+        786
+        787            build_log = None
+
+
+spack install ucx @ 1.3.1 % intel@19.0.1  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-ucx-install.log
+==> Error: Conflicts in concretized spec "ucx@1.3.1%intel@19.0.1 arch=cray-cnl6-haswell/poleqsb"
+List of matching conflicts for spec:
+
+    rdma-core@20%intel@19.0.1 build_type=RelWithDebInfo arch=cray-cnl6-haswell
+        ^cmake@3.14.2%intel@19.0.1~doc+ncurses+openssl~ownlibs~qt arch=cray-cnl6-haswell
+        ^libnl@3.3.0%intel@19.0.1 arch=cray-cnl6-haswell
+            ^bison@3.0.5%intel@19.0.1 arch=cray-cnl6-haswell
+            ^flex@2.6.4%intel@19.0.1+lex patches=09c22e5c6fef327d3e48eb23f0d610dcd3a35ab9207f12e0f875701c677978d3 arch=cray-cnl6-haswell
+            ^m4@1.4.18%intel@19.0.1 patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,c0a408fbffb7255fcc75e26bd8edab116fc81d216bfd18b473668b7739a4158e,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 +sigsegv arch=cray-cnl6-haswell
+        ^pkg-config@0.29.2%intel@19.0.1+internal_glib arch=cray-cnl6-haswell
+
+1. "%intel" conflicts with "rdma-core" [rdma-core cannot be built with intel (use gcc instead)]
+
+spack install ucx @ 1.3.1 % intel@18.0.5  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-ucx-install.log
+==> Error: Conflicts in concretized spec "ucx@1.3.1%intel@18.0.5 arch=cray-cnl6-haswell/xmrg5uw"
+List of matching conflicts for spec:
+
+    rdma-core@20%intel@18.0.5 build_type=RelWithDebInfo arch=cray-cnl6-haswell
+        ^cmake@3.14.2%intel@18.0.5~doc+ncurses+openssl~ownlibs~qt arch=cray-cnl6-haswell
+        ^libnl@3.3.0%intel@18.0.5 arch=cray-cnl6-haswell
+            ^bison@3.0.5%intel@18.0.5 arch=cray-cnl6-haswell
+            ^flex@2.6.4%intel@18.0.5+lex patches=09c22e5c6fef327d3e48eb23f0d610dcd3a35ab9207f12e0f875701c677978d3 arch=cray-cnl6-haswell
+            ^m4@1.4.18%intel@18.0.5 patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,c0a408fbffb7255fcc75e26bd8edab116fc81d216bfd18b473668b7739a4158e,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 +sigsegv arch=cray-cnl6-haswell
+        ^pkg-config@0.29.2%intel@18.0.5+internal_glib arch=cray-cnl6-haswell
+
+1. "%intel" conflicts with "rdma-core" [rdma-core cannot be built with intel (use gcc instead)]
+
+spack install ucx @ 1.2.2 % cce@8.7.9  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-ucx-install.log
+==> Error: ProcessError: Command exited with status 1:
+    'cmake' '/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-lohpaykt22txejldu32npfbr57ja3ptm/rdma-core-20' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:PATH=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.9/rdma-core-20-lohpaykt22txejldu32npfbr57ja3ptm' '-DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=FALSE' '-DCMAKE_INSTALL_RPATH:STRING=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.9/rdma-core-20-lohpaykt22txejldu32npfbr57ja3ptm/lib;/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.9/rdma-core-20-lohpaykt22txejldu32npfbr57ja3ptm/lib64;/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.9/libnl-3.3.0-jq2kvxyfmftq5iqinsfe7geenbm3tu2u/lib;/opt/cray/pe/cce/8.7.9/cce/x86_64' '-DCMAKE_PREFIX_PATH:STRING=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.9/libnl-3.3.0-jq2kvxyfmftq5iqinsfe7geenbm3tu2u;/usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1' '-DCMAKE_INSTALL_SYSCONFDIR=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.9/rdma-core-20-lohpaykt22txejldu32npfbr57ja3ptm/etc' '-DCMAKE_INSTALL_RUNDIR=/var/run'
+
+1 error found in build log:
+     53    -- Performing Test SUPPORTS_AS_NEEDED
+     54    -- Performing Test SUPPORTS_AS_NEEDED - Failed
+     55    -- Performing Test SUPPORTS_NO_UNDEFINED
+     56    -- Performing Test SUPPORTS_NO_UNDEFINED - Failed
+     57    -- Performing Test _LDSYMVER_SUCCESS
+     58    -- Performing Test _LDSYMVER_SUCCESS - Failed
+  >> 59    CMake Error at /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1/shar
+           e/cmake-3.12/Modules/FindPackageHandleStandardArgs.cmake:137 (messag
+           e):
+     60      Could NOT find LDSymVer (missing: LDSYMVER_MODE)
+     61    Call Stack (most recent call first):
+     62      /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1/share/cmake-3.12/
+           Modules/FindPackageHandleStandardArgs.cmake:378 (_FPHSA_FAILURE_MESS
+           AGE)
+     63      buildlib/FindLDSymVer.cmake:49 (find_package_handle_standard_args)
+     64      CMakeLists.txt:343 (find_package)
+     65    
+
+See build log for details:
+  /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-lohpaykt22txejldu32npfbr57ja3ptm/spack-build.out
+spack install ucx @ 1.2.2 % cce@8.7.8  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-ucx-install.log
+==> Error: ProcessError: Command exited with status 1:
+    'cmake' '/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-yjfm7fb5beiae3wp7f7rc4poy5byhrt3/rdma-core-20' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:PATH=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.8/rdma-core-20-yjfm7fb5beiae3wp7f7rc4poy5byhrt3' '-DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=FALSE' '-DCMAKE_INSTALL_RPATH:STRING=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.8/rdma-core-20-yjfm7fb5beiae3wp7f7rc4poy5byhrt3/lib;/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.8/rdma-core-20-yjfm7fb5beiae3wp7f7rc4poy5byhrt3/lib64;/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.8/libnl-3.3.0-rapk5ylsifpczjuq26sav3p4vmmbnwjd/lib;/opt/cray/pe/cce/8.7.8/cce/x86_64' '-DCMAKE_PREFIX_PATH:STRING=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.8/libnl-3.3.0-rapk5ylsifpczjuq26sav3p4vmmbnwjd;/usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1' '-DCMAKE_INSTALL_SYSCONFDIR=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.8/rdma-core-20-yjfm7fb5beiae3wp7f7rc4poy5byhrt3/etc' '-DCMAKE_INSTALL_RUNDIR=/var/run'
+
+1 error found in build log:
+     53    -- Performing Test SUPPORTS_AS_NEEDED
+     54    -- Performing Test SUPPORTS_AS_NEEDED - Failed
+     55    -- Performing Test SUPPORTS_NO_UNDEFINED
+     56    -- Performing Test SUPPORTS_NO_UNDEFINED - Failed
+     57    -- Performing Test _LDSYMVER_SUCCESS
+     58    -- Performing Test _LDSYMVER_SUCCESS - Failed
+  >> 59    CMake Error at /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1/shar
+           e/cmake-3.12/Modules/FindPackageHandleStandardArgs.cmake:137 (messag
+           e):
+     60      Could NOT find LDSymVer (missing: LDSYMVER_MODE)
+     61    Call Stack (most recent call first):
+     62      /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1/share/cmake-3.12/
+           Modules/FindPackageHandleStandardArgs.cmake:378 (_FPHSA_FAILURE_MESS
+           AGE)
+     63      buildlib/FindLDSymVer.cmake:49 (find_package_handle_standard_args)
+     64      CMakeLists.txt:343 (find_package)
+     65    
+
+See build log for details:
+  /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-yjfm7fb5beiae3wp7f7rc4poy5byhrt3/spack-build.out
+spack install ucx @ 1.2.2 % gcc@8.2.0  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-ucx-install.log
+==> Error: ProcessError: Command exited with status 1:
+    'cmake' '/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-kh35sfe3lvpamma6yrnb23voeyy455um/rdma-core-20' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:PATH=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-8.2.0/rdma-core-20-kh35sfe3lvpamma6yrnb23voeyy455um' '-DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=FALSE' '-DCMAKE_INSTALL_RPATH:STRING=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-8.2.0/rdma-core-20-kh35sfe3lvpamma6yrnb23voeyy455um/lib;/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-8.2.0/rdma-core-20-kh35sfe3lvpamma6yrnb23voeyy455um/lib64;/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-8.2.0/libnl-3.3.0-q4rgvq4sjsafpceamk2mrqavkpyb2n2d/lib;/opt/gcc/8.2.0/snos' '-DCMAKE_PREFIX_PATH:STRING=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-8.2.0/libnl-3.3.0-q4rgvq4sjsafpceamk2mrqavkpyb2n2d;/usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1' '-DCMAKE_INSTALL_SYSCONFDIR=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-8.2.0/rdma-core-20-kh35sfe3lvpamma6yrnb23voeyy455um/etc' '-DCMAKE_INSTALL_RUNDIR=/var/run'
+
+1 error found in build log:
+     53    -- Performing Test SUPPORTS_AS_NEEDED
+     54    -- Performing Test SUPPORTS_AS_NEEDED - Success
+     55    -- Performing Test SUPPORTS_NO_UNDEFINED
+     56    -- Performing Test SUPPORTS_NO_UNDEFINED - Success
+     57    -- Performing Test _LDSYMVER_SUCCESS
+     58    -- Performing Test _LDSYMVER_SUCCESS - Failed
+  >> 59    CMake Error at /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1/shar
+           e/cmake-3.12/Modules/FindPackageHandleStandardArgs.cmake:137 (messag
+           e):
+     60      Could NOT find LDSymVer (missing: LDSYMVER_MODE)
+     61    Call Stack (most recent call first):
+     62      /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1/share/cmake-3.12/
+           Modules/FindPackageHandleStandardArgs.cmake:378 (_FPHSA_FAILURE_MESS
+           AGE)
+     63      buildlib/FindLDSymVer.cmake:49 (find_package_handle_standard_args)
+     64      CMakeLists.txt:343 (find_package)
+     65    
+
+See build log for details:
+  /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-kh35sfe3lvpamma6yrnb23voeyy455um/spack-build.out
+spack install ucx @ 1.2.2 % gcc@7.3.0  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-ucx-install.log
+==> Error: ProcessError: Command exited with status 1:
+    'cmake' '/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-hgw6nh2xqkjb2aqjqcjy6wjft75ntqkg/rdma-core-20' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:PATH=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-7.3.0/rdma-core-20-hgw6nh2xqkjb2aqjqcjy6wjft75ntqkg' '-DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=FALSE' '-DCMAKE_INSTALL_RPATH:STRING=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-7.3.0/rdma-core-20-hgw6nh2xqkjb2aqjqcjy6wjft75ntqkg/lib;/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-7.3.0/rdma-core-20-hgw6nh2xqkjb2aqjqcjy6wjft75ntqkg/lib64;/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-7.3.0/libnl-3.3.0-4bomwwjjku537bsd5mbcwy55gtxdst5g/lib;/opt/gcc/7.3.0/snos' '-DCMAKE_PREFIX_PATH:STRING=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-7.3.0/libnl-3.3.0-4bomwwjjku537bsd5mbcwy55gtxdst5g;/usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1' '-DCMAKE_INSTALL_SYSCONFDIR=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-7.3.0/rdma-core-20-hgw6nh2xqkjb2aqjqcjy6wjft75ntqkg/etc' '-DCMAKE_INSTALL_RUNDIR=/var/run'
+
+1 error found in build log:
+     53    -- Performing Test SUPPORTS_AS_NEEDED
+     54    -- Performing Test SUPPORTS_AS_NEEDED - Success
+     55    -- Performing Test SUPPORTS_NO_UNDEFINED
+     56    -- Performing Test SUPPORTS_NO_UNDEFINED - Success
+     57    -- Performing Test _LDSYMVER_SUCCESS
+     58    -- Performing Test _LDSYMVER_SUCCESS - Failed
+  >> 59    CMake Error at /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1/shar
+           e/cmake-3.12/Modules/FindPackageHandleStandardArgs.cmake:137 (messag
+           e):
+     60      Could NOT find LDSymVer (missing: LDSYMVER_MODE)
+     61    Call Stack (most recent call first):
+     62      /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1/share/cmake-3.12/
+           Modules/FindPackageHandleStandardArgs.cmake:378 (_FPHSA_FAILURE_MESS
+           AGE)
+     63      buildlib/FindLDSymVer.cmake:49 (find_package_handle_standard_args)
+     64      CMakeLists.txt:343 (find_package)
+     65    
+
+See build log for details:
+  /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-hgw6nh2xqkjb2aqjqcjy6wjft75ntqkg/spack-build.out
+spack install ucx @ 1.2.2 % gcc@6.3.0  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-ucx-install.log
+==> Error: SyntaxError: invalid syntax (<string>, line 1)
+
+/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/lib/spack/spack/build_environment.py:784, in child_process:
+        781            tb_string = traceback.format_exc()
+        782
+        783            # build up some context from the offending package so we can
+  >>    784            # show that, too.
+        785            package_context = get_package_context(tb)
+        786
+        787            build_log = None
+
+
+spack install ucx @ 1.2.2 % intel@19.0.1  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-ucx-install.log
+==> Error: Conflicts in concretized spec "ucx@1.2.2%intel@19.0.1 arch=cray-cnl6-haswell/73ge7eb"
+List of matching conflicts for spec:
+
+    rdma-core@20%intel@19.0.1 build_type=RelWithDebInfo arch=cray-cnl6-haswell
+        ^cmake@3.14.2%intel@19.0.1~doc+ncurses+openssl~ownlibs~qt arch=cray-cnl6-haswell
+        ^libnl@3.3.0%intel@19.0.1 arch=cray-cnl6-haswell
+            ^bison@3.0.5%intel@19.0.1 arch=cray-cnl6-haswell
+            ^flex@2.6.4%intel@19.0.1+lex patches=09c22e5c6fef327d3e48eb23f0d610dcd3a35ab9207f12e0f875701c677978d3 arch=cray-cnl6-haswell
+            ^m4@1.4.18%intel@19.0.1 patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,c0a408fbffb7255fcc75e26bd8edab116fc81d216bfd18b473668b7739a4158e,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 +sigsegv arch=cray-cnl6-haswell
+        ^pkg-config@0.29.2%intel@19.0.1+internal_glib arch=cray-cnl6-haswell
+
+1. "%intel" conflicts with "rdma-core" [rdma-core cannot be built with intel (use gcc instead)]
+
+spack install ucx @ 1.2.2 % intel@18.0.5  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-ucx-install.log
+==> Error: Conflicts in concretized spec "ucx@1.2.2%intel@18.0.5 arch=cray-cnl6-haswell/6n5vnc3"
+List of matching conflicts for spec:
+
+    rdma-core@20%intel@18.0.5 build_type=RelWithDebInfo arch=cray-cnl6-haswell
+        ^cmake@3.14.2%intel@18.0.5~doc+ncurses+openssl~ownlibs~qt arch=cray-cnl6-haswell
+        ^libnl@3.3.0%intel@18.0.5 arch=cray-cnl6-haswell
+            ^bison@3.0.5%intel@18.0.5 arch=cray-cnl6-haswell
+            ^flex@2.6.4%intel@18.0.5+lex patches=09c22e5c6fef327d3e48eb23f0d610dcd3a35ab9207f12e0f875701c677978d3 arch=cray-cnl6-haswell
+            ^m4@1.4.18%intel@18.0.5 patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,c0a408fbffb7255fcc75e26bd8edab116fc81d216bfd18b473668b7739a4158e,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 +sigsegv arch=cray-cnl6-haswell
+        ^pkg-config@0.29.2%intel@18.0.5+internal_glib arch=cray-cnl6-haswell
+
+1. "%intel" conflicts with "rdma-core" [rdma-core cannot be built with intel (use gcc instead)]
+
+mkdir -p "${dir_results}/tpl-order"
+spack find ucx >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/ucx-trinitite-standard.out
+spack find -ldf ucx  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/ucx-trinitite-standard-ldf.out
+spack graph ucx >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/ucx-trinitite-standard-graph.out
+spack compilers
+==> Available compilers
+-- cce cnl6-any -------------------------------------------------
+cce@8.7.9
+cce@8.7.8
+
+-- gcc cnl6-any -------------------------------------------------
+gcc@8.2.0
+gcc@7.3.0
+gcc@6.3.0
+
+-- intel cnl6-any -----------------------------------------------
+intel@19.0.1
+intel@18.0.5
+spack find ucx
+==> No package matches the query: ucx
+spack find -ldf ucx
+==> No package matches the query: ucx
+mv  /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/trinitite-standard-batch.out   /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/batch-out/trinitite-standard-ucx-2019-04-18-batch.out
+cd /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries
+git add -A .
+git commit -m "${USER} ${tpl} ${hpc} ${partition} ${ymd}"
+[master 623b3c9] dantopa ucx trinitite standard 2019-04-18
+ 6 files changed, 1195 insertions(+)
+ create mode 100644 libraries/results/batch-out/trinitite-standard-ucx-2019-04-18-batch.out
+ create mode 100644 libraries/results/command-log/trinitite-standard-ucx-command.log
+ create mode 100644 libraries/results/install-log/trinitite-standard-ucx-install.log
+ create mode 100644 libraries/results/tpl-order/ucx-trinitite-standard-graph.out
+ create mode 100644 libraries/results/tpl-order/ucx-trinitite-standard-ldf.out
+ create mode 100644 libraries/results/tpl-order/ucx-trinitite-standard.out
+Thu Apr 18 23:28:15 MDT 2019

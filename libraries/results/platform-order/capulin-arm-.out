@@ -1,0 +1,3 @@
+Mon Apr 29 10:07:22 MDT 2019
+/lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools
+spack find  >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/platform-order/capulin-arm-.out

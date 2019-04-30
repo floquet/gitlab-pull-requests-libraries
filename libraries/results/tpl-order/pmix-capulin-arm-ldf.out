@@ -1,0 +1,71 @@
+Fri Apr 26 12:57:27 MDT 2019
+/lustre/cpscratch1/dantopa/repos/spack/libraries/capulin-arm.pmix
+spack find -ldf pmix
+==> 12 installed packages
+-- cray-cnl6-arm_thunderx2 / gcc@7.3.0 --------------------------
+dht4lkp    pmix@2.1.4%gcc 
+rksazmf        ^libevent@2.1.8%gcc 
+gmp3lnk            ^openssl@1.1.1b%gcc 
+
+fd4hsnt    pmix@2.2.2%gcc 
+rksazmf        ^libevent@2.1.8%gcc 
+gmp3lnk            ^openssl@1.1.1b%gcc 
+
+
+-- cray-cnl6-arm_thunderx2 / gcc@7.4.0 --------------------------
+ns3tt36    pmix@2.1.4%gcc 
+eqs3sj5        ^libevent@2.1.8%gcc 
+pd7msn4            ^openssl@1.1.1b%gcc 
+
+ukojf7l    pmix@2.2.2%gcc 
+eqs3sj5        ^libevent@2.1.8%gcc 
+pd7msn4            ^openssl@1.1.1b%gcc 
+
+ve5uql7    pmix@3.0.2%gcc 
+xqvaapc        ^hwloc@2.0.2%gcc 
+uch46xu            ^libpciaccess@0.13.5%gcc 
+f2ejcjn            ^libxml2@2.9.8%gcc 
+eqs3sj5        ^libevent@2.1.8%gcc 
+pd7msn4            ^openssl@1.1.1b%gcc 
+
+7guavcd    pmix@3.1.2%gcc 
+xqvaapc        ^hwloc@2.0.2%gcc 
+uch46xu            ^libpciaccess@0.13.5%gcc 
+f2ejcjn            ^libxml2@2.9.8%gcc 
+eqs3sj5        ^libevent@2.1.8%gcc 
+pd7msn4            ^openssl@1.1.1b%gcc 
+
+
+-- cray-cnl6-arm_thunderx2 / gcc@8.2.0 --------------------------
+3jqszq6    pmix@2.1.4%gcc 
+6sp3eiw        ^libevent@2.1.8%gcc 
+5p7isue            ^openssl@1.1.1b%gcc 
+
+k656csk    pmix@2.2.2%gcc 
+6sp3eiw        ^libevent@2.1.8%gcc 
+5p7isue            ^openssl@1.1.1b%gcc 
+
+
+-- cray-cnl6-arm_thunderx2 / gcc@8.3.0 --------------------------
+73pu2na    pmix@2.1.4%gcc 
+oonqt2c        ^libevent@2.1.8%gcc 
+tcqnnsj            ^openssl@1.1.1b%gcc 
+
+bmkpex6    pmix@2.2.2%gcc 
+oonqt2c        ^libevent@2.1.8%gcc 
+tcqnnsj            ^openssl@1.1.1b%gcc 
+
+sb3fgqs    pmix@3.0.2%gcc 
+xqvaapc        ^hwloc@2.0.2%gcc 
+uch46xu            ^libpciaccess@0.13.5%gcc 
+f2ejcjn            ^libxml2@2.9.8%gcc 
+oonqt2c        ^libevent@2.1.8%gcc 
+tcqnnsj            ^openssl@1.1.1b%gcc 
+
+kozx7hh    pmix@3.1.2%gcc 
+xqvaapc        ^hwloc@2.0.2%gcc 
+uch46xu            ^libpciaccess@0.13.5%gcc 
+f2ejcjn            ^libxml2@2.9.8%gcc 
+oonqt2c        ^libevent@2.1.8%gcc 
+tcqnnsj            ^openssl@1.1.1b%gcc 
+

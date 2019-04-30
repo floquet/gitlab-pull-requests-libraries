@@ -1,0 +1,25 @@
+Wed Apr 24 17:36:18 MDT 2019
+/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi
+spack graph openmpi >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/graphs/openmpi-darwin-power9-graph.out
+o  openmpi
+|\
+| |\
+o | |  zlib
+ / /
+| o  hwloc
+|/| 
+| |\
+| | |\
+| | | o  libpciaccess
+| | |/| 
+| |/| | 
+| | | |\
+| | | o |  util-macros
+| | |  /
+| o | |  pkg-config
+|  / /
+o | |  numactl
+ / /
+o |  libxml2
+ /
+o  libtool

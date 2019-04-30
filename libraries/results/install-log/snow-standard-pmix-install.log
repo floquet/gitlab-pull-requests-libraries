@@ -1,0 +1,269 @@
+Wed Apr 24 20:55:25 MDT 2019
+
+
+spack install pmix @ 3.1.2 % gcc@8.2.0  arch=linux-rhel7-x86_64
+
+spack install pmix @ 3.1.2 % gcc@7.4.0  arch=linux-rhel7-x86_64
+
+spack install pmix @ 3.1.2 % gcc@6.4.0  arch=linux-rhel7-x86_64
+==> pmix is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/opt/spack/linux-rhel7-x86_64/gcc-6.4.0/pmix-3.1.2-yfj2dod2my57fgq2ztmsuh443c2pz4lr
+
+spack install pmix @ 3.1.2 % gcc@5.3.0  arch=linux-rhel7-x86_64
+
+spack install pmix @ 3.1.2 % intel@19.0.1.144  arch=linux-rhel7-x86_64
+
+spack install pmix @ 3.1.2 % intel@18.0.5  arch=linux-rhel7-x86_64
+==> pmix is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/opt/spack/linux-rhel7-x86_64/intel-18.0.5/pmix-3.1.2-ojgxgi64pddghnp45vpfk2r2nblqgnda
+
+spack install pmix @ 3.1.2 % intel@17.0.4  arch=linux-rhel7-x86_64
+==> pmix is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/opt/spack/linux-rhel7-x86_64/intel-17.0.4/pmix-3.1.2-yzpa4m2yu75dx2bz2jxc24e6lufdhilr
+
+spack install pmix @ 3.1.2 % intel@16.0.3  arch=linux-rhel7-x86_64
+
+spack install pmix @ 3.1.2 % pgi@18.10  arch=linux-rhel7-x86_64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/opt/spack/linux-rhel7-x86_64/pgi-18.10/util-macros-1.19.1-uy5axk4iooak2l26lr3qrygdbzlanpsd
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/var/spack/stage/libpciaccess-0.13.5-7jys5j6in74b7k76nruprcfhck2km3ic/libpciaccess-0.13.5.tar.gz
+==> Created stage in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/var/spack/stage/libpciaccess-0.13.5-7jys5j6in74b7k76nruprcfhck2km3ic
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install pmix @ 3.1.2 % pgi@17.10  arch=linux-rhel7-x86_64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/opt/spack/linux-rhel7-x86_64/pgi-17.10/util-macros-1.19.1-ubfzjlnuuxdxcos4jhw64t5fycs3hbzr
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/var/spack/stage/libpciaccess-0.13.5-gbupg42otgmyvaan7owmtuj63mphpoai/libpciaccess-0.13.5.tar.gz
+==> Created stage in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/var/spack/stage/libpciaccess-0.13.5-gbupg42otgmyvaan7owmtuj63mphpoai
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install pmix @ 3.1.2 % pgi@16.10  arch=linux-rhel7-x86_64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/opt/spack/linux-rhel7-x86_64/pgi-16.10/util-macros-1.19.1-yir4ak2ltwr44psmxiqkiqprjg6swjv4
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/var/spack/stage/libpciaccess-0.13.5-5zuqqz72t6wm6l4rnhshc7df5wneu2pi/libpciaccess-0.13.5.tar.gz
+==> Created stage in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/var/spack/stage/libpciaccess-0.13.5-5zuqqz72t6wm6l4rnhshc7df5wneu2pi
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install pmix @ 3.0.2 % gcc@8.2.0  arch=linux-rhel7-x86_64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : generating module file
+
+spack install pmix @ 3.0.2 % gcc@7.4.0  arch=linux-rhel7-x86_64
+==> pmix is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/opt/spack/linux-rhel7-x86_64/gcc-7.4.0/pmix-3.0.2-3k7vgcuxdix3fddaw4nfqkhjrmf2nahk
+
+spack install pmix @ 3.0.2 % gcc@6.4.0  arch=linux-rhel7-x86_64
+==> pmix is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/opt/spack/linux-rhel7-x86_64/gcc-6.4.0/pmix-3.0.2-457hx2sedzgdipotkwvlonkkivr3yu7o
+
+spack install pmix @ 3.0.2 % gcc@5.3.0  arch=linux-rhel7-x86_64
+
+spack install pmix @ 3.0.2 % intel@19.0.1.144  arch=linux-rhel7-x86_64
+
+spack install pmix @ 3.0.2 % intel@18.0.5  arch=linux-rhel7-x86_64
+==> pmix is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/opt/spack/linux-rhel7-x86_64/intel-18.0.5/pmix-3.0.2-ylqo2k52nc3yjtqvhqbvudhavoyeyg5g
+
+spack install pmix @ 3.0.2 % intel@17.0.4  arch=linux-rhel7-x86_64
+==> pmix is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/opt/spack/linux-rhel7-x86_64/intel-17.0.4/pmix-3.0.2-ahle3bp67vwtzhvi3l6paw5xixrytiqv
+
+spack install pmix @ 3.0.2 % intel@16.0.3  arch=linux-rhel7-x86_64
+
+spack install pmix @ 3.0.2 % pgi@18.10  arch=linux-rhel7-x86_64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/opt/spack/linux-rhel7-x86_64/pgi-18.10/util-macros-1.19.1-uy5axk4iooak2l26lr3qrygdbzlanpsd
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/var/spack/stage/libpciaccess-0.13.5-7jys5j6in74b7k76nruprcfhck2km3ic/libpciaccess-0.13.5.tar.gz
+==> Created stage in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/var/spack/stage/libpciaccess-0.13.5-7jys5j6in74b7k76nruprcfhck2km3ic
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install pmix @ 3.0.2 % pgi@17.10  arch=linux-rhel7-x86_64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/opt/spack/linux-rhel7-x86_64/pgi-17.10/util-macros-1.19.1-ubfzjlnuuxdxcos4jhw64t5fycs3hbzr
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/var/spack/stage/libpciaccess-0.13.5-gbupg42otgmyvaan7owmtuj63mphpoai/libpciaccess-0.13.5.tar.gz
+==> Created stage in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/var/spack/stage/libpciaccess-0.13.5-gbupg42otgmyvaan7owmtuj63mphpoai
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install pmix @ 3.0.2 % pgi@16.10  arch=linux-rhel7-x86_64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/opt/spack/linux-rhel7-x86_64/pgi-16.10/util-macros-1.19.1-yir4ak2ltwr44psmxiqkiqprjg6swjv4
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/var/spack/stage/libpciaccess-0.13.5-5zuqqz72t6wm6l4rnhshc7df5wneu2pi/libpciaccess-0.13.5.tar.gz
+==> Created stage in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/var/spack/stage/libpciaccess-0.13.5-5zuqqz72t6wm6l4rnhshc7df5wneu2pi
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install pmix @ 2.2.2 % gcc@8.2.0  arch=linux-rhel7-x86_64
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : generating module file
+
+spack install pmix @ 2.2.2 % gcc@7.4.0  arch=linux-rhel7-x86_64
+==> pmix is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/opt/spack/linux-rhel7-x86_64/gcc-7.4.0/pmix-2.2.2-qnvd2dvwryx2e7zgan7aac2huyn7xzah
+
+spack install pmix @ 2.2.2 % gcc@6.4.0  arch=linux-rhel7-x86_64
+==> pmix is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/opt/spack/linux-rhel7-x86_64/gcc-6.4.0/pmix-2.2.2-rol4za4bsgntxmzbpotfvs5nthg7itrl
+
+spack install pmix @ 2.2.2 % gcc@5.3.0  arch=linux-rhel7-x86_64
+
+spack install pmix @ 2.2.2 % intel@19.0.1.144  arch=linux-rhel7-x86_64
+
+spack install pmix @ 2.2.2 % intel@18.0.5  arch=linux-rhel7-x86_64
+==> pmix is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/opt/spack/linux-rhel7-x86_64/intel-18.0.5/pmix-2.2.2-xc44t4vxzzeoimqw2vjzj7rxshs2df2b
+
+spack install pmix @ 2.2.2 % intel@17.0.4  arch=linux-rhel7-x86_64
+==> pmix is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/opt/spack/linux-rhel7-x86_64/intel-17.0.4/pmix-2.2.2-32rka7jrs7kzqbudf663qc4ec2gmej22
+
+spack install pmix @ 2.2.2 % intel@16.0.3  arch=linux-rhel7-x86_64
+
+spack install pmix @ 2.2.2 % pgi@18.10  arch=linux-rhel7-x86_64
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> libevent is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/opt/spack/linux-rhel7-x86_64/pgi-18.10/libevent-2.1.8-nlyeotupstolyei4kweg6mlxapy4yrwi
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/pmix/pmix-2.2.2.tar.bz2
+==> Staging archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/var/spack/stage/pmix-2.2.2-pmbg67jc5jwav5m3kltvd4esq3qszqqe/pmix-2.2.2.tar.bz2
+==> Created stage in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/var/spack/stage/pmix-2.2.2-pmbg67jc5jwav5m3kltvd4esq3qszqqe
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install pmix @ 2.2.2 % pgi@17.10  arch=linux-rhel7-x86_64
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> Installing libevent
+==> Searching for binary cache of libevent
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libevent found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/libevent/libevent-2.1.8.tar.gz
+==> Staging archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/var/spack/stage/libevent-2.1.8-mdde2ckuea6g4grvw5zxmcp4wahwp7j6/libevent-2.1.8-stable.tar.gz
+==> Created stage in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/var/spack/stage/libevent-2.1.8-mdde2ckuea6g4grvw5zxmcp4wahwp7j6
+==> No patches needed for libevent
+==> Building libevent [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install pmix @ 2.2.2 % pgi@16.10  arch=linux-rhel7-x86_64
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> libevent is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/opt/spack/linux-rhel7-x86_64/pgi-16.10/libevent-2.1.8-xxxjqenrxk4now4pzq6sqbbu5lligdns
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Using cached archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/var/spack/cache/pmix/pmix-2.2.2.tar.bz2
+==> Staging archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/var/spack/stage/pmix-2.2.2-qf4uqay7yl2ccppcxzykbosulezhrdwm/pmix-2.2.2.tar.bz2
+==> Created stage in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/var/spack/stage/pmix-2.2.2-qf4uqay7yl2ccppcxzykbosulezhrdwm
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install pmix @ 2.1.4 % gcc@8.2.0  arch=linux-rhel7-x86_64
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : generating module file
+
+spack install pmix @ 2.1.4 % gcc@7.4.0  arch=linux-rhel7-x86_64
+==> pmix is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/opt/spack/linux-rhel7-x86_64/gcc-7.4.0/pmix-2.1.4-f72va4rpklbksnwplcjajge6q7nogfyu
+
+spack install pmix @ 2.1.4 % gcc@6.4.0  arch=linux-rhel7-x86_64
+==> pmix is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/opt/spack/linux-rhel7-x86_64/gcc-6.4.0/pmix-2.1.4-c3z5xyf4qmk523cej4g5ar62ksvyhlw4
+
+spack install pmix @ 2.1.4 % gcc@5.3.0  arch=linux-rhel7-x86_64
+
+spack install pmix @ 2.1.4 % intel@19.0.1.144  arch=linux-rhel7-x86_64
+
+spack install pmix @ 2.1.4 % intel@18.0.5  arch=linux-rhel7-x86_64
+==> pmix is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/opt/spack/linux-rhel7-x86_64/intel-18.0.5/pmix-2.1.4-4jgpz7qjoup4sbeyr7dwu52dfyblbojs
+
+spack install pmix @ 2.1.4 % intel@17.0.4  arch=linux-rhel7-x86_64
+==> pmix is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/opt/spack/linux-rhel7-x86_64/intel-17.0.4/pmix-2.1.4-5vngdgeg4ikc6ccqckbbj6hehw2e2z7r
+
+spack install pmix @ 2.1.4 % intel@16.0.3  arch=linux-rhel7-x86_64
+
+spack install pmix @ 2.1.4 % pgi@18.10  arch=linux-rhel7-x86_64
+==> pmix is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/opt/spack/linux-rhel7-x86_64/pgi-18.10/pmix-2.1.4-fprpeshqpxwkyrrwa2ys3ugu4gzy7rel
+
+spack install pmix @ 2.1.4 % pgi@17.10  arch=linux-rhel7-x86_64
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> Installing libevent
+==> Searching for binary cache of libevent
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libevent found: installing from source
+==> Using cached archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/var/spack/cache/libevent/libevent-2.1.8.tar.gz
+==> Staging archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/var/spack/stage/libevent-2.1.8-mdde2ckuea6g4grvw5zxmcp4wahwp7j6/libevent-2.1.8-stable.tar.gz
+==> Created stage in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/var/spack/stage/libevent-2.1.8-mdde2ckuea6g4grvw5zxmcp4wahwp7j6
+==> No patches needed for libevent
+==> Building libevent [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install pmix @ 2.1.4 % pgi@16.10  arch=linux-rhel7-x86_64
+==> pmix is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/opt/spack/linux-rhel7-x86_64/pgi-16.10/pmix-2.1.4-svz7ru46waotle2td4zvxr3x3mgakzfa

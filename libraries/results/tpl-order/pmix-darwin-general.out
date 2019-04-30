@@ -1,0 +1,67 @@
+Thu Apr 18 21:43:50 MDT 2019
+spack find pmix >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/pmix-darwin-general.out
+==> 39 installed packages
+-- linux-centos7-x86_64 / gcc@4.8.5 -----------------------------
+pmix@2.1.4
+pmix@2.2.2
+pmix@3.0.2
+pmix@3.1.2
+
+-- linux-centos7-x86_64 / gcc@4.9.3 -----------------------------
+pmix@2.1.4
+pmix@2.2.2
+pmix@3.0.2
+pmix@3.1.2
+
+-- linux-centos7-x86_64 / gcc@5.5.0 -----------------------------
+pmix@2.1.4
+pmix@2.2.2
+pmix@3.0.2
+pmix@3.1.2
+
+-- linux-centos7-x86_64 / gcc@6.4.0 -----------------------------
+pmix@2.1.4
+pmix@2.2.2
+pmix@3.0.2
+pmix@3.1.2
+
+-- linux-centos7-x86_64 / gcc@7.3.0 -----------------------------
+pmix@2.1.4
+pmix@2.2.2
+pmix@3.0.2
+pmix@3.1.2
+
+-- linux-centos7-x86_64 / gcc@8.2.0 -----------------------------
+pmix@2.1.4
+pmix@2.2.2
+pmix@3.0.2
+
+-- linux-centos7-x86_64 / intel@16.0.4 --------------------------
+pmix@2.1.4
+pmix@2.2.2
+pmix@3.0.2
+pmix@3.1.2
+
+-- linux-centos7-x86_64 / intel@17.0.6 --------------------------
+pmix@2.1.4
+pmix@2.2.2
+pmix@3.0.2
+pmix@3.1.2
+
+-- linux-centos7-x86_64 / intel@18.0.3 --------------------------
+pmix@2.1.4
+pmix@2.2.2
+pmix@3.0.2
+pmix@3.1.2
+
+-- linux-centos7-x86_64 / pgi@16.10 -----------------------------
+pmix@2.1.4
+
+-- linux-centos7-x86_64 / pgi@17.10 -----------------------------
+pmix@2.1.4
+
+-- linux-centos7-x86_64 / pgi@18.7 ------------------------------
+pmix@2.1.4
+
+-- linux-centos7-x86_64 / pgi@18.10 -----------------------------
+pmix@2.1.4

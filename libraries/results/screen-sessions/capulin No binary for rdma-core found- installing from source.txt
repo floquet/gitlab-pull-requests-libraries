@@ -1,0 +1,978 @@
+Last login: Thu Apr 18 12:14:02 on ttys011
+pn1249300:~ l127914$ source ~/.bashrc
+Thu Apr 18 12:14:15 MDT 2019 /Users/l127914/.bashrc
+Thu Apr 18 12:14:15 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/platforms.sh
+attempting to mkdir /Users/l127914/Documents/repos/gitlab/node-queries/Cauchy.Schwarz/log.in-pn1249300/dir-configuration
+directory of core scripts = ${core} = /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts
+Thu Apr 18 12:14:15 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/master.sh
+Thu Apr 18 12:14:16 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/info.sh
+capulin 
+Thu Apr 18 12:14:16 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/gcc.sh
+Thu Apr 18 12:14:16 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/info-git.sh
+-bash: gonode: command not found
+fatal: Not a git repository (or any of the parent directories): .git
+Thu Apr 18 12:14:16 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/git.sh
+fatal: Not a git repository (or any of the parent directories): .git
+Thu Apr 18 12:14:16 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/ssh.sh
+Thu Apr 18 12:14:16 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/vim.sh
+Thu Apr 18 12:14:16 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bash.sh
+Thu Apr 18 12:14:16 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/finds.sh
+Thu Apr 18 12:14:16 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/cmake.sh
+Thu Apr 18 12:14:16 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/fortran.sh
+Thu Apr 18 12:14:16 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/copy-configuration.sh
+Thu Apr 18 12:14:16 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bookmarks.sh
+Thu Apr 18 12:14:16 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bookmarks-bitbucket.sh
+Thu Apr 18 12:14:16 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bookmarks-github.sh
+Thu Apr 18 12:14:17 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bookmarks-gitlab.sh
+Thu Apr 18 12:14:17 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/disk.sh
+Thu Apr 18 12:14:17 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/info.sh
+[1]   Done                    source ${core}/info-git.sh
+[2]+  Done                    source "${core}/copy-configuration.sh"
+Thu Apr 18 12:14:17 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/spack.sh
+Thu Apr 18 12:14:17 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/info-git.sh
+Thu Apr 18 12:14:17 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/uname.sh
+/Users/l127914/Documents/repos/gitlab/node-queries
+uname: illegal option -- i
+usage: uname [-amnprsv]
+Thu Apr 18 12:14:17 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/modules.sh
+uname: illegal option -- o
+usage: uname [-amnprsv]
+[3]+  Exit 127                module available >> ${my_log} 2>&1
+Thu Apr 18 12:14:17 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/alias.sh
+[2]-  Done                    source "${core}/uname.sh"
+[3]+  Exit 127                module list >> ${my_log} 2>&1
+Thu Apr 18 12:14:17 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/environment.sh
+[master 2dce25bf6] Cauchy.Schwarz-log.in-pn1249300 Thu Apr 18 12:14:17 MDT 2019
+ 4 files changed, 4 insertions(+), 4 deletions(-)
+[1]+  Done                    source ${core}/info-git.sh
+Thu Apr 18 12:14:18 MDT 2019, /Users/l127914/.bash-platform-specific
+l127914@pn1249300.lanl.gov:~ $ capulin 
+ssh -l dantopa -XY cp-fey.lanl.gov
+dantopa@cp-fey.lanl.gov's password: 
+Last login: Thu Apr 18 12:14:37 2019 from 141.111.175.17
+**WARNING**WARNING**WARNING**WARNING**
+
+This is a Department of Energy (DOE) computer system. DOE
+computer systems are provided for the processing of official
+U.S. Government information only. All data contained within
+DOE computer systems is owned by the DOE, and may be
+audited, intercepted, recorded, read, copied, or captured in any
+manner and disclosed in any manner, by authorized personnel.
+THERE IS NO RIGHT OF PRIVACY IN THIS SYSTEM.
+System personnel may disclose any potential evidence of crime
+found on DOE computer systems to appropriate authorities.
+
+USE OF THIS SYSTEM BY ANY USER, AUTHORIZED OR
+UNAUTHORIZED, CONSTITUTES CONSENT TO THIS
+AUDITING, INTERCEPTION, RECORDING, READING,
+COPYING, CAPTURING, and DISCLOSURE OF
+COMPUTER ACTIVITY.
+
+**WARNING**WARNING**WARNING**WARNING**
+dantopa@cp-loginy:~>  .capulin-bash
+If '.capulin-bash' is not a typo you can use command-not-found to lookup the package that contains it, like this:
+    cnf .capulin-bash
+dantopa@cp-loginy:~>  .capulin-bash
+If '.capulin-bash' is not a typo you can use command-not-found to lookup the package that contains it, like this:
+    cnf .capulin-bash
+dantopa@cp-loginy:~> .  .capulin-bash
+Thu Apr 18 12:15:28 MDT 2019 .capulin-bash
+Thu Apr 18 12:15:28 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/platforms.sh
+attempting to mkdir /lustre/cpscratch1/dantopa/repos/gitlab/node-queries/capulin/log.in-cp-loginy/dir-configuration
+directory of core scripts = ${core} = /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts
+Thu Apr 18 12:15:28 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/master.sh
+Thu Apr 18 12:15:28 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh
+Thu Apr 18 12:15:28 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh
+[1]   Done                    proc_probes "buddyinfo" "used primarily for diagnosing memory fragmentation issues"
+[2]   Done                    proc_probes "cmdline" "parameters passed to the kernel when it is started"
+[3]   Done                    proc_probes "cpuinfo" "type of processor used"
+[4]   Done                    proc_probes "crypto" "lists all installed cryptographic ciphers used by the Linux kernel"
+[5]   Done                    proc_probes "devices" "displays the various character and block devices currently configured"
+[6]   Exit 1                  proc_probes "driver" "information for specific drivers in use by the kernel"
+[7]   Exit 1                  proc_probes "dma" "registered ISA DMA channels in use"
+[8]   Done                    proc_probes "execdomains" "execution domains currently supported by the Linux kernel,"
+[9]   Done                    proc_probes "fb" "frame buffer devices"
+[10]   Done                    proc_probes "filesystems" "file system types currently supported by the kernel"
+[12]   Done                    proc_probes "iomem" "current map of the system's memory for each physical device"
+[13]   Done                    proc_probes "ioports" "currently registered port regions used for input or output communication"
+[14]   Exit 1                  proc_probes "kmsg" "messages generated by the kernel"
+[15]   Done                    proc_probes "loadavg" "load average in regard to both the CPU and IO over time"
+[17]   Exit 1                  proc_probes "mdstat" "current information for multiple-disk, RAID configurations"
+[18]   Done                    proc_probes "meminfo" "valuable information about the system's RAM usage"
+[19]   Done                    proc_probes "misc" "miscellaneous drivers registered on the miscellaneous major device, which is device number 10"
+[20]   Done                    proc_probes "modules" "all modules loaded into the kernel"
+[21]   Done                    proc_probes "mounts" "all mounts in use"
+[22]   Exit 1                  proc_probes "mtrr" "current Memory Type Range Registers (MTRRs) in use with the system"
+[23]   Done                    proc_probes "partitions" "partition block allocation information"
+[24]   Done                    proc_probes "scsi/scsi" "list of every recognized SCSI device"
+[25]   Exit 1                  proc_probes "slabinfo" "full information about memory usage on the slab level"
+[27]   Exit 1                  proc_probes "slabinfo" "full information about memory usage on the slab level"
+[26]   Done                    proc_probes "stat" "statistics about the system since last restart"
+[28]   Done                    proc_probes "swaps" "measures swap space and its utilization"
+[29]   Done                    proc_probes "uptime" "uptime since restart"
+[30]-  Exit 1                  proc_probes "slabinfo" "full information about memory usage on the slab level"
+[31]+  Done                    proc_probes "version" "version of the Linux kernel, gcc version used to compile the kernel, time of kernel compilation, kernel compiler's user name "
+Thu Apr 18 12:15:28 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+Thu Apr 18 12:15:28 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh
+Thu Apr 18 12:15:28 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh
+gonode: command not found
+Thu Apr 18 12:15:28 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/gcc.sh
+fatal: Not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+fatal: Not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+Thu Apr 18 12:15:28 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+Thu Apr 18 12:15:28 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/git.sh
+Thu Apr 18 12:15:28 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/ssh.sh
+Thu Apr 18 12:15:28 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/vim.sh
+sinfo_s: command not found
+Thu Apr 18 12:15:28 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/bash.sh
+Thu Apr 18 12:15:28 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/finds.sh
+Thu Apr 18 12:15:28 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/cmake.sh
+Thu Apr 18 12:15:28 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/copy-configuration.sh
+Thu Apr 18 12:15:28 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/fortran.sh
+Thu Apr 18 12:15:28 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks.sh
+Thu Apr 18 12:15:28 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-github.sh
+Thu Apr 18 12:15:28 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-gitlab.sh
+Thu Apr 18 12:15:28 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/disk.sh
+Thu Apr 18 12:15:29 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh
+[11]   Done                    proc_probes "interrupts" "the number of interrupts per IRQ on the x86 architecture"
+[16]   Done                    proc_probes "locks" "files currently locked by the kernel"
+[18]   Done                    source ${core}/info-git.sh
+[19]+  Done                    source "${core}/copy-configuration.sh"
+Thu Apr 18 12:15:29 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh
+[18]   Done                    proc_probes "buddyinfo" "used primarily for diagnosing memory fragmentation issues"
+[19]   Done                    proc_probes "cmdline" "parameters passed to the kernel when it is started"
+[20]   Done                    proc_probes "cpuinfo" "type of processor used"
+[21]   Done                    proc_probes "crypto" "lists all installed cryptographic ciphers used by the Linux kernel"
+[22]   Done                    proc_probes "devices" "displays the various character and block devices currently configured"
+[23]   Exit 1                  proc_probes "driver" "information for specific drivers in use by the kernel"
+[24]   Exit 1                  proc_probes "dma" "registered ISA DMA channels in use"
+[25]   Done                    proc_probes "execdomains" "execution domains currently supported by the Linux kernel,"
+[26]   Done                    proc_probes "fb" "frame buffer devices"
+[27]   Done                    proc_probes "filesystems" "file system types currently supported by the kernel"
+[29]   Done                    proc_probes "iomem" "current map of the system's memory for each physical device"
+[30]   Done                    proc_probes "ioports" "currently registered port regions used for input or output communication"
+[31]   Exit 1                  proc_probes "kmsg" "messages generated by the kernel"
+[32]   Done                    proc_probes "loadavg" "load average in regard to both the CPU and IO over time"
+[34]   Exit 1                  proc_probes "mdstat" "current information for multiple-disk, RAID configurations"
+[36]   Done                    proc_probes "misc" "miscellaneous drivers registered on the miscellaneous major device, which is device number 10"
+[35]   Done                    proc_probes "meminfo" "valuable information about the system's RAM usage"
+[37]   Done                    proc_probes "modules" "all modules loaded into the kernel"
+[38]   Done                    proc_probes "mounts" "all mounts in use"
+[39]   Exit 1                  proc_probes "mtrr" "current Memory Type Range Registers (MTRRs) in use with the system"
+[40]   Done                    proc_probes "partitions" "partition block allocation information"
+[41]   Done                    proc_probes "scsi/scsi" "list of every recognized SCSI device"
+[42]   Exit 1                  proc_probes "slabinfo" "full information about memory usage on the slab level"
+[28]   Done                    proc_probes "interrupts" "the number of interrupts per IRQ on the x86 architecture"
+[43]   Done                    proc_probes "stat" "statistics about the system since last restart"
+[44]   Exit 1                  proc_probes "slabinfo" "full information about memory usage on the slab level"
+[45]   Done                    proc_probes "swaps" "measures swap space and its utilization"
+[46]   Done                    proc_probes "uptime" "uptime since restart"
+[47]-  Exit 1                  proc_probes "slabinfo" "full information about memory usage on the slab level"
+Thu Apr 18 12:15:29 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+Thu Apr 18 12:15:29 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh
+Thu Apr 18 12:15:29 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh
+Thu Apr 18 12:15:29 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/uname.sh
+/lustre/cpscratch1/dantopa/repos/gitlab/node-queries
+Thu Apr 18 12:15:29 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/spack.sh
+fatal: Unable to create '/lustre/cpscratch1/dantopa/repos/gitlab/node-queries/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+Thu Apr 18 12:15:29 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/modules.sh
+Thu Apr 18 12:15:29 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+[17]   Done                    source ${core}/info-slurm.sh
+[33]   Done                    proc_probes "locks" "files currently locked by the kernel"
+[48]   Done                    proc_probes "version" "version of the Linux kernel, gcc version used to compile the kernel, time of kernel compilation, kernel compiler's user name "
+Thu Apr 18 12:15:29 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/alias.sh
+[51]   Done                    source "${core}/uname.sh"
+sinfo_s: command not found
+Thu Apr 18 12:15:29 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh
+[53]+  Done                    module list >> ${my_log} 2>&1
+[49]   Done                    source ${core}/info-slurm.sh
+[52]+  Done                    module available >> ${my_log} 2>&1
+fatal: Unable to create '/lustre/cpscratch1/dantopa/repos/gitlab/node-queries/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+[50]+  Done                    source ${core}/info-git.sh
+dantopa@cp-loginy:~ $ gopull
+/lustre/cpscratch1/dantopa/repos/gitlab/pull-requests
+dantopa@cp-loginy:pull-requests $ git pull
+fatal: Not a git repository (or any parent up to mount point /lustre)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+dantopa@cp-loginy:pull-requests $ lss
+total 70K
+drwxr-x--- 5 dantopa dantopa 12K Apr 16 10:06 .
+drwxr-x--- 5 dantopa dantopa 12K Apr 16 10:04 ..
+-rw-r----- 1 dantopa dantopa 617 Feb  5 13:53 git pull request copy.txt
+drwxr-x--- 3 dantopa dantopa 12K Apr 16 10:04 libraries
+drwxr-x--- 4 dantopa dantopa 12K Apr 16 10:04 problems
+drwxr-x--- 4 dantopa dantopa 12K Apr  2 17:58 spack
+dantopa@cp-loginy:pull-requests $ cd libraries/
+dantopa@cp-loginy:libraries $ lss
+total 36K
+drwxr-x--- 3 dantopa dantopa 12K Apr 16 10:04 .
+drwxr-x--- 5 dantopa dantopa 12K Apr 16 10:06 ..
+drwxr-x--- 8 dantopa dantopa 13K Apr 16 13:45 scripts
+dantopa@cp-loginy:libraries $ cd scripts/
+dantopa@cp-loginy:scripts $ lss
+total 238K
+drwxr-x--- 8 dantopa dantopa  13K Apr 16 13:45 .
+drwxr-x--- 3 dantopa dantopa  12K Apr 16 10:04 ..
+drwxr-x--- 2 dantopa dantopa  13K Apr 16 13:50 batch-files
+-rw-r----- 1 dantopa dantopa  636 Apr 16 10:31 batch-tpl-capulin-arm.sh
+-rw-r----- 1 dantopa dantopa  642 Apr  2 16:12 batch-tpl-darwin-arm.sh
+-rw-r----- 1 dantopa dantopa  657 Apr  2 16:12 batch-tpl-darwin-general.sh
+-rw-r----- 1 dantopa dantopa  650 Apr  2 16:12 batch-tpl-darwin-power9.sh
+-rw-r----- 1 dantopa dantopa  491 Apr 11 15:01 batch-tpl-rzansel-power9.sh
+-rw-r----- 1 dantopa dantopa  629 Apr  2 16:20 batch-tpl-snow-standard.sh
+-rw-r----- 1 dantopa dantopa  653 Apr  4 15:20 batch-tpl-trinitite-standard.sh
+drwxr-x--- 2 dantopa dantopa  13K Apr 16 12:59 build-status
+drwxr-x--- 2 dantopa dantopa  13K Apr 16 10:42 compilers
+-rw-r----- 1 dantopa dantopa  447 Apr  1 10:35 create-spack-directories.sh
+-rw-r----- 1 dantopa dantopa 1.1K Apr 16 10:16 interrogater.sh
+-rw-r----- 1 dantopa dantopa 2.4K Apr 15 09:20 master-tpl-sweep.sh
+-rw-r----- 1 dantopa dantopa  191 Apr  3 15:32 my-batch-master.sh
+drwxr-x--- 2 dantopa dantopa  12K Apr 16 10:04 screen-sessions
+drwxr-x--- 2 dantopa dantopa  16K Apr 16 10:51 spack-status
+drwxr-x--- 2 dantopa dantopa  12K Apr 15 09:12 tpl-versions
+dantopa@cp-loginy:scripts $ cd batch-files/
+dantopa@cp-loginy:batch-files $ lss
+total 3.2M
+drwxr-x--- 2 dantopa dantopa  13K Apr 16 13:50 .
+drwxr-x--- 8 dantopa dantopa  13K Apr 16 13:45 ..
+-rw-r----- 1 dantopa dantopa  26K Apr 16 13:45 capulin-arm-ucx-2019-04-16-batch.out
+-rw-r----- 1 dantopa dantopa  78K Apr  3 14:49 darwin-arm-libhio-2019-04-02-batch.out
+-rw-r----- 1 dantopa dantopa  12K Apr  3 15:31 darwin-arm-libhio-2019-04-03-batch.out
+-rw-r----- 1 dantopa dantopa  84K Apr  4 12:54 darwin-arm-openmpi-2019-04-03-batch.out
+-rw-r----- 1 dantopa dantopa  78K Apr  4 12:54 darwin-arm-openmpi-2019-04-04-batch.out
+-rw-r----- 1 dantopa dantopa  64K Apr  3 14:49 darwin-arm-pmix-2019-04-02-batch.out
+-rw-r----- 1 dantopa dantopa 178K Apr 15 10:57 darwin-arm-ucx-2019-04-15-batch.out
+-rw-r----- 1 dantopa dantopa  19K Apr  3 15:31 darwin-general-libhio-2019-04-03-batch.out
+-rw-r----- 1 dantopa dantopa 106K Apr  4 12:54 darwin-general-openmpi-2019-04-03-batch.out
+-rw-r----- 1 dantopa dantopa  70K Apr  4 12:54 darwin-general-openmpi-2019-04-04-batch.out
+-rw-r----- 1 dantopa dantopa 332K Apr 15 14:19 darwin-general-ucx-2019-04-15-batch.out
+-rw-r----- 1 dantopa dantopa 8.9K Apr  3 15:31 darwin-power9-libhio-2019-04-03-batch.out
+-rw-r----- 1 dantopa dantopa  63K Apr  9 09:01 darwin-power9-libhio-2019-04-08-batch.out
+-rw-r----- 1 dantopa dantopa  63K Apr  9 14:28 darwin-power9-libhio-2019-04-09-batch.out
+-rw-r----- 1 dantopa dantopa  87K Apr  4 12:54 darwin-power9-openmpi-2019-04-03-batch.out
+-rw-r----- 1 dantopa dantopa  87K Apr  4 12:54 darwin-power9-openmpi-2019-04-04-batch.out
+-rw-r----- 1 dantopa dantopa 264K Apr 15 10:57 darwin-power9-ucx-2019-04-15-batch.out
+-rw-r----- 1 dantopa dantopa  98K Apr  8 13:20 snow-standard-libhio-2019-04-04-batch.out
+-rw-r----- 1 dantopa dantopa 134K Apr  4 14:45 snow-standard-pmix-2019-04-04-batch.out
+-rw-r----- 1 dantopa dantopa  83K Apr  8 14:36 snow-standard-pmix-2019-04-08-batch.out
+-rw-r----- 1 dantopa dantopa  24K Apr  4 15:39 trinitite-standard-pmix-2019-04-04-batch.out
+dantopa@cp-loginy:batch-files $ vi capulin-arm-ucx-2019-04-16-batch.out
+dantopa@cp-loginy:batch-files $ rm darwin-*
+dantopa@cp-loginy:batch-files $ rm snow-standard-*
+dantopa@cp-loginy:batch-files $ rm trinitite-standard-pmix-2019-04-04-batch.out
+dantopa@cp-loginy:batch-files $ lss
+total 65K
+drwxr-x--- 2 dantopa dantopa 12K Apr 18 12:18 .
+drwxr-x--- 8 dantopa dantopa 13K Apr 16 13:45 ..
+-rw-r----- 1 dantopa dantopa 26K Apr 16 13:45 capulin-arm-ucx-2019-04-16-batch.out
+dantopa@cp-loginy:batch-files $ cd sc
+-bash: cd: sc: No such file or directory
+dantopa@cp-loginy:batch-files $ lss   
+total 65K
+drwxr-x--- 2 dantopa dantopa 12K Apr 18 12:18 .
+drwxr-x--- 8 dantopa dantopa 13K Apr 16 13:45 ..
+-rw-r----- 1 dantopa dantopa 26K Apr 16 13:45 capulin-arm-ucx-2019-04-16-batch.out
+dantopa@cp-loginy:batch-files $ cd ..                  
+dantopa@cp-loginy:scripts $ lss
+total 237K
+drwxr-x--- 8 dantopa dantopa  13K Apr 16 13:45 .
+drwxr-x--- 3 dantopa dantopa  12K Apr 16 10:04 ..
+drwxr-x--- 2 dantopa dantopa  12K Apr 18 12:18 batch-files
+-rw-r----- 1 dantopa dantopa  636 Apr 16 10:31 batch-tpl-capulin-arm.sh
+-rw-r----- 1 dantopa dantopa  642 Apr  2 16:12 batch-tpl-darwin-arm.sh
+-rw-r----- 1 dantopa dantopa  657 Apr  2 16:12 batch-tpl-darwin-general.sh
+-rw-r----- 1 dantopa dantopa  650 Apr  2 16:12 batch-tpl-darwin-power9.sh
+-rw-r----- 1 dantopa dantopa  491 Apr 11 15:01 batch-tpl-rzansel-power9.sh
+-rw-r----- 1 dantopa dantopa  629 Apr  2 16:20 batch-tpl-snow-standard.sh
+-rw-r----- 1 dantopa dantopa  653 Apr  4 15:20 batch-tpl-trinitite-standard.sh
+drwxr-x--- 2 dantopa dantopa  13K Apr 16 12:59 build-status
+drwxr-x--- 2 dantopa dantopa  13K Apr 16 10:42 compilers
+-rw-r----- 1 dantopa dantopa  447 Apr  1 10:35 create-spack-directories.sh
+-rw-r----- 1 dantopa dantopa 1.1K Apr 16 10:16 interrogater.sh
+-rw-r----- 1 dantopa dantopa 2.4K Apr 15 09:20 master-tpl-sweep.sh
+-rw-r----- 1 dantopa dantopa  191 Apr  3 15:32 my-batch-master.sh
+drwxr-x--- 2 dantopa dantopa  12K Apr 16 10:04 screen-sessions
+drwxr-x--- 2 dantopa dantopa  16K Apr 16 10:51 spack-status
+drwxr-x--- 2 dantopa dantopa  12K Apr 15 09:12 tpl-versions
+dantopa@cp-loginy:scripts $ sbatch batch-tpl-capulin-arm.sh ucx
+Submitted batch job 315610
+dantopa@cp-loginy:scripts $ q
+squeue -u ${USER}
+   JOBID     USER ACCOUNT           NAME  ST REASON    START_TIME                TIME  TIME_LEFT NODES CPUS
+  315610  dantopa  hpcdev        sweeper   R None      2019-04-18T12:19:28       0:00   10:00:00     1  224
+dantopa@cp-loginy:scripts $ q
+squeue -u ${USER}
+   JOBID     USER ACCOUNT           NAME  ST REASON    START_TIME                TIME  TIME_LEFT NODES CPUS
+  315610  dantopa  hpcdev        sweeper   R None      2019-04-18T12:19:28       0:02    9:59:58     1  224
+dantopa@cp-loginy:scripts $ q
+squeue -u ${USER}
+   JOBID     USER ACCOUNT           NAME  ST REASON    START_TIME                TIME  TIME_LEFT NODES CPUS
+  315610  dantopa  hpcdev        sweeper   R None      2019-04-18T12:19:28       0:04    9:59:56     1  224
+dantopa@cp-loginy:scripts $ q
+squeue -u ${USER}
+   JOBID     USER ACCOUNT           NAME  ST REASON    START_TIME                TIME  TIME_LEFT NODES CPUS
+  315610  dantopa  hpcdev        sweeper   R None      2019-04-18T12:19:28       0:09    9:59:51     1  224
+dantopa@cp-loginy:scripts $ lss
+total 245K
+drwxr-x--- 8 dantopa dantopa  13K Apr 18 12:19 .
+drwxr-x--- 3 dantopa dantopa  12K Apr 16 10:04 ..
+drwxr-x--- 2 dantopa dantopa  12K Apr 18 12:18 batch-files
+-rw-r----- 1 dantopa dantopa  636 Apr 16 10:31 batch-tpl-capulin-arm.sh
+-rw-r----- 1 dantopa dantopa  642 Apr  2 16:12 batch-tpl-darwin-arm.sh
+-rw-r----- 1 dantopa dantopa  657 Apr  2 16:12 batch-tpl-darwin-general.sh
+-rw-r----- 1 dantopa dantopa  650 Apr  2 16:12 batch-tpl-darwin-power9.sh
+-rw-r----- 1 dantopa dantopa  491 Apr 11 15:01 batch-tpl-rzansel-power9.sh
+-rw-r----- 1 dantopa dantopa  629 Apr  2 16:20 batch-tpl-snow-standard.sh
+-rw-r----- 1 dantopa dantopa  653 Apr  4 15:20 batch-tpl-trinitite-standard.sh
+drwxr-x--- 2 dantopa dantopa  13K Apr 16 12:59 build-status
+-rw-r----- 1 dantopa dantopa  919 Apr 18 12:19 capulin-arm-batch.out
+drwxr-x--- 2 dantopa dantopa  13K Apr 16 10:42 compilers
+-rw-r----- 1 dantopa dantopa  447 Apr  1 10:35 create-spack-directories.sh
+-rw-r----- 1 dantopa dantopa 1.1K Apr 16 10:16 interrogater.sh
+-rw-r----- 1 dantopa dantopa 2.4K Apr 15 09:20 master-tpl-sweep.sh
+-rw-r----- 1 dantopa dantopa  191 Apr  3 15:32 my-batch-master.sh
+drwxr-x--- 2 dantopa dantopa  12K Apr 16 10:04 screen-sessions
+drwxr-x--- 2 dantopa dantopa  16K Apr 16 10:51 spack-status
+drwxr-x--- 2 dantopa dantopa  12K Apr 15 09:12 tpl-versions
+dantopa@cp-loginy:scripts $ q
+squeue -u ${USER}
+   JOBID     USER ACCOUNT           NAME  ST REASON    START_TIME                TIME  TIME_LEFT NODES CPUS
+  315610  dantopa  hpcdev        sweeper   R None      2019-04-18T12:19:28       0:24    9:59:36     1  224
+dantopa@cp-loginy:scripts $ q
+squeue -u ${USER}
+   JOBID     USER ACCOUNT           NAME  ST REASON    START_TIME                TIME  TIME_LEFT NODES CPUS
+  315610  dantopa  hpcdev        sweeper   R None      2019-04-18T12:19:28       0:42    9:59:18     1  224
+dantopa@cp-loginy:scripts $ q
+squeue -u ${USER}
+   JOBID     USER ACCOUNT           NAME  ST REASON    START_TIME                TIME  TIME_LEFT NODES CPUS
+  315610  dantopa  hpcdev        sweeper   R None      2019-04-18T12:19:28       1:44    9:58:16     1  224
+dantopa@cp-loginy:scripts $ vi  capulin-arm-batch.out 
+dantopa@cp-loginy:scripts $ tail  capulin-arm-batch.out
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> libnl is already installed in /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/cray-cnl6-arm_thunderx2/cce-8.7.9/libnl-3.3.0-qejn5czsno4wtjuyh5az4yniipmitj3j
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> Installing rdma-core
+==> Searching for binary cache of rdma-core
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for rdma-core found: installing from source
+dantopa@cp-loginy:scripts $ vi  capulin-arm-batch.out 
+dantopa@cp-loginy:scripts $ tail  capulin-arm-batch.out
+
+
+
+spack install ucx @ 1.4.0 % gcc@6.3.0  arch=cray-cnl6-arm_thunderx2
+==> Error: invalid syntax (<string>, line 1)
+
+spack install ucx @ 1.4.0 % gcc@5.3.0  arch=cray-cnl6-arm_thunderx2
+==> Error: invalid syntax (<string>, line 1)
+
+spack install ucx @ 1.4.0 % gcc@4.9.3  arch=cray-cnl6-arm_thunderx2
+dantopa@cp-loginy:scripts $ vi  capulin-arm-batch.out 
+dantopa@cp-loginy:scripts $ q
+squeue -u ${USER}
+   JOBID     USER ACCOUNT           NAME  ST REASON    START_TIME                TIME  TIME_LEFT NODES CPUS
+  315611  dantopa  hpcdev             sh   R None      2019-04-18T12:23:28       7:23    9:52:37     1  224
+dantopa@cp-loginy:scripts $ cd batch-files/
+dantopa@cp-loginy:batch-files $ lss
+total 105K
+drwxr-x--- 2 dantopa dantopa 12K Apr 18 12:25 .
+drwxr-x--- 8 dantopa dantopa 13K Apr 18 12:30 ..
+-rw-r----- 1 dantopa dantopa 26K Apr 16 13:45 capulin-arm-ucx-2019-04-16-batch.out
+-rw-r----- 1 dantopa dantopa 26K Apr 18 12:25 capulin-arm-ucx-2019-04-18-batch.out
+dantopa@cp-loginy:batch-files $ cat capulin-arm-ucx-2019-04-18-batch.out 
+Thu Apr 18 12:19:29 MDT 2019 /var/spool/slurm/job315610/slurm_script
+source "${dir_pull}/scripts/master-tpl-sweep.sh"
+Thu Apr 18 12:19:29 MDT 2019 /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/scripts/master-tpl-sweep.sh
+cd /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/scripts
+source tpl-versions/versions-ucx.sh
+Thu Apr 18 12:19:29 MDT 2019 tpl-versions/versions-ucx.sh
+4 ucx versions loaded:
+1.5.0  1.4.0  1.3.1  1.2.2
+
+source compilers/compilers-capulin-arm.sh
+Thu Apr 18 12:19:29 MDT 2019 compilers/compilers-capulin-arm.sh
+11 Spack-recognized compilers loaded:
+gcc@8.2.0  gcc@7.3.0  gcc@6.3.0  gcc@5.3.0 gcc@4.9.3  intel@18.0.5  intel@17.0.4  intel@16.0.3 cce@8.7.9 cce@8.6.5 cce@8.5.8 
+
+cd /lustre/cpscratch1/dantopa/repos/github/libraries/capulin-arm.ucx
+. share/spack/setup-env.sh
+export spack_architecture='arch=cray-cnl6-arm_thunderx2''
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+
+spack install ucx @ 1.5.0 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.1 : has external module in cmake/3.12.1
+==> cmake@3.14.1 : is actually installed in None
+==> cmake@3.14.1 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> libnl is already installed in /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/cray-cnl6-arm_thunderx2/gcc-8.2.0/libnl-3.3.0-b6x2rtjcbdn4sm7ietmhbjlyzbzcsvrr
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> Installing rdma-core
+==> Searching for binary cache of rdma-core
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for rdma-core found: installing from source
+==> Error: SyntaxError: invalid syntax (<string>, line 1)
+
+/pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py:784, in child_process:
+        781            tb_string = traceback.format_exc()
+        782
+        783            # build up some context from the offending package so we can
+  >>    784            # show that, too.
+        785            package_context = get_package_context(tb)
+        786
+        787            build_log = None
+
+
+
+spack install ucx @ 1.5.0 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.1 : has external module in cmake/3.12.1
+==> cmake@3.14.1 : is actually installed in None
+==> cmake@3.14.1 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> libnl is already installed in /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/cray-cnl6-arm_thunderx2/gcc-7.3.0/libnl-3.3.0-ubvwfhv3wxqaqfzycgecflirxsyth2st
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> Installing rdma-core
+==> Searching for binary cache of rdma-core
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for rdma-core found: installing from source
+==> Error: SyntaxError: invalid syntax (<string>, line 1)
+
+/pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py:784, in child_process:
+        781            tb_string = traceback.format_exc()
+        782
+        783            # build up some context from the offending package so we can
+  >>    784            # show that, too.
+        785            package_context = get_package_context(tb)
+        786
+        787            build_log = None
+
+
+
+spack install ucx @ 1.5.0 % gcc@6.3.0  arch=cray-cnl6-arm_thunderx2
+==> Error: invalid syntax (<string>, line 1)
+
+spack install ucx @ 1.5.0 % gcc@5.3.0  arch=cray-cnl6-arm_thunderx2
+==> Error: invalid syntax (<string>, line 1)
+
+spack install ucx @ 1.5.0 % gcc@4.9.3  arch=cray-cnl6-arm_thunderx2
+==> Error: invalid syntax (<string>, line 1)
+
+spack install ucx @ 1.5.0 % intel@18.0.5  arch=cray-cnl6-arm_thunderx2
+==> Error: invalid syntax (<string>, line 1)
+
+spack install ucx @ 1.5.0 % intel@17.0.4  arch=cray-cnl6-arm_thunderx2
+==> Error: invalid syntax (<string>, line 1)
+
+spack install ucx @ 1.5.0 % intel@16.0.3  arch=cray-cnl6-arm_thunderx2
+==> Error: invalid syntax (<string>, line 1)
+
+spack install ucx @ 1.5.0 % cce@8.7.9  arch=cray-cnl6-arm_thunderx2
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.1 : has external module in cmake/3.12.1
+==> cmake@3.14.1 : is actually installed in None
+==> cmake@3.14.1 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> libnl is already installed in /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/cray-cnl6-arm_thunderx2/cce-8.7.9/libnl-3.3.0-qejn5czsno4wtjuyh5az4yniipmitj3j
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> Installing rdma-core
+==> Searching for binary cache of rdma-core
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for rdma-core found: installing from source
+==> Error: SyntaxError: invalid syntax (<string>, line 1)
+
+/pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py:784, in child_process:
+        781            tb_string = traceback.format_exc()
+        782
+        783            # build up some context from the offending package so we can
+  >>    784            # show that, too.
+        785            package_context = get_package_context(tb)
+        786
+        787            build_log = None
+
+
+
+spack install ucx @ 1.5.0 % cce@8.6.5  arch=cray-cnl6-arm_thunderx2
+==> Error: invalid syntax (<string>, line 1)
+
+spack install ucx @ 1.5.0 % cce@8.5.8  arch=cray-cnl6-arm_thunderx2
+==> Error: invalid syntax (<string>, line 1)
+
+spack install ucx @ 1.4.0 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.1 : has external module in cmake/3.12.1
+==> cmake@3.14.1 : is actually installed in None
+==> cmake@3.14.1 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> libnl is already installed in /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/cray-cnl6-arm_thunderx2/gcc-8.2.0/libnl-3.3.0-b6x2rtjcbdn4sm7ietmhbjlyzbzcsvrr
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> Installing rdma-core
+==> Searching for binary cache of rdma-core
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for rdma-core found: installing from source
+==> Error: SyntaxError: invalid syntax (<string>, line 1)
+
+/pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py:784, in child_process:
+        781            tb_string = traceback.format_exc()
+        782
+        783            # build up some context from the offending package so we can
+  >>    784            # show that, too.
+        785            package_context = get_package_context(tb)
+        786
+        787            build_log = None
+
+
+
+spack install ucx @ 1.4.0 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.1 : has external module in cmake/3.12.1
+==> cmake@3.14.1 : is actually installed in None
+==> cmake@3.14.1 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> libnl is already installed in /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/cray-cnl6-arm_thunderx2/gcc-7.3.0/libnl-3.3.0-ubvwfhv3wxqaqfzycgecflirxsyth2st
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> Installing rdma-core
+==> Searching for binary cache of rdma-core
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for rdma-core found: installing from source
+==> Error: SyntaxError: invalid syntax (<string>, line 1)
+
+/pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py:784, in child_process:
+        781            tb_string = traceback.format_exc()
+        782
+        783            # build up some context from the offending package so we can
+  >>    784            # show that, too.
+        785            package_context = get_package_context(tb)
+        786
+        787            build_log = None
+
+
+
+spack install ucx @ 1.4.0 % gcc@6.3.0  arch=cray-cnl6-arm_thunderx2
+==> Error: invalid syntax (<string>, line 1)
+
+spack install ucx @ 1.4.0 % gcc@5.3.0  arch=cray-cnl6-arm_thunderx2
+==> Error: invalid syntax (<string>, line 1)
+
+spack install ucx @ 1.4.0 % gcc@4.9.3  arch=cray-cnl6-arm_thunderx2
+==> Error: invalid syntax (<string>, line 1)
+
+spack install ucx @ 1.4.0 % intel@18.0.5  arch=cray-cnl6-arm_thunderx2
+==> Error: invalid syntax (<string>, line 1)
+
+spack install ucx @ 1.4.0 % intel@17.0.4  arch=cray-cnl6-arm_thunderx2
+==> Error: invalid syntax (<string>, line 1)
+
+spack install ucx @ 1.4.0 % intel@16.0.3  arch=cray-cnl6-arm_thunderx2
+==> Error: invalid syntax (<string>, line 1)
+
+spack install ucx @ 1.4.0 % cce@8.7.9  arch=cray-cnl6-arm_thunderx2
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.1 : has external module in cmake/3.12.1
+==> cmake@3.14.1 : is actually installed in None
+==> cmake@3.14.1 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> libnl is already installed in /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/cray-cnl6-arm_thunderx2/cce-8.7.9/libnl-3.3.0-qejn5czsno4wtjuyh5az4yniipmitj3j
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> Installing rdma-core
+==> Searching for binary cache of rdma-core
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for rdma-core found: installing from source
+==> Error: SyntaxError: invalid syntax (<string>, line 1)
+
+/pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py:784, in child_process:
+        781            tb_string = traceback.format_exc()
+        782
+        783            # build up some context from the offending package so we can
+  >>    784            # show that, too.
+        785            package_context = get_package_context(tb)
+        786
+        787            build_log = None
+
+
+
+spack install ucx @ 1.4.0 % cce@8.6.5  arch=cray-cnl6-arm_thunderx2
+==> Error: invalid syntax (<string>, line 1)
+
+spack install ucx @ 1.4.0 % cce@8.5.8  arch=cray-cnl6-arm_thunderx2
+==> Error: invalid syntax (<string>, line 1)
+
+spack install ucx @ 1.3.1 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.1 : has external module in cmake/3.12.1
+==> cmake@3.14.1 : is actually installed in None
+==> cmake@3.14.1 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> libnl is already installed in /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/cray-cnl6-arm_thunderx2/gcc-8.2.0/libnl-3.3.0-b6x2rtjcbdn4sm7ietmhbjlyzbzcsvrr
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> Installing rdma-core
+==> Searching for binary cache of rdma-core
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for rdma-core found: installing from source
+==> Error: SyntaxError: invalid syntax (<string>, line 1)
+
+/pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py:784, in child_process:
+        781            tb_string = traceback.format_exc()
+        782
+        783            # build up some context from the offending package so we can
+  >>    784            # show that, too.
+        785            package_context = get_package_context(tb)
+        786
+        787            build_log = None
+
+
+
+spack install ucx @ 1.3.1 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.1 : has external module in cmake/3.12.1
+==> cmake@3.14.1 : is actually installed in None
+==> cmake@3.14.1 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> libnl is already installed in /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/cray-cnl6-arm_thunderx2/gcc-7.3.0/libnl-3.3.0-ubvwfhv3wxqaqfzycgecflirxsyth2st
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> Installing rdma-core
+==> Searching for binary cache of rdma-core
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for rdma-core found: installing from source
+==> Error: SyntaxError: invalid syntax (<string>, line 1)
+
+/pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py:784, in child_process:
+        781            tb_string = traceback.format_exc()
+        782
+        783            # build up some context from the offending package so we can
+  >>    784            # show that, too.
+        785            package_context = get_package_context(tb)
+        786
+        787            build_log = None
+
+
+
+spack install ucx @ 1.3.1 % gcc@6.3.0  arch=cray-cnl6-arm_thunderx2
+==> Error: invalid syntax (<string>, line 1)
+
+spack install ucx @ 1.3.1 % gcc@5.3.0  arch=cray-cnl6-arm_thunderx2
+==> Error: invalid syntax (<string>, line 1)
+
+spack install ucx @ 1.3.1 % gcc@4.9.3  arch=cray-cnl6-arm_thunderx2
+==> Error: invalid syntax (<string>, line 1)
+
+spack install ucx @ 1.3.1 % intel@18.0.5  arch=cray-cnl6-arm_thunderx2
+==> Error: invalid syntax (<string>, line 1)
+
+spack install ucx @ 1.3.1 % intel@17.0.4  arch=cray-cnl6-arm_thunderx2
+==> Error: invalid syntax (<string>, line 1)
+
+spack install ucx @ 1.3.1 % intel@16.0.3  arch=cray-cnl6-arm_thunderx2
+==> Error: invalid syntax (<string>, line 1)
+
+spack install ucx @ 1.3.1 % cce@8.7.9  arch=cray-cnl6-arm_thunderx2
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.1 : has external module in cmake/3.12.1
+==> cmake@3.14.1 : is actually installed in None
+==> cmake@3.14.1 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> libnl is already installed in /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/cray-cnl6-arm_thunderx2/cce-8.7.9/libnl-3.3.0-qejn5czsno4wtjuyh5az4yniipmitj3j
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> Installing rdma-core
+==> Searching for binary cache of rdma-core
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for rdma-core found: installing from source
+==> Error: SyntaxError: invalid syntax (<string>, line 1)
+
+/pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py:784, in child_process:
+        781            tb_string = traceback.format_exc()
+        782
+        783            # build up some context from the offending package so we can
+  >>    784            # show that, too.
+        785            package_context = get_package_context(tb)
+        786
+        787            build_log = None
+
+
+
+spack install ucx @ 1.3.1 % cce@8.6.5  arch=cray-cnl6-arm_thunderx2
+==> Error: invalid syntax (<string>, line 1)
+
+spack install ucx @ 1.3.1 % cce@8.5.8  arch=cray-cnl6-arm_thunderx2
+==> Error: invalid syntax (<string>, line 1)
+
+spack install ucx @ 1.2.2 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.1 : has external module in cmake/3.12.1
+==> cmake@3.14.1 : is actually installed in None
+==> cmake@3.14.1 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> libnl is already installed in /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/cray-cnl6-arm_thunderx2/gcc-8.2.0/libnl-3.3.0-b6x2rtjcbdn4sm7ietmhbjlyzbzcsvrr
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> Installing rdma-core
+==> Searching for binary cache of rdma-core
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for rdma-core found: installing from source
+==> Error: SyntaxError: invalid syntax (<string>, line 1)
+
+/pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py:784, in child_process:
+        781            tb_string = traceback.format_exc()
+        782
+        783            # build up some context from the offending package so we can
+  >>    784            # show that, too.
+        785            package_context = get_package_context(tb)
+        786
+        787            build_log = None
+
+
+
+spack install ucx @ 1.2.2 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.1 : has external module in cmake/3.12.1
+==> cmake@3.14.1 : is actually installed in None
+==> cmake@3.14.1 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> libnl is already installed in /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/cray-cnl6-arm_thunderx2/gcc-7.3.0/libnl-3.3.0-ubvwfhv3wxqaqfzycgecflirxsyth2st
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> Installing rdma-core
+==> Searching for binary cache of rdma-core
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for rdma-core found: installing from source
+==> Error: SyntaxError: invalid syntax (<string>, line 1)
+
+/pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py:784, in child_process:
+        781            tb_string = traceback.format_exc()
+        782
+        783            # build up some context from the offending package so we can
+  >>    784            # show that, too.
+        785            package_context = get_package_context(tb)
+        786
+        787            build_log = None
+
+
+
+spack install ucx @ 1.2.2 % gcc@6.3.0  arch=cray-cnl6-arm_thunderx2
+==> Error: invalid syntax (<string>, line 1)
+
+spack install ucx @ 1.2.2 % gcc@5.3.0  arch=cray-cnl6-arm_thunderx2
+==> Error: invalid syntax (<string>, line 1)
+
+spack install ucx @ 1.2.2 % gcc@4.9.3  arch=cray-cnl6-arm_thunderx2
+==> Error: invalid syntax (<string>, line 1)
+
+spack install ucx @ 1.2.2 % intel@18.0.5  arch=cray-cnl6-arm_thunderx2
+==> Error: invalid syntax (<string>, line 1)
+
+spack install ucx @ 1.2.2 % intel@17.0.4  arch=cray-cnl6-arm_thunderx2
+==> Error: invalid syntax (<string>, line 1)
+
+spack install ucx @ 1.2.2 % intel@16.0.3  arch=cray-cnl6-arm_thunderx2
+==> Error: invalid syntax (<string>, line 1)
+
+spack install ucx @ 1.2.2 % cce@8.7.9  arch=cray-cnl6-arm_thunderx2
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.1 : has external module in cmake/3.12.1
+==> cmake@3.14.1 : is actually installed in None
+==> cmake@3.14.1 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> libnl is already installed in /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/cray-cnl6-arm_thunderx2/cce-8.7.9/libnl-3.3.0-qejn5czsno4wtjuyh5az4yniipmitj3j
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> Installing rdma-core
+==> Searching for binary cache of rdma-core
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for rdma-core found: installing from source
+==> Error: SyntaxError: invalid syntax (<string>, line 1)
+
+/pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py:784, in child_process:
+        781            tb_string = traceback.format_exc()
+        782
+        783            # build up some context from the offending package so we can
+  >>    784            # show that, too.
+        785            package_context = get_package_context(tb)
+        786
+        787            build_log = None
+
+
+
+spack install ucx @ 1.2.2 % cce@8.6.5  arch=cray-cnl6-arm_thunderx2
+==> Error: invalid syntax (<string>, line 1)
+
+spack install ucx @ 1.2.2 % cce@8.5.8  arch=cray-cnl6-arm_thunderx2
+==> Error: invalid syntax (<string>, line 1)
+spack compilers
+==> Available compilers
+-- cce cnl6-any -------------------------------------------------
+cce@9.0.0.21672
+cce@9.0.0.21672
+cce@8.7.10
+cce@8.7.9
+cce@8.7.8
+cce@8.7.7
+cce@8.7.6
+cce@8.7.5
+cce@8.7.4
+cce@8.7.2
+cce@8.7.1
+cce@8.7.0
+cce@8.6.5
+cce@8.6.2
+cce@8.6.1
+cce@8.6.0
+cce@8.5.8
+cce@8.5.7
+cce@8.5.6
+cce@8.5.5
+cce@8.5.3
+cce@8.5.2
+cce@8.5.0
+cce@8.4.6
+
+-- gcc cnl6-any -------------------------------------------------
+gcc@8.3.0
+gcc@8.2.0
+gcc@7.3.0
+gcc@7.2.0
+gcc@7.1.0
+gcc@6.3.0
+gcc@6.2.0
+gcc@6.1.0
+gcc@5.3.0
+gcc@5.2.0
+gcc@4.9.3
+
+-- gcc sles12-x86_64 --------------------------------------------
+gcc@4.8
+
+-- gcc sles15-aarch64 -------------------------------------------
+gcc@7.4.0
+
+-- intel cnl6-any -----------------------------------------------
+intel@18.0.5
+intel@18.0.2
+intel@17.0.4
+intel@17.0.1
+intel@16.0.3
+intel@15.0.7
+intel@15.0.5
+spack find ucx
+==> No package matches the query: ucx
+spack find -ldf ucx
+==> No package matches the query: ucx
+spack find ucx >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/scripts/spack-status/ucx-capulin-arm.out
+spack find -ldf ucx  >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/scripts/spack-status/ucx-ldf-capulin-arm.out
+spack graph ucx >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/scripts/spack-status/ucx-graph-capulin-arm.out
+mv  /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/scripts/capulin-arm-batch.out   /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/scripts/batch-files/capulin-arm-ucx-2019-04-18-batch.out
+cd /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries
+git add -A .
+fatal: Not a git repository (or any parent up to mount point /pfs)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+git commit -m "${USER} ${tpl} ${hpc} ${partition} ${ymd}"
+fatal: Not a git repository (or any parent up to mount point /pfs)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+Thu Apr 18 12:25:39 MDT 2019
+dantopa@cp-loginy:batch-files $ packet_write_wait: Connection to 128.165.227.168 port 22: Broken pipe
+[1]   Done                    cp ${HOME}/${bash_file} ${alt_vault}
+[2]   Done                    cp ${HOME}/${extras} ${alt_vault}
+[3]-  Done                    cp ${HOME}/.vimrc ${alt_vault}
+[4]+  Done                    cp ${HOME}/.gitconfig ${alt_vault}
+l127914@pn1249300.lanl.gov:~ $ 

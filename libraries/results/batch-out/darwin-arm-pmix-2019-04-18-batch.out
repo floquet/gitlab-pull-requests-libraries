@@ -1,0 +1,440 @@
+Thu Apr 18 20:00:45 MDT 2019 [1m/home/dantopa/.mybash(B[m
+Thu Apr 18 20:00:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/platforms.sh(B[m
+attempting to mkdir /scratch/users/dantopa/repos/gitlab/node-queries/darwin/arm-cn823/dir-configuration
+directory of core scripts = ${core} = /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts
+Thu Apr 18 20:00:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/master.sh(B[m
+Thu Apr 18 20:00:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh(B[m
+Thu Apr 18 20:00:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh(B[m
+Thu Apr 18 20:00:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Thu Apr 18 20:00:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh(B[m
+Thu Apr 18 20:00:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh(B[m
+Thu Apr 18 20:00:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/gcc.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh: line 5: gonode: command not found
+Thu Apr 18 20:00:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/git.sh(B[m
+Thu Apr 18 20:00:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Thu Apr 18 20:00:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/ssh.sh(B[m
+Thu Apr 18 20:00:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/vim.sh(B[m
+Thu Apr 18 20:00:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bash.sh(B[m
+Thu Apr 18 20:00:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/finds.sh(B[m
+Thu Apr 18 20:00:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/cmake.sh(B[m
+Thu Apr 18 20:00:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/copy-configuration.sh(B[m
+Thu Apr 18 20:00:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/fortran.sh(B[m
+Thu Apr 18 20:00:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks.sh(B[m
+Thu Apr 18 20:00:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-bitbucket.sh(B[m
+Thu Apr 18 20:00:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-github.sh(B[m
+Thu Apr 18 20:00:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-gitlab.sh(B[m
+[master d554b10] darwin-arm-cn823 Thu Apr 18 20:00:46 MDT 2019
+ 1 file changed, 15 insertions(+)
+ create mode 100644 libraries/tools/bash/darwin-arm-batch.out
+Thu Apr 18 20:00:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/disk.sh(B[m
+Thu Apr 18 20:00:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh: line 33: sinfo_s: command not found
+Thu Apr 18 20:00:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh(B[m
+Thu Apr 18 20:00:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Thu Apr 18 20:00:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/spack.sh(B[m
+Thu Apr 18 20:00:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh(B[m
+Thu Apr 18 20:00:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/uname.sh(B[m
+Thu Apr 18 20:00:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh: line 5: gonode: command not found
+Thu Apr 18 20:00:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/modules.sh(B[m
+Thu Apr 18 20:00:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Thu Apr 18 20:00:47 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/alias.sh(B[m
+Thu Apr 18 20:00:47 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh: line 11: myprompt: command not found
+[master 8e139cd] darwin-arm-cn823 Thu Apr 18 20:00:47 MDT 2019
+ 1 file changed, 24 insertions(+)
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh: line 33: sinfo_s: command not found
+Thu Apr 18 20:00:50 MDT 2019 /tmp/slurmd/job5185821/slurm_script
+source "${dir_tools}/bash/master-tpl-sweep.sh"
+Thu Apr 18 20:00:50 MDT 2019 /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh
+cd /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools
+source directories/libraries-darwin.sh
+Thu Apr 18 20:00:50 MDT 2019 [1mdirectories/libraries-darwin.sh(B[m
+source tpl-versions/versions-pmix.sh
+Thu Apr 18 20:00:50 MDT 2019 [1mtpl-versions/versions-pmix.sh(B[m
+4 pmix versions loaded:
+3.1.2  3.0.2  2.2.2  2.1.4
+
+source compilers/compilers-darwin-arm.sh
+Thu Apr 18 20:00:50 MDT 2019 [1mcompilers/compilers-darwin-arm.sh(B[m
+9 Spack-recognized compilers loaded:
+gcc@8.2.0  gcc@8.1.0  gcc@7.1.0  gcc@4.8.5  arm@19.1  clang@18.4.2  clang@18.4.1  clang@18.4.0  clang@7.0.0
+
+source klingons/darwin-arm-pmix.sh
+/scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 34: klingons/darwin-arm-pmix.sh: No such file or directory
+cd /darwin-arm.pmix
+/scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 37: cd: /darwin-arm.pmix: No such file or directory
+. share/spack/setup-env.sh
+/scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 40: share/spack/setup-env.sh: No such file or directory
+export spack_architecture='arch=linux-rhel7-aarch64'
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+
+spack install pmix @ 3.1.2 % gcc@8.2.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: [Errno 37] No locks available
+close failed in file object destructor:
+IOError: [Errno 116] Stale file handle
+Traceback (most recent call last):
+  File "/scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/bin/spack", line 48, in <module>
+    sys.exit(spack.main.main())
+SystemError: error return without exception set
+
+spack install pmix @ 3.1.2 % gcc@8.1.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+
+spack install pmix @ 3.1.2 % gcc@7.1.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+
+spack install pmix @ 3.1.2 % gcc@4.8.5  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+
+spack install pmix @ 3.1.2 % arm@19.1  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+
+spack install pmix @ 3.1.2 % clang@18.4.2  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+
+spack install pmix @ 3.1.2 % clang@18.4.1  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+
+spack install pmix @ 3.1.2 % clang@18.4.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+
+spack install pmix @ 3.1.2 % clang@7.0.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+
+spack install pmix @ 3.0.2 % gcc@8.2.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+
+spack install pmix @ 3.0.2 % gcc@8.1.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+
+spack install pmix @ 3.0.2 % gcc@7.1.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+
+spack install pmix @ 3.0.2 % gcc@4.8.5  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+
+spack install pmix @ 3.0.2 % arm@19.1  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+
+spack install pmix @ 3.0.2 % clang@18.4.2  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+
+spack install pmix @ 3.0.2 % clang@18.4.1  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+
+spack install pmix @ 3.0.2 % clang@18.4.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+
+spack install pmix @ 3.0.2 % clang@7.0.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+
+spack install pmix @ 2.2.2 % gcc@8.2.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+
+spack install pmix @ 2.2.2 % gcc@8.1.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+
+spack install pmix @ 2.2.2 % gcc@7.1.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+
+spack install pmix @ 2.2.2 % gcc@4.8.5  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+
+spack install pmix @ 2.2.2 % arm@19.1  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+
+spack install pmix @ 2.2.2 % clang@18.4.2  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+
+spack install pmix @ 2.2.2 % clang@18.4.1  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+
+spack install pmix @ 2.2.2 % clang@18.4.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+
+spack install pmix @ 2.2.2 % clang@7.0.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+
+spack install pmix @ 2.1.4 % gcc@8.2.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+
+spack install pmix @ 2.1.4 % gcc@8.1.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+
+spack install pmix @ 2.1.4 % gcc@7.1.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+
+spack install pmix @ 2.1.4 % gcc@4.8.5  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+
+spack install pmix @ 2.1.4 % arm@19.1  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+
+spack install pmix @ 2.1.4 % clang@18.4.2  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+
+spack install pmix @ 2.1.4 % clang@18.4.1  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+
+spack install pmix @ 2.1.4 % clang@18.4.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+
+spack install pmix @ 2.1.4 % clang@7.0.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+mkdir -p "${dir_results}/tpl-order"
+spack find pmix >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/pmix-darwin-arm.out
+spack find -ldf pmix  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/pmix-darwin-arm-ldf.out
+spack graph pmix >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/pmix-darwin-arm-graph.out
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack compilers
+==> Available compilers
+-- gcc centos7-x86_64 -------------------------------------------
+gcc@8.2.0
+gcc@8.1.0
+gcc@7.3.0
+gcc@7.2.0
+gcc@6.4.0
+gcc@6.3.0
+gcc@5.5.0
+gcc@5.4.0
+gcc@4.9.3
+gcc@4.9.2
+gcc@4.8.5
+gcc@4.6.4
+
+-- intel centos7-x86_64 -----------------------------------------
+intel@18.0.3
+intel@18.0.2
+intel@17.0.6
+intel@17.0.1
+intel@16.0.4
+intel@16.0.3
+
+-- pgi centos7-x86_64 -------------------------------------------
+pgi@18.10
+pgi@18.7
+pgi@18.4
+pgi@18.3
+pgi@17.10
+pgi@17.4
+pgi@16.10
+spack find pmix
+==> 5 installed packages
+-- linux-centos7-x86_64 / gcc@4.8.5 -----------------------------
+pmix@3.1.2
+
+-- linux-centos7-x86_64 / gcc@4.9.3 -----------------------------
+pmix@3.1.2
+
+-- linux-centos7-x86_64 / gcc@5.5.0 -----------------------------
+pmix@3.1.2
+
+-- linux-centos7-x86_64 / gcc@6.4.0 -----------------------------
+pmix@3.1.2
+
+-- linux-centos7-x86_64 / gcc@7.3.0 -----------------------------
+pmix@3.1.2
+spack find -ldf pmix
+==> 5 installed packages
+-- linux-centos7-x86_64 / gcc@4.8.5 -----------------------------
+qt2qf4y    pmix@3.1.2%gcc
+zlofgxm        ^hwloc@2.0.2%gcc
+5chyfxo            ^libpciaccess@0.13.5%gcc
+bcnjbc3            ^libxml2@2.9.8%gcc
+m76ljab        ^libevent@2.1.8%gcc
+wthsk3t            ^openssl@1.1.1b%gcc
+
+
+-- linux-centos7-x86_64 / gcc@4.9.3 -----------------------------
+omyzj6f    pmix@3.1.2%gcc
+wqqeec5        ^hwloc@2.0.2%gcc
+nqafs22            ^libpciaccess@0.13.5%gcc
+xr6jvqb            ^libxml2@2.9.8%gcc
+tqniynd        ^libevent@2.1.8%gcc
+y4rry76            ^openssl@1.1.1b%gcc
+
+
+-- linux-centos7-x86_64 / gcc@5.5.0 -----------------------------
+bz2bka4    pmix@3.1.2%gcc
+ay37u7n        ^hwloc@2.0.2%gcc
+ygiicn2            ^libpciaccess@0.13.5%gcc
+dyuna3l            ^libxml2@2.9.8%gcc
+p3lav6s        ^libevent@2.1.8%gcc
+ritaimx            ^openssl@1.1.1b%gcc
+
+
+-- linux-centos7-x86_64 / gcc@6.4.0 -----------------------------
+htufkb7    pmix@3.1.2%gcc
+d3tv6w2        ^hwloc@2.0.2%gcc
+j6fsyhp            ^libpciaccess@0.13.5%gcc
+ltoyknu            ^libxml2@2.9.8%gcc
+td73grk        ^libevent@2.1.8%gcc
+rff57eg            ^openssl@1.1.1b%gcc
+
+
+-- linux-centos7-x86_64 / gcc@7.3.0 -----------------------------
+c3yenly    pmix@3.1.2%gcc
+t3vq65n        ^hwloc@2.0.2%gcc
+f5k35g4            ^libpciaccess@0.13.5%gcc
+m46g2kt            ^libxml2@2.9.8%gcc
+gxgeywz        ^libevent@2.1.8%gcc
+gs3koao            ^openssl@1.1.1b%gcc
+
+mv  /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/darwin-arm-batch.out   /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/batch-out/darwin-arm-pmix-2019-04-18-batch.out
+cd /scratch/users/dantopa/repos/gitlab/pull-requests/libraries
+git add -A .
+git commit -m "${USER} ${tpl} ${hpc} ${partition} ${ymd}"
+[master 252299f] dantopa pmix darwin arm 2019-04-18
+ 8 files changed, 200 insertions(+), 326 deletions(-)
+ rewrite libraries/results/tpl-order/pmix-darwin-arm-ldf.out (76%)
+ delete mode 100644 libraries/tools/bash/darwin-arm-batch.out
+Thu Apr 18 20:02:52 MDT 2019

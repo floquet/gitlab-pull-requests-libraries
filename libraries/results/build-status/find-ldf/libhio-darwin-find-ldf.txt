@@ -1,0 +1,587 @@
+Thu Apr 25 09:39:08 MDT 2019 libraries/tools/bash/interrogater.sh
+/scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results
+
+
+partition: general
+bin/spack find -ldf libhio
+==> 36 installed packages
+-- linux-centos7-x86_64 / gcc@4.8.5 -----------------------------
+mheol77    libhio@1.4.1.2%gcc 
+fxe4hfn        ^bzip2@1.0.6%gcc 
+gsf4a7i        ^hdf5@1.8.17%gcc 
+tt2hkol            ^numactl@2.0.12%gcc 
+pdfogzx            ^openmpi@3.1.3%gcc 
+bkkhvej                ^hwloc@1.11.11%gcc 
+5chyfxo                    ^libpciaccess@0.13.5%gcc 
+bcnjbc3                    ^libxml2@2.9.8%gcc 
+64vg6e4                ^zlib@1.2.11%gcc 
+iaq3vl7        ^json-c@0.13.1%gcc 
+
+zh4svok    libhio@1.4.1.2%gcc 
+fxe4hfn        ^bzip2@1.0.6%gcc 
+hiuxuhw        ^hdf5@1.8.17%gcc 
+tt2hkol            ^numactl@2.0.12%gcc 
+oi4nsrq            ^openmpi@3.1.0%gcc 
+bkkhvej                ^hwloc@1.11.11%gcc 
+5chyfxo                    ^libpciaccess@0.13.5%gcc 
+bcnjbc3                    ^libxml2@2.9.8%gcc 
+64vg6e4                ^zlib@1.2.11%gcc 
+iaq3vl7        ^json-c@0.13.1%gcc 
+
+qqrdnyc    libhio@1.4.1.2%gcc 
+fxe4hfn        ^bzip2@1.0.6%gcc 
+ywlvdkx        ^hdf5@1.8.17%gcc 
+tt2hkol            ^numactl@2.0.12%gcc 
+bjftvhy            ^openmpi@3.1.4%gcc 
+bkkhvej                ^hwloc@1.11.11%gcc 
+5chyfxo                    ^libpciaccess@0.13.5%gcc 
+bcnjbc3                    ^libxml2@2.9.8%gcc 
+64vg6e4                ^zlib@1.2.11%gcc 
+iaq3vl7        ^json-c@0.13.1%gcc 
+
+6vifjxa    libhio@1.4.1.3%gcc 
+fxe4hfn        ^bzip2@1.0.6%gcc 
+gsf4a7i        ^hdf5@1.8.17%gcc 
+tt2hkol            ^numactl@2.0.12%gcc 
+pdfogzx            ^openmpi@3.1.3%gcc 
+bkkhvej                ^hwloc@1.11.11%gcc 
+5chyfxo                    ^libpciaccess@0.13.5%gcc 
+bcnjbc3                    ^libxml2@2.9.8%gcc 
+64vg6e4                ^zlib@1.2.11%gcc 
+iaq3vl7        ^json-c@0.13.1%gcc 
+
+grjmo2d    libhio@1.4.1.3%gcc 
+fxe4hfn        ^bzip2@1.0.6%gcc 
+hiuxuhw        ^hdf5@1.8.17%gcc 
+tt2hkol            ^numactl@2.0.12%gcc 
+oi4nsrq            ^openmpi@3.1.0%gcc 
+bkkhvej                ^hwloc@1.11.11%gcc 
+5chyfxo                    ^libpciaccess@0.13.5%gcc 
+bcnjbc3                    ^libxml2@2.9.8%gcc 
+64vg6e4                ^zlib@1.2.11%gcc 
+iaq3vl7        ^json-c@0.13.1%gcc 
+
+bdhefin    libhio@1.4.1.3%gcc 
+fxe4hfn        ^bzip2@1.0.6%gcc 
+ywlvdkx        ^hdf5@1.8.17%gcc 
+tt2hkol            ^numactl@2.0.12%gcc 
+bjftvhy            ^openmpi@3.1.4%gcc 
+bkkhvej                ^hwloc@1.11.11%gcc 
+5chyfxo                    ^libpciaccess@0.13.5%gcc 
+bcnjbc3                    ^libxml2@2.9.8%gcc 
+64vg6e4                ^zlib@1.2.11%gcc 
+iaq3vl7        ^json-c@0.13.1%gcc 
+
+
+-- linux-centos7-x86_64 / gcc@4.9.3 -----------------------------
+6cefred    libhio@1.4.1.2%gcc 
+lz5gufp        ^bzip2@1.0.6%gcc 
+qyzw5x4        ^hdf5@1.8.17%gcc 
+gyit553            ^numactl@2.0.12%gcc 
+glupwb5            ^openmpi@3.1.3%gcc 
+xvnhmjp                ^hwloc@1.11.11%gcc 
+nqafs22                    ^libpciaccess@0.13.5%gcc 
+xr6jvqb                    ^libxml2@2.9.8%gcc 
+wabmm7g                ^zlib@1.2.11%gcc 
+hcuwj67        ^json-c@0.13.1%gcc 
+
+xkxqhxl    libhio@1.4.1.2%gcc 
+lz5gufp        ^bzip2@1.0.6%gcc 
+lhezfni        ^hdf5@1.8.17%gcc 
+gyit553            ^numactl@2.0.12%gcc 
+3vyf7ew            ^openmpi@3.1.4%gcc 
+xvnhmjp                ^hwloc@1.11.11%gcc 
+nqafs22                    ^libpciaccess@0.13.5%gcc 
+xr6jvqb                    ^libxml2@2.9.8%gcc 
+wabmm7g                ^zlib@1.2.11%gcc 
+hcuwj67        ^json-c@0.13.1%gcc 
+
+2tpau46    libhio@1.4.1.3%gcc 
+lz5gufp        ^bzip2@1.0.6%gcc 
+qyzw5x4        ^hdf5@1.8.17%gcc 
+gyit553            ^numactl@2.0.12%gcc 
+glupwb5            ^openmpi@3.1.3%gcc 
+xvnhmjp                ^hwloc@1.11.11%gcc 
+nqafs22                    ^libpciaccess@0.13.5%gcc 
+xr6jvqb                    ^libxml2@2.9.8%gcc 
+wabmm7g                ^zlib@1.2.11%gcc 
+hcuwj67        ^json-c@0.13.1%gcc 
+
+fvmvnrx    libhio@1.4.1.3%gcc 
+lz5gufp        ^bzip2@1.0.6%gcc 
+lhezfni        ^hdf5@1.8.17%gcc 
+gyit553            ^numactl@2.0.12%gcc 
+3vyf7ew            ^openmpi@3.1.4%gcc 
+xvnhmjp                ^hwloc@1.11.11%gcc 
+nqafs22                    ^libpciaccess@0.13.5%gcc 
+xr6jvqb                    ^libxml2@2.9.8%gcc 
+wabmm7g                ^zlib@1.2.11%gcc 
+hcuwj67        ^json-c@0.13.1%gcc 
+
+
+-- linux-centos7-x86_64 / gcc@5.5.0 -----------------------------
+a3yucze    libhio@1.4.1.2%gcc 
+zlbwevm        ^bzip2@1.0.6%gcc 
+ef6d2gz        ^hdf5@1.8.17%gcc 
+ccmgitq            ^numactl@2.0.12%gcc 
+7wgwlvk            ^openmpi@3.1.3%gcc 
+2bjodks                ^hwloc@1.11.11%gcc 
+ygiicn2                    ^libpciaccess@0.13.5%gcc 
+dyuna3l                    ^libxml2@2.9.8%gcc 
+ijtgxbh                ^zlib@1.2.11%gcc 
+ghpun6v        ^json-c@0.13.1%gcc 
+
+nhxzyor    libhio@1.4.1.2%gcc 
+zlbwevm        ^bzip2@1.0.6%gcc 
+3qojmyz        ^hdf5@1.8.17%gcc 
+ccmgitq            ^numactl@2.0.12%gcc 
+t4s6t7w            ^openmpi@3.1.4%gcc 
+2bjodks                ^hwloc@1.11.11%gcc 
+ygiicn2                    ^libpciaccess@0.13.5%gcc 
+dyuna3l                    ^libxml2@2.9.8%gcc 
+ijtgxbh                ^zlib@1.2.11%gcc 
+ghpun6v        ^json-c@0.13.1%gcc 
+
+4fmemyq    libhio@1.4.1.3%gcc 
+zlbwevm        ^bzip2@1.0.6%gcc 
+ef6d2gz        ^hdf5@1.8.17%gcc 
+ccmgitq            ^numactl@2.0.12%gcc 
+7wgwlvk            ^openmpi@3.1.3%gcc 
+2bjodks                ^hwloc@1.11.11%gcc 
+ygiicn2                    ^libpciaccess@0.13.5%gcc 
+dyuna3l                    ^libxml2@2.9.8%gcc 
+ijtgxbh                ^zlib@1.2.11%gcc 
+ghpun6v        ^json-c@0.13.1%gcc 
+
+3qecppp    libhio@1.4.1.3%gcc 
+zlbwevm        ^bzip2@1.0.6%gcc 
+3qojmyz        ^hdf5@1.8.17%gcc 
+ccmgitq            ^numactl@2.0.12%gcc 
+t4s6t7w            ^openmpi@3.1.4%gcc 
+2bjodks                ^hwloc@1.11.11%gcc 
+ygiicn2                    ^libpciaccess@0.13.5%gcc 
+dyuna3l                    ^libxml2@2.9.8%gcc 
+ijtgxbh                ^zlib@1.2.11%gcc 
+ghpun6v        ^json-c@0.13.1%gcc 
+
+
+-- linux-centos7-x86_64 / gcc@6.4.0 -----------------------------
+3jlxpzh    libhio@1.4.1.2%gcc 
+asyca7z        ^bzip2@1.0.6%gcc 
+zsbw4kd        ^hdf5@1.8.17%gcc 
+2zmeci4            ^numactl@2.0.12%gcc 
+hpwyprd            ^openmpi@3.1.3%gcc 
+ydbwr4w                ^hwloc@1.11.11%gcc 
+j6fsyhp                    ^libpciaccess@0.13.5%gcc 
+ltoyknu                    ^libxml2@2.9.8%gcc 
+ufwqfd4                ^zlib@1.2.11%gcc 
+kilrzph        ^json-c@0.13.1%gcc 
+
+wrwmqrp    libhio@1.4.1.2%gcc 
+asyca7z        ^bzip2@1.0.6%gcc 
+ljxpksn        ^hdf5@1.8.17%gcc 
+2zmeci4            ^numactl@2.0.12%gcc 
+23cc447            ^openmpi@3.1.4%gcc 
+ydbwr4w                ^hwloc@1.11.11%gcc 
+j6fsyhp                    ^libpciaccess@0.13.5%gcc 
+ltoyknu                    ^libxml2@2.9.8%gcc 
+ufwqfd4                ^zlib@1.2.11%gcc 
+kilrzph        ^json-c@0.13.1%gcc 
+
+4hbuozy    libhio@1.4.1.3%gcc 
+asyca7z        ^bzip2@1.0.6%gcc 
+zsbw4kd        ^hdf5@1.8.17%gcc 
+2zmeci4            ^numactl@2.0.12%gcc 
+hpwyprd            ^openmpi@3.1.3%gcc 
+ydbwr4w                ^hwloc@1.11.11%gcc 
+j6fsyhp                    ^libpciaccess@0.13.5%gcc 
+ltoyknu                    ^libxml2@2.9.8%gcc 
+ufwqfd4                ^zlib@1.2.11%gcc 
+kilrzph        ^json-c@0.13.1%gcc 
+
+rx7wgkn    libhio@1.4.1.3%gcc 
+asyca7z        ^bzip2@1.0.6%gcc 
+ljxpksn        ^hdf5@1.8.17%gcc 
+2zmeci4            ^numactl@2.0.12%gcc 
+23cc447            ^openmpi@3.1.4%gcc 
+ydbwr4w                ^hwloc@1.11.11%gcc 
+j6fsyhp                    ^libpciaccess@0.13.5%gcc 
+ltoyknu                    ^libxml2@2.9.8%gcc 
+ufwqfd4                ^zlib@1.2.11%gcc 
+kilrzph        ^json-c@0.13.1%gcc 
+
+
+-- linux-centos7-x86_64 / gcc@7.3.0 -----------------------------
+vtomis3    libhio@1.4.1.2%gcc 
+omvt7fb        ^bzip2@1.0.6%gcc 
+m3s6dal        ^hdf5@1.8.17%gcc 
+le6jhga            ^numactl@2.0.12%gcc 
+rd4bhjh            ^openmpi@3.1.3%gcc 
+vrpknac                ^hwloc@1.11.11%gcc 
+f5k35g4                    ^libpciaccess@0.13.5%gcc 
+m46g2kt                    ^libxml2@2.9.8%gcc 
+zknfwan                ^zlib@1.2.11%gcc 
+e6taii6        ^json-c@0.13.1%gcc 
+
+fj7kumi    libhio@1.4.1.2%gcc 
+omvt7fb        ^bzip2@1.0.6%gcc 
+e7tcrtk        ^hdf5@1.8.17%gcc 
+le6jhga            ^numactl@2.0.12%gcc 
+zjghxab            ^openmpi@3.1.4%gcc 
+vrpknac                ^hwloc@1.11.11%gcc 
+f5k35g4                    ^libpciaccess@0.13.5%gcc 
+m46g2kt                    ^libxml2@2.9.8%gcc 
+zknfwan                ^zlib@1.2.11%gcc 
+e6taii6        ^json-c@0.13.1%gcc 
+
+pvs43vp    libhio@1.4.1.3%gcc 
+omvt7fb        ^bzip2@1.0.6%gcc 
+m3s6dal        ^hdf5@1.8.17%gcc 
+le6jhga            ^numactl@2.0.12%gcc 
+rd4bhjh            ^openmpi@3.1.3%gcc 
+vrpknac                ^hwloc@1.11.11%gcc 
+f5k35g4                    ^libpciaccess@0.13.5%gcc 
+m46g2kt                    ^libxml2@2.9.8%gcc 
+zknfwan                ^zlib@1.2.11%gcc 
+e6taii6        ^json-c@0.13.1%gcc 
+
+tnmj2cz    libhio@1.4.1.3%gcc 
+omvt7fb        ^bzip2@1.0.6%gcc 
+e7tcrtk        ^hdf5@1.8.17%gcc 
+le6jhga            ^numactl@2.0.12%gcc 
+zjghxab            ^openmpi@3.1.4%gcc 
+vrpknac                ^hwloc@1.11.11%gcc 
+f5k35g4                    ^libpciaccess@0.13.5%gcc 
+m46g2kt                    ^libxml2@2.9.8%gcc 
+zknfwan                ^zlib@1.2.11%gcc 
+e6taii6        ^json-c@0.13.1%gcc 
+
+
+-- linux-centos7-x86_64 / gcc@8.2.0 -----------------------------
+b6ksnh6    libhio@1.4.1.2%gcc 
+3zeieuq        ^bzip2@1.0.6%gcc 
+d6snfho        ^hdf5@1.8.17%gcc 
+qwo625d            ^numactl@2.0.12%gcc 
+4jrf7jm            ^openmpi@3.1.3%gcc 
+kpmr675                ^hwloc@1.11.11%gcc 
+svkyphb                    ^libpciaccess@0.13.5%gcc 
+uvcs5lc                    ^libxml2@2.9.8%gcc 
+6wdekzy                ^zlib@1.2.11%gcc 
+bzwno6p        ^json-c@0.13.1%gcc 
+
+x2unywn    libhio@1.4.1.2%gcc 
+3zeieuq        ^bzip2@1.0.6%gcc 
+ryhkc7v        ^hdf5@1.8.17%gcc 
+qwo625d            ^numactl@2.0.12%gcc 
+6hdcscr            ^openmpi@3.1.4%gcc 
+kpmr675                ^hwloc@1.11.11%gcc 
+svkyphb                    ^libpciaccess@0.13.5%gcc 
+uvcs5lc                    ^libxml2@2.9.8%gcc 
+6wdekzy                ^zlib@1.2.11%gcc 
+bzwno6p        ^json-c@0.13.1%gcc 
+
+
+-- linux-centos7-x86_64 / intel@16.0.4 --------------------------
+msfxn7y    libhio@1.4.1.2%intel 
+hpa6wqs        ^bzip2@1.0.6%intel 
+nbzzb34        ^hdf5@1.8.17%intel 
+n2exbxj            ^numactl@2.0.12%intel 
+v4gbqrp            ^openmpi@3.1.3%intel 
+i32wppi                ^hwloc@1.11.11%intel 
+jtzzof2                    ^libpciaccess@0.13.5%intel 
+iikjujn                    ^libxml2@2.9.8%intel 
+khv5wg2                ^zlib@1.2.11%intel 
+t7vgewc        ^json-c@0.13.1%intel 
+
+7vdmgly    libhio@1.4.1.2%intel 
+hpa6wqs        ^bzip2@1.0.6%intel 
+fktdkps        ^hdf5@1.8.17%intel 
+n2exbxj            ^numactl@2.0.12%intel 
+7sww7u2            ^openmpi@3.1.4%intel 
+i32wppi                ^hwloc@1.11.11%intel 
+jtzzof2                    ^libpciaccess@0.13.5%intel 
+iikjujn                    ^libxml2@2.9.8%intel 
+khv5wg2                ^zlib@1.2.11%intel 
+t7vgewc        ^json-c@0.13.1%intel 
+
+3bhnnbe    libhio@1.4.1.3%intel 
+hpa6wqs        ^bzip2@1.0.6%intel 
+nbzzb34        ^hdf5@1.8.17%intel 
+n2exbxj            ^numactl@2.0.12%intel 
+v4gbqrp            ^openmpi@3.1.3%intel 
+i32wppi                ^hwloc@1.11.11%intel 
+jtzzof2                    ^libpciaccess@0.13.5%intel 
+iikjujn                    ^libxml2@2.9.8%intel 
+khv5wg2                ^zlib@1.2.11%intel 
+t7vgewc        ^json-c@0.13.1%intel 
+
+ojbnrdr    libhio@1.4.1.3%intel 
+hpa6wqs        ^bzip2@1.0.6%intel 
+fktdkps        ^hdf5@1.8.17%intel 
+n2exbxj            ^numactl@2.0.12%intel 
+7sww7u2            ^openmpi@3.1.4%intel 
+i32wppi                ^hwloc@1.11.11%intel 
+jtzzof2                    ^libpciaccess@0.13.5%intel 
+iikjujn                    ^libxml2@2.9.8%intel 
+khv5wg2                ^zlib@1.2.11%intel 
+t7vgewc        ^json-c@0.13.1%intel 
+
+
+-- linux-centos7-x86_64 / intel@17.0.6 --------------------------
+gmf4x6i    libhio@1.4.1.2%intel 
+vkrckk5        ^bzip2@1.0.6%intel 
+3ktfkxl        ^hdf5@1.8.17%intel 
+24xglv7            ^numactl@2.0.12%intel 
+kavl5tr            ^openmpi@3.1.4%intel 
+itb72kn                ^hwloc@1.11.11%intel 
+5ywhccx                    ^libpciaccess@0.13.5%intel 
+rxyquml                    ^libxml2@2.9.8%intel 
+zlp4ddi                ^zlib@1.2.11%intel 
+gbzdeoj        ^json-c@0.13.1%intel 
+
+wd2zgmq    libhio@1.4.1.2%intel 
+vkrckk5        ^bzip2@1.0.6%intel 
+rz7mlnr        ^hdf5@1.8.17%intel 
+24xglv7            ^numactl@2.0.12%intel 
+zrps6ub            ^openmpi@3.1.3%intel 
+itb72kn                ^hwloc@1.11.11%intel 
+5ywhccx                    ^libpciaccess@0.13.5%intel 
+rxyquml                    ^libxml2@2.9.8%intel 
+zlp4ddi                ^zlib@1.2.11%intel 
+gbzdeoj        ^json-c@0.13.1%intel 
+
+hk2h5um    libhio@1.4.1.3%intel 
+vkrckk5        ^bzip2@1.0.6%intel 
+3ktfkxl        ^hdf5@1.8.17%intel 
+24xglv7            ^numactl@2.0.12%intel 
+kavl5tr            ^openmpi@3.1.4%intel 
+itb72kn                ^hwloc@1.11.11%intel 
+5ywhccx                    ^libpciaccess@0.13.5%intel 
+rxyquml                    ^libxml2@2.9.8%intel 
+zlp4ddi                ^zlib@1.2.11%intel 
+gbzdeoj        ^json-c@0.13.1%intel 
+
+hinbeiz    libhio@1.4.1.3%intel 
+vkrckk5        ^bzip2@1.0.6%intel 
+rz7mlnr        ^hdf5@1.8.17%intel 
+24xglv7            ^numactl@2.0.12%intel 
+zrps6ub            ^openmpi@3.1.3%intel 
+itb72kn                ^hwloc@1.11.11%intel 
+5ywhccx                    ^libpciaccess@0.13.5%intel 
+rxyquml                    ^libxml2@2.9.8%intel 
+zlp4ddi                ^zlib@1.2.11%intel 
+gbzdeoj        ^json-c@0.13.1%intel 
+
+
+-- linux-centos7-x86_64 / intel@18.0.3 --------------------------
+ec3mgwn    libhio@1.4.1.2%intel 
+i3g4ssk        ^bzip2@1.0.6%intel 
+3eesgjy        ^hdf5@1.8.17%intel 
+caxqrj3            ^numactl@2.0.12%intel 
+htiaqn4            ^openmpi@3.1.3%intel 
+537d5od                ^hwloc@1.11.11%intel 
+zrun5pc                    ^libpciaccess@0.13.5%intel 
+x6jborh                    ^libxml2@2.9.8%intel 
+vonxam4                ^zlib@1.2.11%intel 
+i6p2xqh        ^json-c@0.13.1%intel 
+
+pkeho7v    libhio@1.4.1.2%intel 
+i3g4ssk        ^bzip2@1.0.6%intel 
+anqwcqt        ^hdf5@1.8.17%intel 
+caxqrj3            ^numactl@2.0.12%intel 
+tzivn7y            ^openmpi@3.1.4%intel 
+537d5od                ^hwloc@1.11.11%intel 
+zrun5pc                    ^libpciaccess@0.13.5%intel 
+x6jborh                    ^libxml2@2.9.8%intel 
+vonxam4                ^zlib@1.2.11%intel 
+i6p2xqh        ^json-c@0.13.1%intel 
+
+ug3pja4    libhio@1.4.1.3%intel 
+i3g4ssk        ^bzip2@1.0.6%intel 
+3eesgjy        ^hdf5@1.8.17%intel 
+caxqrj3            ^numactl@2.0.12%intel 
+htiaqn4            ^openmpi@3.1.3%intel 
+537d5od                ^hwloc@1.11.11%intel 
+zrun5pc                    ^libpciaccess@0.13.5%intel 
+x6jborh                    ^libxml2@2.9.8%intel 
+vonxam4                ^zlib@1.2.11%intel 
+i6p2xqh        ^json-c@0.13.1%intel 
+
+uzf66au    libhio@1.4.1.3%intel 
+i3g4ssk        ^bzip2@1.0.6%intel 
+anqwcqt        ^hdf5@1.8.17%intel 
+caxqrj3            ^numactl@2.0.12%intel 
+tzivn7y            ^openmpi@3.1.4%intel 
+537d5od                ^hwloc@1.11.11%intel 
+zrun5pc                    ^libpciaccess@0.13.5%intel 
+x6jborh                    ^libxml2@2.9.8%intel 
+vonxam4                ^zlib@1.2.11%intel 
+i6p2xqh        ^json-c@0.13.1%intel 
+
+
+partition: arm
+bin/spack find -ldf libhio
+==> 14 installed packages
+-- linux-rhel7-aarch64 / gcc@4.8.5 ------------------------------
+k32ecfr    libhio@1.4.1.2%gcc 
+c4sj2bh        ^bzip2@1.0.6%gcc 
+vjqio2l        ^hdf5@1.8.17%gcc 
+m5neuus            ^numactl@2.0.12%gcc 
+ux5evxy            ^openmpi@3.1.0%gcc 
+7gqvelc                ^hwloc@1.11.11%gcc 
+6a4he35                    ^libpciaccess@0.13.5%gcc 
+6a5uzd6                    ^libxml2@2.9.8%gcc 
+67s2oqn                ^zlib@1.2.11%gcc 
+lvuysqs        ^json-c@0.13.1%gcc 
+
+5eanmg7    libhio@1.4.1.2%gcc 
+c4sj2bh        ^bzip2@1.0.6%gcc 
+ax5kqrt        ^hdf5@1.8.17%gcc 
+m5neuus            ^numactl@2.0.12%gcc 
+pvq3s35            ^openmpi@3.1.4%gcc 
+7gqvelc                ^hwloc@1.11.11%gcc 
+6a4he35                    ^libpciaccess@0.13.5%gcc 
+6a5uzd6                    ^libxml2@2.9.8%gcc 
+67s2oqn                ^zlib@1.2.11%gcc 
+lvuysqs        ^json-c@0.13.1%gcc 
+
+dsq4lkp    libhio@1.4.1.2%gcc 
+c4sj2bh        ^bzip2@1.0.6%gcc 
+tf65gt7        ^hdf5@1.8.17%gcc 
+m5neuus            ^numactl@2.0.12%gcc 
+ps67vox            ^openmpi@3.1.3%gcc 
+7gqvelc                ^hwloc@1.11.11%gcc 
+6a4he35                    ^libpciaccess@0.13.5%gcc 
+6a5uzd6                    ^libxml2@2.9.8%gcc 
+67s2oqn                ^zlib@1.2.11%gcc 
+lvuysqs        ^json-c@0.13.1%gcc 
+
+jnmbafo    libhio@1.4.1.3%gcc 
+c4sj2bh        ^bzip2@1.0.6%gcc 
+vjqio2l        ^hdf5@1.8.17%gcc 
+m5neuus            ^numactl@2.0.12%gcc 
+ux5evxy            ^openmpi@3.1.0%gcc 
+7gqvelc                ^hwloc@1.11.11%gcc 
+6a4he35                    ^libpciaccess@0.13.5%gcc 
+6a5uzd6                    ^libxml2@2.9.8%gcc 
+67s2oqn                ^zlib@1.2.11%gcc 
+lvuysqs        ^json-c@0.13.1%gcc 
+
+dgmlhfk    libhio@1.4.1.3%gcc 
+c4sj2bh        ^bzip2@1.0.6%gcc 
+ax5kqrt        ^hdf5@1.8.17%gcc 
+m5neuus            ^numactl@2.0.12%gcc 
+pvq3s35            ^openmpi@3.1.4%gcc 
+7gqvelc                ^hwloc@1.11.11%gcc 
+6a4he35                    ^libpciaccess@0.13.5%gcc 
+6a5uzd6                    ^libxml2@2.9.8%gcc 
+67s2oqn                ^zlib@1.2.11%gcc 
+lvuysqs        ^json-c@0.13.1%gcc 
+
+7j5whgv    libhio@1.4.1.3%gcc 
+c4sj2bh        ^bzip2@1.0.6%gcc 
+tf65gt7        ^hdf5@1.8.17%gcc 
+m5neuus            ^numactl@2.0.12%gcc 
+ps67vox            ^openmpi@3.1.3%gcc 
+7gqvelc                ^hwloc@1.11.11%gcc 
+6a4he35                    ^libpciaccess@0.13.5%gcc 
+6a5uzd6                    ^libxml2@2.9.8%gcc 
+67s2oqn                ^zlib@1.2.11%gcc 
+lvuysqs        ^json-c@0.13.1%gcc 
+
+
+-- linux-rhel7-aarch64 / gcc@7.1.0 ------------------------------
+qx6qn3a    libhio@1.4.1.2%gcc 
+iyahr3n        ^bzip2@1.0.6%gcc 
+j7by2yf        ^hdf5@1.8.17%gcc 
+eukhjxm            ^numactl@2.0.12%gcc 
+jnzsss4            ^openmpi@3.1.4%gcc 
+izn5gbo                ^hwloc@1.11.11%gcc 
+gmwtdrw                    ^libpciaccess@0.13.5%gcc 
+7sufcg5                    ^libxml2@2.9.8%gcc 
+zsiftcm                ^zlib@1.2.11%gcc 
+wzla5wt        ^json-c@0.13.1%gcc 
+
+nq727na    libhio@1.4.1.2%gcc 
+iyahr3n        ^bzip2@1.0.6%gcc 
+mzefk5y        ^hdf5@1.8.17%gcc 
+eukhjxm            ^numactl@2.0.12%gcc 
+vgxuikc            ^openmpi@3.1.3%gcc 
+izn5gbo                ^hwloc@1.11.11%gcc 
+gmwtdrw                    ^libpciaccess@0.13.5%gcc 
+7sufcg5                    ^libxml2@2.9.8%gcc 
+zsiftcm                ^zlib@1.2.11%gcc 
+wzla5wt        ^json-c@0.13.1%gcc 
+
+hg3jhig    libhio@1.4.1.3%gcc 
+iyahr3n        ^bzip2@1.0.6%gcc 
+j7by2yf        ^hdf5@1.8.17%gcc 
+eukhjxm            ^numactl@2.0.12%gcc 
+jnzsss4            ^openmpi@3.1.4%gcc 
+izn5gbo                ^hwloc@1.11.11%gcc 
+gmwtdrw                    ^libpciaccess@0.13.5%gcc 
+7sufcg5                    ^libxml2@2.9.8%gcc 
+zsiftcm                ^zlib@1.2.11%gcc 
+wzla5wt        ^json-c@0.13.1%gcc 
+
+by435ta    libhio@1.4.1.3%gcc 
+iyahr3n        ^bzip2@1.0.6%gcc 
+mzefk5y        ^hdf5@1.8.17%gcc 
+eukhjxm            ^numactl@2.0.12%gcc 
+vgxuikc            ^openmpi@3.1.3%gcc 
+izn5gbo                ^hwloc@1.11.11%gcc 
+gmwtdrw                    ^libpciaccess@0.13.5%gcc 
+7sufcg5                    ^libxml2@2.9.8%gcc 
+zsiftcm                ^zlib@1.2.11%gcc 
+wzla5wt        ^json-c@0.13.1%gcc 
+
+
+-- linux-rhel7-aarch64 / gcc@8.2.0 ------------------------------
+x26xxn3    libhio@1.4.1.2%gcc 
+zkpetrn        ^bzip2@1.0.6%gcc 
+ctoi7g2        ^hdf5@1.8.17%gcc 
+opoop4g            ^numactl@2.0.12%gcc 
+e5deleg            ^openmpi@3.1.4%gcc 
+3pau2kk                ^hwloc@1.11.11%gcc 
+vfd6u24                    ^libpciaccess@0.13.5%gcc 
+fo65cwc                    ^libxml2@2.9.8%gcc 
+x5quqjk                ^zlib@1.2.11%gcc 
+bn5b4bb        ^json-c@0.13.1%gcc 
+
+btmddcl    libhio@1.4.1.2%gcc 
+zkpetrn        ^bzip2@1.0.6%gcc 
+mfo5dbu        ^hdf5@1.8.17%gcc 
+opoop4g            ^numactl@2.0.12%gcc 
+oiq7f6o            ^openmpi@3.1.3%gcc 
+3pau2kk                ^hwloc@1.11.11%gcc 
+vfd6u24                    ^libpciaccess@0.13.5%gcc 
+fo65cwc                    ^libxml2@2.9.8%gcc 
+x5quqjk                ^zlib@1.2.11%gcc 
+bn5b4bb        ^json-c@0.13.1%gcc 
+
+f3lmdy5    libhio@1.4.1.3%gcc 
+zkpetrn        ^bzip2@1.0.6%gcc 
+ctoi7g2        ^hdf5@1.8.17%gcc 
+opoop4g            ^numactl@2.0.12%gcc 
+e5deleg            ^openmpi@3.1.4%gcc 
+3pau2kk                ^hwloc@1.11.11%gcc 
+vfd6u24                    ^libpciaccess@0.13.5%gcc 
+fo65cwc                    ^libxml2@2.9.8%gcc 
+x5quqjk                ^zlib@1.2.11%gcc 
+bn5b4bb        ^json-c@0.13.1%gcc 
+
+ercmnwk    libhio@1.4.1.3%gcc 
+zkpetrn        ^bzip2@1.0.6%gcc 
+mfo5dbu        ^hdf5@1.8.17%gcc 
+opoop4g            ^numactl@2.0.12%gcc 
+oiq7f6o            ^openmpi@3.1.3%gcc 
+3pau2kk                ^hwloc@1.11.11%gcc 
+vfd6u24                    ^libpciaccess@0.13.5%gcc 
+fo65cwc                    ^libxml2@2.9.8%gcc 
+x5quqjk                ^zlib@1.2.11%gcc 
+bn5b4bb        ^json-c@0.13.1%gcc 
+
+
+partition: power9
+bin/spack find -ldf libhio
+==> No package matches the query: libhio

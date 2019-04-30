@@ -1,0 +1,421 @@
+Mon Apr 29 10:07:54 MDT 2019 /var/spool/slurm/job321885/slurm_script
+source "${dir_tools}/bash/master-tpl-sweep.sh"
+Mon Apr 29 10:07:54 MDT 2019 /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh
+cd /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools
+source directories/libraries-capulin.sh
+Mon Apr 29 10:07:54 MDT 2019 [1mdirectories/libraries-capulin.sh(B[m
+source tpl-versions/versions-openmpi.sh
+Mon Apr 29 10:07:54 MDT 2019 [1mtpl-versions/versions-openmpi.sh(B[m
+4 openmpi versions loaded:
+4.0.1  3.1.4  3.0.4  2.1.6
+
+source compilers/compilers-capulin-arm.sh
+Mon Apr 29 10:07:54 MDT 2019 [1mcompilers/compilers-capulin-arm.sh(B[m
+3 Spack-recognized compilers loaded:
+gcc@8.2.0  gcc@7.3.0  gcc@6.1.0
+
+source klingons/capulin-arm-openmpi.sh
+/lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 36: klingons/capulin-arm-openmpi.sh: No such file or directory
+cd /lustre/cpscratch1/dantopa/repos/spack/libraries/capulin-arm.openmpi
+. share/spack/setup-env.sh
+export spack_architecture='arch=cray-cnl6-arm_thunderx2'
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+spack compilers
+==> Available compilers
+-- cce cnl6-any -------------------------------------------------
+cce@8.7.10
+cce@8.7.9
+
+-- gcc cnl6-any -------------------------------------------------
+gcc@8.3.0
+gcc@7.4.0
+gcc@7.3.0
+gcc@6.1.0
+ls -alh etc/spack/defaults
+total 151K
+drwxr-x--- 4 dantopa dantopa  13K Apr 26 12:18 .
+drwxr-x--- 3 dantopa dantopa  12K Apr 25 16:51 ..
+-rw-r----- 1 dantopa dantopa 1.8K Apr 26 12:18 compilers.yaml
+-rw-r----- 1 dantopa dantopa 4.4K Apr 25 16:51 config.yaml
+drwxr-x--- 2 dantopa dantopa  12K Apr 25 16:51 darwin
+drwxr-x--- 2 dantopa dantopa  12K Apr 25 16:51 linux
+-rw-r----- 1 dantopa dantopa  216 Apr 25 20:41 mirrors.yaml
+-rw-r----- 1 dantopa dantopa 3.7K Apr 25 20:41 modules.yaml
+-rw-r----- 1 dantopa dantopa 3.1K Apr 25 20:41 packages.yaml
+-rw-r----- 1 dantopa dantopa  530 Apr 25 16:51 release.yaml
+-rw-r----- 1 dantopa dantopa  546 Apr 25 16:51 repos.yaml
+-rw-r----- 1 dantopa dantopa 3.7K Apr 25 20:41 tcl-modules.yaml
+cat etc/spack/defaults/compilers.yaml
+compilers:
+# # cray  8.7.10, 8.7.9
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - !!python/unicode
+      'cce/8.7.10'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: cce@8.7.10
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - !!python/unicode
+      'cce/8.7.9'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: cce@8.7.9
+    target: any
+# # gcc  8.3.0, 7.4.0, 7.3.0, 6.1.0
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/8.3.0'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: gcc@8.3.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    #operating_system: sles15
+    operating_system: cnl6
+    paths:
+      cc:  /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec: gcc@7.4.0
+    # target: aarch64
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/7.3.0'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: gcc@7.3.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/6.1.0'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: gcc@6.1.0
+    target: any
+
+spack config get compilers
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - !!python/unicode
+      'cce/8.7.10'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: cce@8.7.10
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - !!python/unicode
+      'cce/8.7.9'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: cce@8.7.9
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/8.3.0'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: gcc@8.3.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: cnl6
+    paths:
+      cc: /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc: /usr/bin/gfortran
+    spec: gcc@7.4.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/7.3.0'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: gcc@7.3.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/6.1.0'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: gcc@6.1.0
+    target: any
+spack install openmpi @ 4.0.1 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-openmpi-install.log
+==> Error: No compilers with spec gcc@8.2.0 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 4.0.1 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-openmpi-install.log
+spack install openmpi @ 4.0.1 % gcc@6.1.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-openmpi-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/var/spack/stage/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je/libpciaccess-0.13.5/configure' '--prefix=/pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/opt/spack/cray-cnl6-arm_thunderx2/gcc-6.1.0/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /pfs/cpscratch1/yellow/dantopa/repos/spack/libra
+           ries/capulin-arm.openmpi/lib/spack/env/gcc/gcc
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/tmp/dantopa/spack-stage/spack-stage-3UkOH_/li
+           bpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/var/spack/stage/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je/spack-build.out
+spack install openmpi @ 3.1.4 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-openmpi-install.log
+==> Error: No compilers with spec gcc@8.2.0 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 3.1.4 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-openmpi-install.log
+spack install openmpi @ 3.1.4 % gcc@6.1.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-openmpi-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/var/spack/stage/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je/libpciaccess-0.13.5/configure' '--prefix=/pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/opt/spack/cray-cnl6-arm_thunderx2/gcc-6.1.0/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /pfs/cpscratch1/yellow/dantopa/repos/spack/libra
+           ries/capulin-arm.openmpi/lib/spack/env/gcc/gcc
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/tmp/dantopa/spack-stage/spack-stage-QKL650/li
+           bpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/var/spack/stage/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je/spack-build.out
+spack install openmpi @ 3.0.4 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-openmpi-install.log
+==> Error: No compilers with spec gcc@8.2.0 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 3.0.4 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-openmpi-install.log
+spack install openmpi @ 3.0.4 % gcc@6.1.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-openmpi-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/var/spack/stage/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je/libpciaccess-0.13.5/configure' '--prefix=/pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/opt/spack/cray-cnl6-arm_thunderx2/gcc-6.1.0/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /pfs/cpscratch1/yellow/dantopa/repos/spack/libra
+           ries/capulin-arm.openmpi/lib/spack/env/gcc/gcc
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/tmp/dantopa/spack-stage/spack-stage-_JoMK6/li
+           bpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/var/spack/stage/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je/spack-build.out
+spack install openmpi @ 2.1.6 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-openmpi-install.log
+==> Error: No compilers with spec gcc@8.2.0 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 2.1.6 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-openmpi-install.log
+spack install openmpi @ 2.1.6 % gcc@6.1.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-openmpi-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/var/spack/stage/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je/libpciaccess-0.13.5/configure' '--prefix=/pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/opt/spack/cray-cnl6-arm_thunderx2/gcc-6.1.0/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /pfs/cpscratch1/yellow/dantopa/repos/spack/libra
+           ries/capulin-arm.openmpi/lib/spack/env/gcc/gcc
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/tmp/dantopa/spack-stage/spack-stage-4x4mo7/li
+           bpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/var/spack/stage/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je/spack-build.out
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+mkdir -p "${dir_results}/platform-order"
+mkdir -p "${dir_results}/tpl-order"
+mkdir -p "${dir_results}/graphs"
+spack find openmpi >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/platform-order/capulin-arm-openmpi.out
+spack find openmpi >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/openmpi-capulin-arm.out
+spack find -ldf openmpi  >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/openmpi-capulin-arm-ldf.out
+spack graph openmpi >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/graphs/openmpi-capulin-arm-graph.out
+spack compilers
+==> Available compilers
+-- cce cnl6-any -------------------------------------------------
+cce@8.7.10
+cce@8.7.9
+
+-- gcc cnl6-any -------------------------------------------------
+gcc@8.3.0
+gcc@7.4.0
+gcc@7.3.0
+gcc@6.1.0
+spack find openmpi
+==> 5 installed packages
+-- cray-cnl6-arm_thunderx2 / gcc@7.3.0 --------------------------
+openmpi@2.1.6
+openmpi@3.0.4
+openmpi@3.1.4
+openmpi@4.0.1
+
+-- cray-cnl6-arm_thunderx2 / gcc@8.2.0 --------------------------
+openmpi@4.0.1
+spack find -ldf openmpi
+==> 5 installed packages
+-- cray-cnl6-arm_thunderx2 / gcc@7.3.0 --------------------------
+bh3iolw    openmpi@2.1.6%gcc 
+escua5m        ^hwloc@1.11.11%gcc 
+x7gsesv            ^libpciaccess@0.13.5%gcc 
+4wvodxv            ^libxml2@2.9.8%gcc 
+7qperrt        ^numactl@2.0.12%gcc 
+
+c6arsu2    openmpi@3.0.4%gcc 
+escua5m        ^hwloc@1.11.11%gcc 
+x7gsesv            ^libpciaccess@0.13.5%gcc 
+4wvodxv            ^libxml2@2.9.8%gcc 
+7qperrt        ^numactl@2.0.12%gcc 
+23nzrkz        ^zlib@1.2.11%gcc 
+
+7ycszou    openmpi@3.1.4%gcc 
+escua5m        ^hwloc@1.11.11%gcc 
+x7gsesv            ^libpciaccess@0.13.5%gcc 
+4wvodxv            ^libxml2@2.9.8%gcc 
+7qperrt        ^numactl@2.0.12%gcc 
+23nzrkz        ^zlib@1.2.11%gcc 
+
+iq7s57q    openmpi@4.0.1%gcc 
+escua5m        ^hwloc@1.11.11%gcc 
+x7gsesv            ^libpciaccess@0.13.5%gcc 
+4wvodxv            ^libxml2@2.9.8%gcc 
+7qperrt        ^numactl@2.0.12%gcc 
+23nzrkz        ^zlib@1.2.11%gcc 
+
+
+-- cray-cnl6-arm_thunderx2 / gcc@8.2.0 --------------------------
+tserntc    openmpi@4.0.1%gcc 
+fyyzqam        ^hwloc@1.11.11%gcc 
+kjzalvs            ^libpciaccess@0.13.5%gcc 
+f6rwdah            ^libxml2@2.9.8%gcc 
+4sxssb5        ^numactl@2.0.12%gcc 
+qd2bcw6        ^zlib@1.2.11%gcc 
+
+mv  /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/capulin-arm-batch.out   /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/batch-out/capulin-arm-openmpi-2019-04-29-batch.out
+cd /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests
+git add -A .
+git commit -m "${USER} ${tpl} ${hpc} ${partition} ${ymd}"
+[master 8804bab] dantopa openmpi capulin arm 2019-04-29
+ 16 files changed, 644 insertions(+), 35 deletions(-)
+ create mode 100644 libraries/results/batch-out/capulin-arm-openmpi-2019-04-29-batch.out
+ create mode 100644 libraries/results/graphs/openmpi-capulin-arm-graph.out
+ create mode 100644 libraries/results/tpl-order/openmpi-capulin-arm-ldf.out
+ create mode 100644 libraries/results/tpl-order/openmpi-capulin-arm.out
+Mon Apr 29 11:09:37 MDT 2019

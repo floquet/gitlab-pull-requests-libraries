@@ -1,0 +1,12 @@
+Mon Apr 29 11:08:38 MDT 2019
+/lustre/cpscratch1/dantopa/repos/spack/libraries/capulin-arm.openmpi
+spack find openmpi >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/platform-order/capulin-arm-openmpi.out
+==> 5 installed packages
+-- cray-cnl6-arm_thunderx2 / gcc@7.3.0 --------------------------
+openmpi@2.1.6
+openmpi@3.0.4
+openmpi@3.1.4
+openmpi@4.0.1
+
+-- cray-cnl6-arm_thunderx2 / gcc@8.2.0 --------------------------
+openmpi@4.0.1

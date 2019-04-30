@@ -1,0 +1,22 @@
+Thu Apr 25 09:42:40 MDT 2019
+/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx
+spack graph ucx >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/graphs/ucx-trinitite-standard-graph.out
+o  ucx
+|\
+o |  rdma-core
+|\ \
+| |\ \
+o | | |  pkg-config
+ / / /
+| | o  numactl
+| | 
+o |  libnl
+|\ \
+| |\ \
+o | | |  m4
+ / / /
+o | |  flex
+ / /
+| o  cmake
+| 
+o  bison

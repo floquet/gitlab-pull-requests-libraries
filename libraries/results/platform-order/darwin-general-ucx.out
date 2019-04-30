@@ -1,0 +1,38 @@
+Wed Apr 24 16:24:17 MDT 2019
+/scratch/users/dantopa/new-spack/libraries/darwin-general.ucx
+spack find ucx >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/platform-order/darwin-general-ucx.out
+==> 23 installed packages
+-- linux-centos7-x86_64 / gcc@4.8.5 -----------------------------
+ucx@1.2.2
+ucx@1.3.1
+ucx@1.4.0
+ucx@1.5.0
+
+-- linux-centos7-x86_64 / gcc@4.9.3 -----------------------------
+ucx@1.2.2
+ucx@1.3.1
+ucx@1.4.0
+ucx@1.5.0
+
+-- linux-centos7-x86_64 / gcc@5.5.0 -----------------------------
+ucx@1.2.2
+ucx@1.3.1
+ucx@1.4.0
+ucx@1.5.0
+
+-- linux-centos7-x86_64 / gcc@6.4.0 -----------------------------
+ucx@1.2.2
+ucx@1.3.1
+ucx@1.4.0
+ucx@1.5.0
+
+-- linux-centos7-x86_64 / gcc@7.3.0 -----------------------------
+ucx@1.2.2
+ucx@1.3.1
+ucx@1.4.0
+ucx@1.5.0
+
+-- linux-centos7-x86_64 / gcc@8.2.0 -----------------------------
+ucx@1.3.1
+ucx@1.4.0
+ucx@1.5.0

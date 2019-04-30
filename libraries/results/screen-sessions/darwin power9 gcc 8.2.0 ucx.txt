@@ -1,0 +1,75 @@
+dantopa@cn2024:scripts $ spack install ucx@1.2.2 % gcc@8.2.0
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.1 : has external module in cmake/3.12.4
+==> cmake@3.14.1 : is actually installed in /projects/opt/ppc64le/cmake/3.12.4
+==> cmake@3.14.1 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> libnl is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-8.2.0/libnl-3.3.0-ueuxawfmstn33vgknlynhafcrzsip4ov
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> rdma-core is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-8.2.0/rdma-core-20-ybzwo2yklh7dmwtzm3l34ptdhqttfquk
+==> Installing ucx
+==> Searching for binary cache of ucx
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for ucx found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.ucx/var/spack/cache/ucx/ucx-1.2.2.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-power9.ucx/var/spack/stage/ucx-1.2.2-lcqswskvqisvruiz6zcikz3zkak2aces/ucx-1.2.2.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-power9.ucx/var/spack/stage/ucx-1.2.2-lcqswskvqisvruiz6zcikz3zkak2aces
+==> No patches needed for ucx
+==> Building ucx [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j160'
+
+10 errors found in build log:
+     382      CC       sm/knem/libuct_la-knem_md.lo
+     383      CC       sm/self/libuct_la-self_md.lo
+     384      CC       sm/self/libuct_la-self_iface.lo
+     385      CC       sm/self/libuct_la-self_ep.lo
+     386    In file included from /scratch/users/dantopa/new-spack/libraries/darwin-power9.ucx/var/spack/stage/ucx-1.2.2-lcqswskvqisvruiz6zcikz3zkak2aces/ucx-1.2.2/src/uct/ib/ud/
+            base/ud_iface.h:21,
+     387                     from ib/ud/verbs/ud_verbs.c:19:
+  >> 388    /scratch/users/dantopa/new-spack/libraries/darwin-power9.ucx/var/spack/stage/ucx-1.2.2-lcqswskvqisvruiz6zcikz3zkak2aces/ucx-1.2.2/src/uct/ib/ud/base/ud_def.h:176:1: e
+            rror: alignment 1 of 'struct uct_ud_send_skb_inl' is less than 128 [-Werror=packed-not-aligned]
+     389     } UCS_S_PACKED uct_ud_send_skb_inl_t;
+     390     ^
+     391    In file included from ib/ud/base/ud_iface.h:21,
+     392                     from ib/ud/base/ud_iface.c:7:
+  >> 393    ib/ud/base/ud_def.h:176:1: error: alignment 1 of 'struct uct_ud_send_skb_inl' is less than 128 [-Werror=packed-not-aligned]
+     394     } UCS_S_PACKED uct_ud_send_skb_inl_t;
+     395     ^
+     396    In file included from ib/ud/base/ud_ep.h:10,
+     397                     from ib/ud/base/ud_ep.c:7:
+  >> 398    ib/ud/base/ud_def.h:176:1: error: alignment 1 of 'struct uct_ud_send_skb_inl' is less than 128 [-Werror=packed-not-aligned]
+     399     } UCS_S_PACKED uct_ud_send_skb_inl_t;
+     400     ^
+     401    In file included from ib/ud/base/ud_iface.h:21,
+     402                     from ib/ud/base/ud_log.c:7:
+  >> 403    ib/ud/base/ud_def.h:176:1: error: alignment 1 of 'struct uct_ud_send_skb_inl' is less than 128 [-Werror=packed-not-aligned]
+     404     } UCS_S_PACKED uct_ud_send_skb_inl_t;
+     405     ^
+     406    cc1: all warnings being treated as errors
+  >> 407    make[2]: *** [ib/ud/base/libuct_la-ud_log.lo] Error 1
+     408    make[2]: *** Waiting for unfinished jobs....
+     409    cc1: all warnings being treated as errors
+  >> 410    make[2]: *** [ib/ud/verbs/libuct_la-ud_verbs.lo] Error 1
+     411    cc1: all warnings being treated as errors
+  >> 412    make[2]: *** [ib/ud/base/libuct_la-ud_iface.lo] Error 1
+     413    cc1: all warnings being treated as errors
+  >> 414    make[2]: *** [ib/ud/base/libuct_la-ud_ep.lo] Error 1
+     415    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stage-xu_R8S/ucx-1.2.2/src/uct'
+  >> 416    make[1]: *** [all-recursive] Error 1
+     417    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stage-xu_R8S/ucx-1.2.2'
+  >> 418    make: *** [all] Error 2
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-power9.ucx/var/spack/stage/ucx-1.2.2-lcqswskvqisvruiz6zcikz3zkak2aces/spack-build.out
+dantopa@cn2024:scripts $ 

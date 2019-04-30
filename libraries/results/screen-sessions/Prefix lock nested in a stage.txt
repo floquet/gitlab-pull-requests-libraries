@@ -1,0 +1,31 @@
+dantopa@cn209:pr-openmpi-3.1.4.spack $ spack install openmpi@3.0.4 % gcc@4.8.5
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/util-macros-1.19.1-p66qdrtaslf2cq4wyc6mitrxzhnyujhc
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/libpciaccess-0.13.5-5chyfxo6gpmcf74gpv3sqni2aa6v5x57
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/hwloc-1.11.11-bkkhvejler5rcxoz6mufxxb7fm3qdqbe
+==> zlib is already installed in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/zlib-1.2.11-64vg6e4evdrlqgx7iicwhu2hs7lv6gpz
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/cache/openmpi/openmpi-3.0.4.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/openmpi-3.0.4-5ienfvwpcxky3nz5jt3rygxzxzltkwm4/openmpi-3.0.4.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/var/spack/stage/openmpi-3.0.4-5ienfvwpcxky3nz5jt3rygxzxzltkwm4
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Error: LockTimeoutError: Timed out waiting for lock.
+
+/scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/lib/spack/spack/package.py:1263, in _stage_and_write_lock:
+       1261    @contextlib.contextmanager
+       1262    def _stage_and_write_lock(self):
+  >>   1263        """Prefix lock nested in a stage."""
+       1264        with self.stage:
+       1265            with spack.store.db.prefix_write_lock(self.spec):
+       1266                yield

@@ -1,0 +1,65 @@
+Mon Apr 29 10:07:22 MDT 2019 /var/spool/slurm/job321884/slurm_script
+source "${dir_tools}/bash/master-tpl-sweep.sh"
+Mon Apr 29 10:07:22 MDT 2019 /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh
+cd /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools
+source directories/libraries-capulin.sh
+Mon Apr 29 10:07:22 MDT 2019 [1mdirectories/libraries-capulin.sh(B[m
+source tpl-versions/versions-.sh
+/lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 28: tpl-versions/versions-.sh: No such file or directory
+source compilers/compilers-capulin-arm.sh
+Mon Apr 29 10:07:22 MDT 2019 [1mcompilers/compilers-capulin-arm.sh(B[m
+3 Spack-recognized compilers loaded:
+gcc@8.2.0  gcc@7.3.0  gcc@6.1.0
+
+source klingons/capulin-arm-.sh
+/lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 36: klingons/capulin-arm-.sh: No such file or directory
+cd /lustre/cpscratch1/dantopa/repos/spack/libraries/capulin-arm.
+/lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 39: cd: /lustre/cpscratch1/dantopa/repos/spack/libraries/capulin-arm.: No such file or directory
+. share/spack/setup-env.sh
+/lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 42: share/spack/setup-env.sh: No such file or directory
+/lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 45: spack: command not found
+export spack_architecture='arch='
+/lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 46: spack: command not found
+spack clean -a
+/lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 49: spack: command not found
+spack compilers
+/lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 52: spack: command not found
+ls -alh etc/spack/defaults
+ls: cannot access 'etc/spack/defaults': No such file or directory
+cat etc/spack/defaults/compilers.yaml
+cat: etc/spack/defaults/compilers.yaml: No such file or directory
+spack config get compilers
+/lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 61: spack: command not found
+spack clean -a
+/lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 84: spack: command not found
+mkdir -p "${dir_results}/platform-order"
+mkdir -p "${dir_results}/tpl-order"
+mkdir -p "${dir_results}/graphs"
+spack find  >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/platform-order/capulin-arm-.out
+/lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 100: spack: command not found
+spack find  >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/-capulin-arm.out
+/lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 108: spack: command not found
+spack find -ldf   >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/-capulin-arm-ldf.out
+/lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 115: spack: command not found
+spack graph  >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/graphs/-capulin-arm-graph.out
+/lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 123: spack: command not found
+spack compilers
+/lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 127: spack: command not found
+spack find 
+/lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 130: spack: command not found
+spack find -ldf 
+/lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 133: spack: command not found
+mv  /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/capulin-arm-batch.out   /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/batch-out/capulin-arm--2019-04-29-batch.out
+cd /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests
+git add -A .
+git commit -m "${USER} ${tpl} ${hpc} ${partition} ${ymd}"
+[master 16238b6] dantopa  capulin arm 2019-04-29
+ 7 files changed, 69 insertions(+)
+ create mode 100644 libraries/results/batch-out/capulin-arm--2019-04-29-batch.out
+ create mode 100644 libraries/results/command-log/capulin-arm--command.log
+ create mode 100644 libraries/results/graphs/-capulin-arm-graph.out
+ create mode 100644 libraries/results/install-log/capulin-arm--install.log
+ create mode 100644 libraries/results/platform-order/capulin-arm-.out
+ create mode 100644 libraries/results/tpl-order/-capulin-arm-ldf.out
+ create mode 100644 libraries/results/tpl-order/-capulin-arm.out
+Mon Apr 29 10:07:24 MDT 2019

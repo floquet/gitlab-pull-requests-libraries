@@ -1,0 +1,22 @@
+Fri Apr 26 12:43:15 MDT 2019
+/lustre/cpscratch1/dantopa/repos/spack/libraries/capulin-arm.ucx
+spack graph ucx >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/graphs/ucx-capulin-arm-graph.out
+o  ucx
+|\
+o |  rdma-core
+|\ \
+| |\ \
+o | | |  pkg-config
+ / / /
+| | o  numactl
+| | 
+o |  libnl
+|\ \
+| |\ \
+o | | |  m4
+ / / /
+o | |  flex
+ / /
+| o  cmake
+| 
+o  bison

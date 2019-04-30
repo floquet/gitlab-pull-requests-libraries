@@ -1,0 +1,21 @@
+Thu Apr 18 23:17:56 MDT 2019
+spack graph ucx >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/ucx-darwin-power9-graph.out
+o  ucx
+|\
+o |  rdma-core
+|\ \
+| |\ \
+o | | |  pkg-config
+ / / /
+| | o  numactl
+| | 
+o |  libnl
+|\ \
+| |\ \
+o | | |  m4
+ / / /
+o | |  flex
+ / /
+| o  cmake
+| 
+o  bison

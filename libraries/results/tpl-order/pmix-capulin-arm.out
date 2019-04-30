@@ -1,0 +1,23 @@
+Fri Apr 26 12:57:24 MDT 2019
+/lustre/cpscratch1/dantopa/repos/spack/libraries/capulin-arm.pmix
+spack find pmix >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/pmix-capulin-arm.out
+==> 12 installed packages
+-- cray-cnl6-arm_thunderx2 / gcc@7.3.0 --------------------------
+pmix@2.1.4
+pmix@2.2.2
+
+-- cray-cnl6-arm_thunderx2 / gcc@7.4.0 --------------------------
+pmix@2.1.4
+pmix@2.2.2
+pmix@3.0.2
+pmix@3.1.2
+
+-- cray-cnl6-arm_thunderx2 / gcc@8.2.0 --------------------------
+pmix@2.1.4
+pmix@2.2.2
+
+-- cray-cnl6-arm_thunderx2 / gcc@8.3.0 --------------------------
+pmix@2.1.4
+pmix@2.2.2
+pmix@3.0.2
+pmix@3.1.2

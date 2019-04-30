@@ -1,0 +1,13 @@
+Mon Apr 29 10:08:39 MDT 2019
+1 spack install openmpi @ 4.0.1 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2
+2 spack install openmpi @ 4.0.1 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2
+3 spack install openmpi @ 4.0.1 % gcc@6.1.0  arch=cray-cnl6-arm_thunderx2
+4 spack install openmpi @ 3.1.4 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2
+5 spack install openmpi @ 3.1.4 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2
+6 spack install openmpi @ 3.1.4 % gcc@6.1.0  arch=cray-cnl6-arm_thunderx2
+7 spack install openmpi @ 3.0.4 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2
+8 spack install openmpi @ 3.0.4 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2
+9 spack install openmpi @ 3.0.4 % gcc@6.1.0  arch=cray-cnl6-arm_thunderx2
+10 spack install openmpi @ 2.1.6 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2
+11 spack install openmpi @ 2.1.6 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2
+12 spack install openmpi @ 2.1.6 % gcc@6.1.0  arch=cray-cnl6-arm_thunderx2

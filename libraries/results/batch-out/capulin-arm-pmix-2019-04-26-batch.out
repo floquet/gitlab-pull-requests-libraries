@@ -1,0 +1,585 @@
+Fri Apr 26 12:52:41 MDT 2019 /var/spool/slurm/job321447/slurm_script
+source "${dir_tools}/bash/master-tpl-sweep.sh"
+Fri Apr 26 12:52:41 MDT 2019 /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh
+cd /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools
+source directories/libraries-capulin.sh
+Fri Apr 26 12:52:41 MDT 2019 [1mdirectories/libraries-capulin.sh(B[m
+source tpl-versions/versions-pmix.sh
+Fri Apr 26 12:52:41 MDT 2019 [1mtpl-versions/versions-pmix.sh(B[m
+4 pmix versions loaded:
+3.1.2  3.0.2  2.2.2  2.1.4
+
+source compilers/compilers-capulin-arm.sh
+Fri Apr 26 12:52:41 MDT 2019 [1mcompilers/compilers-capulin-arm.sh(B[m
+3 Spack-recognized compilers loaded:
+gcc@8.2.0  gcc@7.3.0  gcc@6.1.0
+
+source klingons/capulin-arm-pmix.sh
+/lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 36: klingons/capulin-arm-pmix.sh: No such file or directory
+cd /lustre/cpscratch1/dantopa/repos/spack/libraries/capulin-arm.pmix
+. share/spack/setup-env.sh
+export spack_architecture='arch=cray-cnl6-arm_thunderx2'
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+spack compilers
+==> Available compilers
+-- cce cnl6-any -------------------------------------------------
+cce@8.7.10
+cce@8.7.9
+
+-- gcc cnl6-any -------------------------------------------------
+gcc@8.3.0
+gcc@7.4.0
+gcc@7.3.0
+gcc@6.1.0
+ls -alh etc/spack/defaults
+total 151K
+drwxr-x--- 4 dantopa dantopa  13K Apr 26 10:58 .
+drwxr-x--- 3 dantopa dantopa  12K Apr 25 16:51 ..
+-rw-r----- 1 dantopa dantopa 1.7K Apr 26 10:58 compilers.yaml
+-rw-r----- 1 dantopa dantopa 4.4K Apr 25 16:51 config.yaml
+drwxr-x--- 2 dantopa dantopa  12K Apr 25 16:51 darwin
+drwxr-x--- 2 dantopa dantopa  12K Apr 25 16:51 linux
+-rw-r----- 1 dantopa dantopa  216 Apr 25 20:41 mirrors.yaml
+-rw-r----- 1 dantopa dantopa 3.7K Apr 25 20:41 modules.yaml
+-rw-r----- 1 dantopa dantopa 3.1K Apr 25 20:41 packages.yaml
+-rw-r----- 1 dantopa dantopa  530 Apr 25 16:51 release.yaml
+-rw-r----- 1 dantopa dantopa  546 Apr 25 16:51 repos.yaml
+-rw-r----- 1 dantopa dantopa 3.7K Apr 25 20:41 tcl-modules.yaml
+cat etc/spack/defaults/compilers.yaml
+compilers:
+# # cray  8.7.10, 8.7.9
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - !!python/unicode
+      'cce/8.7.10'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: cce@8.7.10
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - !!python/unicode
+      'cce/8.7.9'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: cce@8.7.9
+    target: any
+# # gcc  8.2.0, 7.3.0, 6.1.0
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/8.3.0'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: gcc@8.3.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    #operating_system: sles15
+    operating_system: cnl6
+    paths:
+      cc: /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc: /usr/bin/gfortran
+    spec: gcc@7.4.0
+    # target: aarch64
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/7.3.0'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: gcc@7.3.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/6.1.0'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: gcc@6.1.0
+    target: any
+spack config get compilers
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - !!python/unicode
+      'cce/8.7.10'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: cce@8.7.10
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - !!python/unicode
+      'cce/8.7.9'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: cce@8.7.9
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/8.3.0'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: gcc@8.3.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: cnl6
+    paths:
+      cc: /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc: /usr/bin/gfortran
+    spec: gcc@7.4.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/7.3.0'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: gcc@7.3.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/6.1.0'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: gcc@6.1.0
+    target: any
+spack install pmix @ 3.1.2 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: No compilers with spec gcc@8.2.0 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 3.1.2 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j224'
+
+15 errors found in build log:
+     584    make[2]: Entering directory '/tmp/dantopa/spack-stage/spack-stage-m
+            SxDab/hwloc-2.0.2/utils/netloc/mpi'
+     585      CC       netloc_rank_order.o
+     586      CC       netloc_mpi_find_hosts-netloc_mpi_find_hosts.o
+     587      CCLD     netloc_rank_order
+     588      CCLD     netloc_mpi_find_hosts
+     589    /usr/bin/ld: netloc_mpi_find_hosts-netloc_mpi_find_hosts.o: in func
+            tion `main':
+  >> 590    /tmp/dantopa/spack-stage/spack-stage-mSxDab/hwloc-2.0.2/utils/netlo
+            c/mpi/netloc_mpi_find_hosts.c:40: undefined reference to `MPI_Init'
+  >> 591    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-mSxDab/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:42: undefined reference 
+            to `MPI_Comm_rank'
+  >> 592    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-mSxDab/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:43: undefined reference 
+            to `MPI_Comm_size'
+  >> 593    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-mSxDab/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:48: undefined reference 
+            to `MPI_Abort'
+  >> 594    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-mSxDab/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:57: undefined reference 
+            to `MPI_Get_processor_name'
+  >> 595    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-mSxDab/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:157: undefined reference
+             to `MPI_Send'
+  >> 596    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-mSxDab/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:159: undefined reference
+             to `MPI_Send'
+  >> 597    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-mSxDab/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:162: undefined reference
+             to `MPI_Recv'
+  >> 598    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-mSxDab/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:223: undefined reference
+             to `MPI_Finalize'
+  >> 599    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-mSxDab/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:93: undefined reference 
+            to `MPI_Recv'
+  >> 600    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-mSxDab/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:99: undefined reference 
+            to `MPI_Recv'
+  >> 601    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-mSxDab/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:116: undefined reference
+             to `MPI_Send'
+  >> 602    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-mSxDab/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:112: undefined reference
+             to `MPI_Send'
+  >> 603    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-mSxDab/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:65: undefined reference 
+            to `MPI_Abort'
+  >> 604    collect2: error: ld returned 1 exit status
+     605    make[2]: *** [Makefile:517: netloc_mpi_find_hosts] Error 1
+     606    make[2]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-mS
+            xDab/hwloc-2.0.2/utils/netloc/mpi'
+     607    make[1]: *** [Makefile:454: all-recursive] Error 1
+     608    make[1]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-mS
+            xDab/hwloc-2.0.2/utils'
+     609    make: *** [Makefile:629: all-recursive] Error 1
+
+See build log for details:
+  /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/var/spack/stage/hwloc-2.0.2-g3b5rh6i2pa4d45duslrgwozd4a44je6/spack-build.out
+spack install pmix @ 3.1.2 % gcc@6.1.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je/libpciaccess-0.13.5/configure' '--prefix=/pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/opt/spack/cray-cnl6-arm_thunderx2/gcc-6.1.0/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /pfs/cpscratch1/yellow/dantopa/repos/spack/libra
+           ries/capulin-arm.pmix/lib/spack/env/gcc/gcc
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/tmp/dantopa/spack-stage/spack-stage-F9wlBw/li
+           bpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je/spack-build.out
+spack install pmix @ 3.0.2 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: No compilers with spec gcc@8.2.0 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 3.0.2 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j224'
+
+15 errors found in build log:
+     584    make[2]: Entering directory '/tmp/dantopa/spack-stage/spack-stage-_
+            boFcE/hwloc-2.0.2/utils/netloc/mpi'
+     585      CC       netloc_rank_order.o
+     586      CC       netloc_mpi_find_hosts-netloc_mpi_find_hosts.o
+     587      CCLD     netloc_rank_order
+     588      CCLD     netloc_mpi_find_hosts
+     589    /usr/bin/ld: netloc_mpi_find_hosts-netloc_mpi_find_hosts.o: in func
+            tion `main':
+  >> 590    /tmp/dantopa/spack-stage/spack-stage-_boFcE/hwloc-2.0.2/utils/netlo
+            c/mpi/netloc_mpi_find_hosts.c:40: undefined reference to `MPI_Init'
+  >> 591    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-_boFcE/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:42: undefined reference 
+            to `MPI_Comm_rank'
+  >> 592    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-_boFcE/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:43: undefined reference 
+            to `MPI_Comm_size'
+  >> 593    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-_boFcE/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:48: undefined reference 
+            to `MPI_Abort'
+  >> 594    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-_boFcE/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:57: undefined reference 
+            to `MPI_Get_processor_name'
+  >> 595    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-_boFcE/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:157: undefined reference
+             to `MPI_Send'
+  >> 596    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-_boFcE/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:159: undefined reference
+             to `MPI_Send'
+  >> 597    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-_boFcE/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:162: undefined reference
+             to `MPI_Recv'
+  >> 598    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-_boFcE/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:223: undefined reference
+             to `MPI_Finalize'
+  >> 599    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-_boFcE/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:93: undefined reference 
+            to `MPI_Recv'
+  >> 600    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-_boFcE/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:99: undefined reference 
+            to `MPI_Recv'
+  >> 601    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-_boFcE/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:116: undefined reference
+             to `MPI_Send'
+  >> 602    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-_boFcE/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:112: undefined reference
+             to `MPI_Send'
+  >> 603    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-_boFcE/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:65: undefined reference 
+            to `MPI_Abort'
+  >> 604    collect2: error: ld returned 1 exit status
+     605    make[2]: *** [Makefile:517: netloc_mpi_find_hosts] Error 1
+     606    make[2]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-_b
+            oFcE/hwloc-2.0.2/utils/netloc/mpi'
+     607    make[1]: *** [Makefile:454: all-recursive] Error 1
+     608    make[1]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-_b
+            oFcE/hwloc-2.0.2/utils'
+     609    make: *** [Makefile:629: all-recursive] Error 1
+
+See build log for details:
+  /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/var/spack/stage/hwloc-2.0.2-g3b5rh6i2pa4d45duslrgwozd4a44je6/spack-build.out
+spack install pmix @ 3.0.2 % gcc@6.1.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je/libpciaccess-0.13.5/configure' '--prefix=/pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/opt/spack/cray-cnl6-arm_thunderx2/gcc-6.1.0/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /pfs/cpscratch1/yellow/dantopa/repos/spack/libra
+           ries/capulin-arm.pmix/lib/spack/env/gcc/gcc
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/tmp/dantopa/spack-stage/spack-stage-mENVC3/li
+           bpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je/spack-build.out
+spack install pmix @ 2.2.2 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: No compilers with spec gcc@8.2.0 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 2.2.2 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+spack install pmix @ 2.2.2 % gcc@6.1.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/var/spack/stage/libevent-2.1.8-wqygukc5tc4wb5y5zoqhg5c6a5btnith/libevent-2.1.8-stable/configure' '--prefix=/pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/opt/spack/cray-cnl6-arm_thunderx2/gcc-6.1.0/libevent-2.1.8-wqygukc5tc4wb5y5zoqhg5c6a5btnith' '--enable-openssl'
+
+2 errors found in build log:
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking whether make supports nested variables... (cached) yes
+     11    checking for style of include used by make... GNU
+     12    checking for gcc... /pfs/cpscratch1/yellow/dantopa/repos/spack/libra
+           ries/capulin-arm.pmix/lib/spack/env/gcc/gcc
+     13    checking whether the C compiler works... no
+  >> 14    configure: error: in `/tmp/dantopa/spack-stage/spack-stage-av_YZz/li
+           bevent-2.1.8-stable':
+  >> 15    configure: error: C compiler cannot create executables
+     16    See `config.log' for more details
+
+See build log for details:
+  /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/var/spack/stage/libevent-2.1.8-wqygukc5tc4wb5y5zoqhg5c6a5btnith/spack-build.out
+spack install pmix @ 2.1.4 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: No compilers with spec gcc@8.2.0 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 2.1.4 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+spack install pmix @ 2.1.4 % gcc@6.1.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/var/spack/stage/libevent-2.1.8-wqygukc5tc4wb5y5zoqhg5c6a5btnith/libevent-2.1.8-stable/configure' '--prefix=/pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/opt/spack/cray-cnl6-arm_thunderx2/gcc-6.1.0/libevent-2.1.8-wqygukc5tc4wb5y5zoqhg5c6a5btnith' '--enable-openssl'
+
+2 errors found in build log:
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking whether make supports nested variables... (cached) yes
+     11    checking for style of include used by make... GNU
+     12    checking for gcc... /pfs/cpscratch1/yellow/dantopa/repos/spack/libra
+           ries/capulin-arm.pmix/lib/spack/env/gcc/gcc
+     13    checking whether the C compiler works... no
+  >> 14    configure: error: in `/tmp/dantopa/spack-stage/spack-stage-jB8vrc/li
+           bevent-2.1.8-stable':
+  >> 15    configure: error: C compiler cannot create executables
+     16    See `config.log' for more details
+
+See build log for details:
+  /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/var/spack/stage/libevent-2.1.8-wqygukc5tc4wb5y5zoqhg5c6a5btnith/spack-build.out
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+mkdir -p "${dir_results}/platform-order"
+mkdir -p "${dir_results}/tpl-order"
+mkdir -p "${dir_results}/graphs"
+spack find pmix >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/platform-order/capulin-arm-pmix.out
+spack find pmix >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/pmix-capulin-arm.out
+spack find -ldf pmix  >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/pmix-capulin-arm-ldf.out
+spack graph pmix >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/graphs/pmix-capulin-arm-graph.out
+spack compilers
+==> Available compilers
+-- cce cnl6-any -------------------------------------------------
+cce@8.7.10
+cce@8.7.9
+
+-- gcc cnl6-any -------------------------------------------------
+gcc@8.3.0
+gcc@7.4.0
+gcc@7.3.0
+gcc@6.1.0
+spack find pmix
+==> 12 installed packages
+-- cray-cnl6-arm_thunderx2 / gcc@7.3.0 --------------------------
+pmix@2.1.4
+pmix@2.2.2
+
+-- cray-cnl6-arm_thunderx2 / gcc@7.4.0 --------------------------
+pmix@2.1.4
+pmix@2.2.2
+pmix@3.0.2
+pmix@3.1.2
+
+-- cray-cnl6-arm_thunderx2 / gcc@8.2.0 --------------------------
+pmix@2.1.4
+pmix@2.2.2
+
+-- cray-cnl6-arm_thunderx2 / gcc@8.3.0 --------------------------
+pmix@2.1.4
+pmix@2.2.2
+pmix@3.0.2
+pmix@3.1.2
+spack find -ldf pmix
+==> 12 installed packages
+-- cray-cnl6-arm_thunderx2 / gcc@7.3.0 --------------------------
+dht4lkp    pmix@2.1.4%gcc 
+rksazmf        ^libevent@2.1.8%gcc 
+gmp3lnk            ^openssl@1.1.1b%gcc 
+
+fd4hsnt    pmix@2.2.2%gcc 
+rksazmf        ^libevent@2.1.8%gcc 
+gmp3lnk            ^openssl@1.1.1b%gcc 
+
+
+-- cray-cnl6-arm_thunderx2 / gcc@7.4.0 --------------------------
+ns3tt36    pmix@2.1.4%gcc 
+eqs3sj5        ^libevent@2.1.8%gcc 
+pd7msn4            ^openssl@1.1.1b%gcc 
+
+ukojf7l    pmix@2.2.2%gcc 
+eqs3sj5        ^libevent@2.1.8%gcc 
+pd7msn4            ^openssl@1.1.1b%gcc 
+
+ve5uql7    pmix@3.0.2%gcc 
+xqvaapc        ^hwloc@2.0.2%gcc 
+uch46xu            ^libpciaccess@0.13.5%gcc 
+f2ejcjn            ^libxml2@2.9.8%gcc 
+eqs3sj5        ^libevent@2.1.8%gcc 
+pd7msn4            ^openssl@1.1.1b%gcc 
+
+7guavcd    pmix@3.1.2%gcc 
+xqvaapc        ^hwloc@2.0.2%gcc 
+uch46xu            ^libpciaccess@0.13.5%gcc 
+f2ejcjn            ^libxml2@2.9.8%gcc 
+eqs3sj5        ^libevent@2.1.8%gcc 
+pd7msn4            ^openssl@1.1.1b%gcc 
+
+
+-- cray-cnl6-arm_thunderx2 / gcc@8.2.0 --------------------------
+3jqszq6    pmix@2.1.4%gcc 
+6sp3eiw        ^libevent@2.1.8%gcc 
+5p7isue            ^openssl@1.1.1b%gcc 
+
+k656csk    pmix@2.2.2%gcc 
+6sp3eiw        ^libevent@2.1.8%gcc 
+5p7isue            ^openssl@1.1.1b%gcc 
+
+
+-- cray-cnl6-arm_thunderx2 / gcc@8.3.0 --------------------------
+73pu2na    pmix@2.1.4%gcc 
+oonqt2c        ^libevent@2.1.8%gcc 
+tcqnnsj            ^openssl@1.1.1b%gcc 
+
+bmkpex6    pmix@2.2.2%gcc 
+oonqt2c        ^libevent@2.1.8%gcc 
+tcqnnsj            ^openssl@1.1.1b%gcc 
+
+sb3fgqs    pmix@3.0.2%gcc 
+xqvaapc        ^hwloc@2.0.2%gcc 
+uch46xu            ^libpciaccess@0.13.5%gcc 
+f2ejcjn            ^libxml2@2.9.8%gcc 
+oonqt2c        ^libevent@2.1.8%gcc 
+tcqnnsj            ^openssl@1.1.1b%gcc 
+
+kozx7hh    pmix@3.1.2%gcc 
+xqvaapc        ^hwloc@2.0.2%gcc 
+uch46xu            ^libpciaccess@0.13.5%gcc 
+f2ejcjn            ^libxml2@2.9.8%gcc 
+oonqt2c        ^libevent@2.1.8%gcc 
+tcqnnsj            ^openssl@1.1.1b%gcc 
+
+mv  /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/capulin-arm-batch.out   /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/batch-out/capulin-arm-pmix-2019-04-26-batch.out
+cd /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests
+git add -A .
+git commit -m "${USER} ${tpl} ${hpc} ${partition} ${ymd}"
+[master 8e111ef] dantopa pmix capulin arm 2019-04-26
+ 9 files changed, 254 insertions(+), 270 deletions(-)
+Fri Apr 26 12:58:15 MDT 2019

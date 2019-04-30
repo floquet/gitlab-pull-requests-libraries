@@ -1,0 +1,22 @@
+Wed Apr 24 21:07:48 MDT 2019
+/net/scratch4/dantopa/spack/libraries/snow-standard.pmix
+spack graph pmix >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/graphs/pmix-snow-standard-graph.out
+o  pmix
+|\
+| o  hwloc
+| |\
+| | |\
+| | | o  libpciaccess
+| | |/| 
+| |/| | 
+| | | |\
+| | | o |  util-macros
+| | |  /
+| o | |  pkg-config
+|  / /
+o | |  libevent
+o | |  openssl
+ / /
+o |  libxml2
+ /
+o  libtool

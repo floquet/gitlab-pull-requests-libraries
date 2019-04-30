@@ -1,0 +1,637 @@
+Wed Apr 24 20:54:17 MDT 2019
+
+
+spack install libhio @ 1.4.1.3 % cce@8.7.9  arch=cray-cnl6-haswell
+
+spack install libhio @ 1.4.1.3 % cce@8.7.8  arch=cray-cnl6-haswell
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : generating module file
+==> bzip2@1.0.6 : registering into DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : generating module file
+==> libtool@2.4.6 : registering into DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : generating module file
+==> pkg-config@0.29.2 : registering into DB
+==> Installing util-macros
+==> Searching for binary cache of util-macros
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for util-macros found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/util-macros/util-macros-1.19.1.tar.bz2
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/util-macros-1.19.1-fp5alpo7zzgk3bntf2tmk73fbjatp2ve/util-macros-1.19.1.tar.bz2
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/util-macros-1.19.1-fp5alpo7zzgk3bntf2tmk73fbjatp2ve
+==> No patches needed for util-macros
+==> Building util-macros [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed util-macros
+  Fetch: 0.03s.  Build: 2.05s.  Total: 2.08s.
+[+] /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/cce-8.7.8/util-macros-1.19.1-fp5alpo7zzgk3bntf2tmk73fbjatp2ve
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/libpciaccess-0.13.5-kvtpv6d5nqzxdxqh3uioxmnkmftzfhx6/libpciaccess-0.13.5.tar.gz
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/libpciaccess-0.13.5-kvtpv6d5nqzxdxqh3uioxmnkmftzfhx6
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install libhio @ 1.4.1.3 % gcc@8.2.0  arch=cray-cnl6-haswell
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : generating module file
+==> bzip2@1.0.6 : registering into DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : generating module file
+==> libtool@2.4.6 : registering into DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : generating module file
+==> pkg-config@0.29.2 : registering into DB
+==> Installing util-macros
+==> Searching for binary cache of util-macros
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for util-macros found: installing from source
+==> Using cached archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/cache/util-macros/util-macros-1.19.1.tar.bz2
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/util-macros-1.19.1-ahcdsq3oio2hi4q6ro3ct4oqe7lll4gd/util-macros-1.19.1.tar.bz2
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/util-macros-1.19.1-ahcdsq3oio2hi4q6ro3ct4oqe7lll4gd
+==> No patches needed for util-macros
+==> Building util-macros [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed util-macros
+  Fetch: 0.01s.  Build: 1.88s.  Total: 1.88s.
+[+] /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/gcc-8.2.0/util-macros-1.19.1-ahcdsq3oio2hi4q6ro3ct4oqe7lll4gd
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/libpciaccess-0.13.5-ahkgt2wf2yngccos2nm3ceojm3pbw55l/libpciaccess-0.13.5.tar.gz
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/libpciaccess-0.13.5-ahkgt2wf2yngccos2nm3ceojm3pbw55l
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libpciaccess
+  Fetch: 0.00s.  Build: 13.25s.  Total: 13.26s.
+[+] /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/gcc-8.2.0/libpciaccess-0.13.5-ahkgt2wf2yngccos2nm3ceojm3pbw55l
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : generating module file
+==> libxml2@2.9.8 : registering into DB
+==> Installing hwloc
+==> Searching for binary cache of hwloc
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hwloc found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/hwloc/hwloc-1.11.11.tar.gz
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/hwloc-1.11.11-fusyoi5aiqlf6gz2e5c36sfdwuei364y/hwloc-1.11.11.tar.gz
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/hwloc-1.11.11-fusyoi5aiqlf6gz2e5c36sfdwuei364y
+==> No patches needed for hwloc
+==> Building hwloc [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed hwloc
+  Fetch: 0.06s.  Build: 40.12s.  Total: 40.18s.
+[+] /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/gcc-8.2.0/hwloc-1.11.11-fusyoi5aiqlf6gz2e5c36sfdwuei364y
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : generating module file
+==> numactl@2.0.12 : registering into DB
+==> Installing zlib
+==> Searching for binary cache of zlib
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for zlib found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/zlib/zlib-1.2.11.tar.gz
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/zlib-1.2.11-v25hso5bl3uxsylbalq2nb5l2k5s54mo/zlib-1.2.11.tar.gz
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/zlib-1.2.11-v25hso5bl3uxsylbalq2nb5l2k5s54mo
+==> No patches needed for zlib
+==> Building zlib [Package]
+==> Executing phase: 'install'
+==> Successfully installed zlib
+  Fetch: 0.02s.  Build: 2.59s.  Total: 2.61s.
+[+] /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/gcc-8.2.0/zlib-1.2.11-v25hso5bl3uxsylbalq2nb5l2k5s54mo
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/openmpi/openmpi-3.1.4.tar.bz2
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/openmpi-3.1.4-3xwpbhsvqw7mtkbfnnfq3ndgdi7s2ulx/openmpi-3.1.4.tar.bz2
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/openmpi-3.1.4-3xwpbhsvqw7mtkbfnnfq3ndgdi7s2ulx
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.08s.  Build: 10m 21.46s.  Total: 10m 21.54s.
+[+] /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/gcc-8.2.0/openmpi-3.1.4-3xwpbhsvqw7mtkbfnnfq3ndgdi7s2ulx
+==> Installing hdf5
+==> Searching for binary cache of hdf5
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hdf5 found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/hdf5/hdf5-1.10.5.tar.gz
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/hdf5-1.10.5-w2yqgskvxg3fb5hy7krdgdwrrlq32tiv/hdf5-1.10.5.tar.gz
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/hdf5-1.10.5-w2yqgskvxg3fb5hy7krdgdwrrlq32tiv
+==> No patches needed for hdf5
+==> Building hdf5 [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed hdf5
+  Fetch: 0.12s.  Build: 1m 59.62s.  Total: 1m 59.74s.
+[+] /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/gcc-8.2.0/hdf5-1.10.5-w2yqgskvxg3fb5hy7krdgdwrrlq32tiv
+==> autoconf@2.69 : externally installed in /usr
+==> autoconf@2.69 : generating module file
+==> autoconf@2.69 : registering into DB
+==> Installing json-c
+==> Searching for binary cache of json-c
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for json-c found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/json-c/json-c-0.13.1.tar.gz
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/json-c-0.13.1-xp2i4a3uf5zf7zvdchfmhpjdej6izbub/json-c-0.13.1.tar.gz
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/json-c-0.13.1-xp2i4a3uf5zf7zvdchfmhpjdej6izbub
+==> No patches needed for json-c
+==> Building json-c [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed json-c
+  Fetch: 0.04s.  Build: 18.26s.  Total: 18.30s.
+[+] /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/gcc-8.2.0/json-c-0.13.1-xp2i4a3uf5zf7zvdchfmhpjdej6izbub
+==> Installing libhio
+==> Searching for binary cache of libhio
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libhio found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/libhio/libhio-1.4.1.3.tar.bz2
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/libhio-1.4.1.3-tkgzmbsxqd2iiggykmsbe3uuhtf2qfxv/libhio-1.4.1.3.tar.bz2
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/libhio-1.4.1.3-tkgzmbsxqd2iiggykmsbe3uuhtf2qfxv
+==> No patches needed for libhio
+==> Building libhio [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libhio
+  Fetch: 0.03s.  Build: 52.13s.  Total: 52.16s.
+[+] /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/gcc-8.2.0/libhio-1.4.1.3-tkgzmbsxqd2iiggykmsbe3uuhtf2qfxv
+
+spack install libhio @ 1.4.1.3 % gcc@7.3.0  arch=cray-cnl6-haswell
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/gcc-7.3.0/util-macros-1.19.1-6r36scuufoz5oacgadueytqdwa3zepde
+==> libpciaccess is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/gcc-7.3.0/libpciaccess-0.13.5-h2ms6q3ptry7ttyluesbvwqqyhfjqi2w
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> hwloc is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/gcc-7.3.0/hwloc-1.11.11-7zmbmjqzte5cewxb3atnqoxg32xh7daf
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> zlib is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/gcc-7.3.0/zlib-1.2.11-uw4fzi4m6feyszysqptjqj42z5z3ekg6
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/cache/openmpi/openmpi-3.1.4.tar.bz2
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/openmpi-3.1.4-2y6czbjnrr7yjnbqzuegcvi3mqk6xhgl/openmpi-3.1.4.tar.bz2
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/openmpi-3.1.4-2y6czbjnrr7yjnbqzuegcvi3mqk6xhgl
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.02s.  Build: 10m 26.60s.  Total: 10m 26.62s.
+[+] /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/gcc-7.3.0/openmpi-3.1.4-2y6czbjnrr7yjnbqzuegcvi3mqk6xhgl
+==> Installing hdf5
+==> Searching for binary cache of hdf5
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hdf5 found: installing from source
+==> Using cached archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/cache/hdf5/hdf5-1.10.5.tar.gz
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/hdf5-1.10.5-wv5njwtzacw75qy5t2fiyea7rxffepgr/hdf5-1.10.5.tar.gz
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/hdf5-1.10.5-wv5njwtzacw75qy5t2fiyea7rxffepgr
+==> No patches needed for hdf5
+==> Building hdf5 [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed hdf5
+  Fetch: 0.04s.  Build: 1m 57.68s.  Total: 1m 57.72s.
+[+] /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/gcc-7.3.0/hdf5-1.10.5-wv5njwtzacw75qy5t2fiyea7rxffepgr
+==> autoconf@2.69 : externally installed in /usr
+==> autoconf@2.69 : already registered in DB
+==> json-c is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/gcc-7.3.0/json-c-0.13.1-um3fijfyvelwx7c37lmhsigntznj4hof
+==> Installing libhio
+==> Searching for binary cache of libhio
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libhio found: installing from source
+==> Using cached archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/cache/libhio/libhio-1.4.1.3.tar.bz2
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/libhio-1.4.1.3-7mufv3rxtjtmnlaermm572kjmizpqofg/libhio-1.4.1.3.tar.bz2
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/libhio-1.4.1.3-7mufv3rxtjtmnlaermm572kjmizpqofg
+==> No patches needed for libhio
+==> Building libhio [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libhio
+  Fetch: 0.01s.  Build: 51.91s.  Total: 51.92s.
+[+] /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/gcc-7.3.0/libhio-1.4.1.3-7mufv3rxtjtmnlaermm572kjmizpqofg
+
+spack install libhio @ 1.4.1.3 % gcc@6.3.0  arch=cray-cnl6-haswell
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : generating module file
+==> bzip2@1.0.6 : registering into DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : generating module file
+==> libtool@2.4.6 : registering into DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : generating module file
+==> pkg-config@0.29.2 : registering into DB
+==> Installing util-macros
+==> Searching for binary cache of util-macros
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for util-macros found: installing from source
+==> Using cached archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/cache/util-macros/util-macros-1.19.1.tar.bz2
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/util-macros-1.19.1-lb5vwbskpyp2iauuv34rolobxqyl5ysg/util-macros-1.19.1.tar.bz2
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/util-macros-1.19.1-lb5vwbskpyp2iauuv34rolobxqyl5ysg
+==> No patches needed for util-macros
+==> Building util-macros [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed util-macros
+  Fetch: 0.00s.  Build: 1.92s.  Total: 1.93s.
+[+] /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/gcc-6.3.0/util-macros-1.19.1-lb5vwbskpyp2iauuv34rolobxqyl5ysg
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/libpciaccess-0.13.5-upvrvvm3axk2d2zhjvsyokb6xc6odss4/libpciaccess-0.13.5.tar.gz
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/libpciaccess-0.13.5-upvrvvm3axk2d2zhjvsyokb6xc6odss4
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install libhio @ 1.4.1.3 % intel@19.0.1  arch=cray-cnl6-haswell
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : generating module file
+
+spack install libhio @ 1.4.1.3 % intel@18.0.5  arch=cray-cnl6-haswell
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : generating module file
+==> bzip2@1.0.6 : registering into DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : generating module file
+==> libtool@2.4.6 : registering into DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : generating module file
+==> pkg-config@0.29.2 : registering into DB
+==> Installing util-macros
+==> Searching for binary cache of util-macros
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for util-macros found: installing from source
+==> Using cached archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/cache/util-macros/util-macros-1.19.1.tar.bz2
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/util-macros-1.19.1-f6bltffychcvqwew6k5rkj3cht7cff55/util-macros-1.19.1.tar.bz2
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/util-macros-1.19.1-f6bltffychcvqwew6k5rkj3cht7cff55
+==> No patches needed for util-macros
+==> Building util-macros [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed util-macros
+  Fetch: 0.00s.  Build: 2.11s.  Total: 2.12s.
+[+] /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/intel-18.0.5/util-macros-1.19.1-f6bltffychcvqwew6k5rkj3cht7cff55
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/libpciaccess-0.13.5-sil2bz2z7442q5uttmf4yu2lsxs5tilx/libpciaccess-0.13.5.tar.gz
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/libpciaccess-0.13.5-sil2bz2z7442q5uttmf4yu2lsxs5tilx
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libpciaccess
+  Fetch: 0.01s.  Build: 1m 6.64s.  Total: 1m 6.64s.
+[+] /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/intel-18.0.5/libpciaccess-0.13.5-sil2bz2z7442q5uttmf4yu2lsxs5tilx
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : generating module file
+==> libxml2@2.9.8 : registering into DB
+==> Installing hwloc
+==> Searching for binary cache of hwloc
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hwloc found: installing from source
+==> Using cached archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/cache/hwloc/hwloc-1.11.11.tar.gz
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/hwloc-1.11.11-q2ysccqviamxxpyai5dkc4wmuo5qohhr/hwloc-1.11.11.tar.gz
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/hwloc-1.11.11-q2ysccqviamxxpyai5dkc4wmuo5qohhr
+==> No patches needed for hwloc
+==> Building hwloc [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed hwloc
+  Fetch: 0.02s.  Build: 2m 54.55s.  Total: 2m 54.57s.
+[+] /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/intel-18.0.5/hwloc-1.11.11-q2ysccqviamxxpyai5dkc4wmuo5qohhr
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : generating module file
+==> numactl@2.0.12 : registering into DB
+==> Installing zlib
+==> Searching for binary cache of zlib
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for zlib found: installing from source
+==> Using cached archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/cache/zlib/zlib-1.2.11.tar.gz
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/zlib-1.2.11-fqgrfuyoyew2mcb34whyp27eucq26imp/zlib-1.2.11.tar.gz
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/zlib-1.2.11-fqgrfuyoyew2mcb34whyp27eucq26imp
+==> No patches needed for zlib
+==> Building zlib [Package]
+==> Executing phase: 'install'
+==> Successfully installed zlib
+  Fetch: 0.01s.  Build: 16.70s.  Total: 16.71s.
+[+] /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/intel-18.0.5/zlib-1.2.11-fqgrfuyoyew2mcb34whyp27eucq26imp
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/cache/openmpi/openmpi-3.1.4.tar.bz2
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/openmpi-3.1.4-ekgrteirjxzlsuor65dv446yjtv3vqco/openmpi-3.1.4.tar.bz2
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/openmpi-3.1.4-ekgrteirjxzlsuor65dv446yjtv3vqco
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.02s.  Build: 40m 30.15s.  Total: 40m 30.17s.
+[+] /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/intel-18.0.5/openmpi-3.1.4-ekgrteirjxzlsuor65dv446yjtv3vqco
+==> Installing hdf5
+==> Searching for binary cache of hdf5
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hdf5 found: installing from source
+==> Using cached archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/cache/hdf5/hdf5-1.10.5.tar.gz
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/hdf5-1.10.5-4g7pxvztoalbzhrm6wsvtw7stcgcgntl/hdf5-1.10.5.tar.gz
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/hdf5-1.10.5-4g7pxvztoalbzhrm6wsvtw7stcgcgntl
+==> No patches needed for hdf5
+==> Building hdf5 [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed hdf5
+  Fetch: 0.04s.  Build: 7m 6.22s.  Total: 7m 6.26s.
+[+] /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/intel-18.0.5/hdf5-1.10.5-4g7pxvztoalbzhrm6wsvtw7stcgcgntl
+==> autoconf@2.69 : externally installed in /usr
+==> autoconf@2.69 : generating module file
+==> autoconf@2.69 : registering into DB
+==> Installing json-c
+==> Searching for binary cache of json-c
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for json-c found: installing from source
+==> Using cached archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/cache/json-c/json-c-0.13.1.tar.gz
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/json-c-0.13.1-jo7tu7fwqwdrld5v2tro4lhqd4hlnigj/json-c-0.13.1.tar.gz
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/json-c-0.13.1-jo7tu7fwqwdrld5v2tro4lhqd4hlnigj
+==> No patches needed for json-c
+==> Building json-c [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed json-c
+  Fetch: 0.01s.  Build: 1m 23.42s.  Total: 1m 23.44s.
+[+] /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/intel-18.0.5/json-c-0.13.1-jo7tu7fwqwdrld5v2tro4lhqd4hlnigj
+==> Installing libhio
+==> Searching for binary cache of libhio
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libhio found: installing from source
+==> Using cached archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/cache/libhio/libhio-1.4.1.3.tar.bz2
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/libhio-1.4.1.3-baunmnwdhpfze6xg6d4gkstdx4p5uk23/libhio-1.4.1.3.tar.bz2
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/libhio-1.4.1.3-baunmnwdhpfze6xg6d4gkstdx4p5uk23
+==> No patches needed for libhio
+==> Building libhio [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libhio
+  Fetch: 0.01s.  Build: 2m 49.28s.  Total: 2m 49.29s.
+[+] /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/intel-18.0.5/libhio-1.4.1.3-baunmnwdhpfze6xg6d4gkstdx4p5uk23
+
+spack install libhio @ 1.4.1.2 % cce@8.7.9  arch=cray-cnl6-haswell
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : generating module file
+==> bzip2@1.0.6 : registering into DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : generating module file
+==> libtool@2.4.6 : registering into DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : generating module file
+==> pkg-config@0.29.2 : registering into DB
+==> Installing util-macros
+==> Searching for binary cache of util-macros
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for util-macros found: installing from source
+==> Using cached archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/cache/util-macros/util-macros-1.19.1.tar.bz2
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/util-macros-1.19.1-dcqjyrkat5plbxxta6ewr5e6yvdel2yf/util-macros-1.19.1.tar.bz2
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/util-macros-1.19.1-dcqjyrkat5plbxxta6ewr5e6yvdel2yf
+==> No patches needed for util-macros
+==> Building util-macros [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed util-macros
+  Fetch: 0.00s.  Build: 1.92s.  Total: 1.92s.
+[+] /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/cce-8.7.9/util-macros-1.19.1-dcqjyrkat5plbxxta6ewr5e6yvdel2yf
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/libpciaccess-0.13.5-euyrnaoulwxf2vi44xod7l46oo7zwy5g/libpciaccess-0.13.5.tar.gz
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/libpciaccess-0.13.5-euyrnaoulwxf2vi44xod7l46oo7zwy5g
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install libhio @ 1.4.1.2 % cce@8.7.8  arch=cray-cnl6-haswell
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/cce-8.7.8/util-macros-1.19.1-fp5alpo7zzgk3bntf2tmk73fbjatp2ve
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/libpciaccess-0.13.5-kvtpv6d5nqzxdxqh3uioxmnkmftzfhx6/libpciaccess-0.13.5.tar.gz
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/libpciaccess-0.13.5-kvtpv6d5nqzxdxqh3uioxmnkmftzfhx6
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install libhio @ 1.4.1.2 % gcc@8.2.0  arch=cray-cnl6-haswell
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/gcc-8.2.0/util-macros-1.19.1-ahcdsq3oio2hi4q6ro3ct4oqe7lll4gd
+==> libpciaccess is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/gcc-8.2.0/libpciaccess-0.13.5-ahkgt2wf2yngccos2nm3ceojm3pbw55l
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> hwloc is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/gcc-8.2.0/hwloc-1.11.11-fusyoi5aiqlf6gz2e5c36sfdwuei364y
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> zlib is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/gcc-8.2.0/zlib-1.2.11-v25hso5bl3uxsylbalq2nb5l2k5s54mo
+==> openmpi is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/gcc-8.2.0/openmpi-3.1.4-3xwpbhsvqw7mtkbfnnfq3ndgdi7s2ulx
+==> hdf5 is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/gcc-8.2.0/hdf5-1.10.5-w2yqgskvxg3fb5hy7krdgdwrrlq32tiv
+==> autoconf@2.69 : externally installed in /usr
+==> autoconf@2.69 : already registered in DB
+==> json-c is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/gcc-8.2.0/json-c-0.13.1-xp2i4a3uf5zf7zvdchfmhpjdej6izbub
+==> Installing libhio
+==> Searching for binary cache of libhio
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libhio found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/libhio/libhio-1.4.1.2.tar.bz2
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/libhio-1.4.1.2-mr4fuxdasgf5gxwj6c3dpzyllrjbjnl6/libhio-1.4.1.2.tar.bz2
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/libhio-1.4.1.2-mr4fuxdasgf5gxwj6c3dpzyllrjbjnl6
+==> Applied patch /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/repos/builtin/packages/libhio/0001-spack-fix-for-spack-to-work-on-non-cray-systems.patch
+==> Building libhio [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libhio
+  Fetch: 0.03s.  Build: 50.93s.  Total: 50.96s.
+[+] /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/gcc-8.2.0/libhio-1.4.1.2-mr4fuxdasgf5gxwj6c3dpzyllrjbjnl6
+
+spack install libhio @ 1.4.1.2 % gcc@7.3.0  arch=cray-cnl6-haswell
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/gcc-7.3.0/util-macros-1.19.1-6r36scuufoz5oacgadueytqdwa3zepde
+==> libpciaccess is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/gcc-7.3.0/libpciaccess-0.13.5-h2ms6q3ptry7ttyluesbvwqqyhfjqi2w
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> hwloc is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/gcc-7.3.0/hwloc-1.11.11-7zmbmjqzte5cewxb3atnqoxg32xh7daf
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> zlib is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/gcc-7.3.0/zlib-1.2.11-uw4fzi4m6feyszysqptjqj42z5z3ekg6
+==> openmpi is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/gcc-7.3.0/openmpi-3.1.4-2y6czbjnrr7yjnbqzuegcvi3mqk6xhgl
+==> hdf5 is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/gcc-7.3.0/hdf5-1.10.5-wv5njwtzacw75qy5t2fiyea7rxffepgr
+==> autoconf@2.69 : externally installed in /usr
+==> autoconf@2.69 : already registered in DB
+==> json-c is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/gcc-7.3.0/json-c-0.13.1-um3fijfyvelwx7c37lmhsigntznj4hof
+==> Installing libhio
+==> Searching for binary cache of libhio
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libhio found: installing from source
+==> Using cached archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/cache/libhio/libhio-1.4.1.2.tar.bz2
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/libhio-1.4.1.2-4w2crh6zcnegqmufystnsxzc4qpyi6zw/libhio-1.4.1.2.tar.bz2
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/libhio-1.4.1.2-4w2crh6zcnegqmufystnsxzc4qpyi6zw
+==> Applied patch /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/repos/builtin/packages/libhio/0001-spack-fix-for-spack-to-work-on-non-cray-systems.patch
+==> Building libhio [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libhio
+  Fetch: 0.01s.  Build: 49.76s.  Total: 49.77s.
+[+] /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/gcc-7.3.0/libhio-1.4.1.2-4w2crh6zcnegqmufystnsxzc4qpyi6zw
+
+spack install libhio @ 1.4.1.2 % gcc@6.3.0  arch=cray-cnl6-haswell
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/gcc-6.3.0/util-macros-1.19.1-lb5vwbskpyp2iauuv34rolobxqyl5ysg
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/libpciaccess-0.13.5-upvrvvm3axk2d2zhjvsyokb6xc6odss4/libpciaccess-0.13.5.tar.gz
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/libpciaccess-0.13.5-upvrvvm3axk2d2zhjvsyokb6xc6odss4
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install libhio @ 1.4.1.2 % intel@19.0.1  arch=cray-cnl6-haswell
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : generating module file
+
+spack install libhio @ 1.4.1.2 % intel@18.0.5  arch=cray-cnl6-haswell
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/intel-18.0.5/util-macros-1.19.1-f6bltffychcvqwew6k5rkj3cht7cff55
+==> libpciaccess is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/intel-18.0.5/libpciaccess-0.13.5-sil2bz2z7442q5uttmf4yu2lsxs5tilx
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> hwloc is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/intel-18.0.5/hwloc-1.11.11-q2ysccqviamxxpyai5dkc4wmuo5qohhr
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> zlib is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/intel-18.0.5/zlib-1.2.11-fqgrfuyoyew2mcb34whyp27eucq26imp
+==> openmpi is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/intel-18.0.5/openmpi-3.1.4-ekgrteirjxzlsuor65dv446yjtv3vqco
+==> hdf5 is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/intel-18.0.5/hdf5-1.10.5-4g7pxvztoalbzhrm6wsvtw7stcgcgntl
+==> autoconf@2.69 : externally installed in /usr
+==> autoconf@2.69 : already registered in DB
+==> json-c is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/intel-18.0.5/json-c-0.13.1-jo7tu7fwqwdrld5v2tro4lhqd4hlnigj
+==> Installing libhio
+==> Searching for binary cache of libhio
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libhio found: installing from source
+==> Using cached archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/cache/libhio/libhio-1.4.1.2.tar.bz2
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/libhio-1.4.1.2-tczn2qeyiheyvhad3ydjllj5ass6rtme/libhio-1.4.1.2.tar.bz2
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/stage/libhio-1.4.1.2-tczn2qeyiheyvhad3ydjllj5ass6rtme
+==> Applied patch /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/var/spack/repos/builtin/packages/libhio/0001-spack-fix-for-spack-to-work-on-non-cray-systems.patch
+==> Building libhio [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libhio
+  Fetch: 0.01s.  Build: 2m 47.23s.  Total: 2m 47.23s.
+[+] /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio/opt/spack/cray-cnl6-haswell/intel-18.0.5/libhio-1.4.1.2-tczn2qeyiheyvhad3ydjllj5ass6rtme

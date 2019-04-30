@@ -1,0 +1,26 @@
+Wed Apr 24 20:51:49 MDT 2019
+/scratch/users/dantopa/new-spack/libraries/darwin-power9.ucx
+spack find ucx >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/ucx-darwin-power9.out
+==> 15 installed packages
+-- linux-rhel7-ppc64le / gcc@4.8.5 ------------------------------
+ucx@1.2.2
+ucx@1.3.1
+ucx@1.4.0
+ucx@1.5.0
+
+-- linux-rhel7-ppc64le / gcc@6.4.0 ------------------------------
+ucx@1.2.2
+ucx@1.3.1
+ucx@1.4.0
+ucx@1.5.0
+
+-- linux-rhel7-ppc64le / gcc@7.3.0 ------------------------------
+ucx@1.2.2
+ucx@1.3.1
+ucx@1.4.0
+ucx@1.5.0
+
+-- linux-rhel7-ppc64le / gcc@8.2.0 ------------------------------
+ucx@1.3.1
+ucx@1.4.0
+ucx@1.5.0

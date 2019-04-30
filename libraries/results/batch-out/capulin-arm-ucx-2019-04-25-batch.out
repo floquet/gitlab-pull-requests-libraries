@@ -1,0 +1,2124 @@
+Thu Apr 25 20:47:02 MDT 2019 /var/spool/slurm/job321401/slurm_script
+source "${dir_tools}/bash/master-tpl-sweep.sh"
+Thu Apr 25 20:47:02 MDT 2019 /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh
+cd /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools
+source directories/libraries-capulin.sh
+Thu Apr 25 20:47:02 MDT 2019 [1mdirectories/libraries-capulin.sh(B[m
+source tpl-versions/versions-ucx.sh
+Thu Apr 25 20:47:02 MDT 2019 [1mtpl-versions/versions-ucx.sh(B[m
+4 ucx versions loaded:
+1.5.0  1.4.0  1.3.1  1.2.2
+
+source compilers/compilers-capulin-arm.sh
+Thu Apr 25 20:47:02 MDT 2019 [1mcompilers/compilers-capulin-arm.sh(B[m
+11 Spack-recognized compilers loaded:
+gcc@8.2.0  gcc@7.3.0  gcc@6.3.0  gcc@5.3.0 gcc@4.9.3  intel@18.0.5  intel@17.0.4  intel@16.0.3 cce@8.7.9 cce@8.6.5 cce@8.5.8 
+
+source klingons/capulin-arm-ucx.sh
+/lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 36: klingons/capulin-arm-ucx.sh: No such file or directory
+cd /lustre/cpscratch1/dantopa/repos/spack/libraries/capulin-arm.ucx
+. share/spack/setup-env.sh
+export spack_architecture='arch=cray-cnl6-arm_thunderx2'
+spack clean -a
+export spack_architecture='arch=cray-cnl6-arm_thunderx2'
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+spack compilers
+==> Available compilers
+-- cce cnl6-any -------------------------------------------------
+cce@8.7.10
+cce@8.7.9
+
+-- gcc cnl6-any -------------------------------------------------
+gcc@8.2.0
+gcc@7.3.0
+gcc@6.1.0
+ls -alh etc/spack/defaults
+total 151K
+drwxr-x--- 4 dantopa dantopa  13K Apr 25 20:41 .
+drwxr-x--- 3 dantopa dantopa  12K Apr 25 16:51 ..
+-rw-r----- 1 dantopa dantopa 1.4K Apr 25 20:41 compilers.yaml
+-rw-r----- 1 dantopa dantopa 4.4K Apr 25 16:51 config.yaml
+drwxr-x--- 2 dantopa dantopa  12K Apr 25 16:51 darwin
+drwxr-x--- 2 dantopa dantopa  12K Apr 25 16:51 linux
+-rw-r----- 1 dantopa dantopa  216 Apr 25 20:41 mirrors.yaml
+-rw-r----- 1 dantopa dantopa 3.7K Apr 25 20:41 modules.yaml
+-rw-r----- 1 dantopa dantopa 3.1K Apr 25 20:41 packages.yaml
+-rw-r----- 1 dantopa dantopa  530 Apr 25 16:51 release.yaml
+-rw-r----- 1 dantopa dantopa  546 Apr 25 16:51 repos.yaml
+-rw-r----- 1 dantopa dantopa 3.7K Apr 25 20:41 tcl-modules.yaml
+cat etc/spack/defaults/compilers.yaml
+compilers:
+# # cray  8.7.10, 8.7.9
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - !!python/unicode
+      'cce/8.7.10'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: cce@8.7.10
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - !!python/unicode
+      'cce/8.7.9'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: cce@8.7.9
+    target: any
+# # gcc  8.2.0, 7.3.0, 6.1.0
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/8.2.0'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: gcc@8.2.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/7.3.0'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: gcc@7.3.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/6.1.0'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: gcc@6.1.0
+    target: any
+spack config get compilers
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - !!python/unicode
+      'cce/8.7.10'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: cce@8.7.10
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - !!python/unicode
+      'cce/8.7.9'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: cce@8.7.9
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/8.2.0'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: gcc@8.2.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/7.3.0'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: gcc@7.3.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/6.1.0'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: gcc@6.1.0
+    target: any
+spack install openmpi @ 4.0.1 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-openmpi-install.log
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+spack compilers
+==> Available compilers
+-- cce cnl6-any -------------------------------------------------
+cce@8.7.10
+cce@8.7.9
+
+-- gcc cnl6-any -------------------------------------------------
+gcc@8.2.0
+gcc@7.3.0
+gcc@6.1.0
+ls -alh etc/spack/defaults
+total 151K
+drwxr-x--- 4 dantopa dantopa  13K Apr 25 20:41 .
+drwxr-x--- 3 dantopa dantopa  12K Apr 25 16:51 ..
+-rw-r----- 1 dantopa dantopa 1.4K Apr 25 20:41 compilers.yaml
+-rw-r----- 1 dantopa dantopa 4.4K Apr 25 16:51 config.yaml
+drwxr-x--- 2 dantopa dantopa  12K Apr 25 16:51 darwin
+drwxr-x--- 2 dantopa dantopa  12K Apr 25 16:51 linux
+-rw-r----- 1 dantopa dantopa  216 Apr 25 20:41 mirrors.yaml
+-rw-r----- 1 dantopa dantopa 3.7K Apr 25 20:41 modules.yaml
+-rw-r----- 1 dantopa dantopa 3.1K Apr 25 20:41 packages.yaml
+-rw-r----- 1 dantopa dantopa  530 Apr 25 16:51 release.yaml
+-rw-r----- 1 dantopa dantopa  546 Apr 25 16:51 repos.yaml
+-rw-r----- 1 dantopa dantopa 3.7K Apr 25 20:41 tcl-modules.yaml
+cat etc/spack/defaults/compilers.yaml
+compilers:
+# # cray  8.7.10, 8.7.9
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - !!python/unicode
+      'cce/8.7.10'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: cce@8.7.10
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - !!python/unicode
+      'cce/8.7.9'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: cce@8.7.9
+    target: any
+# # gcc  8.2.0, 7.3.0, 6.1.0
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/8.2.0'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: gcc@8.2.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/7.3.0'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: gcc@7.3.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/6.1.0'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: gcc@6.1.0
+    target: any
+spack config get compilers
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+spack compilers
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - !!python/unicode
+      'cce/8.7.10'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: cce@8.7.10
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - !!python/unicode
+      'cce/8.7.9'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: cce@8.7.9
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/8.2.0'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: gcc@8.2.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/7.3.0'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: gcc@7.3.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/6.1.0'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: gcc@6.1.0
+    target: any
+spack install pmix @ 3.1.2 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Available compilers
+-- cce cnl6-any -------------------------------------------------
+cce@8.7.10
+cce@8.7.9
+
+-- gcc cnl6-any -------------------------------------------------
+gcc@8.2.0
+gcc@7.3.0
+gcc@6.1.0
+ls -alh etc/spack/defaults
+total 151K
+drwxr-x--- 4 dantopa dantopa  13K Apr 25 20:42 .
+drwxr-x--- 3 dantopa dantopa  12K Apr 25 16:51 ..
+-rw-r----- 1 dantopa dantopa 1.4K Apr 25 20:42 compilers.yaml
+-rw-r----- 1 dantopa dantopa 4.4K Apr 25 16:51 config.yaml
+drwxr-x--- 2 dantopa dantopa  12K Apr 25 16:51 darwin
+drwxr-x--- 2 dantopa dantopa  12K Apr 25 16:51 linux
+-rw-r----- 1 dantopa dantopa  216 Apr 25 20:42 mirrors.yaml
+-rw-r----- 1 dantopa dantopa 3.7K Apr 25 20:42 modules.yaml
+-rw-r----- 1 dantopa dantopa 3.1K Apr 25 20:42 packages.yaml
+-rw-r----- 1 dantopa dantopa  530 Apr 25 16:51 release.yaml
+-rw-r----- 1 dantopa dantopa  546 Apr 25 16:51 repos.yaml
+-rw-r----- 1 dantopa dantopa 3.7K Apr 25 20:42 tcl-modules.yaml
+cat etc/spack/defaults/compilers.yaml
+compilers:
+# # cray  8.7.10, 8.7.9
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - !!python/unicode
+      'cce/8.7.10'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: cce@8.7.10
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - !!python/unicode
+      'cce/8.7.9'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: cce@8.7.9
+    target: any
+# # gcc  8.2.0, 7.3.0, 6.1.0
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/8.2.0'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: gcc@8.2.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/7.3.0'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: gcc@7.3.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/6.1.0'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: gcc@6.1.0
+    target: any
+spack config get compilers
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - !!python/unicode
+      'cce/8.7.10'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: cce@8.7.10
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - !!python/unicode
+      'cce/8.7.9'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: cce@8.7.9
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/8.2.0'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: gcc@8.2.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/7.3.0'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: gcc@7.3.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/6.1.0'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: gcc@6.1.0
+    target: any
+spack install ucx @ 1.5.0 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: [Errno 116] Stale file handle
+spack install libhio @ 1.4.1.3 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-libhio-install.log
+==> Error: SyntaxError: invalid syntax (<string>, line 1)
+
+/pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py:785, in child_process:
+        782            tb_string = traceback.format_exc()
+        783
+        784            # build up some context from the offending package so we can
+  >>    785            # show that, too.
+        786            package_context = get_package_context(tb)
+        787
+        788            build_log = None
+
+
+spack install ucx @ 1.5.0 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j224'
+
+15 errors found in build log:
+     584    make[2]: Entering directory '/tmp/dantopa/spack-stage/spack-stage-b
+            X2m4Y/hwloc-2.0.2/utils/netloc/mpi'
+     585      CC       netloc_rank_order.o
+     586      CC       netloc_mpi_find_hosts-netloc_mpi_find_hosts.o
+     587      CCLD     netloc_rank_order
+     588      CCLD     netloc_mpi_find_hosts
+     589    /usr/bin/ld: netloc_mpi_find_hosts-netloc_mpi_find_hosts.o: in func
+            tion `main':
+  >> 590    /tmp/dantopa/spack-stage/spack-stage-bX2m4Y/hwloc-2.0.2/utils/netlo
+            c/mpi/netloc_mpi_find_hosts.c:40: undefined reference to `MPI_Init'
+  >> 591    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-bX2m4Y/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:42: undefined reference 
+            to `MPI_Comm_rank'
+  >> 592    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-bX2m4Y/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:43: undefined reference 
+            to `MPI_Comm_size'
+  >> 593    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-bX2m4Y/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:48: undefined reference 
+            to `MPI_Abort'
+  >> 594    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-bX2m4Y/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:57: undefined reference 
+            to `MPI_Get_processor_name'
+  >> 595    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-bX2m4Y/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:93: undefined reference 
+            to `MPI_Recv'
+  >> 596    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-bX2m4Y/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:99: undefined reference 
+            to `MPI_Recv'
+  >> 597    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-bX2m4Y/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:116: undefined reference
+             to `MPI_Send'
+  >> 598    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-bX2m4Y/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:157: undefined reference
+             to `MPI_Send'
+  >> 599    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-bX2m4Y/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:159: undefined reference
+             to `MPI_Send'
+  >> 600    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-bX2m4Y/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:162: undefined reference
+             to `MPI_Recv'
+  >> 601    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-bX2m4Y/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:223: undefined reference
+             to `MPI_Finalize'
+  >> 602    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-bX2m4Y/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:112: undefined reference
+             to `MPI_Send'
+  >> 603    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-bX2m4Y/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:65: undefined reference 
+            to `MPI_Abort'
+  >> 604    collect2: error: ld returned 1 exit status
+     605    make[2]: *** [Makefile:517: netloc_mpi_find_hosts] Error 1
+     606    make[2]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-bX
+            2m4Y/hwloc-2.0.2/utils/netloc/mpi'
+     607    make[1]: *** [Makefile:454: all-recursive] Error 1
+     608    make[1]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-bX
+            2m4Y/hwloc-2.0.2/utils'
+     609    make: *** [Makefile:629: all-recursive] Error 1
+
+See build log for details:
+  /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/var/spack/stage/hwloc-2.0.2-7lyxv6bzbt6b6tbltzzhoplr35fsut7b/spack-build.out
+spack install pmix @ 3.1.2 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: SyntaxError: invalid syntax (<string>, line 1)
+
+/pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py:785, in child_process:
+        782            tb_string = traceback.format_exc()
+        783
+        784            # build up some context from the offending package so we can
+  >>    785            # show that, too.
+        786            package_context = get_package_context(tb)
+        787
+        788            build_log = None
+
+
+spack install ucx @ 1.5.0 % gcc@6.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: No compilers with spec gcc@6.3.0 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.5.0 % gcc@5.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: No compilers with spec gcc@5.3.0 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.5.0 % gcc@4.9.3  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: No compilers with spec gcc@4.9.3 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.5.0 % intel@18.0.5  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: No compilers with spec intel@18.0.5 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.5.0 % intel@17.0.4  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: No compilers with spec intel@17.0.4 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.5.0 % intel@16.0.3  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: No compilers with spec intel@16.0.3 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.5.0 % cce@8.7.9  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j224'
+
+15 errors found in build log:
+     584    make[2]: Entering directory '/tmp/dantopa/spack-stage/spack-stage-U
+            vSk2t/hwloc-2.0.2/utils/netloc/mpi'
+     585      CC       netloc_rank_order.o
+     586      CC       netloc_mpi_find_hosts-netloc_mpi_find_hosts.o
+     587      CCLD     netloc_rank_order
+     588      CCLD     netloc_mpi_find_hosts
+     589    /usr/bin/ld: netloc_mpi_find_hosts-netloc_mpi_find_hosts.o: in func
+            tion `main':
+  >> 590    /tmp/dantopa/spack-stage/spack-stage-UvSk2t/hwloc-2.0.2/utils/netlo
+            c/mpi/netloc_mpi_find_hosts.c:40: undefined reference to `MPI_Init'
+  >> 591    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-UvSk2t/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:42: undefined reference 
+            to `MPI_Comm_rank'
+  >> 592    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-UvSk2t/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:43: undefined reference 
+            to `MPI_Comm_size'
+  >> 593    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-UvSk2t/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:48: undefined reference 
+            to `MPI_Abort'
+  >> 594    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-UvSk2t/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:57: undefined reference 
+            to `MPI_Get_processor_name'
+  >> 595    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-UvSk2t/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:157: undefined reference
+             to `MPI_Send'
+  >> 596    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-UvSk2t/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:159: undefined reference
+             to `MPI_Send'
+  >> 597    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-UvSk2t/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:162: undefined reference
+             to `MPI_Recv'
+  >> 598    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-UvSk2t/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:223: undefined reference
+             to `MPI_Finalize'
+  >> 599    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-UvSk2t/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:93: undefined reference 
+            to `MPI_Recv'
+  >> 600    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-UvSk2t/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:99: undefined reference 
+            to `MPI_Recv'
+  >> 601    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-UvSk2t/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:116: undefined reference
+             to `MPI_Send'
+  >> 602    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-UvSk2t/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:112: undefined reference
+             to `MPI_Send'
+  >> 603    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-UvSk2t/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:65: undefined reference 
+            to `MPI_Abort'
+  >> 604    collect2: error: ld returned 1 exit status
+     605    make[2]: *** [Makefile:517: netloc_mpi_find_hosts] Error 1
+     606    make[2]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-Uv
+            Sk2t/hwloc-2.0.2/utils/netloc/mpi'
+     607    make[1]: *** [Makefile:454: all-recursive] Error 1
+     608    make[1]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-Uv
+            Sk2t/hwloc-2.0.2/utils'
+     609    make: *** [Makefile:629: all-recursive] Error 1
+
+See build log for details:
+  /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/var/spack/stage/hwloc-2.0.2-g3b5rh6i2pa4d45duslrgwozd4a44je6/spack-build.out
+spack install pmix @ 3.1.2 % gcc@6.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: No compilers with spec gcc@6.3.0 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 3.1.2 % gcc@5.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: No compilers with spec gcc@5.3.0 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 3.1.2 % gcc@4.9.3  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: No compilers with spec gcc@4.9.3 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 3.1.2 % intel@18.0.5  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: No compilers with spec intel@18.0.5 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 3.1.2 % intel@17.0.4  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: No compilers with spec intel@17.0.4 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 3.1.2 % intel@16.0.3  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: No compilers with spec intel@16.0.3 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 3.1.2 % cce@8.7.9  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j224'
+See build log for details:
+  /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-44uhaq6ubmvjglvzrdfq2kdc5mqetzgu/spack-build.out
+spack install pmix @ 3.1.2 % cce@8.6.5  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: No compilers with spec cce@8.6.5 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 3.1.2 % cce@8.5.8  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: No compilers with spec cce@8.5.8 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 3.0.2 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j224'
+
+15 errors found in build log:
+     584    make[2]: Entering directory '/tmp/dantopa/spack-stage/spack-stage-b
+            FK9Bq/hwloc-2.0.2/utils/netloc/mpi'
+     585      CC       netloc_rank_order.o
+     586      CC       netloc_mpi_find_hosts-netloc_mpi_find_hosts.o
+     587      CCLD     netloc_rank_order
+     588      CCLD     netloc_mpi_find_hosts
+     589    /usr/bin/ld: netloc_mpi_find_hosts-netloc_mpi_find_hosts.o: in func
+            tion `main':
+  >> 590    /tmp/dantopa/spack-stage/spack-stage-bFK9Bq/hwloc-2.0.2/utils/netlo
+            c/mpi/netloc_mpi_find_hosts.c:40: undefined reference to `MPI_Init'
+  >> 591    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-bFK9Bq/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:42: undefined reference 
+            to `MPI_Comm_rank'
+  >> 592    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-bFK9Bq/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:43: undefined reference 
+            to `MPI_Comm_size'
+  >> 593    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-bFK9Bq/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:48: undefined reference 
+            to `MPI_Abort'
+  >> 594    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-bFK9Bq/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:57: undefined reference 
+            to `MPI_Get_processor_name'
+  >> 595    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-bFK9Bq/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:93: undefined reference 
+            to `MPI_Recv'
+  >> 596    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-bFK9Bq/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:99: undefined reference 
+            to `MPI_Recv'
+  >> 597    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-bFK9Bq/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:116: undefined reference
+             to `MPI_Send'
+  >> 598    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-bFK9Bq/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:157: undefined reference
+             to `MPI_Send'
+  >> 599    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-bFK9Bq/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:159: undefined reference
+             to `MPI_Send'
+  >> 600    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-bFK9Bq/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:162: undefined reference
+             to `MPI_Recv'
+  >> 601    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-bFK9Bq/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:223: undefined reference
+             to `MPI_Finalize'
+  >> 602    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-bFK9Bq/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:112: undefined reference
+             to `MPI_Send'
+  >> 603    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-bFK9Bq/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:65: undefined reference 
+            to `MPI_Abort'
+  >> 604    collect2: error: ld returned 1 exit status
+     605    make[2]: *** [Makefile:517: netloc_mpi_find_hosts] Error 1
+     606    make[2]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-bF
+            K9Bq/hwloc-2.0.2/utils/netloc/mpi'
+     607    make[1]: *** [Makefile:454: all-recursive] Error 1
+     608    make[1]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-bF
+            K9Bq/hwloc-2.0.2/utils'
+     609    make: *** [Makefile:629: all-recursive] Error 1
+
+See build log for details:
+  /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/var/spack/stage/hwloc-2.0.2-7lyxv6bzbt6b6tbltzzhoplr35fsut7b/spack-build.out
+spack install pmix @ 3.0.2 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: SyntaxError: invalid syntax (<string>, line 1)
+
+/pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py:785, in child_process:
+        782            tb_string = traceback.format_exc()
+        783
+        784            # build up some context from the offending package so we can
+  >>    785            # show that, too.
+        786            package_context = get_package_context(tb)
+        787
+        788            build_log = None
+
+
+spack install ucx @ 1.5.0 % cce@8.6.5  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: No compilers with spec cce@8.6.5 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.5.0 % cce@8.5.8  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: No compilers with spec cce@8.5.8 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.4.0 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: SyntaxError: invalid syntax (<string>, line 1)
+
+/pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py:785, in child_process:
+        782            tb_string = traceback.format_exc()
+        783
+        784            # build up some context from the offending package so we can
+  >>    785            # show that, too.
+        786            package_context = get_package_context(tb)
+        787
+        788            build_log = None
+
+
+spack install ucx @ 1.4.0 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: SyntaxError: invalid syntax (<string>, line 1)
+
+/pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py:785, in child_process:
+        782            tb_string = traceback.format_exc()
+        783
+        784            # build up some context from the offending package so we can
+  >>    785            # show that, too.
+        786            package_context = get_package_context(tb)
+        787
+        788            build_log = None
+
+
+spack install ucx @ 1.4.0 % gcc@6.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: No compilers with spec gcc@6.3.0 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.4.0 % gcc@5.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: No compilers with spec gcc@5.3.0 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.4.0 % gcc@4.9.3  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: No compilers with spec gcc@4.9.3 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.4.0 % intel@18.0.5  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: No compilers with spec intel@18.0.5 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.4.0 % intel@17.0.4  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: No compilers with spec intel@17.0.4 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.4.0 % intel@16.0.3  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: No compilers with spec intel@16.0.3 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.4.0 % cce@8.7.9  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j224'
+
+15 errors found in build log:
+     584    make[2]: Entering directory '/tmp/dantopa/spack-stage/spack-stage-j
+            P4McH/hwloc-2.0.2/utils/netloc/mpi'
+     585      CC       netloc_rank_order.o
+     586      CC       netloc_mpi_find_hosts-netloc_mpi_find_hosts.o
+     587      CCLD     netloc_rank_order
+     588      CCLD     netloc_mpi_find_hosts
+     589    /usr/bin/ld: netloc_mpi_find_hosts-netloc_mpi_find_hosts.o: in func
+            tion `main':
+  >> 590    /tmp/dantopa/spack-stage/spack-stage-jP4McH/hwloc-2.0.2/utils/netlo
+            c/mpi/netloc_mpi_find_hosts.c:40: undefined reference to `MPI_Init'
+  >> 591    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-jP4McH/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:42: undefined reference 
+            to `MPI_Comm_rank'
+  >> 592    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-jP4McH/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:43: undefined reference 
+            to `MPI_Comm_size'
+  >> 593    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-jP4McH/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:48: undefined reference 
+            to `MPI_Abort'
+  >> 594    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-jP4McH/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:57: undefined reference 
+            to `MPI_Get_processor_name'
+  >> 595    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-jP4McH/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:157: undefined reference
+             to `MPI_Send'
+  >> 596    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-jP4McH/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:159: undefined reference
+             to `MPI_Send'
+  >> 597    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-jP4McH/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:162: undefined reference
+             to `MPI_Recv'
+  >> 598    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-jP4McH/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:223: undefined reference
+             to `MPI_Finalize'
+  >> 599    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-jP4McH/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:93: undefined reference 
+            to `MPI_Recv'
+  >> 600    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-jP4McH/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:99: undefined reference 
+            to `MPI_Recv'
+  >> 601    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-jP4McH/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:116: undefined reference
+             to `MPI_Send'
+  >> 602    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-jP4McH/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:112: undefined reference
+             to `MPI_Send'
+  >> 603    /usr/bin/ld: /tmp/dantopa/spack-stage/spack-stage-jP4McH/hwloc-2.0.
+            2/utils/netloc/mpi/netloc_mpi_find_hosts.c:65: undefined reference 
+            to `MPI_Abort'
+  >> 604    collect2: error: ld returned 1 exit status
+     605    make[2]: *** [Makefile:517: netloc_mpi_find_hosts] Error 1
+     606    make[2]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-jP
+            4McH/hwloc-2.0.2/utils/netloc/mpi'
+     607    make[1]: *** [Makefile:454: all-recursive] Error 1
+     608    make[1]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-jP
+            4McH/hwloc-2.0.2/utils'
+     609    make: *** [Makefile:629: all-recursive] Error 1
+
+See build log for details:
+  /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/var/spack/stage/hwloc-2.0.2-g3b5rh6i2pa4d45duslrgwozd4a44je6/spack-build.out
+spack install pmix @ 3.0.2 % gcc@6.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: No compilers with spec gcc@6.3.0 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 3.0.2 % gcc@5.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: SyntaxError: invalid syntax (<string>, line 1)
+
+/pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py:785, in child_process:
+        782            tb_string = traceback.format_exc()
+        783
+        784            # build up some context from the offending package so we can
+  >>    785            # show that, too.
+        786            package_context = get_package_context(tb)
+        787
+        788            build_log = None
+
+
+spack install ucx @ 1.4.0 % cce@8.6.5  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: No compilers with spec gcc@5.3.0 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 3.0.2 % gcc@4.9.3  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: No compilers with spec gcc@4.9.3 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 3.0.2 % intel@18.0.5  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: No compilers with spec cce@8.6.5 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.4.0 % cce@8.5.8  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: No compilers with spec intel@18.0.5 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 3.0.2 % intel@17.0.4  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: No compilers with spec cce@8.5.8 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.3.1 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: No compilers with spec intel@17.0.4 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 3.0.2 % intel@16.0.3  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: No compilers with spec intel@16.0.3 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 3.0.2 % cce@8.7.9  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: SyntaxError: invalid syntax (<string>, line 1)
+
+/pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py:785, in child_process:
+        782            tb_string = traceback.format_exc()
+        783
+        784            # build up some context from the offending package so we can
+  >>    785            # show that, too.
+        786            package_context = get_package_context(tb)
+        787
+        788            build_log = None
+
+
+spack install ucx @ 1.3.1 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: SyntaxError: invalid syntax (<string>, line 1)
+
+/pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py:785, in child_process:
+        782            tb_string = traceback.format_exc()
+        783
+        784            # build up some context from the offending package so we can
+  >>    785            # show that, too.
+        786            package_context = get_package_context(tb)
+        787
+        788            build_log = None
+
+
+spack install ucx @ 1.3.1 % gcc@6.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: No compilers with spec gcc@6.3.0 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.3.1 % gcc@5.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: No compilers with spec gcc@5.3.0 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.3.1 % gcc@4.9.3  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: No compilers with spec gcc@4.9.3 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.3.1 % intel@18.0.5  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: No compilers with spec intel@18.0.5 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.3.1 % intel@17.0.4  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j224'
+See build log for details:
+  /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-44uhaq6ubmvjglvzrdfq2kdc5mqetzgu/spack-build.out
+spack install pmix @ 3.0.2 % cce@8.6.5  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: No compilers with spec intel@17.0.4 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.3.1 % intel@16.0.3  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: No compilers with spec cce@8.6.5 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 3.0.2 % cce@8.5.8  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: No compilers with spec intel@16.0.3 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.3.1 % cce@8.7.9  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: No compilers with spec cce@8.5.8 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 2.2.2 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: SyntaxError: invalid syntax (<string>, line 1)
+
+/pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py:785, in child_process:
+        782            tb_string = traceback.format_exc()
+        783
+        784            # build up some context from the offending package so we can
+  >>    785            # show that, too.
+        786            package_context = get_package_context(tb)
+        787
+        788            build_log = None
+
+
+spack install ucx @ 1.3.1 % cce@8.6.5  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: No compilers with spec cce@8.6.5 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.3.1 % cce@8.5.8  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: No compilers with spec cce@8.5.8 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.2.2 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: SyntaxError: invalid syntax (<string>, line 1)
+
+/pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py:785, in child_process:
+        782            tb_string = traceback.format_exc()
+        783
+        784            # build up some context from the offending package so we can
+  >>    785            # show that, too.
+        786            package_context = get_package_context(tb)
+        787
+        788            build_log = None
+
+
+spack install ucx @ 1.2.2 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: SyntaxError: invalid syntax (<string>, line 1)
+
+/pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py:785, in child_process:
+        782            tb_string = traceback.format_exc()
+        783
+        784            # build up some context from the offending package so we can
+  >>    785            # show that, too.
+        786            package_context = get_package_context(tb)
+        787
+        788            build_log = None
+
+
+spack install ucx @ 1.2.2 % gcc@6.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: No compilers with spec gcc@6.3.0 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.2.2 % gcc@5.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: No compilers with spec gcc@5.3.0 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.2.2 % gcc@4.9.3  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: No compilers with spec gcc@4.9.3 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.2.2 % intel@18.0.5  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: No compilers with spec intel@18.0.5 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.2.2 % intel@17.0.4  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: No compilers with spec intel@17.0.4 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.2.2 % intel@16.0.3  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: No compilers with spec intel@16.0.3 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.2.2 % cce@8.7.9  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: SyntaxError: invalid syntax (<string>, line 1)
+
+/pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py:785, in child_process:
+        782            tb_string = traceback.format_exc()
+        783
+        784            # build up some context from the offending package so we can
+  >>    785            # show that, too.
+        786            package_context = get_package_context(tb)
+        787
+        788            build_log = None
+
+
+spack install ucx @ 1.2.2 % cce@8.6.5  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: No compilers with spec cce@8.6.5 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.2.2 % cce@8.5.8  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: No compilers with spec cce@8.5.8 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+mkdir -p "${dir_results}/platform-order"
+mkdir -p "${dir_results}/tpl-order"
+mkdir -p "${dir_results}/graphs"
+spack find ucx >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/platform-order/capulin-arm-ucx.out
+spack find ucx >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/ucx-capulin-arm.out
+spack find -ldf ucx  >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/ucx-capulin-arm-ldf.out
+spack graph ucx >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/graphs/ucx-capulin-arm-graph.out
+spack compilers
+==> Available compilers
+-- cce cnl6-any -------------------------------------------------
+cce@8.7.10
+cce@8.7.9
+
+-- gcc cnl6-any -------------------------------------------------
+gcc@8.2.0
+gcc@7.3.0
+gcc@6.1.0
+spack find ucx
+==> No package matches the query: ucx
+spack find -ldf ucx
+==> No package matches the query: ucx
+mv  /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/capulin-arm-batch.out   /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/batch-out/capulin-arm-ucx-2019-04-25-batch.out
+cd /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests
+git add -A .
+git commit -m "${USER} ${tpl} ${hpc} ${partition} ${ymd}"
+[master 42ff871] dantopa ucx capulin arm 2019-04-25
+ 13 files changed, 1777 insertions(+), 5 deletions(-)
+ create mode 100644 libraries/results/batch-out/capulin-arm-ucx-2019-04-25-batch.out
+ create mode 100644 libraries/results/command-log/capulin-arm-libhio-command.log
+ create mode 100644 libraries/results/command-log/capulin-arm-openmpi-command.log
+ create mode 100644 libraries/results/command-log/capulin-arm-pmix-command.log
+ create mode 100644 libraries/results/command-log/capulin-arm-ucx-command.log
+ create mode 100644 libraries/results/graphs/ucx-capulin-arm-graph.out
+ create mode 100644 libraries/results/install-log/capulin-arm-libhio-install.log
+ create mode 100644 libraries/results/install-log/capulin-arm-openmpi-install.log
+ create mode 100644 libraries/results/install-log/capulin-arm-pmix-install.log
+ create mode 100644 libraries/results/tpl-order/ucx-capulin-arm-ldf.out
+ create mode 100644 libraries/results/tpl-order/ucx-capulin-arm.out
+Thu Apr 25 20:58:38 MDT 2019
+spack install pmix @ 2.2.2 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+spack install pmix @ 2.2.2 % gcc@6.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: No compilers with spec gcc@6.3.0 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 2.2.2 % gcc@5.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: No compilers with spec gcc@5.3.0 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 2.2.2 % gcc@4.9.3  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: No compilers with spec gcc@4.9.3 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 2.2.2 % intel@18.0.5  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: No compilers with spec intel@18.0.5 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 2.2.2 % intel@17.0.4  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: No compilers with spec intel@17.0.4 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 2.2.2 % intel@16.0.3  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: No compilers with spec intel@16.0.3 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 2.2.2 % cce@8.7.9  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j224'
+
+125 warnings found in build log:
+     95     checking for clock_gettime... no
+     96     checking for library containing sendfile... no
+     97     checking for WIN32... no
+     98     checking for CYGWIN... no
+     99     checking zlib.h usability... no
+     100    checking zlib.h presence... yes
+  >> 101    configure: WARNING: zlib.h: present but cannot be compiled
+  >> 102    configure: WARNING: zlib.h:     check for missing prerequisite head
+            ers?
+  >> 103    configure: WARNING: zlib.h: see the Autoconf documentation
+  >> 104    configure: WARNING: zlib.h:     section "Present But Cannot Be Comp
+            iled"
+  >> 105    configure: WARNING: zlib.h: proceeding with the compiler's result
+     106    checking for zlib.h... no
+     107    checking for special C compiler options needed for large files... n
+            o
+     108    checking for _FILE_OFFSET_BITS value needed for large files... unkn
+            own
+     109    checking for _LARGE_FILES value needed for large files... unknown
+     110    checking for pkg-config... /usr/bin/pkg-config
+     111    checking if pkg-config is at least version 0.15.0... yes
+     112    checking arpa/inet.h usability... no
+     113    checking arpa/inet.h presence... yes
+  >> 114    configure: WARNING: arpa/inet.h: present but cannot be compiled
+  >> 115    configure: WARNING: arpa/inet.h:     check for missing prerequisite
+             headers?
+  >> 116    configure: WARNING: arpa/inet.h: see the Autoconf documentation
+  >> 117    configure: WARNING: arpa/inet.h:     section "Present But Cannot Be
+             Compiled"
+  >> 118    configure: WARNING: arpa/inet.h: proceeding with the compiler's res
+            ult
+     119    checking for arpa/inet.h... no
+     120    checking fcntl.h usability... no
+     121    checking fcntl.h presence... yes
+  >> 122    configure: WARNING: fcntl.h: present but cannot be compiled
+  >> 123    configure: WARNING: fcntl.h:     check for missing prerequisite hea
+            ders?
+  >> 124    configure: WARNING: fcntl.h: see the Autoconf documentation
+  >> 125    configure: WARNING: fcntl.h:     section "Present But Cannot Be Com
+            piled"
+  >> 126    configure: WARNING: fcntl.h: proceeding with the compiler's result
+     127    checking for fcntl.h... no
+     128    checking ifaddrs.h usability... no
+     129    checking ifaddrs.h presence... yes
+  >> 130    configure: WARNING: ifaddrs.h: present but cannot be compiled
+  >> 131    configure: WARNING: ifaddrs.h:     check for missing prerequisite h
+            eaders?
+  >> 132    configure: WARNING: ifaddrs.h: see the Autoconf documentation
+  >> 133    configure: WARNING: ifaddrs.h:     section "Present But Cannot Be C
+            ompiled"
+  >> 134    configure: WARNING: ifaddrs.h: proceeding with the compiler's resul
+            t
+     135    checking for ifaddrs.h... no
+     136    checking mach/mach_time.h usability... no
+     137    checking mach/mach_time.h presence... no
+     138    checking for mach/mach_time.h... no
+     139    checking netdb.h usability... no
+     140    checking netdb.h presence... yes
+  >> 141    configure: WARNING: netdb.h: present but cannot be compiled
+  >> 142    configure: WARNING: netdb.h:     check for missing prerequisite hea
+            ders?
+  >> 143    configure: WARNING: netdb.h: see the Autoconf documentation
+  >> 144    configure: WARNING: netdb.h:     section "Present But Cannot Be Com
+            piled"
+  >> 145    configure: WARNING: netdb.h: proceeding with the compiler's result
+     146    checking for netdb.h... no
+     147    checking netinet/in.h usability... no
+     148    checking netinet/in.h presence... yes
+  >> 149    configure: WARNING: netinet/in.h: present but cannot be compiled
+  >> 150    configure: WARNING: netinet/in.h:     check for missing prerequisit
+            e headers?
+  >> 151    configure: WARNING: netinet/in.h: see the Autoconf documentation
+  >> 152    configure: WARNING: netinet/in.h:     section "Present But Cannot B
+            e Compiled"
+  >> 153    configure: WARNING: netinet/in.h: proceeding with the compiler's re
+            sult
+     154    checking for netinet/in.h... no
+     155    checking netinet/in6.h usability... no
+     156    checking netinet/in6.h presence... no
+     157    checking for netinet/in6.h... no
+     158    checking netinet/tcp.h usability... no
+     159    checking netinet/tcp.h presence... yes
+  >> 160    configure: WARNING: netinet/tcp.h: present but cannot be compiled
+  >> 161    configure: WARNING: netinet/tcp.h:     check for missing prerequisi
+            te headers?
+  >> 162    configure: WARNING: netinet/tcp.h: see the Autoconf documentation
+  >> 163    configure: WARNING: netinet/tcp.h:     section "Present But Cannot 
+            Be Compiled"
+  >> 164    configure: WARNING: netinet/tcp.h: proceeding with the compiler's r
+            esult
+     165    checking for netinet/tcp.h... no
+     166    checking poll.h usability... no
+     167    checking poll.h presence... yes
+  >> 168    configure: WARNING: poll.h: present but cannot be compiled
+  >> 169    configure: WARNING: poll.h:     check for missing prerequisite head
+            ers?
+  >> 170    configure: WARNING: poll.h: see the Autoconf documentation
+  >> 171    configure: WARNING: poll.h:     section "Present But Cannot Be Comp
+            iled"
+  >> 172    configure: WARNING: poll.h: proceeding with the compiler's result
+     173    checking for poll.h... no
+     174    checking port.h usability... no
+     175    checking port.h presence... no
+     176    checking for port.h... no
+     177    checking stdarg.h usability... no
+     178    checking stdarg.h presence... yes
+  >> 179    configure: WARNING: stdarg.h: present but cannot be compiled
+  >> 180    configure: WARNING: stdarg.h:     check for missing prerequisite he
+            aders?
+  >> 181    configure: WARNING: stdarg.h: see the Autoconf documentation
+  >> 182    configure: WARNING: stdarg.h:     section "Present But Cannot Be Co
+            mpiled"
+  >> 183    configure: WARNING: stdarg.h: proceeding with the compiler's result
+     184    checking for stdarg.h... no
+     185    checking stddef.h usability... no
+     186    checking stddef.h presence... yes
+  >> 187    configure: WARNING: stddef.h: present but cannot be compiled
+  >> 188    configure: WARNING: stddef.h:     check for missing prerequisite he
+            aders?
+  >> 189    configure: WARNING: stddef.h: see the Autoconf documentation
+  >> 190    configure: WARNING: stddef.h:     section "Present But Cannot Be Co
+            mpiled"
+  >> 191    configure: WARNING: stddef.h: proceeding with the compiler's result
+     192    checking for stddef.h... no
+     193    checking sys/devpoll.h usability... no
+     194    checking sys/devpoll.h presence... no
+     195    checking for sys/devpoll.h... no
+     196    checking sys/epoll.h usability... no
+     197    checking sys/epoll.h presence... yes
+  >> 198    configure: WARNING: sys/epoll.h: present but cannot be compiled
+  >> 199    configure: WARNING: sys/epoll.h:     check for missing prerequisite
+             headers?
+  >> 200    configure: WARNING: sys/epoll.h: see the Autoconf documentation
+  >> 201    configure: WARNING: sys/epoll.h:     section "Present But Cannot Be
+             Compiled"
+  >> 202    configure: WARNING: sys/epoll.h: proceeding with the compiler's res
+            ult
+     203    checking for sys/epoll.h... no
+     204    checking sys/event.h usability... no
+     205    checking sys/event.h presence... no
+     206    checking for sys/event.h... no
+     207    checking sys/eventfd.h usability... no
+     208    checking sys/eventfd.h presence... yes
+  >> 209    configure: WARNING: sys/eventfd.h: present but cannot be compiled
+  >> 210    configure: WARNING: sys/eventfd.h:     check for missing prerequisi
+            te headers?
+  >> 211    configure: WARNING: sys/eventfd.h: see the Autoconf documentation
+  >> 212    configure: WARNING: sys/eventfd.h:     section "Present But Cannot 
+            Be Compiled"
+  >> 213    configure: WARNING: sys/eventfd.h: proceeding with the compiler's r
+            esult
+     214    checking for sys/eventfd.h... no
+     215    checking sys/ioctl.h usability... no
+     216    checking sys/ioctl.h presence... yes
+  >> 217    configure: WARNING: sys/ioctl.h: present but cannot be compiled
+  >> 218    configure: WARNING: sys/ioctl.h:     check for missing prerequisite
+             headers?
+  >> 219    configure: WARNING: sys/ioctl.h: see the Autoconf documentation
+  >> 220    configure: WARNING: sys/ioctl.h:     section "Present But Cannot Be
+             Compiled"
+  >> 221    configure: WARNING: sys/ioctl.h: proceeding with the compiler's res
+            ult
+     222    checking for sys/ioctl.h... no
+     223    checking sys/mman.h usability... no
+     224    checking sys/mman.h presence... yes
+  >> 225    configure: WARNING: sys/mman.h: present but cannot be compiled
+  >> 226    configure: WARNING: sys/mman.h:     check for missing prerequisite 
+            headers?
+  >> 227    configure: WARNING: sys/mman.h: see the Autoconf documentation
+  >> 228    configure: WARNING: sys/mman.h:     section "Present But Cannot Be 
+            Compiled"
+  >> 229    configure: WARNING: sys/mman.h: proceeding with the compiler's resu
+            lt
+     230    checking for sys/mman.h... no
+     231    checking sys/param.h usability... no
+     232    checking sys/param.h presence... yes
+  >> 233    configure: WARNING: sys/param.h: present but cannot be compiled
+  >> 234    configure: WARNING: sys/param.h:     check for missing prerequisite
+             headers?
+  >> 235    configure: WARNING: sys/param.h: see the Autoconf documentation
+  >> 236    configure: WARNING: sys/param.h:     section "Present But Cannot Be
+             Compiled"
+  >> 237    configure: WARNING: sys/param.h: proceeding with the compiler's res
+            ult
+     238    checking for sys/param.h... no
+     239    checking sys/queue.h usability... no
+     240    checking sys/queue.h presence... yes
+  >> 241    configure: WARNING: sys/queue.h: present but cannot be compiled
+  >> 242    configure: WARNING: sys/queue.h:     check for missing prerequisite
+             headers?
+  >> 243    configure: WARNING: sys/queue.h: see the Autoconf documentation
+  >> 244    configure: WARNING: sys/queue.h:     section "Present But Cannot Be
+             Compiled"
+  >> 245    configure: WARNING: sys/queue.h: proceeding with the compiler's res
+            ult
+     246    checking for sys/queue.h... no
+     247    checking sys/resource.h usability... no
+     248    checking sys/resource.h presence... yes
+  >> 249    configure: WARNING: sys/resource.h: present but cannot be compiled
+  >> 250    configure: WARNING: sys/resource.h:     check for missing prerequis
+            ite headers?
+  >> 251    configure: WARNING: sys/resource.h: see the Autoconf documentation
+  >> 252    configure: WARNING: sys/resource.h:     section "Present But Cannot
+             Be Compiled"
+  >> 253    configure: WARNING: sys/resource.h: proceeding with the compiler's 
+            result
+     254    checking for sys/resource.h... no
+     255    checking sys/select.h usability... no
+     256    checking sys/select.h presence... yes
+  >> 257    configure: WARNING: sys/select.h: present but cannot be compiled
+  >> 258    configure: WARNING: sys/select.h:     check for missing prerequisit
+            e headers?
+  >> 259    configure: WARNING: sys/select.h: see the Autoconf documentation
+  >> 260    configure: WARNING: sys/select.h:     section "Present But Cannot B
+            e Compiled"
+  >> 261    configure: WARNING: sys/select.h: proceeding with the compiler's re
+            sult
+     262    checking for sys/select.h... no
+     263    checking sys/sendfile.h usability... no
+     264    checking sys/sendfile.h presence... yes
+  >> 265    configure: WARNING: sys/sendfile.h: present but cannot be compiled
+  >> 266    configure: WARNING: sys/sendfile.h:     check for missing prerequis
+            ite headers?
+  >> 267    configure: WARNING: sys/sendfile.h: see the Autoconf documentation
+  >> 268    configure: WARNING: sys/sendfile.h:     section "Present But Cannot
+             Be Compiled"
+  >> 269    configure: WARNING: sys/sendfile.h: proceeding with the compiler's 
+            result
+     270    checking for sys/sendfile.h... no
+     271    checking sys/socket.h usability... no
+     272    checking sys/socket.h presence... yes
+  >> 273    configure: WARNING: sys/socket.h: present but cannot be compiled
+  >> 274    configure: WARNING: sys/socket.h:     check for missing prerequisit
+            e headers?
+  >> 275    configure: WARNING: sys/socket.h: see the Autoconf documentation
+  >> 276    configure: WARNING: sys/socket.h:     section "Present But Cannot B
+            e Compiled"
+  >> 277    configure: WARNING: sys/socket.h: proceeding with the compiler's re
+            sult
+     278    checking for sys/socket.h... no
+     279    checking for sys/stat.h... (cached) yes
+     280    checking sys/time.h usability... no
+     281    checking sys/time.h presence... yes
+  >> 282    configure: WARNING: sys/time.h: present but cannot be compiled
+  >> 283    configure: WARNING: sys/time.h:     check for missing prerequisite 
+            headers?
+  >> 284    configure: WARNING: sys/time.h: see the Autoconf documentation
+  >> 285    configure: WARNING: sys/time.h:     section "Present But Cannot Be 
+            Compiled"
+  >> 286    configure: WARNING: sys/time.h: proceeding with the compiler's resu
+            lt
+     287    checking for sys/time.h... no
+     288    checking sys/timerfd.h usability... no
+     289    checking sys/timerfd.h presence... yes
+  >> 290    configure: WARNING: sys/timerfd.h: present but cannot be compiled
+  >> 291    configure: WARNING: sys/timerfd.h:     check for missing prerequisi
+            te headers?
+  >> 292    configure: WARNING: sys/timerfd.h: see the Autoconf documentation
+  >> 293    configure: WARNING: sys/timerfd.h:     section "Present But Cannot 
+            Be Compiled"
+  >> 294    configure: WARNING: sys/timerfd.h: proceeding with the compiler's r
+            esult
+     295    checking for sys/timerfd.h... no
+     296    checking sys/uio.h usability... no
+     297    checking sys/uio.h presence... yes
+  >> 298    configure: WARNING: sys/uio.h: present but cannot be compiled
+  >> 299    configure: WARNING: sys/uio.h:     check for missing prerequisite h
+            eaders?
+  >> 300    configure: WARNING: sys/uio.h: see the Autoconf documentation
+  >> 301    configure: WARNING: sys/uio.h:     section "Present But Cannot Be C
+            ompiled"
+  >> 302    configure: WARNING: sys/uio.h: proceeding with the compiler's resul
+            t
+     303    checking for sys/uio.h... no
+     304    checking sys/wait.h usability... no
+     305    checking sys/wait.h presence... yes
+  >> 306    configure: WARNING: sys/wait.h: present but cannot be compiled
+  >> 307    configure: WARNING: sys/wait.h:     check for missing prerequisite 
+            headers?
+  >> 308    configure: WARNING: sys/wait.h: see the Autoconf documentation
+  >> 309    configure: WARNING: sys/wait.h:     section "Present But Cannot Be 
+            Compiled"
+  >> 310    configure: WARNING: sys/wait.h: proceeding with the compiler's resu
+            lt
+     311    checking for sys/wait.h... no
+     312    checking errno.h usability... no
+     313    checking errno.h presence... yes
+  >> 314    configure: WARNING: errno.h: present but cannot be compiled
+  >> 315    configure: WARNING: errno.h:     check for missing prerequisite hea
+            ders?
+  >> 316    configure: WARNING: errno.h: see the Autoconf documentation
+  >> 317    configure: WARNING: errno.h:     section "Present But Cannot Be Com
+            piled"
+  >> 318    configure: WARNING: errno.h: proceeding with the compiler's result
+     319    checking for errno.h... no
+     320    checking for sys/sysctl.h... no
+     321    checking for an ANSI C-conforming const... no
+     322    checking for inline... no
+     323    checking whether time.h and sys/time.h may both be included... no
+     324    checking for accept4... no
+
+See build log for details:
+  /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/var/spack/stage/libevent-2.1.8-mm25kgoit6tdjhazrryoncrmqw3legp4/spack-build.out
+spack install pmix @ 2.2.2 % cce@8.6.5  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: No compilers with spec cce@8.6.5 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 2.2.2 % cce@8.5.8  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: No compilers with spec cce@8.5.8 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 2.1.4 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+spack install pmix @ 2.1.4 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+spack install pmix @ 2.1.4 % gcc@6.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: No compilers with spec gcc@6.3.0 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 2.1.4 % gcc@5.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: No compilers with spec gcc@5.3.0 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 2.1.4 % gcc@4.9.3  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: No compilers with spec gcc@4.9.3 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 2.1.4 % intel@18.0.5  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: No compilers with spec intel@18.0.5 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 2.1.4 % intel@17.0.4  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: No compilers with spec intel@17.0.4 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 2.1.4 % intel@16.0.3  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: No compilers with spec intel@16.0.3 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 2.1.4 % cce@8.7.9  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j224'
+
+125 warnings found in build log:
+     95     checking for clock_gettime... no
+     96     checking for library containing sendfile... no
+     97     checking for WIN32... no
+     98     checking for CYGWIN... no
+     99     checking zlib.h usability... no
+     100    checking zlib.h presence... yes
+  >> 101    configure: WARNING: zlib.h: present but cannot be compiled
+  >> 102    configure: WARNING: zlib.h:     check for missing prerequisite head
+            ers?
+  >> 103    configure: WARNING: zlib.h: see the Autoconf documentation
+  >> 104    configure: WARNING: zlib.h:     section "Present But Cannot Be Comp
+            iled"
+  >> 105    configure: WARNING: zlib.h: proceeding with the compiler's result
+     106    checking for zlib.h... no
+     107    checking for special C compiler options needed for large files... n
+            o
+     108    checking for _FILE_OFFSET_BITS value needed for large files... unkn
+            own
+     109    checking for _LARGE_FILES value needed for large files... unknown
+     110    checking for pkg-config... /usr/bin/pkg-config
+     111    checking if pkg-config is at least version 0.15.0... yes
+     112    checking arpa/inet.h usability... no
+     113    checking arpa/inet.h presence... yes
+  >> 114    configure: WARNING: arpa/inet.h: present but cannot be compiled
+  >> 115    configure: WARNING: arpa/inet.h:     check for missing prerequisite
+             headers?
+  >> 116    configure: WARNING: arpa/inet.h: see the Autoconf documentation
+  >> 117    configure: WARNING: arpa/inet.h:     section "Present But Cannot Be
+             Compiled"
+  >> 118    configure: WARNING: arpa/inet.h: proceeding with the compiler's res
+            ult
+     119    checking for arpa/inet.h... no
+     120    checking fcntl.h usability... no
+     121    checking fcntl.h presence... yes
+  >> 122    configure: WARNING: fcntl.h: present but cannot be compiled
+  >> 123    configure: WARNING: fcntl.h:     check for missing prerequisite hea
+            ders?
+  >> 124    configure: WARNING: fcntl.h: see the Autoconf documentation
+  >> 125    configure: WARNING: fcntl.h:     section "Present But Cannot Be Com
+            piled"
+  >> 126    configure: WARNING: fcntl.h: proceeding with the compiler's result
+     127    checking for fcntl.h... no
+     128    checking ifaddrs.h usability... no
+     129    checking ifaddrs.h presence... yes
+  >> 130    configure: WARNING: ifaddrs.h: present but cannot be compiled
+  >> 131    configure: WARNING: ifaddrs.h:     check for missing prerequisite h
+            eaders?
+  >> 132    configure: WARNING: ifaddrs.h: see the Autoconf documentation
+  >> 133    configure: WARNING: ifaddrs.h:     section "Present But Cannot Be C
+            ompiled"
+  >> 134    configure: WARNING: ifaddrs.h: proceeding with the compiler's resul
+            t
+     135    checking for ifaddrs.h... no
+     136    checking mach/mach_time.h usability... no
+     137    checking mach/mach_time.h presence... no
+     138    checking for mach/mach_time.h... no
+     139    checking netdb.h usability... no
+     140    checking netdb.h presence... yes
+  >> 141    configure: WARNING: netdb.h: present but cannot be compiled
+  >> 142    configure: WARNING: netdb.h:     check for missing prerequisite hea
+            ders?
+  >> 143    configure: WARNING: netdb.h: see the Autoconf documentation
+  >> 144    configure: WARNING: netdb.h:     section "Present But Cannot Be Com
+            piled"
+  >> 145    configure: WARNING: netdb.h: proceeding with the compiler's result
+     146    checking for netdb.h... no
+     147    checking netinet/in.h usability... no
+     148    checking netinet/in.h presence... yes
+  >> 149    configure: WARNING: netinet/in.h: present but cannot be compiled
+  >> 150    configure: WARNING: netinet/in.h:     check for missing prerequisit
+            e headers?
+  >> 151    configure: WARNING: netinet/in.h: see the Autoconf documentation
+  >> 152    configure: WARNING: netinet/in.h:     section "Present But Cannot B
+            e Compiled"
+  >> 153    configure: WARNING: netinet/in.h: proceeding with the compiler's re
+            sult
+     154    checking for netinet/in.h... no
+     155    checking netinet/in6.h usability... no
+     156    checking netinet/in6.h presence... no
+     157    checking for netinet/in6.h... no
+     158    checking netinet/tcp.h usability... no
+     159    checking netinet/tcp.h presence... yes
+  >> 160    configure: WARNING: netinet/tcp.h: present but cannot be compiled
+  >> 161    configure: WARNING: netinet/tcp.h:     check for missing prerequisi
+            te headers?
+  >> 162    configure: WARNING: netinet/tcp.h: see the Autoconf documentation
+  >> 163    configure: WARNING: netinet/tcp.h:     section "Present But Cannot 
+            Be Compiled"
+  >> 164    configure: WARNING: netinet/tcp.h: proceeding with the compiler's r
+            esult
+     165    checking for netinet/tcp.h... no
+     166    checking poll.h usability... no
+     167    checking poll.h presence... yes
+  >> 168    configure: WARNING: poll.h: present but cannot be compiled
+  >> 169    configure: WARNING: poll.h:     check for missing prerequisite head
+            ers?
+  >> 170    configure: WARNING: poll.h: see the Autoconf documentation
+  >> 171    configure: WARNING: poll.h:     section "Present But Cannot Be Comp
+            iled"
+  >> 172    configure: WARNING: poll.h: proceeding with the compiler's result
+     173    checking for poll.h... no
+     174    checking port.h usability... no
+     175    checking port.h presence... no
+     176    checking for port.h... no
+     177    checking stdarg.h usability... no
+     178    checking stdarg.h presence... yes
+  >> 179    configure: WARNING: stdarg.h: present but cannot be compiled
+  >> 180    configure: WARNING: stdarg.h:     check for missing prerequisite he
+            aders?
+  >> 181    configure: WARNING: stdarg.h: see the Autoconf documentation
+  >> 182    configure: WARNING: stdarg.h:     section "Present But Cannot Be Co
+            mpiled"
+  >> 183    configure: WARNING: stdarg.h: proceeding with the compiler's result
+     184    checking for stdarg.h... no
+     185    checking stddef.h usability... no
+     186    checking stddef.h presence... yes
+  >> 187    configure: WARNING: stddef.h: present but cannot be compiled
+  >> 188    configure: WARNING: stddef.h:     check for missing prerequisite he
+            aders?
+  >> 189    configure: WARNING: stddef.h: see the Autoconf documentation
+  >> 190    configure: WARNING: stddef.h:     section "Present But Cannot Be Co
+            mpiled"
+  >> 191    configure: WARNING: stddef.h: proceeding with the compiler's result
+     192    checking for stddef.h... no
+     193    checking sys/devpoll.h usability... no
+     194    checking sys/devpoll.h presence... no
+     195    checking for sys/devpoll.h... no
+     196    checking sys/epoll.h usability... no
+     197    checking sys/epoll.h presence... yes
+  >> 198    configure: WARNING: sys/epoll.h: present but cannot be compiled
+  >> 199    configure: WARNING: sys/epoll.h:     check for missing prerequisite
+             headers?
+  >> 200    configure: WARNING: sys/epoll.h: see the Autoconf documentation
+  >> 201    configure: WARNING: sys/epoll.h:     section "Present But Cannot Be
+             Compiled"
+  >> 202    configure: WARNING: sys/epoll.h: proceeding with the compiler's res
+            ult
+     203    checking for sys/epoll.h... no
+     204    checking sys/event.h usability... no
+     205    checking sys/event.h presence... no
+     206    checking for sys/event.h... no
+     207    checking sys/eventfd.h usability... no
+     208    checking sys/eventfd.h presence... yes
+  >> 209    configure: WARNING: sys/eventfd.h: present but cannot be compiled
+  >> 210    configure: WARNING: sys/eventfd.h:     check for missing prerequisi
+            te headers?
+  >> 211    configure: WARNING: sys/eventfd.h: see the Autoconf documentation
+  >> 212    configure: WARNING: sys/eventfd.h:     section "Present But Cannot 
+            Be Compiled"
+  >> 213    configure: WARNING: sys/eventfd.h: proceeding with the compiler's r
+            esult
+     214    checking for sys/eventfd.h... no
+     215    checking sys/ioctl.h usability... no
+     216    checking sys/ioctl.h presence... yes
+  >> 217    configure: WARNING: sys/ioctl.h: present but cannot be compiled
+  >> 218    configure: WARNING: sys/ioctl.h:     check for missing prerequisite
+             headers?
+  >> 219    configure: WARNING: sys/ioctl.h: see the Autoconf documentation
+  >> 220    configure: WARNING: sys/ioctl.h:     section "Present But Cannot Be
+             Compiled"
+  >> 221    configure: WARNING: sys/ioctl.h: proceeding with the compiler's res
+            ult
+     222    checking for sys/ioctl.h... no
+     223    checking sys/mman.h usability... no
+     224    checking sys/mman.h presence... yes
+  >> 225    configure: WARNING: sys/mman.h: present but cannot be compiled
+  >> 226    configure: WARNING: sys/mman.h:     check for missing prerequisite 
+            headers?
+  >> 227    configure: WARNING: sys/mman.h: see the Autoconf documentation
+  >> 228    configure: WARNING: sys/mman.h:     section "Present But Cannot Be 
+            Compiled"
+  >> 229    configure: WARNING: sys/mman.h: proceeding with the compiler's resu
+            lt
+     230    checking for sys/mman.h... no
+     231    checking sys/param.h usability... no
+     232    checking sys/param.h presence... yes
+  >> 233    configure: WARNING: sys/param.h: present but cannot be compiled
+  >> 234    configure: WARNING: sys/param.h:     check for missing prerequisite
+             headers?
+  >> 235    configure: WARNING: sys/param.h: see the Autoconf documentation
+  >> 236    configure: WARNING: sys/param.h:     section "Present But Cannot Be
+             Compiled"
+  >> 237    configure: WARNING: sys/param.h: proceeding with the compiler's res
+            ult
+     238    checking for sys/param.h... no
+     239    checking sys/queue.h usability... no
+     240    checking sys/queue.h presence... yes
+  >> 241    configure: WARNING: sys/queue.h: present but cannot be compiled
+  >> 242    configure: WARNING: sys/queue.h:     check for missing prerequisite
+             headers?
+  >> 243    configure: WARNING: sys/queue.h: see the Autoconf documentation
+  >> 244    configure: WARNING: sys/queue.h:     section "Present But Cannot Be
+             Compiled"
+  >> 245    configure: WARNING: sys/queue.h: proceeding with the compiler's res
+            ult
+     246    checking for sys/queue.h... no
+     247    checking sys/resource.h usability... no
+     248    checking sys/resource.h presence... yes
+  >> 249    configure: WARNING: sys/resource.h: present but cannot be compiled
+  >> 250    configure: WARNING: sys/resource.h:     check for missing prerequis
+            ite headers?
+  >> 251    configure: WARNING: sys/resource.h: see the Autoconf documentation
+  >> 252    configure: WARNING: sys/resource.h:     section "Present But Cannot
+             Be Compiled"
+  >> 253    configure: WARNING: sys/resource.h: proceeding with the compiler's 
+            result
+     254    checking for sys/resource.h... no
+     255    checking sys/select.h usability... no
+     256    checking sys/select.h presence... yes
+  >> 257    configure: WARNING: sys/select.h: present but cannot be compiled
+  >> 258    configure: WARNING: sys/select.h:     check for missing prerequisit
+            e headers?
+  >> 259    configure: WARNING: sys/select.h: see the Autoconf documentation
+  >> 260    configure: WARNING: sys/select.h:     section "Present But Cannot B
+            e Compiled"
+  >> 261    configure: WARNING: sys/select.h: proceeding with the compiler's re
+            sult
+     262    checking for sys/select.h... no
+     263    checking sys/sendfile.h usability... no
+     264    checking sys/sendfile.h presence... yes
+  >> 265    configure: WARNING: sys/sendfile.h: present but cannot be compiled
+  >> 266    configure: WARNING: sys/sendfile.h:     check for missing prerequis
+            ite headers?
+  >> 267    configure: WARNING: sys/sendfile.h: see the Autoconf documentation
+  >> 268    configure: WARNING: sys/sendfile.h:     section "Present But Cannot
+             Be Compiled"
+  >> 269    configure: WARNING: sys/sendfile.h: proceeding with the compiler's 
+            result
+     270    checking for sys/sendfile.h... no
+     271    checking sys/socket.h usability... no
+     272    checking sys/socket.h presence... yes
+  >> 273    configure: WARNING: sys/socket.h: present but cannot be compiled
+  >> 274    configure: WARNING: sys/socket.h:     check for missing prerequisit
+            e headers?
+  >> 275    configure: WARNING: sys/socket.h: see the Autoconf documentation
+  >> 276    configure: WARNING: sys/socket.h:     section "Present But Cannot B
+            e Compiled"
+  >> 277    configure: WARNING: sys/socket.h: proceeding with the compiler's re
+            sult
+     278    checking for sys/socket.h... no
+     279    checking for sys/stat.h... (cached) yes
+     280    checking sys/time.h usability... no
+     281    checking sys/time.h presence... yes
+  >> 282    configure: WARNING: sys/time.h: present but cannot be compiled
+  >> 283    configure: WARNING: sys/time.h:     check for missing prerequisite 
+            headers?
+  >> 284    configure: WARNING: sys/time.h: see the Autoconf documentation
+  >> 285    configure: WARNING: sys/time.h:     section "Present But Cannot Be 
+            Compiled"
+  >> 286    configure: WARNING: sys/time.h: proceeding with the compiler's resu
+            lt
+     287    checking for sys/time.h... no
+     288    checking sys/timerfd.h usability... no
+     289    checking sys/timerfd.h presence... yes
+  >> 290    configure: WARNING: sys/timerfd.h: present but cannot be compiled
+  >> 291    configure: WARNING: sys/timerfd.h:     check for missing prerequisi
+            te headers?
+  >> 292    configure: WARNING: sys/timerfd.h: see the Autoconf documentation
+  >> 293    configure: WARNING: sys/timerfd.h:     section "Present But Cannot 
+            Be Compiled"
+  >> 294    configure: WARNING: sys/timerfd.h: proceeding with the compiler's r
+            esult
+     295    checking for sys/timerfd.h... no
+     296    checking sys/uio.h usability... no
+     297    checking sys/uio.h presence... yes
+  >> 298    configure: WARNING: sys/uio.h: present but cannot be compiled
+  >> 299    configure: WARNING: sys/uio.h:     check for missing prerequisite h
+            eaders?
+  >> 300    configure: WARNING: sys/uio.h: see the Autoconf documentation
+  >> 301    configure: WARNING: sys/uio.h:     section "Present But Cannot Be C
+            ompiled"
+  >> 302    configure: WARNING: sys/uio.h: proceeding with the compiler's resul
+            t
+     303    checking for sys/uio.h... no
+     304    checking sys/wait.h usability... no
+     305    checking sys/wait.h presence... yes
+  >> 306    configure: WARNING: sys/wait.h: present but cannot be compiled
+  >> 307    configure: WARNING: sys/wait.h:     check for missing prerequisite 
+            headers?
+  >> 308    configure: WARNING: sys/wait.h: see the Autoconf documentation
+  >> 309    configure: WARNING: sys/wait.h:     section "Present But Cannot Be 
+            Compiled"
+  >> 310    configure: WARNING: sys/wait.h: proceeding with the compiler's resu
+            lt
+     311    checking for sys/wait.h... no
+     312    checking errno.h usability... no
+     313    checking errno.h presence... yes
+  >> 314    configure: WARNING: errno.h: present but cannot be compiled
+  >> 315    configure: WARNING: errno.h:     check for missing prerequisite hea
+            ders?
+  >> 316    configure: WARNING: errno.h: see the Autoconf documentation
+  >> 317    configure: WARNING: errno.h:     section "Present But Cannot Be Com
+            piled"
+  >> 318    configure: WARNING: errno.h: proceeding with the compiler's result
+     319    checking for errno.h... no
+     320    checking for sys/sysctl.h... no
+     321    checking for an ANSI C-conforming const... no
+     322    checking for inline... no
+     323    checking whether time.h and sys/time.h may both be included... no
+     324    checking for accept4... no
+
+See build log for details:
+  /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/var/spack/stage/libevent-2.1.8-mm25kgoit6tdjhazrryoncrmqw3legp4/spack-build.out
+spack install pmix @ 2.1.4 % cce@8.6.5  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: No compilers with spec cce@8.6.5 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 2.1.4 % cce@8.5.8  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-pmix-install.log
+==> Error: No compilers with spec cce@8.5.8 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+mkdir -p "${dir_results}/platform-order"
+mkdir -p "${dir_results}/tpl-order"
+mkdir -p "${dir_results}/graphs"
+spack find pmix >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/platform-order/capulin-arm-pmix.out
+spack find pmix >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/pmix-capulin-arm.out
+spack find -ldf pmix  >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/pmix-capulin-arm-ldf.out
+spack graph pmix >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/graphs/pmix-capulin-arm-graph.out
+spack install openmpi @ 4.0.1 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-openmpi-install.log
+spack compilers
+==> Available compilers
+-- cce cnl6-any -------------------------------------------------
+cce@8.7.10
+cce@8.7.9
+
+-- gcc cnl6-any -------------------------------------------------
+gcc@8.2.0
+gcc@7.3.0
+gcc@6.1.0
+spack find pmix
+==> 4 installed packages
+-- cray-cnl6-arm_thunderx2 / gcc@7.3.0 --------------------------
+pmix@2.1.4
+pmix@2.2.2
+
+-- cray-cnl6-arm_thunderx2 / gcc@8.2.0 --------------------------
+pmix@2.1.4
+pmix@2.2.2
+spack find -ldf pmix
+==> 4 installed packages
+-- cray-cnl6-arm_thunderx2 / gcc@7.3.0 --------------------------
+dht4lkp    pmix@2.1.4%gcc 
+rksazmf        ^libevent@2.1.8%gcc 
+gmp3lnk            ^openssl@1.1.1b%gcc 
+
+fd4hsnt    pmix@2.2.2%gcc 
+rksazmf        ^libevent@2.1.8%gcc 
+gmp3lnk            ^openssl@1.1.1b%gcc 
+
+
+-- cray-cnl6-arm_thunderx2 / gcc@8.2.0 --------------------------
+3jqszq6    pmix@2.1.4%gcc 
+6sp3eiw        ^libevent@2.1.8%gcc 
+5p7isue            ^openssl@1.1.1b%gcc 
+
+k656csk    pmix@2.2.2%gcc 
+6sp3eiw        ^libevent@2.1.8%gcc 
+5p7isue            ^openssl@1.1.1b%gcc 
+
+mv  /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/capulin-arm-batch.out   /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/batch-out/capulin-arm-pmix-2019-04-25-batch.out
+mv: cannot stat '/lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/capulin-arm-batch.out': No such file or directory
+cd /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests
+git add -A .
+git commit -m "${USER} ${tpl} ${hpc} ${partition} ${ymd}"
+[master 6b2f8f5] dantopa pmix capulin arm 2019-04-25
+ 10 files changed, 987 insertions(+), 1 deletion(-)
+ create mode 100644 libraries/results/graphs/pmix-capulin-arm-graph.out
+ create mode 100644 libraries/results/tpl-order/pmix-capulin-arm-ldf.out
+ create mode 100644 libraries/results/tpl-order/pmix-capulin-arm.out
+Thu Apr 25 21:10:28 MDT 2019
+spack install libhio @ 1.4.1.3 % gcc@6.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-libhio-install.log
+==> Error: No compilers with spec gcc@6.3.0 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install libhio @ 1.4.1.3 % gcc@5.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-libhio-install.log
+==> Error: No compilers with spec gcc@5.3.0 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install libhio @ 1.4.1.3 % gcc@4.9.3  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-libhio-install.log
+==> Error: No compilers with spec gcc@4.9.3 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install libhio @ 1.4.1.3 % intel@18.0.5  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-libhio-install.log
+==> Error: No compilers with spec intel@18.0.5 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install libhio @ 1.4.1.3 % intel@17.0.4  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-libhio-install.log
+==> Error: No compilers with spec intel@17.0.4 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install libhio @ 1.4.1.3 % intel@16.0.3  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-libhio-install.log
+==> Error: No compilers with spec intel@16.0.3 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install libhio @ 1.4.1.3 % cce@8.7.9  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-libhio-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j224'
+See build log for details:
+  /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-44uhaq6ubmvjglvzrdfq2kdc5mqetzgu/spack-build.out
+spack install libhio @ 1.4.1.3 % cce@8.6.5  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-libhio-install.log
+==> Error: No compilers with spec cce@8.6.5 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install libhio @ 1.4.1.3 % cce@8.5.8  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-libhio-install.log
+==> Error: No compilers with spec cce@8.5.8 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install libhio @ 1.4.1.2 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-libhio-install.log
+spack install openmpi @ 4.0.1 % gcc@6.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-openmpi-install.log
+==> Error: No compilers with spec gcc@6.3.0 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 4.0.1 % gcc@5.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-openmpi-install.log
+==> Error: No compilers with spec gcc@5.3.0 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 4.0.1 % gcc@4.9.3  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-openmpi-install.log
+==> Error: No compilers with spec gcc@4.9.3 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 4.0.1 % intel@18.0.5  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-openmpi-install.log
+==> Error: No compilers with spec intel@18.0.5 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 4.0.1 % intel@17.0.4  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-openmpi-install.log
+==> Error: No compilers with spec intel@17.0.4 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 4.0.1 % intel@16.0.3  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-openmpi-install.log
+==> Error: No compilers with spec intel@16.0.3 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 4.0.1 % cce@8.7.9  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-openmpi-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j224'
+See build log for details:
+  /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/var/spack/stage/libpciaccess-0.13.5-44uhaq6ubmvjglvzrdfq2kdc5mqetzgu/spack-build.out
+spack install openmpi @ 4.0.1 % cce@8.6.5  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-openmpi-install.log
+==> Error: No compilers with spec cce@8.6.5 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 4.0.1 % cce@8.5.8  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-openmpi-install.log
+==> Error: No compilers with spec cce@8.5.8 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 3.1.4 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-openmpi-install.log
+spack install libhio @ 1.4.1.2 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-libhio-install.log
+spack install libhio @ 1.4.1.2 % gcc@6.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-libhio-install.log
+==> Error: No compilers with spec gcc@6.3.0 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install libhio @ 1.4.1.2 % gcc@5.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-libhio-install.log
+==> Error: No compilers with spec gcc@5.3.0 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install libhio @ 1.4.1.2 % gcc@4.9.3  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-libhio-install.log
+==> Error: No compilers with spec gcc@4.9.3 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install libhio @ 1.4.1.2 % intel@18.0.5  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-libhio-install.log
+==> Error: No compilers with spec intel@18.0.5 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install libhio @ 1.4.1.2 % intel@17.0.4  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-libhio-install.log
+==> Error: No compilers with spec intel@17.0.4 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install libhio @ 1.4.1.2 % intel@16.0.3  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-libhio-install.log
+==> Error: No compilers with spec intel@16.0.3 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install libhio @ 1.4.1.2 % cce@8.7.9  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-libhio-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j224'
+See build log for details:
+  /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-44uhaq6ubmvjglvzrdfq2kdc5mqetzgu/spack-build.out
+spack install libhio @ 1.4.1.2 % cce@8.6.5  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-libhio-install.log
+==> Error: No compilers with spec cce@8.6.5 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install libhio @ 1.4.1.2 % cce@8.5.8  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-libhio-install.log
+==> Error: No compilers with spec cce@8.5.8 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+mkdir -p "${dir_results}/platform-order"
+mkdir -p "${dir_results}/tpl-order"
+mkdir -p "${dir_results}/graphs"
+spack find libhio >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/platform-order/capulin-arm-libhio.out
+spack find libhio >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/libhio-capulin-arm.out
+spack find -ldf libhio  >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/libhio-capulin-arm-ldf.out
+spack graph libhio >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/graphs/libhio-capulin-arm-graph.out
+spack compilers
+==> Available compilers
+-- cce cnl6-any -------------------------------------------------
+cce@8.7.10
+cce@8.7.9
+
+-- gcc cnl6-any -------------------------------------------------
+gcc@8.2.0
+gcc@7.3.0
+gcc@6.1.0
+spack find libhio
+==> 3 installed packages
+-- cray-cnl6-arm_thunderx2 / gcc@7.3.0 --------------------------
+libhio@1.4.1.2
+libhio@1.4.1.3
+
+-- cray-cnl6-arm_thunderx2 / gcc@8.2.0 --------------------------
+libhio@1.4.1.2
+spack find -ldf libhio
+==> 3 installed packages
+-- cray-cnl6-arm_thunderx2 / gcc@7.3.0 --------------------------
+3rj4syy    libhio@1.4.1.2%gcc 
+d7nlyf6        ^bzip2@1.0.6%gcc 
+xu3jocj        ^hdf5@1.10.5%gcc 
+7ycszou            ^openmpi@3.1.4%gcc 
+escua5m                ^hwloc@1.11.11%gcc 
+x7gsesv                    ^libpciaccess@0.13.5%gcc 
+4wvodxv                    ^libxml2@2.9.8%gcc 
+7qperrt                ^numactl@2.0.12%gcc 
+23nzrkz                ^zlib@1.2.11%gcc 
+qxxks7t        ^json-c@0.13.1%gcc 
+
+wijwbtz    libhio@1.4.1.3%gcc 
+d7nlyf6        ^bzip2@1.0.6%gcc 
+xu3jocj        ^hdf5@1.10.5%gcc 
+7ycszou            ^openmpi@3.1.4%gcc 
+escua5m                ^hwloc@1.11.11%gcc 
+x7gsesv                    ^libpciaccess@0.13.5%gcc 
+4wvodxv                    ^libxml2@2.9.8%gcc 
+7qperrt                ^numactl@2.0.12%gcc 
+23nzrkz                ^zlib@1.2.11%gcc 
+qxxks7t        ^json-c@0.13.1%gcc 
+
+
+-- cray-cnl6-arm_thunderx2 / gcc@8.2.0 --------------------------
+4wtvyj3    libhio@1.4.1.2%gcc 
+kbzhw7t        ^bzip2@1.0.6%gcc 
+xnccfd4        ^hdf5@1.10.5%gcc 
+3qdkta5            ^openmpi@3.1.4%gcc 
+fyyzqam                ^hwloc@1.11.11%gcc 
+kjzalvs                    ^libpciaccess@0.13.5%gcc 
+f6rwdah                    ^libxml2@2.9.8%gcc 
+4sxssb5                ^numactl@2.0.12%gcc 
+qd2bcw6                ^zlib@1.2.11%gcc 
+p2eptqz        ^json-c@0.13.1%gcc 
+
+mv  /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/capulin-arm-batch.out   /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/batch-out/capulin-arm-libhio-2019-04-25-batch.out
+mv: cannot stat '/lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/capulin-arm-batch.out': No such file or directory
+cd /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests
+git add -A .
+git commit -m "${USER} ${tpl} ${hpc} ${partition} ${ymd}"
+[master 18379b0] dantopa libhio capulin arm 2019-04-25
+ 9 files changed, 772 insertions(+), 2 deletions(-)
+ create mode 100644 libraries/results/graphs/libhio-capulin-arm-graph.out
+ create mode 100644 libraries/results/tpl-order/libhio-capulin-arm-ldf.out
+ create mode 100644 libraries/results/tpl-order/libhio-capulin-arm.out
+Thu Apr 25 21:49:08 MDT 2019

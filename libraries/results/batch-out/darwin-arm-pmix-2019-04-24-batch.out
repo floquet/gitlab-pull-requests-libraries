@@ -1,0 +1,988 @@
+Wed Apr 24 16:13:45 MDT 2019 [1m/home/dantopa/.mybash(B[m
+Wed Apr 24 16:13:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/platforms.sh(B[m
+attempting to mkdir /scratch/users/dantopa/repos/gitlab/node-queries/darwin/arm-cn809/dir-configuration
+directory of core scripts = ${core} = /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts
+Wed Apr 24 16:13:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/master.sh(B[m
+Wed Apr 24 16:13:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh(B[m
+Wed Apr 24 16:13:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh(B[m
+Wed Apr 24 16:13:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Wed Apr 24 16:13:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/gcc.sh(B[m
+Wed Apr 24 16:13:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh(B[m
+Wed Apr 24 16:13:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh: line 5: gonode: command not found
+Wed Apr 24 16:13:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/git.sh(B[m
+Wed Apr 24 16:13:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Wed Apr 24 16:13:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/ssh.sh(B[m
+Wed Apr 24 16:13:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/vim.sh(B[m
+Wed Apr 24 16:13:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bash.sh(B[m
+Wed Apr 24 16:13:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/finds.sh(B[m
+Wed Apr 24 16:13:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/cmake.sh(B[m
+Wed Apr 24 16:13:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/copy-configuration.sh(B[m
+Wed Apr 24 16:13:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/fortran.sh(B[m
+Wed Apr 24 16:13:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks.sh(B[m
+Wed Apr 24 16:13:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-bitbucket.sh(B[m
+Wed Apr 24 16:13:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-github.sh(B[m
+Wed Apr 24 16:13:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-gitlab.sh(B[m
+Wed Apr 24 16:13:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/disk.sh(B[m
+Wed Apr 24 16:13:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh: line 33: sinfo_s: command not found
+[master 9905514] darwin-arm-cn809 Wed Apr 24 16:13:46 MDT 2019
+ 2 files changed, 46 insertions(+)
+ create mode 100644 libraries/tools/bash/darwin-arm-batch.out
+Wed Apr 24 16:13:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh(B[m
+Wed Apr 24 16:13:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Wed Apr 24 16:13:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh(B[m
+Wed Apr 24 16:13:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh(B[m
+Wed Apr 24 16:13:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/uname.sh(B[m
+Wed Apr 24 16:13:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/spack.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh: line 5: gonode: command not found
+Wed Apr 24 16:13:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/modules.sh(B[m
+Wed Apr 24 16:13:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Wed Apr 24 16:13:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/alias.sh(B[m
+Wed Apr 24 16:13:46 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh: line 11: myprompt: command not found
+[master 34c9752] darwin-arm-cn809 Wed Apr 24 16:13:46 MDT 2019
+ 1 file changed, 22 insertions(+)
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh: line 33: sinfo_s: command not found
+Wed Apr 24 16:13:50 MDT 2019 /tmp/slurmd/job5196431/slurm_script
+source "${dir_tools}/bash/master-tpl-sweep.sh"
+Wed Apr 24 16:13:50 MDT 2019 /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh
+cd /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools
+source directories/libraries-darwin.sh
+Wed Apr 24 16:13:50 MDT 2019 [1mdirectories/libraries-darwin.sh(B[m
+source tpl-versions/versions-pmix.sh
+Wed Apr 24 16:13:50 MDT 2019 [1mtpl-versions/versions-pmix.sh(B[m
+4 pmix versions loaded:
+3.1.2  3.0.2  2.2.2  2.1.4
+
+source compilers/compilers-darwin-arm.sh
+Wed Apr 24 16:13:50 MDT 2019 [1mcompilers/compilers-darwin-arm.sh(B[m
+9 Spack-recognized compilers loaded:
+gcc@8.2.0  gcc@8.1.0  gcc@7.1.0  gcc@4.8.5  arm@19.1  clang@18.4.2  clang@18.4.1  clang@18.4.0  clang@7.0.0
+
+source klingons/darwin-arm-pmix.sh
+/scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 36: klingons/darwin-arm-pmix.sh: No such file or directory
+cd /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix
+. share/spack/setup-env.sh
+export spack_architecture='arch=linux-rhel7-aarch64'
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+spack compilers
+==> Available compilers
+-- arm rhel7-aarch64 --------------------------------------------
+arm@19.1
+
+-- clang rhel7-aarch64 ------------------------------------------
+clang@18.4.2
+clang@18.4.1
+clang@18.4.0
+clang@7.0.0
+
+-- gcc rhel7-aarch64 --------------------------------------------
+gcc@8.2.0
+gcc@8.1.0
+gcc@7.1.0
+gcc@4.8.5
+ls -alh etc/spack/defaults
+total 154K
+drwxrwxr-x 4 dantopa dantopa   15 Apr  2 14:29 .
+drwxrwxr-x 3 dantopa dantopa    3 Nov 12 20:31 ..
+-rw-rw-r-- 1 dantopa dantopa 4.8K Apr  1 11:20 compilers.yaml
+-rw-rw-r-- 1 dantopa dantopa 4.4K Apr  1 11:20 config.yaml
+drwxrwxr-x 2 dantopa dantopa    4 Nov 12 20:31 darwin
+-rw-rw-r-- 1 dantopa dantopa 4.8K Apr  1 11:20 darwin-arm-modules-compilers.yaml
+drwxrwxr-x 2 dantopa dantopa    3 Nov 12 20:31 linux
+-rw-rw-r-- 1 dantopa dantopa    3 Apr  1 11:20 lmod-modules.yaml
+-rw-rw-r-- 1 dantopa dantopa 3.9K Apr  1 11:20 minimal-build-packages.yaml
+-rw-rw-r-- 1 dantopa dantopa  136 Apr  1 11:20 mirrors.yaml
+-rw-rw-r-- 1 dantopa dantopa 1.1K Apr  1 11:20 modules.yaml
+-rw-rw-r-- 1 dantopa dantopa 3.9K Apr  2 14:29 packages.yaml
+-rw-rw-r-- 1 dantopa dantopa  530 Apr  1 11:20 release.yaml
+-rw-rw-r-- 1 dantopa dantopa  546 Apr  1 11:20 repos.yaml
+-rw-rw-r-- 1 dantopa dantopa 3.4K Apr  1 11:20 tcl-modules.yaml
+cat etc/spack/defaults/compilers.yaml
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [Generic-AArch64/RHEL/7/gcc/8.2.0]
+    operating_system: rhel7
+    paths:
+      cc:  /opt/arm/gcc-8.2.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gcc
+      cxx: /opt/arm/gcc-8.2.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/g++
+      f77: /opt/arm/gcc-8.2.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+      fc:  /opt/arm/gcc-8.2.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+    spec: gcc@8.2.0
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [gcc/8.1.0]
+    operating_system: rhel7
+    paths:
+      cc:  /opt/arm/gcc-8.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gcc
+      cxx: /opt/arm/gcc-8.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/g++
+      f77: /opt/arm/gcc-8.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+      fc:  /opt/arm/gcc-8.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+    spec: gcc@8.1.0
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [Generic-AArch64/RHEL/7/gcc/7.1.0]
+    operating_system: rhel7
+    paths:
+      cc:  /opt/arm/gcc-7.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gcc
+      cxx: /opt/arm/gcc-7.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/g++
+      f77: /opt/arm/gcc-7.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+      fc:  /opt/arm/gcc-7.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+    spec: gcc@7.1.0
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc:  /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec: gcc@4.8.5
+    target: aarch64
+#  #  #  clang
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - clang/7.0.0
+    operating_system: rhel7
+    paths:
+      cc:  /projects/opt/aarch64/clang/7.0.0/bin/armclang
+      cxx: /projects/opt/aarch64/clang/7.0.0/bin/armclang++
+      f77: /projects/opt/aarch64/clang/7.0.0/bin/armflang
+      fc:  /projects/opt/aarch64/clang/7.0.0/bin/armflang
+    spec: clang@7.0.0
+    target: aarch64
+#  #  #  darwin ARM
+#  #  #  ARM clang
+#  #  #  18.4.2  18.4.1  18.4.0
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/8.2.0
+    - Generic-AArch64/RHEL/7/arm-hpc-compiler/19.1
+    operating_system: rhel7
+    paths:
+      cc:  /opt/arm/arm-hpc-compiler-19.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang
+      cxx: /opt/arm/arm-hpc-compiler-19.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang++
+      f77: /opt/arm/arm-hpc-compiler-19.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+      fc:  /opt/arm/arm-hpc-compiler-19.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+    spec: arm@19.1
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4.2]
+    operating_system: rhel7
+    paths:
+      cc:  /opt/arm/arm-hpc-compiler-18.4.2_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang
+      cxx: /opt/arm/arm-hpc-compiler-18.4.2_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang++
+      f77: /opt/arm/arm-hpc-compiler-18.4.2_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+      #f90: /opt/arm/arm-hpc-compiler-18.4.2_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+      fc:  /opt/arm/arm-hpc-compiler-18.4.2_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+    spec: clang@18.4.2
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4.1]
+    operating_system: rhel7
+    paths:
+      cc:  /opt/arm/arm-hpc-compiler-18.4.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang
+      cxx: /opt/arm/arm-hpc-compiler-18.4.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang++
+      f77: /opt/arm/arm-hpc-compiler-18.4.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+      #f90: /opt/arm/arm-hpc-compiler-18.4.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+      fc:  /opt/arm/arm-hpc-compiler-18.4.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+    spec: clang@18.4.1
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4]
+    operating_system: rhel7
+    paths:
+      cc:  /opt/arm/arm-hpc-compiler-18.4_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang
+      cxx: /opt/arm/arm-hpc-compiler-18.4_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang++
+      f77: /opt/arm/arm-hpc-compiler-18.4_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+      #f90: /opt/arm/arm-hpc-compiler-18.4_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+      fc:  /opt/arm/arm-hpc-compiler-18.4_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+    spec: clang@18.4.0
+    target: aarch64
+spack config get compilers
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - Generic-AArch64/RHEL/7/gcc/8.2.0
+    operating_system: rhel7
+    paths:
+      cc: /opt/arm/gcc-8.2.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gcc
+      cxx: /opt/arm/gcc-8.2.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/g++
+      f77: /opt/arm/gcc-8.2.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+      fc: /opt/arm/gcc-8.2.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+    spec: gcc@8.2.0
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/8.1.0
+    operating_system: rhel7
+    paths:
+      cc: /opt/arm/gcc-8.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gcc
+      cxx: /opt/arm/gcc-8.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/g++
+      f77: /opt/arm/gcc-8.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+      fc: /opt/arm/gcc-8.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+    spec: gcc@8.1.0
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - Generic-AArch64/RHEL/7/gcc/7.1.0
+    operating_system: rhel7
+    paths:
+      cc: /opt/arm/gcc-7.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gcc
+      cxx: /opt/arm/gcc-7.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/g++
+      f77: /opt/arm/gcc-7.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+      fc: /opt/arm/gcc-7.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+    spec: gcc@7.1.0
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc: /usr/bin/gfortran
+    spec: gcc@4.8.5
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - clang/7.0.0
+    operating_system: rhel7
+    paths:
+      cc: /projects/opt/aarch64/clang/7.0.0/bin/armclang
+      cxx: /projects/opt/aarch64/clang/7.0.0/bin/armclang++
+      f77: /projects/opt/aarch64/clang/7.0.0/bin/armflang
+      fc: /projects/opt/aarch64/clang/7.0.0/bin/armflang
+    spec: clang@7.0.0
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/8.2.0
+    - Generic-AArch64/RHEL/7/arm-hpc-compiler/19.1
+    operating_system: rhel7
+    paths:
+      cc: /opt/arm/arm-hpc-compiler-19.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang
+      cxx: /opt/arm/arm-hpc-compiler-19.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang++
+      f77: /opt/arm/arm-hpc-compiler-19.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+      fc: /opt/arm/arm-hpc-compiler-19.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+    spec: arm@19.1
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4.2
+    operating_system: rhel7
+    paths:
+      cc: /opt/arm/arm-hpc-compiler-18.4.2_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang
+      cxx: /opt/arm/arm-hpc-compiler-18.4.2_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang++
+      f77: /opt/arm/arm-hpc-compiler-18.4.2_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+      fc: /opt/arm/arm-hpc-compiler-18.4.2_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+    spec: clang@18.4.2
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4.1
+    operating_system: rhel7
+    paths:
+      cc: /opt/arm/arm-hpc-compiler-18.4.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang
+      cxx: /opt/arm/arm-hpc-compiler-18.4.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang++
+      f77: /opt/arm/arm-hpc-compiler-18.4.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+      fc: /opt/arm/arm-hpc-compiler-18.4.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+    spec: clang@18.4.1
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4
+    operating_system: rhel7
+    paths:
+      cc: /opt/arm/arm-hpc-compiler-18.4_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang
+      cxx: /opt/arm/arm-hpc-compiler-18.4_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang++
+      f77: /opt/arm/arm-hpc-compiler-18.4_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+      fc: /opt/arm/arm-hpc-compiler-18.4_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+    spec: clang@18.4.0
+    target: aarch64
+spack install pmix @ 3.1.2 % gcc@8.2.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+spack install pmix @ 3.1.2 % gcc@8.1.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-gpzuvig2ughdn2tbygwjwwo4sjjjpckx/libpciaccess-0.13.5/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/gcc-8.1.0/libpciaccess-0.13.5-gpzuvig2ughdn2tbygwjwwo4sjjjpckx'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /scratch/users/dantopa/new-spack/libraries/darwi
+           n-arm.pmix/lib/spack/env/gcc/gcc
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-nqEor
+           Y/libpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-gpzuvig2ughdn2tbygwjwwo4sjjjpckx/spack-build.out
+spack install pmix @ 3.1.2 % gcc@7.1.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+spack install pmix @ 3.1.2 % gcc@4.8.5  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+spack install pmix @ 3.1.2 % arm@19.1  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-syimrildzpuh3cythz2l2zkwmk4e2buv/libpciaccess-0.13.5/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/arm-19.1/libpciaccess-0.13.5-syimrildzpuh3cythz2l2zkwmk4e2buv'
+
+2 errors found in build log:
+     17    checking whether we are using the GNU C compiler... yes
+     18    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.pmix/lib/spack/env/arm/armclang accepts -g... yes
+     19    checking for /scratch/users/dantopa/new-spack/libraries/darwin-arm.p
+           mix/lib/spack/env/arm/armclang option to accept ISO C89... none need
+           ed
+     20    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.pmix/lib/spack/env/arm/armclang understands -c and -o together...
+            yes
+     21    checking dependency style of /scratch/users/dantopa/new-spack/librar
+           ies/darwin-arm.pmix/lib/spack/env/arm/armclang... gcc3
+     22    checking how to run the C preprocessor... cpp\ -mcpu=thunderx2t99
+  >> 23    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-k3_p_
+           n/libpciaccess-0.13.5':
+  >> 24    configure: error: C preprocessor "cpp\ -mcpu=thunderx2t99" fails san
+           ity check
+     25    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-syimrildzpuh3cythz2l2zkwmk4e2buv/spack-build.out
+spack install pmix @ 3.1.2 % clang@18.4.2  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-zmhg7tt5i5efkdqkbklhejtqo2trvtr7/libpciaccess-0.13.5/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/clang-18.4.2/libpciaccess-0.13.5-zmhg7tt5i5efkdqkbklhejtqo2trvtr7'
+
+2 errors found in build log:
+     17    checking whether we are using the GNU C compiler... yes
+     18    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.pmix/lib/spack/env/clang/clang accepts -g... yes
+     19    checking for /scratch/users/dantopa/new-spack/libraries/darwin-arm.p
+           mix/lib/spack/env/clang/clang option to accept ISO C89... none neede
+           d
+     20    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.pmix/lib/spack/env/clang/clang understands -c and -o together... 
+           yes
+     21    checking dependency style of /scratch/users/dantopa/new-spack/librar
+           ies/darwin-arm.pmix/lib/spack/env/clang/clang... gcc3
+     22    checking how to run the C preprocessor... armclang\ -E
+  >> 23    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-axel2
+           P/libpciaccess-0.13.5':
+  >> 24    configure: error: C preprocessor "armclang\ -E" fails sanity check
+     25    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-zmhg7tt5i5efkdqkbklhejtqo2trvtr7/spack-build.out
+spack install pmix @ 3.1.2 % clang@18.4.1  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-q2f4lw2hjiy26w67orjs4od4jvewx5ir/libpciaccess-0.13.5/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/clang-18.4.1/libpciaccess-0.13.5-q2f4lw2hjiy26w67orjs4od4jvewx5ir'
+
+2 errors found in build log:
+     17    checking whether we are using the GNU C compiler... yes
+     18    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.pmix/lib/spack/env/clang/clang accepts -g... yes
+     19    checking for /scratch/users/dantopa/new-spack/libraries/darwin-arm.p
+           mix/lib/spack/env/clang/clang option to accept ISO C89... none neede
+           d
+     20    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.pmix/lib/spack/env/clang/clang understands -c and -o together... 
+           yes
+     21    checking dependency style of /scratch/users/dantopa/new-spack/librar
+           ies/darwin-arm.pmix/lib/spack/env/clang/clang... gcc3
+     22    checking how to run the C preprocessor... armclang\ -E
+  >> 23    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-EWvIo
+           3/libpciaccess-0.13.5':
+  >> 24    configure: error: C preprocessor "armclang\ -E" fails sanity check
+     25    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-q2f4lw2hjiy26w67orjs4od4jvewx5ir/spack-build.out
+spack install pmix @ 3.1.2 % clang@18.4.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+spack install pmix @ 3.1.2 % clang@7.0.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-t24hqeld27fu4srlt6s5ujtp5lhff5bg/libpciaccess-0.13.5/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/clang-7.0.0/libpciaccess-0.13.5-t24hqeld27fu4srlt6s5ujtp5lhff5bg'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /scratch/users/dantopa/new-spack/libraries/darwi
+           n-arm.pmix/lib/spack/env/clang/clang
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-yx9c2
+           n/libpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-t24hqeld27fu4srlt6s5ujtp5lhff5bg/spack-build.out
+spack install pmix @ 3.0.2 % gcc@8.2.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+spack install pmix @ 3.0.2 % gcc@8.1.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-gpzuvig2ughdn2tbygwjwwo4sjjjpckx/libpciaccess-0.13.5/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/gcc-8.1.0/libpciaccess-0.13.5-gpzuvig2ughdn2tbygwjwwo4sjjjpckx'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /scratch/users/dantopa/new-spack/libraries/darwi
+           n-arm.pmix/lib/spack/env/gcc/gcc
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-0sSCE
+           Q/libpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-gpzuvig2ughdn2tbygwjwwo4sjjjpckx/spack-build.out
+spack install pmix @ 3.0.2 % gcc@7.1.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+spack install pmix @ 3.0.2 % gcc@4.8.5  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+spack install pmix @ 3.0.2 % arm@19.1  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-syimrildzpuh3cythz2l2zkwmk4e2buv/libpciaccess-0.13.5/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/arm-19.1/libpciaccess-0.13.5-syimrildzpuh3cythz2l2zkwmk4e2buv'
+
+2 errors found in build log:
+     17    checking whether we are using the GNU C compiler... yes
+     18    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.pmix/lib/spack/env/arm/armclang accepts -g... yes
+     19    checking for /scratch/users/dantopa/new-spack/libraries/darwin-arm.p
+           mix/lib/spack/env/arm/armclang option to accept ISO C89... none need
+           ed
+     20    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.pmix/lib/spack/env/arm/armclang understands -c and -o together...
+            yes
+     21    checking dependency style of /scratch/users/dantopa/new-spack/librar
+           ies/darwin-arm.pmix/lib/spack/env/arm/armclang... gcc3
+     22    checking how to run the C preprocessor... cpp\ -mcpu=thunderx2t99
+  >> 23    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-xtDWe
+           D/libpciaccess-0.13.5':
+  >> 24    configure: error: C preprocessor "cpp\ -mcpu=thunderx2t99" fails san
+           ity check
+     25    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-syimrildzpuh3cythz2l2zkwmk4e2buv/spack-build.out
+spack install pmix @ 3.0.2 % clang@18.4.2  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-zmhg7tt5i5efkdqkbklhejtqo2trvtr7/libpciaccess-0.13.5/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/clang-18.4.2/libpciaccess-0.13.5-zmhg7tt5i5efkdqkbklhejtqo2trvtr7'
+
+2 errors found in build log:
+     17    checking whether we are using the GNU C compiler... yes
+     18    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.pmix/lib/spack/env/clang/clang accepts -g... yes
+     19    checking for /scratch/users/dantopa/new-spack/libraries/darwin-arm.p
+           mix/lib/spack/env/clang/clang option to accept ISO C89... none neede
+           d
+     20    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.pmix/lib/spack/env/clang/clang understands -c and -o together... 
+           yes
+     21    checking dependency style of /scratch/users/dantopa/new-spack/librar
+           ies/darwin-arm.pmix/lib/spack/env/clang/clang... gcc3
+     22    checking how to run the C preprocessor... armclang\ -E
+  >> 23    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-5BnM3
+           9/libpciaccess-0.13.5':
+  >> 24    configure: error: C preprocessor "armclang\ -E" fails sanity check
+     25    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-zmhg7tt5i5efkdqkbklhejtqo2trvtr7/spack-build.out
+spack install pmix @ 3.0.2 % clang@18.4.1  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-q2f4lw2hjiy26w67orjs4od4jvewx5ir/libpciaccess-0.13.5/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/clang-18.4.1/libpciaccess-0.13.5-q2f4lw2hjiy26w67orjs4od4jvewx5ir'
+
+2 errors found in build log:
+     17    checking whether we are using the GNU C compiler... yes
+     18    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.pmix/lib/spack/env/clang/clang accepts -g... yes
+     19    checking for /scratch/users/dantopa/new-spack/libraries/darwin-arm.p
+           mix/lib/spack/env/clang/clang option to accept ISO C89... none neede
+           d
+     20    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.pmix/lib/spack/env/clang/clang understands -c and -o together... 
+           yes
+     21    checking dependency style of /scratch/users/dantopa/new-spack/librar
+           ies/darwin-arm.pmix/lib/spack/env/clang/clang... gcc3
+     22    checking how to run the C preprocessor... armclang\ -E
+  >> 23    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-ZPng7
+           f/libpciaccess-0.13.5':
+  >> 24    configure: error: C preprocessor "armclang\ -E" fails sanity check
+     25    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-q2f4lw2hjiy26w67orjs4od4jvewx5ir/spack-build.out
+spack install pmix @ 3.0.2 % clang@18.4.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+spack install pmix @ 3.0.2 % clang@7.0.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-t24hqeld27fu4srlt6s5ujtp5lhff5bg/libpciaccess-0.13.5/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/clang-7.0.0/libpciaccess-0.13.5-t24hqeld27fu4srlt6s5ujtp5lhff5bg'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /scratch/users/dantopa/new-spack/libraries/darwi
+           n-arm.pmix/lib/spack/env/clang/clang
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-YIE5_
+           g/libpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-t24hqeld27fu4srlt6s5ujtp5lhff5bg/spack-build.out
+spack install pmix @ 2.2.2 % gcc@8.2.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+spack install pmix @ 2.2.2 % gcc@8.1.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libevent-2.1.8-bpx7chgsd2xshewk5zh7qt3bifm4pjld/libevent-2.1.8-stable/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/gcc-8.1.0/libevent-2.1.8-bpx7chgsd2xshewk5zh7qt3bifm4pjld' '--enable-openssl'
+
+2 errors found in build log:
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking whether make supports nested variables... (cached) yes
+     11    checking for style of include used by make... GNU
+     12    checking for gcc... /scratch/users/dantopa/new-spack/libraries/darwi
+           n-arm.pmix/lib/spack/env/gcc/gcc
+     13    checking whether the C compiler works... no
+  >> 14    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-SU79G
+           D/libevent-2.1.8-stable':
+  >> 15    configure: error: C compiler cannot create executables
+     16    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libevent-2.1.8-bpx7chgsd2xshewk5zh7qt3bifm4pjld/spack-build.out
+spack install pmix @ 2.2.2 % gcc@7.1.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+spack install pmix @ 2.2.2 % gcc@4.8.5  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+spack install pmix @ 2.2.2 % arm@19.1  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libevent-2.1.8-qyhcbkcqxtbxc66xivbq3s52arwq55td/libevent-2.1.8-stable/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/arm-19.1/libevent-2.1.8-qyhcbkcqxtbxc66xivbq3s52arwq55td' '--enable-openssl'
+
+2 errors found in build log:
+     18    checking whether we are using the GNU C compiler... yes
+     19    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.pmix/lib/spack/env/arm/armclang accepts -g... yes
+     20    checking for /scratch/users/dantopa/new-spack/libraries/darwin-arm.p
+           mix/lib/spack/env/arm/armclang option to accept ISO C89... none need
+           ed
+     21    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.pmix/lib/spack/env/arm/armclang understands -c and -o together...
+            yes
+     22    checking dependency style of /scratch/users/dantopa/new-spack/librar
+           ies/darwin-arm.pmix/lib/spack/env/arm/armclang... gcc3
+     23    checking how to run the C preprocessor... cpp\ -mcpu=thunderx2t99
+  >> 24    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-gosM6
+           h/libevent-2.1.8-stable':
+  >> 25    configure: error: C preprocessor "cpp\ -mcpu=thunderx2t99" fails san
+           ity check
+     26    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libevent-2.1.8-qyhcbkcqxtbxc66xivbq3s52arwq55td/spack-build.out
+spack install pmix @ 2.2.2 % clang@18.4.2  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libevent-2.1.8-vvhzkjnqlubvbq4zlftei2dm3cgfj2sw/libevent-2.1.8-stable/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/clang-18.4.2/libevent-2.1.8-vvhzkjnqlubvbq4zlftei2dm3cgfj2sw' '--enable-openssl'
+
+2 errors found in build log:
+     18    checking whether we are using the GNU C compiler... yes
+     19    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.pmix/lib/spack/env/clang/clang accepts -g... yes
+     20    checking for /scratch/users/dantopa/new-spack/libraries/darwin-arm.p
+           mix/lib/spack/env/clang/clang option to accept ISO C89... none neede
+           d
+     21    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.pmix/lib/spack/env/clang/clang understands -c and -o together... 
+           yes
+     22    checking dependency style of /scratch/users/dantopa/new-spack/librar
+           ies/darwin-arm.pmix/lib/spack/env/clang/clang... gcc3
+     23    checking how to run the C preprocessor... armclang\ -E
+  >> 24    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-cfK4W
+           i/libevent-2.1.8-stable':
+  >> 25    configure: error: C preprocessor "armclang\ -E" fails sanity check
+     26    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libevent-2.1.8-vvhzkjnqlubvbq4zlftei2dm3cgfj2sw/spack-build.out
+spack install pmix @ 2.2.2 % clang@18.4.1  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libevent-2.1.8-44qgojiodmdvmk45qquj62yzijkdhgyy/libevent-2.1.8-stable/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/clang-18.4.1/libevent-2.1.8-44qgojiodmdvmk45qquj62yzijkdhgyy' '--enable-openssl'
+
+2 errors found in build log:
+     18    checking whether we are using the GNU C compiler... yes
+     19    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.pmix/lib/spack/env/clang/clang accepts -g... yes
+     20    checking for /scratch/users/dantopa/new-spack/libraries/darwin-arm.p
+           mix/lib/spack/env/clang/clang option to accept ISO C89... none neede
+           d
+     21    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.pmix/lib/spack/env/clang/clang understands -c and -o together... 
+           yes
+     22    checking dependency style of /scratch/users/dantopa/new-spack/librar
+           ies/darwin-arm.pmix/lib/spack/env/clang/clang... gcc3
+     23    checking how to run the C preprocessor... armclang\ -E
+  >> 24    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-cGIo1
+           G/libevent-2.1.8-stable':
+  >> 25    configure: error: C preprocessor "armclang\ -E" fails sanity check
+     26    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libevent-2.1.8-44qgojiodmdvmk45qquj62yzijkdhgyy/spack-build.out
+spack install pmix @ 2.2.2 % clang@18.4.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+spack install pmix @ 2.2.2 % clang@7.0.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libevent-2.1.8-dmmmzdth4chhe6y3jg7ujdjfcim7n4g7/libevent-2.1.8-stable/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/clang-7.0.0/libevent-2.1.8-dmmmzdth4chhe6y3jg7ujdjfcim7n4g7' '--enable-openssl'
+
+2 errors found in build log:
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking whether make supports nested variables... (cached) yes
+     11    checking for style of include used by make... GNU
+     12    checking for gcc... /scratch/users/dantopa/new-spack/libraries/darwi
+           n-arm.pmix/lib/spack/env/clang/clang
+     13    checking whether the C compiler works... no
+  >> 14    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-ZPx4z
+           3/libevent-2.1.8-stable':
+  >> 15    configure: error: C compiler cannot create executables
+     16    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libevent-2.1.8-dmmmzdth4chhe6y3jg7ujdjfcim7n4g7/spack-build.out
+spack install pmix @ 2.1.4 % gcc@8.2.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+spack install pmix @ 2.1.4 % gcc@8.1.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libevent-2.1.8-bpx7chgsd2xshewk5zh7qt3bifm4pjld/libevent-2.1.8-stable/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/gcc-8.1.0/libevent-2.1.8-bpx7chgsd2xshewk5zh7qt3bifm4pjld' '--enable-openssl'
+
+2 errors found in build log:
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking whether make supports nested variables... (cached) yes
+     11    checking for style of include used by make... GNU
+     12    checking for gcc... /scratch/users/dantopa/new-spack/libraries/darwi
+           n-arm.pmix/lib/spack/env/gcc/gcc
+     13    checking whether the C compiler works... no
+  >> 14    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-CtDNq
+           V/libevent-2.1.8-stable':
+  >> 15    configure: error: C compiler cannot create executables
+     16    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libevent-2.1.8-bpx7chgsd2xshewk5zh7qt3bifm4pjld/spack-build.out
+spack install pmix @ 2.1.4 % gcc@7.1.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+spack install pmix @ 2.1.4 % gcc@4.8.5  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+spack install pmix @ 2.1.4 % arm@19.1  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libevent-2.1.8-qyhcbkcqxtbxc66xivbq3s52arwq55td/libevent-2.1.8-stable/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/arm-19.1/libevent-2.1.8-qyhcbkcqxtbxc66xivbq3s52arwq55td' '--enable-openssl'
+
+2 errors found in build log:
+     18    checking whether we are using the GNU C compiler... yes
+     19    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.pmix/lib/spack/env/arm/armclang accepts -g... yes
+     20    checking for /scratch/users/dantopa/new-spack/libraries/darwin-arm.p
+           mix/lib/spack/env/arm/armclang option to accept ISO C89... none need
+           ed
+     21    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.pmix/lib/spack/env/arm/armclang understands -c and -o together...
+            yes
+     22    checking dependency style of /scratch/users/dantopa/new-spack/librar
+           ies/darwin-arm.pmix/lib/spack/env/arm/armclang... gcc3
+     23    checking how to run the C preprocessor... cpp\ -mcpu=thunderx2t99
+  >> 24    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-UhMXv
+           I/libevent-2.1.8-stable':
+  >> 25    configure: error: C preprocessor "cpp\ -mcpu=thunderx2t99" fails san
+           ity check
+     26    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libevent-2.1.8-qyhcbkcqxtbxc66xivbq3s52arwq55td/spack-build.out
+spack install pmix @ 2.1.4 % clang@18.4.2  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libevent-2.1.8-vvhzkjnqlubvbq4zlftei2dm3cgfj2sw/libevent-2.1.8-stable/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/clang-18.4.2/libevent-2.1.8-vvhzkjnqlubvbq4zlftei2dm3cgfj2sw' '--enable-openssl'
+
+2 errors found in build log:
+     18    checking whether we are using the GNU C compiler... yes
+     19    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.pmix/lib/spack/env/clang/clang accepts -g... yes
+     20    checking for /scratch/users/dantopa/new-spack/libraries/darwin-arm.p
+           mix/lib/spack/env/clang/clang option to accept ISO C89... none neede
+           d
+     21    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.pmix/lib/spack/env/clang/clang understands -c and -o together... 
+           yes
+     22    checking dependency style of /scratch/users/dantopa/new-spack/librar
+           ies/darwin-arm.pmix/lib/spack/env/clang/clang... gcc3
+     23    checking how to run the C preprocessor... armclang\ -E
+  >> 24    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-EwcQz
+           e/libevent-2.1.8-stable':
+  >> 25    configure: error: C preprocessor "armclang\ -E" fails sanity check
+     26    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libevent-2.1.8-vvhzkjnqlubvbq4zlftei2dm3cgfj2sw/spack-build.out
+spack install pmix @ 2.1.4 % clang@18.4.1  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libevent-2.1.8-44qgojiodmdvmk45qquj62yzijkdhgyy/libevent-2.1.8-stable/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/clang-18.4.1/libevent-2.1.8-44qgojiodmdvmk45qquj62yzijkdhgyy' '--enable-openssl'
+
+2 errors found in build log:
+     18    checking whether we are using the GNU C compiler... yes
+     19    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.pmix/lib/spack/env/clang/clang accepts -g... yes
+     20    checking for /scratch/users/dantopa/new-spack/libraries/darwin-arm.p
+           mix/lib/spack/env/clang/clang option to accept ISO C89... none neede
+           d
+     21    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.pmix/lib/spack/env/clang/clang understands -c and -o together... 
+           yes
+     22    checking dependency style of /scratch/users/dantopa/new-spack/librar
+           ies/darwin-arm.pmix/lib/spack/env/clang/clang... gcc3
+     23    checking how to run the C preprocessor... armclang\ -E
+  >> 24    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-lOXKz
+           Q/libevent-2.1.8-stable':
+  >> 25    configure: error: C preprocessor "armclang\ -E" fails sanity check
+     26    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libevent-2.1.8-44qgojiodmdvmk45qquj62yzijkdhgyy/spack-build.out
+spack install pmix @ 2.1.4 % clang@18.4.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+spack install pmix @ 2.1.4 % clang@7.0.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-pmix-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libevent-2.1.8-dmmmzdth4chhe6y3jg7ujdjfcim7n4g7/libevent-2.1.8-stable/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/clang-7.0.0/libevent-2.1.8-dmmmzdth4chhe6y3jg7ujdjfcim7n4g7' '--enable-openssl'
+
+2 errors found in build log:
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking whether make supports nested variables... (cached) yes
+     11    checking for style of include used by make... GNU
+     12    checking for gcc... /scratch/users/dantopa/new-spack/libraries/darwi
+           n-arm.pmix/lib/spack/env/clang/clang
+     13    checking whether the C compiler works... no
+  >> 14    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-uUUvS
+           h/libevent-2.1.8-stable':
+  >> 15    configure: error: C compiler cannot create executables
+     16    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libevent-2.1.8-dmmmzdth4chhe6y3jg7ujdjfcim7n4g7/spack-build.out
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+mkdir -p "${dir_results}/platform-order"
+mkdir -p "${dir_results}/tpl-order"
+mkdir -p "${dir_results}/graphs"
+spack find pmix >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/platform-order/darwin-arm-pmix.out
+spack find pmix >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/pmix-darwin-arm.out
+spack find -ldf pmix  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/pmix-darwin-arm-ldf.out
+spack graph pmix >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/graphs/pmix-darwin-arm-graph.out
+spack compilers
+==> Available compilers
+-- arm rhel7-aarch64 --------------------------------------------
+arm@19.1
+
+-- clang rhel7-aarch64 ------------------------------------------
+clang@18.4.2
+clang@18.4.1
+clang@18.4.0
+clang@7.0.0
+
+-- gcc rhel7-aarch64 --------------------------------------------
+gcc@8.2.0
+gcc@8.1.0
+gcc@7.1.0
+gcc@4.8.5
+spack find pmix
+==> 16 installed packages
+-- linux-rhel7-aarch64 / clang@18.4.0 ---------------------------
+pmix@2.1.4
+pmix@2.2.2
+pmix@3.0.2
+pmix@3.1.2
+
+-- linux-rhel7-aarch64 / gcc@4.8.5 ------------------------------
+pmix@2.1.4
+pmix@2.2.2
+pmix@3.0.2
+pmix@3.1.2
+
+-- linux-rhel7-aarch64 / gcc@7.1.0 ------------------------------
+pmix@2.1.4
+pmix@2.2.2
+pmix@3.0.2
+pmix@3.1.2
+
+-- linux-rhel7-aarch64 / gcc@8.2.0 ------------------------------
+pmix@2.1.4
+pmix@2.2.2
+pmix@3.0.2
+pmix@3.1.2
+spack find -ldf pmix
+==> 16 installed packages
+-- linux-rhel7-aarch64 / clang@18.4.0 ---------------------------
+tpo7s72    pmix@2.1.4%clang 
+ee2n6ms        ^libevent@2.1.8%clang 
+zcfn4ao            ^openssl@1.1.1b%clang 
+
+c3tisar    pmix@2.2.2%clang 
+ee2n6ms        ^libevent@2.1.8%clang 
+zcfn4ao            ^openssl@1.1.1b%clang 
+
+63sdy53    pmix@3.0.2%clang 
+pctjipw        ^hwloc@2.0.2%clang 
+m4ndyt2            ^libpciaccess@0.13.5%clang 
+dl4urrb            ^libxml2@2.9.8%clang 
+ee2n6ms        ^libevent@2.1.8%clang 
+zcfn4ao            ^openssl@1.1.1b%clang 
+
+4unymgk    pmix@3.1.2%clang 
+pctjipw        ^hwloc@2.0.2%clang 
+m4ndyt2            ^libpciaccess@0.13.5%clang 
+dl4urrb            ^libxml2@2.9.8%clang 
+ee2n6ms        ^libevent@2.1.8%clang 
+zcfn4ao            ^openssl@1.1.1b%clang 
+
+
+-- linux-rhel7-aarch64 / gcc@4.8.5 ------------------------------
+loccciv    pmix@2.1.4%gcc 
+bl5wflw        ^libevent@2.1.8%gcc 
+t7nulaq            ^openssl@1.1.1b%gcc 
+
+irohz74    pmix@2.2.2%gcc 
+bl5wflw        ^libevent@2.1.8%gcc 
+t7nulaq            ^openssl@1.1.1b%gcc 
+
+cjxrvak    pmix@3.0.2%gcc 
+uql4obm        ^hwloc@2.0.2%gcc 
+6a4he35            ^libpciaccess@0.13.5%gcc 
+6a5uzd6            ^libxml2@2.9.8%gcc 
+bl5wflw        ^libevent@2.1.8%gcc 
+t7nulaq            ^openssl@1.1.1b%gcc 
+
+ospnwd6    pmix@3.1.2%gcc 
+uql4obm        ^hwloc@2.0.2%gcc 
+6a4he35            ^libpciaccess@0.13.5%gcc 
+6a5uzd6            ^libxml2@2.9.8%gcc 
+bl5wflw        ^libevent@2.1.8%gcc 
+t7nulaq            ^openssl@1.1.1b%gcc 
+
+
+-- linux-rhel7-aarch64 / gcc@7.1.0 ------------------------------
+efeq4qv    pmix@2.1.4%gcc 
+egwtufx        ^libevent@2.1.8%gcc 
+znefxik            ^openssl@1.1.1b%gcc 
+
+a5whrle    pmix@2.2.2%gcc 
+egwtufx        ^libevent@2.1.8%gcc 
+znefxik            ^openssl@1.1.1b%gcc 
+
+pv26vjy    pmix@3.0.2%gcc 
+baktpuv        ^hwloc@2.0.2%gcc 
+gmwtdrw            ^libpciaccess@0.13.5%gcc 
+7sufcg5            ^libxml2@2.9.8%gcc 
+egwtufx        ^libevent@2.1.8%gcc 
+znefxik            ^openssl@1.1.1b%gcc 
+
+2zgcz6d    pmix@3.1.2%gcc 
+baktpuv        ^hwloc@2.0.2%gcc 
+gmwtdrw            ^libpciaccess@0.13.5%gcc 
+7sufcg5            ^libxml2@2.9.8%gcc 
+egwtufx        ^libevent@2.1.8%gcc 
+znefxik            ^openssl@1.1.1b%gcc 
+
+
+-- linux-rhel7-aarch64 / gcc@8.2.0 ------------------------------
+5e3z47p    pmix@2.1.4%gcc 
+rlmdkq5        ^libevent@2.1.8%gcc 
+owlepd7            ^openssl@1.1.1b%gcc 
+
+nw36mog    pmix@2.2.2%gcc 
+rlmdkq5        ^libevent@2.1.8%gcc 
+owlepd7            ^openssl@1.1.1b%gcc 
+
+ry7dsjv    pmix@3.0.2%gcc 
+7wi3bol        ^hwloc@2.0.2%gcc 
+vfd6u24            ^libpciaccess@0.13.5%gcc 
+fo65cwc            ^libxml2@2.9.8%gcc 
+rlmdkq5        ^libevent@2.1.8%gcc 
+owlepd7            ^openssl@1.1.1b%gcc 
+
+2dhlnqq    pmix@3.1.2%gcc 
+7wi3bol        ^hwloc@2.0.2%gcc 
+vfd6u24            ^libpciaccess@0.13.5%gcc 
+fo65cwc            ^libxml2@2.9.8%gcc 
+rlmdkq5        ^libevent@2.1.8%gcc 
+owlepd7            ^openssl@1.1.1b%gcc 
+
+mv  /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/darwin-arm-batch.out   /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/batch-out/darwin-arm-pmix-2019-04-24-batch.out
+cd /scratch/users/dantopa/repos/gitlab/pull-requests/libraries
+git add -A .
+git commit -m "${USER} ${tpl} ${hpc} ${partition} ${ymd}"
+[master 9f9933e] dantopa pmix darwin arm 2019-04-24
+ 14 files changed, 3588 insertions(+), 658 deletions(-)
+ create mode 100644 libraries/results/batch-out/darwin-arm-pmix-2019-04-24-batch.out
+ create mode 100644 libraries/results/command-log/darwin-arm-pmix-command.log
+ create mode 100644 libraries/results/graphs/pmix-darwin-arm-graph.out
+ create mode 100644 libraries/results/install-log/darwin-arm-pmix-install.log
+ rewrite libraries/results/install-log/darwin-general-ucx-install.log (64%)
+ create mode 100644 libraries/results/platform-order/darwin-arm-pmix.out
+ rewrite libraries/results/tpl-order/pmix-darwin-arm-ldf.out (97%)
+ rewrite libraries/results/tpl-order/pmix-darwin-arm.out (69%)
+ delete mode 100644 libraries/tools/bash/darwin-arm-batch.out
+Wed Apr 24 16:19:07 MDT 2019

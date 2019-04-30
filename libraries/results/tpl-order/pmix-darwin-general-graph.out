@@ -1,0 +1,21 @@
+Thu Apr 18 21:43:52 MDT 2019
+spack graph pmix >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/pmix-darwin-general-graph.out
+o  pmix
+|\
+| o  hwloc
+| |\
+| | |\
+| | | o  libpciaccess
+| | |/| 
+| |/| | 
+| | | |\
+| | | o |  util-macros
+| | |  /
+| o | |  pkg-config
+|  / /
+o | |  libevent
+o | |  openssl
+ / /
+o |  libxml2
+ /
+o  libtool

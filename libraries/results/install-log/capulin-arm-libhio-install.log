@@ -1,0 +1,70 @@
+Fri Apr 26 14:07:52 MDT 2019
+
+
+spack install libhio @ 1.4.1.3 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2
+
+spack install libhio @ 1.4.1.3 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2
+==> libhio is already installed in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.libhio/opt/spack/cray-cnl6-arm_thunderx2/gcc-7.3.0/libhio-1.4.1.3-wijwbtzswkip27gq5fxegfh5x67joat4
+
+spack install libhio @ 1.4.1.3 % gcc@6.1.0  arch=cray-cnl6-arm_thunderx2
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : generating module file
+==> bzip2@1.0.6 : registering into DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : generating module file
+==> libtool@2.4.6 : registering into DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : generating module file
+==> pkg-config@0.29.2 : registering into DB
+==> Installing util-macros
+==> Searching for binary cache of util-macros
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for util-macros found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/util-macros/util-macros-1.19.1.tar.bz2
+==> Staging archive: /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.libhio/var/spack/stage/util-macros-1.19.1-5dqpcgblqjjny5srcilcautem5443rew/util-macros-1.19.1.tar.bz2
+==> Created stage in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.libhio/var/spack/stage/util-macros-1.19.1-5dqpcgblqjjny5srcilcautem5443rew
+==> No patches needed for util-macros
+==> Building util-macros [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed util-macros
+  Fetch: 0.13s.  Build: 2.29s.  Total: 2.42s.
+[+] /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.libhio/opt/spack/cray-cnl6-arm_thunderx2/gcc-6.1.0/util-macros-1.19.1-5dqpcgblqjjny5srcilcautem5443rew
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je/libpciaccess-0.13.5.tar.gz
+==> Created stage in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install libhio @ 1.4.1.2 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2
+
+spack install libhio @ 1.4.1.2 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2
+==> libhio is already installed in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.libhio/opt/spack/cray-cnl6-arm_thunderx2/gcc-7.3.0/libhio-1.4.1.2-3rj4syyqythqhyd2qfpnfrwdwgq3hqwd
+
+spack install libhio @ 1.4.1.2 % gcc@6.1.0  arch=cray-cnl6-arm_thunderx2
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.libhio/opt/spack/cray-cnl6-arm_thunderx2/gcc-6.1.0/util-macros-1.19.1-5dqpcgblqjjny5srcilcautem5443rew
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.libhio/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je/libpciaccess-0.13.5.tar.gz
+==> Created stage in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'

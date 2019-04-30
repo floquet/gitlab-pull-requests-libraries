@@ -1,0 +1,185 @@
+Thu Apr 18 20:03:37 MDT 2019 /var/spool/slurmd/job2797800/slurm_script
+source "${dir_tools}/bash/master-tpl-sweep.sh"
+Thu Apr 18 20:03:37 MDT 2019 /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh
+cd /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools
+source directories/libraries-snow.sh
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 20: directories/libraries-snow.sh: No such file or directory
+source tpl-versions/versions-pmix.sh
+Thu Apr 18 20:03:37 MDT 2019 [1mtpl-versions/versions-pmix.sh(B[m
+4 pmix versions loaded:
+3.1.2  3.0.2  2.2.2  2.1.4
+
+source compilers/compilers-snow-standard.sh
+Thu Apr 18 20:03:37 MDT 2019 [1mcompilers/compilers-snow-standard.sh(B[m
+11 Spack-recognized compilers loaded:
+gcc@8.2.0  gcc@7.4.0  gcc@6.4.0  gcc@5.3.0 intel@19.0.1.144  intel@18.0.5  intel@17.0.4  intel@16.0.3 pgi@18.10  pgi@17.10  pgi@16.10
+
+source klingons/snow-standard-pmix.sh
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 34: klingons/snow-standard-pmix.sh: No such file or directory
+cd /snow-standard.pmix
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 37: cd: /snow-standard.pmix: No such file or directory
+. share/spack/setup-env.sh
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 40: share/spack/setup-env.sh: No such file or directory
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 43: spack: command not found
+export spack_architecture='arch='
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 44: spack: command not found
+spack clean -a
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 47: spack: command not found
+
+spack install pmix @ 3.1.2 % gcc@8.2.0  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 3.1.2 % gcc@7.4.0  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 3.1.2 % gcc@6.4.0  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 3.1.2 % gcc@5.3.0  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 3.1.2 % intel@19.0.1.144  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 3.1.2 % intel@18.0.5  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 3.1.2 % intel@17.0.4  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 3.1.2 % intel@16.0.3  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 3.1.2 % pgi@18.10  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 3.1.2 % pgi@17.10  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 3.1.2 % pgi@16.10  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 3.0.2 % gcc@8.2.0  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 3.0.2 % gcc@7.4.0  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 3.0.2 % gcc@6.4.0  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 3.0.2 % gcc@5.3.0  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 3.0.2 % intel@19.0.1.144  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 3.0.2 % intel@18.0.5  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 3.0.2 % intel@17.0.4  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 3.0.2 % intel@16.0.3  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 3.0.2 % pgi@18.10  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 3.0.2 % pgi@17.10  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 3.0.2 % pgi@16.10  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 2.2.2 % gcc@8.2.0  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 2.2.2 % gcc@7.4.0  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 2.2.2 % gcc@6.4.0  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 2.2.2 % gcc@5.3.0  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 2.2.2 % intel@19.0.1.144  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 2.2.2 % intel@18.0.5  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 2.2.2 % intel@17.0.4  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 2.2.2 % intel@16.0.3  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 2.2.2 % pgi@18.10  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 2.2.2 % pgi@17.10  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 2.2.2 % pgi@16.10  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 2.1.4 % gcc@8.2.0  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 2.1.4 % gcc@7.4.0  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 2.1.4 % gcc@6.4.0  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 2.1.4 % gcc@5.3.0  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 2.1.4 % intel@19.0.1.144  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 2.1.4 % intel@18.0.5  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 2.1.4 % intel@17.0.4  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 2.1.4 % intel@16.0.3  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 2.1.4 % pgi@18.10  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 2.1.4 % pgi@17.10  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 2.1.4 % pgi@16.10  arch=  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+mkdir -p "${dir_results}/tpl-order"
+spack find pmix >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/pmix-snow-standard.out
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 74: spack: command not found
+spack find -ldf pmix  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/pmix-snow-standard-ldf.out
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 80: spack: command not found
+spack graph pmix >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/pmix-snow-standard-graph.out
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 86: spack: command not found
+spack compilers
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 90: spack: command not found
+spack find pmix
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 93: spack: command not found
+spack find -ldf pmix
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 96: spack: command not found
+mv  /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/snow-standard-batch.out   /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/batch-out/snow-standard-pmix-2019-04-18-batch.out
+cd /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries
+git add -A .
+git commit -m "${USER} ${tpl} ${hpc} ${partition} ${ymd}"
+[master 5665084] dantopa pmix snow standard 2019-04-18
+ 6 files changed, 228 insertions(+)
+ create mode 100644 libraries/results/batch-out/snow-standard-pmix-2019-04-18-batch.out
+ create mode 100644 libraries/results/command-log/snow-standard-pmix-command.log
+ create mode 100644 libraries/results/install-log/snow-standard-pmix-install.log
+ create mode 100644 libraries/results/tpl-order/pmix-snow-standard-graph.out
+ create mode 100644 libraries/results/tpl-order/pmix-snow-standard-ldf.out
+ create mode 100644 libraries/results/tpl-order/pmix-snow-standard.out
+Thu Apr 18 20:03:42 MDT 2019

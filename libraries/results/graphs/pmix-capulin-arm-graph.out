@@ -1,0 +1,22 @@
+Fri Apr 26 12:57:29 MDT 2019
+/lustre/cpscratch1/dantopa/repos/spack/libraries/capulin-arm.pmix
+spack graph pmix >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/graphs/pmix-capulin-arm-graph.out
+o  pmix
+|\
+| o  hwloc
+| |\
+| | |\
+| | | o  libpciaccess
+| | |/| 
+| |/| | 
+| | | |\
+| | | o |  util-macros
+| | |  /
+| o | |  pkg-config
+|  / /
+o | |  libevent
+o | |  openssl
+ / /
+o |  libxml2
+ /
+o  libtool

@@ -1,0 +1,40 @@
+Wed Apr 24 22:33:19 MDT 2019
+/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio
+spack graph libhio >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/graphs/libhio-trinitite-standard-graph.out
+o  libhio
+|\
+| |\
+| | |\
+| | | |\
+| | | o |  hdf5
+| | |/| | 
+| |/| | | 
+| o | | |  openmpi
+| |\ \ \ \
+| | |_|/ /
+| |/| | | 
+| | |\ \ \
+| o | | | |  zlib
+|  / / / /
+| | o | |  hwloc
+| |/| | | 
+|/| | | | 
+| | |\ \ \
+| | | o | |  libpciaccess
+| |_|/| | | 
+|/| | | | | 
+| | | |\ \ \
+| | | o | | |  util-macros
+| | |  / / /
+o | | | | |  pkg-config
+ / / / / /
+o | | | |  numactl
+ / / / /
+o | | |  libxml2
+ / / /
+o | |  libtool
+ / /
+o |  json-c
+| o  bzip2
+| 
+o  autoconf

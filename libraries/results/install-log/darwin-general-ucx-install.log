@@ -1,0 +1,485 @@
+Wed Apr 24 16:14:01 MDT 2019
+
+
+spack install ucx @ 1.5.0 % gcc@8.2.0  arch=linux-centos7-x86_64
+==> ucx is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-8.2.0/ucx-1.5.0-ooyhnhaojv44spwnjhcrkmabdijplov2
+
+spack install ucx @ 1.5.0 % gcc@7.3.0  arch=linux-centos7-x86_64
+==> ucx is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-7.3.0/ucx-1.5.0-5rz4o2fmgfhw6uj2dnrxpl7cro5aexcb
+
+spack install ucx @ 1.5.0 % gcc@6.4.0  arch=linux-centos7-x86_64
+==> ucx is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-6.4.0/ucx-1.5.0-fy4ebqiqr5rfqke2z6ytlxsqukawpxj2
+
+spack install ucx @ 1.5.0 % gcc@5.5.0  arch=linux-centos7-x86_64
+==> ucx is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-5.5.0/ucx-1.5.0-rqg5dlfu26pexteuh2uix5uoev4kcout
+
+spack install ucx @ 1.5.0 % gcc@4.9.3  arch=linux-centos7-x86_64
+==> ucx is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-4.9.3/ucx-1.5.0-o6yv42nsyuju4erzkedp7pbrndqco5b6
+
+spack install ucx @ 1.5.0 % gcc@4.8.5  arch=linux-centos7-x86_64
+==> ucx is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-4.8.5/ucx-1.5.0-nwv4nhttvlhr6own73pbg24csdp5deft
+
+spack install ucx @ 1.5.0 % intel@18.0.3  arch=linux-centos7-x86_64
+
+spack install ucx @ 1.5.0 % intel@17.0.6  arch=linux-centos7-x86_64
+
+spack install ucx @ 1.5.0 % intel@16.0.4  arch=linux-centos7-x86_64
+
+spack install ucx @ 1.5.0 % pgi@18.10  arch=linux-centos7-x86_64
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> curl@7.63.0 : externally installed in /usr
+==> curl@7.63.0 : already registered in DB
+==> Installing libbsd
+==> Searching for binary cache of libbsd
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libbsd found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/libbsd/libbsd-0.9.1.tar.xz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-evnzswkuiy7q4nkpgnuqjgarpnwakstf/libbsd-0.9.1.tar.xz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-evnzswkuiy7q4nkpgnuqjgarpnwakstf
+==> No patches needed for libbsd
+==> Building libbsd [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install ucx @ 1.5.0 % pgi@18.7  arch=linux-centos7-x86_64
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> curl@7.63.0 : externally installed in /usr
+==> curl@7.63.0 : already registered in DB
+==> Installing libbsd
+==> Searching for binary cache of libbsd
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libbsd found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/libbsd/libbsd-0.9.1.tar.xz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-rsvjgnicvty7u2wsnnqc5iote2xjzuct/libbsd-0.9.1.tar.xz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-rsvjgnicvty7u2wsnnqc5iote2xjzuct
+==> No patches needed for libbsd
+==> Building libbsd [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install ucx @ 1.5.0 % pgi@17.10  arch=linux-centos7-x86_64
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> curl@7.63.0 : externally installed in /usr
+==> curl@7.63.0 : already registered in DB
+==> Installing libbsd
+==> Searching for binary cache of libbsd
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libbsd found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/libbsd/libbsd-0.9.1.tar.xz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-pdjj5winih4tigxhnjcw4iszboh2wuik/libbsd-0.9.1.tar.xz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-pdjj5winih4tigxhnjcw4iszboh2wuik
+==> No patches needed for libbsd
+==> Building libbsd [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install ucx @ 1.5.0 % pgi@16.10  arch=linux-centos7-x86_64
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> curl@7.63.0 : externally installed in /usr
+==> curl@7.63.0 : already registered in DB
+==> Installing libbsd
+==> Searching for binary cache of libbsd
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libbsd found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/libbsd/libbsd-0.9.1.tar.xz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-ljv7ndktu6ysbgn3o6qovtaxp4hevwj6/libbsd-0.9.1.tar.xz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-ljv7ndktu6ysbgn3o6qovtaxp4hevwj6
+==> No patches needed for libbsd
+==> Building libbsd [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install ucx @ 1.4.0 % gcc@8.2.0  arch=linux-centos7-x86_64
+==> ucx is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-8.2.0/ucx-1.4.0-bmayd3cbbm4acs2jbvjuh6dwkhsaxgaz
+
+spack install ucx @ 1.4.0 % gcc@7.3.0  arch=linux-centos7-x86_64
+==> ucx is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-7.3.0/ucx-1.4.0-5tp2jdisnkabitczamxxg366wl2n45iy
+
+spack install ucx @ 1.4.0 % gcc@6.4.0  arch=linux-centos7-x86_64
+==> ucx is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-6.4.0/ucx-1.4.0-hawuwrdxa3gn6rxbtds7hzf23cg3c7hx
+
+spack install ucx @ 1.4.0 % gcc@5.5.0  arch=linux-centos7-x86_64
+==> ucx is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-5.5.0/ucx-1.4.0-kqsz246drqi7rqznonx5g4xvmtqvsnhc
+
+spack install ucx @ 1.4.0 % gcc@4.9.3  arch=linux-centos7-x86_64
+==> ucx is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-4.9.3/ucx-1.4.0-5avxti5dsnuq4ez6t6e57fszczxwiylr
+
+spack install ucx @ 1.4.0 % gcc@4.8.5  arch=linux-centos7-x86_64
+==> ucx is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-4.8.5/ucx-1.4.0-vnkpsdhxzu2giekftf5gy2t3sotbkyk5
+
+spack install ucx @ 1.4.0 % intel@18.0.3  arch=linux-centos7-x86_64
+
+spack install ucx @ 1.4.0 % intel@17.0.6  arch=linux-centos7-x86_64
+
+spack install ucx @ 1.4.0 % intel@16.0.4  arch=linux-centos7-x86_64
+
+spack install ucx @ 1.4.0 % pgi@18.10  arch=linux-centos7-x86_64
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> curl@7.63.0 : externally installed in /usr
+==> curl@7.63.0 : already registered in DB
+==> Installing libbsd
+==> Searching for binary cache of libbsd
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libbsd found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/libbsd/libbsd-0.9.1.tar.xz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-evnzswkuiy7q4nkpgnuqjgarpnwakstf/libbsd-0.9.1.tar.xz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-evnzswkuiy7q4nkpgnuqjgarpnwakstf
+==> No patches needed for libbsd
+==> Building libbsd [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install ucx @ 1.4.0 % pgi@18.7  arch=linux-centos7-x86_64
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> curl@7.63.0 : externally installed in /usr
+==> curl@7.63.0 : already registered in DB
+==> Installing libbsd
+==> Searching for binary cache of libbsd
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libbsd found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/libbsd/libbsd-0.9.1.tar.xz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-rsvjgnicvty7u2wsnnqc5iote2xjzuct/libbsd-0.9.1.tar.xz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-rsvjgnicvty7u2wsnnqc5iote2xjzuct
+==> No patches needed for libbsd
+==> Building libbsd [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install ucx @ 1.4.0 % pgi@17.10  arch=linux-centos7-x86_64
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> curl@7.63.0 : externally installed in /usr
+==> curl@7.63.0 : already registered in DB
+==> Installing libbsd
+==> Searching for binary cache of libbsd
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libbsd found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/libbsd/libbsd-0.9.1.tar.xz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-pdjj5winih4tigxhnjcw4iszboh2wuik/libbsd-0.9.1.tar.xz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-pdjj5winih4tigxhnjcw4iszboh2wuik
+==> No patches needed for libbsd
+==> Building libbsd [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install ucx @ 1.4.0 % pgi@16.10  arch=linux-centos7-x86_64
+
+spack install ucx @ 1.3.1 % gcc@8.2.0  arch=linux-centos7-x86_64
+==> ucx is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-8.2.0/ucx-1.3.1-pahec7y2x6n3u6ew34t3ovlpf5yq2rsu
+
+spack install ucx @ 1.3.1 % gcc@7.3.0  arch=linux-centos7-x86_64
+==> ucx is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-7.3.0/ucx-1.3.1-6ewrb5mc5d2gxp7o2skyanmtgnb4ak7g
+
+spack install ucx @ 1.3.1 % gcc@6.4.0  arch=linux-centos7-x86_64
+==> ucx is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-6.4.0/ucx-1.3.1-7wt6ef3mjs4rsddztpyzms2vcwddgcnk
+
+spack install ucx @ 1.3.1 % gcc@5.5.0  arch=linux-centos7-x86_64
+==> ucx is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-5.5.0/ucx-1.3.1-nracu5zulgkpuyikl4xuomcrnkrflqdp
+
+spack install ucx @ 1.3.1 % gcc@4.9.3  arch=linux-centos7-x86_64
+==> ucx is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-4.9.3/ucx-1.3.1-5djrm2lw5egovfj6gsuotjdckxwwve74
+
+spack install ucx @ 1.3.1 % gcc@4.8.5  arch=linux-centos7-x86_64
+==> ucx is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-4.8.5/ucx-1.3.1-5zinmk4qx6nr7rxuuge6h7jbuw4rk52g
+
+spack install ucx @ 1.3.1 % intel@18.0.3  arch=linux-centos7-x86_64
+
+spack install ucx @ 1.3.1 % intel@17.0.6  arch=linux-centos7-x86_64
+
+spack install ucx @ 1.3.1 % intel@16.0.4  arch=linux-centos7-x86_64
+
+spack install ucx @ 1.3.1 % pgi@18.10  arch=linux-centos7-x86_64
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> curl@7.63.0 : externally installed in /usr
+==> curl@7.63.0 : already registered in DB
+==> Installing libbsd
+==> Searching for binary cache of libbsd
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libbsd found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/libbsd/libbsd-0.9.1.tar.xz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-evnzswkuiy7q4nkpgnuqjgarpnwakstf/libbsd-0.9.1.tar.xz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-evnzswkuiy7q4nkpgnuqjgarpnwakstf
+==> No patches needed for libbsd
+==> Building libbsd [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install ucx @ 1.3.1 % pgi@18.7  arch=linux-centos7-x86_64
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> curl@7.63.0 : externally installed in /usr
+==> curl@7.63.0 : already registered in DB
+==> Installing libbsd
+==> Searching for binary cache of libbsd
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libbsd found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/libbsd/libbsd-0.9.1.tar.xz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-rsvjgnicvty7u2wsnnqc5iote2xjzuct/libbsd-0.9.1.tar.xz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-rsvjgnicvty7u2wsnnqc5iote2xjzuct
+==> No patches needed for libbsd
+==> Building libbsd [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install ucx @ 1.3.1 % pgi@17.10  arch=linux-centos7-x86_64
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> curl@7.63.0 : externally installed in /usr
+==> curl@7.63.0 : already registered in DB
+==> Installing libbsd
+==> Searching for binary cache of libbsd
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libbsd found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/libbsd/libbsd-0.9.1.tar.xz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-pdjj5winih4tigxhnjcw4iszboh2wuik/libbsd-0.9.1.tar.xz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-pdjj5winih4tigxhnjcw4iszboh2wuik
+==> No patches needed for libbsd
+==> Building libbsd [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install ucx @ 1.3.1 % pgi@16.10  arch=linux-centos7-x86_64
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> curl@7.63.0 : externally installed in /usr
+==> curl@7.63.0 : already registered in DB
+==> Installing libbsd
+==> Searching for binary cache of libbsd
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libbsd found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/libbsd/libbsd-0.9.1.tar.xz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-ljv7ndktu6ysbgn3o6qovtaxp4hevwj6/libbsd-0.9.1.tar.xz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-ljv7ndktu6ysbgn3o6qovtaxp4hevwj6
+==> No patches needed for libbsd
+==> Building libbsd [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install ucx @ 1.2.2 % gcc@8.2.0  arch=linux-centos7-x86_64
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> curl@7.63.0 : externally installed in /usr
+==> curl@7.63.0 : already registered in DB
+==> libbsd is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-8.2.0/libbsd-0.9.1-64drktglkyn24v2h4aj4eepdmnqx5x35
+==> expat is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-8.2.0/expat-2.2.5-yueu76ylvbdkqnw4z5uzccvfnib53j2t
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> lz4@1.9.0 : externally installed in /usr/lib64
+==> lz4@1.9.0 : generating module file
+==> lz4@1.9.0 : registering into DB
+==> lzo is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-8.2.0/lzo-2.10-tnjynqv4gwborok5fpgyuzoepeptseqa
+==> autoconf@2.69 : externally installed in /usr
+==> autoconf@2.69 : already registered in DB
+==> automake@1.16.1 : externally installed in /usr
+==> automake@1.16.1 : already registered in DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> gmp is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-8.2.0/gmp-6.1.2-yhxishziedyfvcfjx7eg6piffz6goeaf
+==> nettle is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-8.2.0/nettle-3.4-vft434lyukumqdsijwztch5qmyl3afpr
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> xz@5.2.4 : externally installed in /usr
+==> xz@5.2.4 : already registered in DB
+==> zlib is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-8.2.0/zlib-1.2.11-6wdekzyadff6repdb5bxinnzizvnn35t
+==> Installing libarchive
+==> Searching for binary cache of libarchive
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libarchive found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/libarchive/libarchive-3.3.2.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libarchive-3.3.2-g4o4nhq4ujfiknv65rchxkja3rxoeogm/libarchive-3.3.2.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libarchive-3.3.2-g4o4nhq4ujfiknv65rchxkja3rxoeogm
+==> No patches needed for libarchive
+==> Building libarchive [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libarchive
+  Fetch: 0.08s.  Build: 35.01s.  Total: 35.10s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-8.2.0/libarchive-3.3.2-g4o4nhq4ujfiknv65rchxkja3rxoeogm
+==> libuv is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-8.2.0/libuv-1.25.0-bkbrhotugfwtivlndmrzvfo46gvkygmc
+==> ncurses@6.1 : externally installed in /usr
+==> ncurses@6.1 : already registered in DB
+==> rhash is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-8.2.0/rhash-1.3.5-b2eei6c354veeq6claaqbh6cqiaywowz
+==> Installing cmake
+==> Searching for binary cache of cmake
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for cmake found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/cmake/cmake-3.14.2.tar.gz
+==> Fetching from file:///usr/projects/draco/vendors/spack.mirror/cmake/cmake-3.14.2.tar.gz failed.
+==> Fetching https://github.com/Kitware/CMake/releases/download/v3.14.2/cmake-3.14.2.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/cmake-3.14.2-4wg457mqayymhxqlgyaydxtgcgfzob7e/cmake-3.14.2.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/cmake-3.14.2-4wg457mqayymhxqlgyaydxtgcgfzob7e
+==> No patches needed for cmake
+==> Building cmake [Package]
+==> Executing phase: 'bootstrap'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed cmake
+  Fetch: 1.99s.  Build: 1m 13.39s.  Total: 1m 15.38s.
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-8.2.0/cmake-3.14.2-4wg457mqayymhxqlgyaydxtgcgfzob7e
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> libnl is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-8.2.0/libnl-3.3.0-xidgunmpmwdqpofdkflpttjiqmayc2yv
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> rdma-core is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-8.2.0/rdma-core-20-6v76anqma2wfzvpk46rlomnfriyrclqy
+==> Installing ucx
+==> Searching for binary cache of ucx
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for ucx found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/ucx/ucx-1.2.2.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/ucx-1.2.2-vwbx4vsf5f6tpf46macjm3m36cevbkqb/ucx-1.2.2.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/ucx-1.2.2-vwbx4vsf5f6tpf46macjm3m36cevbkqb
+==> No patches needed for ucx
+==> Building ucx [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install ucx @ 1.2.2 % gcc@7.3.0  arch=linux-centos7-x86_64
+==> ucx is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-7.3.0/ucx-1.2.2-dl7rd2nsgaaqjnx4upg2uiyjomz7kcbp
+
+spack install ucx @ 1.2.2 % gcc@6.4.0  arch=linux-centos7-x86_64
+==> ucx is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-6.4.0/ucx-1.2.2-c4tdwshb3ncsdrpfhcjv4cm7owgziyvi
+
+spack install ucx @ 1.2.2 % gcc@5.5.0  arch=linux-centos7-x86_64
+==> ucx is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-5.5.0/ucx-1.2.2-pse7izrg73ysnljih6o36fac4uy2mybm
+
+spack install ucx @ 1.2.2 % gcc@4.9.3  arch=linux-centos7-x86_64
+==> ucx is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-4.9.3/ucx-1.2.2-warosglt3t4qjnivlhntd7locnvvas6v
+
+spack install ucx @ 1.2.2 % gcc@4.8.5  arch=linux-centos7-x86_64
+==> ucx is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/opt/spack/linux-centos7-x86_64/gcc-4.8.5/ucx-1.2.2-onuslpzqdnnfgomoelrs4zoto4i2a7hn
+
+spack install ucx @ 1.2.2 % intel@18.0.3  arch=linux-centos7-x86_64
+
+spack install ucx @ 1.2.2 % intel@17.0.6  arch=linux-centos7-x86_64
+
+spack install ucx @ 1.2.2 % intel@16.0.4  arch=linux-centos7-x86_64
+
+spack install ucx @ 1.2.2 % pgi@18.10  arch=linux-centos7-x86_64
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> curl@7.63.0 : externally installed in /usr
+==> curl@7.63.0 : already registered in DB
+==> Installing libbsd
+==> Searching for binary cache of libbsd
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libbsd found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/libbsd/libbsd-0.9.1.tar.xz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-evnzswkuiy7q4nkpgnuqjgarpnwakstf/libbsd-0.9.1.tar.xz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-evnzswkuiy7q4nkpgnuqjgarpnwakstf
+==> No patches needed for libbsd
+==> Building libbsd [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install ucx @ 1.2.2 % pgi@18.7  arch=linux-centos7-x86_64
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> curl@7.63.0 : externally installed in /usr
+==> curl@7.63.0 : already registered in DB
+==> Installing libbsd
+==> Searching for binary cache of libbsd
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libbsd found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/libbsd/libbsd-0.9.1.tar.xz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-rsvjgnicvty7u2wsnnqc5iote2xjzuct/libbsd-0.9.1.tar.xz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-rsvjgnicvty7u2wsnnqc5iote2xjzuct
+==> No patches needed for libbsd
+==> Building libbsd [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install ucx @ 1.2.2 % pgi@17.10  arch=linux-centos7-x86_64
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> curl@7.63.0 : externally installed in /usr
+==> curl@7.63.0 : already registered in DB
+==> Installing libbsd
+==> Searching for binary cache of libbsd
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libbsd found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/libbsd/libbsd-0.9.1.tar.xz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-pdjj5winih4tigxhnjcw4iszboh2wuik/libbsd-0.9.1.tar.xz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-pdjj5winih4tigxhnjcw4iszboh2wuik
+==> No patches needed for libbsd
+==> Building libbsd [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install ucx @ 1.2.2 % pgi@16.10  arch=linux-centos7-x86_64
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> curl@7.63.0 : externally installed in /usr
+==> curl@7.63.0 : already registered in DB
+==> Installing libbsd
+==> Searching for binary cache of libbsd
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libbsd found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/cache/libbsd/libbsd-0.9.1.tar.xz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-ljv7ndktu6ysbgn3o6qovtaxp4hevwj6/libbsd-0.9.1.tar.xz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-ljv7ndktu6ysbgn3o6qovtaxp4hevwj6
+==> No patches needed for libbsd
+==> Building libbsd [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'

@@ -1,0 +1,7 @@
+Tue Apr 30 09:29:08 MDT 2019 libraries/tools/bash/interrogater.sh
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results
+
+
+partition: standard
+bin/spack find -ldf ucx
+==> No package matches the query: ucx

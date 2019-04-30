@@ -1,0 +1,1614 @@
+Last login: Thu Apr 18 12:14:17 on ttys020
+pn1249300:~ l127914$ source ~/.bashrc
+capulin 
+Thu Apr 18 12:14:18 MDT 2019 /Users/l127914/.bashrc
+Thu Apr 18 12:14:18 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/platforms.sh
+attempting to mkdir /Users/l127914/Documents/repos/gitlab/node-queries/Cauchy.Schwarz/log.in-pn1249300/dir-configuration
+directory of core scripts = ${core} = /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts
+Thu Apr 18 12:14:18 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/master.sh
+Thu Apr 18 12:14:18 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/info.sh
+Thu Apr 18 12:14:18 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/info-git.sh
+Thu Apr 18 12:14:18 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/gcc.sh
+-bash: gonode: command not found
+fatal: Not a git repository (or any of the parent directories): .git
+Thu Apr 18 12:14:18 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/git.sh
+fatal: Not a git repository (or any of the parent directories): .git
+Thu Apr 18 12:14:19 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/ssh.sh
+Thu Apr 18 12:14:19 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/vim.sh
+Thu Apr 18 12:14:19 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bash.sh
+Thu Apr 18 12:14:19 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/finds.sh
+Thu Apr 18 12:14:19 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/cmake.sh
+Thu Apr 18 12:14:19 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/fortran.sh
+Thu Apr 18 12:14:19 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/copy-configuration.sh
+Thu Apr 18 12:14:19 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bookmarks.sh
+Thu Apr 18 12:14:19 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bookmarks-bitbucket.sh
+Thu Apr 18 12:14:19 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bookmarks-github.sh
+Thu Apr 18 12:14:19 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/bookmarks-gitlab.sh
+Thu Apr 18 12:14:19 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/disk.sh
+Thu Apr 18 12:14:19 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/info.sh
+[1]   Done                    source ${core}/info-git.sh
+[2]+  Done                    source "${core}/copy-configuration.sh"
+Thu Apr 18 12:14:20 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/uname.sh
+Thu Apr 18 12:14:20 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/info-git.sh
+Thu Apr 18 12:14:20 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/spack.sh
+/Users/l127914/Documents/repos/gitlab/node-queries
+uname: illegal option -- i
+usage: uname [-amnprsv]
+Thu Apr 18 12:14:20 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/modules.sh
+uname: illegal option -- o
+usage: uname [-amnprsv]
+[3]+  Exit 127                module available >> ${my_log} 2>&1
+Thu Apr 18 12:14:20 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/alias.sh
+[2]-  Done                    source "${core}/uname.sh"
+[3]+  Exit 127                module list >> ${my_log} 2>&1
+Thu Apr 18 12:14:20 MDT 2019, /Users/l127914/Documents/repos/gitlab/bash-scripts/core-scripts/environment.sh
+[master 2104c5176] Cauchy.Schwarz-log.in-pn1249300 Thu Apr 18 12:14:20 MDT 2019
+ 5 files changed, 6 insertions(+), 6 deletions(-)
+[1]+  Done                    source ${core}/info-git.sh
+Thu Apr 18 12:14:20 MDT 2019, /Users/l127914/.bash-platform-specific
+l127914@pn1249300.lanl.gov:~ $ capulin 
+ssh -l dantopa -XY cp-fey.lanl.gov
+dantopa@cp-fey.lanl.gov's password: 
+Last login: Thu Apr 18 12:14:52 2019 from 141.111.175.17
+**WARNING**WARNING**WARNING**WARNING**
+
+This is a Department of Energy (DOE) computer system. DOE
+computer systems are provided for the processing of official
+U.S. Government information only. All data contained within
+DOE computer systems is owned by the DOE, and may be
+audited, intercepted, recorded, read, copied, or captured in any
+manner and disclosed in any manner, by authorized personnel.
+THERE IS NO RIGHT OF PRIVACY IN THIS SYSTEM.
+System personnel may disclose any potential evidence of crime
+found on DOE computer systems to appropriate authorities.
+
+USE OF THIS SYSTEM BY ANY USER, AUTHORIZED OR
+UNAUTHORIZED, CONSTITUTES CONSENT TO THIS
+AUDITING, INTERCEPTION, RECORDING, READING,
+COPYING, CAPTURING, and DISCLOSURE OF
+COMPUTER ACTIVITY.
+
+**WARNING**WARNING**WARNING**WARNING**
+dantopa@cp-loginy:~> .  .capulin-bash
+Thu Apr 18 12:15:39 MDT 2019 .capulin-bash
+Thu Apr 18 12:15:40 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/platforms.sh
+attempting to mkdir /lustre/cpscratch1/dantopa/repos/gitlab/node-queries/capulin/log.in-cp-loginy/dir-configuration
+directory of core scripts = ${core} = /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts
+Thu Apr 18 12:15:40 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/master.sh
+Thu Apr 18 12:15:40 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh
+Thu Apr 18 12:15:40 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh
+[1]   Done                    proc_probes "buddyinfo" "used primarily for diagnosing memory fragmentation issues"
+[2]   Done                    proc_probes "cmdline" "parameters passed to the kernel when it is started"
+[3]   Done                    proc_probes "cpuinfo" "type of processor used"
+[4]   Done                    proc_probes "crypto" "lists all installed cryptographic ciphers used by the Linux kernel"
+[5]   Done                    proc_probes "devices" "displays the various character and block devices currently configured"
+[6]   Exit 1                  proc_probes "driver" "information for specific drivers in use by the kernel"
+[7]   Exit 1                  proc_probes "dma" "registered ISA DMA channels in use"
+[8]   Done                    proc_probes "execdomains" "execution domains currently supported by the Linux kernel,"
+[9]   Done                    proc_probes "fb" "frame buffer devices"
+[10]   Done                    proc_probes "filesystems" "file system types currently supported by the kernel"
+[12]   Done                    proc_probes "iomem" "current map of the system's memory for each physical device"
+[13]   Done                    proc_probes "ioports" "currently registered port regions used for input or output communication"
+[14]   Exit 1                  proc_probes "kmsg" "messages generated by the kernel"
+[15]   Done                    proc_probes "loadavg" "load average in regard to both the CPU and IO over time"
+[17]   Exit 1                  proc_probes "mdstat" "current information for multiple-disk, RAID configurations"
+[18]   Done                    proc_probes "meminfo" "valuable information about the system's RAM usage"
+[19]   Done                    proc_probes "misc" "miscellaneous drivers registered on the miscellaneous major device, which is device number 10"
+[20]   Done                    proc_probes "modules" "all modules loaded into the kernel"
+[21]   Done                    proc_probes "mounts" "all mounts in use"
+[22]   Exit 1                  proc_probes "mtrr" "current Memory Type Range Registers (MTRRs) in use with the system"
+[23]   Done                    proc_probes "partitions" "partition block allocation information"
+[24]   Done                    proc_probes "scsi/scsi" "list of every recognized SCSI device"
+[25]   Exit 1                  proc_probes "slabinfo" "full information about memory usage on the slab level"
+[28]   Done                    proc_probes "swaps" "measures swap space and its utilization"
+[30]-  Exit 1                  proc_probes "slabinfo" "full information about memory usage on the slab level"
+[31]+  Done                    proc_probes "version" "version of the Linux kernel, gcc version used to compile the kernel, time of kernel compilation, kernel compiler's user name "
+[11]   Done                    proc_probes "interrupts" "the number of interrupts per IRQ on the x86 architecture"
+[26]   Done                    proc_probes "stat" "statistics about the system since last restart"
+[27]-  Exit 1                  proc_probes "slabinfo" "full information about memory usage on the slab level"
+[29]+  Done                    proc_probes "uptime" "uptime since restart"
+Thu Apr 18 12:15:40 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+Thu Apr 18 12:15:40 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh
+Thu Apr 18 12:15:40 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh
+gonode: command not found
+Thu Apr 18 12:15:40 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/gcc.sh
+fatal: Not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+fatal: Not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+Thu Apr 18 12:15:40 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/git.sh
+Thu Apr 18 12:15:40 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+Thu Apr 18 12:15:40 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/ssh.sh
+Thu Apr 18 12:15:40 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/vim.sh
+sinfo_s: command not found
+Thu Apr 18 12:15:40 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/bash.sh
+Thu Apr 18 12:15:40 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/finds.sh
+Thu Apr 18 12:15:40 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/cmake.sh
+Thu Apr 18 12:15:40 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/copy-configuration.sh
+Thu Apr 18 12:15:40 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/fortran.sh
+Thu Apr 18 12:15:40 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks.sh
+Thu Apr 18 12:15:40 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-github.sh
+Thu Apr 18 12:15:40 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-gitlab.sh
+Thu Apr 18 12:15:40 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/disk.sh
+Thu Apr 18 12:15:40 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh
+[16]   Done                    proc_probes "locks" "files currently locked by the kernel"
+[18]   Done                    source ${core}/info-git.sh
+[19]+  Done                    source "${core}/copy-configuration.sh"
+Thu Apr 18 12:15:40 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh
+[18]   Done                    proc_probes "buddyinfo" "used primarily for diagnosing memory fragmentation issues"
+[19]   Done                    proc_probes "cmdline" "parameters passed to the kernel when it is started"
+[20]   Done                    proc_probes "cpuinfo" "type of processor used"
+[21]   Done                    proc_probes "crypto" "lists all installed cryptographic ciphers used by the Linux kernel"
+[22]   Done                    proc_probes "devices" "displays the various character and block devices currently configured"
+[23]   Exit 1                  proc_probes "driver" "information for specific drivers in use by the kernel"
+[24]   Exit 1                  proc_probes "dma" "registered ISA DMA channels in use"
+[25]   Done                    proc_probes "execdomains" "execution domains currently supported by the Linux kernel,"
+[26]   Done                    proc_probes "fb" "frame buffer devices"
+[27]   Done                    proc_probes "filesystems" "file system types currently supported by the kernel"
+[29]   Done                    proc_probes "iomem" "current map of the system's memory for each physical device"
+[30]   Done                    proc_probes "ioports" "currently registered port regions used for input or output communication"
+[31]   Exit 1                  proc_probes "kmsg" "messages generated by the kernel"
+[32]   Done                    proc_probes "loadavg" "load average in regard to both the CPU and IO over time"
+[34]   Exit 1                  proc_probes "mdstat" "current information for multiple-disk, RAID configurations"
+[35]   Done                    proc_probes "meminfo" "valuable information about the system's RAM usage"
+[36]   Done                    proc_probes "misc" "miscellaneous drivers registered on the miscellaneous major device, which is device number 10"
+[37]   Done                    proc_probes "modules" "all modules loaded into the kernel"
+[38]   Done                    proc_probes "mounts" "all mounts in use"
+[39]   Exit 1                  proc_probes "mtrr" "current Memory Type Range Registers (MTRRs) in use with the system"
+[40]   Done                    proc_probes "partitions" "partition block allocation information"
+[41]   Done                    proc_probes "scsi/scsi" "list of every recognized SCSI device"
+[44]   Exit 1                  proc_probes "slabinfo" "full information about memory usage on the slab level"
+Thu Apr 18 12:15:40 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+Thu Apr 18 12:15:40 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh
+Thu Apr 18 12:15:40 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh
+Thu Apr 18 12:15:40 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/uname.sh
+/lustre/cpscratch1/dantopa/repos/gitlab/node-queries
+Thu Apr 18 12:15:40 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/spack.sh
+fatal: Unable to create '/lustre/cpscratch1/dantopa/repos/gitlab/node-queries/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+Thu Apr 18 12:15:40 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+Thu Apr 18 12:15:40 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/modules.sh
+[17]   Done                    source ${core}/info-slurm.sh
+[28]   Done                    proc_probes "interrupts" "the number of interrupts per IRQ on the x86 architecture"
+[42]   Exit 1                  proc_probes "slabinfo" "full information about memory usage on the slab level"
+[43]   Done                    proc_probes "stat" "statistics about the system since last restart"
+[45]   Done                    proc_probes "swaps" "measures swap space and its utilization"
+[46]   Done                    proc_probes "uptime" "uptime since restart"
+[47]   Exit 1                  proc_probes "slabinfo" "full information about memory usage on the slab level"
+[48]   Done                    proc_probes "version" "version of the Linux kernel, gcc version used to compile the kernel, time of kernel compilation, kernel compiler's user name "
+Thu Apr 18 12:15:40 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/alias.sh
+[51]   Done                    source "${core}/uname.sh"
+sinfo_s: command not found
+Thu Apr 18 12:15:40 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh
+[53]+  Done                    module list >> ${my_log} 2>&1
+fatal: Unable to create '/lustre/cpscratch1/dantopa/repos/gitlab/node-queries/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+[33]   Done                    proc_probes "locks" "files currently locked by the kernel"
+[50]-  Done                    source ${core}/info-git.sh
+[49]-  Done                    source ${core}/info-slurm.sh
+[52]+  Done                    module available >> ${my_log} 2>&1
+dantopa@cp-loginy:~ $ gospack
+/lustre/cpscratch1/dantopa/repos/github/spack
+dantopa@cp-loginy:spack $ cd ..
+dantopa@cp-loginy:github $ lss
+total 12M
+drwxr-x---  6 dantopa dantopa  12K Apr 15 14:59 .
+drwxr-x---  4 dantopa dantopa  12K Mar 13 14:05 ..
+-rw-r-----  1 dantopa dantopa 597K Mar 27 09:29 files.txt
+drwxr-x---  6 dantopa dantopa  12K Apr 16 10:44 libraries
+drwxr-x---  8 dantopa dantopa  13K Apr 15 09:29 spack
+drwxr-x---  8 dantopa dantopa  13K Mar 13 13:55 spack-develop
+drwxr-x--- 10 dantopa dantopa  13K Mar 15 17:19 spack-develop-2019-03-13
+-rw-r-----  1 dantopa dantopa 5.9M Mar 13 14:06 spack-develop.zip
+-rw-r-----  1 dantopa dantopa 4.0M Apr 15 10:42 spack-tarball.tar
+dantopa@cp-loginy:github $ cd libraries/
+dantopa@cp-loginy:libraries $ lss
+total 74K
+drwxr-x---  6 dantopa dantopa 12K Apr 16 10:44 .
+drwxr-x---  6 dantopa dantopa 12K Apr 15 14:59 ..
+drwxr-x---  9 dantopa dantopa 13K Apr 17 10:31 capulin-arm.libhio
+drwxr-x---  8 dantopa dantopa 13K Apr 15 09:29 capulin-arm.openmpi
+drwxr-x--- 11 dantopa dantopa 14K Apr 15 14:28 capulin-arm.pmix
+drwxr-x---  9 dantopa dantopa 13K Apr 16 12:00 capulin-arm.ucx
+dantopa@cp-loginy:libraries $ cd capulin-arm.ucx/
+dantopa@cp-loginy:capulin-arm.ucx $ gospackp
+. share/spack/setup-env.sh
+l-spack
+Thu Apr 18 12:20:59 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/spack-init.sh
+dantopa@cp-loginy:capulin-arm.ucx $ spack compilers
+==> Available compilers
+-- cce cnl6-any -------------------------------------------------
+cce@9.0.0.21672  cce@8.7.10  cce@8.7.8  cce@8.7.6  cce@8.7.4  cce@8.7.1  cce@8.6.5  cce@8.6.1  cce@8.5.8  cce@8.5.6  cce@8.5.3  cce@8.5.0
+cce@9.0.0.21672  cce@8.7.9   cce@8.7.7  cce@8.7.5  cce@8.7.2  cce@8.7.0  cce@8.6.2  cce@8.6.0  cce@8.5.7  cce@8.5.5  cce@8.5.2  cce@8.4.6
+
+-- gcc cnl6-any -------------------------------------------------
+gcc@8.3.0  gcc@8.2.0  gcc@7.3.0  gcc@7.2.0  gcc@7.1.0  gcc@6.3.0  gcc@6.2.0  gcc@6.1.0  gcc@5.3.0  gcc@5.2.0  gcc@4.9.3
+
+-- gcc sles12-x86_64 --------------------------------------------
+gcc@4.8
+
+-- gcc sles15-aarch64 -------------------------------------------
+gcc@7.4.0
+
+-- intel cnl6-any -----------------------------------------------
+intel@18.0.5  intel@18.0.2  intel@17.0.4  intel@17.0.1  intel@16.0.3  intel@15.0.7  intel@15.0.5
+dantopa@cp-loginy:capulin-arm.ucx $ spack install ucx @ 1.4.0 % gcc@4.9.3  arch=cray-cnl6-arm_thunderx2
+==> Error: invalid syntax (<string>, line 1)
+dantopa@cp-loginy:capulin-arm.ucx $ spack install ucx @ 1.4.0 % gcc@4.9.3  agrab-c                     
+^C
+==> Error: Keyboard interrupt.
+dantopa@cp-loginy:capulin-arm.ucx $ grab-compute 
+salloc -N 1 -t 10:00:00
+salloc: Granted job allocation 315611
+salloc: Waiting for resource configuration
+salloc: Nodes nid00003 are ready for job
+dantopa@nid00003:/lustre/cpscratch1/dantopa/repos/github/libraries/capulin-arm.ucx> cd
+dantopa@nid00003:~> . .capulin-bash 
+Thu Apr 18 12:23:46 MDT 2019 .capulin-bash
+Thu Apr 18 12:23:46 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/platforms.sh
+attempting to mkdir /lustre/cpscratch1/dantopa/repos/gitlab/node-queries/capulin/standard-nid00003/dir-configuration
+directory of core scripts = ${core} = /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts
+Thu Apr 18 12:23:46 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/master.sh
+Thu Apr 18 12:23:46 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh
+Thu Apr 18 12:23:47 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh
+[1]   Done                    proc_probes "buddyinfo" "used primarily for diagnosing memory fragmentation issues"
+[2]   Done                    proc_probes "cmdline" "parameters passed to the kernel when it is started"
+[3]   Done                    proc_probes "cpuinfo" "type of processor used"
+[4]   Done                    proc_probes "crypto" "lists all installed cryptographic ciphers used by the Linux kernel"
+[6]   Exit 1                  proc_probes "driver" "information for specific drivers in use by the kernel"
+[10]   Done                    proc_probes "filesystems" "file system types currently supported by the kernel"
+[15]   Done                    proc_probes "loadavg" "load average in regard to both the CPU and IO over time"
+[5]   Done                    proc_probes "devices" "displays the various character and block devices currently configured"
+[7]   Exit 1                  proc_probes "dma" "registered ISA DMA channels in use"
+[8]   Done                    proc_probes "execdomains" "execution domains currently supported by the Linux kernel,"
+[9]   Done                    proc_probes "fb" "frame buffer devices"
+[12]   Done                    proc_probes "iomem" "current map of the system's memory for each physical device"
+[13]   Done                    proc_probes "ioports" "currently registered port regions used for input or output communication"
+[14]   Exit 1                  proc_probes "kmsg" "messages generated by the kernel"
+[17]   Exit 1                  proc_probes "mdstat" "current information for multiple-disk, RAID configurations"
+[18]   Done                    proc_probes "meminfo" "valuable information about the system's RAM usage"
+[19]   Done                    proc_probes "misc" "miscellaneous drivers registered on the miscellaneous major device, which is device number 10"
+[20]   Done                    proc_probes "modules" "all modules loaded into the kernel"
+[21]   Done                    proc_probes "mounts" "all mounts in use"
+[22]   Exit 1                  proc_probes "mtrr" "current Memory Type Range Registers (MTRRs) in use with the system"
+[23]   Done                    proc_probes "partitions" "partition block allocation information"
+[24]   Done                    proc_probes "scsi/scsi" "list of every recognized SCSI device"
+[25]   Exit 1                  proc_probes "slabinfo" "full information about memory usage on the slab level"
+[26]   Done                    proc_probes "stat" "statistics about the system since last restart"
+[27]   Exit 1                  proc_probes "slabinfo" "full information about memory usage on the slab level"
+[28]   Done                    proc_probes "swaps" "measures swap space and its utilization"
+[29]   Done                    proc_probes "uptime" "uptime since restart"
+[30]-  Exit 1                  proc_probes "slabinfo" "full information about memory usage on the slab level"
+[31]+  Done                    proc_probes "version" "version of the Linux kernel, gcc version used to compile the kernel, time of kernel compilation, kernel compiler's user name "
+[11]-  Done                    proc_probes "interrupts" "the number of interrupts per IRQ on the x86 architecture"
+Thu Apr 18 12:23:47 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+Thu Apr 18 12:23:47 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh
+Thu Apr 18 12:23:47 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh
+Thu Apr 18 12:23:47 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/gcc.sh
+gonode: command not found
+Thu Apr 18 12:23:47 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+Thu Apr 18 12:23:47 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/git.sh
+Thu Apr 18 12:23:47 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/ssh.sh
+Thu Apr 18 12:23:47 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/vim.sh
+Thu Apr 18 12:23:47 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/bash.sh
+sinfo_s: command not found
+fatal: Not a git repository (or any parent up to mount point /yellow)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+fatal: Not a git repository (or any parent up to mount point /yellow)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+Thu Apr 18 12:23:47 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/finds.sh
+Thu Apr 18 12:23:47 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/cmake.sh
+Thu Apr 18 12:23:47 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/copy-configuration.sh
+Thu Apr 18 12:23:47 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/fortran.sh
+Thu Apr 18 12:23:47 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks.sh
+Thu Apr 18 12:23:47 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-github.sh
+Thu Apr 18 12:23:47 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-gitlab.sh
+Thu Apr 18 12:23:47 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/disk.sh
+Thu Apr 18 12:23:47 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh
+[16]   Done                    proc_probes "locks" "files currently locked by the kernel"
+[18]   Done                    source ${core}/info-git.sh
+[19]+  Done                    source "${core}/copy-configuration.sh"
+Thu Apr 18 12:23:47 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh
+[18]   Done                    proc_probes "buddyinfo" "used primarily for diagnosing memory fragmentation issues"
+[19]   Done                    proc_probes "cmdline" "parameters passed to the kernel when it is started"
+[20]   Done                    proc_probes "cpuinfo" "type of processor used"
+[21]   Done                    proc_probes "crypto" "lists all installed cryptographic ciphers used by the Linux kernel"
+[22]   Done                    proc_probes "devices" "displays the various character and block devices currently configured"
+[23]   Exit 1                  proc_probes "driver" "information for specific drivers in use by the kernel"
+[24]   Exit 1                  proc_probes "dma" "registered ISA DMA channels in use"
+[25]   Done                    proc_probes "execdomains" "execution domains currently supported by the Linux kernel,"
+[26]   Done                    proc_probes "fb" "frame buffer devices"
+[27]   Done                    proc_probes "filesystems" "file system types currently supported by the kernel"
+[29]   Done                    proc_probes "iomem" "current map of the system's memory for each physical device"
+[30]   Done                    proc_probes "ioports" "currently registered port regions used for input or output communication"
+[31]   Exit 1                  proc_probes "kmsg" "messages generated by the kernel"
+[32]   Done                    proc_probes "loadavg" "load average in regard to both the CPU and IO over time"
+[34]   Exit 1                  proc_probes "mdstat" "current information for multiple-disk, RAID configurations"
+[35]   Done                    proc_probes "meminfo" "valuable information about the system's RAM usage"
+[38]   Done                    proc_probes "mounts" "all mounts in use"
+[36]   Done                    proc_probes "misc" "miscellaneous drivers registered on the miscellaneous major device, which is device number 10"
+[37]   Done                    proc_probes "modules" "all modules loaded into the kernel"
+[39]   Exit 1                  proc_probes "mtrr" "current Memory Type Range Registers (MTRRs) in use with the system"
+[40]   Done                    proc_probes "partitions" "partition block allocation information"
+[41]   Done                    proc_probes "scsi/scsi" "list of every recognized SCSI device"
+[42]   Exit 1                  proc_probes "slabinfo" "full information about memory usage on the slab level"
+[43]   Done                    proc_probes "stat" "statistics about the system since last restart"
+[44]   Exit 1                  proc_probes "slabinfo" "full information about memory usage on the slab level"
+[45]   Done                    proc_probes "swaps" "measures swap space and its utilization"
+[46]   Done                    proc_probes "uptime" "uptime since restart"
+[47]-  Exit 1                  proc_probes "slabinfo" "full information about memory usage on the slab level"
+Thu Apr 18 12:23:47 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+Thu Apr 18 12:23:47 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh
+Thu Apr 18 12:23:47 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh
+/lustre/cpscratch1/dantopa/repos/gitlab/node-queries
+Thu Apr 18 12:23:47 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/uname.sh
+Thu Apr 18 12:23:47 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/spack.sh
+Thu Apr 18 12:23:47 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+Thu Apr 18 12:23:47 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/modules.sh
+[28]   Done                    proc_probes "interrupts" "the number of interrupts per IRQ on the x86 architecture"
+[33]   Done                    proc_probes "locks" "files currently locked by the kernel"
+[48]   Done                    proc_probes "version" "version of the Linux kernel, gcc version used to compile the kernel, time of kernel compilation, kernel compiler's user name "
+[17]   Done                    source ${core}/info-slurm.sh
+Thu Apr 18 12:23:47 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/alias.sh
+sinfo_s: command not found
+[51]   Done                    source "${core}/uname.sh"
+Thu Apr 18 12:23:47 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh
+[49]   Done                    source ${core}/info-slurm.sh
+[53]+  Done                    module list >> ${my_log} 2>&1
+^C
+[52]+  Done                    module available >> ${my_log} 2>&1
+dantopa@nid00003:~ $ gospack[master 3fa88a3ff] capulin-standard-nid00003 Thu Apr 18 12:24:20 MDT 2019
+
+/lustre/cpscratch1/dantopa/repos/github/spack
+dantopa@nid00003:spack $  44 files changed, 1831 insertions(+), 1734 deletions(-)
+ rewrite capulin/standard-nid00003/lscpu.txt (94%)
+ rewrite capulin/standard-nid00003/modules-available.txt (73%)
+ rewrite capulin/standard-nid00003/modules-list.txt (74%)
+ rewrite capulin/standard-nid00003/proc-filesystem/proc-buddyinfo.txt (83%)
+ rewrite capulin/standard-nid00003/proc-filesystem/proc-iomem.txt (95%)
+ rewrite capulin/standard-nid00003/proc-filesystem/proc-modules.txt (94%)
+ rewrite capulin/standard-nid00003/proc-filesystem/proc-slabinfo.txt (65%)
+ rewrite capulin/standard-nid00003/proc-filesystem/proc-stat.txt (97%)
+cd ..
+[50]+  Done                    source ${core}/info-git.sh  (wd: ~)
+(wd now: /lustre/cpscratch1/dantopa/repos/github)
+dantopa@nid00003:github $ cd libraries/
+dantopa@nid00003:libraries $ lss
+total 74K
+drwxr-x---  6 dantopa dantopa 12K Apr 16 10:44 .
+drwxr-x---  6 dantopa dantopa 12K Apr 15 14:59 ..
+drwxr-x---  9 dantopa dantopa 13K Apr 17 10:31 capulin-arm.libhio
+drwxr-x---  8 dantopa dantopa 13K Apr 15 09:29 capulin-arm.openmpi
+drwxr-x--- 11 dantopa dantopa 14K Apr 15 14:28 capulin-arm.pmix
+drwxr-x---  9 dantopa dantopa 13K Apr 16 12:00 capulin-arm.ucx
+dantopa@nid00003:libraries $ cd capulin-arm.ucx/
+dantopa@nid00003:capulin-arm.ucx $ gospackp
+. share/spack/setup-env.sh
+l-spack
+Thu Apr 18 12:24:41 MDT 2019, /lustre/cpscratch1/dantopa/repos/gitlab/bash-scripts/core-scripts/spack-init.sh
+dantopa@nid00003:capulin-arm.ucx $ spack find
+==> 21 installed packages
+-- cray-cnl6-arm_thunderx2 / cce@8.7.9 --------------------------
+bison@3.0.5  cmake@3.14.1  flex@2.6.4  libnl@3.3.0  m4@1.4.18  numactl@2.0.12  pkg-config@0.29.2
+
+-- cray-cnl6-arm_thunderx2 / gcc@7.3.0 --------------------------
+bison@3.0.5  cmake@3.14.1  flex@2.6.4  libnl@3.3.0  m4@1.4.18  numactl@2.0.12  pkg-config@0.29.2
+
+-- cray-cnl6-arm_thunderx2 / gcc@8.2.0 --------------------------
+bison@3.0.5  cmake@3.14.1  flex@2.6.4  libnl@3.3.0  m4@1.4.18  numactl@2.0.12  pkg-config@0.29.2
+dantopa@nid00003:capulin-arm.ucx $ spack compilers
+==> Available compilers
+-- cce cnl6-any -------------------------------------------------
+cce@9.0.0.21672  cce@8.7.10  cce@8.7.8  cce@8.7.6  cce@8.7.4  cce@8.7.1  cce@8.6.5  cce@8.6.1  cce@8.5.8  cce@8.5.6  cce@8.5.3  cce@8.5.0
+cce@9.0.0.21672  cce@8.7.9   cce@8.7.7  cce@8.7.5  cce@8.7.2  cce@8.7.0  cce@8.6.2  cce@8.6.0  cce@8.5.7  cce@8.5.5  cce@8.5.2  cce@8.4.6
+
+-- gcc cnl6-any -------------------------------------------------
+gcc@8.3.0  gcc@8.2.0  gcc@7.3.0  gcc@7.2.0  gcc@7.1.0  gcc@6.3.0  gcc@6.2.0  gcc@6.1.0  gcc@5.3.0  gcc@5.2.0  gcc@4.9.3
+
+-- gcc sles12-x86_64 --------------------------------------------
+gcc@4.8
+
+-- gcc sles15-aarch64 -------------------------------------------
+gcc@7.4.0
+
+-- intel cnl6-any -----------------------------------------------
+intel@18.0.5  intel@18.0.2  intel@17.0.4  intel@17.0.1  intel@16.0.3  intel@15.0.7  intel@15.0.5
+dantopa@nid00003:capulin-arm.ucx $ spack arch
+cray-cnl6-arm_thunderx2
+dantopa@nid00003:capulin-arm.ucx $ gcc --version
+gcc (SUSE Linux) 7.4.0
+Copyright (C) 2017 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+dantopa@nid00003:capulin-arm.ucx $ spack compiler find
+==> Found no new compilers
+==> Compilers are defined in the following files:
+    /users/dantopa/.spack/cray/compilers.yaml
+dantopa@nid00003:capulin-arm.ucx $ ma
+
+-------------------------------- /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/share/spack/modules/cray-cnl6-arm_thunderx2 ---------------------------------
+cmake-3.14.1-cce-8.7.9 cmake-3.14.1-gcc-7.3.0 cmake-3.14.1-gcc-8.2.0 libnl-3.3.0-cce-8.7.9  libnl-3.3.0-gcc-7.3.0  libnl-3.3.0-gcc-8.2.0
+
+---------------------------------- /lustre/cpscratch1/dantopa/repos/github/libraries/capulin-arm.ucx/share/spack/modules/cray-cnl6-arm_thunderx2 -----------------------------------
+cmake-3.14.1-cce-8.7.9 cmake-3.14.1-gcc-7.3.0 cmake-3.14.1-gcc-8.2.0 libnl-3.3.0-cce-8.7.9  libnl-3.3.0-gcc-7.3.0  libnl-3.3.0-gcc-8.2.0
+
+--------------------------------------------------------------------- /opt/cray/pe/perftools/7.0.6/modulefiles ---------------------------------------------------------------------
+perftools             perftools-lite        perftools-lite-events perftools-lite-gpu    perftools-lite-hbm    perftools-lite-loops  perftools-nwpc        perftools-preload
+
+---------------------------------------------------------------------------- /opt/cray/ari/modulefiles -----------------------------------------------------------------------------
+alps/6.6.50-7.0.0.1_3.18__g962f7108.ari(default)             logcb/1.3.1-7.0.0.1_3.4__ga55b812.ari(default)
+alpscomm/1.3.11-7.0.0.1_3.18__gc11442f.ari(default)          lustre-utils/2.3.5-7.0.0.1_5.19__g1ff87fe.ari(default)
+ccm/2.5.7-7.0.0.1_4.18__g83c42ff.ari(default)                nhm/5.7.2-7.0.0.1_3.4__g8895b35.ari(default)
+codbc/2.5.105-7.0.0.1_1.5__g811bbf2.ari(default)             nodehealth/5.6.15-7.0.0.1_4.19__g3727db8.ari(default)
+comm_msg/1.2.3-7.0.0.1_1.6__g60fcb6d.ari(default)            pdsh/2.27-7.0.0.1_5.5__g70b69a8.ari(default)
+configparse/2.4.41-7.0.0.1_1.5__g8c68499.ari(default)        pm_api/2.2.5-7.0.0.1_3.11__gae47fde.ari(default)
+datawarp/3.0.8-7.0.0.1_3.20__g3c2d06b.ari(default)           rca/2.2.20-7.0.0.1_4.19__g8e3fb5b.ari(default)
+dmapp/7.1.1-7.0.0.1_4.18__g54dc2b7.ari(default)              rdma-credentials/1.2.25-7.0.0.1_3.16__g21fa4e2.ari(default)
+dvs/2.11_2.2.128-7.0.0.1_4.13__gee190db(default)             rur/1.3.22-7.0.0.1_3.6__g02f6478.ari(default)
+dw_wlm/3.0.10-7.0.0.1_3.7__g446c6af.ari(default)             sh/2.4.43-7.0.0.1_4.4__gf08ecab.ari(default)
+dws/3.0.24-7.0.0.1_4.9__g437bee8.ari(default)                socketauth/1.3.1-7.0.0.1_1.6__gfdd1da0.ari(default)
+gni/6.0.31.0-7.0.0.1_8.15__gd768ae1.ari(default)             swrap/1.3.1-7.0.0.1_1.6__gc085a9f.ari(default)
+gni-headers/5.0.12.0-7.0.0.1_7.14__g3b1768f.ari(default)     sysadm/2.4.136-7.0.0.1_4.13__g4685a09.ari(default)
+ibverbs/1.2.2-7.0.0.1_4.7__gf9cbb9a.ari(default)             system-config/3.5.2956-7.0.0.1_3.9__g0e7888c5.ari(default)
+imps/3.8.4231-7.0.0.1_4.2__g325e5161.ari(default)            sysutils/2.5.72-7.0.0.1_1.5__g0dd4e0a.ari(default)
+imps-distribution/3.3.339-7.0.0.1_3.8__gd90d0d5.ari(default) udreg/2.3.2-7.0.0.1_4.10__g8175d3d.ari(default)
+isvaccel/6.0.0-7.0.0.1_4.6__gf0c05b4.ari(default)            ugni/6.0.14.0-7.0.0.1_7.12__ge78e5b0.ari(default)
+job/2.2.4-7.0.0.1_3.13__g36b56f4.ari(default)                wlm_detect/1.3.3-7.0.0.1_3.8__g7109084.ari(default)
+kdreg/2.2.5-7.0.0.1_3.11__ge6d8d0e.ari(default)              wlm_trans/1.5.6-7.0.0.1_3.18__gad40448.ari(default)
+krca/2.2.5-7.0.0.1_4.17__g92086a7.ari(default)               xpmem/2.2.17-7.0.0.1_3.11__g7acee3a.ari(default)
+linux-nvme-ctl/0.0_2.1.4-7.0.0.1_3.8__g375a019.ari(default)  xtgetconfig/2.3.90-7.0.0.1_4.7__g3d11e7d.ari(default)
+llm/21.4.570-7.0.0.1_5.6__ge50c6aa.ari(default)
+
+---------------------------------------------------------------------- /opt/cray/pe/craype/2.5.18/modulefiles ----------------------------------------------------------------------
+craype-aarch64       craype-hugepages1G   craype-hugepages2M   craype-hugepages8M   craype-hugepages32M  craype-hugepages128M craype-hugepages512M craype-network-none
+craype-arm-thunderx2 craype-hugepages2G   craype-hugepages4M   craype-hugepages16M  craype-hugepages64M  craype-hugepages256M craype-network-aries
+
+----------------------------------------------------------------------------- /opt/cray/pe/modulefiles -----------------------------------------------------------------------------
+PrgEnv-allinea/6.0.5(default)             cray-ccdb/3.0.4(default)                  cray-mpich-abi/7.7.6(default)             perftools/7.0.6(default)
+PrgEnv-cray/6.0.5(default)                cray-cti/1.0.7(default)                   cray-netcdf/4.6.1.3(default)              perftools-base/7.0.6(default)
+PrgEnv-gnu/6.0.5(default)                 cray-fftw/3.3.8.2(default)                cray-netcdf-hdf5parallel/4.6.1.3(default) perftools-lite/7.0.6(default)
+atp/2.1.3(default)                        cray-ga/5.3.0.10(default)                 cray-openshmemx/8.0.1                     pmi/5.0.13
+atp/2.1.3_debug                           cray-hdf5/1.10.2.0(default)               cray-snplauncher/7.7.6(default)           pmi/5.0.14(default)
+cce/8.7.9                                 cray-hdf5-parallel/1.10.2.0(default)      craype/2.5.18(default)                    pmi-lib/5.0.13
+cce/8.7.10(default)                       cray-lgdb/3.0.10(default)                 gdb4hpc/3.0.10(default)                   pmi-lib/5.0.14(default)
+cdt/19.03                                 cray-libsci/18.12.1(default)              modules/3.2.11.1(default)                 stat/3.0.1.3(default)
+cdt/19.04                                 cray-mpich/7.7.6(default)                 papi/5.6.0.6(default)
+
+--------------------------------------------------------------------------------- /opt/modulefiles ---------------------------------------------------------------------------------
+Base-opts/2.4.139-7.0.0.1_4.11__gbb799dd.ari(default) ddt/19.0.3.1(default)                                 gcc/7.3.0
+allinea/19.0.0.1(default)                             ddt-memdebug/19.0.1.1                                 gcc/8.2.0
+cray-R/3.4.2(default)                                 ddt-memdebug/19.0.3.1(default)                        gcc/8.3.0(default)
+cray-python/2.7.15.6(default)                         forge/19.0.1.1                                        modules/3.2.6.7
+cray-python/3.6.5.6                                   forge/19.0.3.1(default)                               slurm/18.08.3-1(default)
+ddt/19.0.1.1                                          gcc/6.1.0
+
+------------------------------------------------------------ /usr/projects/hpcsoft/modulefiles/cle7.0/capulin/debugger -------------------------------------------------------------
+forge/19.0.3    valgrind/3.13.0
+
+-------------------------------------------------------------- /usr/projects/hpcsoft/modulefiles/cle7.0/capulin/misc ---------------------------------------------------------------
+deprecated       dot              friendly-testing module-git       module-info      null             sandbox          support          use.own          user_contrib
+
+-------------------------------------------------------------- /usr/projects/hpcsoft/modulefiles/cle7.0/capulin/tools --------------------------------------------------------------
+charliecloud/0.9.7 charliecloud/0.9.8 forge/18.3         forge/19.0.3       git/2.18.1         git/2.19.1
+dantopa@nid00003:capulin-arm.ucx $ ml
+Currently Loaded Modulefiles:
+  1) modules/3.2.11.1                                    9) nodehealth/5.6.15-7.0.0.1_4.19__g3727db8.ari       17) pmi/5.0.14
+  2) pdsh/2.27-7.0.0.1_5.5__g70b69a8.ari                10) system-config/3.5.2956-7.0.0.1_3.9__g0e7888c5.ari  18) atp/2.1.3
+  3) udreg/2.3.2-7.0.0.1_4.10__g8175d3d.ari             11) slurm/18.08.3-1                                    19) rca/2.2.20-7.0.0.1_4.19__g8e3fb5b.ari
+  4) ugni/6.0.14.0-7.0.0.1_7.12__ge78e5b0.ari           12) Base-opts/2.4.139-7.0.0.1_4.11__gbb799dd.ari       20) perftools-base/7.0.6
+  5) gni-headers/5.0.12.0-7.0.0.1_7.14__g3b1768f.ari    13) cce/8.7.10                                         21) PrgEnv-cray/6.0.5
+  6) dmapp/7.1.1-7.0.0.1_4.18__g54dc2b7.ari             14) craype-network-aries                               22) cray-mpich/7.7.6
+  7) xpmem/2.2.17-7.0.0.1_3.11__g7acee3a.ari            15) craype/2.5.18                                      23) craype-arm-thunderx2
+  8) llm/21.4.570-7.0.0.1_5.6__ge50c6aa.ari             16) cray-libsci/18.12.1
+dantopa@nid00003:capulin-arm.ucx $ module switch cce/8.7.10 gcc/8.3.0 
+dantopa@nid00003:capulin-arm.ucx $ module switch PrgEnv-cray/6.0.5 PrgEnv-gnu
+PrgEnv-gnu        PrgEnv-gnu/6.0.5  
+dantopa@nid00003:capulin-arm.ucx $ module switch PrgEnv-cray/6.0.5 PrgEnv-gnu
+dantopa@nid00003:capulin-arm.ucx $ spack install rdma-core % gcc @ 8.3.0
+==> cmake@3.14.1 : has external module in cmake/3.12.1
+==> cmake@3.14.1 : is actually installed in None
+==> cmake@3.14.1 : generating module file
+==> cmake@3.14.1 : registering into DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : generating module file
+==> bison@3.0.5 : registering into DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : generating module file
+==> flex@2.6.4 : registering into DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : generating module file
+==> m4@1.4.18 : registering into DB
+==> Installing libnl
+==> Searching for binary cache of libnl
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libnl found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/libnl/libnl-3.3.0.tar.gz
+############################################################################################################################################################################# 100.0%
+==> Staging archive: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/var/spack/stage/libnl-3.3.0-imk7ocwvuuk6eiopv3yszo77fbm6eo3e/libnl-3.3.0.tar.gz
+==> Created stage in /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/var/spack/stage/libnl-3.3.0-imk7ocwvuuk6eiopv3yszo77fbm6eo3e
+==> No patches needed for libnl
+==> Building libnl [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libnl
+  Fetch: 0.09s.  Build: 1m 0.60s.  Total: 1m 0.69s.
+[+] /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/cray-cnl6-arm_thunderx2/gcc-8.3.0/libnl-3.3.0-imk7ocwvuuk6eiopv3yszo77fbm6eo3e
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : generating module file
+==> pkg-config@0.29.2 : registering into DB
+==> Installing rdma-core
+==> Searching for binary cache of rdma-core
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for rdma-core found: installing from source
+==> Error: SyntaxError: invalid syntax (<string>, line 1)
+
+/pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py:784, in child_process:
+        781            tb_string = traceback.format_exc()
+        782
+        783            # build up some context from the offending package so we can
+  >>    784            # show that, too.
+        785            package_context = get_package_context(tb)
+        786
+        787            build_log = None
+
+
+dantopa@nid00003:capulin-arm.ucx $ spack install -d rdma-core % gcc @ 8.3.0
+==> Error: unrecognized arguments: -d
+dantopa@nid00003:capulin-arm.ucx $ spack -d install rdma-core % gcc @ 8.3.0
+==> [2019-04-18-12:37:11.617468] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:11.655085] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'avail' '-t' 'craype-'
+==> [2019-04-18-12:37:11.733562] '/usr/bin/env' '-i' '/bin/bash' '-lc' 'echo $CRAY_CPU_TARGET'
+==> [2019-04-18-12:37:12.304525] Found default module:arm-thunderx2
+==> [2019-04-18-12:37:12.340139] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:12.373094] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'avail' 'PrgEnv-'
+==> [2019-04-18-12:37:12.564974] Reading config file /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/etc/spack/defaults/modules.yaml
+==> [2019-04-18-12:37:12.621971] Reading config file /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/etc/spack/defaults/config.yaml
+==> [2019-04-18-12:37:12.662214] Imported install from built-in commands
+==> [2019-04-18-12:37:12.663835] Imported install from built-in commands
+==> [2019-04-18-12:37:12.895486] Reading config file /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/etc/spack/defaults/repos.yaml
+==> [2019-04-18-12:37:13.271032] Reading config file /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/etc/spack/defaults/packages.yaml
+==> [2019-04-18-12:37:13.350689] READ LOCK: /users/dantopa/.spack/cache/tags/.builtin-index.json.lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:13.371968] READ LOCK: /users/dantopa/.spack/cache/tags/.builtin-index.json.lock[0:0] [Acquired]
+==> [2019-04-18-12:37:13.375026] READ LOCK: /users/dantopa/.spack/cache/tags/.builtin-index.json.lock[0:0] [Released]
+==> [2019-04-18-12:37:13.382230] READ LOCK: /users/dantopa/.spack/cache/patches/.builtin-index.json.lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:13.385803] READ LOCK: /users/dantopa/.spack/cache/patches/.builtin-index.json.lock[0:0] [Acquired]
+==> [2019-04-18-12:37:13.411818] READ LOCK: /users/dantopa/.spack/cache/patches/.builtin-index.json.lock[0:0] [Released]
+==> [2019-04-18-12:37:13.418660] READ LOCK: /users/dantopa/.spack/cache/providers/.builtin-index.json.lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:13.422156] READ LOCK: /users/dantopa/.spack/cache/providers/.builtin-index.json.lock[0:0] [Acquired]
+==> [2019-04-18-12:37:13.468133] READ LOCK: /users/dantopa/.spack/cache/providers/.builtin-index.json.lock[0:0] [Released]
+==> [2019-04-18-12:37:13.612604] Reading config file /users/dantopa/.spack/cray/compilers.yaml
+==> [2019-04-18-12:37:14.100619] Ordered hashes [flex]: flex/0/09c22e5c6fef327d3e48eb23f0d610dcd3a35ab9207f12e0f875701c677978d3
+==> [2019-04-18-12:37:14.103300] Ordered hashes [m4]: m4/2/3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00, m4/4/c0a408fbffb7255fcc75e26bd8edab116fc81d216bfd18b473668b7739a4158e, m4/5/fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8
+==> [2019-04-18-12:37:14.111162] Loading module: PrgEnv-gnu
+==> [2019-04-18-12:37:14.122588] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:14.157097] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'PrgEnv-gnu'
+==> [2019-04-18-12:37:14.183269] Unloading module: PrgEnv
+==> [2019-04-18-12:37:14.191408] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:14.225540] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv'
+==> [2019-04-18-12:37:14.237939] Unloading module: PrgEnv-x1
+==> [2019-04-18-12:37:14.245982] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:14.279859] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-x1'
+==> [2019-04-18-12:37:14.292423] Unloading module: PrgEnv-x2
+==> [2019-04-18-12:37:14.300448] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:14.334691] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-x2'
+==> [2019-04-18-12:37:14.347049] Unloading module: PrgEnv-cray
+==> [2019-04-18-12:37:14.355072] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:14.388645] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-cray'
+==> [2019-04-18-12:37:14.400936] Unloading module: PrgEnv-allinea
+==> [2019-04-18-12:37:14.408954] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:14.441788] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-allinea'
+==> [2019-04-18-12:37:14.454099] Unloading module: PrgEnv-intel
+==> [2019-04-18-12:37:14.462100] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:14.494959] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-intel'
+==> [2019-04-18-12:37:14.507345] Unloading module: PrgEnv-pgi
+==> [2019-04-18-12:37:14.515340] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:14.548137] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-pgi'
+==> [2019-04-18-12:37:14.560502] Unloading module: PrgEnv-pathscale
+==> [2019-04-18-12:37:14.568550] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:14.601608] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-pathscale'
+==> [2019-04-18-12:37:14.613975] Unloading module: PrgEnv-gnu
+==> [2019-04-18-12:37:14.621946] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:14.656002] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-gnu'
+==> [2019-04-18-12:37:14.872317] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'load' 'PrgEnv-gnu'
+==> [2019-04-18-12:37:15.167783] Loading module: gcc/8.3.0
+==> [2019-04-18-12:37:15.176232] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:15.209310] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:37:15.225000] Unloading module: gcc
+==> [2019-04-18-12:37:15.233182] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:15.266182] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'gcc'
+==> [2019-04-18-12:37:15.280195] Unloading module: gcc-cross-aarch64
+==> [2019-04-18-12:37:15.288239] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:15.320120] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'gcc-cross-aarch64'
+==> [2019-04-18-12:37:15.332853] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'load' 'gcc/8.3.0'
+==> [2019-04-18-12:37:15.360846] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:15.393872] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'cmake/3.12.1'
+==> [2019-04-18-12:37:15.407498] Module name: cmake/3.12.1
+==> [2019-04-18-12:37:15.407658] Package directory variable prefix: CMAKE
+==> [2019-04-18-12:37:15.427768] DATABASE LOCK TIMEOUT: 120s
+==> [2019-04-18-12:37:15.427866] PACKAGE LOCK TIMEOUT: No timeout
+==> [2019-04-18-12:37:15.428632] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:15.430101] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:15.447721] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:15.448809] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:15.450395] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:15.465768] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:15.468108] WRITE LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/prefix_lock[4241784102828391912:1] [Acquiring]
+==> [2019-04-18-12:37:15.469842] WRITE LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/prefix_lock[4241784102828391912:1] [Acquired]
+==> [2019-04-18-12:37:15.469965] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:15.471499] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:15.487249] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:15.488211] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:15.489914] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:15.505412] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:15.509921] WRITE LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/prefix_lock[4241784102828391912:1] [Released]
+==> [2019-04-18-12:37:15.528099] link /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/var/spack/stage/rdma-core-20-ow53avon7b55bcohbc252gpbcz7yoixk -> /tmp/dantopa/spack-stage/spack-stage-1qvWyC
+==> [2019-04-18-12:37:15.530131] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/prefix_lock[4241784102828391912:1] [Acquiring]
+==> [2019-04-18-12:37:15.531805] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/prefix_lock[4241784102828391912:1] [Acquired]
+==> [2019-04-18-12:37:15.532284] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/prefix_lock[4241784102828391912:1] [Released]
+==> [2019-04-18-12:37:15.533193] Installing rdma-core dependencies
+==> [2019-04-18-12:37:15.533379] cmake@3.14.1 : has external module in cmake/3.12.1
+==> [2019-04-18-12:37:15.533478] cmake@3.14.1 : is actually installed in None
+==> [2019-04-18-12:37:15.538371] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:15.539815] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:15.555805] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:15.556762] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:15.558434] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:15.573961] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:15.574952] cmake@3.14.1 : already registered in DB
+==> [2019-04-18-12:37:15.575129] bison@3.0.5 : externally installed in /usr
+==> [2019-04-18-12:37:15.579156] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:15.580901] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:15.596502] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:15.597656] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:15.599115] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:15.616242] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:15.617296] bison@3.0.5 : already registered in DB
+==> [2019-04-18-12:37:15.617454] flex@2.6.4 : externally installed in /usr
+==> [2019-04-18-12:37:15.622276] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:15.623920] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:15.639241] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:15.640279] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:15.641808] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:15.656833] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:15.657743] flex@2.6.4 : already registered in DB
+==> [2019-04-18-12:37:15.657894] m4@1.4.18 : externally installed in /usr
+==> [2019-04-18-12:37:15.663362] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:15.664849] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:15.680064] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:15.680984] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:15.682707] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:15.697762] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:15.698717] m4@1.4.18 : already registered in DB
+==> [2019-04-18-12:37:15.698854] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:15.700327] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:15.715666] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:15.716619] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:15.718209] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:15.733478] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:15.735370] WRITE LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/prefix_lock[2417020700479097585:1] [Acquiring]
+==> [2019-04-18-12:37:15.736967] WRITE LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/prefix_lock[2417020700479097585:1] [Acquired]
+==> [2019-04-18-12:37:15.737088] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:15.738624] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:15.754207] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:15.755147] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:15.756718] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:15.773927] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:15.774886] WRITE LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/prefix_lock[2417020700479097585:1] [Released]
+==> [2019-04-18-12:37:15.780151] link /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/var/spack/stage/libnl-3.3.0-imk7ocwvuuk6eiopv3yszo77fbm6eo3e -> /tmp/dantopa/spack-stage/spack-stage-ZcYYu1
+==> [2019-04-18-12:37:15.781510] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/prefix_lock[2417020700479097585:1] [Acquiring]
+==> [2019-04-18-12:37:15.782763] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/prefix_lock[2417020700479097585:1] [Acquired]
+==> [2019-04-18-12:37:15.792186] libnl is already installed in /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/cray-cnl6-arm_thunderx2/gcc-8.3.0/libnl-3.3.0-imk7ocwvuuk6eiopv3yszo77fbm6eo3e
+==> [2019-04-18-12:37:15.792317] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:15.793784] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:15.808731] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:15.809584] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:15.811144] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:15.826299] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:15.828576] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/prefix_lock[2417020700479097585:1] [Released]
+==> [2019-04-18-12:37:15.829534] pkg-config@0.29.2 : externally installed in /usr
+==> [2019-04-18-12:37:15.833731] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:15.835342] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:15.850351] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:15.851514] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:15.852933] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:15.868172] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:15.869343] pkg-config@0.29.2 : already registered in DB
+==> [2019-04-18-12:37:15.869492] Boostrapping gcc@8.3.0 compiler for rdma-core
+==> [2019-04-18-12:37:15.877090] Installing rdma-core
+==> [2019-04-18-12:37:15.877173] Searching for binary cache of rdma-core
+==> [2019-04-18-12:37:15.877430] Reading config file /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/etc/spack/defaults/mirrors.yaml
+==> [2019-04-18-12:37:15.882006] Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> [2019-04-18-12:37:15.886595] No binary for rdma-core found: installing from source
+==> [2019-04-18-12:37:16.175279] No libraries found for libnl
+==> [2019-04-18-12:37:16.237822] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:16.239527] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:16.255720] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:16.256706] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:16.257899] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:16.276681] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:16.324681] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:16.360473] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'avail' '-t' 'craype-'
+==> [2019-04-18-12:37:16.438133] '/usr/bin/env' '-i' '/bin/bash' '-lc' 'echo $CRAY_CPU_TARGET'
+==> [2019-04-18-12:37:17.009743] Found default module:arm-thunderx2
+==> [2019-04-18-12:37:17.019166] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:17.052381] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'avail' 'PrgEnv-'
+==> [2019-04-18-12:37:17.116288] Unloading module: cray-mpich
+==> [2019-04-18-12:37:17.124090] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:17.156916] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'cray-mpich'
+==> [2019-04-18-12:37:17.177084] Unloading module: darshan
+==> [2019-04-18-12:37:17.184657] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:17.216383] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'darshan'
+==> [2019-04-18-12:37:17.228697] Unloading module: cray-libsci
+==> [2019-04-18-12:37:17.236212] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:17.268025] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'cray-libsci'
+==> [2019-04-18-12:37:17.287850] Unloading module: altd
+==> [2019-04-18-12:37:17.295225] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:17.326127] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'altd'
+==> [2019-04-18-12:37:17.378846] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:17.409869] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:37:17.425171] Module name: gcc/8.3.0
+==> [2019-04-18-12:37:17.425365] Package directory variable prefix: GCC
+==> [2019-04-18-12:37:17.488443] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:17.519514] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:37:17.534862] Module name: gcc/8.3.0
+==> [2019-04-18-12:37:17.535037] Package directory variable prefix: GCC
+==> [2019-04-18-12:37:17.567935] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:17.569613] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:17.585495] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:17.617023] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:17.649141] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:37:17.664382] Module name: gcc/8.3.0
+==> [2019-04-18-12:37:17.664561] Package directory variable prefix: GCC
+==> [2019-04-18-12:37:17.726981] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:17.757432] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:37:17.772725] Module name: gcc/8.3.0
+==> [2019-04-18-12:37:17.772901] Package directory variable prefix: GCC
+==> [2019-04-18-12:37:17.805514] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:17.807025] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:17.822733] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:17.853824] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:17.884200] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:37:17.899422] Module name: gcc/8.3.0
+==> [2019-04-18-12:37:17.899599] Package directory variable prefix: GCC
+==> [2019-04-18-12:37:17.961954] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:17.992242] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:37:18.007486] Module name: gcc/8.3.0
+==> [2019-04-18-12:37:18.007668] Package directory variable prefix: GCC
+==> [2019-04-18-12:37:18.040433] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:18.042117] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:18.057914] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:18.089267] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:18.119799] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:37:18.135049] Module name: gcc/8.3.0
+==> [2019-04-18-12:37:18.135222] Package directory variable prefix: GCC
+==> [2019-04-18-12:37:18.197776] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:18.228091] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:37:18.243351] Module name: gcc/8.3.0
+==> [2019-04-18-12:37:18.243528] Package directory variable prefix: GCC
+==> [2019-04-18-12:37:18.306598] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:18.336949] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:37:18.352212] Module name: gcc/8.3.0
+==> [2019-04-18-12:37:18.352393] Package directory variable prefix: GCC
+==> [2019-04-18-12:37:18.414819] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:18.444988] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:37:18.460164] Module name: gcc/8.3.0
+==> [2019-04-18-12:37:18.460341] Package directory variable prefix: GCC
+==> [2019-04-18-12:37:18.523299] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:18.553776] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:37:18.569014] Module name: gcc/8.3.0
+==> [2019-04-18-12:37:18.569193] Package directory variable prefix: GCC
+==> [2019-04-18-12:37:18.631502] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:18.662514] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:37:18.677743] Module name: gcc/8.3.0
+==> [2019-04-18-12:37:18.677919] Package directory variable prefix: GCC
+==> [2019-04-18-12:37:18.712435] A dependency has updated CPATH, this may lead pkg-config to assume that the package is part of the system includes and omit it when invoked with '--cflags'.
+==> [2019-04-18-12:37:18.744040] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:18.775100] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:37:18.790375] Module name: gcc/8.3.0
+==> [2019-04-18-12:37:18.790551] Package directory variable prefix: GCC
+==> [2019-04-18-12:37:18.853358] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:18.884408] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:37:18.899595] Module name: gcc/8.3.0
+==> [2019-04-18-12:37:18.899771] Package directory variable prefix: GCC
+==> [2019-04-18-12:37:18.938343] Loading module: PrgEnv-gnu
+==> [2019-04-18-12:37:18.945711] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:18.976576] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'PrgEnv-gnu'
+==> [2019-04-18-12:37:19.003275] Unloading module: PrgEnv
+==> [2019-04-18-12:37:19.010728] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:19.041527] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv'
+==> [2019-04-18-12:37:19.053889] Unloading module: PrgEnv-x1
+==> [2019-04-18-12:37:19.061312] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:19.091360] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-x1'
+==> [2019-04-18-12:37:19.103739] Unloading module: PrgEnv-x2
+==> [2019-04-18-12:37:19.111131] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:19.141601] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-x2'
+==> [2019-04-18-12:37:19.153920] Unloading module: PrgEnv-cray
+==> [2019-04-18-12:37:19.161368] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:19.191712] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-cray'
+==> [2019-04-18-12:37:19.204129] Unloading module: PrgEnv-allinea
+==> [2019-04-18-12:37:19.211530] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:19.242070] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-allinea'
+==> [2019-04-18-12:37:19.254419] Unloading module: PrgEnv-intel
+==> [2019-04-18-12:37:19.261850] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:19.292182] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-intel'
+==> [2019-04-18-12:37:19.304561] Unloading module: PrgEnv-pgi
+==> [2019-04-18-12:37:19.311975] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:19.342384] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-pgi'
+==> [2019-04-18-12:37:19.354741] Unloading module: PrgEnv-pathscale
+==> [2019-04-18-12:37:19.362209] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:19.392516] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-pathscale'
+==> [2019-04-18-12:37:19.404833] Unloading module: PrgEnv-gnu
+==> [2019-04-18-12:37:19.412219] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:19.442727] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-gnu'
+==> [2019-04-18-12:37:19.658940] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'load' 'PrgEnv-gnu'
+==> [2019-04-18-12:37:19.913236] Loading module: gcc/8.3.0
+==> [2019-04-18-12:37:19.921287] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:19.953098] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:37:19.968844] Unloading module: gcc
+==> [2019-04-18-12:37:19.976686] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:20.008250] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'gcc'
+==> [2019-04-18-12:37:20.022280] Unloading module: gcc-cross-aarch64
+==> [2019-04-18-12:37:20.029892] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:20.060009] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'gcc-cross-aarch64'
+==> [2019-04-18-12:37:20.072882] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'load' 'gcc/8.3.0'
+==> [2019-04-18-12:37:20.101163] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:20.134316] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'avail' '-t' 'craype-'
+==> [2019-04-18-12:37:20.221173] '/usr/bin/env' '-i' '/bin/bash' '-lc' 'echo $CRAY_CPU_TARGET'
+==> [2019-04-18-12:37:20.794187] Found default module:arm-thunderx2
+==> [2019-04-18-12:37:20.803322] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:20.834554] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'avail' 'PrgEnv-'
+==> [2019-04-18-12:37:20.906670] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:20.937518] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'avail' '-t' 'craype-'
+==> [2019-04-18-12:37:21.002356] '/usr/bin/env' '-i' '/bin/bash' '-lc' 'echo $CRAY_CPU_TARGET'
+==> [2019-04-18-12:37:21.573121] Found default module:arm-thunderx2
+==> [2019-04-18-12:37:21.582236] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:21.613579] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'avail' 'PrgEnv-'
+==> [2019-04-18-12:37:21.686996] Loading module: craype-arm-thunderx2
+==> [2019-04-18-12:37:21.694820] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:21.726613] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'craype-arm-thunderx2'
+==> [2019-04-18-12:37:21.742460] Unloading module: xtpe-abudhabi
+==> [2019-04-18-12:37:21.750261] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:21.782257] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-abudhabi'
+==> [2019-04-18-12:37:21.794768] Unloading module: xtpe-abudhabi-cu
+==> [2019-04-18-12:37:21.802547] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:21.834189] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-abudhabi-cu'
+==> [2019-04-18-12:37:21.846676] Unloading module: xtpe-barcelona
+==> [2019-04-18-12:37:21.854385] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:21.886121] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-barcelona'
+==> [2019-04-18-12:37:21.898599] Unloading module: xtep-haswell
+==> [2019-04-18-12:37:21.906350] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:21.938070] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtep-haswell'
+==> [2019-04-18-12:37:21.950488] Unloading module: xtpe-intel-knc
+==> [2019-04-18-12:37:21.958182] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:21.989908] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-intel-knc'
+==> [2019-04-18-12:37:22.002368] Unloading module: xtpe-interlagos
+==> [2019-04-18-12:37:22.010101] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:22.041804] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-interlagos'
+==> [2019-04-18-12:37:22.054282] Unloading module: xtpe-interlagos-cu
+==> [2019-04-18-12:37:22.061951] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:22.094215] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-interlagos-cu'
+==> [2019-04-18-12:37:22.106697] Unloading module: xtpe-istanbul
+==> [2019-04-18-12:37:22.114391] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:22.146946] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-istanbul'
+==> [2019-04-18-12:37:22.159547] Unloading module: xtpe-ivybridge
+==> [2019-04-18-12:37:22.167240] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:22.199400] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-ivybridge'
+==> [2019-04-18-12:37:22.211983] Unloading module: xtpe-mc8
+==> [2019-04-18-12:37:22.219697] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:22.252052] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-mc8'
+==> [2019-04-18-12:37:22.264657] Unloading module: xtpe-mc12
+==> [2019-04-18-12:37:22.272349] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:22.305142] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-mc12'
+==> [2019-04-18-12:37:22.317609] Unloading module: xtpe-mic-knl
+==> [2019-04-18-12:37:22.325291] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:22.358083] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-mic-knl'
+==> [2019-04-18-12:37:22.370529] Unloading module: xtpe-sandybridge
+==> [2019-04-18-12:37:22.378231] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:22.411001] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-sandybridge'
+==> [2019-04-18-12:37:22.423574] Unloading module: xtpe-shanghai
+==> [2019-04-18-12:37:22.431262] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:22.464028] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-shanghai'
+==> [2019-04-18-12:37:22.476680] Unloading module: xtpe-xeon
+==> [2019-04-18-12:37:22.484371] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:22.516959] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-xeon'
+==> [2019-04-18-12:37:22.529499] Unloading module: craype-xeon
+==> [2019-04-18-12:37:22.537185] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:22.569975] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'craype-xeon'
+==> [2019-04-18-12:37:22.582401] Unloading module: craype-aarch64
+==> [2019-04-18-12:37:22.590118] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:22.621915] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'craype-aarch64'
+==> [2019-04-18-12:37:22.634335] Unloading module: craype-thunderx
+==> [2019-04-18-12:37:22.642021] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:22.673810] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'craype-thunderx'
+==> [2019-04-18-12:37:22.686248] Unloading module: craype-thunderx2
+==> [2019-04-18-12:37:22.693941] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:22.725670] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'craype-thunderx2'
+==> [2019-04-18-12:37:22.738491] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'load' 'craype-arm-thunderx2'
+==> [2019-04-18-12:37:22.763983] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'load' 'craype-arm-thunderx2'
+==> [2019-04-18-12:37:22.789495] Loading module: cmake/3.12.1
+==> [2019-04-18-12:37:22.797202] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:22.829126] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'cmake/3.12.1'
+==> [2019-04-18-12:37:22.843089] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'load' 'cmake/3.12.1'
+==> [2019-04-18-12:37:22.856919] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'load' 'cmake/3.12.1'
+==> [2019-04-18-12:37:22.870397] Module load output of cmake/3.12.1:
+ModuleCmd_Load.c(244):ERROR:105: Unable to locate a modulefile for 'cmake/3.12.1'
+
+
+==> [2019-04-18-12:37:22.877042] Error: SyntaxError: invalid syntax (<string>, line 1)
+
+/pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py:784, in child_process:
+        781            tb_string = traceback.format_exc()
+        782
+        783            # build up some context from the offending package so we can
+  >>    784            # show that, too.
+        785            package_context = get_package_context(tb)
+        786
+        787            build_log = None
+
+
+Traceback (most recent call last):
+  File "/pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py", line 766, in child_process
+    setup_package(pkg, dirty=dirty)
+  File "/pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py", line 719, in setup_package
+    load_external_modules(pkg)
+  File "/pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py", line 663, in load_external_modules
+    load_module(dep.external_module)
+  File "/pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/lib/spack/spack/util/module_cmd.py", line 147, in load_module
+    exec(compile(load, '<string>', 'exec'))
+  File "<string>", line 1
+    ModuleCmd_Load.c(244):ERROR:105: Unable to locate a modulefile for 'cmake/3.12.1'
+                         ^
+SyntaxError: invalid syntax
+dantopa@nid00003:capulin-arm.ucx $ date
+Thu Apr 18 12:38:39 MDT 2019
+dantopa@nid00003:capulin-arm.ucx $ pwd
+/lustre/cpscratch1/dantopa/repos/github/libraries/capulin-arm.ucx
+dantopa@nid00003:capulin-arm.ucx $ ml
+Currently Loaded Modulefiles:
+  1) modules/3.2.11.1                                    9) nodehealth/5.6.15-7.0.0.1_4.19__g3727db8.ari       17) cray-mpich/7.7.6
+  2) pdsh/2.27-7.0.0.1_5.5__g70b69a8.ari                10) system-config/3.5.2956-7.0.0.1_3.9__g0e7888c5.ari  18) rca/2.2.20-7.0.0.1_4.19__g8e3fb5b.ari
+  3) udreg/2.3.2-7.0.0.1_4.10__g8175d3d.ari             11) slurm/18.08.3-1                                    19) cray-libsci/18.12.1
+  4) ugni/6.0.14.0-7.0.0.1_7.12__ge78e5b0.ari           12) Base-opts/2.4.139-7.0.0.1_4.11__gbb799dd.ari       20) pmi/5.0.14
+  5) gni-headers/5.0.12.0-7.0.0.1_7.14__g3b1768f.ari    13) gcc/8.3.0                                          21) atp/2.1.3
+  6) dmapp/7.1.1-7.0.0.1_4.18__g54dc2b7.ari             14) craype-arm-thunderx2                               22) perftools-base/7.0.6
+  7) xpmem/2.2.17-7.0.0.1_3.11__g7acee3a.ari            15) craype-network-aries                               23) PrgEnv-gnu/6.0.5
+  8) llm/21.4.570-7.0.0.1_5.6__ge50c6aa.ari             16) craype/2.5.18
+dantopa@nid00003:capulin-arm.ucx $ spack find
+==> 27 installed packages
+-- cray-cnl6-arm_thunderx2 / cce@8.7.9 --------------------------
+bison@3.0.5  cmake@3.14.1  flex@2.6.4  libnl@3.3.0  m4@1.4.18  numactl@2.0.12  pkg-config@0.29.2
+
+-- cray-cnl6-arm_thunderx2 / gcc@7.3.0 --------------------------
+bison@3.0.5  cmake@3.14.1  flex@2.6.4  libnl@3.3.0  m4@1.4.18  numactl@2.0.12  pkg-config@0.29.2
+
+-- cray-cnl6-arm_thunderx2 / gcc@8.2.0 --------------------------
+bison@3.0.5  cmake@3.14.1  flex@2.6.4  libnl@3.3.0  m4@1.4.18  numactl@2.0.12  pkg-config@0.29.2
+
+-- cray-cnl6-arm_thunderx2 / gcc@8.3.0 --------------------------
+bison@3.0.5  cmake@3.14.1  flex@2.6.4  libnl@3.3.0  m4@1.4.18  pkg-config@0.29.2
+dantopa@nid00003:capulin-arm.ucx $ spack -d install rdma-core % gcc @ 8.3.0 ^cmake/3.14.1
+==> [2019-04-18-12:41:40.736117] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:41:40.773200] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'avail' '-t' 'craype-'
+==> [2019-04-18-12:41:40.857937] '/usr/bin/env' '-i' '/bin/bash' '-lc' 'echo $CRAY_CPU_TARGET'
+==> [2019-04-18-12:41:41.430444] Found default module:arm-thunderx2
+==> [2019-04-18-12:41:41.465394] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:41:41.498291] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'avail' 'PrgEnv-'
+==> [2019-04-18-12:41:41.693484] Reading config file /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/etc/spack/defaults/modules.yaml
+==> [2019-04-18-12:41:41.748180] Reading config file /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/etc/spack/defaults/config.yaml
+==> [2019-04-18-12:41:41.788131] Imported install from built-in commands
+==> [2019-04-18-12:41:41.789762] Imported install from built-in commands
+==> [2019-04-18-12:41:42.025448] DATABASE LOCK TIMEOUT: 120s
+==> [2019-04-18-12:41:42.025545] PACKAGE LOCK TIMEOUT: No timeout
+==> [2019-04-18-12:41:42.026270] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:41:42.027592] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:41:42.045534] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:41:42.049398] Error: No installed spec matches the hash: '3.14.1'
+Traceback (most recent call last):
+  File "/pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/lib/spack/spack/main.py", line 695, in main
+    return _invoke_command(command, parser, args, unknown)
+  File "/pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/lib/spack/spack/main.py", line 446, in _invoke_command
+    return_val = command(parser, args)
+  File "/pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/lib/spack/spack/cmd/install.py", line 258, in install
+    abstract_specs = spack.cmd.parse_specs(args.package)
+  File "/pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/lib/spack/spack/cmd/__init__.py", line 154, in parse_specs
+    raise SpackError(msg)
+spack.error.SpackError: No installed spec matches the hash: '3.14.1'
+dantopa@nid00003:capulin-arm.ucx $ ml
+Currently Loaded Modulefiles:
+  1) modules/3.2.11.1                                    9) nodehealth/5.6.15-7.0.0.1_4.19__g3727db8.ari       17) cray-mpich/7.7.6
+  2) pdsh/2.27-7.0.0.1_5.5__g70b69a8.ari                10) system-config/3.5.2956-7.0.0.1_3.9__g0e7888c5.ari  18) rca/2.2.20-7.0.0.1_4.19__g8e3fb5b.ari
+  3) udreg/2.3.2-7.0.0.1_4.10__g8175d3d.ari             11) slurm/18.08.3-1                                    19) cray-libsci/18.12.1
+  4) ugni/6.0.14.0-7.0.0.1_7.12__ge78e5b0.ari           12) Base-opts/2.4.139-7.0.0.1_4.11__gbb799dd.ari       20) pmi/5.0.14
+  5) gni-headers/5.0.12.0-7.0.0.1_7.14__g3b1768f.ari    13) gcc/8.3.0                                          21) atp/2.1.3
+  6) dmapp/7.1.1-7.0.0.1_4.18__g54dc2b7.ari             14) craype-arm-thunderx2                               22) perftools-base/7.0.6
+  7) xpmem/2.2.17-7.0.0.1_3.11__g7acee3a.ari            15) craype-network-aries                               23) PrgEnv-gnu/6.0.5
+  8) llm/21.4.570-7.0.0.1_5.6__ge50c6aa.ari             16) craype/2.5.18
+dantopa@nid00003:capulin-arm.ucx $ esp
+${SPACK_ROOT}:
+/lustre/cpscratch1/dantopa/repos/github/libraries/capulin-arm.ucx
+dantopa@nid00003:capulin-arm.ucx $ reft 
+spack module tcl  refresh --delete-tree
+==> You are about to regenerate tcl module files for:
+
+-- cray-cnl6-arm_thunderx2 / cce@8.7.9 --------------------------
+rnfzfas bison@3.0.5  37kbgp4 cmake@3.14.1  ypjmhb4 flex@2.6.4  qejn5cz libnl@3.3.0  djxsj5h m4@1.4.18  s5rgxau numactl@2.0.12  xcbu45c pkg-config@0.29.2
+
+-- cray-cnl6-arm_thunderx2 / gcc@7.3.0 --------------------------
+u36qyvx bison@3.0.5  pbx5eum cmake@3.14.1  3jf7kc6 flex@2.6.4  ubvwfhv libnl@3.3.0  6v3okfa m4@1.4.18  7qperrt numactl@2.0.12  2ilzp32 pkg-config@0.29.2
+
+-- cray-cnl6-arm_thunderx2 / gcc@8.2.0 --------------------------
+x5tk7iu bison@3.0.5  abfjenn cmake@3.14.1  wpqfu4x flex@2.6.4  b6x2rtj libnl@3.3.0  rh2fepl m4@1.4.18  4sxssb5 numactl@2.0.12  m4ymc5t pkg-config@0.29.2
+
+-- cray-cnl6-arm_thunderx2 / gcc@8.3.0 --------------------------
+mrb5f3w bison@3.0.5  rmxhbxi cmake@3.14.1  rmgfhtw flex@2.6.4  imk7ocw libnl@3.3.0  4y3hyiw m4@1.4.18  3l7ekkv pkg-config@0.29.2
+
+==> Do you want to proceed? [y/n] y
+==> Regenerating tcl module files
+dantopa@nid00003:capulin-arm.ucx $ ma
+
+--------------------------------------------------------------------- /opt/cray/pe/perftools/7.0.6/modulefiles ---------------------------------------------------------------------
+perftools             perftools-lite        perftools-lite-events perftools-lite-gpu    perftools-lite-hbm    perftools-lite-loops  perftools-nwpc        perftools-preload
+
+-------------------------------- /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/share/spack/modules/cray-cnl6-arm_thunderx2 ---------------------------------
+cmake-3.14.1-cce-8.7.9 cmake-3.14.1-gcc-8.2.0 libnl-3.3.0-cce-8.7.9  libnl-3.3.0-gcc-8.2.0
+cmake-3.14.1-gcc-7.3.0 cmake-3.14.1-gcc-8.3.0 libnl-3.3.0-gcc-7.3.0  libnl-3.3.0-gcc-8.3.0
+
+---------------------------------- /lustre/cpscratch1/dantopa/repos/github/libraries/capulin-arm.ucx/share/spack/modules/cray-cnl6-arm_thunderx2 -----------------------------------
+cmake-3.14.1-cce-8.7.9 cmake-3.14.1-gcc-8.2.0 libnl-3.3.0-cce-8.7.9  libnl-3.3.0-gcc-8.2.0
+cmake-3.14.1-gcc-7.3.0 cmake-3.14.1-gcc-8.3.0 libnl-3.3.0-gcc-7.3.0  libnl-3.3.0-gcc-8.3.0
+
+---------------------------------------------------------------------------- /opt/cray/ari/modulefiles -----------------------------------------------------------------------------
+alps/6.6.50-7.0.0.1_3.18__g962f7108.ari(default)             logcb/1.3.1-7.0.0.1_3.4__ga55b812.ari(default)
+alpscomm/1.3.11-7.0.0.1_3.18__gc11442f.ari(default)          lustre-utils/2.3.5-7.0.0.1_5.19__g1ff87fe.ari(default)
+ccm/2.5.7-7.0.0.1_4.18__g83c42ff.ari(default)                nhm/5.7.2-7.0.0.1_3.4__g8895b35.ari(default)
+codbc/2.5.105-7.0.0.1_1.5__g811bbf2.ari(default)             nodehealth/5.6.15-7.0.0.1_4.19__g3727db8.ari(default)
+comm_msg/1.2.3-7.0.0.1_1.6__g60fcb6d.ari(default)            pdsh/2.27-7.0.0.1_5.5__g70b69a8.ari(default)
+configparse/2.4.41-7.0.0.1_1.5__g8c68499.ari(default)        pm_api/2.2.5-7.0.0.1_3.11__gae47fde.ari(default)
+datawarp/3.0.8-7.0.0.1_3.20__g3c2d06b.ari(default)           rca/2.2.20-7.0.0.1_4.19__g8e3fb5b.ari(default)
+dmapp/7.1.1-7.0.0.1_4.18__g54dc2b7.ari(default)              rdma-credentials/1.2.25-7.0.0.1_3.16__g21fa4e2.ari(default)
+dvs/2.11_2.2.128-7.0.0.1_4.13__gee190db(default)             rur/1.3.22-7.0.0.1_3.6__g02f6478.ari(default)
+dw_wlm/3.0.10-7.0.0.1_3.7__g446c6af.ari(default)             sh/2.4.43-7.0.0.1_4.4__gf08ecab.ari(default)
+dws/3.0.24-7.0.0.1_4.9__g437bee8.ari(default)                socketauth/1.3.1-7.0.0.1_1.6__gfdd1da0.ari(default)
+gni/6.0.31.0-7.0.0.1_8.15__gd768ae1.ari(default)             swrap/1.3.1-7.0.0.1_1.6__gc085a9f.ari(default)
+gni-headers/5.0.12.0-7.0.0.1_7.14__g3b1768f.ari(default)     sysadm/2.4.136-7.0.0.1_4.13__g4685a09.ari(default)
+ibverbs/1.2.2-7.0.0.1_4.7__gf9cbb9a.ari(default)             system-config/3.5.2956-7.0.0.1_3.9__g0e7888c5.ari(default)
+imps/3.8.4231-7.0.0.1_4.2__g325e5161.ari(default)            sysutils/2.5.72-7.0.0.1_1.5__g0dd4e0a.ari(default)
+imps-distribution/3.3.339-7.0.0.1_3.8__gd90d0d5.ari(default) udreg/2.3.2-7.0.0.1_4.10__g8175d3d.ari(default)
+isvaccel/6.0.0-7.0.0.1_4.6__gf0c05b4.ari(default)            ugni/6.0.14.0-7.0.0.1_7.12__ge78e5b0.ari(default)
+job/2.2.4-7.0.0.1_3.13__g36b56f4.ari(default)                wlm_detect/1.3.3-7.0.0.1_3.8__g7109084.ari(default)
+kdreg/2.2.5-7.0.0.1_3.11__ge6d8d0e.ari(default)              wlm_trans/1.5.6-7.0.0.1_3.18__gad40448.ari(default)
+krca/2.2.5-7.0.0.1_4.17__g92086a7.ari(default)               xpmem/2.2.17-7.0.0.1_3.11__g7acee3a.ari(default)
+linux-nvme-ctl/0.0_2.1.4-7.0.0.1_3.8__g375a019.ari(default)  xtgetconfig/2.3.90-7.0.0.1_4.7__g3d11e7d.ari(default)
+llm/21.4.570-7.0.0.1_5.6__ge50c6aa.ari(default)
+
+---------------------------------------------------------------------- /opt/cray/pe/craype/2.5.18/modulefiles ----------------------------------------------------------------------
+craype-aarch64       craype-hugepages1G   craype-hugepages2M   craype-hugepages8M   craype-hugepages32M  craype-hugepages128M craype-hugepages512M craype-network-none
+craype-arm-thunderx2 craype-hugepages2G   craype-hugepages4M   craype-hugepages16M  craype-hugepages64M  craype-hugepages256M craype-network-aries
+
+----------------------------------------------------------------------------- /opt/cray/pe/modulefiles -----------------------------------------------------------------------------
+PrgEnv-allinea/6.0.5(default)             cray-ccdb/3.0.4(default)                  cray-mpich-abi/7.7.6(default)             perftools/7.0.6(default)
+PrgEnv-cray/6.0.5(default)                cray-cti/1.0.7(default)                   cray-netcdf/4.6.1.3(default)              perftools-base/7.0.6(default)
+PrgEnv-gnu/6.0.5(default)                 cray-fftw/3.3.8.2(default)                cray-netcdf-hdf5parallel/4.6.1.3(default) perftools-lite/7.0.6(default)
+atp/2.1.3(default)                        cray-ga/5.3.0.10(default)                 cray-openshmemx/8.0.1                     pmi/5.0.13
+atp/2.1.3_debug                           cray-hdf5/1.10.2.0(default)               cray-snplauncher/7.7.6(default)           pmi/5.0.14(default)
+cce/8.7.9                                 cray-hdf5-parallel/1.10.2.0(default)      craype/2.5.18(default)                    pmi-lib/5.0.13
+cce/8.7.10(default)                       cray-lgdb/3.0.10(default)                 gdb4hpc/3.0.10(default)                   pmi-lib/5.0.14(default)
+cdt/19.03                                 cray-libsci/18.12.1(default)              modules/3.2.11.1(default)                 stat/3.0.1.3(default)
+cdt/19.04                                 cray-mpich/7.7.6(default)                 papi/5.6.0.6(default)
+
+--------------------------------------------------------------------------------- /opt/modulefiles ---------------------------------------------------------------------------------
+Base-opts/2.4.139-7.0.0.1_4.11__gbb799dd.ari(default) ddt/19.0.3.1(default)                                 gcc/7.3.0
+allinea/19.0.0.1(default)                             ddt-memdebug/19.0.1.1                                 gcc/8.2.0
+cray-R/3.4.2(default)                                 ddt-memdebug/19.0.3.1(default)                        gcc/8.3.0(default)
+cray-python/2.7.15.6(default)                         forge/19.0.1.1                                        modules/3.2.6.7
+cray-python/3.6.5.6                                   forge/19.0.3.1(default)                               slurm/18.08.3-1(default)
+ddt/19.0.1.1                                          gcc/6.1.0
+
+------------------------------------------------------------ /usr/projects/hpcsoft/modulefiles/cle7.0/capulin/debugger -------------------------------------------------------------
+forge/19.0.3    valgrind/3.13.0
+
+-------------------------------------------------------------- /usr/projects/hpcsoft/modulefiles/cle7.0/capulin/misc ---------------------------------------------------------------
+deprecated       dot              friendly-testing module-git       module-info      null             sandbox          support          use.own          user_contrib
+
+-------------------------------------------------------------- /usr/projects/hpcsoft/modulefiles/cle7.0/capulin/tools --------------------------------------------------------------
+charliecloud/0.9.7 charliecloud/0.9.8 forge/18.3         forge/19.0.3       git/2.18.1         git/2.19.1
+dantopa@nid00003:capulin-arm.ucx $ module load cmake-3.14.1-gcc-8.3.0 
+dantopa@nid00003:capulin-arm.ucx $ ml
+Currently Loaded Modulefiles:
+  1) modules/3.2.11.1                                    9) nodehealth/5.6.15-7.0.0.1_4.19__g3727db8.ari       17) cray-mpich/7.7.6
+  2) pdsh/2.27-7.0.0.1_5.5__g70b69a8.ari                10) system-config/3.5.2956-7.0.0.1_3.9__g0e7888c5.ari  18) rca/2.2.20-7.0.0.1_4.19__g8e3fb5b.ari
+  3) udreg/2.3.2-7.0.0.1_4.10__g8175d3d.ari             11) slurm/18.08.3-1                                    19) cray-libsci/18.12.1
+  4) ugni/6.0.14.0-7.0.0.1_7.12__ge78e5b0.ari           12) Base-opts/2.4.139-7.0.0.1_4.11__gbb799dd.ari       20) pmi/5.0.14
+  5) gni-headers/5.0.12.0-7.0.0.1_7.14__g3b1768f.ari    13) gcc/8.3.0                                          21) atp/2.1.3
+  6) dmapp/7.1.1-7.0.0.1_4.18__g54dc2b7.ari             14) craype-arm-thunderx2                               22) perftools-base/7.0.6
+  7) xpmem/2.2.17-7.0.0.1_3.11__g7acee3a.ari            15) craype-network-aries                               23) PrgEnv-gnu/6.0.5
+  8) llm/21.4.570-7.0.0.1_5.6__ge50c6aa.ari             16) craype/2.5.18                                      24) cmake-3.14.1-gcc-8.3.0
+dantopa@nid00003:capulin-arm.ucx $ spack -d install rdma-core % gcc @ 8.3.0 ^cmake/3.14.1
+==> [2019-04-18-12:44:50.527128] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:44:50.569495] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'avail' '-t' 'craype-'
+==> [2019-04-18-12:44:50.673043] '/usr/bin/env' '-i' '/bin/bash' '-lc' 'echo $CRAY_CPU_TARGET'
+==> [2019-04-18-12:44:51.248566] Found default module:arm-thunderx2
+==> [2019-04-18-12:44:51.282805] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:44:51.315841] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'avail' 'PrgEnv-'
+==> [2019-04-18-12:44:51.512712] Reading config file /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/etc/spack/defaults/modules.yaml
+==> [2019-04-18-12:44:51.567867] Reading config file /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/etc/spack/defaults/config.yaml
+==> [2019-04-18-12:44:51.607537] Imported install from built-in commands
+==> [2019-04-18-12:44:51.609156] Imported install from built-in commands
+==> [2019-04-18-12:44:51.845044] DATABASE LOCK TIMEOUT: 120s
+==> [2019-04-18-12:44:51.845140] PACKAGE LOCK TIMEOUT: No timeout
+==> [2019-04-18-12:44:51.845889] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:44:51.847197] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:44:51.864992] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:44:51.868642] Error: No installed spec matches the hash: '3.14.1'
+Traceback (most recent call last):
+  File "/pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/lib/spack/spack/main.py", line 695, in main
+    return _invoke_command(command, parser, args, unknown)
+  File "/pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/lib/spack/spack/main.py", line 446, in _invoke_command
+    return_val = command(parser, args)
+  File "/pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/lib/spack/spack/cmd/install.py", line 258, in install
+    abstract_specs = spack.cmd.parse_specs(args.package)
+  File "/pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/lib/spack/spack/cmd/__init__.py", line 154, in parse_specs
+    raise SpackError(msg)
+spack.error.SpackError: No installed spec matches the hash: '3.14.1'
+dantopa@nid00003:capulin-arm.ucx $ spack -d install rdma-core % gcc @ 8.3.0              
+==> [2019-04-18-12:44:58.592871] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:44:58.631873] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'avail' '-t' 'craype-'
+==> [2019-04-18-12:44:58.720202] '/usr/bin/env' '-i' '/bin/bash' '-lc' 'echo $CRAY_CPU_TARGET'
+==> [2019-04-18-12:44:59.292582] Found default module:arm-thunderx2
+==> [2019-04-18-12:44:59.327954] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:44:59.361754] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'avail' 'PrgEnv-'
+==> [2019-04-18-12:44:59.558124] Reading config file /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/etc/spack/defaults/modules.yaml
+==> [2019-04-18-12:44:59.612965] Reading config file /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/etc/spack/defaults/config.yaml
+==> [2019-04-18-12:44:59.654221] Imported install from built-in commands
+==> [2019-04-18-12:44:59.655829] Imported install from built-in commands
+==> [2019-04-18-12:44:59.888669] Reading config file /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/etc/spack/defaults/repos.yaml
+==> [2019-04-18-12:45:00.262683] Reading config file /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/etc/spack/defaults/packages.yaml
+==> [2019-04-18-12:45:00.340990] READ LOCK: /users/dantopa/.spack/cache/tags/.builtin-index.json.lock[0:0] [Acquiring]
+==> [2019-04-18-12:45:00.360001] READ LOCK: /users/dantopa/.spack/cache/tags/.builtin-index.json.lock[0:0] [Acquired]
+==> [2019-04-18-12:45:00.362863] READ LOCK: /users/dantopa/.spack/cache/tags/.builtin-index.json.lock[0:0] [Released]
+==> [2019-04-18-12:45:00.371230] READ LOCK: /users/dantopa/.spack/cache/patches/.builtin-index.json.lock[0:0] [Acquiring]
+==> [2019-04-18-12:45:00.374691] READ LOCK: /users/dantopa/.spack/cache/patches/.builtin-index.json.lock[0:0] [Acquired]
+==> [2019-04-18-12:45:00.398205] READ LOCK: /users/dantopa/.spack/cache/patches/.builtin-index.json.lock[0:0] [Released]
+==> [2019-04-18-12:45:00.405628] READ LOCK: /users/dantopa/.spack/cache/providers/.builtin-index.json.lock[0:0] [Acquiring]
+==> [2019-04-18-12:45:00.408652] READ LOCK: /users/dantopa/.spack/cache/providers/.builtin-index.json.lock[0:0] [Acquired]
+==> [2019-04-18-12:45:00.454737] READ LOCK: /users/dantopa/.spack/cache/providers/.builtin-index.json.lock[0:0] [Released]
+==> [2019-04-18-12:45:00.598864] Reading config file /users/dantopa/.spack/cray/compilers.yaml
+==> [2019-04-18-12:45:01.082910] Ordered hashes [flex]: flex/0/09c22e5c6fef327d3e48eb23f0d610dcd3a35ab9207f12e0f875701c677978d3
+==> [2019-04-18-12:45:01.085395] Ordered hashes [m4]: m4/2/3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00, m4/4/c0a408fbffb7255fcc75e26bd8edab116fc81d216bfd18b473668b7739a4158e, m4/5/fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8
+==> [2019-04-18-12:45:01.093170] Loading module: PrgEnv-gnu
+==> [2019-04-18-12:45:01.102721] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:01.139699] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'PrgEnv-gnu'
+==> [2019-04-18-12:45:01.169341] Unloading module: PrgEnv
+==> [2019-04-18-12:45:01.177472] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:01.212520] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv'
+==> [2019-04-18-12:45:01.225046] Unloading module: PrgEnv-x1
+==> [2019-04-18-12:45:01.233074] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:01.267623] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-x1'
+==> [2019-04-18-12:45:01.280075] Unloading module: PrgEnv-x2
+==> [2019-04-18-12:45:01.288069] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:01.323317] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-x2'
+==> [2019-04-18-12:45:01.335762] Unloading module: PrgEnv-cray
+==> [2019-04-18-12:45:01.343779] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:01.378634] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-cray'
+==> [2019-04-18-12:45:01.391053] Unloading module: PrgEnv-allinea
+==> [2019-04-18-12:45:01.399031] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:01.434293] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-allinea'
+==> [2019-04-18-12:45:01.446693] Unloading module: PrgEnv-intel
+==> [2019-04-18-12:45:01.454698] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:01.489415] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-intel'
+==> [2019-04-18-12:45:01.501818] Unloading module: PrgEnv-pgi
+==> [2019-04-18-12:45:01.509807] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:01.545378] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-pgi'
+==> [2019-04-18-12:45:01.557799] Unloading module: PrgEnv-pathscale
+==> [2019-04-18-12:45:01.565817] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:01.600181] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-pathscale'
+==> [2019-04-18-12:45:01.612598] Unloading module: PrgEnv-gnu
+==> [2019-04-18-12:45:01.620578] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:01.670945] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-gnu'
+==> [2019-04-18-12:45:01.902902] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'load' 'PrgEnv-gnu'
+==> [2019-04-18-12:45:02.208707] Loading module: gcc/8.3.0
+==> [2019-04-18-12:45:02.217137] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:02.253508] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:45:02.269215] Unloading module: gcc
+==> [2019-04-18-12:45:02.277372] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:02.313145] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'gcc'
+==> [2019-04-18-12:45:02.327160] Unloading module: gcc-cross-aarch64
+==> [2019-04-18-12:45:02.335171] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:02.369769] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'gcc-cross-aarch64'
+==> [2019-04-18-12:45:02.382548] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'load' 'gcc/8.3.0'
+==> [2019-04-18-12:45:02.410625] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:02.445917] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'cmake/3.12.1'
+==> [2019-04-18-12:45:02.460091] Module name: cmake/3.12.1
+==> [2019-04-18-12:45:02.460250] Package directory variable prefix: CMAKE
+==> [2019-04-18-12:45:02.480147] DATABASE LOCK TIMEOUT: 120s
+==> [2019-04-18-12:45:02.480246] PACKAGE LOCK TIMEOUT: No timeout
+==> [2019-04-18-12:45:02.481012] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:45:02.482457] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:45:02.499875] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:45:02.501125] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:45:02.502750] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:45:02.518176] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:45:02.520629] WRITE LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/prefix_lock[4241784102828391912:1] [Acquiring]
+==> [2019-04-18-12:45:02.522309] WRITE LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/prefix_lock[4241784102828391912:1] [Acquired]
+==> [2019-04-18-12:45:02.522433] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:45:02.524280] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:45:02.539908] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:45:02.541020] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:45:02.542783] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:45:02.558347] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:45:02.563068] WRITE LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/prefix_lock[4241784102828391912:1] [Released]
+==> [2019-04-18-12:45:02.581389] link /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/var/spack/stage/rdma-core-20-ow53avon7b55bcohbc252gpbcz7yoixk -> /tmp/dantopa/spack-stage/spack-stage-YI1DpA
+==> [2019-04-18-12:45:02.583724] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/prefix_lock[4241784102828391912:1] [Acquiring]
+==> [2019-04-18-12:45:02.585146] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/prefix_lock[4241784102828391912:1] [Acquired]
+==> [2019-04-18-12:45:02.585640] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/prefix_lock[4241784102828391912:1] [Released]
+==> [2019-04-18-12:45:02.586671] Installing rdma-core dependencies
+==> [2019-04-18-12:45:02.586841] cmake@3.14.1 : has external module in cmake/3.12.1
+==> [2019-04-18-12:45:02.586937] cmake@3.14.1 : is actually installed in None
+==> [2019-04-18-12:45:02.591788] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:45:02.593654] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:45:02.609720] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:45:02.610904] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:45:02.612351] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:45:02.627835] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:45:02.628944] cmake@3.14.1 : already registered in DB
+==> [2019-04-18-12:45:02.629121] bison@3.0.5 : externally installed in /usr
+==> [2019-04-18-12:45:02.633132] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:45:02.634772] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:45:02.650515] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:45:02.651585] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:45:02.653211] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:45:02.670504] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:45:02.671519] bison@3.0.5 : already registered in DB
+==> [2019-04-18-12:45:02.671666] flex@2.6.4 : externally installed in /usr
+==> [2019-04-18-12:45:02.676466] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:45:02.678229] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:45:02.693583] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:45:02.694711] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:45:02.696293] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:45:02.711571] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:45:02.712624] flex@2.6.4 : already registered in DB
+==> [2019-04-18-12:45:02.712773] m4@1.4.18 : externally installed in /usr
+==> [2019-04-18-12:45:02.718232] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:45:02.719975] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:45:02.735175] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:45:02.736197] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:45:02.738013] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:45:02.753275] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:45:02.754378] m4@1.4.18 : already registered in DB
+==> [2019-04-18-12:45:02.754517] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:45:02.756255] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:45:02.771657] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:45:02.772871] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:45:02.774608] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:45:02.789983] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:45:02.792142] WRITE LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/prefix_lock[2417020700479097585:1] [Acquiring]
+==> [2019-04-18-12:45:02.793723] WRITE LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/prefix_lock[2417020700479097585:1] [Acquired]
+==> [2019-04-18-12:45:02.793841] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:45:02.795417] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:45:02.810793] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:45:02.811776] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:45:02.813351] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:45:02.830552] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:45:02.831706] WRITE LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/prefix_lock[2417020700479097585:1] [Released]
+==> [2019-04-18-12:45:02.837225] link /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/var/spack/stage/libnl-3.3.0-imk7ocwvuuk6eiopv3yszo77fbm6eo3e -> /tmp/dantopa/spack-stage/spack-stage-5VZl27
+==> [2019-04-18-12:45:02.838908] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/prefix_lock[2417020700479097585:1] [Acquiring]
+==> [2019-04-18-12:45:02.840788] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/prefix_lock[2417020700479097585:1] [Acquired]
+==> [2019-04-18-12:45:02.850092] libnl is already installed in /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/cray-cnl6-arm_thunderx2/gcc-8.3.0/libnl-3.3.0-imk7ocwvuuk6eiopv3yszo77fbm6eo3e
+==> [2019-04-18-12:45:02.850220] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:45:02.851989] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:45:02.867242] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:45:02.868312] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:45:02.870231] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:45:02.885627] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:45:02.888148] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/prefix_lock[2417020700479097585:1] [Released]
+==> [2019-04-18-12:45:02.889415] pkg-config@0.29.2 : externally installed in /usr
+==> [2019-04-18-12:45:02.893607] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:45:02.895288] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:45:02.910662] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:45:02.911661] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:45:02.913424] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:45:02.928566] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:45:02.929568] pkg-config@0.29.2 : already registered in DB
+==> [2019-04-18-12:45:02.929714] Boostrapping gcc@8.3.0 compiler for rdma-core
+==> [2019-04-18-12:45:02.937302] Installing rdma-core
+==> [2019-04-18-12:45:02.937396] Searching for binary cache of rdma-core
+==> [2019-04-18-12:45:02.937640] Reading config file /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/etc/spack/defaults/mirrors.yaml
+==> [2019-04-18-12:45:02.942253] Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> [2019-04-18-12:45:02.947307] No binary for rdma-core found: installing from source
+==> [2019-04-18-12:45:03.253219] No libraries found for libnl
+==> [2019-04-18-12:45:03.325137] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:45:03.326808] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:45:03.343050] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:45:03.344250] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:45:03.345964] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:45:03.365265] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:45:03.413258] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:03.448308] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'avail' '-t' 'craype-'
+==> [2019-04-18-12:45:03.545927] '/usr/bin/env' '-i' '/bin/bash' '-lc' 'echo $CRAY_CPU_TARGET'
+==> [2019-04-18-12:45:04.122973] Found default module:arm-thunderx2
+==> [2019-04-18-12:45:04.132310] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:04.165143] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'avail' 'PrgEnv-'
+==> [2019-04-18-12:45:04.308762] Unloading module: cray-mpich
+==> [2019-04-18-12:45:04.316596] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:04.349269] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'cray-mpich'
+==> [2019-04-18-12:45:04.369280] Unloading module: darshan
+==> [2019-04-18-12:45:04.376806] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:04.408531] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'darshan'
+==> [2019-04-18-12:45:04.420935] Unloading module: cray-libsci
+==> [2019-04-18-12:45:04.428460] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:04.460423] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'cray-libsci'
+==> [2019-04-18-12:45:04.480232] Unloading module: altd
+==> [2019-04-18-12:45:04.487625] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:04.518781] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'altd'
+==> [2019-04-18-12:45:04.571311] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:04.602501] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:45:04.617740] Module name: gcc/8.3.0
+==> [2019-04-18-12:45:04.617921] Package directory variable prefix: GCC
+==> [2019-04-18-12:45:04.680153] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:04.712455] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:45:04.727634] Module name: gcc/8.3.0
+==> [2019-04-18-12:45:04.727808] Package directory variable prefix: GCC
+==> [2019-04-18-12:45:04.760169] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:45:04.762081] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:45:04.778051] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:45:04.809233] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:04.840257] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:45:04.855437] Module name: gcc/8.3.0
+==> [2019-04-18-12:45:04.855617] Package directory variable prefix: GCC
+==> [2019-04-18-12:45:04.917492] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:04.948505] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:45:04.963709] Module name: gcc/8.3.0
+==> [2019-04-18-12:45:04.963888] Package directory variable prefix: GCC
+==> [2019-04-18-12:45:04.996176] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:45:04.997840] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:45:05.013714] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:45:05.044911] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:05.076061] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:45:05.091320] Module name: gcc/8.3.0
+==> [2019-04-18-12:45:05.091500] Package directory variable prefix: GCC
+==> [2019-04-18-12:45:05.153163] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:05.183990] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:45:05.199231] Module name: gcc/8.3.0
+==> [2019-04-18-12:45:05.199412] Package directory variable prefix: GCC
+==> [2019-04-18-12:45:05.231689] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:45:05.233666] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:45:05.249456] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:45:05.280642] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:05.311706] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:45:05.326942] Module name: gcc/8.3.0
+==> [2019-04-18-12:45:05.327118] Package directory variable prefix: GCC
+==> [2019-04-18-12:45:05.388791] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:05.419913] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:45:05.435159] Module name: gcc/8.3.0
+==> [2019-04-18-12:45:05.435335] Package directory variable prefix: GCC
+==> [2019-04-18-12:45:05.497383] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:05.527987] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:45:05.543283] Module name: gcc/8.3.0
+==> [2019-04-18-12:45:05.543460] Package directory variable prefix: GCC
+==> [2019-04-18-12:45:05.605604] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:05.636089] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:45:05.651351] Module name: gcc/8.3.0
+==> [2019-04-18-12:45:05.651526] Package directory variable prefix: GCC
+==> [2019-04-18-12:45:05.713478] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:05.743821] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:45:05.759025] Module name: gcc/8.3.0
+==> [2019-04-18-12:45:05.759200] Package directory variable prefix: GCC
+==> [2019-04-18-12:45:05.820879] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:05.851167] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:45:05.866402] Module name: gcc/8.3.0
+==> [2019-04-18-12:45:05.866582] Package directory variable prefix: GCC
+==> [2019-04-18-12:45:05.900868] A dependency has updated CPATH, this may lead pkg-config to assume that the package is part of the system includes and omit it when invoked with '--cflags'.
+==> [2019-04-18-12:45:05.932176] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:05.962635] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:45:05.977853] Module name: gcc/8.3.0
+==> [2019-04-18-12:45:05.978030] Package directory variable prefix: GCC
+==> [2019-04-18-12:45:06.040271] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:06.071267] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:45:06.086485] Module name: gcc/8.3.0
+==> [2019-04-18-12:45:06.086661] Package directory variable prefix: GCC
+==> [2019-04-18-12:45:06.124881] Loading module: PrgEnv-gnu
+==> [2019-04-18-12:45:06.132225] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:06.163871] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'PrgEnv-gnu'
+==> [2019-04-18-12:45:06.190572] Unloading module: PrgEnv
+==> [2019-04-18-12:45:06.198010] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:06.229089] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv'
+==> [2019-04-18-12:45:06.241456] Unloading module: PrgEnv-x1
+==> [2019-04-18-12:45:06.248876] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:06.279987] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-x1'
+==> [2019-04-18-12:45:06.292385] Unloading module: PrgEnv-x2
+==> [2019-04-18-12:45:06.299843] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:06.331002] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-x2'
+==> [2019-04-18-12:45:06.343473] Unloading module: PrgEnv-cray
+==> [2019-04-18-12:45:06.350916] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:06.381931] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-cray'
+==> [2019-04-18-12:45:06.394232] Unloading module: PrgEnv-allinea
+==> [2019-04-18-12:45:06.401663] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:06.432438] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-allinea'
+==> [2019-04-18-12:45:06.444769] Unloading module: PrgEnv-intel
+==> [2019-04-18-12:45:06.452173] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:06.483208] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-intel'
+==> [2019-04-18-12:45:06.495589] Unloading module: PrgEnv-pgi
+==> [2019-04-18-12:45:06.503042] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:06.534277] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-pgi'
+==> [2019-04-18-12:45:06.546652] Unloading module: PrgEnv-pathscale
+==> [2019-04-18-12:45:06.554099] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:06.584840] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-pathscale'
+==> [2019-04-18-12:45:06.597131] Unloading module: PrgEnv-gnu
+==> [2019-04-18-12:45:06.604572] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:06.635538] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-gnu'
+==> [2019-04-18-12:45:06.851338] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'load' 'PrgEnv-gnu'
+==> [2019-04-18-12:45:07.105281] Loading module: gcc/8.3.0
+==> [2019-04-18-12:45:07.113250] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:07.144892] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:45:07.160820] Unloading module: gcc
+==> [2019-04-18-12:45:07.168624] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:07.200393] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'gcc'
+==> [2019-04-18-12:45:07.214424] Unloading module: gcc-cross-aarch64
+==> [2019-04-18-12:45:07.222054] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:07.276628] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'gcc-cross-aarch64'
+==> [2019-04-18-12:45:07.289429] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'load' 'gcc/8.3.0'
+==> [2019-04-18-12:45:07.317880] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:07.350997] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'avail' '-t' 'craype-'
+==> [2019-04-18-12:45:07.428447] '/usr/bin/env' '-i' '/bin/bash' '-lc' 'echo $CRAY_CPU_TARGET'
+==> [2019-04-18-12:45:08.000503] Found default module:arm-thunderx2
+==> [2019-04-18-12:45:08.009522] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:08.041830] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'avail' 'PrgEnv-'
+==> [2019-04-18-12:45:08.122055] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:08.153639] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'avail' '-t' 'craype-'
+==> [2019-04-18-12:45:08.226871] '/usr/bin/env' '-i' '/bin/bash' '-lc' 'echo $CRAY_CPU_TARGET'
+==> [2019-04-18-12:45:08.797190] Found default module:arm-thunderx2
+==> [2019-04-18-12:45:08.806222] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:08.838848] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'avail' 'PrgEnv-'
+==> [2019-04-18-12:45:08.907201] Loading module: craype-arm-thunderx2
+==> [2019-04-18-12:45:08.915103] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:08.947090] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'craype-arm-thunderx2'
+==> [2019-04-18-12:45:08.963083] Unloading module: xtpe-abudhabi
+==> [2019-04-18-12:45:08.970854] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:09.002730] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-abudhabi'
+==> [2019-04-18-12:45:09.015264] Unloading module: xtpe-abudhabi-cu
+==> [2019-04-18-12:45:09.023041] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:09.054645] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-abudhabi-cu'
+==> [2019-04-18-12:45:09.067124] Unloading module: xtpe-barcelona
+==> [2019-04-18-12:45:09.074828] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:09.106570] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-barcelona'
+==> [2019-04-18-12:45:09.119050] Unloading module: xtep-haswell
+==> [2019-04-18-12:45:09.126760] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:09.158544] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtep-haswell'
+==> [2019-04-18-12:45:09.171053] Unloading module: xtpe-intel-knc
+==> [2019-04-18-12:45:09.178744] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:09.210244] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-intel-knc'
+==> [2019-04-18-12:45:09.222756] Unloading module: xtpe-interlagos
+==> [2019-04-18-12:45:09.230459] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:09.262160] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-interlagos'
+==> [2019-04-18-12:45:09.274640] Unloading module: xtpe-interlagos-cu
+==> [2019-04-18-12:45:09.282318] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:09.313929] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-interlagos-cu'
+==> [2019-04-18-12:45:09.326394] Unloading module: xtpe-istanbul
+==> [2019-04-18-12:45:09.334072] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:09.365714] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-istanbul'
+==> [2019-04-18-12:45:09.378173] Unloading module: xtpe-ivybridge
+==> [2019-04-18-12:45:09.385878] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:09.417768] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-ivybridge'
+==> [2019-04-18-12:45:09.430300] Unloading module: xtpe-mc8
+==> [2019-04-18-12:45:09.437983] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:09.469527] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-mc8'
+==> [2019-04-18-12:45:09.482007] Unloading module: xtpe-mc12
+==> [2019-04-18-12:45:09.489720] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:09.521239] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-mc12'
+==> [2019-04-18-12:45:09.533735] Unloading module: xtpe-mic-knl
+==> [2019-04-18-12:45:09.541426] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:09.573232] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-mic-knl'
+==> [2019-04-18-12:45:09.585719] Unloading module: xtpe-sandybridge
+==> [2019-04-18-12:45:09.593436] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:09.624996] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-sandybridge'
+==> [2019-04-18-12:45:09.637484] Unloading module: xtpe-shanghai
+==> [2019-04-18-12:45:09.645175] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:09.676925] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-shanghai'
+==> [2019-04-18-12:45:09.689467] Unloading module: xtpe-xeon
+==> [2019-04-18-12:45:09.697191] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:09.728807] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-xeon'
+==> [2019-04-18-12:45:09.741254] Unloading module: craype-xeon
+==> [2019-04-18-12:45:09.748983] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:09.780850] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'craype-xeon'
+==> [2019-04-18-12:45:09.793382] Unloading module: craype-aarch64
+==> [2019-04-18-12:45:09.801072] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:09.833012] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'craype-aarch64'
+==> [2019-04-18-12:45:09.845521] Unloading module: craype-thunderx
+==> [2019-04-18-12:45:09.853189] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:09.884901] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'craype-thunderx'
+==> [2019-04-18-12:45:09.897400] Unloading module: craype-thunderx2
+==> [2019-04-18-12:45:09.905060] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:09.936897] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'craype-thunderx2'
+==> [2019-04-18-12:45:09.949724] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'load' 'craype-arm-thunderx2'
+==> [2019-04-18-12:45:09.974571] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'load' 'craype-arm-thunderx2'
+==> [2019-04-18-12:45:09.999208] Loading module: cmake/3.12.1
+==> [2019-04-18-12:45:10.006901] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:45:10.038915] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'cmake/3.12.1'
+==> [2019-04-18-12:45:10.052899] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'load' 'cmake/3.12.1'
+==> [2019-04-18-12:45:10.066503] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'load' 'cmake/3.12.1'
+==> [2019-04-18-12:45:10.079832] Module load output of cmake/3.12.1:
+ModuleCmd_Load.c(244):ERROR:105: Unable to locate a modulefile for 'cmake/3.12.1'
+
+
+==> [2019-04-18-12:45:10.086424] Error: SyntaxError: invalid syntax (<string>, line 1)
+
+/pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py:784, in child_process:
+        781            tb_string = traceback.format_exc()
+        782
+        783            # build up some context from the offending package so we can
+  >>    784            # show that, too.
+        785            package_context = get_package_context(tb)
+        786
+        787            build_log = None
+
+
+Traceback (most recent call last):
+  File "/pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py", line 766, in child_process
+    setup_package(pkg, dirty=dirty)
+  File "/pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py", line 719, in setup_package
+    load_external_modules(pkg)
+  File "/pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py", line 663, in load_external_modules
+    load_module(dep.external_module)
+  File "/pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/lib/spack/spack/util/module_cmd.py", line 147, in load_module
+    exec(compile(load, '<string>', 'exec'))
+  File "<string>", line 1
+    ModuleCmd_Load.c(244):ERROR:105: Unable to locate a modulefile for 'cmake/3.12.1'
+                         ^
+SyntaxError: invalid syntax
+dantopa@nid00003:capulin-arm.ucx $ spack find -ldf rdma-coree
+==> No package matches the query: rdma-coree
+dantopa@nid00003:capulin-arm.ucx $ ^C
+dantopa@nid00003:capulin-arm.ucx $ spack find -ldf rdma-core 
+==> No package matches the query: rdma-core
+dantopa@nid00003:capulin-arm.ucx $ spack find
+==> 27 installed packages
+-- cray-cnl6-arm_thunderx2 / cce@8.7.9 --------------------------
+bison@3.0.5  cmake@3.14.1  flex@2.6.4  libnl@3.3.0  m4@1.4.18  numactl@2.0.12  pkg-config@0.29.2
+
+-- cray-cnl6-arm_thunderx2 / gcc@7.3.0 --------------------------
+bison@3.0.5  cmake@3.14.1  flex@2.6.4  libnl@3.3.0  m4@1.4.18  numactl@2.0.12  pkg-config@0.29.2
+
+-- cray-cnl6-arm_thunderx2 / gcc@8.2.0 --------------------------
+bison@3.0.5  cmake@3.14.1  flex@2.6.4  libnl@3.3.0  m4@1.4.18  numactl@2.0.12  pkg-config@0.29.2
+
+-- cray-cnl6-arm_thunderx2 / gcc@8.3.0 --------------------------
+bison@3.0.5  cmake@3.14.1  flex@2.6.4  libnl@3.3.0  m4@1.4.18  pkg-config@0.29.2
+dantopa@nid00003:capulin-arm.ucx $ pwd
+/lustre/cpscratch1/dantopa/repos/github/libraries/capulin-arm.ucx
+dantopa@nid00003:capulin-arm.ucx $ sp
+/lustre/cpscratch1/dantopa/repos/github/libraries/capulin-arm.ucx
+dantopa@nid00003:capulin-arm.ucx $ spack find
+==> 27 installed packages
+-- cray-cnl6-arm_thunderx2 / cce@8.7.9 --------------------------
+bison@3.0.5  cmake@3.14.1  flex@2.6.4  libnl@3.3.0  m4@1.4.18  numactl@2.0.12  pkg-config@0.29.2
+
+-- cray-cnl6-arm_thunderx2 / gcc@7.3.0 --------------------------
+bison@3.0.5  cmake@3.14.1  flex@2.6.4  libnl@3.3.0  m4@1.4.18  numactl@2.0.12  pkg-config@0.29.2
+
+-- cray-cnl6-arm_thunderx2 / gcc@8.2.0 --------------------------
+bison@3.0.5  cmake@3.14.1  flex@2.6.4  libnl@3.3.0  m4@1.4.18  numactl@2.0.12  pkg-config@0.29.2
+
+-- cray-cnl6-arm_thunderx2 / gcc@8.3.0 --------------------------
+bison@3.0.5  cmake@3.14.1  flex@2.6.4  libnl@3.3.0  m4@1.4.18  pkg-config@0.29.2
+dantopa@nid00003:capulin-arm.ucx $ salloc: Job 315611 has exceeded its time limit and its allocation has been revoked.
+srun: Job step aborted: Waiting up to 514 seconds for job step to finish.
+logout
+dantopa@cp-loginy:capulin-arm.ucx $ packet_write_wait: Connection to 128.165.227.168 port 22: Broken pipe
+[1]   Done                    cp ${HOME}/${bash_file} ${alt_vault}
+[2]   Done                    cp ${HOME}/${extras} ${alt_vault}
+[3]-  Done                    cp ${HOME}/.vimrc ${alt_vault}
+[4]+  Done                    cp ${HOME}/.gitconfig ${alt_vault}
+l127914@pn1249300.lanl.gov:~ $ 

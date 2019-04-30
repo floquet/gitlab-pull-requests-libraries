@@ -1,0 +1,37 @@
+Wed Apr 24 17:36:15 MDT 2019
+/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi
+spack find openmpi >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/platform-order/darwin-power9-openmpi.out
+==> 22 installed packages
+-- linux-rhel7-ppc64le / gcc@4.8.5 ------------------------------
+openmpi@2.1.6
+openmpi@3.0.4
+openmpi@3.1.4
+openmpi@4.0.1
+
+-- linux-rhel7-ppc64le / gcc@6.4.0 ------------------------------
+openmpi@2.1.6
+openmpi@3.0.4
+openmpi@3.1.4
+openmpi@4.0.1
+
+-- linux-rhel7-ppc64le / gcc@7.3.0 ------------------------------
+openmpi@2.1.6
+openmpi@3.0.4
+openmpi@3.1.4
+openmpi@4.0.1
+
+-- linux-rhel7-ppc64le / gcc@8.2.0 ------------------------------
+openmpi@2.1.6
+openmpi@3.0.4
+openmpi@3.1.4
+openmpi@4.0.1
+
+-- linux-rhel7-ppc64le / pgi@17.10 ------------------------------
+openmpi@2.1.6
+openmpi@3.0.4
+openmpi@3.1.4
+openmpi@4.0.1
+
+-- linux-rhel7-ppc64le / pgi@18.10 ------------------------------
+openmpi@3.0.4
+openmpi@4.0.1

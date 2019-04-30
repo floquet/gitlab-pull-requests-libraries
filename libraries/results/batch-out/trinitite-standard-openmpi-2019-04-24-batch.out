@@ -1,0 +1,1221 @@
+Wed Apr 24 14:32:51 MDT 2019 /var/spool/slurm/job545918/slurm_script
+source "${dir_tools}/bash/master-tpl-sweep.sh"
+Wed Apr 24 14:32:51 MDT 2019 /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh
+cd /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools
+source directories/libraries-trinitite.sh
+Wed Apr 24 14:32:51 MDT 2019 [1mdirectories/libraries-trinitite.sh(B[m
+source tpl-versions/versions-openmpi.sh
+Wed Apr 24 14:32:51 MDT 2019 [1mtpl-versions/versions-openmpi.sh(B[m
+4 openmpi versions loaded:
+4.0.1  3.1.4  3.0.4  2.1.6
+
+source compilers/compilers-trinitite-standard.sh
+Wed Apr 24 14:32:51 MDT 2019 [1mcompilers/compilers-trinitite-standard.sh(B[m
+7 Spack-recognized compilers loaded:
+cce@8.7.9  cce@8.7.8  gcc@8.2.0  gcc@7.3.0  gcc@6.3.0  intel@19.0.1  intel@18.0.5
+
+source klingons/trinitite-standard-openmpi.sh
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 36: klingons/trinitite-standard-openmpi.sh: No such file or directory
+cd /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.openmpi
+. share/spack/setup-env.sh
+export spack_architecture='arch=cray-cnl6-haswell'
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+spack compilers
+==> Available compilers
+-- cce cnl6-any -------------------------------------------------
+cce@8.7.9
+cce@8.7.8
+
+-- gcc cnl6-any -------------------------------------------------
+gcc@8.2.0
+gcc@7.3.0
+gcc@6.3.0
+
+-- intel cnl6-any -----------------------------------------------
+intel@19.0.1
+intel@18.0.5
+ls -alh etc/spack/defaults
+total 56K
+drwxr-xr-x 4 dantopa dantopa 4.0K Apr 18 16:54 .
+drwxr-xr-x 3 dantopa dantopa 4.0K Oct 15  2018 ..
+-rw-r----- 1 dantopa dantopa 2.6K Apr 18 17:18 compilers.yaml
+-rw-r----- 1 dantopa dantopa 4.4K Mar 15 18:15 config.yaml
+drwxr-xr-x 2 dantopa dantopa 4.0K Oct 15  2018 darwin
+drwxr-xr-x 2 dantopa dantopa 4.0K Oct 15  2018 linux
+-rw-r----- 1 dantopa dantopa 2.8K Apr 18 17:18 lmod-modules.yaml
+-rw-r----- 1 dantopa dantopa   77 Apr 18 17:18 mirrors.yaml
+-rw-r--r-- 1 dantopa dantopa 3.7K Apr 18 17:18 modules.yaml
+-rw-r----- 1 dantopa dantopa 3.1K Apr 18 17:18 packages.yaml
+-rw-r----- 1 dantopa dantopa  530 Mar  7 17:30 release.yaml
+-rw-r--r-- 1 dantopa dantopa  546 Oct 15  2018 repos.yaml
+-rw-r----- 1 dantopa dantopa 3.7K Apr 18 17:18 tcl-modules.yaml
+cat etc/spack/defaults/compilers.yaml
+# # # Trinitite system compilers
+
+# dantopa@tt-fey1:spack.trinitite.compilers $ date
+# Tue Jan 29 19:06:30 MST 2019
+
+# dantopa@tt-fey1:spack.trinitite.compilers $ pwd
+# /lustre/ttscratch1/dantopa/repos/spack/spack.trinitite.compilers
+
+# dantopa@tt-fey1:spack.trinitite.compilers $ spack compilers
+# ==> Available compilers
+# -- cce cnl6-any -------------------------------------------------
+# cce@8.7.9  cce@8.7.8
+#
+# -- gcc cnl6-any -------------------------------------------------
+# gcc@8.2.0  gcc@7.3.0  gcc@6.3.0
+#
+# -- intel cnl6-any -----------------------------------------------
+# intel@19.0.1  intel@18.0.5
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - !!python/unicode
+      'cce/8.7.9'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: cce@8.7.9
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - !!python/unicode
+      'cce/8.7.8'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: cce@8.7.8
+    target: any
+# # # GCC
+  #  # gcc@8.2.0  gcc@7.3.0  gcc@6.3.0
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/8.2.0'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: gcc@8.2.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/7.3.0'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: gcc@7.3.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/6.3.0'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: gcc@6.3.0
+    target: any
+# # # intel
+  # #  intel@19.0.1  intel@18.0.5
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-intel
+    - friendly-testing
+    - !!python/unicode
+      'intel/19.0.1'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: intel@19.0.1
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-intel
+    - !!python/unicode
+      'intel/18.0.5'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: intel@18.0.5
+    target: any
+spack config get compilers
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - !!python/unicode
+      'cce/8.7.9'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: cce@8.7.9
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - !!python/unicode
+      'cce/8.7.8'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: cce@8.7.8
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/8.2.0'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: gcc@8.2.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/7.3.0'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: gcc@7.3.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/6.3.0'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: gcc@6.3.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-intel
+    - friendly-testing
+    - !!python/unicode
+      'intel/19.0.1'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: intel@19.0.1
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-intel
+    - !!python/unicode
+      'intel/18.0.5'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: intel@18.0.5
+    target: any
+spack install openmpi @ 4.0.1 % cce@8.7.9  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j64'
+
+13 errors found in build log:
+     835      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     836    
+     837    CC-571 craycc: ERROR
+     838      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     839    
+     840    Makefile:539: recipe for target 'common_vgaarb.lo' failed
+  >> 841    make[2]: *** [common_vgaarb.lo] Error 1
+     842    make[2]: *** Waiting for unfinished jobs....
+     843    Makefile:539: recipe for target 'common_device_name.lo' failed
+  >> 844    make[2]: *** [common_device_name.lo] Error 1
+     845    CC-571 craycc: ERROR
+     846      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     847    
+     848    CC-571 craycc: ERROR
+     849      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     850    
+
+     ...
+
+     855      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     856    
+     857    CC-571 craycc: ERROR
+     858      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     859    
+     860    Makefile:539: recipe for target 'common_iterator.lo' failed
+  >> 861    make[2]: *** [common_iterator.lo] Error 1
+     862    CC-571 craycc: ERROR
+     863      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     864    
+     865    Makefile:539: recipe for target 'common_map.lo' failed
+  >> 866    make[2]: *** [common_map.lo] Error 1
+     867    CC-571 craycc: ERROR
+     868      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     869    
+     870    Makefile:539: recipe for target 'common_interface.lo' failed
+  >> 871    make[2]: *** [common_interface.lo] Error 1
+     872    Makefile:539: recipe for target 'common_init.lo' failed
+  >> 873    make[2]: *** [common_init.lo] Error 1
+     874    Makefile:539: recipe for target 'common_capability.lo' failed
+  >> 875    make[2]: *** [common_capability.lo] Error 1
+     876    CC-571 craycc: ERROR
+     877      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     878    
+     879    Makefile:539: recipe for target 'linux_devmem.lo' failed
+  >> 880    make[2]: *** [linux_devmem.lo] Error 1
+     881    Makefile:539: recipe for target 'common_io.lo' failed
+  >> 882    make[2]: *** [common_io.lo] Error 1
+     883    CC-571 craycc: ERROR
+     884      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     885    
+     886    Makefile:539: recipe for target 'common_bridge.lo' failed
+  >> 887    make[2]: *** [common_bridge.lo] Error 1
+     888    Makefile:539: recipe for target 'linux_sysfs.lo' failed
+  >> 889    make[2]: *** [linux_sysfs.lo] Error 1
+     890    make[2]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-ph
+            fSoV/libpciaccess-0.13.5/src'
+     891    Makefile:503: recipe for target 'all-recursive' failed
+  >> 892    make[1]: *** [all-recursive] Error 1
+     893    make[1]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-ph
+            fSoV/libpciaccess-0.13.5'
+     894    Makefile:412: recipe for target 'all' failed
+  >> 895    make: *** [all] Error 2
+
+See build log for details:
+  /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.openmpi/var/spack/stage/libpciaccess-0.13.5-euyrnaoulwxf2vi44xod7l46oo7zwy5g/spack-build.out
+spack install openmpi @ 4.0.1 % cce@8.7.8  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j64'
+
+13 errors found in build log:
+     841      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     842    
+     843    CC-571 craycc: ERROR
+     844      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     845    
+     846    Makefile:539: recipe for target 'common_interface.lo' failed
+  >> 847    make[2]: *** [common_interface.lo] Error 1
+     848    make[2]: *** Waiting for unfinished jobs....
+     849    Makefile:539: recipe for target 'common_iterator.lo' failed
+  >> 850    make[2]: *** [common_iterator.lo] Error 1
+     851    CC-571 craycc: ERROR
+     852      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     853    
+     854    CC-571 craycc: ERROR
+     855      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     856    
+     857    Makefile:539: recipe for target 'common_device_name.lo' failed
+  >> 858    make[2]: *** [common_device_name.lo] Error 1
+     859    CC-571 craycc: ERROR
+     860      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     861    
+     862    Makefile:539: recipe for target 'common_map.lo' failed
+  >> 863    make[2]: *** [common_map.lo] Error 1
+     864    CC-571 craycc: ERROR
+     865      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     866    
+     867    Makefile:539: recipe for target 'common_bridge.lo' failed
+  >> 868    make[2]: *** [common_bridge.lo] Error 1
+     869    CC-571 craycc: ERROR
+     870      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     871    
+     872    CC-571 craycc: ERROR
+     873      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     874    
+     875    Makefile:539: recipe for target 'common_vgaarb.lo' failed
+  >> 876    make[2]: *** [common_vgaarb.lo] Error 1
+     877    CC-571 craycc: ERROR
+     878      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     879    
+     880    Makefile:539: recipe for target 'common_io.lo' failed
+  >> 881    make[2]: *** [common_io.lo] Error 1
+     882    Makefile:539: recipe for target 'linux_devmem.lo' failed
+  >> 883    make[2]: *** [linux_devmem.lo] Error 1
+     884    Makefile:539: recipe for target 'common_capability.lo' failed
+  >> 885    make[2]: *** [common_capability.lo] Error 1
+     886    Makefile:539: recipe for target 'linux_sysfs.lo' failed
+  >> 887    make[2]: *** [linux_sysfs.lo] Error 1
+     888    Makefile:539: recipe for target 'common_init.lo' failed
+  >> 889    make[2]: *** [common_init.lo] Error 1
+     890    make[2]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-Gh
+            j0FS/libpciaccess-0.13.5/src'
+     891    Makefile:503: recipe for target 'all-recursive' failed
+  >> 892    make[1]: *** [all-recursive] Error 1
+     893    make[1]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-Gh
+            j0FS/libpciaccess-0.13.5'
+     894    Makefile:412: recipe for target 'all' failed
+  >> 895    make: *** [all] Error 2
+
+See build log for details:
+  /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.openmpi/var/spack/stage/libpciaccess-0.13.5-kvtpv6d5nqzxdxqh3uioxmnkmftzfhx6/spack-build.out
+spack install openmpi @ 4.0.1 % gcc@8.2.0  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+spack install openmpi @ 4.0.1 % gcc@7.3.0  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+spack install openmpi @ 4.0.1 % gcc@6.3.0  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.openmpi/var/spack/stage/libpciaccess-0.13.5-upvrvvm3axk2d2zhjvsyokb6xc6odss4/libpciaccess-0.13.5/configure' '--prefix=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.openmpi/opt/spack/cray-cnl6-haswell/gcc-6.3.0/libpciaccess-0.13.5-upvrvvm3axk2d2zhjvsyokb6xc6odss4'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /lustre/ttscratch1/dantopa/spack/libraries/trini
+           tite-standard.openmpi/lib/spack/env/gcc/gcc
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/tmp/dantopa/spack-stage/spack-stage-pFP0_a/li
+           bpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.openmpi/var/spack/stage/libpciaccess-0.13.5-upvrvvm3axk2d2zhjvsyokb6xc6odss4/spack-build.out
+spack install openmpi @ 4.0.1 % intel@19.0.1  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: sequence item 2: expected string, NoneType found
+spack install openmpi @ 4.0.1 % intel@18.0.5  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+spack install openmpi @ 3.1.4 % cce@8.7.9  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j64'
+
+13 errors found in build log:
+     835      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     836    
+     837    CC-571 craycc: ERROR
+     838      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     839    
+     840    Makefile:539: recipe for target 'common_init.lo' failed
+  >> 841    make[2]: *** [common_init.lo] Error 1
+     842    make[2]: *** Waiting for unfinished jobs....
+     843    Makefile:539: recipe for target 'common_bridge.lo' failed
+  >> 844    make[2]: *** [common_bridge.lo] Error 1
+     845    CC-571 craycc: ERROR
+     846      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     847    
+     848    CC-571 craycc: ERROR
+     849      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     850    
+
+     ...
+
+     861      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     862    
+     863    CC-571 craycc: ERROR
+     864      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     865    
+     866    Makefile:539: recipe for target 'common_iterator.lo' failed
+  >> 867    make[2]: *** [common_iterator.lo] Error 1
+     868    Makefile:539: recipe for target 'linux_devmem.lo' failed
+  >> 869    make[2]: *** [linux_devmem.lo] Error 1
+     870    CC-571 craycc: ERROR
+     871      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     872    
+     873    CC-571 craycc: ERROR
+     874      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     875    
+     876    Makefile:539: recipe for target 'common_interface.lo' failed
+  >> 877    make[2]: *** [common_interface.lo] Error 1
+     878    Makefile:539: recipe for target 'common_capability.lo' failed
+  >> 879    make[2]: *** [common_capability.lo] Error 1
+     880    Makefile:539: recipe for target 'common_map.lo' failed
+  >> 881    make[2]: *** [common_map.lo] Error 1
+     882    Makefile:539: recipe for target 'common_device_name.lo' failed
+  >> 883    make[2]: *** [common_device_name.lo] Error 1
+     884    Makefile:539: recipe for target 'common_vgaarb.lo' failed
+  >> 885    make[2]: *** [common_vgaarb.lo] Error 1
+     886    Makefile:539: recipe for target 'common_io.lo' failed
+  >> 887    make[2]: *** [common_io.lo] Error 1
+     888    Makefile:539: recipe for target 'linux_sysfs.lo' failed
+  >> 889    make[2]: *** [linux_sysfs.lo] Error 1
+     890    make[2]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-Rp
+            C7zM/libpciaccess-0.13.5/src'
+     891    Makefile:503: recipe for target 'all-recursive' failed
+  >> 892    make[1]: *** [all-recursive] Error 1
+     893    make[1]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-Rp
+            C7zM/libpciaccess-0.13.5'
+     894    Makefile:412: recipe for target 'all' failed
+  >> 895    make: *** [all] Error 2
+
+See build log for details:
+  /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.openmpi/var/spack/stage/libpciaccess-0.13.5-euyrnaoulwxf2vi44xod7l46oo7zwy5g/spack-build.out
+spack install openmpi @ 3.1.4 % cce@8.7.8  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j64'
+
+13 errors found in build log:
+     841      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     842    
+     843    CC-571 craycc: ERROR
+     844      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     845    
+     846    Makefile:539: recipe for target 'common_iterator.lo' failed
+  >> 847    make[2]: *** [common_iterator.lo] Error 1
+     848    make[2]: *** Waiting for unfinished jobs....
+     849    CC-571 craycc: ERROR
+     850      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     851    
+     852    CC-571 craycc: ERROR
+     853      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     854    
+     855    Makefile:539: recipe for target 'common_interface.lo' failed
+  >> 856    make[2]: *** [common_interface.lo] Error 1
+     857    Makefile:539: recipe for target 'common_init.lo' failed
+  >> 858    make[2]: *** [common_init.lo] Error 1
+     859    CC-571 craycc: ERROR
+     860      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     861    
+     862    CC-571 craycc: ERROR
+     863      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     864    
+     865    CC-571 craycc: ERROR
+     866      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     867    
+     868    Makefile:539: recipe for target 'common_map.lo' failed
+  >> 869    make[2]: *** [common_map.lo] Error 1
+     870    Makefile:539: recipe for target 'common_vgaarb.lo' failed
+  >> 871    make[2]: *** [common_vgaarb.lo] Error 1
+     872    CC-571 craycc: ERROR
+     873      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     874    
+     875    Makefile:539: recipe for target 'common_io.lo' failed
+  >> 876    make[2]: *** [common_io.lo] Error 1
+     877    Makefile:539: recipe for target 'common_bridge.lo' failed
+  >> 878    make[2]: *** [common_bridge.lo] Error 1
+     879    Makefile:539: recipe for target 'common_capability.lo' failed
+  >> 880    make[2]: *** [common_capability.lo] Error 1
+     881    CC-571 craycc: ERROR
+     882      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     883    
+     884    Makefile:539: recipe for target 'common_device_name.lo' failed
+  >> 885    make[2]: *** [common_device_name.lo] Error 1
+     886    Makefile:539: recipe for target 'linux_devmem.lo' failed
+  >> 887    make[2]: *** [linux_devmem.lo] Error 1
+     888    Makefile:539: recipe for target 'linux_sysfs.lo' failed
+  >> 889    make[2]: *** [linux_sysfs.lo] Error 1
+     890    make[2]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-8U
+            oAlQ/libpciaccess-0.13.5/src'
+     891    Makefile:503: recipe for target 'all-recursive' failed
+  >> 892    make[1]: *** [all-recursive] Error 1
+     893    make[1]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-8U
+            oAlQ/libpciaccess-0.13.5'
+     894    Makefile:412: recipe for target 'all' failed
+  >> 895    make: *** [all] Error 2
+
+See build log for details:
+  /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.openmpi/var/spack/stage/libpciaccess-0.13.5-kvtpv6d5nqzxdxqh3uioxmnkmftzfhx6/spack-build.out
+spack install openmpi @ 3.1.4 % gcc@8.2.0  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Warning: cannot perform the requested write operation on module files [some tokens cannot be part of the module naming scheme [PACKAGE, COMPILERNAME, COMPILERVER]. Did you check your "modules.yaml" configuration?]
+spack install openmpi @ 3.1.4 % gcc@7.3.0  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Warning: cannot perform the requested write operation on module files [some tokens cannot be part of the module naming scheme [PACKAGE, COMPILERNAME, COMPILERVER]. Did you check your "modules.yaml" configuration?]
+spack install openmpi @ 3.1.4 % gcc@6.3.0  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.openmpi/var/spack/stage/libpciaccess-0.13.5-upvrvvm3axk2d2zhjvsyokb6xc6odss4/libpciaccess-0.13.5/configure' '--prefix=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.openmpi/opt/spack/cray-cnl6-haswell/gcc-6.3.0/libpciaccess-0.13.5-upvrvvm3axk2d2zhjvsyokb6xc6odss4'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /lustre/ttscratch1/dantopa/spack/libraries/trini
+           tite-standard.openmpi/lib/spack/env/gcc/gcc
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/tmp/dantopa/spack-stage/spack-stage-ktTOCD/li
+           bpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.openmpi/var/spack/stage/libpciaccess-0.13.5-upvrvvm3axk2d2zhjvsyokb6xc6odss4/spack-build.out
+spack install openmpi @ 3.1.4 % intel@19.0.1  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: sequence item 2: expected string, NoneType found
+spack install openmpi @ 3.1.4 % intel@18.0.5  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Warning: cannot perform the requested write operation on module files [some tokens cannot be part of the module naming scheme [PACKAGE, COMPILERNAME, COMPILERVER]. Did you check your "modules.yaml" configuration?]
+spack install openmpi @ 3.0.4 % cce@8.7.9  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j64'
+
+13 errors found in build log:
+     841      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     842    
+     843    CC-571 craycc: ERROR
+     844      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     845    
+     846    Makefile:539: recipe for target 'common_bridge.lo' failed
+  >> 847    make[2]: *** [common_bridge.lo] Error 1
+     848    make[2]: *** Waiting for unfinished jobs....
+     849    CC-571 craycc: ERROR
+     850      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     851    
+     852    CC-571 craycc: ERROR
+     853      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     854    
+     855    Makefile:539: recipe for target 'common_device_name.lo' failed
+  >> 856    make[2]: *** [common_device_name.lo] Error 1
+     857    Makefile:539: recipe for target 'common_iterator.lo' failed
+  >> 858    make[2]: *** [common_iterator.lo] Error 1
+     859    Makefile:539: recipe for target 'common_capability.lo' failed
+  >> 860    make[2]: *** [common_capability.lo] Error 1
+     861    CC-571 craycc: ERROR
+     862      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     863    
+     864    CC-571 craycc: ERROR
+     865      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     866    
+
+     ...
+
+     868      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     869    
+     870    CC-571 craycc: ERROR
+     871      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     872    
+     873    Makefile:539: recipe for target 'common_map.lo' failed
+  >> 874    make[2]: *** [common_map.lo] Error 1
+     875    Makefile:539: recipe for target 'linux_sysfs.lo' failed
+  >> 876    make[2]: *** [linux_sysfs.lo] Error 1
+     877    CC-571 craycc: ERROR
+     878      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     879    
+     880    Makefile:539: recipe for target 'common_io.lo' failed
+  >> 881    make[2]: *** [common_io.lo] Error 1
+     882    Makefile:539: recipe for target 'common_vgaarb.lo' failed
+  >> 883    make[2]: *** [common_vgaarb.lo] Error 1
+     884    Makefile:539: recipe for target 'linux_devmem.lo' failed
+  >> 885    make[2]: *** [linux_devmem.lo] Error 1
+     886    Makefile:539: recipe for target 'common_interface.lo' failed
+  >> 887    make[2]: *** [common_interface.lo] Error 1
+     888    Makefile:539: recipe for target 'common_init.lo' failed
+  >> 889    make[2]: *** [common_init.lo] Error 1
+     890    make[2]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-w5
+            E6AO/libpciaccess-0.13.5/src'
+     891    Makefile:503: recipe for target 'all-recursive' failed
+  >> 892    make[1]: *** [all-recursive] Error 1
+     893    make[1]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-w5
+            E6AO/libpciaccess-0.13.5'
+     894    Makefile:412: recipe for target 'all' failed
+  >> 895    make: *** [all] Error 2
+
+See build log for details:
+  /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.openmpi/var/spack/stage/libpciaccess-0.13.5-euyrnaoulwxf2vi44xod7l46oo7zwy5g/spack-build.out
+spack install openmpi @ 3.0.4 % cce@8.7.8  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j64'
+
+13 errors found in build log:
+     832    CC-2103 craycc: WARNING in command line
+     833      The -Werror=pointer-to-int-cast option is not supported or invali
+            d and will be ignored.
+     834    CC-571 craycc: ERROR
+     835      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     836    
+     837    Makefile:539: recipe for target 'common_bridge.lo' failed
+  >> 838    make[2]: *** [common_bridge.lo] Error 1
+     839    make[2]: *** Waiting for unfinished jobs....
+     840    CC-571 craycc: ERROR
+     841      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     842    
+     843    Makefile:539: recipe for target 'common_init.lo' failed
+  >> 844    make[2]: *** [common_init.lo] Error 1
+     845    CC-571 craycc: ERROR
+     846      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     847    
+     848    CC-571 craycc: ERROR
+     849      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     850    
+
+     ...
+
+     852      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     853    
+     854    CC-571 craycc: ERROR
+     855      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     856    
+     857    Makefile:539: recipe for target 'common_vgaarb.lo' failed
+  >> 858    make[2]: *** [common_vgaarb.lo] Error 1
+     859    CC-571 craycc: ERROR
+     860      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     861    
+     862    Makefile:539: recipe for target 'common_capability.lo' failed
+  >> 863    make[2]: *** [common_capability.lo] Error 1
+     864    CC-571 craycc: ERROR
+     865      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     866    
+     867    CC-571 craycc: ERROR
+     868      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     869    
+     870    Makefile:539: recipe for target 'linux_devmem.lo' failed
+  >> 871    make[2]: *** [linux_devmem.lo] Error 1
+     872    Makefile:539: recipe for target 'common_iterator.lo' failed
+  >> 873    make[2]: *** [common_iterator.lo] Error 1
+     874    Makefile:539: recipe for target 'linux_sysfs.lo' failed
+  >> 875    make[2]: *** [linux_sysfs.lo] Error 1
+     876    Makefile:539: recipe for target 'common_map.lo' failed
+  >> 877    make[2]: *** [common_map.lo] Error 1
+     878    Makefile:539: recipe for target 'common_device_name.lo' failed
+  >> 879    make[2]: *** [common_device_name.lo] Error 1
+     880    CC-571 craycc: ERROR
+     881      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     882    
+     883    CC-571 craycc: ERROR
+     884      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     885    
+     886    Makefile:539: recipe for target 'common_io.lo' failed
+  >> 887    make[2]: *** [common_io.lo] Error 1
+     888    Makefile:539: recipe for target 'common_interface.lo' failed
+  >> 889    make[2]: *** [common_interface.lo] Error 1
+     890    make[2]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-v9
+            yryo/libpciaccess-0.13.5/src'
+     891    Makefile:503: recipe for target 'all-recursive' failed
+  >> 892    make[1]: *** [all-recursive] Error 1
+     893    make[1]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-v9
+            yryo/libpciaccess-0.13.5'
+     894    Makefile:412: recipe for target 'all' failed
+  >> 895    make: *** [all] Error 2
+
+See build log for details:
+  /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.openmpi/var/spack/stage/libpciaccess-0.13.5-kvtpv6d5nqzxdxqh3uioxmnkmftzfhx6/spack-build.out
+spack install openmpi @ 3.0.4 % gcc@8.2.0  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Warning: cannot perform the requested write operation on module files [some tokens cannot be part of the module naming scheme [PACKAGE, COMPILERNAME, COMPILERVER]. Did you check your "modules.yaml" configuration?]
+spack install openmpi @ 3.0.4 % gcc@7.3.0  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Warning: cannot perform the requested write operation on module files [some tokens cannot be part of the module naming scheme [PACKAGE, COMPILERNAME, COMPILERVER]. Did you check your "modules.yaml" configuration?]
+spack install openmpi @ 3.0.4 % gcc@6.3.0  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.openmpi/var/spack/stage/libpciaccess-0.13.5-upvrvvm3axk2d2zhjvsyokb6xc6odss4/libpciaccess-0.13.5/configure' '--prefix=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.openmpi/opt/spack/cray-cnl6-haswell/gcc-6.3.0/libpciaccess-0.13.5-upvrvvm3axk2d2zhjvsyokb6xc6odss4'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /lustre/ttscratch1/dantopa/spack/libraries/trini
+           tite-standard.openmpi/lib/spack/env/gcc/gcc
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/tmp/dantopa/spack-stage/spack-stage-_gUUQH/li
+           bpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.openmpi/var/spack/stage/libpciaccess-0.13.5-upvrvvm3axk2d2zhjvsyokb6xc6odss4/spack-build.out
+spack install openmpi @ 3.0.4 % intel@19.0.1  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: sequence item 2: expected string, NoneType found
+spack install openmpi @ 3.0.4 % intel@18.0.5  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Warning: cannot perform the requested write operation on module files [some tokens cannot be part of the module naming scheme [PACKAGE, COMPILERNAME, COMPILERVER]. Did you check your "modules.yaml" configuration?]
+spack install openmpi @ 2.1.6 % cce@8.7.9  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j64'
+
+13 errors found in build log:
+     832    CC-2103 craycc: WARNING in command line
+     833      The -Werror=pointer-to-int-cast option is not supported or invali
+            d and will be ignored.
+     834    CC-571 craycc: ERROR
+     835      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     836    
+     837    Makefile:539: recipe for target 'common_bridge.lo' failed
+  >> 838    make[2]: *** [common_bridge.lo] Error 1
+     839    make[2]: *** Waiting for unfinished jobs....
+     840    CC-571 craycc: ERROR
+     841      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     842    
+     843    Makefile:539: recipe for target 'common_init.lo' failed
+  >> 844    make[2]: *** [common_init.lo] Error 1
+     845    CC-571 craycc: ERROR
+     846      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     847    
+     848    CC-571 craycc: ERROR
+     849      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     850    
+     851    Makefile:539: recipe for target 'common_map.lo' failed
+  >> 852    make[2]: *** [common_map.lo] Error 1
+     853    Makefile:539: recipe for target 'common_iterator.lo' failed
+  >> 854    make[2]: *** [common_iterator.lo] Error 1
+     855    CC-571 craycc: ERROR
+     856      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     857    
+     858    CC-571 craycc: ERROR
+     859      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     860    
+
+     ...
+
+     868      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     869    
+     870    CC-571 craycc: ERROR
+     871      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     872    
+     873    Makefile:539: recipe for target 'common_io.lo' failed
+  >> 874    make[2]: *** [common_io.lo] Error 1
+     875    Makefile:539: recipe for target 'linux_sysfs.lo' failed
+  >> 876    make[2]: *** [linux_sysfs.lo] Error 1
+     877    CC-571 craycc: ERROR
+     878      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     879    
+     880    Makefile:539: recipe for target 'common_device_name.lo' failed
+  >> 881    make[2]: *** [common_device_name.lo] Error 1
+     882    Makefile:539: recipe for target 'common_vgaarb.lo' failed
+  >> 883    make[2]: *** [common_vgaarb.lo] Error 1
+     884    Makefile:539: recipe for target 'common_interface.lo' failed
+  >> 885    make[2]: *** [common_interface.lo] Error 1
+     886    Makefile:539: recipe for target 'linux_devmem.lo' failed
+  >> 887    make[2]: *** [linux_devmem.lo] Error 1
+     888    Makefile:539: recipe for target 'common_capability.lo' failed
+  >> 889    make[2]: *** [common_capability.lo] Error 1
+     890    make[2]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-al
+            f2R3/libpciaccess-0.13.5/src'
+     891    Makefile:503: recipe for target 'all-recursive' failed
+  >> 892    make[1]: *** [all-recursive] Error 1
+     893    make[1]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-al
+            f2R3/libpciaccess-0.13.5'
+     894    Makefile:412: recipe for target 'all' failed
+  >> 895    make: *** [all] Error 2
+
+See build log for details:
+  /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.openmpi/var/spack/stage/libpciaccess-0.13.5-euyrnaoulwxf2vi44xod7l46oo7zwy5g/spack-build.out
+spack install openmpi @ 2.1.6 % cce@8.7.8  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j64'
+
+13 errors found in build log:
+     841      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     842    
+     843    CC-571 craycc: ERROR
+     844      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     845    
+     846    Makefile:539: recipe for target 'common_bridge.lo' failed
+  >> 847    make[2]: *** [common_bridge.lo] Error 1
+     848    make[2]: *** Waiting for unfinished jobs....
+     849    CC-571 craycc: ERROR
+     850      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     851    
+     852    CC-571 craycc: ERROR
+     853      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     854    
+     855    Makefile:539: recipe for target 'common_device_name.lo' failed
+  >> 856    make[2]: *** [common_device_name.lo] Error 1
+     857    Makefile:539: recipe for target 'common_init.lo' failed
+  >> 858    make[2]: *** [common_init.lo] Error 1
+     859    CC-571 craycc: ERROR
+     860      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     861    
+     862    CC-571 craycc: ERROR
+     863      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     864    
+     865    CC-571 craycc: ERROR
+     866      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     867    
+     868    Makefile:539: recipe for target 'common_map.lo' failed
+  >> 869    make[2]: *** [common_map.lo] Error 1
+     870    CC-571 craycc: ERROR
+     871      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     872    
+     873    Makefile:539: recipe for target 'common_interface.lo' failed
+  >> 874    make[2]: *** [common_interface.lo] Error 1
+     875    Makefile:539: recipe for target 'linux_sysfs.lo' failed
+  >> 876    make[2]: *** [linux_sysfs.lo] Error 1
+     877    Makefile:539: recipe for target 'common_io.lo' failed
+  >> 878    make[2]: *** [common_io.lo] Error 1
+     879    Makefile:539: recipe for target 'linux_devmem.lo' failed
+  >> 880    make[2]: *** [linux_devmem.lo] Error 1
+     881    CC-571 craycc: ERROR
+     882      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     883    
+     884    Makefile:539: recipe for target 'common_vgaarb.lo' failed
+  >> 885    make[2]: *** [common_vgaarb.lo] Error 1
+     886    Makefile:539: recipe for target 'common_iterator.lo' failed
+  >> 887    make[2]: *** [common_iterator.lo] Error 1
+     888    Makefile:539: recipe for target 'common_capability.lo' failed
+  >> 889    make[2]: *** [common_capability.lo] Error 1
+     890    make[2]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-oc
+            Z1RO/libpciaccess-0.13.5/src'
+     891    Makefile:503: recipe for target 'all-recursive' failed
+  >> 892    make[1]: *** [all-recursive] Error 1
+     893    make[1]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-oc
+            Z1RO/libpciaccess-0.13.5'
+     894    Makefile:412: recipe for target 'all' failed
+  >> 895    make: *** [all] Error 2
+
+See build log for details:
+  /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.openmpi/var/spack/stage/libpciaccess-0.13.5-kvtpv6d5nqzxdxqh3uioxmnkmftzfhx6/spack-build.out
+spack install openmpi @ 2.1.6 % gcc@8.2.0  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+spack install openmpi @ 2.1.6 % gcc@7.3.0  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+spack install openmpi @ 2.1.6 % gcc@6.3.0  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.openmpi/var/spack/stage/libpciaccess-0.13.5-upvrvvm3axk2d2zhjvsyokb6xc6odss4/libpciaccess-0.13.5/configure' '--prefix=/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.openmpi/opt/spack/cray-cnl6-haswell/gcc-6.3.0/libpciaccess-0.13.5-upvrvvm3axk2d2zhjvsyokb6xc6odss4'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /lustre/ttscratch1/dantopa/spack/libraries/trini
+           tite-standard.openmpi/lib/spack/env/gcc/gcc
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/tmp/dantopa/spack-stage/spack-stage-dbErvr/li
+           bpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.openmpi/var/spack/stage/libpciaccess-0.13.5-upvrvvm3axk2d2zhjvsyokb6xc6odss4/spack-build.out
+spack install openmpi @ 2.1.6 % intel@19.0.1  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: sequence item 2: expected string, NoneType found
+spack install openmpi @ 2.1.6 % intel@18.0.5  arch=cray-cnl6-haswell  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+mkdir -p "${dir_results}/platform-order"
+mkdir -p "${dir_results}/tpl-order"
+mkdir -p "${dir_results}/graphs"
+spack find openmpi >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/platform-order/trinitite-standard-openmpi.out
+spack find openmpi >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/openmpi-trinitite-standard.out
+spack find -ldf openmpi  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/openmpi-trinitite-standard-ldf.out
+spack graph openmpi >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/graphs/openmpi-trinitite-standard-graph.out
+spack compilers
+==> Available compilers
+-- cce cnl6-any -------------------------------------------------
+cce@8.7.10
+cce@8.7.9
+cce@8.7.8
+
+-- gcc cnl6-any -------------------------------------------------
+gcc@8.3.0
+gcc@8.2.0
+gcc@7.3.0
+gcc@6.3.0
+gcc@6.1.0
+
+-- gcc sles15-aarch64 -------------------------------------------
+gcc@7.4.0
+
+-- intel cnl6-any -----------------------------------------------
+intel@19.0.1
+intel@18.0.5
+spack find openmpi
+==> 18 installed packages
+-- cray-cnl6-haswell / gcc@7.3.0 --------------------------------
+openmpi@2.1.6
+openmpi@3.0.3
+openmpi@3.0.4
+openmpi@3.1.3
+openmpi@3.1.4
+openmpi@4.0.1
+
+-- cray-cnl6-haswell / gcc@8.2.0 --------------------------------
+openmpi@2.1.6
+openmpi@3.0.3
+openmpi@3.0.4
+openmpi@3.1.3
+openmpi@3.1.4
+openmpi@4.0.1
+
+-- cray-cnl6-haswell / intel@18.0.5 -----------------------------
+openmpi@2.1.6
+openmpi@3.0.3
+openmpi@3.0.4
+openmpi@3.1.3
+openmpi@3.1.4
+openmpi@4.0.1
+spack find -ldf openmpi
+==> 18 installed packages
+-- cray-cnl6-haswell / gcc@7.3.0 --------------------------------
+6sedn5m    openmpi@2.1.6%gcc 
+7zmbmjq        ^hwloc@1.11.11%gcc 
+h2ms6q3            ^libpciaccess@0.13.5%gcc 
+36vc6qy            ^libxml2@2.9.8%gcc 
+jo6rhc5        ^numactl@2.0.12%gcc 
+
+im4b3wq    openmpi@3.0.3%gcc 
+7zmbmjq        ^hwloc@1.11.11%gcc 
+h2ms6q3            ^libpciaccess@0.13.5%gcc 
+36vc6qy            ^libxml2@2.9.8%gcc 
+jo6rhc5        ^numactl@2.0.12%gcc 
+uw4fzi4        ^zlib@1.2.11%gcc 
+
+wauujib    openmpi@3.0.4%gcc 
+7zmbmjq        ^hwloc@1.11.11%gcc 
+h2ms6q3            ^libpciaccess@0.13.5%gcc 
+36vc6qy            ^libxml2@2.9.8%gcc 
+jo6rhc5        ^numactl@2.0.12%gcc 
+uw4fzi4        ^zlib@1.2.11%gcc 
+
+umqkoip    openmpi@3.1.3%gcc 
+7zmbmjq        ^hwloc@1.11.11%gcc 
+h2ms6q3            ^libpciaccess@0.13.5%gcc 
+36vc6qy            ^libxml2@2.9.8%gcc 
+jo6rhc5        ^numactl@2.0.12%gcc 
+uw4fzi4        ^zlib@1.2.11%gcc 
+
+2y6czbj    openmpi@3.1.4%gcc 
+7zmbmjq        ^hwloc@1.11.11%gcc 
+h2ms6q3            ^libpciaccess@0.13.5%gcc 
+36vc6qy            ^libxml2@2.9.8%gcc 
+jo6rhc5        ^numactl@2.0.12%gcc 
+uw4fzi4        ^zlib@1.2.11%gcc 
+
+yq6s3wo    openmpi@4.0.1%gcc 
+7zmbmjq        ^hwloc@1.11.11%gcc 
+h2ms6q3            ^libpciaccess@0.13.5%gcc 
+36vc6qy            ^libxml2@2.9.8%gcc 
+jo6rhc5        ^numactl@2.0.12%gcc 
+uw4fzi4        ^zlib@1.2.11%gcc 
+
+
+-- cray-cnl6-haswell / gcc@8.2.0 --------------------------------
+q7dh3c2    openmpi@2.1.6%gcc 
+fusyoi5        ^hwloc@1.11.11%gcc 
+ahkgt2w            ^libpciaccess@0.13.5%gcc 
+zrurfh6            ^libxml2@2.9.8%gcc 
+tq5cpbs        ^numactl@2.0.12%gcc 
+
+hh6nzt5    openmpi@3.0.3%gcc 
+fusyoi5        ^hwloc@1.11.11%gcc 
+ahkgt2w            ^libpciaccess@0.13.5%gcc 
+zrurfh6            ^libxml2@2.9.8%gcc 
+tq5cpbs        ^numactl@2.0.12%gcc 
+v25hso5        ^zlib@1.2.11%gcc 
+
+xchpy7r    openmpi@3.0.4%gcc 
+fusyoi5        ^hwloc@1.11.11%gcc 
+ahkgt2w            ^libpciaccess@0.13.5%gcc 
+zrurfh6            ^libxml2@2.9.8%gcc 
+tq5cpbs        ^numactl@2.0.12%gcc 
+v25hso5        ^zlib@1.2.11%gcc 
+
+ujgvwki    openmpi@3.1.3%gcc 
+fusyoi5        ^hwloc@1.11.11%gcc 
+ahkgt2w            ^libpciaccess@0.13.5%gcc 
+zrurfh6            ^libxml2@2.9.8%gcc 
+tq5cpbs        ^numactl@2.0.12%gcc 
+v25hso5        ^zlib@1.2.11%gcc 
+
+3xwpbhs    openmpi@3.1.4%gcc 
+fusyoi5        ^hwloc@1.11.11%gcc 
+ahkgt2w            ^libpciaccess@0.13.5%gcc 
+zrurfh6            ^libxml2@2.9.8%gcc 
+tq5cpbs        ^numactl@2.0.12%gcc 
+v25hso5        ^zlib@1.2.11%gcc 
+
+nqtir32    openmpi@4.0.1%gcc 
+fusyoi5        ^hwloc@1.11.11%gcc 
+ahkgt2w            ^libpciaccess@0.13.5%gcc 
+zrurfh6            ^libxml2@2.9.8%gcc 
+tq5cpbs        ^numactl@2.0.12%gcc 
+v25hso5        ^zlib@1.2.11%gcc 
+
+
+-- cray-cnl6-haswell / intel@18.0.5 -----------------------------
+i6wpksq    openmpi@2.1.6%intel 
+q2ysccq        ^hwloc@1.11.11%intel 
+sil2bz2            ^libpciaccess@0.13.5%intel 
+c7h2sun            ^libxml2@2.9.8%intel 
+rrzv6cm        ^numactl@2.0.12%intel 
+
+s72k4cd    openmpi@3.0.3%intel 
+q2ysccq        ^hwloc@1.11.11%intel 
+sil2bz2            ^libpciaccess@0.13.5%intel 
+c7h2sun            ^libxml2@2.9.8%intel 
+rrzv6cm        ^numactl@2.0.12%intel 
+fqgrfuy        ^zlib@1.2.11%intel 
+
+ovqlwia    openmpi@3.0.4%intel 
+q2ysccq        ^hwloc@1.11.11%intel 
+sil2bz2            ^libpciaccess@0.13.5%intel 
+c7h2sun            ^libxml2@2.9.8%intel 
+rrzv6cm        ^numactl@2.0.12%intel 
+fqgrfuy        ^zlib@1.2.11%intel 
+
+wbfoi4w    openmpi@3.1.3%intel 
+q2ysccq        ^hwloc@1.11.11%intel 
+sil2bz2            ^libpciaccess@0.13.5%intel 
+c7h2sun            ^libxml2@2.9.8%intel 
+rrzv6cm        ^numactl@2.0.12%intel 
+fqgrfuy        ^zlib@1.2.11%intel 
+
+ekgrtei    openmpi@3.1.4%intel 
+q2ysccq        ^hwloc@1.11.11%intel 
+sil2bz2            ^libpciaccess@0.13.5%intel 
+c7h2sun            ^libxml2@2.9.8%intel 
+rrzv6cm        ^numactl@2.0.12%intel 
+fqgrfuy        ^zlib@1.2.11%intel 
+
+nxqvnel    openmpi@4.0.1%intel 
+q2ysccq        ^hwloc@1.11.11%intel 
+sil2bz2            ^libpciaccess@0.13.5%intel 
+c7h2sun            ^libxml2@2.9.8%intel 
+rrzv6cm        ^numactl@2.0.12%intel 
+fqgrfuy        ^zlib@1.2.11%intel 
+
+mv  /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/trinitite-standard-batch.out   /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/batch-out/trinitite-standard-openmpi-2019-04-24-batch.out
+cd /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries
+git add -A .
+git commit -m "${USER} ${tpl} ${hpc} ${partition} ${ymd}"
+[master 4c417fd] dantopa openmpi trinitite standard 2019-04-24
+ 7 files changed, 877 insertions(+), 488 deletions(-)
+Wed Apr 24 16:44:26 MDT 2019

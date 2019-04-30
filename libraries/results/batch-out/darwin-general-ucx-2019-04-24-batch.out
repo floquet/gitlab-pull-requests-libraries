@@ -1,0 +1,3118 @@
+Wed Apr 24 16:13:19 MDT 2019 [1m/home/dantopa/.mybash(B[m
+Wed Apr 24 16:13:19 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/platforms.sh(B[m
+attempting to mkdir /scratch/users/dantopa/repos/gitlab/node-queries/darwin/general-cn211/dir-configuration
+directory of core scripts = ${core} = /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts
+Wed Apr 24 16:13:19 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/master.sh(B[m
+Wed Apr 24 16:13:19 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh(B[m
+Wed Apr 24 16:13:20 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh(B[m
+Wed Apr 24 16:13:20 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Wed Apr 24 16:13:20 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/gcc.sh(B[m
+Wed Apr 24 16:13:20 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh(B[m
+Wed Apr 24 16:13:20 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh: line 5: gonode: command not found
+Wed Apr 24 16:13:20 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/git.sh(B[m
+Wed Apr 24 16:13:20 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Wed Apr 24 16:13:20 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/ssh.sh(B[m
+Wed Apr 24 16:13:20 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/vim.sh(B[m
+Wed Apr 24 16:13:20 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bash.sh(B[m
+Wed Apr 24 16:13:20 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/finds.sh(B[m
+Wed Apr 24 16:13:20 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/cmake.sh(B[m
+Wed Apr 24 16:13:20 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/copy-configuration.sh(B[m
+Wed Apr 24 16:13:20 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/fortran.sh(B[m
+Wed Apr 24 16:13:20 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks.sh(B[m
+Wed Apr 24 16:13:20 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-bitbucket.sh(B[m
+Wed Apr 24 16:13:20 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-github.sh(B[m
+Wed Apr 24 16:13:20 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-gitlab.sh(B[m
+Wed Apr 24 16:13:20 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/disk.sh(B[m
+Wed Apr 24 16:13:20 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh: line 33: sinfo_s: command not found
+Wed Apr 24 16:13:20 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh(B[m
+Wed Apr 24 16:13:20 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Wed Apr 24 16:13:20 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh(B[m
+Wed Apr 24 16:13:20 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh(B[m
+Wed Apr 24 16:13:20 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/spack.sh(B[m
+Wed Apr 24 16:13:20 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/uname.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh: line 5: gonode: command not found
+[master b45a416] darwin-general-cn211 Wed Apr 24 16:13:20 MDT 2019
+ 2 files changed, 59 insertions(+), 239 deletions(-)
+ rewrite libraries/tools/bash/darwin-general-batch.out (94%)
+Wed Apr 24 16:13:20 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/modules.sh(B[m
+Wed Apr 24 16:13:20 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Wed Apr 24 16:13:20 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/alias.sh(B[m
+Wed Apr 24 16:13:20 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh: line 11: myprompt: command not found
+[master eab581b] darwin-general-cn211 Wed Apr 24 16:13:20 MDT 2019
+ 1 file changed, 22 insertions(+)
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh: line 33: sinfo_s: command not found
+Wed Apr 24 16:13:26 MDT 2019 /tmp/slurmd/job5196419/slurm_script
+source "${dir_tools}/bash/master-tpl-sweep.sh"
+Wed Apr 24 16:13:26 MDT 2019 /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh
+cd /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools
+source directories/libraries-darwin.sh
+Wed Apr 24 16:13:26 MDT 2019 [1mdirectories/libraries-darwin.sh(B[m
+source tpl-versions/versions-ucx.sh
+Wed Apr 24 16:13:26 MDT 2019 [1mtpl-versions/versions-ucx.sh(B[m
+4 ucx versions loaded:
+1.5.0  1.4.0  1.3.1  1.2.2
+
+source compilers/compilers-darwin-general.sh
+Wed Apr 24 16:13:26 MDT 2019 [1mcompilers/compilers-darwin-general.sh(B[m
+13 Spack-recognized compilers loaded:
+gcc@8.2.0  gcc@7.3.0  gcc@6.4.0  gcc@5.5.0  gcc@4.9.3  gcc@4.8.5 intel@18.0.3  intel@17.0.6  intel@16.0.4  pgi@18.10  pgi@18.7  pgi@17.10  pgi@16.10
+
+source klingons/darwin-general-ucx.sh
+/scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 36: klingons/darwin-general-ucx.sh: No such file or directory
+cd /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx
+. share/spack/setup-env.sh
+export spack_architecture='arch=linux-centos7-x86_64'
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+spack compilers
+==> Available compilers
+-- gcc centos7-x86_64 -------------------------------------------
+gcc@8.2.0
+gcc@8.1.0
+gcc@7.3.0
+gcc@7.2.0
+gcc@6.4.0
+gcc@6.3.0
+gcc@5.5.0
+gcc@5.4.0
+gcc@4.9.3
+gcc@4.9.2
+gcc@4.8.5
+gcc@4.6.4
+
+-- intel centos7-x86_64 -----------------------------------------
+intel@18.0.3
+intel@18.0.2
+intel@17.0.6
+intel@17.0.1
+intel@16.0.4
+intel@16.0.3
+
+-- pgi centos7-x86_64 -------------------------------------------
+pgi@18.10
+pgi@18.7
+pgi@18.4
+pgi@18.3
+pgi@17.10
+pgi@17.4
+pgi@16.10
+ls -alh etc/spack/defaults
+total 154K
+drwxrwxr-x 4 dantopa dantopa   15 Apr 15 09:38 .
+drwxrwxr-x 3 dantopa dantopa    3 Nov 12 20:31 ..
+-rw-rw-r-- 1 dantopa dantopa  11K Apr 15 09:38 compilers.yaml
+-rw-rw-r-- 1 dantopa dantopa 4.4K Apr 15 09:38 config.yaml
+drwxrwxr-x 2 dantopa dantopa    4 Nov 12 20:31 darwin
+-rw-rw-r-- 1 dantopa dantopa  11K Apr 15 09:38 darwin-general-modules-compilers.yaml
+drwxrwxr-x 2 dantopa dantopa    3 Nov 12 20:31 linux
+-rw-rw-r-- 1 dantopa dantopa    3 Apr 15 09:38 lmod-modules.yaml
+-rw-rw-r-- 1 dantopa dantopa 3.9K Apr 15 09:38 minimal-build-packages.yaml
+-rw-rw-r-- 1 dantopa dantopa  136 Apr 15 09:38 mirrors.yaml
+-rw-rw-r-- 1 dantopa dantopa 3.4K Apr 15 09:38 modules.yaml
+-rw-rw-r-- 1 dantopa dantopa 3.9K Apr 15 09:38 packages.yaml
+-rw-rw-r-- 1 dantopa dantopa  530 Apr 15 09:38 release.yaml
+-rw-rw-r-- 1 dantopa dantopa  546 Apr 15 09:38 repos.yaml
+-rw-rw-r-- 1 dantopa dantopa 3.4K Apr 15 09:38 tcl-modules.yaml
+cat etc/spack/defaults/compilers.yaml
+  #   #   #  intel 18.0.3 18.0.2 17.0.6 17.0.1 16.10 16.0.4 16.0.3
+  #   #   #  gcc 8.2.0 8.1.0 7.3.0 7.2.0 6.4.0 6.3.0 5.5.0 5.4.0 4.9.3 4.9.2 4.8.5 4.6.4
+  #   #   #  pgi  18.10 18.7 18.4 18.3 17.10 17.4 16.10
+compilers:
+  #   #   #  gcc 8.2.0 8.1.0 7.3.0 7.2.0 6.4.0 6.3.0 5.5.0 5.4.0 4.9.3 4.9.2 4.8.5 4.6.4
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [gcc/8.2.0]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/8.2.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/8.2.0/bin/g++
+      f77: /projects/opt/centos7/gcc/8.2.0/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/8.2.0/bin/gfortran
+    spec: gcc@8.2.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [gcc/8.1.0]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/8.1.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/8.1.0/bin/g++
+      f77: /projects/opt/centos7/gcc/8.1.0/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/8.1.0/bin/gfortran
+    spec: gcc@8.1.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [gcc/7.3.0]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/7.3.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/7.3.0/bin/g++
+      f77: /projects/opt/centos7/gcc/7.3.0/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/7.3.0/bin/gfortran
+    spec: gcc@7.3.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [gcc/7.2.0]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/7.2.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/7.2.0/bin/g++
+      f77: /projects/opt/centos7/gcc/7.2.0/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/7.2.0/bin/gfortran
+    spec: gcc@7.2.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [gcc/6.4.0]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/6.4.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/6.4.0/bin/g++
+      f77: /projects/opt/centos7/gcc/6.4.0/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/6.4.0/bin/gfortran
+    spec: gcc@6.4.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [gcc/6.3.0]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/6.3.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/6.3.0/bin/g++
+      f77: /projects/opt/centos7/gcc/6.3.0/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/6.3.0/bin/gfortran
+    spec: gcc@6.3.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [gcc/5.5.0]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/5.5.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/5.5.0/bin/g++
+      f77: /projects/opt/centos7/gcc/5.5.0/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/5.5.0/bin/gfortran
+    spec: gcc@5.5.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [gcc/5.4.0]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/5.4.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/5.4.0/bin/g++
+      f77: /projects/opt/centos7/gcc/5.4.0/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/5.4.0/bin/gfortran
+    spec: gcc@5.4.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [gcc/4.9.3]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/4.9.3/bin/gcc
+      cxx: /projects/opt/centos7/gcc/4.9.3/bin/g++
+      f77: /projects/opt/centos7/gcc/4.9.3/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/4.9.3/bin/gfortran
+    spec: gcc@4.9.3
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [gcc/4.9.2]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/4.9.2/bin/gcc
+      cxx: /projects/opt/centos7/gcc/4.9.2/bin/g++
+      f77: /projects/opt/centos7/gcc/4.9.2/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/4.9.2/bin/gfortran
+    spec: gcc@4.9.2
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec: gcc@4.8.5
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [gcc/4.6.4]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/4.6.4/bin/gcc
+      cxx: /projects/opt/centos7/gcc/4.6.4/bin/g++
+      f77: /projects/opt/centos7/gcc/4.6.4/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/4.6.4/bin/gfortran
+    spec: gcc@4.6.4
+    target: x86_64
+  #   #   #  intel 18.0.3 18.0.2 17.0.6 17.0.1 16.10 16.0.4 16.0.3
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [intel/18.0.3]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/intel/compilers_and_libraries_2018.3.222/linux/bin/intel64/icc
+      cxx: /projects/opt/intel/compilers_and_libraries_2018.3.222/linux/bin/intel64/icpc
+      f77: /projects/opt/intel/compilers_and_libraries_2018.3.222/linux/bin/intel64/ifort
+      fc:  /projects/opt/intel/compilers_and_libraries_2018.3.222/linux/bin/intel64/ifort
+    spec: intel@18.0.3
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [intel/18.0.2]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/intel/compilers_and_libraries_2018.2.199/linux/bin/intel64/icc
+      cxx: /projects/opt/intel/compilers_and_libraries_2018.2.199/linux/bin/intel64/icpc
+      f77: /projects/opt/intel/compilers_and_libraries_2018.2.199/linux/bin/intel64/ifort
+      fc:  /projects/opt/intel/compilers_and_libraries_2018.2.199/linux/bin/intel64/ifort
+    spec: intel@18.0.2
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [intel/17.0.6]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/intel/compilers_and_libraries_2017.6.256/linux/bin/intel64/icc
+      cxx: /projects/opt/intel/compilers_and_libraries_2017.6.256/linux/bin/intel64/icpc
+      f77: /projects/opt/intel/compilers_and_libraries_2017.6.256/linux/bin/intel64/ifort
+      fc:  /projects/opt/intel/compilers_and_libraries_2017.6.256/linux/bin/intel64/ifort
+    spec: intel@17.0.6
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [intel/17.0.1]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/intel/compilers_and_libraries_2017.1.132/linux/bin/intel64/icc
+      cxx: /projects/opt/intel/compilers_and_libraries_2017.1.132/linux/bin/intel64/icpc
+      f77: /projects/opt/intel/compilers_and_libraries_2017.1.132/linux/bin/intel64/ifort
+      fc:  /projects/opt/intel/compilers_and_libraries_2017.1.132/linux/bin/intel64/ifort
+    spec: intel@17.0.1
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [intel/16.0.4]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/intel/compilers_and_libraries_2016.4.258/linux/bin/intel64/icc
+      cxx: /projects/opt/intel/compilers_and_libraries_2016.4.258/linux/bin/intel64/icpc
+      f77: /projects/opt/intel/compilers_and_libraries_2016.4.258/linux/bin/intel64/ifort
+      fc:  /projects/opt/intel/compilers_and_libraries_2016.4.258/linux/bin/intel64/ifort
+    spec: intel@16.0.4
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [intel@16.0.3]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/intel/compilers/compilers_and_libraries_2016.3.210/linux/bin/intel64/icc
+      cxx: /projects/opt/intel/compilers/compilers_and_libraries_2016.3.210/linux/bin/intel64/icpc
+      f77: /projects/opt/intel/compilers/compilers_and_libraries_2016.3.210/linux/bin/intel64/ifort
+      fc:  /projects/opt/intel/compilers/compilers_and_libraries_2016.3.210/linux/bin/intel64/ifort
+    spec: intel@16.0.3
+    target: x86_64
+  #   #   #  pgi  18.10 18.7 18.4 18.3 17.10 17.4 16.10
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/pgi/linux86-64/18.10/bin/pgcc
+      cxx: /projects/opt/centos7/pgi/linux86-64/18.10/bin/pgc++
+      f77: /projects/opt/centos7/pgi/linux86-64/18.10/bin/pgfortran
+      fc:  /projects/opt/centos7/pgi/linux86-64/18.10/bin/pgfortran
+    spec: pgi@18.10
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [pgi/18.7]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/pgi/linux86-64/18.7/bin/pgcc
+      cxx: /projects/opt/centos7/pgi/linux86-64/18.7/bin/pgc++
+      f77: /projects/opt/centos7/pgi/linux86-64/18.7/bin/pgfortran
+      fc:  /projects/opt/centos7/pgi/linux86-64/18.7/bin/pgfortran
+    spec: pgi@18.7
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [pgi/18.4]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/pgi/linux86-64/18.4/bin/pgcc
+      cxx: /projects/opt/centos7/pgi/linux86-64/18.4/bin/pgc++
+      f77: /projects/opt/centos7/pgi/linux86-64/18.4/bin/pgfortran
+      fc:  /projects/opt/centos7/pgi/linux86-64/18.4/bin/pgfortran
+    spec: pgi@18.4
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [pgi/18.3]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/pgi/linux86-64/18.3/bin/pgcc
+      cxx: /projects/opt/centos7/pgi/linux86-64/18.3/bin/pgc++
+      f77: /projects/opt/centos7/pgi/linux86-64/18.3/bin/pgfortran
+      fc:  /projects/opt/centos7/pgi/linux86-64/18.3/bin/pgfortran
+    spec: pgi@18.3
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [pgi/17.10]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/pgi/linux86-64/17.10/bin/pgcc
+      cxx: /projects/opt/centos7/pgi/linux86-64/17.10/bin/pgc++
+      f77: /projects/opt/centos7/pgi/linux86-64/17.10/bin/pgfortran
+      fc:  /projects/opt/centos7/pgi/linux86-64/17.10/bin/pgfortran
+    spec: pgi@17.10
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [pgi/17.4]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/pgi/linux86-64/17.4/bin/pgcc
+      cxx: /projects/opt/centos7/pgi/linux86-64/17.4/bin/pgc++
+      f77: /projects/opt/centos7/pgi/linux86-64/17.4/bin/pgfortran
+      fc:  /projects/opt/centos7/pgi/linux86-64/17.4/bin/pgfortran
+    spec: pgi@17.4
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [pgi/16.10]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/pgi/linux86-64/16.10/bin/pgcc
+      cxx: /projects/opt/centos7/pgi/linux86-64/16.10/bin/pgc++
+      f77: /projects/opt/centos7/pgi/linux86-64/16.10/bin/pgfortran
+      fc:  /projects/opt/centos7/pgi/linux86-64/16.10/bin/pgfortran
+    spec: pgi@16.10
+    target: x86_64
+spack config get compilers
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/8.2.0
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/centos7/gcc/8.2.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/8.2.0/bin/g++
+      f77: /projects/opt/centos7/gcc/8.2.0/bin/gfortran
+      fc: /projects/opt/centos7/gcc/8.2.0/bin/gfortran
+    spec: gcc@8.2.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/8.1.0
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/centos7/gcc/8.1.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/8.1.0/bin/g++
+      f77: /projects/opt/centos7/gcc/8.1.0/bin/gfortran
+      fc: /projects/opt/centos7/gcc/8.1.0/bin/gfortran
+    spec: gcc@8.1.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/7.3.0
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/centos7/gcc/7.3.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/7.3.0/bin/g++
+      f77: /projects/opt/centos7/gcc/7.3.0/bin/gfortran
+      fc: /projects/opt/centos7/gcc/7.3.0/bin/gfortran
+    spec: gcc@7.3.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/7.2.0
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/centos7/gcc/7.2.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/7.2.0/bin/g++
+      f77: /projects/opt/centos7/gcc/7.2.0/bin/gfortran
+      fc: /projects/opt/centos7/gcc/7.2.0/bin/gfortran
+    spec: gcc@7.2.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/6.4.0
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/centos7/gcc/6.4.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/6.4.0/bin/g++
+      f77: /projects/opt/centos7/gcc/6.4.0/bin/gfortran
+      fc: /projects/opt/centos7/gcc/6.4.0/bin/gfortran
+    spec: gcc@6.4.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/6.3.0
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/centos7/gcc/6.3.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/6.3.0/bin/g++
+      f77: /projects/opt/centos7/gcc/6.3.0/bin/gfortran
+      fc: /projects/opt/centos7/gcc/6.3.0/bin/gfortran
+    spec: gcc@6.3.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/5.5.0
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/centos7/gcc/5.5.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/5.5.0/bin/g++
+      f77: /projects/opt/centos7/gcc/5.5.0/bin/gfortran
+      fc: /projects/opt/centos7/gcc/5.5.0/bin/gfortran
+    spec: gcc@5.5.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/5.4.0
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/centos7/gcc/5.4.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/5.4.0/bin/g++
+      f77: /projects/opt/centos7/gcc/5.4.0/bin/gfortran
+      fc: /projects/opt/centos7/gcc/5.4.0/bin/gfortran
+    spec: gcc@5.4.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/4.9.3
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/centos7/gcc/4.9.3/bin/gcc
+      cxx: /projects/opt/centos7/gcc/4.9.3/bin/g++
+      f77: /projects/opt/centos7/gcc/4.9.3/bin/gfortran
+      fc: /projects/opt/centos7/gcc/4.9.3/bin/gfortran
+    spec: gcc@4.9.3
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/4.9.2
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/centos7/gcc/4.9.2/bin/gcc
+      cxx: /projects/opt/centos7/gcc/4.9.2/bin/g++
+      f77: /projects/opt/centos7/gcc/4.9.2/bin/gfortran
+      fc: /projects/opt/centos7/gcc/4.9.2/bin/gfortran
+    spec: gcc@4.9.2
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc: /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc: /usr/bin/gfortran
+    spec: gcc@4.8.5
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/4.6.4
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/centos7/gcc/4.6.4/bin/gcc
+      cxx: /projects/opt/centos7/gcc/4.6.4/bin/g++
+      f77: /projects/opt/centos7/gcc/4.6.4/bin/gfortran
+      fc: /projects/opt/centos7/gcc/4.6.4/bin/gfortran
+    spec: gcc@4.6.4
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - intel/18.0.3
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/intel/compilers_and_libraries_2018.3.222/linux/bin/intel64/icc
+      cxx: /projects/opt/intel/compilers_and_libraries_2018.3.222/linux/bin/intel64/icpc
+      f77: /projects/opt/intel/compilers_and_libraries_2018.3.222/linux/bin/intel64/ifort
+      fc: /projects/opt/intel/compilers_and_libraries_2018.3.222/linux/bin/intel64/ifort
+    spec: intel@18.0.3
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - intel/18.0.2
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/intel/compilers_and_libraries_2018.2.199/linux/bin/intel64/icc
+      cxx: /projects/opt/intel/compilers_and_libraries_2018.2.199/linux/bin/intel64/icpc
+      f77: /projects/opt/intel/compilers_and_libraries_2018.2.199/linux/bin/intel64/ifort
+      fc: /projects/opt/intel/compilers_and_libraries_2018.2.199/linux/bin/intel64/ifort
+    spec: intel@18.0.2
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - intel/17.0.6
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/intel/compilers_and_libraries_2017.6.256/linux/bin/intel64/icc
+      cxx: /projects/opt/intel/compilers_and_libraries_2017.6.256/linux/bin/intel64/icpc
+      f77: /projects/opt/intel/compilers_and_libraries_2017.6.256/linux/bin/intel64/ifort
+      fc: /projects/opt/intel/compilers_and_libraries_2017.6.256/linux/bin/intel64/ifort
+    spec: intel@17.0.6
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - intel/17.0.1
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/intel/compilers_and_libraries_2017.1.132/linux/bin/intel64/icc
+      cxx: /projects/opt/intel/compilers_and_libraries_2017.1.132/linux/bin/intel64/icpc
+      f77: /projects/opt/intel/compilers_and_libraries_2017.1.132/linux/bin/intel64/ifort
+      fc: /projects/opt/intel/compilers_and_libraries_2017.1.132/linux/bin/intel64/ifort
+    spec: intel@17.0.1
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - intel/16.0.4
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/intel/compilers_and_libraries_2016.4.258/linux/bin/intel64/icc
+      cxx: /projects/opt/intel/compilers_and_libraries_2016.4.258/linux/bin/intel64/icpc
+      f77: /projects/opt/intel/compilers_and_libraries_2016.4.258/linux/bin/intel64/ifort
+      fc: /projects/opt/intel/compilers_and_libraries_2016.4.258/linux/bin/intel64/ifort
+    spec: intel@16.0.4
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - intel@16.0.3
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/intel/compilers/compilers_and_libraries_2016.3.210/linux/bin/intel64/icc
+      cxx: /projects/opt/intel/compilers/compilers_and_libraries_2016.3.210/linux/bin/intel64/icpc
+      f77: /projects/opt/intel/compilers/compilers_and_libraries_2016.3.210/linux/bin/intel64/ifort
+      fc: /projects/opt/intel/compilers/compilers_and_libraries_2016.3.210/linux/bin/intel64/ifort
+    spec: intel@16.0.3
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/centos7/pgi/linux86-64/18.10/bin/pgcc
+      cxx: /projects/opt/centos7/pgi/linux86-64/18.10/bin/pgc++
+      f77: /projects/opt/centos7/pgi/linux86-64/18.10/bin/pgfortran
+      fc: /projects/opt/centos7/pgi/linux86-64/18.10/bin/pgfortran
+    spec: pgi@18.10
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/18.7
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/centos7/pgi/linux86-64/18.7/bin/pgcc
+      cxx: /projects/opt/centos7/pgi/linux86-64/18.7/bin/pgc++
+      f77: /projects/opt/centos7/pgi/linux86-64/18.7/bin/pgfortran
+      fc: /projects/opt/centos7/pgi/linux86-64/18.7/bin/pgfortran
+    spec: pgi@18.7
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/18.4
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/centos7/pgi/linux86-64/18.4/bin/pgcc
+      cxx: /projects/opt/centos7/pgi/linux86-64/18.4/bin/pgc++
+      f77: /projects/opt/centos7/pgi/linux86-64/18.4/bin/pgfortran
+      fc: /projects/opt/centos7/pgi/linux86-64/18.4/bin/pgfortran
+    spec: pgi@18.4
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/18.3
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/centos7/pgi/linux86-64/18.3/bin/pgcc
+      cxx: /projects/opt/centos7/pgi/linux86-64/18.3/bin/pgc++
+      f77: /projects/opt/centos7/pgi/linux86-64/18.3/bin/pgfortran
+      fc: /projects/opt/centos7/pgi/linux86-64/18.3/bin/pgfortran
+    spec: pgi@18.3
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/17.10
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/centos7/pgi/linux86-64/17.10/bin/pgcc
+      cxx: /projects/opt/centos7/pgi/linux86-64/17.10/bin/pgc++
+      f77: /projects/opt/centos7/pgi/linux86-64/17.10/bin/pgfortran
+      fc: /projects/opt/centos7/pgi/linux86-64/17.10/bin/pgfortran
+    spec: pgi@17.10
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/17.4
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/centos7/pgi/linux86-64/17.4/bin/pgcc
+      cxx: /projects/opt/centos7/pgi/linux86-64/17.4/bin/pgc++
+      f77: /projects/opt/centos7/pgi/linux86-64/17.4/bin/pgfortran
+      fc: /projects/opt/centos7/pgi/linux86-64/17.4/bin/pgfortran
+    spec: pgi@17.4
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/16.10
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/centos7/pgi/linux86-64/16.10/bin/pgcc
+      cxx: /projects/opt/centos7/pgi/linux86-64/16.10/bin/pgc++
+      f77: /projects/opt/centos7/pgi/linux86-64/16.10/bin/pgfortran
+      fc: /projects/opt/centos7/pgi/linux86-64/16.10/bin/pgfortran
+    spec: pgi@16.10
+    target: x86_64
+spack install ucx @ 1.5.0 % gcc@8.2.0  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+spack install ucx @ 1.5.0 % gcc@7.3.0  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+spack install ucx @ 1.5.0 % gcc@6.4.0  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+spack install ucx @ 1.5.0 % gcc@5.5.0  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+spack install ucx @ 1.5.0 % gcc@4.9.3  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+spack install ucx @ 1.5.0 % gcc@4.8.5  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+spack install ucx @ 1.5.0 % intel@18.0.3  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+==> Error: Conflicts in concretized spec "ucx@1.5.0%intel@18.0.3 arch=linux-centos7-x86_64/jpa2dvv"
+List of matching conflicts for spec:
+
+    rdma-core@20%intel@18.0.3 build_type=RelWithDebInfo arch=linux-centos7-x86_64
+        ^cmake@3.14.2%intel@18.0.3~doc+ncurses+openssl~ownlibs~qt arch=linux-centos7-x86_64
+            ^bzip2@1.0.6%intel@18.0.3+shared arch=linux-centos7-x86_64
+            ^curl@7.63.0%intel@18.0.3~darwinssl~libssh~libssh2~nghttp2 arch=linux-centos7-x86_64
+            ^expat@2.2.5%intel@18.0.3+libbsd arch=linux-centos7-x86_64
+                ^libbsd@0.9.1%intel@18.0.3 arch=linux-centos7-x86_64
+            ^libarchive@3.3.2%intel@18.0.3 arch=linux-centos7-x86_64
+                ^libxml2@2.9.8%intel@18.0.3~python arch=linux-centos7-x86_64
+                ^lz4@1.9.0%intel@18.0.3 arch=linux-centos7-x86_64
+                ^lzo@2.10%intel@18.0.3 arch=linux-centos7-x86_64
+                ^nettle@3.4%intel@18.0.3 arch=linux-centos7-x86_64
+                    ^gmp@6.1.2%intel@18.0.3 arch=linux-centos7-x86_64
+                        ^autoconf@2.69%intel@18.0.3 arch=linux-centos7-x86_64
+                        ^automake@1.16.1%intel@18.0.3 arch=linux-centos7-x86_64
+                        ^libtool@2.4.6%intel@18.0.3 arch=linux-centos7-x86_64
+                        ^m4@1.4.18%intel@18.0.3 patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,c0a408fbffb7255fcc75e26bd8edab116fc81d216bfd18b473668b7739a4158e,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 +sigsegv arch=linux-centos7-x86_64
+                ^openssl@1.1.1b%intel@18.0.3+systemcerts arch=linux-centos7-x86_64
+                ^xz@5.2.4%intel@18.0.3 arch=linux-centos7-x86_64
+                ^zlib@1.2.11%intel@18.0.3+optimize+pic+shared arch=linux-centos7-x86_64
+            ^libuv@1.25.0%intel@18.0.3 arch=linux-centos7-x86_64
+            ^ncurses@6.1%intel@18.0.3~symlinks~termlib arch=linux-centos7-x86_64
+            ^rhash@1.3.5%intel@18.0.3 arch=linux-centos7-x86_64
+        ^libnl@3.3.0%intel@18.0.3 arch=linux-centos7-x86_64
+            ^bison@3.0.5%intel@18.0.3 arch=linux-centos7-x86_64
+            ^flex@2.6.4%intel@18.0.3+lex patches=09c22e5c6fef327d3e48eb23f0d610dcd3a35ab9207f12e0f875701c677978d3 arch=linux-centos7-x86_64
+        ^pkg-config@0.29.2%intel@18.0.3+internal_glib arch=linux-centos7-x86_64
+
+1. "%intel" conflicts with "rdma-core" [rdma-core cannot be built with intel (use gcc instead)]
+
+spack install ucx @ 1.5.0 % intel@17.0.6  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+==> Error: Conflicts in concretized spec "ucx@1.5.0%intel@17.0.6 arch=linux-centos7-x86_64/dykjwmu"
+List of matching conflicts for spec:
+
+    rdma-core@20%intel@17.0.6 build_type=RelWithDebInfo arch=linux-centos7-x86_64
+        ^cmake@3.14.2%intel@17.0.6~doc+ncurses+openssl~ownlibs~qt arch=linux-centos7-x86_64
+            ^bzip2@1.0.6%intel@17.0.6+shared arch=linux-centos7-x86_64
+            ^curl@7.63.0%intel@17.0.6~darwinssl~libssh~libssh2~nghttp2 arch=linux-centos7-x86_64
+            ^expat@2.2.5%intel@17.0.6+libbsd arch=linux-centos7-x86_64
+                ^libbsd@0.9.1%intel@17.0.6 arch=linux-centos7-x86_64
+            ^libarchive@3.3.2%intel@17.0.6 arch=linux-centos7-x86_64
+                ^libxml2@2.9.8%intel@17.0.6~python arch=linux-centos7-x86_64
+                ^lz4@1.9.0%intel@17.0.6 arch=linux-centos7-x86_64
+                ^lzo@2.10%intel@17.0.6 arch=linux-centos7-x86_64
+                ^nettle@3.4%intel@17.0.6 arch=linux-centos7-x86_64
+                    ^gmp@6.1.2%intel@17.0.6 arch=linux-centos7-x86_64
+                        ^autoconf@2.69%intel@17.0.6 arch=linux-centos7-x86_64
+                        ^automake@1.16.1%intel@17.0.6 arch=linux-centos7-x86_64
+                        ^libtool@2.4.6%intel@17.0.6 arch=linux-centos7-x86_64
+                        ^m4@1.4.18%intel@17.0.6 patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,c0a408fbffb7255fcc75e26bd8edab116fc81d216bfd18b473668b7739a4158e,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 +sigsegv arch=linux-centos7-x86_64
+                ^openssl@1.1.1b%intel@17.0.6+systemcerts arch=linux-centos7-x86_64
+                ^xz@5.2.4%intel@17.0.6 arch=linux-centos7-x86_64
+                ^zlib@1.2.11%intel@17.0.6+optimize+pic+shared arch=linux-centos7-x86_64
+            ^libuv@1.25.0%intel@17.0.6 arch=linux-centos7-x86_64
+            ^ncurses@6.1%intel@17.0.6~symlinks~termlib arch=linux-centos7-x86_64
+            ^rhash@1.3.5%intel@17.0.6 arch=linux-centos7-x86_64
+        ^libnl@3.3.0%intel@17.0.6 arch=linux-centos7-x86_64
+            ^bison@3.0.5%intel@17.0.6 arch=linux-centos7-x86_64
+            ^flex@2.6.4%intel@17.0.6+lex patches=09c22e5c6fef327d3e48eb23f0d610dcd3a35ab9207f12e0f875701c677978d3 arch=linux-centos7-x86_64
+        ^pkg-config@0.29.2%intel@17.0.6+internal_glib arch=linux-centos7-x86_64
+
+1. "%intel" conflicts with "rdma-core" [rdma-core cannot be built with intel (use gcc instead)]
+
+spack install ucx @ 1.5.0 % intel@16.0.4  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+==> Error: Conflicts in concretized spec "ucx@1.5.0%intel@16.0.4 arch=linux-centos7-x86_64/6eqkbjz"
+List of matching conflicts for spec:
+
+    rdma-core@20%intel@16.0.4 build_type=RelWithDebInfo arch=linux-centos7-x86_64
+        ^cmake@3.14.2%intel@16.0.4~doc+ncurses+openssl~ownlibs~qt arch=linux-centos7-x86_64
+            ^bzip2@1.0.6%intel@16.0.4+shared arch=linux-centos7-x86_64
+            ^curl@7.63.0%intel@16.0.4~darwinssl~libssh~libssh2~nghttp2 arch=linux-centos7-x86_64
+            ^expat@2.2.5%intel@16.0.4+libbsd arch=linux-centos7-x86_64
+                ^libbsd@0.9.1%intel@16.0.4 arch=linux-centos7-x86_64
+            ^libarchive@3.3.2%intel@16.0.4 arch=linux-centos7-x86_64
+                ^libxml2@2.9.8%intel@16.0.4~python arch=linux-centos7-x86_64
+                ^lz4@1.9.0%intel@16.0.4 arch=linux-centos7-x86_64
+                ^lzo@2.10%intel@16.0.4 arch=linux-centos7-x86_64
+                ^nettle@3.4%intel@16.0.4 arch=linux-centos7-x86_64
+                    ^gmp@6.1.2%intel@16.0.4 arch=linux-centos7-x86_64
+                        ^autoconf@2.69%intel@16.0.4 arch=linux-centos7-x86_64
+                        ^automake@1.16.1%intel@16.0.4 arch=linux-centos7-x86_64
+                        ^libtool@2.4.6%intel@16.0.4 arch=linux-centos7-x86_64
+                        ^m4@1.4.18%intel@16.0.4 patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,c0a408fbffb7255fcc75e26bd8edab116fc81d216bfd18b473668b7739a4158e,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 +sigsegv arch=linux-centos7-x86_64
+                ^openssl@1.1.1b%intel@16.0.4+systemcerts arch=linux-centos7-x86_64
+                ^xz@5.2.4%intel@16.0.4 arch=linux-centos7-x86_64
+                ^zlib@1.2.11%intel@16.0.4+optimize+pic+shared arch=linux-centos7-x86_64
+            ^libuv@1.25.0%intel@16.0.4 arch=linux-centos7-x86_64
+            ^ncurses@6.1%intel@16.0.4~symlinks~termlib arch=linux-centos7-x86_64
+            ^rhash@1.3.5%intel@16.0.4 arch=linux-centos7-x86_64
+        ^libnl@3.3.0%intel@16.0.4 arch=linux-centos7-x86_64
+            ^bison@3.0.5%intel@16.0.4 arch=linux-centos7-x86_64
+            ^flex@2.6.4%intel@16.0.4+lex patches=09c22e5c6fef327d3e48eb23f0d610dcd3a35ab9207f12e0f875701c677978d3 arch=linux-centos7-x86_64
+        ^pkg-config@0.29.2%intel@16.0.4+internal_glib arch=linux-centos7-x86_64
+
+1. "%intel" conflicts with "rdma-core" [rdma-core cannot be built with intel (use gcc instead)]
+
+spack install ucx @ 1.5.0 % pgi@18.10  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j32'
+
+34 errors found in build log:
+     199    pgcc-Error-Unknown switch: -isystem
+     200    pgcc-Error-Unknown switch: -include
+     201    pgcc-Error-Unknown switch: -isystem
+     202    pgcc-Error-Unknown switch: -include
+     203    pgcc-Error-Unknown switch: -isystem
+     204    pgcc-Error-Unknown switch: -include
+  >> 205    make[2]: *** [flopen.lo] Error 1
+     206    make[2]: *** Waiting for unfinished jobs....
+  >> 207    make[2]: *** [arc4random.lo] Error 1
+     208    pgcc-Error-Unknown switch: -isystem
+     209    pgcc-Error-Unknown switch: -include
+  >> 210    make[2]: *** [arc4random_uniform.lo] Error 1
+  >> 211    make[2]: *** [fpurge.lo] Error 1
+  >> 212    make[2]: *** [fgetln.lo] Error 1
+     213    pgcc-Error-Unknown switch: -isystem
+     214    pgcc-Error-Unknown switch: -include
+  >> 215    make[2]: *** [expand_number.lo] Error 1
+     216    pgcc-Error-Unknown switch: -isystem
+     217    pgcc-Error-Unknown switch: -include
+  >> 218    make[2]: *** [funopen.lo] Error 1
+  >> 219    make[2]: *** [heapsort.lo] Error 1
+     220    pgcc-Error-Unknown switch: -isystem
+     221    pgcc-Error-Unknown switch: -include
+     222    pgcc-Error-Unknown switch: -isystem
+     223    pgcc-Error-Unknown switch: -include
+  >> 224    make[2]: *** [closefrom.lo] Error 1
+  >> 225    make[2]: *** [fmtcheck.lo] Error 1
+     226    pgcc-Error-Unknown switch: -isystem
+     227    pgcc-Error-Unknown switch: -include
+  >> 228    make[2]: *** [fparseln.lo] Error 1
+  >> 229    make[2]: *** [explicit_bzero.lo] Error 1
+  >> 230    make[2]: *** [err.lo] Error 1
+     231    pgcc-Error-Unknown switch: -isystem
+     232    pgcc-Error-Unknown switch: -include
+     233    pgcc-Error-Unknown switch: -isystem
+  >> 234    make[2]: *** [fgetwln.lo] Error 1
+     235    pgcc-Error-Unknown switch: -include
+  >> 236    make[2]: *** [inet_net_pton.lo] Error 1
+     237    pgcc-Error-Unknown switch: -isystem
+     238    pgcc-Error-Unknown switch: -include
+  >> 239    make[2]: *** [humanize_number.lo] Error 1
+     240    pgcc-Error-Unknown switch: -isystem
+     241    pgcc-Error-Unknown switch: -include
+  >> 242    make[2]: *** [dehumanize_number.lo] Error 1
+  >> 243    make[2]: *** [getpeereid.lo] Error 1
+     244    pgcc-Error-Unknown switch: -isystem
+     245    pgcc-Error-Unknown switch: -include
+  >> 246    make[2]: *** [reallocarray.lo] Error 1
+     247    pgcc-Error-Unknown switch: -isystem
+     248    pgcc-Error-Unknown switch: -include
+     249    pgcc-Error-Unknown switch: -isystem
+     250    pgcc-Error-Unknown switch: -include
+     251    pgcc-Error-Unknown switch: -isystem
+     252    pgcc-Error-Unknown switch: -include
+  >> 253    make[2]: *** [nlist.lo] Error 1
+  >> 254    make[2]: *** [merge.lo] Error 1
+  >> 255    make[2]: *** [getbsize.lo] Error 1
+     256    pgcc-Error-Unknown switch: -isystem
+     257    pgcc-Error-Unknown switch: -include
+  >> 258    make[2]: *** [bsd_getopt.lo] Error 1
+  >> 259    make[2]: *** [reallocf.lo] Error 1
+     260    pgcc-Error-Unknown switch: -isystem
+     261    pgcc-Error-Unknown switch: -include
+     262    pgcc-Error-Unknown switch: -isystem
+     263    pgcc-Error-Unknown switch: -include
+     264    pgcc-Error-Unknown switch: -isystem
+     265    pgcc-Error-Unknown switch: -include
+  >> 266    make[2]: *** [readpassphrase.lo] Error 1
+  >> 267    make[2]: *** [radixsort.lo] Error 1
+     268    pgcc-Error-Unknown switch: -isystem
+     269    pgcc-Error-Unknown switch: -include
+  >> 270    make[2]: *** [strlcpy.lo] Error 1
+     271    pgcc-Error-Unknown switch: -isystem
+     272    pgcc-Error-Unknown switch: -include
+  >> 273    make[2]: *** [pidfile.lo] Error 1
+  >> 274    make[2]: *** [progname.lo] Error 1
+     275    pgcc-Error-Unknown switch: -isystem
+     276    pgcc-Error-Unknown switch: -include
+     277    pgcc-Error-Unknown switch: -isystem
+     278    pgcc-Error-Unknown switch: -include
+  >> 279    make[2]: *** [setmode.lo] Error 1
+     280    pgcc-Error-Unknown switch: -isystem
+     281    pgcc-Error-Unknown switch: -include
+  >> 282    make[2]: *** [setproctitle.lo] Error 1
+  >> 283    make[2]: *** [strlcat.lo] Error 1
+     284    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-8kqsNo/libbsd-0.9.1/src'
+  >> 285    make[1]: *** [all-recursive] Error 1
+     286    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-8kqsNo/libbsd-0.9.1'
+  >> 287    make: *** [all] Error 2
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-evnzswkuiy7q4nkpgnuqjgarpnwakstf/spack-build.out
+spack install ucx @ 1.5.0 % pgi@18.7  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j32'
+
+34 errors found in build log:
+     197    pgcc-Error-Unknown switch: -isystem
+     198    pgcc-Error-Unknown switch: -include
+     199    pgcc-Error-Unknown switch: -isystem
+     200    pgcc-Error-Unknown switch: -include
+     201    pgcc-Error-Unknown switch: -isystem
+     202    pgcc-Error-Unknown switch: -include
+  >> 203    make[2]: *** [arc4random_uniform.lo] Error 1
+     204    make[2]: *** Waiting for unfinished jobs....
+  >> 205    make[2]: *** [explicit_bzero.lo] Error 1
+  >> 206    make[2]: *** [flopen.lo] Error 1
+     207    pgcc-Error-Unknown switch: -isystem
+     208    pgcc-Error-Unknown switch: -include
+  >> 209    make[2]: *** [funopen.lo] Error 1
+     210    pgcc-Error-Unknown switch: -isystem
+     211    pgcc-Error-Unknown switch: -include
+  >> 212    make[2]: *** [fmtcheck.lo] Error 1
+  >> 213    make[2]: *** [fparseln.lo] Error 1
+  >> 214    make[2]: *** [dehumanize_number.lo] Error 1
+     215    pgcc-Error-Unknown switch: -isystem
+     216    pgcc-Error-Unknown switch: -include
+  >> 217    make[2]: *** [arc4random.lo] Error 1
+     218    pgcc-Error-Unknown switch: -isystem
+     219    pgcc-Error-Unknown switch: -include
+  >> 220    make[2]: *** [closefrom.lo] Error 1
+  >> 221    make[2]: *** [err.lo] Error 1
+     222    pgcc-Error-Unknown switch: -isystem
+     223    pgcc-Error-Unknown switch: -include
+     224    pgcc-Error-Unknown switch: -isystem
+     225    pgcc-Error-Unknown switch: -include
+     226    pgcc-Error-Unknown switch: -isystem
+  >> 227    make[2]: *** [reallocarray.lo] Error 1
+     228    pgcc-Error-Unknown switch: -include
+  >> 229    make[2]: *** [fgetln.lo] Error 1
+  >> 230    make[2]: *** [radixsort.lo] Error 1
+  >> 231    make[2]: *** [expand_number.lo] Error 1
+     232    pgcc-Error-Unknown switch: -isystem
+     233    pgcc-Error-Unknown switch: -include
+     234    pgcc-Error-Unknown switch: -isystem
+     235    pgcc-Error-Unknown switch: -include
+  >> 236    make[2]: *** [humanize_number.lo] Error 1
+     237    pgcc-Error-Unknown switch: -isystem
+     238    pgcc-Error-Unknown switch: -include
+     239    pgcc-Error-Unknown switch: -isystem
+     240    pgcc-Error-Unknown switch: -include
+     241    pgcc-Error-Unknown switch: -isystem
+     242    pgcc-Error-Unknown switch: -include
+  >> 243    make[2]: *** [heapsort.lo] Error 1
+     244    pgcc-Error-Unknown switch: -isystem
+     245    pgcc-Error-Unknown switch: -include
+     246    pgcc-Error-Unknown switch: -isystem
+     247    pgcc-Error-Unknown switch: -include
+     248    pgcc-Error-Unknown switch: -isystem
+     249    pgcc-Error-Unknown switch: -include
+  >> 250    make[2]: *** [fgetwln.lo] Error 1
+  >> 251    make[2]: *** [bsd_getopt.lo] Error 1
+  >> 252    make[2]: *** [nlist.lo] Error 1
+  >> 253    make[2]: *** [getbsize.lo] Error 1
+  >> 254    make[2]: *** [strlcat.lo] Error 1
+  >> 255    make[2]: *** [getpeereid.lo] Error 1
+     256    pgcc-Error-Unknown switch: -isystem
+     257    pgcc-Error-Unknown switch: -include
+     258    pgcc-Error-Unknown switch: -isystem
+     259    pgcc-Error-Unknown switch: -include
+  >> 260    make[2]: *** [fpurge.lo] Error 1
+     261    pgcc-Error-Unknown switch: -isystem
+     262    pgcc-Error-Unknown switch: -include
+     263    pgcc-Error-Unknown switch: -isystem
+     264    pgcc-Error-Unknown switch: -include
+     265    pgcc-Error-Unknown switch: -isystem
+     266    pgcc-Error-Unknown switch: -include
+  >> 267    make[2]: *** [pidfile.lo] Error 1
+  >> 268    make[2]: *** [merge.lo] Error 1
+  >> 269    make[2]: *** [setmode.lo] Error 1
+  >> 270    make[2]: *** [strlcpy.lo] Error 1
+  >> 271    make[2]: *** [inet_net_pton.lo] Error 1
+     272    pgcc-Error-Unknown switch: -isystem
+     273    pgcc-Error-Unknown switch: -include
+     274    pgcc-Error-Unknown switch: -isystem
+     275    pgcc-Error-Unknown switch: -include
+     276    pgcc-Error-Unknown switch: -isystem
+     277    pgcc-Error-Unknown switch: -include
+     278    pgcc-Error-Unknown switch: -isystem
+     279    pgcc-Error-Unknown switch: -include
+  >> 280    make[2]: *** [setproctitle.lo] Error 1
+  >> 281    make[2]: *** [reallocf.lo] Error 1
+  >> 282    make[2]: *** [progname.lo] Error 1
+  >> 283    make[2]: *** [readpassphrase.lo] Error 1
+     284    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-oJAe4B/libbsd-0.9.1/src'
+  >> 285    make[1]: *** [all-recursive] Error 1
+     286    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-oJAe4B/libbsd-0.9.1'
+  >> 287    make: *** [all] Error 2
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-rsvjgnicvty7u2wsnnqc5iote2xjzuct/spack-build.out
+spack install ucx @ 1.5.0 % pgi@17.10  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j32'
+
+34 errors found in build log:
+     187    pgcc-Error-Unknown switch: -isystem
+     188    pgcc-Error-Unknown switch: -include
+     189    pgcc-Error-Unknown switch: -isystem
+     190    pgcc-Error-Unknown switch: -include
+     191    pgcc-Error-Unknown switch: -isystem
+     192    pgcc-Error-Unknown switch: -include
+  >> 193    make[2]: *** [expand_number.lo] Error 1
+     194    make[2]: *** Waiting for unfinished jobs....
+  >> 195    make[2]: *** [fpurge.lo] Error 1
+     196    pgcc-Error-Unknown switch: -isystem
+     197    pgcc-Error-Unknown switch: -include
+  >> 198    make[2]: *** [fgetln.lo] Error 1
+     199    pgcc-Error-Unknown switch: -isystem
+     200    pgcc-Error-Unknown switch: -include
+     201    pgcc-Error-Unknown switch: -isystem
+     202    pgcc-Error-Unknown switch: -include
+     203    pgcc-Error-Unknown switch: -isystem
+     204    pgcc-Error-Unknown switch: -isystem
+
+     ...
+
+     211    pgcc-Error-Unknown switch: -isystem
+     212    pgcc-Error-Unknown switch: -include
+     213    pgcc-Error-Unknown switch: -isystem
+     214    pgcc-Error-Unknown switch: -include
+     215    pgcc-Error-Unknown switch: -isystem
+     216    pgcc-Error-Unknown switch: -include
+  >> 217    make[2]: *** [fgetwln.lo] Error 1
+     218    pgcc-Error-Unknown switch: -isystem
+     219    pgcc-Error-Unknown switch: -include
+  >> 220    make[2]: *** [arc4random.lo] Error 1
+  >> 221    make[2]: *** [explicit_bzero.lo] Error 1
+     222    pgcc-Error-Unknown switch: -isystem
+     223    pgcc-Error-Unknown switch: -include
+     224    pgcc-Error-Unknown switch: -isystem
+     225    pgcc-Error-Unknown switch: -include
+  >> 226    make[2]: *** [bsd_getopt.lo] Error 1
+  >> 227    make[2]: *** [funopen.lo] Error 1
+  >> 228    make[2]: *** [fmtcheck.lo] Error 1
+  >> 229    make[2]: *** [closefrom.lo] Error 1
+     230    pgcc-Error-Unknown switch: -isystem
+     231    pgcc-Error-Unknown switch: -include
+     232    pgcc-Error-Unknown switch: -isystem
+     233    pgcc-Error-Unknown switch: -include
+  >> 234    make[2]: *** [arc4random_uniform.lo] Error 1
+  >> 235    make[2]: *** [err.lo] Error 1
+  >> 236    make[2]: *** [fparseln.lo] Error 1
+  >> 237    make[2]: *** [heapsort.lo] Error 1
+  >> 238    make[2]: *** [dehumanize_number.lo] Error 1
+     239    pgcc-Error-Unknown switch: -isystem
+     240    pgcc-Error-Unknown switch: -include
+  >> 241    make[2]: *** [inet_net_pton.lo] Error 1
+  >> 242    make[2]: *** [readpassphrase.lo] Error 1
+  >> 243    make[2]: *** [reallocarray.lo] Error 1
+     244    pgcc-Error-Unknown switch: -isystem
+     245    pgcc-Error-Unknown switch: -include
+     246    pgcc-Error-Unknown switch: -isystem
+     247    pgcc-Error-Unknown switch: -include
+  >> 248    make[2]: *** [getpeereid.lo] Error 1
+     249    pgcc-Error-Unknown switch: -isystem
+     250    pgcc-Error-Unknown switch: -include
+     251    pgcc-Error-Unknown switch: -isystem
+     252    pgcc-Error-Unknown switch: -include
+  >> 253    make[2]: *** [humanize_number.lo] Error 1
+     254    pgcc-Error-Unknown switch: -isystem
+     255    pgcc-Error-Unknown switch: -include
+  >> 256    make[2]: *** [setproctitle.lo] Error 1
+  >> 257    make[2]: *** [getbsize.lo] Error 1
+     258    pgcc-Error-Unknown switch: -isystem
+     259    pgcc-Error-Unknown switch: -include
+  >> 260    make[2]: *** [reallocf.lo] Error 1
+     261    pgcc-Error-Unknown switch: -isystem
+     262    pgcc-Error-Unknown switch: -include
+     263    pgcc-Error-Unknown switch: -isystem
+     264    pgcc-Error-Unknown switch: -include
+  >> 265    make[2]: *** [nlist.lo] Error 1
+     266    pgcc-Error-Unknown switch: -isystem
+     267    pgcc-Error-Unknown switch: -include
+     268    pgcc-Error-Unknown switch: -isystem
+     269    pgcc-Error-Unknown switch: -include
+  >> 270    make[2]: *** [progname.lo] Error 1
+  >> 271    make[2]: *** [flopen.lo] Error 1
+  >> 272    make[2]: *** [merge.lo] Error 1
+     273    pgcc-Error-Unknown switch: -isystem
+     274    pgcc-Error-Unknown switch: -include
+  >> 275    make[2]: *** [radixsort.lo] Error 1
+  >> 276    make[2]: *** [pidfile.lo] Error 1
+     277    pgcc-Error-Unknown switch: -isystem
+     278    pgcc-Error-Unknown switch: -include
+  >> 279    make[2]: *** [setmode.lo] Error 1
+     280    pgcc-Error-Unknown switch: -isystem
+     281    pgcc-Error-Unknown switch: -include
+  >> 282    make[2]: *** [strlcpy.lo] Error 1
+  >> 283    make[2]: *** [strlcat.lo] Error 1
+     284    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-t1w1Eo/libbsd-0.9.1/src'
+  >> 285    make[1]: *** [all-recursive] Error 1
+     286    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-t1w1Eo/libbsd-0.9.1'
+  >> 287    make: *** [all] Error 2
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-pdjj5winih4tigxhnjcw4iszboh2wuik/spack-build.out
+spack install ucx @ 1.5.0 % pgi@16.10  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j32'
+
+33 errors found in build log:
+     185      CC       strlcat.lo
+     186      CC       strlcpy.lo
+     187    pgcc-Error-Unknown switch: -isystem
+     188    pgcc-Error-Unknown switch: -include
+     189    pgcc-Error-Unknown switch: -isystem
+     190    pgcc-Error-Unknown switch: -include
+  >> 191    make[2]: *** [explicit_bzero.lo] Error 1
+     192    make[2]: *** Waiting for unfinished jobs....
+     193    pgcc-Error-Unknown switch: -isystem
+     194    pgcc-Error-Unknown switch: -include
+  >> 195    make[2]: *** [expand_number.lo] Error 1
+     196    pgcc-Error-Unknown switch: -isystem
+     197    pgcc-Error-Unknown switch: -include
+     198    pgcc-Error-Unknown switch: -isystem
+     199    pgcc-Error-Unknown switch: -include
+     200    pgcc-Error-Unknown switch: -isystem
+     201    pgcc-Error-Unknown switch: -include
+  >> 202    make[2]: *** [flopen.lo] Error 1
+     203    pgcc-Error-Unknown switch: -isystem
+     204    pgcc-Error-Unknown switch: -isystem
+     205    pgcc-Error-Unknown switch: -include
+     206    pgcc-Error-Unknown switch: -isystem
+     207    pgcc-Error-Unknown switch: -include
+     208    pgcc-Error-Unknown switch: -include
+  >> 209    make[2]: *** [fparseln.lo] Error 1
+     210    pgcc-Error-Unknown switch: -isystem
+     211    pgcc-Error-Unknown switch: -include
+     212    pgcc-Error-Unknown switch: -isystem
+     213    pgcc-Error-Unknown switch: -include
+     214    pgcc-Error-Unknown switch: -isystem
+     215    pgcc-Error-Unknown switch: -include
+  >> 216    make[2]: *** [getbsize.lo] Error 1
+     217    pgcc-Error-make[2]: Unknown switch: -isystem*** [arc4random.lo] Err
+            or 1
+     218    
+     219    pgcc-Error-Unknown switch: -isystem
+     220    pgcc-Error-Unknown switch: -include
+     221    pgcc-Error-Unknown switch: -include
+     222    pgcc-Error-Unknown switch: -isystem
+     223    pgcc-Error-Unknown switch: -include
+  >> 224    make[2]: *** [closefrom.lo] Error 1
+  >> 225    make[2]: *** [fpurge.lo] Error 1
+  >> 226    make[2]: *** [arc4random_uniform.lo] Error 1
+  >> 227    make[2]: *** [fmtcheck.lo] Error 1
+  >> 228    make[2]: *** [readpassphrase.lo] Error 1
+  >> 229    make[2]: *** [bsd_getopt.lo] Error 1
+     230    pgcc-Error-Unknown switch: -isystem
+     231    pgcc-Error-Unknown switch: -include
+     232    pgcc-Error-Unknown switch: -isystem
+     233    pgcc-Error-Unknown switch: -include
+     234    pgcc-Error-Unknown switch: -isystem
+     235    pgcc-Error-Unknown switch: -include
+     236    pgcc-Error-Unknown switch: -isystem
+     237    pgcc-Error-Unknown switch: -include
+  >> 238    make[2]: *** [progname.lo] Error 1
+  >> 239    make[2]: *** [reallocf.lo] Error 1
+     240    pgcc-Error-Unknown switch: -isystem
+     241    pgcc-Error-Unknown switch: -include
+  >> 242    make[2]: *** [reallocarray.lo] Error 1
+  >> 243    make[2]: *** [inet_net_pton.lo] Error 1
+     244    pgcc-Error-Unknown switch: -isystem
+     245    pgcc-Error-Unknown switch: -include
+     246    pgcc-Error-Unknown switch: -isystem
+     247    pgcc-Error-Unknown switch: -include
+     248    pgcc-Error-Unknown switch: -isystem
+     249    pgcc-Error-Unknown switch: -include
+  >> 250    make[2]: *** [funopen.lo] Error 1
+  >> 251    make[2]: *** [fgetwln.lo] Error 1
+  >> 252    make[2]: *** [pidfile.lo] Error 1
+  >> 253    make[2]: *** [fgetln.lo] Error 1
+     254    pgcc-Error-Unknown switch: -isystem
+     255    pgcc-Error-Unknown switch: -include
+  >> 256    make[2]: *** [getpeereid.lo] Error 1
+  >> 257    make[2]: *** [merge.lo] Error 1
+  >> 258    make[2]: *** [heapsort.lo] Error 1
+  >> 259    make[2]: *** [dehumanize_number.lo] Error 1
+     260    pgcc-Error-Unknown switch: -isystem
+     261    pgcc-Error-Unknown switch: -include
+     262    pgcc-Error-Unknown switch: -isystem
+     263    pgcc-Error-Unknown switch: -include
+  >> 264    make[2]: *** [err.lo] Error 1
+  >> 265    make[2]: *** [radixsort.lo] Error 1
+     266    pgcc-Error-Unknown switch: -isystem
+     267    pgcc-Error-Unknown switch: -include
+  >> 268    make[2]: *** [humanize_number.lo] Error 1
+     269    pgcc-Error-Unknown switch: -isystem
+     270    pgcc-Error-Unknown switch: -include
+     271    pgcc-Error-Unknown switch: -isystem
+     272    pgcc-Error-Unknown switch: -include
+     273    pgcc-Error-Unknown switch: -isystem
+     274    pgcc-Error-Unknown switch: -include
+  >> 275    make[2]: *** [nlist.lo] Error 1
+  >> 276    make[2]: *** [setmode.lo] Error 1
+  >> 277    make[2]: *** [setproctitle.lo] Error 1
+     278    pgcc-Error-Unknown switch: -isystem
+     279    pgcc-Error-Unknown switch: -include
+  >> 280    make[2]: *** [strlcat.lo] Error 1
+     281    pgcc-Error-Unknown switch: -isystem
+     282    pgcc-Error-Unknown switch: -include
+  >> 283    make[2]: *** [strlcpy.lo] Error 1
+     284    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-D1wo9Y/libbsd-0.9.1/src'
+  >> 285    make[1]: *** [all-recursive] Error 1
+     286    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-D1wo9Y/libbsd-0.9.1'
+  >> 287    make: *** [all] Error 2
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-ljv7ndktu6ysbgn3o6qovtaxp4hevwj6/spack-build.out
+spack install ucx @ 1.4.0 % gcc@8.2.0  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+spack install ucx @ 1.4.0 % gcc@7.3.0  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+spack install ucx @ 1.4.0 % gcc@6.4.0  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+spack install ucx @ 1.4.0 % gcc@5.5.0  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+spack install ucx @ 1.4.0 % gcc@4.9.3  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+spack install ucx @ 1.4.0 % gcc@4.8.5  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+spack install ucx @ 1.4.0 % intel@18.0.3  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+==> Error: Conflicts in concretized spec "ucx@1.4.0%intel@18.0.3 arch=linux-centos7-x86_64/dcolokf"
+List of matching conflicts for spec:
+
+    rdma-core@20%intel@18.0.3 build_type=RelWithDebInfo arch=linux-centos7-x86_64
+        ^cmake@3.14.2%intel@18.0.3~doc+ncurses+openssl~ownlibs~qt arch=linux-centos7-x86_64
+            ^bzip2@1.0.6%intel@18.0.3+shared arch=linux-centos7-x86_64
+            ^curl@7.63.0%intel@18.0.3~darwinssl~libssh~libssh2~nghttp2 arch=linux-centos7-x86_64
+            ^expat@2.2.5%intel@18.0.3+libbsd arch=linux-centos7-x86_64
+                ^libbsd@0.9.1%intel@18.0.3 arch=linux-centos7-x86_64
+            ^libarchive@3.3.2%intel@18.0.3 arch=linux-centos7-x86_64
+                ^libxml2@2.9.8%intel@18.0.3~python arch=linux-centos7-x86_64
+                ^lz4@1.9.0%intel@18.0.3 arch=linux-centos7-x86_64
+                ^lzo@2.10%intel@18.0.3 arch=linux-centos7-x86_64
+                ^nettle@3.4%intel@18.0.3 arch=linux-centos7-x86_64
+                    ^gmp@6.1.2%intel@18.0.3 arch=linux-centos7-x86_64
+                        ^autoconf@2.69%intel@18.0.3 arch=linux-centos7-x86_64
+                        ^automake@1.16.1%intel@18.0.3 arch=linux-centos7-x86_64
+                        ^libtool@2.4.6%intel@18.0.3 arch=linux-centos7-x86_64
+                        ^m4@1.4.18%intel@18.0.3 patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,c0a408fbffb7255fcc75e26bd8edab116fc81d216bfd18b473668b7739a4158e,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 +sigsegv arch=linux-centos7-x86_64
+                ^openssl@1.1.1b%intel@18.0.3+systemcerts arch=linux-centos7-x86_64
+                ^xz@5.2.4%intel@18.0.3 arch=linux-centos7-x86_64
+                ^zlib@1.2.11%intel@18.0.3+optimize+pic+shared arch=linux-centos7-x86_64
+            ^libuv@1.25.0%intel@18.0.3 arch=linux-centos7-x86_64
+            ^ncurses@6.1%intel@18.0.3~symlinks~termlib arch=linux-centos7-x86_64
+            ^rhash@1.3.5%intel@18.0.3 arch=linux-centos7-x86_64
+        ^libnl@3.3.0%intel@18.0.3 arch=linux-centos7-x86_64
+            ^bison@3.0.5%intel@18.0.3 arch=linux-centos7-x86_64
+            ^flex@2.6.4%intel@18.0.3+lex patches=09c22e5c6fef327d3e48eb23f0d610dcd3a35ab9207f12e0f875701c677978d3 arch=linux-centos7-x86_64
+        ^pkg-config@0.29.2%intel@18.0.3+internal_glib arch=linux-centos7-x86_64
+
+1. "%intel" conflicts with "rdma-core" [rdma-core cannot be built with intel (use gcc instead)]
+
+spack install ucx @ 1.4.0 % intel@17.0.6  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+==> Error: Conflicts in concretized spec "ucx@1.4.0%intel@17.0.6 arch=linux-centos7-x86_64/l6widox"
+List of matching conflicts for spec:
+
+    rdma-core@20%intel@17.0.6 build_type=RelWithDebInfo arch=linux-centos7-x86_64
+        ^cmake@3.14.2%intel@17.0.6~doc+ncurses+openssl~ownlibs~qt arch=linux-centos7-x86_64
+            ^bzip2@1.0.6%intel@17.0.6+shared arch=linux-centos7-x86_64
+            ^curl@7.63.0%intel@17.0.6~darwinssl~libssh~libssh2~nghttp2 arch=linux-centos7-x86_64
+            ^expat@2.2.5%intel@17.0.6+libbsd arch=linux-centos7-x86_64
+                ^libbsd@0.9.1%intel@17.0.6 arch=linux-centos7-x86_64
+            ^libarchive@3.3.2%intel@17.0.6 arch=linux-centos7-x86_64
+                ^libxml2@2.9.8%intel@17.0.6~python arch=linux-centos7-x86_64
+                ^lz4@1.9.0%intel@17.0.6 arch=linux-centos7-x86_64
+                ^lzo@2.10%intel@17.0.6 arch=linux-centos7-x86_64
+                ^nettle@3.4%intel@17.0.6 arch=linux-centos7-x86_64
+                    ^gmp@6.1.2%intel@17.0.6 arch=linux-centos7-x86_64
+                        ^autoconf@2.69%intel@17.0.6 arch=linux-centos7-x86_64
+                        ^automake@1.16.1%intel@17.0.6 arch=linux-centos7-x86_64
+                        ^libtool@2.4.6%intel@17.0.6 arch=linux-centos7-x86_64
+                        ^m4@1.4.18%intel@17.0.6 patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,c0a408fbffb7255fcc75e26bd8edab116fc81d216bfd18b473668b7739a4158e,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 +sigsegv arch=linux-centos7-x86_64
+                ^openssl@1.1.1b%intel@17.0.6+systemcerts arch=linux-centos7-x86_64
+                ^xz@5.2.4%intel@17.0.6 arch=linux-centos7-x86_64
+                ^zlib@1.2.11%intel@17.0.6+optimize+pic+shared arch=linux-centos7-x86_64
+            ^libuv@1.25.0%intel@17.0.6 arch=linux-centos7-x86_64
+            ^ncurses@6.1%intel@17.0.6~symlinks~termlib arch=linux-centos7-x86_64
+            ^rhash@1.3.5%intel@17.0.6 arch=linux-centos7-x86_64
+        ^libnl@3.3.0%intel@17.0.6 arch=linux-centos7-x86_64
+            ^bison@3.0.5%intel@17.0.6 arch=linux-centos7-x86_64
+            ^flex@2.6.4%intel@17.0.6+lex patches=09c22e5c6fef327d3e48eb23f0d610dcd3a35ab9207f12e0f875701c677978d3 arch=linux-centos7-x86_64
+        ^pkg-config@0.29.2%intel@17.0.6+internal_glib arch=linux-centos7-x86_64
+
+1. "%intel" conflicts with "rdma-core" [rdma-core cannot be built with intel (use gcc instead)]
+
+spack install ucx @ 1.4.0 % intel@16.0.4  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+==> Error: Conflicts in concretized spec "ucx@1.4.0%intel@16.0.4 arch=linux-centos7-x86_64/ayrmeb2"
+List of matching conflicts for spec:
+
+    rdma-core@20%intel@16.0.4 build_type=RelWithDebInfo arch=linux-centos7-x86_64
+        ^cmake@3.14.2%intel@16.0.4~doc+ncurses+openssl~ownlibs~qt arch=linux-centos7-x86_64
+            ^bzip2@1.0.6%intel@16.0.4+shared arch=linux-centos7-x86_64
+            ^curl@7.63.0%intel@16.0.4~darwinssl~libssh~libssh2~nghttp2 arch=linux-centos7-x86_64
+            ^expat@2.2.5%intel@16.0.4+libbsd arch=linux-centos7-x86_64
+                ^libbsd@0.9.1%intel@16.0.4 arch=linux-centos7-x86_64
+            ^libarchive@3.3.2%intel@16.0.4 arch=linux-centos7-x86_64
+                ^libxml2@2.9.8%intel@16.0.4~python arch=linux-centos7-x86_64
+                ^lz4@1.9.0%intel@16.0.4 arch=linux-centos7-x86_64
+                ^lzo@2.10%intel@16.0.4 arch=linux-centos7-x86_64
+                ^nettle@3.4%intel@16.0.4 arch=linux-centos7-x86_64
+                    ^gmp@6.1.2%intel@16.0.4 arch=linux-centos7-x86_64
+                        ^autoconf@2.69%intel@16.0.4 arch=linux-centos7-x86_64
+                        ^automake@1.16.1%intel@16.0.4 arch=linux-centos7-x86_64
+                        ^libtool@2.4.6%intel@16.0.4 arch=linux-centos7-x86_64
+                        ^m4@1.4.18%intel@16.0.4 patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,c0a408fbffb7255fcc75e26bd8edab116fc81d216bfd18b473668b7739a4158e,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 +sigsegv arch=linux-centos7-x86_64
+                ^openssl@1.1.1b%intel@16.0.4+systemcerts arch=linux-centos7-x86_64
+                ^xz@5.2.4%intel@16.0.4 arch=linux-centos7-x86_64
+                ^zlib@1.2.11%intel@16.0.4+optimize+pic+shared arch=linux-centos7-x86_64
+            ^libuv@1.25.0%intel@16.0.4 arch=linux-centos7-x86_64
+            ^ncurses@6.1%intel@16.0.4~symlinks~termlib arch=linux-centos7-x86_64
+            ^rhash@1.3.5%intel@16.0.4 arch=linux-centos7-x86_64
+        ^libnl@3.3.0%intel@16.0.4 arch=linux-centos7-x86_64
+            ^bison@3.0.5%intel@16.0.4 arch=linux-centos7-x86_64
+            ^flex@2.6.4%intel@16.0.4+lex patches=09c22e5c6fef327d3e48eb23f0d610dcd3a35ab9207f12e0f875701c677978d3 arch=linux-centos7-x86_64
+        ^pkg-config@0.29.2%intel@16.0.4+internal_glib arch=linux-centos7-x86_64
+
+1. "%intel" conflicts with "rdma-core" [rdma-core cannot be built with intel (use gcc instead)]
+
+spack install ucx @ 1.4.0 % pgi@18.10  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j32'
+
+34 errors found in build log:
+     187    pgcc-Error-Unknown switch: -isystem
+     188    pgcc-Error-Unknown switch: -include
+     189    pgcc-Error-Unknown switch: -isystem
+     190    pgcc-Error-Unknown switch: -include
+     191    pgcc-Error-Unknown switch: -isystem
+     192    pgcc-Error-Unknown switch: -include
+  >> 193    make[2]: *** [bsd_getopt.lo] Error 1
+     194    make[2]: *** Waiting for unfinished jobs....
+     195    pgcc-Error-Unknown switch: -isystem
+     196    pgcc-Error-Unknown switch: -include
+     197    pgcc-Error-Unknown switch: -isystem
+     198    pgcc-Error-Unknown switch: -include
+     199    pgcc-Error-Unknown switch: -isystem
+     200    pgcc-Error-Unknown switch: -include
+     201    pgcc-Error-Unknown switch: -isystem
+     202    pgcc-Error-Unknown switch: -include
+     203    pgcc-Error-Unknown switch: -isystem
+     204    pgcc-Error-Unknown switch: -include
+  >> 205    make[2]: *** [explicit_bzero.lo] Error 1
+  >> 206    make[2]: *** [err.lo] Error 1
+  >> 207    make[2]: *** [arc4random_uniform.lo] Error 1
+     208    pgcc-Error-Unknown switch: -isystem
+     209    pgcc-Error-Unknown switch: -include
+     210    pgcc-Error-Unknown switch: -isystem
+     211    pgcc-Error-Unknown switch: -include
+     212    pgcc-Error-Unknown switch: -isystem
+     213    pgcc-Error-Unknown switch: -include
+  >> 214    make[2]: *** [expand_number.lo] Error 1
+  >> 215    make[2]: *** [arc4random.lo] Error 1
+     216    pgcc-Error-Unknown switch: -isystem
+     217    pgcc-Error-Unknown switch: -include
+     218    pgcc-Error-Unknown switch: -isystem
+     219    pgcc-Error-Unknown switch: -include
+  >> 220    make[2]: *** [flopen.lo] Error 1
+  >> 221    make[2]: *** [fparseln.lo] Error 1
+  >> 222    make[2]: *** [closefrom.lo] Error 1
+  >> 223    make[2]: *** [fmtcheck.lo] Error 1
+     224    pgcc-Error-Unknown switch: -isystem
+     225    pgcc-Error-Unknown switch: -include
+  >> 226    make[2]: *** [fgetln.lo] Error 1
+     227    pgcc-Error-Unknown switch: -isystem
+     228    pgcc-Error-Unknown switch: -include
+     229    pgcc-Error-Unknown switch: -isystem
+     230    pgcc-Error-Unknown switch: -include
+     231    pgcc-Error-Unknown switch: -isystem
+     232    pgcc-Error-Unknown switch: -include
+  >> 233    make[2]: *** [fgetwln.lo] Error 1
+  >> 234    make[2]: *** [funopen.lo] Error 1
+     235    pgcc-Error-Unknown switch: -isystem
+     236    pgcc-Error-Unknown switch: -include
+  >> 237    make[2]: *** [fpurge.lo] Error 1
+  >> 238    make[2]: *** [heapsort.lo] Error 1
+  >> 239    make[2]: *** [inet_net_pton.lo] Error 1
+  >> 240    make[2]: *** [nlist.lo] Error 1
+     241    pgcc-Error-Unknown switch: -isystem
+     242    pgcc-Error-Unknown switch: -include
+     243    pgcc-Error-Unknown switch: -isystem
+     244    pgcc-Error-Unknown switch: -include
+     245    pgcc-Error-Unknown switch: -isystem
+     246    pgcc-Error-Unknown switch: -include
+  >> 247    make[2]: *** [strlcat.lo] Error 1
+     248    pgcc-Error-Unknown switch: -isystem
+     249    pgcc-Error-Unknown switch: -include
+     250    pgcc-Error-Unknown switch: -isystem
+     251    pgcc-Error-Unknown switch: -include
+     252    pgcc-Error-Unknown switch: -isystem
+     253    pgcc-Error-Unknown switch: -include
+  >> 254    make[2]: *** [dehumanize_number.lo] Error 1
+     255    pgcc-Error-Unknown switch: -isystem
+     256    pgcc-Error-Unknown switch: -include
+  >> 257    make[2]: *** [humanize_number.lo] Error 1
+  >> 258    make[2]: *** [getpeereid.lo] Error 1
+     259    pgcc-Error-Unknown switch: -isystem
+     260    pgcc-Error-Unknown switch: -include
+  >> 261    make[2]: *** [merge.lo] Error 1
+  >> 262    make[2]: *** [radixsort.lo] Error 1
+  >> 263    make[2]: *** [reallocarray.lo] Error 1
+     264    pgcc-Error-Unknown switch: -isystem
+     265    pgcc-Error-Unknown switch: -include
+  >> 266    make[2]: *** [setmode.lo] Error 1
+  >> 267    make[2]: *** [getbsize.lo] Error 1
+     268    pgcc-Error-Unknown switch: -isystem
+     269    pgcc-Error-Unknown switch: -include
+     270    pgcc-Error-Unknown switch: -isystem
+     271    pgcc-Error-Unknown switch: -include
+  >> 272    make[2]: *** [strlcpy.lo] Error 1
+     273    pgcc-Error-Unknown switch: -isystem
+     274    pgcc-Error-Unknown switch: -include
+  >> 275    make[2]: *** [setproctitle.lo] Error 1
+     276    pgcc-Error-Unknown switch: -isystem
+     277    pgcc-Error-Unknown switch: -include
+  >> 278    make[2]: *** [readpassphrase.lo] Error 1
+     279    pgcc-Error-Unknown switch: -isystem
+     280    pgcc-Error-Unknown switch: -include
+  >> 281    make[2]: *** [pidfile.lo] Error 1
+  >> 282    make[2]: *** [progname.lo] Error 1
+  >> 283    make[2]: *** [reallocf.lo] Error 1
+     284    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-ksnf_e/libbsd-0.9.1/src'
+  >> 285    make[1]: *** [all-recursive] Error 1
+     286    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-ksnf_e/libbsd-0.9.1'
+  >> 287    make: *** [all] Error 2
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-evnzswkuiy7q4nkpgnuqjgarpnwakstf/spack-build.out
+spack install ucx @ 1.4.0 % pgi@18.7  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j32'
+
+34 errors found in build log:
+     199    pgcc-Error-Unknown switch: -isystem
+     200    pgcc-Error-Unknown switch: -include
+     201    pgcc-Error-Unknown switch: -isystem
+     202    pgcc-Error-Unknown switch: -include
+     203    pgcc-Error-Unknown switch: -isystem
+     204    pgcc-Error-Unknown switch: -include
+  >> 205    make[2]: *** [flopen.lo] Error 1
+     206    make[2]: *** Waiting for unfinished jobs....
+     207    pgcc-Error-Unknown switch: -isystem
+     208    pgcc-Error-Unknown switch: -include
+  >> 209    make[2]: *** [err.lo] Error 1
+     210    pgcc-Error-Unknown switch: -isystem
+     211    pgcc-Error-Unknown switch: -include
+     212    pgcc-Error-Unknown switch: -isystem
+     213    pgcc-Error-Unknown switch: -include
+     214    pgcc-Error-Unknown switch: -isystem
+     215    pgcc-Error-Unknown switch: -include
+  >> 216    make[2]: *** [fmtcheck.lo] Error 1
+  >> 217    make[2]: *** [fgetln.lo] Error 1
+     218    pgcc-Error-Unknown switch: -isystem
+  >> 219    make[2]: *** [arc4random.lo] Error 1
+     220    pgcc-Error-Unknown switch: -include
+  >> 221    make[2]: *** [dehumanize_number.lo] Error 1
+  >> 222    make[2]: *** [fparseln.lo] Error 1
+  >> 223    make[2]: *** [getbsize.lo] Error 1
+     224    pgcc-Error-Unknown switch: -isystem
+     225    pgcc-Error-Unknown switch: -include
+  >> 226    make[2]: *** [expand_number.lo] Error 1
+     227    pgcc-Error-Unknown switch: -isystem
+     228    pgcc-Error-Unknown switch: -include
+  >> 229    make[2]: *** [fpurge.lo] Error 1
+  >> 230    make[2]: *** [arc4random_uniform.lo] Error 1
+  >> 231    make[2]: *** [getpeereid.lo] Error 1
+  >> 232    make[2]: *** [explicit_bzero.lo] Error 1
+  >> 233    make[2]: *** [bsd_getopt.lo] Error 1
+  >> 234    make[2]: *** [closefrom.lo] Error 1
+     235    pgcc-Error-Unknown switch: -isystem
+     236    pgcc-Error-Unknown switch: -include
+  >> 237    make[2]: *** [fgetwln.lo] Error 1
+     238    pgcc-Error-Unknown switch: -isystem
+     239    pgcc-Error-Unknown switch: -include
+  >> 240    make[2]: *** [humanize_number.lo] Error 1
+  >> 241    make[2]: *** [funopen.lo] Error 1
+     242    pgcc-Error-Unknown switch: -isystem
+     243    pgcc-Error-Unknown switch: -include
+  >> 244    make[2]: *** [inet_net_pton.lo] Error 1
+     245    pgcc-Error-Unknown switch: -isystem
+     246    pgcc-Error-Unknown switch: -include
+     247    pgcc-Error-Unknown switch: -isystem
+     248    pgcc-Error-Unknown switch: -include
+     249    pgcc-Error-Unknown switch: -isystem
+     250    pgcc-Error-Unknown switch: -include
+     251    pgcc-Error-Unknown switch: -isystem
+     252    pgcc-Error-Unknown switch: -include
+  >> 253    make[2]: *** [nlist.lo] Error 1
+     254    pgcc-Error-Unknown switch: -isystem
+     255    pgcc-Error-Unknown switch: -include
+  >> 256    make[2]: *** [reallocarray.lo] Error 1
+     257    pgcc-Error-Unknown switch: -isystem
+     258    pgcc-Error-Unknown switch: -include
+  >> 259    make[2]: *** [reallocf.lo] Error 1
+  >> 260    make[2]: *** [heapsort.lo] Error 1
+     261    pgcc-Error-Unknown switch: -isystem
+     262    pgcc-Error-Unknown switch: -include
+     263    pgcc-Error-Unknown switch: -isystem
+     264    pgcc-Error-Unknown switch: -include
+  >> 265    make[2]: *** [readpassphrase.lo] Error 1
+  >> 266    make[2]: *** [setproctitle.lo] Error 1
+  >> 267    make[2]: *** [radixsort.lo] Error 1
+     268    pgcc-Error-Unknown switch: -isystem
+     269    pgcc-Error-Unknown switch: -include
+  >> 270    make[2]: *** [setmode.lo] Error 1
+     271    pgcc-Error-Unknown switch: -isystem
+     272    pgcc-Error-Unknown switch: -include
+     273    pgcc-Error-Unknown switch: -isystem
+     274    pgcc-Error-Unknown switch: -include
+     275    pgcc-Error-Unknown switch: -isystem
+     276    pgcc-Error-Unknown switch: -include
+     277    pgcc-Error-Unknown switch: -isystem
+     278    pgcc-Error-Unknown switch: -include
+  >> 279    make[2]: *** [pidfile.lo] Error 1
+  >> 280    make[2]: *** [progname.lo] Error 1
+  >> 281    make[2]: *** [strlcpy.lo] Error 1
+  >> 282    make[2]: *** [strlcat.lo] Error 1
+  >> 283    make[2]: *** [merge.lo] Error 1
+     284    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-m6rV0A/libbsd-0.9.1/src'
+  >> 285    make[1]: *** [all-recursive] Error 1
+     286    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-m6rV0A/libbsd-0.9.1'
+  >> 287    make: *** [all] Error 2
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-rsvjgnicvty7u2wsnnqc5iote2xjzuct/spack-build.out
+spack install ucx @ 1.4.0 % pgi@17.10  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j32'
+
+33 errors found in build log:
+     191    pgcc-Error-Unknown switch: -isystem
+     192    pgcc-Error-Unknown switch: -isystem
+     193    pgcc-Error-Unknown switch: -include
+     194    pgcc-Error-Unknown switch: -include
+     195    pgcc-Error-Unknown switch: -isystem
+     196    pgcc-Error-Unknown switch: -include
+  >> 197    make[2]: *** [arc4random_uniform.lo] Error 1
+     198    make[2]: *** Waiting for unfinished jobs....
+  >> 199    make[2]: *** [expand_number.lo] Error 1
+     200    pgcc-Error-Unknown switch: -isystem
+     201    pgcc-Error-Unknown switch: -include
+     202    pgcc-Error-Unknown switch: -isystem
+     203    pgcc-Error-Unknown switch: -include
+  >> 204    make[2]: *** [explicit_bzero.lo] Error 1
+  >> 205    make[2]: *** [fgetln.lo] Error 1
+     206    pgcc-Error-Unknown switch: -isystem
+     207    pgcc-Error-Unknown switch: -include
+  >> 208    make[2]: *** [fparseln.lo] Error 1
+     209    pgcc-Error-Unknown switch: -isystem
+     210    pgcc-Error-Unknown switch: -include
+     211    pgcc-Error-Unknown switch: -isystem
+     212    pgcc-Error-Unknown switch: -include
+  >> 213    make[2]: *** [err.lo] Error 1
+     214    pgcc-Error-Unknown switch: -isystem
+     215    pgcc-Error-Unknown switch: -include
+  >> 216    make[2]: *** [arc4random.lo] Error 1
+     217    pgcc-Error-Unknown switch: -isystem
+     218    pgcc-Error-Unknown switch: -include
+     219    pgcc-Error-Unknown switch: -isystem
+     220    pgcc-Error-Unknown switch: -include
+     221    make[2]: pgcc-Error-*** [flopen.lo] Error 1
+     222    Unknown switch: -isystem
+     223    pgcc-Error-Unknown switch: -include
+     224    pgcc-Error-Unknown switch: -isystem
+     225    pgcc-Error-Unknown switch: -include
+  >> 226    make[2]: *** [dehumanize_number.lo] Error 1
+     227    pgcc-Error-Unknown switch: -isystem
+     228    pgcc-Error-Unknown switch: -include
+     229    pgcc-Error-Unknown switch: -isystem
+     230    pgcc-Error-Unknown switch: -include
+     231    pgcc-Error-Unknown switch: -isystem
+     232    pgcc-Error-Unknown switch: -include
+  >> 233    make[2]: *** [getpeereid.lo] Error 1
+  >> 234    make[2]: *** [fgetwln.lo] Error 1
+  >> 235    make[2]: *** [inet_net_pton.lo] Error 1
+  >> 236    make[2]: *** [closefrom.lo] Error 1
+  >> 237    make[2]: *** [bsd_getopt.lo] Error 1
+  >> 238    make[2]: *** [heapsort.lo] Error 1
+  >> 239    make[2]: *** [progname.lo] Error 1
+  >> 240    make[2]: *** [getbsize.lo] Error 1
+     241    pgcc-Error-Unknown switch: -isystem
+     242    pgcc-Error-Unknown switch: -include
+     243    pgcc-Error-Unknown switch: -isystem
+     244    pgcc-Error-Unknown switch: -include
+  >> 245    make[2]: *** [fmtcheck.lo] Error 1
+     246    pgcc-Error-Unknown switch: -isystem
+     247    pgcc-Error-Unknown switch: -include
+  >> 248    make[2]: *** [fpurge.lo] Error 1
+  >> 249    make[2]: *** [reallocf.lo] Error 1
+  >> 250    make[2]: *** [humanize_number.lo] Error 1
+     251    pgcc-Error-Unknown switch: -isystem
+     252    pgcc-Error-Unknown switch: -include
+     253    pgcc-Error-Unknown switch: -isystem
+     254    pgcc-Error-Unknown switch: -include
+     255    pgcc-Error-Unknown switch: -isystem
+     256    pgcc-Error-Unknown switch: -include
+     257    pgcc-Error-Unknown switch: -isystem
+     258    pgcc-Error-Unknown switch: -include
+     259    pgcc-Error-Unknown switch: -isystem
+     260    pgcc-Error-Unknown switch: -include
+  >> 261    make[2]: *** [strlcpy.lo] Error 1
+     262    pgcc-Error-Unknown switch: -isystem
+     263    pgcc-Error-Unknown switch: -include
+     264    pgcc-Error-Unknown switch: -isystem
+     265    pgcc-Error-Unknown switch: -include
+  >> 266    make[2]: *** [nlist.lo] Error 1
+  >> 267    make[2]: *** [pidfile.lo] Error 1
+  >> 268    make[2]: *** [reallocarray.lo] Error 1
+  >> 269    make[2]: *** [funopen.lo] Error 1
+     270    pgcc-Error-Unknown switch: -isystem
+     271    pgcc-Error-Unknown switch: -include
+     272    pgcc-Error-Unknown switch: -isystem
+     273    pgcc-Error-Unknown switch: -include
+  >> 274    make[2]: *** [setmode.lo] Error 1
+  >> 275    make[2]: *** [radixsort.lo] Error 1
+     276    pgcc-Error-Unknown switch: -isystem
+     277    pgcc-Error-Unknown switch: -include
+     278    pgcc-Error-Unknown switch: -isystem
+     279    pgcc-Error-Unknown switch: -include
+  >> 280    make[2]: *** [setproctitle.lo] Error 1
+  >> 281    make[2]: *** [strlcat.lo] Error 1
+  >> 282    make[2]: *** [readpassphrase.lo] Error 1
+  >> 283    make[2]: *** [merge.lo] Error 1
+     284    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-Rm6F4D/libbsd-0.9.1/src'
+  >> 285    make[1]: *** [all-recursive] Error 1
+     286    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-Rm6F4D/libbsd-0.9.1'
+  >> 287    make: *** [all] Error 2
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-pdjj5winih4tigxhnjcw4iszboh2wuik/spack-build.out
+spack install ucx @ 1.4.0 % pgi@16.10  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+==> Error: [Errno 2] No such file or directory: '/home/dantopa/.spack/cache/tags/builtin-index.json'
+spack install ucx @ 1.3.1 % gcc@8.2.0  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+spack install ucx @ 1.3.1 % gcc@7.3.0  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+spack install ucx @ 1.3.1 % gcc@6.4.0  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+spack install ucx @ 1.3.1 % gcc@5.5.0  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+spack install ucx @ 1.3.1 % gcc@4.9.3  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+spack install ucx @ 1.3.1 % gcc@4.8.5  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+spack install ucx @ 1.3.1 % intel@18.0.3  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+==> Error: Conflicts in concretized spec "ucx@1.3.1%intel@18.0.3 arch=linux-centos7-x86_64/tv44cwd"
+List of matching conflicts for spec:
+
+    rdma-core@20%intel@18.0.3 build_type=RelWithDebInfo arch=linux-centos7-x86_64
+        ^cmake@3.14.2%intel@18.0.3~doc+ncurses+openssl~ownlibs~qt arch=linux-centos7-x86_64
+            ^bzip2@1.0.6%intel@18.0.3+shared arch=linux-centos7-x86_64
+            ^curl@7.63.0%intel@18.0.3~darwinssl~libssh~libssh2~nghttp2 arch=linux-centos7-x86_64
+            ^expat@2.2.5%intel@18.0.3+libbsd arch=linux-centos7-x86_64
+                ^libbsd@0.9.1%intel@18.0.3 arch=linux-centos7-x86_64
+            ^libarchive@3.3.2%intel@18.0.3 arch=linux-centos7-x86_64
+                ^libxml2@2.9.8%intel@18.0.3~python arch=linux-centos7-x86_64
+                ^lz4@1.9.0%intel@18.0.3 arch=linux-centos7-x86_64
+                ^lzo@2.10%intel@18.0.3 arch=linux-centos7-x86_64
+                ^nettle@3.4%intel@18.0.3 arch=linux-centos7-x86_64
+                    ^gmp@6.1.2%intel@18.0.3 arch=linux-centos7-x86_64
+                        ^autoconf@2.69%intel@18.0.3 arch=linux-centos7-x86_64
+                        ^automake@1.16.1%intel@18.0.3 arch=linux-centos7-x86_64
+                        ^libtool@2.4.6%intel@18.0.3 arch=linux-centos7-x86_64
+                        ^m4@1.4.18%intel@18.0.3 patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,c0a408fbffb7255fcc75e26bd8edab116fc81d216bfd18b473668b7739a4158e,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 +sigsegv arch=linux-centos7-x86_64
+                ^openssl@1.1.1b%intel@18.0.3+systemcerts arch=linux-centos7-x86_64
+                ^xz@5.2.4%intel@18.0.3 arch=linux-centos7-x86_64
+                ^zlib@1.2.11%intel@18.0.3+optimize+pic+shared arch=linux-centos7-x86_64
+            ^libuv@1.25.0%intel@18.0.3 arch=linux-centos7-x86_64
+            ^ncurses@6.1%intel@18.0.3~symlinks~termlib arch=linux-centos7-x86_64
+            ^rhash@1.3.5%intel@18.0.3 arch=linux-centos7-x86_64
+        ^libnl@3.3.0%intel@18.0.3 arch=linux-centos7-x86_64
+            ^bison@3.0.5%intel@18.0.3 arch=linux-centos7-x86_64
+            ^flex@2.6.4%intel@18.0.3+lex patches=09c22e5c6fef327d3e48eb23f0d610dcd3a35ab9207f12e0f875701c677978d3 arch=linux-centos7-x86_64
+        ^pkg-config@0.29.2%intel@18.0.3+internal_glib arch=linux-centos7-x86_64
+
+1. "%intel" conflicts with "rdma-core" [rdma-core cannot be built with intel (use gcc instead)]
+
+spack install ucx @ 1.3.1 % intel@17.0.6  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+==> Error: Conflicts in concretized spec "ucx@1.3.1%intel@17.0.6 arch=linux-centos7-x86_64/muzhu7j"
+List of matching conflicts for spec:
+
+    rdma-core@20%intel@17.0.6 build_type=RelWithDebInfo arch=linux-centos7-x86_64
+        ^cmake@3.14.2%intel@17.0.6~doc+ncurses+openssl~ownlibs~qt arch=linux-centos7-x86_64
+            ^bzip2@1.0.6%intel@17.0.6+shared arch=linux-centos7-x86_64
+            ^curl@7.63.0%intel@17.0.6~darwinssl~libssh~libssh2~nghttp2 arch=linux-centos7-x86_64
+            ^expat@2.2.5%intel@17.0.6+libbsd arch=linux-centos7-x86_64
+                ^libbsd@0.9.1%intel@17.0.6 arch=linux-centos7-x86_64
+            ^libarchive@3.3.2%intel@17.0.6 arch=linux-centos7-x86_64
+                ^libxml2@2.9.8%intel@17.0.6~python arch=linux-centos7-x86_64
+                ^lz4@1.9.0%intel@17.0.6 arch=linux-centos7-x86_64
+                ^lzo@2.10%intel@17.0.6 arch=linux-centos7-x86_64
+                ^nettle@3.4%intel@17.0.6 arch=linux-centos7-x86_64
+                    ^gmp@6.1.2%intel@17.0.6 arch=linux-centos7-x86_64
+                        ^autoconf@2.69%intel@17.0.6 arch=linux-centos7-x86_64
+                        ^automake@1.16.1%intel@17.0.6 arch=linux-centos7-x86_64
+                        ^libtool@2.4.6%intel@17.0.6 arch=linux-centos7-x86_64
+                        ^m4@1.4.18%intel@17.0.6 patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,c0a408fbffb7255fcc75e26bd8edab116fc81d216bfd18b473668b7739a4158e,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 +sigsegv arch=linux-centos7-x86_64
+                ^openssl@1.1.1b%intel@17.0.6+systemcerts arch=linux-centos7-x86_64
+                ^xz@5.2.4%intel@17.0.6 arch=linux-centos7-x86_64
+                ^zlib@1.2.11%intel@17.0.6+optimize+pic+shared arch=linux-centos7-x86_64
+            ^libuv@1.25.0%intel@17.0.6 arch=linux-centos7-x86_64
+            ^ncurses@6.1%intel@17.0.6~symlinks~termlib arch=linux-centos7-x86_64
+            ^rhash@1.3.5%intel@17.0.6 arch=linux-centos7-x86_64
+        ^libnl@3.3.0%intel@17.0.6 arch=linux-centos7-x86_64
+            ^bison@3.0.5%intel@17.0.6 arch=linux-centos7-x86_64
+            ^flex@2.6.4%intel@17.0.6+lex patches=09c22e5c6fef327d3e48eb23f0d610dcd3a35ab9207f12e0f875701c677978d3 arch=linux-centos7-x86_64
+        ^pkg-config@0.29.2%intel@17.0.6+internal_glib arch=linux-centos7-x86_64
+
+1. "%intel" conflicts with "rdma-core" [rdma-core cannot be built with intel (use gcc instead)]
+
+spack install ucx @ 1.3.1 % intel@16.0.4  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+==> Error: Conflicts in concretized spec "ucx@1.3.1%intel@16.0.4 arch=linux-centos7-x86_64/4qjwuzh"
+List of matching conflicts for spec:
+
+    rdma-core@20%intel@16.0.4 build_type=RelWithDebInfo arch=linux-centos7-x86_64
+        ^cmake@3.14.2%intel@16.0.4~doc+ncurses+openssl~ownlibs~qt arch=linux-centos7-x86_64
+            ^bzip2@1.0.6%intel@16.0.4+shared arch=linux-centos7-x86_64
+            ^curl@7.63.0%intel@16.0.4~darwinssl~libssh~libssh2~nghttp2 arch=linux-centos7-x86_64
+            ^expat@2.2.5%intel@16.0.4+libbsd arch=linux-centos7-x86_64
+                ^libbsd@0.9.1%intel@16.0.4 arch=linux-centos7-x86_64
+            ^libarchive@3.3.2%intel@16.0.4 arch=linux-centos7-x86_64
+                ^libxml2@2.9.8%intel@16.0.4~python arch=linux-centos7-x86_64
+                ^lz4@1.9.0%intel@16.0.4 arch=linux-centos7-x86_64
+                ^lzo@2.10%intel@16.0.4 arch=linux-centos7-x86_64
+                ^nettle@3.4%intel@16.0.4 arch=linux-centos7-x86_64
+                    ^gmp@6.1.2%intel@16.0.4 arch=linux-centos7-x86_64
+                        ^autoconf@2.69%intel@16.0.4 arch=linux-centos7-x86_64
+                        ^automake@1.16.1%intel@16.0.4 arch=linux-centos7-x86_64
+                        ^libtool@2.4.6%intel@16.0.4 arch=linux-centos7-x86_64
+                        ^m4@1.4.18%intel@16.0.4 patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,c0a408fbffb7255fcc75e26bd8edab116fc81d216bfd18b473668b7739a4158e,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 +sigsegv arch=linux-centos7-x86_64
+                ^openssl@1.1.1b%intel@16.0.4+systemcerts arch=linux-centos7-x86_64
+                ^xz@5.2.4%intel@16.0.4 arch=linux-centos7-x86_64
+                ^zlib@1.2.11%intel@16.0.4+optimize+pic+shared arch=linux-centos7-x86_64
+            ^libuv@1.25.0%intel@16.0.4 arch=linux-centos7-x86_64
+            ^ncurses@6.1%intel@16.0.4~symlinks~termlib arch=linux-centos7-x86_64
+            ^rhash@1.3.5%intel@16.0.4 arch=linux-centos7-x86_64
+        ^libnl@3.3.0%intel@16.0.4 arch=linux-centos7-x86_64
+            ^bison@3.0.5%intel@16.0.4 arch=linux-centos7-x86_64
+            ^flex@2.6.4%intel@16.0.4+lex patches=09c22e5c6fef327d3e48eb23f0d610dcd3a35ab9207f12e0f875701c677978d3 arch=linux-centos7-x86_64
+        ^pkg-config@0.29.2%intel@16.0.4+internal_glib arch=linux-centos7-x86_64
+
+1. "%intel" conflicts with "rdma-core" [rdma-core cannot be built with intel (use gcc instead)]
+
+spack install ucx @ 1.3.1 % pgi@18.10  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j32'
+
+34 errors found in build log:
+     191    pgcc-Error-Unknown switch: -isystem
+     192    pgcc-Error-Unknown switch: -include
+     193    pgcc-Error-Unknown switch: -isystem
+     194    pgcc-Error-Unknown switch: -include
+     195    pgcc-Error-Unknown switch: -isystem
+     196    pgcc-Error-Unknown switch: -include
+  >> 197    make[2]: *** [flopen.lo] Error 1
+     198    make[2]: *** Waiting for unfinished jobs....
+     199    pgcc-Error-Unknown switch: -isystem
+     200    pgcc-Error-Unknown switch: -include
+     201    pgcc-Error-pgcc-Error-Unknown switch: -isystemUnknown switch: -isys
+            tem
+     202    
+     203    pgcc-Error-Unknown switch: -includepgcc-Error-
+     204    Unknown switch: -include
+     205    pgcc-Error-Unknown switch: -isystem
+     206    pgcc-Error-Unknown switch: -include
+  >> 207    make[2]: *** [fgetwln.lo] Error 1
+     208    pgcc-Error-Unknown switch: -isystem
+     209    pgcc-Error-Unknown switch: -include
+     210    pgcc-Error-Unknown switch: -isystem
+     211    pgcc-Error-Unknown switch: -include
+     212    pgcc-Error-Unknown switch: -isystem
+     213    pgcc-Error-Unknown switch: -include
+     214    pgcc-Error-Unknown switch: -isystem
+     215    pgcc-Error-Unknown switch: -include
+  >> 216    make[2]: *** [arc4random.lo] Error 1
+     217    pgcc-Error-Unknown switch: -isystem
+     218    pgcc-Error-Unknown switch: -include
+  >> 219    make[2]: *** [explicit_bzero.lo] Error 1
+  >> 220    make[2]: *** [err.lo] Error 1
+     221    pgcc-Error-Unknown switch: -isystem
+     222    pgcc-Error-Unknown switch: -include
+     223    pgcc-Error-Unknown switch: -isystem
+     224    pgcc-Error-Unknown switch: -include
+  >> 225    make[2]: *** [bsd_getopt.lo] Error 1
+     226    pgcc-Error-Unknown switch: -isystem
+     227    pgcc-Error-Unknown switch: -include
+  >> 228    make[2]: *** [fgetln.lo] Error 1
+  >> 229    make[2]: *** [fparseln.lo] Error 1
+  >> 230    make[2]: *** [arc4random_uniform.lo] Error 1
+  >> 231    make[2]: *** [dehumanize_number.lo] Error 1
+  >> 232    make[2]: *** [getpeereid.lo] Error 1
+     233    pgcc-Error-Unknown switch: -isystem
+     234    pgcc-Error-Unknown switch: -include
+  >> 235    make[2]: *** [expand_number.lo] Error 1
+  >> 236    make[2]: *** [funopen.lo] Error 1
+     237    pgcc-Error-Unknown switch: -isystem
+     238    pgcc-Error-Unknown switch: -include
+  >> 239    make[2]: *** [fmtcheck.lo] Error 1
+  >> 240    make[2]: *** [closefrom.lo] Error 1
+  >> 241    make[2]: *** [fpurge.lo] Error 1
+  >> 242    make[2]: *** [heapsort.lo] Error 1
+     243    pgcc-Error-Unknown switch: -isystem
+     244    pgcc-Error-Unknown switch: -include
+  >> 245    make[2]: *** [getbsize.lo] Error 1
+     246    pgcc-Error-Unknown switch: -isystem
+     247    pgcc-Error-Unknown switch: -include
+  >> 248    make[2]: *** [humanize_number.lo] Error 1
+     249    pgcc-Error-Unknown switch: -isystem
+     250    pgcc-Error-Unknown switch: -include
+     251    pgcc-Error-Unknown switch: -isystem
+     252    pgcc-Error-Unknown switch: -include
+  >> 253    make[2]: *** [inet_net_pton.lo] Error 1
+     254    pgcc-Error-Unknown switch: -isystem
+     255    pgcc-Error-Unknown switch: -include
+  >> 256    make[2]: *** [merge.lo] Error 1
+  >> 257    make[2]: *** [pidfile.lo] Error 1
+  >> 258    make[2]: *** [nlist.lo] Error 1
+     259    pgcc-Error-Unknown switch: -isystem
+     260    pgcc-Error-Unknown switch: -include
+  >> 261    make[2]: *** [progname.lo] Error 1
+  >> 262    make[2]: *** [radixsort.lo] Error 1
+     263    pgcc-Error-Unknown switch: -isystem
+     264    pgcc-Error-Unknown switch: -include
+     265    pgcc-Error-Unknown switch: -isystem
+     266    pgcc-Error-Unknown switch: -include
+     267    pgcc-Error-Unknown switch: -isystem
+     268    pgcc-Error-Unknown switch: -include
+     269    pgcc-Error-Unknown switch: -isystem
+     270    pgcc-Error-Unknown switch: -include
+  >> 271    make[2]: *** [setmode.lo] Error 1
+  >> 272    make[2]: *** [reallocf.lo] Error 1
+  >> 273    make[2]: *** [strlcpy.lo] Error 1
+  >> 274    make[2]: *** [setproctitle.lo] Error 1
+     275    pgcc-Error-Unknown switch: -isystem
+     276    pgcc-Error-Unknown switch: -include
+     277    pgcc-Error-Unknown switch: -isystem
+     278    pgcc-Error-Unknown switch: -include
+  >> 279    make[2]: *** [readpassphrase.lo] Error 1
+  >> 280    make[2]: *** [strlcat.lo] Error 1
+     281    pgcc-Error-Unknown switch: -isystem
+     282    pgcc-Error-Unknown switch: -include
+  >> 283    make[2]: *** [reallocarray.lo] Error 1
+     284    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-NmMP5Z/libbsd-0.9.1/src'
+  >> 285    make[1]: *** [all-recursive] Error 1
+     286    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-NmMP5Z/libbsd-0.9.1'
+  >> 287    make: *** [all] Error 2
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-evnzswkuiy7q4nkpgnuqjgarpnwakstf/spack-build.out
+spack install ucx @ 1.3.1 % pgi@18.7  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j32'
+
+34 errors found in build log:
+     189    pgcc-Error-Unknown switch: -isystem
+     190    pgcc-Error-Unknown switch: -include
+     191    pgcc-Error-Unknown switch: -isystem
+     192    pgcc-Error-Unknown switch: -include
+     193    pgcc-Error-Unknown switch: -isystem
+     194    pgcc-Error-Unknown switch: -include
+  >> 195    make[2]: *** [err.lo] Error 1
+     196    make[2]: *** Waiting for unfinished jobs....
+     197    pgcc-Error-Unknown switch: -isystem
+     198    pgcc-Error-Unknown switch: -include
+     199    pgcc-Error-Unknown switch: -isystem
+     200    pgcc-Error-Unknown switch: -include
+  >> 201    make[2]: *** [fgetwln.lo] Error 1
+  >> 202    make[2]: *** [dehumanize_number.lo] Error 1
+     203    pgcc-Error-Unknown switch: -isystem
+     204    pgcc-Error-Unknown switch: -include
+  >> 205    make[2]: *** [arc4random_uniform.lo] Error 1
+  >> 206    make[2]: *** [expand_number.lo] Error 1
+     207    pgcc-Error-Unknown switch: -isystem
+  >> 208    make[2]: *** [fgetln.lo] Error 1
+     209    pgcc-Error-Unknown switch: -include
+     210    pgcc-Error-Unknown switch: -isystem
+     211    pgcc-Error-Unknown switch: -include
+     212    pgcc-Error-Unknown switch: -isystem
+     213    pgcc-Error-Unknown switch: -include
+  >> 214    make[2]: *** [fparseln.lo] Error 1
+  >> 215    make[2]: *** [bsd_getopt.lo] Error 1
+  >> 216    make[2]: *** [arc4random.lo] Error 1
+     217    pgcc-Error-Unknown switch: -isystem
+     218    pgcc-Error-Unknown switch: -include
+     219    pgcc-Error-Unknown switch: -isystem
+     220    pgcc-Error-Unknown switch: -include
+  >> 221    make[2]: *** [closefrom.lo] Error 1
+     222    pgcc-Error-Unknown switch: -isystem
+     223    pgcc-Error-Unknown switch: -include
+  >> 224    make[2]: *** [getbsize.lo] Error 1
+     225    pgcc-Error-Unknown switch: -isystem
+     226    pgcc-Error-Unknown switch: -include
+  >> 227    make[2]: *** [flopen.lo] Error 1
+     228    pgcc-Error-Unknown switch: -isystem
+     229    pgcc-Error-Unknown switch: -include
+     230    pgcc-Error-Unknown switch: -isystem
+     231    pgcc-Error-Unknown switch: -include
+     232    pgcc-Error-Unknown switch: -isystem
+     233    pgcc-Error-Unknown switch: -include
+     234    pgcc-Error-Unknown switch: -isystem
+     235    pgcc-Error-Unknown switch: -include
+  >> 236    make[2]: *** [fmtcheck.lo] Error 1
+  >> 237    make[2]: *** [inet_net_pton.lo] Error 1
+  >> 238    make[2]: *** [funopen.lo] Error 1
+     239    pgcc-Error-Unknown switch: -isystem
+     240    pgcc-Error-Unknown switch: -include
+  >> 241    make[2]: *** [radixsort.lo] Error 1
+  >> 242    make[2]: *** [fpurge.lo] Error 1
+     243    pgcc-Error-Unknown switch: -isystem
+     244    pgcc-Error-Unknown switch: -include
+  >> 245    make[2]: *** [getpeereid.lo] Error 1
+     246    pgcc-Error-Unknown switch: -isystem
+     247    pgcc-Error-Unknown switch: -include
+  >> 248    make[2]: *** [explicit_bzero.lo] Error 1
+  >> 249    make[2]: *** [reallocf.lo] Error 1
+     250    pgcc-Error-Unknown switch: -isystem
+     251    pgcc-Error-Unknown switch: -include
+     252    pgcc-Error-Unknown switch: -isystem
+     253    pgcc-Error-Unknown switch: -include
+  >> 254    make[2]: *** [progname.lo] Error 1
+     255    pgcc-Error-Unknown switch: -isystem
+     256    pgcc-Error-Unknown switch: -include
+     257    pgcc-Error-Unknown switch: -isystem
+     258    pgcc-Error-Unknown switch: -include
+  >> 259    make[2]: *** [nlist.lo] Error 1
+     260    pgcc-Error-Unknown switch: -isystem
+     261    pgcc-Error-Unknown switch: -include
+     262    pgcc-Error-Unknown switch: -isystem
+  >> 263    make[2]: *** [pidfile.lo] Error 1
+     264    pgcc-Error-Unknown switch: -include
+     265    pgcc-Error-Unknown switch: -isystem
+     266    pgcc-Error-Unknown switch: -include
+  >> 267    make[2]: *** [heapsort.lo] Error 1
+  >> 268    make[2]: *** [readpassphrase.lo] Error 1
+  >> 269    make[2]: *** [humanize_number.lo] Error 1
+  >> 270    make[2]: *** [strlcat.lo] Error 1
+  >> 271    make[2]: *** [setmode.lo] Error 1
+     272    pgcc-Error-Unknown switch: -isystem
+     273    pgcc-Error-Unknown switch: -include
+     274    pgcc-Error-Unknown switch: -isystem
+     275    pgcc-Error-Unknown switch: -include
+     276    pgcc-Error-Unknown switch: -isystem
+     277    pgcc-Error-Unknown switch: -include
+  >> 278    make[2]: *** [strlcpy.lo] Error 1
+  >> 279    make[2]: *** [reallocarray.lo] Error 1
+  >> 280    make[2]: *** [merge.lo] Error 1
+     281    pgcc-Error-Unknown switch: -isystem
+     282    pgcc-Error-Unknown switch: -include
+  >> 283    make[2]: *** [setproctitle.lo] Error 1
+     284    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-g3MMNe/libbsd-0.9.1/src'
+  >> 285    make[1]: *** [all-recursive] Error 1
+     286    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-g3MMNe/libbsd-0.9.1'
+  >> 287    make: *** [all] Error 2
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-rsvjgnicvty7u2wsnnqc5iote2xjzuct/spack-build.out
+spack install ucx @ 1.3.1 % pgi@17.10  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j32'
+
+34 errors found in build log:
+     187    pgcc-Error-Unknown switch: -isystem
+     188    pgcc-Error-Unknown switch: -include
+     189    pgcc-Error-Unknown switch: -isystem
+     190    pgcc-Error-Unknown switch: -include
+     191    pgcc-Error-Unknown switch: -isystem
+     192    pgcc-Error-Unknown switch: -include
+  >> 193    make[2]: *** [err.lo] Error 1
+     194    make[2]: *** Waiting for unfinished jobs....
+  >> 195    make[2]: *** [arc4random_uniform.lo] Error 1
+     196    pgcc-Error-Unknown switch: -isystem
+     197    pgcc-Error-Unknown switch: -include
+     198    pgcc-Error-Unknown switch: -isystem
+     199    pgcc-Error-Unknown switch: -include
+  >> 200    make[2]: *** [getbsize.lo] Error 1
+     201    pgcc-Error-Unknown switch: -isystem
+     202    pgcc-Error-Unknown switch: -include
+     203    pgcc-Error-Unknown switch: -isystem
+     204    pgcc-Error-Unknown switch: -include
+     205    pgcc-Error-Unknown switch: -isystem
+     206    pgcc-Error-Unknown switch: -include
+     207    pgcc-Error-Unknown switch: -isystem
+     208    pgcc-Error-Unknown switch: -include
+  >> 209    make[2]: *** [bsd_getopt.lo] Error 1
+     210    pgcc-Error-Unknown switch: -isystem
+     211    pgcc-Error-Unknown switch: -include
+     212    pgcc-Error-Unknown switch: -isystem
+     213    pgcc-Error-Unknown switch: -isystem
+     214    pgcc-Error-Unknown switch: -include
+     215    pgcc-Error-Unknown switch: -include
+  >> 216    make[2]: *** [funopen.lo] Error 1
+  >> 217    make[2]: *** [closefrom.lo] Error 1
+     218    pgcc-Error-Unknown switch: -isystem
+  >> 219    make[2]: *** [fpurge.lo] Error 1
+     220    pgcc-Error-Unknown switch: -include
+  >> 221    make[2]: *** [fgetln.lo] Error 1
+     222    pgcc-Error-Unknown switch: -isystem
+     223    pgcc-Error-Unknown switch: -include
+  >> 224    make[2]: *** [dehumanize_number.lo] Error 1
+  >> 225    make[2]: *** [expand_number.lo] Error 1
+     226    pgcc-Error-Unknown switch: -isystem
+     227    pgcc-Error-Unknown switch: -include
+     228    pgcc-Error-Unknown switch: -isystem
+     229    pgcc-Error-Unknown switch: -include
+  >> 230    make[2]: *** [getpeereid.lo] Error 1
+  >> 231    make[2]: *** [fgetwln.lo] Error 1
+  >> 232    make[2]: *** [fparseln.lo] Error 1
+  >> 233    make[2]: *** [explicit_bzero.lo] Error 1
+  >> 234    make[2]: *** [arc4random.lo] Error 1
+  >> 235    make[2]: *** [flopen.lo] Error 1
+     236    pgcc-Error-Unknown switch: -isystem
+     237    pgcc-Error-Unknown switch: -include
+     238    pgcc-Error-Unknown switch: -isystem
+     239    pgcc-Error-Unknown switch: -include
+  >> 240    make[2]: *** [nlist.lo] Error 1
+     241    pgcc-Error-Unknown switch: -isystem
+     242    pgcc-Error-Unknown switch: -include
+     243    pgcc-Error-Unknown switch: -isystem
+     244    pgcc-Error-Unknown switch: -isystem
+     245    pgcc-Error-Unknown switch: -include
+     246    pgcc-Error-Unknown switch: -include
+     247    pgcc-Error-Unknown switch: -isystem
+     248    pgcc-Error-Unknown switch: -include
+     249    pgcc-Error-Unknown switch: -isystem
+     250    pgcc-Error-Unknown switch: -include
+  >> 251    make[2]: *** [heapsort.lo] Error 1
+  >> 252    make[2]: *** [radixsort.lo] Error 1
+  >> 253    make[2]: *** [humanize_number.lo] Error 1
+     254    pgcc-Error-Unknown switch: -isystem
+     255    pgcc-Error-Unknown switch: -include
+  >> 256    make[2]: *** [fmtcheck.lo] Error 1
+  >> 257    make[2]: *** [pidfile.lo] Error 1
+     258    pgcc-Error-Unknown switch: -isystem
+     259    pgcc-Error-Unknown switch: -include
+     260    pgcc-Error-Unknown switch: -isystem
+     261    pgcc-Error-Unknown switch: -include
+  >> 262    make[2]: *** [setmode.lo] Error 1
+  >> 263    make[2]: *** [strlcat.lo] Error 1
+     264    pgcc-Error-Unknown switch: -isystem
+     265    pgcc-Error-Unknown switch: -include
+  >> 266    make[2]: *** [merge.lo] Error 1
+  >> 267    make[2]: *** [readpassphrase.lo] Error 1
+     268    pgcc-Error-Unknown switch: -isystem
+     269    pgcc-Error-Unknown switch: -include
+  >> 270    make[2]: *** [reallocarray.lo] Error 1
+  >> 271    make[2]: *** [inet_net_pton.lo] Error 1
+     272    pgcc-Error-Unknown switch: -isystem
+     273    pgcc-Error-Unknown switch: -include
+     274    pgcc-Error-Unknown switch: -isystem
+     275    pgcc-Error-Unknown switch: -include
+  >> 276    make[2]: *** [setproctitle.lo] Error 1
+     277    pgcc-Error-Unknown switch: -isystem
+     278    pgcc-Error-Unknown switch: -include
+  >> 279    make[2]: *** [progname.lo] Error 1
+  >> 280    make[2]: *** [reallocf.lo] Error 1
+     281    pgcc-Error-Unknown switch: -isystem
+     282    pgcc-Error-Unknown switch: -include
+  >> 283    make[2]: *** [strlcpy.lo] Error 1
+     284    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-9yZAJy/libbsd-0.9.1/src'
+  >> 285    make[1]: *** [all-recursive] Error 1
+     286    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-9yZAJy/libbsd-0.9.1'
+  >> 287    make: *** [all] Error 2
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-pdjj5winih4tigxhnjcw4iszboh2wuik/spack-build.out
+spack install ucx @ 1.3.1 % pgi@16.10  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j32'
+
+34 errors found in build log:
+     199    pgcc-Error-Unknown switch: -isystem
+     200    pgcc-Error-Unknown switch: -include
+     201    pgcc-Error-Unknown switch: -isystem
+     202    pgcc-Error-Unknown switch: -include
+     203    pgcc-Error-Unknown switch: -isystem
+     204    pgcc-Error-Unknown switch: -include
+  >> 205    make[2]: *** [flopen.lo] Error 1
+     206    make[2]: *** Waiting for unfinished jobs....
+     207    pgcc-Error-Unknown switch: -isystem
+     208    pgcc-Error-Unknown switch: -include
+  >> 209    make[2]: *** [explicit_bzero.lo] Error 1
+     210    pgcc-Error-Unknown switch: -isystem
+     211    pgcc-Error-Unknown switch: -include
+  >> 212    make[2]: *** [expand_number.lo] Error 1
+     213    pgcc-Error-Unknown switch: -isystem
+     214    pgcc-Error-Unknown switch: -include
+  >> 215    make[2]: *** [fgetwln.lo] Error 1
+  >> 216    make[2]: *** [fpurge.lo] Error 1
+  >> 217    make[2]: *** [closefrom.lo] Error 1
+     218    pgcc-Error-Unknown switch: -isystem
+     219    pgcc-Error-Unknown switch: -include
+  >> 220    make[2]: *** [funopen.lo] Error 1
+  >> 221    make[2]: *** [fgetln.lo] Error 1
+  >> 222    make[2]: *** [fmtcheck.lo] Error 1
+  >> 223    make[2]: *** [bsd_getopt.lo] Error 1
+  >> 224    make[2]: *** [heapsort.lo] Error 1
+     225    pgcc-Error-Unknown switch: -isystem
+     226    pgcc-Error-Unknown switch: -include
+     227    pgcc-Error-Unknown switch: -isystem
+     228    pgcc-Error-Unknown switch: -include
+  >> 229    make[2]: *** [arc4random.lo] Error 1
+     230    pgcc-Error-Unknown switch: -isystem
+     231    pgcc-Error-Unknown switch: -include
+  >> 232    make[2]: *** [dehumanize_number.lo] Error 1
+     233    pgcc-Error-Unknown switch: -isystem
+     234    pgcc-Error-Unknown switch: -include
+     235    pgcc-Error-Unknown switch: -isystem
+     236    pgcc-Error-Unknown switch: -include
+  >> 237    make[2]: *** [err.lo] Error 1
+  >> 238    make[2]: *** [fparseln.lo] Error 1
+  >> 239    make[2]: *** [arc4random_uniform.lo] Error 1
+  >> 240    make[2]: *** [humanize_number.lo] Error 1
+  >> 241    make[2]: *** [getpeereid.lo] Error 1
+     242    pgcc-Error-Unknown switch: -isystem
+     243    pgcc-Error-Unknown switch: -include
+     244    pgcc-Error-Unknown switch: -isystem
+     245    pgcc-Error-Unknown switch: -include
+     246    pgcc-Error-Unknown switch: -isystem
+     247    pgcc-Error-Unknown switch: -include
+
+     ...
+
+     252    pgcc-Error-Unknown switch: -isystem
+     253    pgcc-Error-Unknown switch: -include
+     254    pgcc-Error-Unknown switch: -isystem
+     255    pgcc-Error-Unknown switch: -include
+     256    pgcc-Error-Unknown switch: -isystem
+     257    pgcc-Error-Unknown switch: -include
+  >> 258    make[2]: *** [merge.lo] Error 1
+  >> 259    make[2]: *** [pidfile.lo] Error 1
+     260    pgcc-Error-Unknown switch: -isystem
+     261    pgcc-Error-Unknown switch: -include
+  >> 262    make[2]: *** [nlist.lo] Error 1
+  >> 263    make[2]: *** [readpassphrase.lo] Error 1
+  >> 264    make[2]: *** [strlcat.lo] Error 1
+  >> 265    make[2]: *** [setproctitle.lo] Error 1
+  >> 266    make[2]: *** [radixsort.lo] Error 1
+  >> 267    make[2]: *** [inet_net_pton.lo] Error 1
+     268    pgcc-Error-Unknown switch: -isystem
+     269    pgcc-Error-Unknown switch: -include
+  >> 270    make[2]: *** [progname.lo] Error 1
+     271    pgcc-Error-Unknown switch: -isystem
+     272    pgcc-Error-Unknown switch: -include
+     273    pgcc-Error-Unknown switch: -isystem
+     274    pgcc-Error-Unknown switch: -include
+  >> 275    make[2]: *** [getbsize.lo] Error 1
+     276    pgcc-Error-Unknown switch: -isystem
+     277    pgcc-Error-Unknown switch: -include
+     278    pgcc-Error-Unknown switch: -isystem
+     279    pgcc-Error-Unknown switch: -include
+  >> 280    make[2]: *** [reallocarray.lo] Error 1
+  >> 281    make[2]: *** [setmode.lo] Error 1
+  >> 282    make[2]: *** [reallocf.lo] Error 1
+  >> 283    make[2]: *** [strlcpy.lo] Error 1
+     284    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-Uau5Ea/libbsd-0.9.1/src'
+  >> 285    make[1]: *** [all-recursive] Error 1
+     286    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-Uau5Ea/libbsd-0.9.1'
+  >> 287    make: *** [all] Error 2
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-ljv7ndktu6ysbgn3o6qovtaxp4hevwj6/spack-build.out
+spack install ucx @ 1.2.2 % gcc@8.2.0  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+==> Warning: Module file already exists : skipping creation
+file : /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/share/spack/modules/linux-centos7-x86_64/libarchive-3.3.2-gcc-8.2.0
+spec : libarchive@3.3.2%gcc@8.2.0 arch=linux-centos7-x86_64 ^autoconf@2.69%gcc@8.2.0 arch=linux-centos7-x86_64 ^automake@1.16.1%gcc@8.2.0 arch=linux-centos7-x86_64 ^bzip2@1.0.6%gcc@8.2.0+shared arch=linux-centos7-x86_64 ^expat@2.2.5%gcc@8.2.0+libbsd arch=linux-centos7-x86_64 ^gmp@6.1.2%gcc@8.2.0 arch=linux-centos7-x86_64 ^libbsd@0.9.1%gcc@8.2.0 arch=linux-centos7-x86_64 ^libtool@2.4.6%gcc@8.2.0 arch=linux-centos7-x86_64 ^libxml2@2.9.8%gcc@8.2.0~python arch=linux-centos7-x86_64 ^lz4@1.9.0%gcc@8.2.0 arch=linux-centos7-x86_64 ^lzo@2.10%gcc@8.2.0 arch=linux-centos7-x86_64 ^m4@1.4.18%gcc@8.2.0 patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,c0a408fbffb7255fcc75e26bd8edab116fc81d216bfd18b473668b7739a4158e,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 +sigsegv arch=linux-centos7-x86_64 ^nettle@3.4%gcc@8.2.0 arch=linux-centos7-x86_64 ^openssl@1.1.1b%gcc@8.2.0+systemcerts arch=linux-centos7-x86_64 ^xz@5.2.4%gcc@8.2.0 arch=linux-centos7-x86_64 ^zlib@1.2.11%gcc@8.2.0+optimize+pic+shared arch=linux-centos7-x86_64
+curl: (37) Couldn't open file /usr/projects/draco/vendors/spack.mirror/cmake/cmake-3.14.2.tar.gz
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j32'
+
+11 errors found in build log:
+     226    checking for CRAY_UGNI... no
+     227    checking sys/uio.h usability... yes
+     228    checking sys/uio.h presence... yes
+     229    checking for sys/uio.h... yes
+     230    checking for process_vm_readv... yes
+     231    configure: KNEM path was not found, guessing ...
+  >> 232    find: '/opt/knem*': No such file or directory
+     233    dirname: missing operand
+     234    Try 'dirname --help' for more information.
+     235    checking /include/knem_io.h usability... no
+     236    checking /include/knem_io.h presence... no
+     237    checking for /include/knem_io.h... no
+     238    configure: WARNING: KNEM requested but not found
+
+     ...
+
+     365      CC       sm/mm/libuct_la-mm_md.lo
+     366      CC       sm/mm/libuct_la-mm_sysv.lo
+     367      CC       sm/mm/libuct_la-mm_posix.lo
+     368      CC       sm/cma/libuct_la-cma_iface.lo
+     369    In file included from ib/ud/base/ud_ep.h:10,
+     370                     from ib/ud/base/ud_ep.c:7:
+  >> 371    ib/ud/base/ud_def.h:176:1: error: alignment 1 of 'struct uct_ud_sen
+            d_skb_inl' is less than 64 [-Werror=packed-not-aligned]
+     372     } UCS_S_PACKED uct_ud_send_skb_inl_t;
+     373     ^
+     374    In file included from ib/ud/base/ud_iface.h:21,
+     375                     from ib/ud/base/ud_iface.c:7:
+  >> 376    ib/ud/base/ud_def.h:176:1: error: alignment 1 of 'struct uct_ud_sen
+            d_skb_inl' is less than 64 [-Werror=packed-not-aligned]
+     377     } UCS_S_PACKED uct_ud_send_skb_inl_t;
+     378     ^
+     379    In file included from /scratch/users/dantopa/new-spack/libraries/da
+            rwin-general.ucx/var/spack/stage/ucx-1.2.2-vwbx4vsf5f6tpf46macjm3m3
+            6cevbkqb/ucx-1.2.2/src/uct/ib/ud/base/ud_iface.h:21,
+     380                     from ib/ud/verbs/ud_verbs.c:19:
+  >> 381    /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/s
+            pack/stage/ucx-1.2.2-vwbx4vsf5f6tpf46macjm3m36cevbkqb/ucx-1.2.2/src
+            /uct/ib/ud/base/ud_def.h:176:1: error: alignment 1 of 'struct uct_u
+            d_send_skb_inl' is less than 64 [-Werror=packed-not-aligned]
+     382     } UCS_S_PACKED uct_ud_send_skb_inl_t;
+     383     ^
+     384    In file included from ib/ud/base/ud_iface.h:21,
+     385                     from ib/ud/base/ud_log.c:7:
+  >> 386    ib/ud/base/ud_def.h:176:1: error: alignment 1 of 'struct uct_ud_sen
+            d_skb_inl' is less than 64 [-Werror=packed-not-aligned]
+     387     } UCS_S_PACKED uct_ud_send_skb_inl_t;
+     388     ^
+     389    cc1: all warnings being treated as errors
+  >> 390    make[2]: *** [ib/ud/base/libuct_la-ud_log.lo] Error 1
+     391    make[2]: *** Waiting for unfinished jobs....
+     392    cc1: all warnings being treated as errors
+  >> 393    make[2]: *** [ib/ud/base/libuct_la-ud_ep.lo] Error 1
+     394    cc1: all warnings being treated as errors
+  >> 395    make[2]: *** [ib/ud/base/libuct_la-ud_iface.lo] Error 1
+     396    cc1: all warnings being treated as errors
+  >> 397    make[2]: *** [ib/ud/verbs/libuct_la-ud_verbs.lo] Error 1
+     398    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-h5xwIE/ucx-1.2.2/src/uct'
+  >> 399    make[1]: *** [all-recursive] Error 1
+     400    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-h5xwIE/ucx-1.2.2'
+  >> 401    make: *** [all] Error 2
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/ucx-1.2.2-vwbx4vsf5f6tpf46macjm3m36cevbkqb/spack-build.out
+spack install ucx @ 1.2.2 % gcc@7.3.0  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+spack install ucx @ 1.2.2 % gcc@6.4.0  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+spack install ucx @ 1.2.2 % gcc@5.5.0  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+spack install ucx @ 1.2.2 % gcc@4.9.3  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+spack install ucx @ 1.2.2 % gcc@4.8.5  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+spack install ucx @ 1.2.2 % intel@18.0.3  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+==> Error: Conflicts in concretized spec "ucx@1.2.2%intel@18.0.3 arch=linux-centos7-x86_64/upzx7vv"
+List of matching conflicts for spec:
+
+    rdma-core@20%intel@18.0.3 build_type=RelWithDebInfo arch=linux-centos7-x86_64
+        ^cmake@3.14.2%intel@18.0.3~doc+ncurses+openssl~ownlibs~qt arch=linux-centos7-x86_64
+            ^bzip2@1.0.6%intel@18.0.3+shared arch=linux-centos7-x86_64
+            ^curl@7.63.0%intel@18.0.3~darwinssl~libssh~libssh2~nghttp2 arch=linux-centos7-x86_64
+            ^expat@2.2.5%intel@18.0.3+libbsd arch=linux-centos7-x86_64
+                ^libbsd@0.9.1%intel@18.0.3 arch=linux-centos7-x86_64
+            ^libarchive@3.3.2%intel@18.0.3 arch=linux-centos7-x86_64
+                ^libxml2@2.9.8%intel@18.0.3~python arch=linux-centos7-x86_64
+                ^lz4@1.9.0%intel@18.0.3 arch=linux-centos7-x86_64
+                ^lzo@2.10%intel@18.0.3 arch=linux-centos7-x86_64
+                ^nettle@3.4%intel@18.0.3 arch=linux-centos7-x86_64
+                    ^gmp@6.1.2%intel@18.0.3 arch=linux-centos7-x86_64
+                        ^autoconf@2.69%intel@18.0.3 arch=linux-centos7-x86_64
+                        ^automake@1.16.1%intel@18.0.3 arch=linux-centos7-x86_64
+                        ^libtool@2.4.6%intel@18.0.3 arch=linux-centos7-x86_64
+                        ^m4@1.4.18%intel@18.0.3 patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,c0a408fbffb7255fcc75e26bd8edab116fc81d216bfd18b473668b7739a4158e,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 +sigsegv arch=linux-centos7-x86_64
+                ^openssl@1.1.1b%intel@18.0.3+systemcerts arch=linux-centos7-x86_64
+                ^xz@5.2.4%intel@18.0.3 arch=linux-centos7-x86_64
+                ^zlib@1.2.11%intel@18.0.3+optimize+pic+shared arch=linux-centos7-x86_64
+            ^libuv@1.25.0%intel@18.0.3 arch=linux-centos7-x86_64
+            ^ncurses@6.1%intel@18.0.3~symlinks~termlib arch=linux-centos7-x86_64
+            ^rhash@1.3.5%intel@18.0.3 arch=linux-centos7-x86_64
+        ^libnl@3.3.0%intel@18.0.3 arch=linux-centos7-x86_64
+            ^bison@3.0.5%intel@18.0.3 arch=linux-centos7-x86_64
+            ^flex@2.6.4%intel@18.0.3+lex patches=09c22e5c6fef327d3e48eb23f0d610dcd3a35ab9207f12e0f875701c677978d3 arch=linux-centos7-x86_64
+        ^pkg-config@0.29.2%intel@18.0.3+internal_glib arch=linux-centos7-x86_64
+
+1. "%intel" conflicts with "rdma-core" [rdma-core cannot be built with intel (use gcc instead)]
+
+spack install ucx @ 1.2.2 % intel@17.0.6  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+==> Error: Conflicts in concretized spec "ucx@1.2.2%intel@17.0.6 arch=linux-centos7-x86_64/bewdcfg"
+List of matching conflicts for spec:
+
+    rdma-core@20%intel@17.0.6 build_type=RelWithDebInfo arch=linux-centos7-x86_64
+        ^cmake@3.14.2%intel@17.0.6~doc+ncurses+openssl~ownlibs~qt arch=linux-centos7-x86_64
+            ^bzip2@1.0.6%intel@17.0.6+shared arch=linux-centos7-x86_64
+            ^curl@7.63.0%intel@17.0.6~darwinssl~libssh~libssh2~nghttp2 arch=linux-centos7-x86_64
+            ^expat@2.2.5%intel@17.0.6+libbsd arch=linux-centos7-x86_64
+                ^libbsd@0.9.1%intel@17.0.6 arch=linux-centos7-x86_64
+            ^libarchive@3.3.2%intel@17.0.6 arch=linux-centos7-x86_64
+                ^libxml2@2.9.8%intel@17.0.6~python arch=linux-centos7-x86_64
+                ^lz4@1.9.0%intel@17.0.6 arch=linux-centos7-x86_64
+                ^lzo@2.10%intel@17.0.6 arch=linux-centos7-x86_64
+                ^nettle@3.4%intel@17.0.6 arch=linux-centos7-x86_64
+                    ^gmp@6.1.2%intel@17.0.6 arch=linux-centos7-x86_64
+                        ^autoconf@2.69%intel@17.0.6 arch=linux-centos7-x86_64
+                        ^automake@1.16.1%intel@17.0.6 arch=linux-centos7-x86_64
+                        ^libtool@2.4.6%intel@17.0.6 arch=linux-centos7-x86_64
+                        ^m4@1.4.18%intel@17.0.6 patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,c0a408fbffb7255fcc75e26bd8edab116fc81d216bfd18b473668b7739a4158e,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 +sigsegv arch=linux-centos7-x86_64
+                ^openssl@1.1.1b%intel@17.0.6+systemcerts arch=linux-centos7-x86_64
+                ^xz@5.2.4%intel@17.0.6 arch=linux-centos7-x86_64
+                ^zlib@1.2.11%intel@17.0.6+optimize+pic+shared arch=linux-centos7-x86_64
+            ^libuv@1.25.0%intel@17.0.6 arch=linux-centos7-x86_64
+            ^ncurses@6.1%intel@17.0.6~symlinks~termlib arch=linux-centos7-x86_64
+            ^rhash@1.3.5%intel@17.0.6 arch=linux-centos7-x86_64
+        ^libnl@3.3.0%intel@17.0.6 arch=linux-centos7-x86_64
+            ^bison@3.0.5%intel@17.0.6 arch=linux-centos7-x86_64
+            ^flex@2.6.4%intel@17.0.6+lex patches=09c22e5c6fef327d3e48eb23f0d610dcd3a35ab9207f12e0f875701c677978d3 arch=linux-centos7-x86_64
+        ^pkg-config@0.29.2%intel@17.0.6+internal_glib arch=linux-centos7-x86_64
+
+1. "%intel" conflicts with "rdma-core" [rdma-core cannot be built with intel (use gcc instead)]
+
+spack install ucx @ 1.2.2 % intel@16.0.4  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+==> Error: Conflicts in concretized spec "ucx@1.2.2%intel@16.0.4 arch=linux-centos7-x86_64/yazzbfj"
+List of matching conflicts for spec:
+
+    rdma-core@20%intel@16.0.4 build_type=RelWithDebInfo arch=linux-centos7-x86_64
+        ^cmake@3.14.2%intel@16.0.4~doc+ncurses+openssl~ownlibs~qt arch=linux-centos7-x86_64
+            ^bzip2@1.0.6%intel@16.0.4+shared arch=linux-centos7-x86_64
+            ^curl@7.63.0%intel@16.0.4~darwinssl~libssh~libssh2~nghttp2 arch=linux-centos7-x86_64
+            ^expat@2.2.5%intel@16.0.4+libbsd arch=linux-centos7-x86_64
+                ^libbsd@0.9.1%intel@16.0.4 arch=linux-centos7-x86_64
+            ^libarchive@3.3.2%intel@16.0.4 arch=linux-centos7-x86_64
+                ^libxml2@2.9.8%intel@16.0.4~python arch=linux-centos7-x86_64
+                ^lz4@1.9.0%intel@16.0.4 arch=linux-centos7-x86_64
+                ^lzo@2.10%intel@16.0.4 arch=linux-centos7-x86_64
+                ^nettle@3.4%intel@16.0.4 arch=linux-centos7-x86_64
+                    ^gmp@6.1.2%intel@16.0.4 arch=linux-centos7-x86_64
+                        ^autoconf@2.69%intel@16.0.4 arch=linux-centos7-x86_64
+                        ^automake@1.16.1%intel@16.0.4 arch=linux-centos7-x86_64
+                        ^libtool@2.4.6%intel@16.0.4 arch=linux-centos7-x86_64
+                        ^m4@1.4.18%intel@16.0.4 patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,c0a408fbffb7255fcc75e26bd8edab116fc81d216bfd18b473668b7739a4158e,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 +sigsegv arch=linux-centos7-x86_64
+                ^openssl@1.1.1b%intel@16.0.4+systemcerts arch=linux-centos7-x86_64
+                ^xz@5.2.4%intel@16.0.4 arch=linux-centos7-x86_64
+                ^zlib@1.2.11%intel@16.0.4+optimize+pic+shared arch=linux-centos7-x86_64
+            ^libuv@1.25.0%intel@16.0.4 arch=linux-centos7-x86_64
+            ^ncurses@6.1%intel@16.0.4~symlinks~termlib arch=linux-centos7-x86_64
+            ^rhash@1.3.5%intel@16.0.4 arch=linux-centos7-x86_64
+        ^libnl@3.3.0%intel@16.0.4 arch=linux-centos7-x86_64
+            ^bison@3.0.5%intel@16.0.4 arch=linux-centos7-x86_64
+            ^flex@2.6.4%intel@16.0.4+lex patches=09c22e5c6fef327d3e48eb23f0d610dcd3a35ab9207f12e0f875701c677978d3 arch=linux-centos7-x86_64
+        ^pkg-config@0.29.2%intel@16.0.4+internal_glib arch=linux-centos7-x86_64
+
+1. "%intel" conflicts with "rdma-core" [rdma-core cannot be built with intel (use gcc instead)]
+
+spack install ucx @ 1.2.2 % pgi@18.10  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j32'
+
+34 errors found in build log:
+     189    pgcc-Error-Unknown switch: -isystem
+     190    pgcc-Error-Unknown switch: -include
+     191    pgcc-Error-Unknown switch: -isystem
+     192    pgcc-Error-Unknown switch: -include
+     193    pgcc-Error-Unknown switch: -isystem
+     194    pgcc-Error-Unknown switch: -include
+  >> 195    make[2]: *** [fgetwln.lo] Error 1
+     196    make[2]: *** Waiting for unfinished jobs....
+     197    pgcc-Error-Unknown switch: -isystem
+     198    pgcc-Error-Unknown switch: -include
+     199    pgcc-Error-Unknown switch: -isystem
+     200    pgcc-Error-Unknown switch: -include
+     201    pgcc-Error-Unknown switch: -isystem
+
+     ...
+
+     203    pgcc-Error-Unknown switch: -isystem
+     204    pgcc-Error-Unknown switch: -include
+     205    pgcc-Error-Unknown switch: -isystem
+     206    pgcc-Error-Unknown switch: -include
+     207    pgcc-Error-Unknown switch: -isystem
+     208    pgcc-Error-Unknown switch: -include
+  >> 209    make[2]: *** [expand_number.lo] Error 1
+     210    pgcc-Error-Unknown switch: -isystem
+     211    pgcc-Error-Unknown switch: -include
+  >> 212    make[2]: *** [fpurge.lo] Error 1
+     213    pgcc-Error-Unknown switch: -isystem
+     214    pgcc-Error-Unknown switch: -include
+     215    pgcc-Error-Unknown switch: -isystem
+     216    pgcc-Error-Unknown switch: -include
+     217    pgcc-Error-Unknown switch: -isystem
+     218    pgcc-Error-Unknown switch: -include
+     219    pgcc-Error-Unknown switch: -isystem
+     220    pgcc-Error-Unknown switch: -include
+  >> 221    make[2]: *** [arc4random_uniform.lo] Error 1
+  >> 222    make[2]: *** [dehumanize_number.lo] Error 1
+  >> 223    make[2]: *** [err.lo] Error 1
+  >> 224    make[2]: *** [flopen.lo] Error 1
+  >> 225    make[2]: *** [fmtcheck.lo] Error 1
+  >> 226    make[2]: *** [fparseln.lo] Error 1
+  >> 227    make[2]: *** [funopen.lo] Error 1
+  >> 228    make[2]: *** [explicit_bzero.lo] Error 1
+  >> 229    make[2]: *** [getpeereid.lo] Error 1
+  >> 230    make[2]: *** [bsd_getopt.lo] Error 1
+  >> 231    make[2]: *** [heapsort.lo] Error 1
+  >> 232    make[2]: *** [humanize_number.lo] Error 1
+     233    pgcc-Error-Unknown switch: -isystem
+     234    pgcc-Error-Unknown switch: -include
+     235    pgcc-Error-Unknown switch: -isystem
+     236    pgcc-Error-Unknown switch: -include
+     237    pgcc-Error-Unknown switch: -isystem
+     238    pgcc-Error-Unknown switch: -include
+     239    pgcc-Error-Unknown switch: -isystem
+     240    pgcc-Error-Unknown switch: -include
+  >> 241    make[2]: *** [arc4random.lo] Error 1
+  >> 242    make[2]: *** [progname.lo] Error 1
+  >> 243    make[2]: *** [closefrom.lo] Error 1
+  >> 244    make[2]: *** [fgetln.lo] Error 1
+     245    pgcc-Error-Unknown switch: -isystem
+     246    pgcc-Error-Unknown switch: -include
+     247    pgcc-Error-Unknown switch: -isystem
+     248    pgcc-Error-Unknown switch: -include
+  >> 249    make[2]: *** [pidfile.lo] Error 1
+     250    pgcc-Error-Unknown switch: -isystem
+     251    pgcc-Error-Unknown switch: -include
+     252    pgcc-Error-Unknown switch: -isystem
+     253    pgcc-Error-Unknown switch: -include
+     254    pgcc-Error-Unknown switch: -isystem
+     255    pgcc-Error-Unknown switch: -include
+     256    pgcc-Error-Unknown switch: -isystem
+     257    pgcc-Error-Unknown switch: -include
+     258    pgcc-Error-Unknown switch: -isystem
+     259    pgcc-Error-Unknown switch: -include
+  >> 260    make[2]: *** [merge.lo] Error 1
+  >> 261    make[2]: *** [inet_net_pton.lo] Error 1
+     262    pgcc-Error-Unknown switch: -isystem
+  >> 263    make[2]: *** [setmode.lo] Error 1
+     264    pgcc-Error-Unknown switch: -include
+  >> 265    make[2]: *** [nlist.lo] Error 1
+  >> 266    make[2]: *** [radixsort.lo] Error 1
+  >> 267    make[2]: *** [getbsize.lo] Error 1
+     268    pgcc-Error-Unknown switch: -isystem
+     269    pgcc-Error-Unknown switch: -include
+  >> 270    make[2]: *** [reallocarray.lo] Error 1
+     271    pgcc-Error-Unknown switch: -isystem
+     272    pgcc-Error-Unknown switch: -include
+  >> 273    make[2]: *** [reallocf.lo] Error 1
+  >> 274    make[2]: *** [setproctitle.lo] Error 1
+     275    pgcc-Error-Unknown switch: -isystem
+     276    pgcc-Error-Unknown switch: -include
+     277    pgcc-Error-Unknown switch: -isystem
+     278    pgcc-Error-Unknown switch: -include
+     279    pgcc-Error-Unknown switch: -isystem
+     280    pgcc-Error-Unknown switch: -include
+  >> 281    make[2]: *** [strlcpy.lo] Error 1
+  >> 282    make[2]: *** [readpassphrase.lo] Error 1
+  >> 283    make[2]: *** [strlcat.lo] Error 1
+     284    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-OPsSNv/libbsd-0.9.1/src'
+  >> 285    make[1]: *** [all-recursive] Error 1
+     286    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-OPsSNv/libbsd-0.9.1'
+  >> 287    make: *** [all] Error 2
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-evnzswkuiy7q4nkpgnuqjgarpnwakstf/spack-build.out
+spack install ucx @ 1.2.2 % pgi@18.7  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j32'
+
+34 errors found in build log:
+     197    pgcc-Error-Unknown switch: -isystem
+     198    pgcc-Error-Unknown switch: -include
+     199    pgcc-Error-Unknown switch: -isystem
+     200    pgcc-Error-Unknown switch: -include
+     201    pgcc-Error-Unknown switch: -isystem
+     202    pgcc-Error-Unknown switch: -include
+  >> 203    make[2]: *** [explicit_bzero.lo] Error 1
+     204    make[2]: *** Waiting for unfinished jobs....
+  >> 205    make[2]: *** [arc4random.lo] Error 1
+  >> 206    make[2]: *** [err.lo] Error 1
+  >> 207    make[2]: *** [flopen.lo] Error 1
+  >> 208    make[2]: *** [fgetln.lo] Error 1
+     209    pgcc-Error-Unknown switch: -isystem
+     210    pgcc-Error-Unknown switch: -include
+     211    pgcc-Error-Unknown switch: -isystem
+     212    pgcc-Error-Unknown switch: -include
+     213    pgcc-Error-Unknown switch: -isystem
+     214    pgcc-Error-Unknown switch: -include
+  >> 215    make[2]: *** [fpurge.lo] Error 1
+  >> 216    make[2]: *** [fgetwln.lo] Error 1
+  >> 217    make[2]: *** [dehumanize_number.lo] Error 1
+     218    pgcc-Error-Unknown switch: -isystem
+     219    pgcc-Error-Unknown switch: -include
+  >> 220    make[2]: *** [fmtcheck.lo] Error 1
+  >> 221    make[2]: *** [bsd_getopt.lo] Error 1
+     222    pgcc-Error-Unknown switch: -isystem
+     223    pgcc-Error-Unknown switch: -include
+  >> 224    make[2]: *** [fparseln.lo] Error 1
+  >> 225    make[2]: *** [getbsize.lo] Error 1
+  >> 226    make[2]: *** [closefrom.lo] Error 1
+     227    pgcc-Error-Unknown switch: -isystem
+     228    pgcc-Error-Unknown switch: -include
+     229    pgcc-Error-Unknown switch: -isystem
+     230    pgcc-Error-Unknown switch: -include
+     231    pgcc-Error-Unknown switch: -isystem
+     232    pgcc-Error-Unknown switch: -include
+     233    pgcc-Error-Unknown switch: -isystem
+     234    pgcc-Error-Unknown switch: -include
+     235    pgcc-Error-Unknown switch: -isystem
+     236    pgcc-Error-Unknown switch: -include
+  >> 237    make[2]: *** [arc4random_uniform.lo] Error 1
+  >> 238    make[2]: *** [heapsort.lo] Error 1
+     239    pgcc-Error-Unknown switch: -isystem
+     240    pgcc-Error-Unknown switch: -include
+  >> 241    make[2]: *** [getpeereid.lo] Error 1
+  >> 242    make[2]: *** [inet_net_pton.lo] Error 1
+     243    pgcc-Error-Unknown switch: -isystem
+     244    pgcc-Error-Unknown switch: -include
+  >> 245    make[2]: *** [funopen.lo] Error 1
+     246    pgcc-Error-Unknown switch: -isystem
+     247    pgcc-Error-Unknown switch: -include
+     248    pgcc-Error-Unknown switch: -isystem
+     249    pgcc-Error-Unknown switch: -include
+     250    pgcc-Error-Unknown switch: -isystem
+     251    pgcc-Error-Unknown switch: -include
+     252    pgcc-Error-Unknown switch: -isystem
+     253    pgcc-Error-Unknown switch: -include
+     254    pgcc-Error-Unknown switch: -isystem
+     255    pgcc-Error-Unknown switch: -include
+  >> 256    make[2]: *** [expand_number.lo] Error 1
+  >> 257    make[2]: *** [reallocarray.lo] Error 1
+  >> 258    make[2]: *** [reallocf.lo] Error 1
+     259    pgcc-Error-Unknown switch: -isystem
+     260    pgcc-Error-Unknown switch: -include
+     261    pgcc-Error-Unknown switch: -isystem
+     262    pgcc-Error-Unknown switch: -include
+  >> 263    make[2]: *** [merge.lo] Error 1
+  >> 264    make[2]: *** [setproctitle.lo] Error 1
+  >> 265    make[2]: *** [radixsort.lo] Error 1
+  >> 266    make[2]: *** [humanize_number.lo] Error 1
+     267    pgcc-Error-Unknown switch: -isystem
+     268    pgcc-Error-Unknown switch: -include
+     269    pgcc-Error-Unknown switch: -isystem
+     270    pgcc-Error-Unknown switch: -include
+     271    pgcc-Error-Unknown switch: -isystem
+     272    pgcc-Error-Unknown switch: -include
+  >> 273    make[2]: *** [progname.lo] Error 1
+  >> 274    make[2]: *** [readpassphrase.lo] Error 1
+  >> 275    make[2]: *** [setmode.lo] Error 1
+  >> 276    make[2]: *** [strlcat.lo] Error 1
+  >> 277    make[2]: *** [strlcpy.lo] Error 1
+     278    pgcc-Error-Unknown switch: -isystem
+     279    pgcc-Error-Unknown switch: -include
+     280    pgcc-Error-Unknown switch: -isystem
+     281    pgcc-Error-Unknown switch: -include
+  >> 282    make[2]: *** [nlist.lo] Error 1
+  >> 283    make[2]: *** [pidfile.lo] Error 1
+     284    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-PkeoC4/libbsd-0.9.1/src'
+  >> 285    make[1]: *** [all-recursive] Error 1
+     286    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-PkeoC4/libbsd-0.9.1'
+  >> 287    make: *** [all] Error 2
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-rsvjgnicvty7u2wsnnqc5iote2xjzuct/spack-build.out
+spack install ucx @ 1.2.2 % pgi@17.10  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j32'
+
+34 errors found in build log:
+     185      CC       strlcpy.lo
+     186      CC       strlcat.lo
+     187    pgcc-Error-Unknown switch: -isystem
+     188    pgcc-Error-Unknown switch: -include
+     189    pgcc-Error-Unknown switch: -isystem
+     190    pgcc-Error-Unknown switch: -include
+  >> 191    make[2]: *** [arc4random_uniform.lo] Error 1
+     192    make[2]: *** Waiting for unfinished jobs....
+     193    pgcc-Error-Unknown switch: -isystem
+     194    pgcc-Error-Unknown switch: -include
+     195    pgcc-Error-Unknown switch: -isystem
+     196    pgcc-Error-Unknown switch: -include
+     197    pgcc-Error-Unknown switch: -isystem
+
+     ...
+
+     201    pgcc-Error-Unknown switch: -isystem
+     202    pgcc-Error-Unknown switch: -include
+     203    pgcc-Error-Unknown switch: -isystem
+     204    pgcc-Error-Unknown switch: -include
+     205    pgcc-Error-Unknown switch: -isystem
+     206    pgcc-Error-Unknown switch: -include
+  >> 207    make[2]: *** [fmtcheck.lo] Error 1
+  >> 208    make[2]: *** [closefrom.lo] Error 1
+     209    pgcc-Error-Unknown switch: -isystem
+     210    pgcc-Error-Unknown switch: -include
+     211    pgcc-Error-Unknown switch: -isystem
+     212    pgcc-Error-Unknown switch: -include
+     213    pgcc-Error-Unknown switch: -isystem
+     214    pgcc-Error-Unknown switch: -include
+     215    pgcc-Error-Unknown switch: -isystem
+     216    pgcc-Error-Unknown switch: -include
+  >> 217    make[2]: *** [explicit_bzero.lo] Error 1
+  >> 218    make[2]: *** [dehumanize_number.lo] Error 1
+  >> 219    make[2]: *** [err.lo] Error 1
+  >> 220    make[2]: *** [fgetwln.lo] Error 1
+  >> 221    make[2]: *** [arc4random.lo] Error 1
+     222    pgcc-Error-Unknown switch: -isystem
+     223    pgcc-Error-Unknown switch: -include
+     224    pgcc-Error-Unknown switch: -isystem
+  >> 225    make[2]: *** [fparseln.lo] Error 1
+     226    pgcc-Error-Unknown switch: -include
+  >> 227    make[2]: *** [humanize_number.lo] Error 1
+  >> 228    make[2]: *** [merge.lo] Error 1
+  >> 229    make[2]: *** [inet_net_pton.lo] Error 1
+  >> 230    make[2]: *** [getbsize.lo] Error 1
+  >> 231    make[2]: *** [fpurge.lo] Error 1
+     232    pgcc-Error-Unknown switch: -isystem
+     233    pgcc-Error-Unknown switch: -include
+     234    pgcc-Error-Unknown switch: -isystem
+     235    pgcc-Error-Unknown switch: -include
+     236    pgcc-Error-Unknown switch: -isystem
+     237    pgcc-Error-Unknown switch: -include
+  >> 238    make[2]: *** [expand_number.lo] Error 1
+  >> 239    make[2]: *** [nlist.lo] Error 1
+  >> 240    make[2]: *** [flopen.lo] Error 1
+     241    pgcc-Error-Unknown switch: -isystem
+     242    pgcc-Error-Unknown switch: -include
+     243    pgcc-Error-Unknown switch: -isystem
+     244    pgcc-Error-Unknown switch: -include
+  >> 245    make[2]: *** [bsd_getopt.lo] Error 1
+  >> 246    make[2]: *** [progname.lo] Error 1
+  >> 247    make[2]: *** [reallocarray.lo] Error 1
+     248    pgcc-Error-Unknown switch: -isystem
+     249    pgcc-Error-Unknown switch: -include
+     250    pgcc-Error-Unknown switch: -isystem
+     251    pgcc-Error-Unknown switch: -include
+     252    pgcc-Error-Unknown switch: -isystem
+     253    pgcc-Error-Unknown switch: -include
+  >> 254    make[2]: *** [pidfile.lo] Error 1
+  >> 255    make[2]: *** [funopen.lo] Error 1
+     256    pgcc-Error-Unknown switch: -isystem
+     257    pgcc-Error-Unknown switch: -include
+  >> 258    make[2]: *** [heapsort.lo] Error 1
+     259    pgcc-Error-Unknown switch: -isystem
+     260    pgcc-Error-Unknown switch: -include
+     261    pgcc-Error-Unknown switch: -isystem
+     262    pgcc-Error-Unknown switch: -include
+     263    pgcc-Error-Unknown switch: -isystem
+     264    pgcc-Error-Unknown switch: -include
+     265    pgcc-Error-Unknown switch: -isystem
+     266    pgcc-Error-Unknown switch: -include
+     267    pgcc-Error-Unknown switch: -isystem
+     268    pgcc-Error-Unknown switch: -include
+  >> 269    make[2]: *** [fgetln.lo] Error 1
+  >> 270    make[2]: *** [readpassphrase.lo] Error 1
+     271    pgcc-Error-Unknown switch: -isystem
+     272    pgcc-Error-Unknown switch: -include
+  >> 273    make[2]: *** [strlcat.lo] Error 1
+  >> 274    make[2]: *** [getpeereid.lo] Error 1
+  >> 275    make[2]: *** [setmode.lo] Error 1
+  >> 276    make[2]: *** [reallocf.lo] Error 1
+     277    pgcc-Error-Unknown switch: -isystem
+     278    pgcc-Error-Unknown switch: -include
+  >> 279    make[2]: *** [setproctitle.lo] Error 1
+  >> 280    make[2]: *** [radixsort.lo] Error 1
+     281    pgcc-Error-Unknown switch: -isystem
+     282    pgcc-Error-Unknown switch: -include
+  >> 283    make[2]: *** [strlcpy.lo] Error 1
+     284    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-KNgHMN/libbsd-0.9.1/src'
+  >> 285    make[1]: *** [all-recursive] Error 1
+     286    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-KNgHMN/libbsd-0.9.1'
+  >> 287    make: *** [all] Error 2
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-pdjj5winih4tigxhnjcw4iszboh2wuik/spack-build.out
+spack install ucx @ 1.2.2 % pgi@16.10  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-ucx-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j32'
+
+33 errors found in build log:
+     191    pgcc-Error-Unknown switch: -isystem
+     192    pgcc-Error-Unknown switch: -include
+     193    pgcc-Error-Unknown switch: -isystem
+     194    pgcc-Error-Unknown switch: -include
+     195    pgcc-Error-Unknown switch: -isystem
+     196    pgcc-Error-Unknown switch: -include
+  >> 197    make[2]: *** [arc4random_uniform.lo] Error 1
+     198    make[2]: *** Waiting for unfinished jobs....
+     199    pgcc-Error-Unknown switch: -isystem
+     200    pgcc-Error-Unknown switch: -include
+     201    pgcc-Error-Unknown switch: -isystempgcc-Error-
+     202    Unknown switch: -isystem
+     203    pgcc-Error-Unknown switch: -include
+     204    pgcc-Error-Unknown switch: -include
+  >> 205    make[2]: *** [arc4random.lo] Error 1
+     206    pgcc-Error-Unknown switch: -isystem
+     207    pgcc-Error-Unknown switch: -include
+     208    pgcc-Error-Unknown switch: -isystem
+     209    pgcc-Error-Unknown switch: -include
+     210    pgcc-Error-Unknown switch: -isystem
+     211    pgcc-Error-Unknown switch: -include
+     212    pgcc-Error-Unknown switch: -isystem
+     213    pgcc-Error-Unknown switch: -include
+  >> 214    make[2]: *** [fparseln.lo] Error 1
+     215    pgcc-Error-Unknown switch: -isystem
+     216    pgcc-Error-Unknown switch: -include
+     217    pgcc-Error-Unknown switch: -isystem
+     218    pgcc-Error-Unknown switch: -include
+  >> 219    make[2]: *** [closefrom.lo] Error 1
+  >> 220    make[2]: *** [flopen.lo] Error 1
+  >> 221    make[2]: *** [err.lo] Error 1
+  >> 222    make[2]: *** [fpurge.lo] Error 1
+  >> 223    make[2]: *** [fgetwln.lo] Error 1
+  >> 224    make[2]: *** [getpeereid.lo] Error 1
+  >> 225    make[2]: *** [expand_number.lo] Error 1
+  >> 226    make[2]: *** [getbsize.lo] Error 1
+     227    pgcc-Error-Unknown switch: -isystem
+     228    pgcc-Error-Unknown switch: -include
+     229    pgcc-Error-Unknown switch: -isystem
+     230    pgcc-Error-Unknown switch: -include
+     231    pgcc-Error-Unknown switch: -isystem
+     232    pgcc-Error-Unknown switch: -include
+
+     ...
+
+     234    pgcc-Error-Unknown switch: -include
+     235    pgcc-Error-Unknown switch: -isystem
+     236    pgcc-Error-Unknown switch: -include
+     237    pgcc-Error-Unknown switch: -isystem
+     238    make[2]: pgcc-Error-Unknown switch: -include
+     239    *** [fgetln.lo] Error 1
+  >> 240    make[2]: *** [inet_net_pton.lo] Error 1
+     241    pgcc-Error-Unknown switch: -isystem
+     242    pgcc-Error-Unknown switch: -include
+  >> 243    make[2]: *** [merge.lo] Error 1
+     244    pgcc-Error-Unknown switch: -isystem
+     245    pgcc-Error-Unknown switch: -include
+     246    pgcc-Error-Unknown switch: -isystem
+     247    pgcc-Error-Unknown switch: -include
+  >> 248    make[2]: *** [reallocf.lo] Error 1
+  >> 249    make[2]: *** [funopen.lo] Error 1
+  >> 250    make[2]: *** [heapsort.lo] Error 1
+  >> 251    make[2]: *** [humanize_number.lo] Error 1
+  >> 252    make[2]: *** [dehumanize_number.lo] Error 1
+  >> 253    make[2]: *** [progname.lo] Error 1
+  >> 254    make[2]: *** [fmtcheck.lo] Error 1
+  >> 255    make[2]: *** [bsd_getopt.lo] Error 1
+  >> 256    make[2]: *** [explicit_bzero.lo] Error 1
+     257    pgcc-Error-Unknown switch: -isystem
+     258    pgcc-Error-Unknown switch: -include
+     259    pgcc-Error-Unknown switch: -isystem
+     260    pgcc-Error-Unknown switch: -include
+     261    pgcc-Error-Unknown switch: -isystem
+     262    pgcc-Error-Unknown switch: -include
+  >> 263    make[2]: *** [readpassphrase.lo] Error 1
+  >> 264    make[2]: *** [pidfile.lo] Error 1
+  >> 265    make[2]: *** [reallocarray.lo] Error 1
+     266    pgcc-Error-Unknown switch: -isystem
+     267    pgcc-Error-Unknown switch: -include
+     268    pgcc-Error-Unknown switch: -isystem
+     269    pgcc-Error-Unknown switch: -include
+  >> 270    make[2]: *** [nlist.lo] Error 1
+     271    pgcc-Error-Unknown switch: -isystem
+     272    pgcc-Error-Unknown switch: -include
+  >> 273    make[2]: *** [strlcat.lo] Error 1
+     274    pgcc-Error-Unknown switch: -isystem
+     275    pgcc-Error-Unknown switch: -include
+     276    pgcc-Error-Unknown switch: -isystem
+     277    pgcc-Error-Unknown switch: -include
+     278    pgcc-Error-Unknown switch: -isystem
+     279    pgcc-Error-Unknown switch: -include
+  >> 280    make[2]: *** [setproctitle.lo] Error 1
+  >> 281    make[2]: *** [radixsort.lo] Error 1
+  >> 282    make[2]: *** [setmode.lo] Error 1
+  >> 283    make[2]: *** [strlcpy.lo] Error 1
+     284    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-3QgX1w/libbsd-0.9.1/src'
+  >> 285    make[1]: *** [all-recursive] Error 1
+     286    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-3QgX1w/libbsd-0.9.1'
+  >> 287    make: *** [all] Error 2
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-general.ucx/var/spack/stage/libbsd-0.9.1-ljv7ndktu6ysbgn3o6qovtaxp4hevwj6/spack-build.out
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+mkdir -p "${dir_results}/platform-order"
+mkdir -p "${dir_results}/tpl-order"
+mkdir -p "${dir_results}/graphs"
+spack find ucx >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/platform-order/darwin-general-ucx.out
+spack find ucx >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/ucx-darwin-general.out
+spack find -ldf ucx  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/ucx-darwin-general-ldf.out
+spack graph ucx >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/graphs/ucx-darwin-general-graph.out
+spack compilers
+==> Available compilers
+-- gcc centos7-x86_64 -------------------------------------------
+gcc@8.2.0
+gcc@8.1.0
+gcc@7.3.0
+gcc@7.2.0
+gcc@6.4.0
+gcc@6.3.0
+gcc@5.5.0
+gcc@5.4.0
+gcc@4.9.3
+gcc@4.9.2
+gcc@4.8.5
+gcc@4.6.4
+
+-- intel centos7-x86_64 -----------------------------------------
+intel@18.0.3
+intel@18.0.2
+intel@17.0.6
+intel@17.0.1
+intel@16.0.4
+intel@16.0.3
+
+-- pgi centos7-x86_64 -------------------------------------------
+pgi@18.10
+pgi@18.7
+pgi@18.4
+pgi@18.3
+pgi@17.10
+pgi@17.4
+pgi@16.10
+spack find ucx
+==> 23 installed packages
+-- linux-centos7-x86_64 / gcc@4.8.5 -----------------------------
+ucx@1.2.2
+ucx@1.3.1
+ucx@1.4.0
+ucx@1.5.0
+
+-- linux-centos7-x86_64 / gcc@4.9.3 -----------------------------
+ucx@1.2.2
+ucx@1.3.1
+ucx@1.4.0
+ucx@1.5.0
+
+-- linux-centos7-x86_64 / gcc@5.5.0 -----------------------------
+ucx@1.2.2
+ucx@1.3.1
+ucx@1.4.0
+ucx@1.5.0
+
+-- linux-centos7-x86_64 / gcc@6.4.0 -----------------------------
+ucx@1.2.2
+ucx@1.3.1
+ucx@1.4.0
+ucx@1.5.0
+
+-- linux-centos7-x86_64 / gcc@7.3.0 -----------------------------
+ucx@1.2.2
+ucx@1.3.1
+ucx@1.4.0
+ucx@1.5.0
+
+-- linux-centos7-x86_64 / gcc@8.2.0 -----------------------------
+ucx@1.3.1
+ucx@1.4.0
+ucx@1.5.0
+spack find -ldf ucx
+==> 23 installed packages
+-- linux-centos7-x86_64 / gcc@4.8.5 -----------------------------
+onuslpz    ucx@1.2.2%gcc 
+tt2hkol        ^numactl@2.0.12%gcc 
+srhy7ry        ^rdma-core@20%gcc 
+kvgvhpv            ^libnl@3.3.0%gcc 
+
+5zinmk4    ucx@1.3.1%gcc 
+tt2hkol        ^numactl@2.0.12%gcc 
+srhy7ry        ^rdma-core@20%gcc 
+kvgvhpv            ^libnl@3.3.0%gcc 
+
+vnkpsdh    ucx@1.4.0%gcc 
+tt2hkol        ^numactl@2.0.12%gcc 
+srhy7ry        ^rdma-core@20%gcc 
+kvgvhpv            ^libnl@3.3.0%gcc 
+
+nwv4nht    ucx@1.5.0%gcc 
+tt2hkol        ^numactl@2.0.12%gcc 
+srhy7ry        ^rdma-core@20%gcc 
+kvgvhpv            ^libnl@3.3.0%gcc 
+
+
+-- linux-centos7-x86_64 / gcc@4.9.3 -----------------------------
+warosgl    ucx@1.2.2%gcc 
+gyit553        ^numactl@2.0.12%gcc 
+trxrugs        ^rdma-core@20%gcc 
+vj3mvdx            ^libnl@3.3.0%gcc 
+
+5djrm2l    ucx@1.3.1%gcc 
+gyit553        ^numactl@2.0.12%gcc 
+trxrugs        ^rdma-core@20%gcc 
+vj3mvdx            ^libnl@3.3.0%gcc 
+
+5avxti5    ucx@1.4.0%gcc 
+gyit553        ^numactl@2.0.12%gcc 
+trxrugs        ^rdma-core@20%gcc 
+vj3mvdx            ^libnl@3.3.0%gcc 
+
+o6yv42n    ucx@1.5.0%gcc 
+gyit553        ^numactl@2.0.12%gcc 
+trxrugs        ^rdma-core@20%gcc 
+vj3mvdx            ^libnl@3.3.0%gcc 
+
+
+-- linux-centos7-x86_64 / gcc@5.5.0 -----------------------------
+pse7izr    ucx@1.2.2%gcc 
+ccmgitq        ^numactl@2.0.12%gcc 
+2fwk3ut        ^rdma-core@20%gcc 
+ij2ve3p            ^libnl@3.3.0%gcc 
+
+nracu5z    ucx@1.3.1%gcc 
+ccmgitq        ^numactl@2.0.12%gcc 
+2fwk3ut        ^rdma-core@20%gcc 
+ij2ve3p            ^libnl@3.3.0%gcc 
+
+kqsz246    ucx@1.4.0%gcc 
+ccmgitq        ^numactl@2.0.12%gcc 
+2fwk3ut        ^rdma-core@20%gcc 
+ij2ve3p            ^libnl@3.3.0%gcc 
+
+rqg5dlf    ucx@1.5.0%gcc 
+ccmgitq        ^numactl@2.0.12%gcc 
+2fwk3ut        ^rdma-core@20%gcc 
+ij2ve3p            ^libnl@3.3.0%gcc 
+
+
+-- linux-centos7-x86_64 / gcc@6.4.0 -----------------------------
+c4tdwsh    ucx@1.2.2%gcc 
+2zmeci4        ^numactl@2.0.12%gcc 
+fqwsuls        ^rdma-core@20%gcc 
+jin3ntt            ^libnl@3.3.0%gcc 
+
+7wt6ef3    ucx@1.3.1%gcc 
+2zmeci4        ^numactl@2.0.12%gcc 
+fqwsuls        ^rdma-core@20%gcc 
+jin3ntt            ^libnl@3.3.0%gcc 
+
+hawuwrd    ucx@1.4.0%gcc 
+2zmeci4        ^numactl@2.0.12%gcc 
+fqwsuls        ^rdma-core@20%gcc 
+jin3ntt            ^libnl@3.3.0%gcc 
+
+fy4ebqi    ucx@1.5.0%gcc 
+2zmeci4        ^numactl@2.0.12%gcc 
+fqwsuls        ^rdma-core@20%gcc 
+jin3ntt            ^libnl@3.3.0%gcc 
+
+
+-- linux-centos7-x86_64 / gcc@7.3.0 -----------------------------
+dl7rd2n    ucx@1.2.2%gcc 
+le6jhga        ^numactl@2.0.12%gcc 
+sit25ao        ^rdma-core@20%gcc 
+qwftcsj            ^libnl@3.3.0%gcc 
+
+6ewrb5m    ucx@1.3.1%gcc 
+le6jhga        ^numactl@2.0.12%gcc 
+sit25ao        ^rdma-core@20%gcc 
+qwftcsj            ^libnl@3.3.0%gcc 
+
+5tp2jdi    ucx@1.4.0%gcc 
+le6jhga        ^numactl@2.0.12%gcc 
+sit25ao        ^rdma-core@20%gcc 
+qwftcsj            ^libnl@3.3.0%gcc 
+
+5rz4o2f    ucx@1.5.0%gcc 
+le6jhga        ^numactl@2.0.12%gcc 
+sit25ao        ^rdma-core@20%gcc 
+qwftcsj            ^libnl@3.3.0%gcc 
+
+
+-- linux-centos7-x86_64 / gcc@8.2.0 -----------------------------
+pahec7y    ucx@1.3.1%gcc 
+qwo625d        ^numactl@2.0.12%gcc 
+6v76anq        ^rdma-core@20%gcc 
+xidgunm            ^libnl@3.3.0%gcc 
+
+bmayd3c    ucx@1.4.0%gcc 
+qwo625d        ^numactl@2.0.12%gcc 
+6v76anq        ^rdma-core@20%gcc 
+xidgunm            ^libnl@3.3.0%gcc 
+
+ooyhnha    ucx@1.5.0%gcc 
+qwo625d        ^numactl@2.0.12%gcc 
+6v76anq        ^rdma-core@20%gcc 
+xidgunm            ^libnl@3.3.0%gcc 
+
+mv  /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/darwin-general-batch.out   /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/batch-out/darwin-general-ucx-2019-04-24-batch.out
+cd /scratch/users/dantopa/repos/gitlab/pull-requests/libraries
+git add -A .
+git commit -m "${USER} ${tpl} ${hpc} ${partition} ${ymd}"
+[master e28036d] dantopa ucx darwin general 2019-04-24
+ 9 files changed, 1930 insertions(+), 130 deletions(-)
+ rename libraries/{tools/bash/darwin-general-batch.out => results/batch-out/darwin-general-ucx-2019-04-24-batch.out} (54%)
+ create mode 100644 libraries/results/graphs/ucx-darwin-general-graph.out
+ create mode 100644 libraries/results/platform-order/darwin-general-ucx.out
+ rewrite libraries/results/tpl-order/ucx-darwin-general-ldf.out (86%)
+Wed Apr 24 16:24:38 MDT 2019

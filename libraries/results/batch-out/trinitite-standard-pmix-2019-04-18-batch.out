@@ -1,0 +1,133 @@
+Thu Apr 18 20:01:12 MDT 2019 /var/spool/slurm/job542596/slurm_script
+source "${dir_tools}/bash/master-tpl-sweep.sh"
+Thu Apr 18 20:01:12 MDT 2019 /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh
+cd /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools
+source directories/libraries-trinitite.sh
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 20: directories/libraries-trinitite.sh: No such file or directory
+source tpl-versions/versions-pmix.sh
+Thu Apr 18 20:01:12 MDT 2019 [1mtpl-versions/versions-pmix.sh(B[m
+4 pmix versions loaded:
+3.1.2  3.0.2  2.2.2  2.1.4
+
+source compilers/compilers-trinitite-standard.sh
+Thu Apr 18 20:01:12 MDT 2019 [1mcompilers/compilers-trinitite-standard.sh(B[m
+7 Spack-recognized compilers loaded:
+cce@8.7.9  cce@8.7.8  gcc@8.2.0  gcc@7.3.0  gcc@6.3.0  intel@19.0.1  intel@18.0.5
+
+source klingons/trinitite-standard-pmix.sh
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 34: klingons/trinitite-standard-pmix.sh: No such file or directory
+cd /trinitite-standard.pmix
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 37: cd: /trinitite-standard.pmix: No such file or directory
+. share/spack/setup-env.sh
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 40: share/spack/setup-env.sh: No such file or directory
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 43: spack: command not found
+export spack_architecture='arch='
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 44: spack: command not found
+spack clean -a
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 47: spack: command not found
+
+spack install pmix @ 3.1.2 % cce@8.7.9  arch=  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-pmix-install.log
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 3.1.2 % cce@8.7.8  arch=  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-pmix-install.log
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 3.1.2 % gcc@8.2.0  arch=  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-pmix-install.log
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 3.1.2 % gcc@7.3.0  arch=  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-pmix-install.log
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 3.1.2 % gcc@6.3.0  arch=  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-pmix-install.log
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 3.1.2 % intel@19.0.1  arch=  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-pmix-install.log
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 3.1.2 % intel@18.0.5  arch=  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-pmix-install.log
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 3.0.2 % cce@8.7.9  arch=  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-pmix-install.log
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 3.0.2 % cce@8.7.8  arch=  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-pmix-install.log
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 3.0.2 % gcc@8.2.0  arch=  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-pmix-install.log
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 3.0.2 % gcc@7.3.0  arch=  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-pmix-install.log
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 3.0.2 % gcc@6.3.0  arch=  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-pmix-install.log
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 3.0.2 % intel@19.0.1  arch=  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-pmix-install.log
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 3.0.2 % intel@18.0.5  arch=  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-pmix-install.log
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 2.2.2 % cce@8.7.9  arch=  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-pmix-install.log
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 2.2.2 % cce@8.7.8  arch=  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-pmix-install.log
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 2.2.2 % gcc@8.2.0  arch=  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-pmix-install.log
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 2.2.2 % gcc@7.3.0  arch=  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-pmix-install.log
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 2.2.2 % gcc@6.3.0  arch=  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-pmix-install.log
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 2.2.2 % intel@19.0.1  arch=  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-pmix-install.log
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 2.2.2 % intel@18.0.5  arch=  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-pmix-install.log
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 2.1.4 % cce@8.7.9  arch=  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-pmix-install.log
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 2.1.4 % cce@8.7.8  arch=  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-pmix-install.log
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 2.1.4 % gcc@8.2.0  arch=  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-pmix-install.log
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 2.1.4 % gcc@7.3.0  arch=  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-pmix-install.log
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 2.1.4 % gcc@6.3.0  arch=  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-pmix-install.log
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 2.1.4 % intel@19.0.1  arch=  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-pmix-install.log
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+
+spack install pmix @ 2.1.4 % intel@18.0.5  arch=  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-pmix-install.log
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 62: spack: command not found
+mkdir -p "${dir_results}/tpl-order"
+spack find pmix >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/pmix-trinitite-standard.out
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 74: spack: command not found
+spack find -ldf pmix  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/pmix-trinitite-standard-ldf.out
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 80: spack: command not found
+spack graph pmix >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/pmix-trinitite-standard-graph.out
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 86: spack: command not found
+spack compilers
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 90: spack: command not found
+spack find pmix
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 93: spack: command not found
+spack find -ldf pmix
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 96: spack: command not found
+mv  /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/trinitite-standard-batch.out   /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/batch-out/trinitite-standard-pmix-2019-04-18-batch.out
+cd 
+git add -A .
+fatal: Not a git repository (or any parent up to mount point /users)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+git commit -m "${USER} ${tpl} ${hpc} ${partition} ${ymd}"
+fatal: Not a git repository (or any parent up to mount point /users)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+Thu Apr 18 20:01:12 MDT 2019

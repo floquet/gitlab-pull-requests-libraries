@@ -1,0 +1,138 @@
+Thu Apr 25 09:34:22 MDT 2019 libraries/tools/bash/interrogater.sh
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results
+
+
+partition: standard
+bin/spack find -ldf pmix
+==> 22 installed packages
+-- linux-rhel7-x86_64 / gcc@4.8.5 -------------------------------
+vqo2bdg    pmix@2.1.4%gcc 
+dvvown3        ^libevent@2.1.8%gcc 
+7s4iwxd            ^openssl@1.1.1b%gcc 
+
+nvruarc    pmix@2.2.2%gcc 
+dvvown3        ^libevent@2.1.8%gcc 
+7s4iwxd            ^openssl@1.1.1b%gcc 
+
+zcuwmb2    pmix@3.0.2%gcc 
+wdz3le4        ^hwloc@2.0.2%gcc 
+qxhgslw            ^libpciaccess@0.13.5%gcc 
+xsjgwoj            ^libxml2@2.9.8%gcc 
+dvvown3        ^libevent@2.1.8%gcc 
+7s4iwxd            ^openssl@1.1.1b%gcc 
+
+p4zdihg    pmix@3.1.2%gcc 
+wdz3le4        ^hwloc@2.0.2%gcc 
+qxhgslw            ^libpciaccess@0.13.5%gcc 
+xsjgwoj            ^libxml2@2.9.8%gcc 
+dvvown3        ^libevent@2.1.8%gcc 
+7s4iwxd            ^openssl@1.1.1b%gcc 
+
+
+-- linux-rhel7-x86_64 / gcc@6.4.0 -------------------------------
+c3z5xyf    pmix@2.1.4%gcc 
+yej6ne5        ^libevent@2.1.8%gcc 
+exnfbo3            ^openssl@1.1.1b%gcc 
+
+rol4za4    pmix@2.2.2%gcc 
+yej6ne5        ^libevent@2.1.8%gcc 
+exnfbo3            ^openssl@1.1.1b%gcc 
+
+457hx2s    pmix@3.0.2%gcc 
+7zqssnl        ^hwloc@2.0.2%gcc 
+o53uqv7            ^libpciaccess@0.13.5%gcc 
+ao5x5ze            ^libxml2@2.9.8%gcc 
+yej6ne5        ^libevent@2.1.8%gcc 
+exnfbo3            ^openssl@1.1.1b%gcc 
+
+yfj2dod    pmix@3.1.2%gcc 
+7zqssnl        ^hwloc@2.0.2%gcc 
+o53uqv7            ^libpciaccess@0.13.5%gcc 
+ao5x5ze            ^libxml2@2.9.8%gcc 
+yej6ne5        ^libevent@2.1.8%gcc 
+exnfbo3            ^openssl@1.1.1b%gcc 
+
+
+-- linux-rhel7-x86_64 / gcc@7.4.0 -------------------------------
+f72va4r    pmix@2.1.4%gcc 
+po3tspu        ^libevent@2.1.8%gcc 
+7p6vpoe            ^openssl@1.1.1b%gcc 
+
+qnvd2dv    pmix@2.2.2%gcc 
+po3tspu        ^libevent@2.1.8%gcc 
+7p6vpoe            ^openssl@1.1.1b%gcc 
+
+3k7vgcu    pmix@3.0.2%gcc 
+zcedp3a        ^hwloc@2.0.2%gcc 
+ucgnzc4            ^libpciaccess@0.13.5%gcc 
+4ixpolx            ^libxml2@2.9.8%gcc 
+po3tspu        ^libevent@2.1.8%gcc 
+7p6vpoe            ^openssl@1.1.1b%gcc 
+
+6vnumvo    pmix@3.1.2%gcc 
+zcedp3a        ^hwloc@2.0.2%gcc 
+ucgnzc4            ^libpciaccess@0.13.5%gcc 
+4ixpolx            ^libxml2@2.9.8%gcc 
+po3tspu        ^libevent@2.1.8%gcc 
+7p6vpoe            ^openssl@1.1.1b%gcc 
+
+
+-- linux-rhel7-x86_64 / intel@17.0.4 ----------------------------
+5vngdge    pmix@2.1.4%intel 
+63oguz2        ^libevent@2.1.8%intel 
+kxslfzu            ^openssl@1.1.1b%intel 
+
+32rka7j    pmix@2.2.2%intel 
+63oguz2        ^libevent@2.1.8%intel 
+kxslfzu            ^openssl@1.1.1b%intel 
+
+ahle3bp    pmix@3.0.2%intel 
+mrw5q4c        ^hwloc@2.0.2%intel 
+tm6ayg7            ^libpciaccess@0.13.5%intel 
+aojy5jp            ^libxml2@2.9.8%intel 
+63oguz2        ^libevent@2.1.8%intel 
+kxslfzu            ^openssl@1.1.1b%intel 
+
+yzpa4m2    pmix@3.1.2%intel 
+mrw5q4c        ^hwloc@2.0.2%intel 
+tm6ayg7            ^libpciaccess@0.13.5%intel 
+aojy5jp            ^libxml2@2.9.8%intel 
+63oguz2        ^libevent@2.1.8%intel 
+kxslfzu            ^openssl@1.1.1b%intel 
+
+
+-- linux-rhel7-x86_64 / intel@18.0.5 ----------------------------
+4jgpz7q    pmix@2.1.4%intel 
+vkzbos7        ^libevent@2.1.8%intel 
+zacvdf3            ^openssl@1.1.1b%intel 
+
+xc44t4v    pmix@2.2.2%intel 
+vkzbos7        ^libevent@2.1.8%intel 
+zacvdf3            ^openssl@1.1.1b%intel 
+
+ylqo2k5    pmix@3.0.2%intel 
+so44wyk        ^hwloc@2.0.2%intel 
+awuq6lx            ^libpciaccess@0.13.5%intel 
+7fsp6x4            ^libxml2@2.9.8%intel 
+vkzbos7        ^libevent@2.1.8%intel 
+zacvdf3            ^openssl@1.1.1b%intel 
+
+ojgxgi6    pmix@3.1.2%intel 
+so44wyk        ^hwloc@2.0.2%intel 
+awuq6lx            ^libpciaccess@0.13.5%intel 
+7fsp6x4            ^libxml2@2.9.8%intel 
+vkzbos7        ^libevent@2.1.8%intel 
+zacvdf3            ^openssl@1.1.1b%intel 
+
+
+-- linux-rhel7-x86_64 / pgi@16.10 -------------------------------
+svz7ru4    pmix@2.1.4%pgi 
+xxxjqen        ^libevent@2.1.8%pgi 
+u4kg5c6            ^openssl@1.1.1b%pgi 
+
+
+-- linux-rhel7-x86_64 / pgi@18.10 -------------------------------
+fprpesh    pmix@2.1.4%pgi 
+nlyeotu        ^libevent@2.1.8%pgi 
+2e7zuzb            ^openssl@1.1.1b%pgi 
+

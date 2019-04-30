@@ -1,0 +1,47 @@
+Thu Apr 18 20:02:28 MDT 2019
+spack find -ldf pmix
+==> 5 installed packages
+-- linux-centos7-x86_64 / gcc@4.8.5 -----------------------------
+qt2qf4y    pmix@3.1.2%gcc
+zlofgxm        ^hwloc@2.0.2%gcc
+5chyfxo            ^libpciaccess@0.13.5%gcc
+bcnjbc3            ^libxml2@2.9.8%gcc
+m76ljab        ^libevent@2.1.8%gcc
+wthsk3t            ^openssl@1.1.1b%gcc
+
+
+-- linux-centos7-x86_64 / gcc@4.9.3 -----------------------------
+omyzj6f    pmix@3.1.2%gcc
+wqqeec5        ^hwloc@2.0.2%gcc
+nqafs22            ^libpciaccess@0.13.5%gcc
+xr6jvqb            ^libxml2@2.9.8%gcc
+tqniynd        ^libevent@2.1.8%gcc
+y4rry76            ^openssl@1.1.1b%gcc
+
+
+-- linux-centos7-x86_64 / gcc@5.5.0 -----------------------------
+bz2bka4    pmix@3.1.2%gcc
+ay37u7n        ^hwloc@2.0.2%gcc
+ygiicn2            ^libpciaccess@0.13.5%gcc
+dyuna3l            ^libxml2@2.9.8%gcc
+p3lav6s        ^libevent@2.1.8%gcc
+ritaimx            ^openssl@1.1.1b%gcc
+
+
+-- linux-centos7-x86_64 / gcc@6.4.0 -----------------------------
+htufkb7    pmix@3.1.2%gcc
+d3tv6w2        ^hwloc@2.0.2%gcc
+j6fsyhp            ^libpciaccess@0.13.5%gcc
+ltoyknu            ^libxml2@2.9.8%gcc
+td73grk        ^libevent@2.1.8%gcc
+rff57eg            ^openssl@1.1.1b%gcc
+
+
+-- linux-centos7-x86_64 / gcc@7.3.0 -----------------------------
+c3yenly    pmix@3.1.2%gcc
+t3vq65n        ^hwloc@2.0.2%gcc
+f5k35g4            ^libpciaccess@0.13.5%gcc
+m46g2kt            ^libxml2@2.9.8%gcc
+gxgeywz        ^libevent@2.1.8%gcc
+gs3koao            ^openssl@1.1.1b%gcc
+

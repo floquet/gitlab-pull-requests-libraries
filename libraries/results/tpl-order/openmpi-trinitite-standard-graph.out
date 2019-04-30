@@ -1,0 +1,23 @@
+Fri Apr 19 04:20:18 MDT 2019
+spack graph openmpi >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/openmpi-trinitite-standard-graph.out
+o  openmpi
+|\
+| |\
+o | |  zlib
+ / /
+| o  hwloc
+| |\
+| | |\
+| | | o  libpciaccess
+| | |/| 
+| |/| | 
+| | | |\
+| | | o |  util-macros
+| | |  /
+| o | |  pkg-config
+|  / /
+o | |  numactl
+ / /
+o |  libxml2
+ /
+o  libtool

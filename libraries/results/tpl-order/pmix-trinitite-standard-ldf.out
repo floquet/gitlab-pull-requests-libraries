@@ -1,0 +1,33 @@
+Wed Apr 24 21:13:03 MDT 2019
+/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.pmix
+spack find -ldf pmix
+==> 6 installed packages
+-- cray-cnl6-haswell / gcc@7.3.0 --------------------------------
+ar24pft    pmix@2.1.4%gcc 
+mlziyjj        ^libevent@2.1.8%gcc 
+fn2kcwq            ^openssl@1.1.1b%gcc 
+
+zhs5ipx    pmix@2.2.2%gcc 
+mlziyjj        ^libevent@2.1.8%gcc 
+fn2kcwq            ^openssl@1.1.1b%gcc 
+
+
+-- cray-cnl6-haswell / gcc@8.2.0 --------------------------------
+fwnojwt    pmix@2.1.4%gcc 
+z7xuhjn        ^libevent@2.1.8%gcc 
+atiy67o            ^openssl@1.1.1b%gcc 
+
+4uvj63g    pmix@2.2.2%gcc 
+z7xuhjn        ^libevent@2.1.8%gcc 
+atiy67o            ^openssl@1.1.1b%gcc 
+
+
+-- cray-cnl6-haswell / intel@18.0.5 -----------------------------
+cgnsluq    pmix@2.1.4%intel 
+t7an36a        ^libevent@2.1.8%intel 
+fqe5yac            ^openssl@1.1.1b%intel 
+
+iyqy5a6    pmix@2.2.2%intel 
+t7an36a        ^libevent@2.1.8%intel 
+fqe5yac            ^openssl@1.1.1b%intel 
+

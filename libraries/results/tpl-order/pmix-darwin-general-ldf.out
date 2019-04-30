@@ -1,0 +1,235 @@
+Thu Apr 18 21:43:52 MDT 2019
+spack find -ldf pmix
+==> 39 installed packages
+-- linux-centos7-x86_64 / gcc@4.8.5 -----------------------------
+sredt4j    pmix@2.1.4%gcc
+m76ljab        ^libevent@2.1.8%gcc
+wthsk3t            ^openssl@1.1.1b%gcc
+
+f5zodjl    pmix@2.2.2%gcc
+m76ljab        ^libevent@2.1.8%gcc
+wthsk3t            ^openssl@1.1.1b%gcc
+
+wari6qw    pmix@3.0.2%gcc
+zlofgxm        ^hwloc@2.0.2%gcc
+5chyfxo            ^libpciaccess@0.13.5%gcc
+bcnjbc3            ^libxml2@2.9.8%gcc
+m76ljab        ^libevent@2.1.8%gcc
+wthsk3t            ^openssl@1.1.1b%gcc
+
+qt2qf4y    pmix@3.1.2%gcc
+zlofgxm        ^hwloc@2.0.2%gcc
+5chyfxo            ^libpciaccess@0.13.5%gcc
+bcnjbc3            ^libxml2@2.9.8%gcc
+m76ljab        ^libevent@2.1.8%gcc
+wthsk3t            ^openssl@1.1.1b%gcc
+
+
+-- linux-centos7-x86_64 / gcc@4.9.3 -----------------------------
+e3qyciv    pmix@2.1.4%gcc
+tqniynd        ^libevent@2.1.8%gcc
+y4rry76            ^openssl@1.1.1b%gcc
+
+xbsy5bc    pmix@2.2.2%gcc
+tqniynd        ^libevent@2.1.8%gcc
+y4rry76            ^openssl@1.1.1b%gcc
+
+mjesokq    pmix@3.0.2%gcc
+wqqeec5        ^hwloc@2.0.2%gcc
+nqafs22            ^libpciaccess@0.13.5%gcc
+xr6jvqb            ^libxml2@2.9.8%gcc
+tqniynd        ^libevent@2.1.8%gcc
+y4rry76            ^openssl@1.1.1b%gcc
+
+omyzj6f    pmix@3.1.2%gcc
+wqqeec5        ^hwloc@2.0.2%gcc
+nqafs22            ^libpciaccess@0.13.5%gcc
+xr6jvqb            ^libxml2@2.9.8%gcc
+tqniynd        ^libevent@2.1.8%gcc
+y4rry76            ^openssl@1.1.1b%gcc
+
+
+-- linux-centos7-x86_64 / gcc@5.5.0 -----------------------------
+y7wly63    pmix@2.1.4%gcc
+p3lav6s        ^libevent@2.1.8%gcc
+ritaimx            ^openssl@1.1.1b%gcc
+
+wwkxv23    pmix@2.2.2%gcc
+p3lav6s        ^libevent@2.1.8%gcc
+ritaimx            ^openssl@1.1.1b%gcc
+
+6ehlkwd    pmix@3.0.2%gcc
+ay37u7n        ^hwloc@2.0.2%gcc
+ygiicn2            ^libpciaccess@0.13.5%gcc
+dyuna3l            ^libxml2@2.9.8%gcc
+p3lav6s        ^libevent@2.1.8%gcc
+ritaimx            ^openssl@1.1.1b%gcc
+
+bz2bka4    pmix@3.1.2%gcc
+ay37u7n        ^hwloc@2.0.2%gcc
+ygiicn2            ^libpciaccess@0.13.5%gcc
+dyuna3l            ^libxml2@2.9.8%gcc
+p3lav6s        ^libevent@2.1.8%gcc
+ritaimx            ^openssl@1.1.1b%gcc
+
+
+-- linux-centos7-x86_64 / gcc@6.4.0 -----------------------------
+gtbzipu    pmix@2.1.4%gcc
+td73grk        ^libevent@2.1.8%gcc
+rff57eg            ^openssl@1.1.1b%gcc
+
+635m5zq    pmix@2.2.2%gcc
+td73grk        ^libevent@2.1.8%gcc
+rff57eg            ^openssl@1.1.1b%gcc
+
+hxdtzsj    pmix@3.0.2%gcc
+d3tv6w2        ^hwloc@2.0.2%gcc
+j6fsyhp            ^libpciaccess@0.13.5%gcc
+ltoyknu            ^libxml2@2.9.8%gcc
+td73grk        ^libevent@2.1.8%gcc
+rff57eg            ^openssl@1.1.1b%gcc
+
+htufkb7    pmix@3.1.2%gcc
+d3tv6w2        ^hwloc@2.0.2%gcc
+j6fsyhp            ^libpciaccess@0.13.5%gcc
+ltoyknu            ^libxml2@2.9.8%gcc
+td73grk        ^libevent@2.1.8%gcc
+rff57eg            ^openssl@1.1.1b%gcc
+
+
+-- linux-centos7-x86_64 / gcc@7.3.0 -----------------------------
+iebxtpc    pmix@2.1.4%gcc
+gxgeywz        ^libevent@2.1.8%gcc
+gs3koao            ^openssl@1.1.1b%gcc
+
+bf3d4bj    pmix@2.2.2%gcc
+gxgeywz        ^libevent@2.1.8%gcc
+gs3koao            ^openssl@1.1.1b%gcc
+
+zar4otg    pmix@3.0.2%gcc
+t3vq65n        ^hwloc@2.0.2%gcc
+f5k35g4            ^libpciaccess@0.13.5%gcc
+m46g2kt            ^libxml2@2.9.8%gcc
+gxgeywz        ^libevent@2.1.8%gcc
+gs3koao            ^openssl@1.1.1b%gcc
+
+c3yenly    pmix@3.1.2%gcc
+t3vq65n        ^hwloc@2.0.2%gcc
+f5k35g4            ^libpciaccess@0.13.5%gcc
+m46g2kt            ^libxml2@2.9.8%gcc
+gxgeywz        ^libevent@2.1.8%gcc
+gs3koao            ^openssl@1.1.1b%gcc
+
+
+-- linux-centos7-x86_64 / gcc@8.2.0 -----------------------------
+usyrk5j    pmix@2.1.4%gcc
+nxtv7vb        ^libevent@2.1.8%gcc
+yuvz7iz            ^openssl@1.1.1b%gcc
+
+hiqrojo    pmix@2.2.2%gcc
+nxtv7vb        ^libevent@2.1.8%gcc
+yuvz7iz            ^openssl@1.1.1b%gcc
+
+nd3qsex    pmix@3.0.2%gcc
+bpazekb        ^hwloc@2.0.2%gcc
+svkyphb            ^libpciaccess@0.13.5%gcc
+uvcs5lc            ^libxml2@2.9.8%gcc
+nxtv7vb        ^libevent@2.1.8%gcc
+yuvz7iz            ^openssl@1.1.1b%gcc
+
+
+-- linux-centos7-x86_64 / intel@16.0.4 --------------------------
+xndylu3    pmix@2.1.4%intel
+vtvgbja        ^libevent@2.1.8%intel
+32nzi55            ^openssl@1.1.1b%intel
+
+szkdm7k    pmix@2.2.2%intel
+vtvgbja        ^libevent@2.1.8%intel
+32nzi55            ^openssl@1.1.1b%intel
+
+j5q64ak    pmix@3.0.2%intel
+khoithd        ^hwloc@2.0.2%intel
+jtzzof2            ^libpciaccess@0.13.5%intel
+iikjujn            ^libxml2@2.9.8%intel
+vtvgbja        ^libevent@2.1.8%intel
+32nzi55            ^openssl@1.1.1b%intel
+
+widkpkk    pmix@3.1.2%intel
+khoithd        ^hwloc@2.0.2%intel
+jtzzof2            ^libpciaccess@0.13.5%intel
+iikjujn            ^libxml2@2.9.8%intel
+vtvgbja        ^libevent@2.1.8%intel
+32nzi55            ^openssl@1.1.1b%intel
+
+
+-- linux-centos7-x86_64 / intel@17.0.6 --------------------------
+5tjk7nz    pmix@2.1.4%intel
+wlqy7at        ^libevent@2.1.8%intel
+25cyhlr            ^openssl@1.1.1b%intel
+
+hlga54b    pmix@2.2.2%intel
+wlqy7at        ^libevent@2.1.8%intel
+25cyhlr            ^openssl@1.1.1b%intel
+
+ltydryh    pmix@3.0.2%intel
+i5mpdo5        ^hwloc@2.0.2%intel
+5ywhccx            ^libpciaccess@0.13.5%intel
+rxyquml            ^libxml2@2.9.8%intel
+wlqy7at        ^libevent@2.1.8%intel
+25cyhlr            ^openssl@1.1.1b%intel
+
+tuzuph2    pmix@3.1.2%intel
+i5mpdo5        ^hwloc@2.0.2%intel
+5ywhccx            ^libpciaccess@0.13.5%intel
+rxyquml            ^libxml2@2.9.8%intel
+wlqy7at        ^libevent@2.1.8%intel
+25cyhlr            ^openssl@1.1.1b%intel
+
+
+-- linux-centos7-x86_64 / intel@18.0.3 --------------------------
+wvughvu    pmix@2.1.4%intel
+eblktd6        ^libevent@2.1.8%intel
+cyhr3jo            ^openssl@1.1.1b%intel
+
+6dqqbee    pmix@2.2.2%intel
+eblktd6        ^libevent@2.1.8%intel
+cyhr3jo            ^openssl@1.1.1b%intel
+
+cqcdgfw    pmix@3.0.2%intel
+e2f3np3        ^hwloc@2.0.2%intel
+zrun5pc            ^libpciaccess@0.13.5%intel
+x6jborh            ^libxml2@2.9.8%intel
+eblktd6        ^libevent@2.1.8%intel
+cyhr3jo            ^openssl@1.1.1b%intel
+
+x57elyc    pmix@3.1.2%intel
+e2f3np3        ^hwloc@2.0.2%intel
+zrun5pc            ^libpciaccess@0.13.5%intel
+x6jborh            ^libxml2@2.9.8%intel
+eblktd6        ^libevent@2.1.8%intel
+cyhr3jo            ^openssl@1.1.1b%intel
+
+
+-- linux-centos7-x86_64 / pgi@16.10 -----------------------------
+bs5vndn    pmix@2.1.4%pgi
+mpewtbr        ^libevent@2.1.8%pgi
+bat3mu6            ^openssl@1.1.1b%pgi
+
+
+-- linux-centos7-x86_64 / pgi@17.10 -----------------------------
+nogtnxe    pmix@2.1.4%pgi
+cp7ssrh        ^libevent@2.1.8%pgi
+flqqpv4            ^openssl@1.1.1b%pgi
+
+
+-- linux-centos7-x86_64 / pgi@18.7 ------------------------------
+ncghlbc    pmix@2.1.4%pgi
+uijxqwh        ^libevent@2.1.8%pgi
+pzlttjh            ^openssl@1.1.1b%pgi
+
+
+-- linux-centos7-x86_64 / pgi@18.10 -----------------------------
+2a3qpre    pmix@2.1.4%pgi
+y4vcnis        ^libevent@2.1.8%pgi
+thcvha6            ^openssl@1.1.1b%pgi
+

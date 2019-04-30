@@ -1,0 +1,867 @@
+Wed Apr 24 13:26:37 MDT 2019 [1m/home/dantopa/.mybash(B[m
+Wed Apr 24 13:26:37 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/platforms.sh(B[m
+attempting to mkdir /scratch/users/dantopa/repos/gitlab/node-queries/darwin/arm-cn809/dir-configuration
+directory of core scripts = ${core} = /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts
+Wed Apr 24 13:26:37 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/master.sh(B[m
+Wed Apr 24 13:26:37 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh(B[m
+Wed Apr 24 13:26:37 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh(B[m
+Wed Apr 24 13:26:37 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Wed Apr 24 13:26:37 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh(B[m
+Wed Apr 24 13:26:37 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh: line 5: gonode: command not found
+Wed Apr 24 13:26:37 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/gcc.sh(B[m
+Wed Apr 24 13:26:37 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Wed Apr 24 13:26:37 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/git.sh(B[m
+Wed Apr 24 13:26:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/ssh.sh(B[m
+Wed Apr 24 13:26:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/vim.sh(B[m
+Wed Apr 24 13:26:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bash.sh(B[m
+Wed Apr 24 13:26:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/finds.sh(B[m
+Wed Apr 24 13:26:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/cmake.sh(B[m
+Wed Apr 24 13:26:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/copy-configuration.sh(B[m
+Wed Apr 24 13:26:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/fortran.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh: line 33: sinfo_s: command not found
+Wed Apr 24 13:26:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks.sh(B[m
+Wed Apr 24 13:26:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-bitbucket.sh(B[m
+Wed Apr 24 13:26:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-github.sh(B[m
+Wed Apr 24 13:26:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-gitlab.sh(B[m
+Wed Apr 24 13:26:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/disk.sh(B[m
+Wed Apr 24 13:26:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh(B[m
+[master 42fe2bc] darwin-arm-cn809 Wed Apr 24 13:26:38 MDT 2019
+ 2 files changed, 19 insertions(+)
+ create mode 100644 libraries/tools/bash/darwin-arm-batch.out
+Wed Apr 24 13:26:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh(B[m
+Wed Apr 24 13:26:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Wed Apr 24 13:26:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh(B[m
+Wed Apr 24 13:26:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh: line 5: gonode: command not found
+Wed Apr 24 13:26:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/uname.sh(B[m
+Wed Apr 24 13:26:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Wed Apr 24 13:26:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/spack.sh(B[m
+Wed Apr 24 13:26:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/modules.sh(B[m
+Wed Apr 24 13:26:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/alias.sh(B[m
+[master 05d811e] darwin-arm-cn809 Wed Apr 24 13:26:38 MDT 2019
+ 1 file changed, 21 insertions(+)
+Wed Apr 24 13:26:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh: line 11: myprompt: command not found
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh: line 33: sinfo_s: command not found
+Wed Apr 24 13:26:42 MDT 2019 /tmp/slurmd/job5195741/slurm_script
+source "${dir_tools}/bash/master-tpl-sweep.sh"
+Wed Apr 24 13:26:42 MDT 2019 /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh
+cd /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools
+source directories/libraries-darwin.sh
+Wed Apr 24 13:26:42 MDT 2019 [1mdirectories/libraries-darwin.sh(B[m
+source tpl-versions/versions-libhio.sh
+Wed Apr 24 13:26:42 MDT 2019 [1mtpl-versions/versions-libhio.sh(B[m
+2 libhio versions loaded:
+1.4.1.3  1.4.1.2
+
+source compilers/compilers-darwin-arm.sh
+Wed Apr 24 13:26:42 MDT 2019 [1mcompilers/compilers-darwin-arm.sh(B[m
+9 Spack-recognized compilers loaded:
+gcc@8.2.0  gcc@8.1.0  gcc@7.1.0  gcc@4.8.5  arm@19.1  clang@18.4.2  clang@18.4.1  clang@18.4.0  clang@7.0.0
+
+source klingons/darwin-arm-libhio.sh
+/scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 36: klingons/darwin-arm-libhio.sh: No such file or directory
+cd /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio
+. share/spack/setup-env.sh
+export spack_architecture='arch=linux-rhel7-aarch64'
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+spack compilers
+==> Available compilers
+-- arm rhel7-aarch64 --------------------------------------------
+arm@19.1
+
+-- clang rhel7-aarch64 ------------------------------------------
+clang@18.4.2
+clang@18.4.1
+clang@18.4.0
+clang@7.0.0
+
+-- gcc rhel7-aarch64 --------------------------------------------
+gcc@8.2.0
+gcc@8.1.0
+gcc@7.1.0
+gcc@4.8.5
+ls -alh etc/spack/defaults
+total 154K
+drwxrwxr-x 4 dantopa dantopa   15 Apr  2 14:27 .
+drwxrwxr-x 3 dantopa dantopa    3 Nov 12 20:31 ..
+-rw-rw-r-- 1 dantopa dantopa 4.8K Apr  1 11:16 compilers.yaml
+-rw-rw-r-- 1 dantopa dantopa 4.4K Mar 14 13:55 config.yaml
+drwxrwxr-x 2 dantopa dantopa    4 Nov 12 20:31 darwin
+-rw-rw-r-- 1 dantopa dantopa 4.8K Apr  1 11:14 darwin-arm-modules-compilers.yaml
+drwxrwxr-x 2 dantopa dantopa    3 Nov 12 20:31 linux
+-rw-rw-r-- 1 dantopa dantopa    3 Apr  1 11:15 lmod-modules.yaml
+-rw-rw-r-- 1 dantopa dantopa 3.9K Apr  1 11:16 minimal-build-packages.yaml
+-rw-rw-r-- 1 dantopa dantopa  136 Apr  1 11:15 mirrors.yaml
+-rw-rw-r-- 1 dantopa dantopa 1.1K Nov 12 20:31 modules.yaml
+-rw-rw-r-- 1 dantopa dantopa 3.9K Apr  2 14:27 packages.yaml
+-rw-rw-r-- 1 dantopa dantopa  530 Feb 21 14:55 release.yaml
+-rw-rw-r-- 1 dantopa dantopa  546 Nov 12 20:31 repos.yaml
+-rw-rw-r-- 1 dantopa dantopa 3.4K Apr  1 11:15 tcl-modules.yaml
+cat etc/spack/defaults/compilers.yaml
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [Generic-AArch64/RHEL/7/gcc/8.2.0]
+    operating_system: rhel7
+    paths:
+      cc:  /opt/arm/gcc-8.2.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gcc
+      cxx: /opt/arm/gcc-8.2.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/g++
+      f77: /opt/arm/gcc-8.2.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+      fc:  /opt/arm/gcc-8.2.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+    spec: gcc@8.2.0
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [gcc/8.1.0]
+    operating_system: rhel7
+    paths:
+      cc:  /opt/arm/gcc-8.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gcc
+      cxx: /opt/arm/gcc-8.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/g++
+      f77: /opt/arm/gcc-8.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+      fc:  /opt/arm/gcc-8.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+    spec: gcc@8.1.0
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [Generic-AArch64/RHEL/7/gcc/7.1.0]
+    operating_system: rhel7
+    paths:
+      cc:  /opt/arm/gcc-7.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gcc
+      cxx: /opt/arm/gcc-7.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/g++
+      f77: /opt/arm/gcc-7.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+      fc:  /opt/arm/gcc-7.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+    spec: gcc@7.1.0
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc:  /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec: gcc@4.8.5
+    target: aarch64
+#  #  #  clang
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - clang/7.0.0
+    operating_system: rhel7
+    paths:
+      cc:  /projects/opt/aarch64/clang/7.0.0/bin/armclang
+      cxx: /projects/opt/aarch64/clang/7.0.0/bin/armclang++
+      f77: /projects/opt/aarch64/clang/7.0.0/bin/armflang
+      fc:  /projects/opt/aarch64/clang/7.0.0/bin/armflang
+    spec: clang@7.0.0
+    target: aarch64
+#  #  #  darwin ARM
+#  #  #  ARM clang
+#  #  #  18.4.2  18.4.1  18.4.0
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/8.2.0
+    - Generic-AArch64/RHEL/7/arm-hpc-compiler/19.1
+    operating_system: rhel7
+    paths:
+      cc:  /opt/arm/arm-hpc-compiler-19.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang
+      cxx: /opt/arm/arm-hpc-compiler-19.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang++
+      f77: /opt/arm/arm-hpc-compiler-19.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+      fc:  /opt/arm/arm-hpc-compiler-19.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+    spec: arm@19.1
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4.2]
+    operating_system: rhel7
+    paths:
+      cc:  /opt/arm/arm-hpc-compiler-18.4.2_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang
+      cxx: /opt/arm/arm-hpc-compiler-18.4.2_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang++
+      f77: /opt/arm/arm-hpc-compiler-18.4.2_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+      #f90: /opt/arm/arm-hpc-compiler-18.4.2_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+      fc:  /opt/arm/arm-hpc-compiler-18.4.2_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+    spec: clang@18.4.2
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4.1]
+    operating_system: rhel7
+    paths:
+      cc:  /opt/arm/arm-hpc-compiler-18.4.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang
+      cxx: /opt/arm/arm-hpc-compiler-18.4.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang++
+      f77: /opt/arm/arm-hpc-compiler-18.4.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+      #f90: /opt/arm/arm-hpc-compiler-18.4.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+      fc:  /opt/arm/arm-hpc-compiler-18.4.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+    spec: clang@18.4.1
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4]
+    operating_system: rhel7
+    paths:
+      cc:  /opt/arm/arm-hpc-compiler-18.4_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang
+      cxx: /opt/arm/arm-hpc-compiler-18.4_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang++
+      f77: /opt/arm/arm-hpc-compiler-18.4_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+      #f90: /opt/arm/arm-hpc-compiler-18.4_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+      fc:  /opt/arm/arm-hpc-compiler-18.4_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+    spec: clang@18.4.0
+    target: aarch64
+spack config get compilers
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - Generic-AArch64/RHEL/7/gcc/8.2.0
+    operating_system: rhel7
+    paths:
+      cc: /opt/arm/gcc-8.2.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gcc
+      cxx: /opt/arm/gcc-8.2.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/g++
+      f77: /opt/arm/gcc-8.2.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+      fc: /opt/arm/gcc-8.2.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+    spec: gcc@8.2.0
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/8.1.0
+    operating_system: rhel7
+    paths:
+      cc: /opt/arm/gcc-8.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gcc
+      cxx: /opt/arm/gcc-8.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/g++
+      f77: /opt/arm/gcc-8.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+      fc: /opt/arm/gcc-8.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+    spec: gcc@8.1.0
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - Generic-AArch64/RHEL/7/gcc/7.1.0
+    operating_system: rhel7
+    paths:
+      cc: /opt/arm/gcc-7.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gcc
+      cxx: /opt/arm/gcc-7.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/g++
+      f77: /opt/arm/gcc-7.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+      fc: /opt/arm/gcc-7.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+    spec: gcc@7.1.0
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc: /usr/bin/gfortran
+    spec: gcc@4.8.5
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - clang/7.0.0
+    operating_system: rhel7
+    paths:
+      cc: /projects/opt/aarch64/clang/7.0.0/bin/armclang
+      cxx: /projects/opt/aarch64/clang/7.0.0/bin/armclang++
+      f77: /projects/opt/aarch64/clang/7.0.0/bin/armflang
+      fc: /projects/opt/aarch64/clang/7.0.0/bin/armflang
+    spec: clang@7.0.0
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/8.2.0
+    - Generic-AArch64/RHEL/7/arm-hpc-compiler/19.1
+    operating_system: rhel7
+    paths:
+      cc: /opt/arm/arm-hpc-compiler-19.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang
+      cxx: /opt/arm/arm-hpc-compiler-19.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang++
+      f77: /opt/arm/arm-hpc-compiler-19.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+      fc: /opt/arm/arm-hpc-compiler-19.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+    spec: arm@19.1
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4.2
+    operating_system: rhel7
+    paths:
+      cc: /opt/arm/arm-hpc-compiler-18.4.2_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang
+      cxx: /opt/arm/arm-hpc-compiler-18.4.2_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang++
+      f77: /opt/arm/arm-hpc-compiler-18.4.2_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+      fc: /opt/arm/arm-hpc-compiler-18.4.2_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+    spec: clang@18.4.2
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4.1
+    operating_system: rhel7
+    paths:
+      cc: /opt/arm/arm-hpc-compiler-18.4.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang
+      cxx: /opt/arm/arm-hpc-compiler-18.4.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang++
+      f77: /opt/arm/arm-hpc-compiler-18.4.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+      fc: /opt/arm/arm-hpc-compiler-18.4.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+    spec: clang@18.4.1
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4
+    operating_system: rhel7
+    paths:
+      cc: /opt/arm/arm-hpc-compiler-18.4_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang
+      cxx: /opt/arm/arm-hpc-compiler-18.4_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang++
+      f77: /opt/arm/arm-hpc-compiler-18.4_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+      fc: /opt/arm/arm-hpc-compiler-18.4_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+    spec: clang@18.4.0
+    target: aarch64
+spack install libhio @ 1.4.1.3 % gcc@8.2.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-libhio-install.log
+spack install libhio @ 1.4.1.3 % gcc@8.1.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-libhio-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-gpzuvig2ughdn2tbygwjwwo4sjjjpckx/libpciaccess-0.13.5/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/opt/spack/linux-rhel7-aarch64/gcc-8.1.0/libpciaccess-0.13.5-gpzuvig2ughdn2tbygwjwwo4sjjjpckx'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /scratch/users/dantopa/new-spack/libraries/darwi
+           n-arm.libhio/lib/spack/env/gcc/gcc
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-5GIuc
+           p/libpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-gpzuvig2ughdn2tbygwjwwo4sjjjpckx/spack-build.out
+spack install libhio @ 1.4.1.3 % gcc@7.1.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-libhio-install.log
+spack install libhio @ 1.4.1.3 % gcc@4.8.5  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-libhio-install.log
+spack install libhio @ 1.4.1.3 % arm@19.1  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-libhio-install.log
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-syimrildzpuh3cythz2l2zkwmk4e2buv/libpciaccess-0.13.5/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/opt/spack/linux-rhel7-aarch64/arm-19.1/libpciaccess-0.13.5-syimrildzpuh3cythz2l2zkwmk4e2buv'
+
+2 errors found in build log:
+     17    checking whether we are using the GNU C compiler... yes
+     18    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.libhio/lib/spack/env/arm/armclang accepts -g... yes
+     19    checking for /scratch/users/dantopa/new-spack/libraries/darwin-arm.l
+           ibhio/lib/spack/env/arm/armclang option to accept ISO C89... none ne
+           eded
+     20    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.libhio/lib/spack/env/arm/armclang understands -c and -o together.
+           .. yes
+     21    checking dependency style of /scratch/users/dantopa/new-spack/librar
+           ies/darwin-arm.libhio/lib/spack/env/arm/armclang... gcc3
+     22    checking how to run the C preprocessor... cpp\ -mcpu=thunderx2t99
+  >> 23    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-gf0V1
+           j/libpciaccess-0.13.5':
+  >> 24    configure: error: C preprocessor "cpp\ -mcpu=thunderx2t99" fails san
+           ity check
+     25    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-syimrildzpuh3cythz2l2zkwmk4e2buv/spack-build.out
+spack install libhio @ 1.4.1.3 % clang@18.4.2  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-libhio-install.log
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-zmhg7tt5i5efkdqkbklhejtqo2trvtr7/libpciaccess-0.13.5/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/opt/spack/linux-rhel7-aarch64/clang-18.4.2/libpciaccess-0.13.5-zmhg7tt5i5efkdqkbklhejtqo2trvtr7'
+
+2 errors found in build log:
+     17    checking whether we are using the GNU C compiler... yes
+     18    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.libhio/lib/spack/env/clang/clang accepts -g... yes
+     19    checking for /scratch/users/dantopa/new-spack/libraries/darwin-arm.l
+           ibhio/lib/spack/env/clang/clang option to accept ISO C89... none nee
+           ded
+     20    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.libhio/lib/spack/env/clang/clang understands -c and -o together..
+           . yes
+     21    checking dependency style of /scratch/users/dantopa/new-spack/librar
+           ies/darwin-arm.libhio/lib/spack/env/clang/clang... gcc3
+     22    checking how to run the C preprocessor... armclang\ -E
+  >> 23    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-XeYmm
+           y/libpciaccess-0.13.5':
+  >> 24    configure: error: C preprocessor "armclang\ -E" fails sanity check
+     25    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-zmhg7tt5i5efkdqkbklhejtqo2trvtr7/spack-build.out
+spack install libhio @ 1.4.1.3 % clang@18.4.1  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-libhio-install.log
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-q2f4lw2hjiy26w67orjs4od4jvewx5ir/libpciaccess-0.13.5/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/opt/spack/linux-rhel7-aarch64/clang-18.4.1/libpciaccess-0.13.5-q2f4lw2hjiy26w67orjs4od4jvewx5ir'
+
+2 errors found in build log:
+     17    checking whether we are using the GNU C compiler... yes
+     18    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.libhio/lib/spack/env/clang/clang accepts -g... yes
+     19    checking for /scratch/users/dantopa/new-spack/libraries/darwin-arm.l
+           ibhio/lib/spack/env/clang/clang option to accept ISO C89... none nee
+           ded
+     20    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.libhio/lib/spack/env/clang/clang understands -c and -o together..
+           . yes
+     21    checking dependency style of /scratch/users/dantopa/new-spack/librar
+           ies/darwin-arm.libhio/lib/spack/env/clang/clang... gcc3
+     22    checking how to run the C preprocessor... armclang\ -E
+  >> 23    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-CZDqh
+           z/libpciaccess-0.13.5':
+  >> 24    configure: error: C preprocessor "armclang\ -E" fails sanity check
+     25    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-q2f4lw2hjiy26w67orjs4od4jvewx5ir/spack-build.out
+spack install libhio @ 1.4.1.3 % clang@18.4.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-libhio-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j256'
+
+6 errors found in build log:
+     1985      FC       H5Tff_F03.lo
+     1986      FC       H5FDmpioff.lo
+     1987      FC       H5_ff.lo
+     1988      FC       H5_DBLE_InterfaceInclude.lo
+     1989      FC       HDF5mpio.lo
+     1990      FCLD     libhdf5_fortran.la
+  >> 1991    clang-5.0: error: unknown argument: '-soname'
+  >> 1992    clang-5.0: error: no such file or directory: 'libhdf5_fortran.so.1
+             0'
+  >> 1993    make[3]: *** [libhdf5_fortran.la] Error 1
+     1994    make[3]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-sta
+             ge-ajp0uh/hdf5-1.8.17/fortran/src'
+  >> 1995    make[2]: *** [all] Error 2
+     1996    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-sta
+             ge-ajp0uh/hdf5-1.8.17/fortran/src'
+  >> 1997    make[1]: *** [all-recursive] Error 1
+     1998    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-sta
+             ge-ajp0uh/hdf5-1.8.17/fortran'
+  >> 1999    make: *** [all-recursive] Error 1
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/hdf5-1.8.17-f24pvc2ixw2xo7ibvebhnsc2oicre4ih/spack-build.out
+spack install libhio @ 1.4.1.3 % clang@7.0.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-libhio-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-t24hqeld27fu4srlt6s5ujtp5lhff5bg/libpciaccess-0.13.5/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/opt/spack/linux-rhel7-aarch64/clang-7.0.0/libpciaccess-0.13.5-t24hqeld27fu4srlt6s5ujtp5lhff5bg'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /scratch/users/dantopa/new-spack/libraries/darwi
+           n-arm.libhio/lib/spack/env/clang/clang
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-O2iZI
+           q/libpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-t24hqeld27fu4srlt6s5ujtp5lhff5bg/spack-build.out
+spack install libhio @ 1.4.1.2 % gcc@8.2.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-libhio-install.log
+spack install libhio @ 1.4.1.2 % gcc@8.1.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-libhio-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-gpzuvig2ughdn2tbygwjwwo4sjjjpckx/libpciaccess-0.13.5/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/opt/spack/linux-rhel7-aarch64/gcc-8.1.0/libpciaccess-0.13.5-gpzuvig2ughdn2tbygwjwwo4sjjjpckx'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /scratch/users/dantopa/new-spack/libraries/darwi
+           n-arm.libhio/lib/spack/env/gcc/gcc
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-mCCeT
+           c/libpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-gpzuvig2ughdn2tbygwjwwo4sjjjpckx/spack-build.out
+spack install libhio @ 1.4.1.2 % gcc@7.1.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-libhio-install.log
+spack install libhio @ 1.4.1.2 % gcc@4.8.5  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-libhio-install.log
+spack install libhio @ 1.4.1.2 % arm@19.1  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-libhio-install.log
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-syimrildzpuh3cythz2l2zkwmk4e2buv/libpciaccess-0.13.5/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/opt/spack/linux-rhel7-aarch64/arm-19.1/libpciaccess-0.13.5-syimrildzpuh3cythz2l2zkwmk4e2buv'
+
+2 errors found in build log:
+     17    checking whether we are using the GNU C compiler... yes
+     18    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.libhio/lib/spack/env/arm/armclang accepts -g... yes
+     19    checking for /scratch/users/dantopa/new-spack/libraries/darwin-arm.l
+           ibhio/lib/spack/env/arm/armclang option to accept ISO C89... none ne
+           eded
+     20    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.libhio/lib/spack/env/arm/armclang understands -c and -o together.
+           .. yes
+     21    checking dependency style of /scratch/users/dantopa/new-spack/librar
+           ies/darwin-arm.libhio/lib/spack/env/arm/armclang... gcc3
+     22    checking how to run the C preprocessor... cpp\ -mcpu=thunderx2t99
+  >> 23    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-nUwvJ
+           A/libpciaccess-0.13.5':
+  >> 24    configure: error: C preprocessor "cpp\ -mcpu=thunderx2t99" fails san
+           ity check
+     25    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-syimrildzpuh3cythz2l2zkwmk4e2buv/spack-build.out
+spack install libhio @ 1.4.1.2 % clang@18.4.2  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-libhio-install.log
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-zmhg7tt5i5efkdqkbklhejtqo2trvtr7/libpciaccess-0.13.5/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/opt/spack/linux-rhel7-aarch64/clang-18.4.2/libpciaccess-0.13.5-zmhg7tt5i5efkdqkbklhejtqo2trvtr7'
+
+2 errors found in build log:
+     17    checking whether we are using the GNU C compiler... yes
+     18    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.libhio/lib/spack/env/clang/clang accepts -g... yes
+     19    checking for /scratch/users/dantopa/new-spack/libraries/darwin-arm.l
+           ibhio/lib/spack/env/clang/clang option to accept ISO C89... none nee
+           ded
+     20    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.libhio/lib/spack/env/clang/clang understands -c and -o together..
+           . yes
+     21    checking dependency style of /scratch/users/dantopa/new-spack/librar
+           ies/darwin-arm.libhio/lib/spack/env/clang/clang... gcc3
+     22    checking how to run the C preprocessor... armclang\ -E
+  >> 23    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-iQ5dB
+           Q/libpciaccess-0.13.5':
+  >> 24    configure: error: C preprocessor "armclang\ -E" fails sanity check
+     25    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-zmhg7tt5i5efkdqkbklhejtqo2trvtr7/spack-build.out
+spack install libhio @ 1.4.1.2 % clang@18.4.1  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-libhio-install.log
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-q2f4lw2hjiy26w67orjs4od4jvewx5ir/libpciaccess-0.13.5/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/opt/spack/linux-rhel7-aarch64/clang-18.4.1/libpciaccess-0.13.5-q2f4lw2hjiy26w67orjs4od4jvewx5ir'
+
+2 errors found in build log:
+     17    checking whether we are using the GNU C compiler... yes
+     18    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.libhio/lib/spack/env/clang/clang accepts -g... yes
+     19    checking for /scratch/users/dantopa/new-spack/libraries/darwin-arm.l
+           ibhio/lib/spack/env/clang/clang option to accept ISO C89... none nee
+           ded
+     20    checking whether /scratch/users/dantopa/new-spack/libraries/darwin-a
+           rm.libhio/lib/spack/env/clang/clang understands -c and -o together..
+           . yes
+     21    checking dependency style of /scratch/users/dantopa/new-spack/librar
+           ies/darwin-arm.libhio/lib/spack/env/clang/clang... gcc3
+     22    checking how to run the C preprocessor... armclang\ -E
+  >> 23    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-jC9lA
+           e/libpciaccess-0.13.5':
+  >> 24    configure: error: C preprocessor "armclang\ -E" fails sanity check
+     25    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-q2f4lw2hjiy26w67orjs4od4jvewx5ir/spack-build.out
+spack install libhio @ 1.4.1.2 % clang@18.4.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-libhio-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j256'
+
+6 errors found in build log:
+     1985      FC       H5Tff_F03.lo
+     1986      FC       H5FDmpioff.lo
+     1987      FC       H5_ff.lo
+     1988      FC       H5_DBLE_InterfaceInclude.lo
+     1989      FC       HDF5mpio.lo
+     1990      FCLD     libhdf5_fortran.la
+  >> 1991    clang-5.0: error: unknown argument: '-soname'
+  >> 1992    clang-5.0: error: no such file or directory: 'libhdf5_fortran.so.1
+             0'
+  >> 1993    make[3]: *** [libhdf5_fortran.la] Error 1
+     1994    make[3]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-sta
+             ge-T48mz8/hdf5-1.8.17/fortran/src'
+  >> 1995    make[2]: *** [all] Error 2
+     1996    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-sta
+             ge-T48mz8/hdf5-1.8.17/fortran/src'
+  >> 1997    make[1]: *** [all-recursive] Error 1
+     1998    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-sta
+             ge-T48mz8/hdf5-1.8.17/fortran'
+  >> 1999    make: *** [all-recursive] Error 1
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/hdf5-1.8.17-f24pvc2ixw2xo7ibvebhnsc2oicre4ih/spack-build.out
+spack install libhio @ 1.4.1.2 % clang@7.0.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-libhio-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-t24hqeld27fu4srlt6s5ujtp5lhff5bg/libpciaccess-0.13.5/configure' '--prefix=/scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/opt/spack/linux-rhel7-aarch64/clang-7.0.0/libpciaccess-0.13.5-t24hqeld27fu4srlt6s5ujtp5lhff5bg'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /scratch/users/dantopa/new-spack/libraries/darwi
+           n-arm.libhio/lib/spack/env/clang/clang
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-2knir
+           l/libpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/var/spack/stage/libpciaccess-0.13.5-t24hqeld27fu4srlt6s5ujtp5lhff5bg/spack-build.out
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+mkdir -p "${dir_results}/platform-order"
+mkdir -p "${dir_results}/tpl-order"
+mkdir -p "${dir_results}/graphs"
+spack find libhio >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/platform-order/darwin-arm-libhio.out
+spack find libhio >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/libhio-darwin-arm.out
+spack find -ldf libhio  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/libhio-darwin-arm-ldf.out
+spack graph libhio >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/graphs/libhio-darwin-arm-graph.out
+spack compilers
+==> Available compilers
+-- arm rhel7-aarch64 --------------------------------------------
+arm@19.1
+
+-- clang rhel7-aarch64 ------------------------------------------
+clang@18.4.2
+clang@18.4.1
+clang@18.4.0
+clang@7.0.0
+
+-- gcc rhel7-aarch64 --------------------------------------------
+gcc@8.2.0
+gcc@8.1.0
+gcc@7.1.0
+gcc@4.8.5
+spack find libhio
+==> 14 installed packages
+-- linux-rhel7-aarch64 / gcc@4.8.5 ------------------------------
+libhio@1.4.1.2
+libhio@1.4.1.2
+libhio@1.4.1.2
+libhio@1.4.1.3
+libhio@1.4.1.3
+libhio@1.4.1.3
+
+-- linux-rhel7-aarch64 / gcc@7.1.0 ------------------------------
+libhio@1.4.1.2
+libhio@1.4.1.2
+libhio@1.4.1.3
+libhio@1.4.1.3
+
+-- linux-rhel7-aarch64 / gcc@8.2.0 ------------------------------
+libhio@1.4.1.2
+libhio@1.4.1.2
+libhio@1.4.1.3
+libhio@1.4.1.3
+spack find -ldf libhio
+==> 14 installed packages
+-- linux-rhel7-aarch64 / gcc@4.8.5 ------------------------------
+k32ecfr    libhio@1.4.1.2%gcc 
+c4sj2bh        ^bzip2@1.0.6%gcc 
+vjqio2l        ^hdf5@1.8.17%gcc 
+m5neuus            ^numactl@2.0.12%gcc 
+ux5evxy            ^openmpi@3.1.0%gcc 
+7gqvelc                ^hwloc@1.11.11%gcc 
+6a4he35                    ^libpciaccess@0.13.5%gcc 
+6a5uzd6                    ^libxml2@2.9.8%gcc 
+67s2oqn                ^zlib@1.2.11%gcc 
+lvuysqs        ^json-c@0.13.1%gcc 
+
+5eanmg7    libhio@1.4.1.2%gcc 
+c4sj2bh        ^bzip2@1.0.6%gcc 
+ax5kqrt        ^hdf5@1.8.17%gcc 
+m5neuus            ^numactl@2.0.12%gcc 
+pvq3s35            ^openmpi@3.1.4%gcc 
+7gqvelc                ^hwloc@1.11.11%gcc 
+6a4he35                    ^libpciaccess@0.13.5%gcc 
+6a5uzd6                    ^libxml2@2.9.8%gcc 
+67s2oqn                ^zlib@1.2.11%gcc 
+lvuysqs        ^json-c@0.13.1%gcc 
+
+dsq4lkp    libhio@1.4.1.2%gcc 
+c4sj2bh        ^bzip2@1.0.6%gcc 
+tf65gt7        ^hdf5@1.8.17%gcc 
+m5neuus            ^numactl@2.0.12%gcc 
+ps67vox            ^openmpi@3.1.3%gcc 
+7gqvelc                ^hwloc@1.11.11%gcc 
+6a4he35                    ^libpciaccess@0.13.5%gcc 
+6a5uzd6                    ^libxml2@2.9.8%gcc 
+67s2oqn                ^zlib@1.2.11%gcc 
+lvuysqs        ^json-c@0.13.1%gcc 
+
+jnmbafo    libhio@1.4.1.3%gcc 
+c4sj2bh        ^bzip2@1.0.6%gcc 
+vjqio2l        ^hdf5@1.8.17%gcc 
+m5neuus            ^numactl@2.0.12%gcc 
+ux5evxy            ^openmpi@3.1.0%gcc 
+7gqvelc                ^hwloc@1.11.11%gcc 
+6a4he35                    ^libpciaccess@0.13.5%gcc 
+6a5uzd6                    ^libxml2@2.9.8%gcc 
+67s2oqn                ^zlib@1.2.11%gcc 
+lvuysqs        ^json-c@0.13.1%gcc 
+
+dgmlhfk    libhio@1.4.1.3%gcc 
+c4sj2bh        ^bzip2@1.0.6%gcc 
+ax5kqrt        ^hdf5@1.8.17%gcc 
+m5neuus            ^numactl@2.0.12%gcc 
+pvq3s35            ^openmpi@3.1.4%gcc 
+7gqvelc                ^hwloc@1.11.11%gcc 
+6a4he35                    ^libpciaccess@0.13.5%gcc 
+6a5uzd6                    ^libxml2@2.9.8%gcc 
+67s2oqn                ^zlib@1.2.11%gcc 
+lvuysqs        ^json-c@0.13.1%gcc 
+
+7j5whgv    libhio@1.4.1.3%gcc 
+c4sj2bh        ^bzip2@1.0.6%gcc 
+tf65gt7        ^hdf5@1.8.17%gcc 
+m5neuus            ^numactl@2.0.12%gcc 
+ps67vox            ^openmpi@3.1.3%gcc 
+7gqvelc                ^hwloc@1.11.11%gcc 
+6a4he35                    ^libpciaccess@0.13.5%gcc 
+6a5uzd6                    ^libxml2@2.9.8%gcc 
+67s2oqn                ^zlib@1.2.11%gcc 
+lvuysqs        ^json-c@0.13.1%gcc 
+
+
+-- linux-rhel7-aarch64 / gcc@7.1.0 ------------------------------
+qx6qn3a    libhio@1.4.1.2%gcc 
+iyahr3n        ^bzip2@1.0.6%gcc 
+j7by2yf        ^hdf5@1.8.17%gcc 
+eukhjxm            ^numactl@2.0.12%gcc 
+jnzsss4            ^openmpi@3.1.4%gcc 
+izn5gbo                ^hwloc@1.11.11%gcc 
+gmwtdrw                    ^libpciaccess@0.13.5%gcc 
+7sufcg5                    ^libxml2@2.9.8%gcc 
+zsiftcm                ^zlib@1.2.11%gcc 
+wzla5wt        ^json-c@0.13.1%gcc 
+
+nq727na    libhio@1.4.1.2%gcc 
+iyahr3n        ^bzip2@1.0.6%gcc 
+mzefk5y        ^hdf5@1.8.17%gcc 
+eukhjxm            ^numactl@2.0.12%gcc 
+vgxuikc            ^openmpi@3.1.3%gcc 
+izn5gbo                ^hwloc@1.11.11%gcc 
+gmwtdrw                    ^libpciaccess@0.13.5%gcc 
+7sufcg5                    ^libxml2@2.9.8%gcc 
+zsiftcm                ^zlib@1.2.11%gcc 
+wzla5wt        ^json-c@0.13.1%gcc 
+
+hg3jhig    libhio@1.4.1.3%gcc 
+iyahr3n        ^bzip2@1.0.6%gcc 
+j7by2yf        ^hdf5@1.8.17%gcc 
+eukhjxm            ^numactl@2.0.12%gcc 
+jnzsss4            ^openmpi@3.1.4%gcc 
+izn5gbo                ^hwloc@1.11.11%gcc 
+gmwtdrw                    ^libpciaccess@0.13.5%gcc 
+7sufcg5                    ^libxml2@2.9.8%gcc 
+zsiftcm                ^zlib@1.2.11%gcc 
+wzla5wt        ^json-c@0.13.1%gcc 
+
+by435ta    libhio@1.4.1.3%gcc 
+iyahr3n        ^bzip2@1.0.6%gcc 
+mzefk5y        ^hdf5@1.8.17%gcc 
+eukhjxm            ^numactl@2.0.12%gcc 
+vgxuikc            ^openmpi@3.1.3%gcc 
+izn5gbo                ^hwloc@1.11.11%gcc 
+gmwtdrw                    ^libpciaccess@0.13.5%gcc 
+7sufcg5                    ^libxml2@2.9.8%gcc 
+zsiftcm                ^zlib@1.2.11%gcc 
+wzla5wt        ^json-c@0.13.1%gcc 
+
+
+-- linux-rhel7-aarch64 / gcc@8.2.0 ------------------------------
+x26xxn3    libhio@1.4.1.2%gcc 
+zkpetrn        ^bzip2@1.0.6%gcc 
+ctoi7g2        ^hdf5@1.8.17%gcc 
+opoop4g            ^numactl@2.0.12%gcc 
+e5deleg            ^openmpi@3.1.4%gcc 
+3pau2kk                ^hwloc@1.11.11%gcc 
+vfd6u24                    ^libpciaccess@0.13.5%gcc 
+fo65cwc                    ^libxml2@2.9.8%gcc 
+x5quqjk                ^zlib@1.2.11%gcc 
+bn5b4bb        ^json-c@0.13.1%gcc 
+
+btmddcl    libhio@1.4.1.2%gcc 
+zkpetrn        ^bzip2@1.0.6%gcc 
+mfo5dbu        ^hdf5@1.8.17%gcc 
+opoop4g            ^numactl@2.0.12%gcc 
+oiq7f6o            ^openmpi@3.1.3%gcc 
+3pau2kk                ^hwloc@1.11.11%gcc 
+vfd6u24                    ^libpciaccess@0.13.5%gcc 
+fo65cwc                    ^libxml2@2.9.8%gcc 
+x5quqjk                ^zlib@1.2.11%gcc 
+bn5b4bb        ^json-c@0.13.1%gcc 
+
+f3lmdy5    libhio@1.4.1.3%gcc 
+zkpetrn        ^bzip2@1.0.6%gcc 
+ctoi7g2        ^hdf5@1.8.17%gcc 
+opoop4g            ^numactl@2.0.12%gcc 
+e5deleg            ^openmpi@3.1.4%gcc 
+3pau2kk                ^hwloc@1.11.11%gcc 
+vfd6u24                    ^libpciaccess@0.13.5%gcc 
+fo65cwc                    ^libxml2@2.9.8%gcc 
+x5quqjk                ^zlib@1.2.11%gcc 
+bn5b4bb        ^json-c@0.13.1%gcc 
+
+ercmnwk    libhio@1.4.1.3%gcc 
+zkpetrn        ^bzip2@1.0.6%gcc 
+mfo5dbu        ^hdf5@1.8.17%gcc 
+opoop4g            ^numactl@2.0.12%gcc 
+oiq7f6o            ^openmpi@3.1.3%gcc 
+3pau2kk                ^hwloc@1.11.11%gcc 
+vfd6u24                    ^libpciaccess@0.13.5%gcc 
+fo65cwc                    ^libxml2@2.9.8%gcc 
+x5quqjk                ^zlib@1.2.11%gcc 
+bn5b4bb        ^json-c@0.13.1%gcc 
+
+mv  /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/darwin-arm-batch.out   /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/batch-out/darwin-arm-libhio-2019-04-24-batch.out
+cd /scratch/users/dantopa/repos/gitlab/pull-requests/libraries
+git add -A .
+git commit -m "${USER} ${tpl} ${hpc} ${partition} ${ymd}"
+[master 1e91b11] dantopa libhio darwin arm 2019-04-24
+ 11 files changed, 1687 insertions(+), 384 deletions(-)
+ create mode 100644 libraries/results/batch-out/darwin-arm-libhio-2019-04-24-batch.out
+ create mode 100644 libraries/results/graphs/libhio-darwin-arm-graph.out
+ create mode 100644 libraries/results/platform-order/darwin-arm-libhio.out
+ create mode 100644 libraries/results/tpl-order/libhio-darwin-arm-ldf.out
+ create mode 100644 libraries/results/tpl-order/libhio-darwin-arm.out
+ delete mode 100644 libraries/tools/bash/darwin-arm-batch.out
+Wed Apr 24 14:42:00 MDT 2019

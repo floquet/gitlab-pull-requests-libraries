@@ -1,0 +1,651 @@
+Fri Apr 26 12:39:36 MDT 2019 /var/spool/slurm/job321446/slurm_script
+source "${dir_tools}/bash/master-tpl-sweep.sh"
+Fri Apr 26 12:39:36 MDT 2019 /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh
+cd /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools
+source directories/libraries-capulin.sh
+Fri Apr 26 12:39:36 MDT 2019 [1mdirectories/libraries-capulin.sh(B[m
+source tpl-versions/versions-ucx.sh
+Fri Apr 26 12:39:36 MDT 2019 [1mtpl-versions/versions-ucx.sh(B[m
+4 ucx versions loaded:
+1.5.0  1.4.0  1.3.1  1.2.2
+
+source compilers/compilers-capulin-arm.sh
+Fri Apr 26 12:39:36 MDT 2019 [1mcompilers/compilers-capulin-arm.sh(B[m
+3 Spack-recognized compilers loaded:
+gcc@8.2.0  gcc@7.3.0  gcc@6.1.0
+
+source klingons/capulin-arm-ucx.sh
+/lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 36: klingons/capulin-arm-ucx.sh: No such file or directory
+cd /lustre/cpscratch1/dantopa/repos/spack/libraries/capulin-arm.ucx
+. share/spack/setup-env.sh
+export spack_architecture='arch=cray-cnl6-arm_thunderx2'
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+spack compilers
+==> Available compilers
+-- cce cnl6-any -------------------------------------------------
+cce@8.7.10
+cce@8.7.9
+
+-- gcc cnl6-any -------------------------------------------------
+gcc@8.3.0
+gcc@7.4.0
+gcc@7.3.0
+gcc@6.1.0
+ls -alh etc/spack/defaults
+total 151K
+drwxr-x--- 4 dantopa dantopa  13K Apr 26 12:18 .
+drwxr-x--- 3 dantopa dantopa  12K Apr 25 16:51 ..
+-rw-r----- 1 dantopa dantopa 1.8K Apr 26 12:18 compilers.yaml
+-rw-r----- 1 dantopa dantopa 4.4K Apr 25 16:51 config.yaml
+drwxr-x--- 2 dantopa dantopa  12K Apr 25 16:51 darwin
+drwxr-x--- 2 dantopa dantopa  12K Apr 25 16:51 linux
+-rw-r----- 1 dantopa dantopa  216 Apr 25 20:41 mirrors.yaml
+-rw-r----- 1 dantopa dantopa 3.7K Apr 25 20:41 modules.yaml
+-rw-r----- 1 dantopa dantopa 3.1K Apr 25 20:41 packages.yaml
+-rw-r----- 1 dantopa dantopa  530 Apr 25 16:51 release.yaml
+-rw-r----- 1 dantopa dantopa  546 Apr 25 16:51 repos.yaml
+-rw-r----- 1 dantopa dantopa 3.7K Apr 25 20:41 tcl-modules.yaml
+cat etc/spack/defaults/compilers.yaml
+compilers:
+# # cray  8.7.10, 8.7.9
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - !!python/unicode
+      'cce/8.7.10'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: cce@8.7.10
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - !!python/unicode
+      'cce/8.7.9'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: cce@8.7.9
+    target: any
+# # gcc  8.3.0, 7.4.0, 7.3.0, 6.1.0
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/8.3.0'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: gcc@8.3.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    #operating_system: sles15
+    operating_system: cnl6
+    paths:
+      cc:  /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec: gcc@7.4.0
+    # target: aarch64
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/7.3.0'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: gcc@7.3.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/6.1.0'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: gcc@6.1.0
+    target: any
+
+spack config get compilers
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - !!python/unicode
+      'cce/8.7.10'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: cce@8.7.10
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - !!python/unicode
+      'cce/8.7.9'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: cce@8.7.9
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/8.3.0'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: gcc@8.3.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: cnl6
+    paths:
+      cc: /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc: /usr/bin/gfortran
+    spec: gcc@7.4.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/7.3.0'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: gcc@7.3.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/6.1.0'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: gcc@6.1.0
+    target: any
+spack install openmpi @ 4.0.1 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-openmpi-install.log
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+spack compilers
+==> Available compilers
+-- cce cnl6-any -------------------------------------------------
+cce@8.7.10
+cce@8.7.9
+
+-- gcc cnl6-any -------------------------------------------------
+gcc@8.3.0
+gcc@7.4.0
+gcc@7.3.0
+gcc@6.1.0
+ls -alh etc/spack/defaults
+total 151K
+drwxr-x--- 4 dantopa dantopa  13K Apr 26 12:19 .
+drwxr-x--- 3 dantopa dantopa  12K Apr 25 16:51 ..
+-rw-r----- 1 dantopa dantopa 1.8K Apr 26 12:19 compilers.yaml
+-rw-r----- 1 dantopa dantopa 4.4K Apr 25 16:51 config.yaml
+drwxr-x--- 2 dantopa dantopa  12K Apr 25 16:51 darwin
+drwxr-x--- 2 dantopa dantopa  12K Apr 25 16:51 linux
+-rw-r----- 1 dantopa dantopa  216 Apr 25 20:42 mirrors.yaml
+-rw-r----- 1 dantopa dantopa 3.7K Apr 25 20:42 modules.yaml
+-rw-r----- 1 dantopa dantopa 3.1K Apr 25 20:42 packages.yaml
+-rw-r----- 1 dantopa dantopa  530 Apr 25 16:51 release.yaml
+-rw-r----- 1 dantopa dantopa  546 Apr 25 16:51 repos.yaml
+-rw-r----- 1 dantopa dantopa 3.7K Apr 25 20:42 tcl-modules.yaml
+cat etc/spack/defaults/compilers.yaml
+compilers:
+# # cray  8.7.10, 8.7.9
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - !!python/unicode
+      'cce/8.7.10'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: cce@8.7.10
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - !!python/unicode
+      'cce/8.7.9'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: cce@8.7.9
+    target: any
+# # gcc  8.3.0, 7.4.0, 7.3.0, 6.1.0
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/8.3.0'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: gcc@8.3.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    #operating_system: sles15
+    operating_system: cnl6
+    paths:
+      cc:  /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec: gcc@7.4.0
+    # target: aarch64
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/7.3.0'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: gcc@7.3.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/6.1.0'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: gcc@6.1.0
+    target: any
+
+spack config get compilers
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - !!python/unicode
+      'cce/8.7.10'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: cce@8.7.10
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - !!python/unicode
+      'cce/8.7.9'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: cce@8.7.9
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/8.3.0'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: gcc@8.3.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: cnl6
+    paths:
+      cc: /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc: /usr/bin/gfortran
+    spec: gcc@7.4.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/7.3.0'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: gcc@7.3.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/6.1.0'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: gcc@6.1.0
+    target: any
+spack install ucx @ 1.5.0 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: No compilers with spec gcc@8.2.0 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 4.0.1 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-openmpi-install.log
+==> Error: No compilers with spec gcc@8.2.0 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.5.0 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+spack install openmpi @ 4.0.1 % gcc@6.1.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-openmpi-install.log
+==> Error: SyntaxError: invalid syntax (<string>, line 1)
+
+/pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py:785, in child_process:
+        782            tb_string = traceback.format_exc()
+        783
+        784            # build up some context from the offending package so we can
+  >>    785            # show that, too.
+        786            package_context = get_package_context(tb)
+        787
+        788            build_log = None
+
+
+spack install ucx @ 1.5.0 % gcc@6.1.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/var/spack/stage/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je/libpciaccess-0.13.5/configure' '--prefix=/pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/opt/spack/cray-cnl6-arm_thunderx2/gcc-6.1.0/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /pfs/cpscratch1/yellow/dantopa/repos/spack/libra
+           ries/capulin-arm.openmpi/lib/spack/env/gcc/gcc
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/tmp/dantopa/spack-stage/spack-stage-DObWYO/li
+           bpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/var/spack/stage/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je/spack-build.out
+spack install openmpi @ 3.1.4 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-openmpi-install.log
+==> Error: SyntaxError: invalid syntax (<string>, line 1)
+
+/pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py:785, in child_process:
+        782            tb_string = traceback.format_exc()
+        783
+        784            # build up some context from the offending package so we can
+  >>    785            # show that, too.
+        786            package_context = get_package_context(tb)
+        787
+        788            build_log = None
+
+
+spack install ucx @ 1.4.0 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: No compilers with spec gcc@8.2.0 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 3.1.4 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-openmpi-install.log
+==> Error: No compilers with spec gcc@8.2.0 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.4.0 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: SyntaxError: invalid syntax (<string>, line 1)
+
+/pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py:785, in child_process:
+        782            tb_string = traceback.format_exc()
+        783
+        784            # build up some context from the offending package so we can
+  >>    785            # show that, too.
+        786            package_context = get_package_context(tb)
+        787
+        788            build_log = None
+
+
+spack install ucx @ 1.4.0 % gcc@6.1.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: SyntaxError: invalid syntax (<string>, line 1)
+
+/pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py:785, in child_process:
+        782            tb_string = traceback.format_exc()
+        783
+        784            # build up some context from the offending package so we can
+  >>    785            # show that, too.
+        786            package_context = get_package_context(tb)
+        787
+        788            build_log = None
+
+
+spack install ucx @ 1.3.1 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: No compilers with spec gcc@8.2.0 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.3.1 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: SyntaxError: invalid syntax (<string>, line 1)
+
+/pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py:785, in child_process:
+        782            tb_string = traceback.format_exc()
+        783
+        784            # build up some context from the offending package so we can
+  >>    785            # show that, too.
+        786            package_context = get_package_context(tb)
+        787
+        788            build_log = None
+
+
+spack install ucx @ 1.3.1 % gcc@6.1.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: SyntaxError: invalid syntax (<string>, line 1)
+
+/pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py:785, in child_process:
+        782            tb_string = traceback.format_exc()
+        783
+        784            # build up some context from the offending package so we can
+  >>    785            # show that, too.
+        786            package_context = get_package_context(tb)
+        787
+        788            build_log = None
+
+
+spack install ucx @ 1.2.2 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: No compilers with spec gcc@8.2.0 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.2.2 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: SyntaxError: invalid syntax (<string>, line 1)
+
+/pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py:785, in child_process:
+        782            tb_string = traceback.format_exc()
+        783
+        784            # build up some context from the offending package so we can
+  >>    785            # show that, too.
+        786            package_context = get_package_context(tb)
+        787
+        788            build_log = None
+
+
+spack install ucx @ 1.2.2 % gcc@6.1.0  arch=cray-cnl6-arm_thunderx2 2>&1 >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/capulin-arm-ucx-install.log
+==> Error: SyntaxError: invalid syntax (<string>, line 1)
+
+/pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py:785, in child_process:
+        782            tb_string = traceback.format_exc()
+        783
+        784            # build up some context from the offending package so we can
+  >>    785            # show that, too.
+        786            package_context = get_package_context(tb)
+        787
+        788            build_log = None
+
+
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+mkdir -p "${dir_results}/platform-order"
+mkdir -p "${dir_results}/tpl-order"
+mkdir -p "${dir_results}/graphs"
+spack find ucx >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/platform-order/capulin-arm-ucx.out
+spack find ucx >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/ucx-capulin-arm.out
+spack find -ldf ucx  >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/ucx-capulin-arm-ldf.out
+spack graph ucx >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/graphs/ucx-capulin-arm-graph.out
+spack compilers
+==> Available compilers
+-- cce cnl6-any -------------------------------------------------
+cce@8.7.10
+cce@8.7.9
+
+-- gcc cnl6-any -------------------------------------------------
+gcc@8.3.0
+gcc@7.4.0
+gcc@7.3.0
+gcc@6.1.0
+spack find ucx
+==> No package matches the query: ucx
+spack find -ldf ucx
+==> No package matches the query: ucx
+mv  /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/capulin-arm-batch.out   /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/batch-out/capulin-arm-ucx-2019-04-26-batch.out
+cd /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests
+git add -A .
+git commit -m "${USER} ${tpl} ${hpc} ${partition} ${ymd}"
+[master 001a1d5] dantopa ucx capulin arm 2019-04-26
+ 18 files changed, 771 insertions(+), 559 deletions(-)
+ create mode 100644 libraries/results/batch-out/capulin-arm-ucx-2019-04-26-batch.out
+ rewrite libraries/results/command-log/capulin-arm-openmpi-command.log (80%)
+ rewrite libraries/results/command-log/capulin-arm-ucx-command.log (94%)
+ rewrite libraries/results/install-log/capulin-arm-openmpi-install.log (79%)
+Fri Apr 26 12:44:09 MDT 2019

@@ -1,0 +1,695 @@
+Mon Apr 29 10:38:37 MDT 2019 [1m/home/dantopa/.mybash(B[m
+Mon Apr 29 10:38:37 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/platforms.sh(B[m
+attempting to mkdir /scratch/users/dantopa/repos/gitlab/node-queries/darwin/arm-cn806/dir-configuration
+directory of core scripts = ${core} = /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts
+Mon Apr 29 10:38:37 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/master.sh(B[m
+Mon Apr 29 10:38:37 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh(B[m
+Mon Apr 29 10:38:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh(B[m
+Mon Apr 29 10:38:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Mon Apr 29 10:38:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh(B[m
+Mon Apr 29 10:38:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Mon Apr 29 10:38:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/gcc.sh(B[m
+Mon Apr 29 10:38:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh: line 5: gonode: command not found
+Mon Apr 29 10:38:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/git.sh(B[m
+Mon Apr 29 10:38:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/ssh.sh(B[m
+Mon Apr 29 10:38:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/vim.sh(B[m
+Mon Apr 29 10:38:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bash.sh(B[m
+Mon Apr 29 10:38:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/finds.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh: line 33: sinfo_s: command not found
+Mon Apr 29 10:38:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/cmake.sh(B[m
+Mon Apr 29 10:38:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/copy-configuration.sh(B[m
+Mon Apr 29 10:38:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/fortran.sh(B[m
+Mon Apr 29 10:38:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks.sh(B[m
+Mon Apr 29 10:38:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-bitbucket.sh(B[m
+Mon Apr 29 10:38:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-github.sh(B[m
+Mon Apr 29 10:38:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-gitlab.sh(B[m
+Mon Apr 29 10:38:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/disk.sh(B[m
+Mon Apr 29 10:38:38 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh(B[m
+[master 749707c] darwin-arm-cn806 Mon Apr 29 10:38:38 MDT 2019
+ 1 file changed, 17 insertions(+)
+ create mode 100644 libraries/tools/bash/darwin-arm-batch.out
+Mon Apr 29 10:38:39 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh(B[m
+Mon Apr 29 10:38:39 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Mon Apr 29 10:38:39 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh(B[m
+Mon Apr 29 10:38:39 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh: line 5: gonode: command not found
+Mon Apr 29 10:38:39 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Mon Apr 29 10:38:39 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/uname.sh(B[m
+Mon Apr 29 10:38:39 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/spack.sh(B[m
+Mon Apr 29 10:38:39 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/modules.sh(B[m
+[master e006938] darwin-arm-cn806 Mon Apr 29 10:38:39 MDT 2019
+ 1 file changed, 19 insertions(+)
+Mon Apr 29 10:38:39 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/alias.sh(B[m
+Mon Apr 29 10:38:39 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh: line 11: myprompt: command not found
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh: line 33: sinfo_s: command not found
+Mon Apr 29 10:38:43 MDT 2019 /tmp/slurmd/job5217603/slurm_script
+source /home/dantopa/libraries-darwin.sh
+Mon Apr 29 10:38:43 MDT 2019 [1m/home/dantopa/libraries-darwin.sh(B[m
+source "${dir_tools}/bash/master-tpl-sweep.sh"
+Mon Apr 29 10:38:43 MDT 2019 /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh
+cd /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools
+source directories/libraries-darwin.sh
+Mon Apr 29 10:38:43 MDT 2019 [1mdirectories/libraries-darwin.sh(B[m
+source tpl-versions/versions-openmpi.sh
+Mon Apr 29 10:38:43 MDT 2019 [1mtpl-versions/versions-openmpi.sh(B[m
+4 openmpi versions loaded:
+4.0.1  3.1.4  3.0.4  2.1.6
+
+source compilers/compilers-darwin-arm.sh
+Mon Apr 29 10:38:43 MDT 2019 [1mcompilers/compilers-darwin-arm.sh(B[m
+9 Spack-recognized compilers loaded:
+gcc@8.2.0  gcc@8.1.0  gcc@7.1.0  gcc@4.8.5  arm@19.1  clang@18.4.2  clang@18.4.1  clang@18.4.0  clang@7.0.0
+
+source klingons/darwin-arm-openmpi.sh
+/scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 37: klingons/darwin-arm-openmpi.sh: No such file or directory
+cd /scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi
+. share/spack/setup-env.sh
+export spack_architecture='arch=linux-rhel7-aarch64'
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+spack compilers
+==> Available compilers
+-- arm rhel7-aarch64 --------------------------------------------
+arm@19.1
+
+-- clang rhel7-aarch64 ------------------------------------------
+clang@18.4.2
+clang@18.4.1
+clang@18.4.0
+clang@7.0.0
+
+-- gcc rhel7-aarch64 --------------------------------------------
+gcc@8.2.0
+gcc@8.1.0
+gcc@7.1.0
+gcc@4.8.5
+ls -alh etc/spack/defaults
+total 144K
+drwxrwxr-x 4 dantopa dantopa   14 Apr 24 12:10 .
+drwxrwxr-x 3 dantopa dantopa    3 Apr 24 09:54 ..
+-rw-rw-r-- 1 dantopa dantopa 4.8K Apr 24 10:05 compilers.yaml
+-rw-rw-r-- 1 dantopa dantopa 4.4K Apr 24 09:54 config.yaml
+drwxrwxr-x 2 dantopa dantopa    4 Apr 24 09:54 darwin
+-rw-rw-r-- 1 dantopa dantopa 4.8K Apr 24 10:04 darwin-arm-modules-compilers.yaml
+drwxrwxr-x 2 dantopa dantopa    3 Apr 24 09:54 linux
+-rw-rw-r-- 1 dantopa dantopa 2.8K Apr 24 10:04 lmod-modules.yaml
+-rw-rw-r-- 1 dantopa dantopa  136 Apr 24 10:04 mirrors.yaml
+-rw-rw-r-- 1 dantopa dantopa 3.7K Apr 24 10:05 modules.yaml
+-rw-rw-r-- 1 dantopa dantopa 3.1K Apr 24 10:04 packages.yaml
+-rw-rw-r-- 1 dantopa dantopa  530 Apr 24 09:54 release.yaml
+-rw-rw-r-- 1 dantopa dantopa  546 Apr 24 09:54 repos.yaml
+-rw-rw-r-- 1 dantopa dantopa 3.7K Apr 24 10:04 tcl-modules.yaml
+cat etc/spack/defaults/compilers.yaml
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [Generic-AArch64/RHEL/7/gcc/8.2.0]
+    operating_system: rhel7
+    paths:
+      cc:  /opt/arm/gcc-8.2.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gcc
+      cxx: /opt/arm/gcc-8.2.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/g++
+      f77: /opt/arm/gcc-8.2.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+      fc:  /opt/arm/gcc-8.2.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+    spec: gcc@8.2.0
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [gcc/8.1.0]
+    operating_system: rhel7
+    paths:
+      cc:  /opt/arm/gcc-8.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gcc
+      cxx: /opt/arm/gcc-8.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/g++
+      f77: /opt/arm/gcc-8.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+      fc:  /opt/arm/gcc-8.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+    spec: gcc@8.1.0
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [Generic-AArch64/RHEL/7/gcc/7.1.0]
+    operating_system: rhel7
+    paths:
+      cc:  /opt/arm/gcc-7.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gcc
+      cxx: /opt/arm/gcc-7.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/g++
+      f77: /opt/arm/gcc-7.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+      fc:  /opt/arm/gcc-7.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+    spec: gcc@7.1.0
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc:  /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec: gcc@4.8.5
+    target: aarch64
+#  #  #  clang
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - clang/7.0.0
+    operating_system: rhel7
+    paths:
+      cc:  /projects/opt/aarch64/clang/7.0.0/bin/armclang
+      cxx: /projects/opt/aarch64/clang/7.0.0/bin/armclang++
+      f77: /projects/opt/aarch64/clang/7.0.0/bin/armflang
+      fc:  /projects/opt/aarch64/clang/7.0.0/bin/armflang
+    spec: clang@7.0.0
+    target: aarch64
+#  #  #  darwin ARM
+#  #  #  ARM clang
+#  #  #  18.4.2  18.4.1  18.4.0
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/8.2.0
+    - Generic-AArch64/RHEL/7/arm-hpc-compiler/19.1
+    operating_system: rhel7
+    paths:
+      cc:  /opt/arm/arm-hpc-compiler-19.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang
+      cxx: /opt/arm/arm-hpc-compiler-19.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang++
+      f77: /opt/arm/arm-hpc-compiler-19.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+      fc:  /opt/arm/arm-hpc-compiler-19.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+    spec: arm@19.1
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4.2
+    operating_system: rhel7
+    paths:
+      cc:  /opt/arm/arm-hpc-compiler-18.4.2_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang
+      cxx: /opt/arm/arm-hpc-compiler-18.4.2_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang++
+      f77: /opt/arm/arm-hpc-compiler-18.4.2_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+      #f90: /opt/arm/arm-hpc-compiler-18.4.2_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+      fc:  /opt/arm/arm-hpc-compiler-18.4.2_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+    spec: clang@18.4.2
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4.1
+    operating_system: rhel7
+    paths:
+      cc:  /opt/arm/arm-hpc-compiler-18.4.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang
+      cxx: /opt/arm/arm-hpc-compiler-18.4.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang++
+      f77: /opt/arm/arm-hpc-compiler-18.4.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+      #f90: /opt/arm/arm-hpc-compiler-18.4.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+      fc:  /opt/arm/arm-hpc-compiler-18.4.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+    spec: clang@18.4.1
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4]
+    operating_system: rhel7
+    paths:
+      cc:  /opt/arm/arm-hpc-compiler-18.4_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang
+      cxx: /opt/arm/arm-hpc-compiler-18.4_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang++
+      f77: /opt/arm/arm-hpc-compiler-18.4_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+      #f90: /opt/arm/arm-hpc-compiler-18.4_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+      fc:  /opt/arm/arm-hpc-compiler-18.4_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+    spec: clang@18.4.0
+    target: aarch64
+spack config get compilers
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - Generic-AArch64/RHEL/7/gcc/8.2.0
+    operating_system: rhel7
+    paths:
+      cc: /opt/arm/gcc-8.2.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gcc
+      cxx: /opt/arm/gcc-8.2.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/g++
+      f77: /opt/arm/gcc-8.2.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+      fc: /opt/arm/gcc-8.2.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+    spec: gcc@8.2.0
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/8.1.0
+    operating_system: rhel7
+    paths:
+      cc: /opt/arm/gcc-8.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gcc
+      cxx: /opt/arm/gcc-8.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/g++
+      f77: /opt/arm/gcc-8.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+      fc: /opt/arm/gcc-8.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+    spec: gcc@8.1.0
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - Generic-AArch64/RHEL/7/gcc/7.1.0
+    operating_system: rhel7
+    paths:
+      cc: /opt/arm/gcc-7.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gcc
+      cxx: /opt/arm/gcc-7.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/g++
+      f77: /opt/arm/gcc-7.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+      fc: /opt/arm/gcc-7.1.0_Generic-AArch64_RHEL-7_aarch64-linux/bin/gfortran
+    spec: gcc@7.1.0
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc: /usr/bin/gfortran
+    spec: gcc@4.8.5
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - clang/7.0.0
+    operating_system: rhel7
+    paths:
+      cc: /projects/opt/aarch64/clang/7.0.0/bin/armclang
+      cxx: /projects/opt/aarch64/clang/7.0.0/bin/armclang++
+      f77: /projects/opt/aarch64/clang/7.0.0/bin/armflang
+      fc: /projects/opt/aarch64/clang/7.0.0/bin/armflang
+    spec: clang@7.0.0
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/8.2.0
+    - Generic-AArch64/RHEL/7/arm-hpc-compiler/19.1
+    operating_system: rhel7
+    paths:
+      cc: /opt/arm/arm-hpc-compiler-19.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang
+      cxx: /opt/arm/arm-hpc-compiler-19.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang++
+      f77: /opt/arm/arm-hpc-compiler-19.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+      fc: /opt/arm/arm-hpc-compiler-19.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+    spec: arm@19.1
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4.2
+    operating_system: rhel7
+    paths:
+      cc: /opt/arm/arm-hpc-compiler-18.4.2_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang
+      cxx: /opt/arm/arm-hpc-compiler-18.4.2_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang++
+      f77: /opt/arm/arm-hpc-compiler-18.4.2_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+      fc: /opt/arm/arm-hpc-compiler-18.4.2_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+    spec: clang@18.4.2
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4.1
+    operating_system: rhel7
+    paths:
+      cc: /opt/arm/arm-hpc-compiler-18.4.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang
+      cxx: /opt/arm/arm-hpc-compiler-18.4.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang++
+      f77: /opt/arm/arm-hpc-compiler-18.4.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+      fc: /opt/arm/arm-hpc-compiler-18.4.1_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+    spec: clang@18.4.1
+    target: aarch64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4]
+    operating_system: rhel7
+    paths:
+      cc: /opt/arm/arm-hpc-compiler-18.4_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang
+      cxx: /opt/arm/arm-hpc-compiler-18.4_Generic-AArch64_RHEL-7_aarch64-linux/bin/armclang++
+      f77: /opt/arm/arm-hpc-compiler-18.4_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+      fc: /opt/arm/arm-hpc-compiler-18.4_Generic-AArch64_RHEL-7_aarch64-linux/bin/armflang
+    spec: clang@18.4.0
+    target: aarch64
+spack install openmpi @ 4.0.1 % gcc@8.2.0  arch=linux-rhel7-aarch64 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi/opt/spack/linux-rhel7-aarch64/gcc-8.2.0/openmpi-4.0.1-hkzjqqmbnipmjtpe5ak2rpr2cwlc556p
+spack install openmpi @ 4.0.1 % gcc@8.1.0  arch=linux-rhel7-aarch64 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi/opt/spack/linux-rhel7-aarch64/gcc-8.1.0/util-macros-1.19.1-ebpysshggo32zk4dga537yakdo5wdeia
+spack install openmpi @ 4.0.1 % gcc@7.1.0  arch=linux-rhel7-aarch64 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi/opt/spack/linux-rhel7-aarch64/gcc-7.1.0/openmpi-4.0.1-vr5ymykwpddhykii6by5awrhkpwutxsf
+spack install openmpi @ 4.0.1 % gcc@4.8.5  arch=linux-rhel7-aarch64 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/openmpi-4.0.1-hto7x2hrsz6rtcod4vnjvmdyhcmbpikt
+spack install openmpi @ 4.0.1 % arm@19.1  arch=linux-rhel7-aarch64 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi/opt/spack/linux-rhel7-aarch64/arm-19.1/util-macros-1.19.1-6334hbdfcbbks7mxvueh7ol2e2q55gt3
+spack install openmpi @ 4.0.1 % clang@18.4.2  arch=linux-rhel7-aarch64 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi/opt/spack/linux-rhel7-aarch64/clang-18.4.2/util-macros-1.19.1-cn7b44vbwcvskh5rebgthm37uii37nu7
+spack install openmpi @ 4.0.1 % clang@18.4.1  arch=linux-rhel7-aarch64 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi/opt/spack/linux-rhel7-aarch64/clang-18.4.1/util-macros-1.19.1-l6bywkvjvdjtht56dcesy2736lyzzpp7
+spack install openmpi @ 4.0.1 % clang@18.4.0  arch=linux-rhel7-aarch64 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: ProcessError: Command exited with status 1:
+    '/opt/ohpc/admin/lmod/lmod/libexec/lmod' 'python' 'show' 'Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4]'
+os.environ["__LMOD_REF_COUNT_MODULEPATH"] = "/scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi/share/spack/modules/linux-rhel7-aarch64:1;/opt/ohpc/pub/modulefiles:1;/opt/arm/modulefiles:1;/projects/darwin/modulefiles/aarch64:1";
+os.environ["MODULEPATH"] = "/scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi/share/spack/modules/linux-rhel7-aarch64:/opt/ohpc/pub/modulefiles:/opt/arm/modulefiles:/projects/darwin/modulefiles/aarch64";
+os.environ["_ModuleTable001_"] = "X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXt9LG1wYXRoQT17Ii9zY3JhdGNoL3VzZXJzL2RhbnRvcGEvcmVwb3Mvc3BhY2svbGlicmFyaWVzL2Rhcndpbi1hcm0ub3Blbm1waS9zaGFyZS9zcGFjay9tb2R1bGVzL2xpbnV4LXJoZWw3LWFhcmNoNjQiLCIvb3B0L29ocGMvcHViL21vZHVsZWZpbGVzIiwiL29wdC9hcm0vbW9kdWxlZmlsZXMiLCIvcHJvamVjdHMvZGFyd2luL21vZHVsZWZpbGVzL2FhcmNoNjQiLH0sWyJzeXN0ZW1CYXNlTVBBVEgiXT0iL29wdC9vaHBjL3B1Yi9tb2R1bGVmaWxlczovb3B0L2FybS9tb2R1bGVmaWxlczovcHJvamVj";
+os.environ["_ModuleTable002_"] = "dHMvZGFyd2luL21vZHVsZWZpbGVzL2FhcmNoNjQiLH0=";
+os.environ["_ModuleTable_Sz_"] = "2";
+
+false
+Lmod Warning: Failed to find the following module(s):
+"Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4]" in your MODULEPATH
+Try:
+
+    $ module spider Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4]
+
+to see if the module(s) are available across all compilers and MPI
+implementations.
+
+
+
+
+spack install openmpi @ 4.0.1 % clang@7.0.0  arch=linux-rhel7-aarch64 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi/opt/spack/linux-rhel7-aarch64/clang-7.0.0/util-macros-1.19.1-ksbkmubtrwwq5exzl5sdf7z2lz3vyjli
+spack install openmpi @ 3.1.4 % gcc@8.2.0  arch=linux-rhel7-aarch64 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi/opt/spack/linux-rhel7-aarch64/gcc-8.2.0/openmpi-3.1.4-e5delega3as7f7jyyf2ibqd5uikz5ken
+spack install openmpi @ 3.1.4 % gcc@8.1.0  arch=linux-rhel7-aarch64 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi/opt/spack/linux-rhel7-aarch64/gcc-8.1.0/util-macros-1.19.1-ebpysshggo32zk4dga537yakdo5wdeia
+spack install openmpi @ 3.1.4 % gcc@7.1.0  arch=linux-rhel7-aarch64 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi/opt/spack/linux-rhel7-aarch64/gcc-7.1.0/openmpi-3.1.4-jnzsss4yfibjfzxy6hxggnduojckh37p
+spack install openmpi @ 3.1.4 % gcc@4.8.5  arch=linux-rhel7-aarch64 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/openmpi-3.1.4-pvq3s35adk4kpoq2g3c5h2zoywaod4aj
+spack install openmpi @ 3.1.4 % arm@19.1  arch=linux-rhel7-aarch64 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi/opt/spack/linux-rhel7-aarch64/arm-19.1/util-macros-1.19.1-6334hbdfcbbks7mxvueh7ol2e2q55gt3
+spack install openmpi @ 3.1.4 % clang@18.4.2  arch=linux-rhel7-aarch64 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi/opt/spack/linux-rhel7-aarch64/clang-18.4.2/util-macros-1.19.1-cn7b44vbwcvskh5rebgthm37uii37nu7
+spack install openmpi @ 3.1.4 % clang@18.4.1  arch=linux-rhel7-aarch64 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi/opt/spack/linux-rhel7-aarch64/clang-18.4.1/util-macros-1.19.1-l6bywkvjvdjtht56dcesy2736lyzzpp7
+spack install openmpi @ 3.1.4 % clang@18.4.0  arch=linux-rhel7-aarch64 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: ProcessError: Command exited with status 1:
+    '/opt/ohpc/admin/lmod/lmod/libexec/lmod' 'python' 'show' 'Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4]'
+os.environ["__LMOD_REF_COUNT_MODULEPATH"] = "/scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi/share/spack/modules/linux-rhel7-aarch64:1;/opt/ohpc/pub/modulefiles:1;/opt/arm/modulefiles:1;/projects/darwin/modulefiles/aarch64:1";
+os.environ["MODULEPATH"] = "/scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi/share/spack/modules/linux-rhel7-aarch64:/opt/ohpc/pub/modulefiles:/opt/arm/modulefiles:/projects/darwin/modulefiles/aarch64";
+os.environ["_ModuleTable001_"] = "X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXt9LG1wYXRoQT17Ii9zY3JhdGNoL3VzZXJzL2RhbnRvcGEvcmVwb3Mvc3BhY2svbGlicmFyaWVzL2Rhcndpbi1hcm0ub3Blbm1waS9zaGFyZS9zcGFjay9tb2R1bGVzL2xpbnV4LXJoZWw3LWFhcmNoNjQiLCIvb3B0L29ocGMvcHViL21vZHVsZWZpbGVzIiwiL29wdC9hcm0vbW9kdWxlZmlsZXMiLCIvcHJvamVjdHMvZGFyd2luL21vZHVsZWZpbGVzL2FhcmNoNjQiLH0sWyJzeXN0ZW1CYXNlTVBBVEgiXT0iL29wdC9vaHBjL3B1Yi9tb2R1bGVmaWxlczovb3B0L2FybS9tb2R1bGVmaWxlczovcHJvamVj";
+os.environ["_ModuleTable002_"] = "dHMvZGFyd2luL21vZHVsZWZpbGVzL2FhcmNoNjQiLH0=";
+os.environ["_ModuleTable_Sz_"] = "2";
+
+false
+Lmod Warning: Failed to find the following module(s):
+"Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4]" in your MODULEPATH
+Try:
+
+    $ module spider Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4]
+
+to see if the module(s) are available across all compilers and MPI
+implementations.
+
+
+
+
+spack install openmpi @ 3.1.4 % clang@7.0.0  arch=linux-rhel7-aarch64 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi/opt/spack/linux-rhel7-aarch64/clang-7.0.0/util-macros-1.19.1-ksbkmubtrwwq5exzl5sdf7z2lz3vyjli
+spack install openmpi @ 3.0.4 % gcc@8.2.0  arch=linux-rhel7-aarch64 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi/opt/spack/linux-rhel7-aarch64/gcc-8.2.0/openmpi-3.0.4-kq7qda72tfgvcz75kwpr2xtwub6nwueq
+spack install openmpi @ 3.0.4 % gcc@8.1.0  arch=linux-rhel7-aarch64 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi/opt/spack/linux-rhel7-aarch64/gcc-8.1.0/util-macros-1.19.1-ebpysshggo32zk4dga537yakdo5wdeia
+spack install openmpi @ 3.0.4 % gcc@7.1.0  arch=linux-rhel7-aarch64 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi/opt/spack/linux-rhel7-aarch64/gcc-7.1.0/openmpi-3.0.4-n2xcfjjrbaxdoic7mblbggjb4faewdru
+spack install openmpi @ 3.0.4 % gcc@4.8.5  arch=linux-rhel7-aarch64 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/openmpi-3.0.4-cq2y6b3vwbuf6a7wperzlsnkcuzcja4b
+spack install openmpi @ 3.0.4 % arm@19.1  arch=linux-rhel7-aarch64 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi/opt/spack/linux-rhel7-aarch64/arm-19.1/util-macros-1.19.1-6334hbdfcbbks7mxvueh7ol2e2q55gt3
+spack install openmpi @ 3.0.4 % clang@18.4.2  arch=linux-rhel7-aarch64 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi/opt/spack/linux-rhel7-aarch64/clang-18.4.2/util-macros-1.19.1-cn7b44vbwcvskh5rebgthm37uii37nu7
+spack install openmpi @ 3.0.4 % clang@18.4.1  arch=linux-rhel7-aarch64 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi/opt/spack/linux-rhel7-aarch64/clang-18.4.1/util-macros-1.19.1-l6bywkvjvdjtht56dcesy2736lyzzpp7
+spack install openmpi @ 3.0.4 % clang@18.4.0  arch=linux-rhel7-aarch64 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: ProcessError: Command exited with status 1:
+    '/opt/ohpc/admin/lmod/lmod/libexec/lmod' 'python' 'show' 'Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4]'
+os.environ["__LMOD_REF_COUNT_MODULEPATH"] = "/scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi/share/spack/modules/linux-rhel7-aarch64:1;/opt/ohpc/pub/modulefiles:1;/opt/arm/modulefiles:1;/projects/darwin/modulefiles/aarch64:1";
+os.environ["MODULEPATH"] = "/scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi/share/spack/modules/linux-rhel7-aarch64:/opt/ohpc/pub/modulefiles:/opt/arm/modulefiles:/projects/darwin/modulefiles/aarch64";
+os.environ["_ModuleTable001_"] = "X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXt9LG1wYXRoQT17Ii9zY3JhdGNoL3VzZXJzL2RhbnRvcGEvcmVwb3Mvc3BhY2svbGlicmFyaWVzL2Rhcndpbi1hcm0ub3Blbm1waS9zaGFyZS9zcGFjay9tb2R1bGVzL2xpbnV4LXJoZWw3LWFhcmNoNjQiLCIvb3B0L29ocGMvcHViL21vZHVsZWZpbGVzIiwiL29wdC9hcm0vbW9kdWxlZmlsZXMiLCIvcHJvamVjdHMvZGFyd2luL21vZHVsZWZpbGVzL2FhcmNoNjQiLH0sWyJzeXN0ZW1CYXNlTVBBVEgiXT0iL29wdC9vaHBjL3B1Yi9tb2R1bGVmaWxlczovb3B0L2FybS9tb2R1bGVmaWxlczovcHJvamVj";
+os.environ["_ModuleTable002_"] = "dHMvZGFyd2luL21vZHVsZWZpbGVzL2FhcmNoNjQiLH0=";
+os.environ["_ModuleTable_Sz_"] = "2";
+
+false
+Lmod Warning: Failed to find the following module(s):
+"Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4]" in your MODULEPATH
+Try:
+
+    $ module spider Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4]
+
+to see if the module(s) are available across all compilers and MPI
+implementations.
+
+
+
+
+spack install openmpi @ 3.0.4 % clang@7.0.0  arch=linux-rhel7-aarch64 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi/opt/spack/linux-rhel7-aarch64/clang-7.0.0/util-macros-1.19.1-ksbkmubtrwwq5exzl5sdf7z2lz3vyjli
+spack install openmpi @ 2.1.6 % gcc@8.2.0  arch=linux-rhel7-aarch64 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi/opt/spack/linux-rhel7-aarch64/gcc-8.2.0/openmpi-2.1.6-6j4ltaxjmtlj5byseo3wewa32n4lnxlo
+spack install openmpi @ 2.1.6 % gcc@8.1.0  arch=linux-rhel7-aarch64 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi/opt/spack/linux-rhel7-aarch64/gcc-8.1.0/util-macros-1.19.1-ebpysshggo32zk4dga537yakdo5wdeia
+spack install openmpi @ 2.1.6 % gcc@7.1.0  arch=linux-rhel7-aarch64 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi/opt/spack/linux-rhel7-aarch64/gcc-7.1.0/openmpi-2.1.6-xlsmwm7drc2sioxojeynype7igbn2tyd
+spack install openmpi @ 2.1.6 % gcc@4.8.5  arch=linux-rhel7-aarch64 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/openmpi-2.1.6-pbveyqpfwzgunlip3xs6imuiv3hjnhel
+spack install openmpi @ 2.1.6 % arm@19.1  arch=linux-rhel7-aarch64 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi/opt/spack/linux-rhel7-aarch64/arm-19.1/util-macros-1.19.1-6334hbdfcbbks7mxvueh7ol2e2q55gt3
+spack install openmpi @ 2.1.6 % clang@18.4.2  arch=linux-rhel7-aarch64 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi/opt/spack/linux-rhel7-aarch64/clang-18.4.2/util-macros-1.19.1-cn7b44vbwcvskh5rebgthm37uii37nu7
+spack install openmpi @ 2.1.6 % clang@18.4.1  arch=linux-rhel7-aarch64 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi/opt/spack/linux-rhel7-aarch64/clang-18.4.1/util-macros-1.19.1-l6bywkvjvdjtht56dcesy2736lyzzpp7
+spack install openmpi @ 2.1.6 % clang@18.4.0  arch=linux-rhel7-aarch64 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: ProcessError: Command exited with status 1:
+    '/opt/ohpc/admin/lmod/lmod/libexec/lmod' 'python' 'show' 'Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4]'
+os.environ["__LMOD_REF_COUNT_MODULEPATH"] = "/scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi/share/spack/modules/linux-rhel7-aarch64:1;/opt/ohpc/pub/modulefiles:1;/opt/arm/modulefiles:1;/projects/darwin/modulefiles/aarch64:1";
+os.environ["MODULEPATH"] = "/scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi/share/spack/modules/linux-rhel7-aarch64:/opt/ohpc/pub/modulefiles:/opt/arm/modulefiles:/projects/darwin/modulefiles/aarch64";
+os.environ["_ModuleTable001_"] = "X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXt9LG1wYXRoQT17Ii9zY3JhdGNoL3VzZXJzL2RhbnRvcGEvcmVwb3Mvc3BhY2svbGlicmFyaWVzL2Rhcndpbi1hcm0ub3Blbm1waS9zaGFyZS9zcGFjay9tb2R1bGVzL2xpbnV4LXJoZWw3LWFhcmNoNjQiLCIvb3B0L29ocGMvcHViL21vZHVsZWZpbGVzIiwiL29wdC9hcm0vbW9kdWxlZmlsZXMiLCIvcHJvamVjdHMvZGFyd2luL21vZHVsZWZpbGVzL2FhcmNoNjQiLH0sWyJzeXN0ZW1CYXNlTVBBVEgiXT0iL29wdC9vaHBjL3B1Yi9tb2R1bGVmaWxlczovb3B0L2FybS9tb2R1bGVmaWxlczovcHJvamVj";
+os.environ["_ModuleTable002_"] = "dHMvZGFyd2luL21vZHVsZWZpbGVzL2FhcmNoNjQiLH0=";
+os.environ["_ModuleTable_Sz_"] = "2";
+
+false
+Lmod Warning: Failed to find the following module(s):
+"Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4]" in your MODULEPATH
+Try:
+
+    $ module spider Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4]
+
+to see if the module(s) are available across all compilers and MPI
+implementations.
+
+
+
+
+spack install openmpi @ 2.1.6 % clang@7.0.0  arch=linux-rhel7-aarch64 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi/opt/spack/linux-rhel7-aarch64/clang-7.0.0/util-macros-1.19.1-ksbkmubtrwwq5exzl5sdf7z2lz3vyjli
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+mkdir -p "${dir_results}/platform-order"
+mkdir -p "${dir_results}/tpl-order"
+mkdir -p "${dir_results}/graphs"
+spack find openmpi >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/platform-order/darwin-arm-openmpi.out
+spack find openmpi >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/openmpi-darwin-arm.out
+spack find -ldf openmpi  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/openmpi-darwin-arm-ldf.out
+spack graph openmpi >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/graphs/openmpi-darwin-arm-graph.out
+spack compilers
+==> Available compilers
+-- arm rhel7-aarch64 --------------------------------------------
+arm@19.1
+
+-- clang rhel7-aarch64 ------------------------------------------
+clang@18.4.2
+clang@18.4.1
+clang@18.4.0
+clang@7.0.0
+
+-- gcc rhel7-aarch64 --------------------------------------------
+gcc@8.2.0
+gcc@8.1.0
+gcc@7.1.0
+gcc@4.8.5
+spack find openmpi
+==> 12 installed packages
+-- linux-rhel7-aarch64 / gcc@4.8.5 ------------------------------
+openmpi@2.1.6
+openmpi@3.0.4
+openmpi@3.1.4
+openmpi@4.0.1
+
+-- linux-rhel7-aarch64 / gcc@7.1.0 ------------------------------
+openmpi@2.1.6
+openmpi@3.0.4
+openmpi@3.1.4
+openmpi@4.0.1
+
+-- linux-rhel7-aarch64 / gcc@8.2.0 ------------------------------
+openmpi@2.1.6
+openmpi@3.0.4
+openmpi@3.1.4
+openmpi@4.0.1
+spack find -ldf openmpi
+==> 12 installed packages
+-- linux-rhel7-aarch64 / gcc@4.8.5 ------------------------------
+pbveyqp    openmpi@2.1.6%gcc 
+7gqvelc        ^hwloc@1.11.11%gcc 
+6a4he35            ^libpciaccess@0.13.5%gcc 
+6a5uzd6            ^libxml2@2.9.8%gcc 
+m5neuus            ^numactl@2.0.12%gcc 
+
+cq2y6b3    openmpi@3.0.4%gcc 
+7gqvelc        ^hwloc@1.11.11%gcc 
+6a4he35            ^libpciaccess@0.13.5%gcc 
+6a5uzd6            ^libxml2@2.9.8%gcc 
+m5neuus            ^numactl@2.0.12%gcc 
+67s2oqn        ^zlib@1.2.11%gcc 
+
+pvq3s35    openmpi@3.1.4%gcc 
+7gqvelc        ^hwloc@1.11.11%gcc 
+6a4he35            ^libpciaccess@0.13.5%gcc 
+6a5uzd6            ^libxml2@2.9.8%gcc 
+m5neuus            ^numactl@2.0.12%gcc 
+67s2oqn        ^zlib@1.2.11%gcc 
+
+hto7x2h    openmpi@4.0.1%gcc 
+7gqvelc        ^hwloc@1.11.11%gcc 
+6a4he35            ^libpciaccess@0.13.5%gcc 
+6a5uzd6            ^libxml2@2.9.8%gcc 
+m5neuus            ^numactl@2.0.12%gcc 
+67s2oqn        ^zlib@1.2.11%gcc 
+
+
+-- linux-rhel7-aarch64 / gcc@7.1.0 ------------------------------
+xlsmwm7    openmpi@2.1.6%gcc 
+izn5gbo        ^hwloc@1.11.11%gcc 
+gmwtdrw            ^libpciaccess@0.13.5%gcc 
+7sufcg5            ^libxml2@2.9.8%gcc 
+eukhjxm            ^numactl@2.0.12%gcc 
+
+n2xcfjj    openmpi@3.0.4%gcc 
+izn5gbo        ^hwloc@1.11.11%gcc 
+gmwtdrw            ^libpciaccess@0.13.5%gcc 
+7sufcg5            ^libxml2@2.9.8%gcc 
+eukhjxm            ^numactl@2.0.12%gcc 
+zsiftcm        ^zlib@1.2.11%gcc 
+
+jnzsss4    openmpi@3.1.4%gcc 
+izn5gbo        ^hwloc@1.11.11%gcc 
+gmwtdrw            ^libpciaccess@0.13.5%gcc 
+7sufcg5            ^libxml2@2.9.8%gcc 
+eukhjxm            ^numactl@2.0.12%gcc 
+zsiftcm        ^zlib@1.2.11%gcc 
+
+vr5ymyk    openmpi@4.0.1%gcc 
+izn5gbo        ^hwloc@1.11.11%gcc 
+gmwtdrw            ^libpciaccess@0.13.5%gcc 
+7sufcg5            ^libxml2@2.9.8%gcc 
+eukhjxm            ^numactl@2.0.12%gcc 
+zsiftcm        ^zlib@1.2.11%gcc 
+
+
+-- linux-rhel7-aarch64 / gcc@8.2.0 ------------------------------
+6j4ltax    openmpi@2.1.6%gcc 
+3pau2kk        ^hwloc@1.11.11%gcc 
+vfd6u24            ^libpciaccess@0.13.5%gcc 
+fo65cwc            ^libxml2@2.9.8%gcc 
+opoop4g            ^numactl@2.0.12%gcc 
+
+kq7qda7    openmpi@3.0.4%gcc 
+3pau2kk        ^hwloc@1.11.11%gcc 
+vfd6u24            ^libpciaccess@0.13.5%gcc 
+fo65cwc            ^libxml2@2.9.8%gcc 
+opoop4g            ^numactl@2.0.12%gcc 
+x5quqjk        ^zlib@1.2.11%gcc 
+
+e5deleg    openmpi@3.1.4%gcc 
+3pau2kk        ^hwloc@1.11.11%gcc 
+vfd6u24            ^libpciaccess@0.13.5%gcc 
+fo65cwc            ^libxml2@2.9.8%gcc 
+opoop4g            ^numactl@2.0.12%gcc 
+x5quqjk        ^zlib@1.2.11%gcc 
+
+hkzjqqm    openmpi@4.0.1%gcc 
+3pau2kk        ^hwloc@1.11.11%gcc 
+vfd6u24            ^libpciaccess@0.13.5%gcc 
+fo65cwc            ^libxml2@2.9.8%gcc 
+opoop4g            ^numactl@2.0.12%gcc 
+x5quqjk        ^zlib@1.2.11%gcc 
+
+mv  /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/darwin-arm-batch.out   /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/batch-out/darwin-arm-openmpi-2019-04-29-batch.out
+cd /scratch/users/dantopa/repos/gitlab/pull-requests/libraries
+git add -A .
+git commit -m "${USER} ${tpl} ${hpc} ${partition} ${ymd}"
+[master 9a2e9c7] dantopa openmpi darwin arm 2019-04-29
+ 8 files changed, 883 insertions(+), 932 deletions(-)
+ create mode 100644 libraries/results/batch-out/darwin-arm-openmpi-2019-04-29-batch.out
+ rewrite libraries/results/install-log/darwin-arm-openmpi-install.log (86%)
+ delete mode 100644 libraries/tools/bash/darwin-arm-batch.out
+Mon Apr 29 10:41:51 MDT 2019

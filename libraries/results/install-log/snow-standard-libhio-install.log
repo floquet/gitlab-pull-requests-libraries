@@ -1,0 +1,632 @@
+Wed Apr 24 20:55:29 MDT 2019
+
+
+spack install libhio @ 1.4.1.3 % gcc@8.2.0  arch=linux-rhel7-x86_64
+
+spack install libhio @ 1.4.1.3 % gcc@7.4.0  arch=linux-rhel7-x86_64
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/gcc-7.4.0/util-macros-1.19.1-pnh4ejaavuggcrimg56hzxduas6vggm3
+==> libpciaccess is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/gcc-7.4.0/libpciaccess-0.13.5-ucgnzc4brwfxukxltdd2npkisoiboki3
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> hwloc is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/gcc-7.4.0/hwloc-1.11.11-tkazfwtlb7pen27ish2bruwy5b36kcj3
+==> zlib is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/gcc-7.4.0/zlib-1.2.11-ml43muis5d6c34def55gguexogjqre4p
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/openmpi/openmpi-3.1.4.tar.bz2
+==> Staging archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/openmpi-3.1.4-qfsk52youf53ez6ye6kbrsjdbxbu26wd/openmpi-3.1.4.tar.bz2
+==> Created stage in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/openmpi-3.1.4-qfsk52youf53ez6ye6kbrsjdbxbu26wd
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.06s.  Build: 10m 46.68s.  Total: 10m 46.73s.
+[+] /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/gcc-7.4.0/openmpi-3.1.4-qfsk52youf53ez6ye6kbrsjdbxbu26wd
+==> Installing hdf5
+==> Searching for binary cache of hdf5
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hdf5 found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/hdf5/hdf5-1.8.17.tar.gz
+==> Staging archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/hdf5-1.8.17-5nhcizm74ol7vrtifu2seyk7lswnndng/hdf5-1.8.17.tar.gz
+==> Created stage in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/hdf5-1.8.17-5nhcizm74ol7vrtifu2seyk7lswnndng
+==> No patches needed for hdf5
+==> Building hdf5 [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed hdf5
+  Fetch: 0.16s.  Build: 1m 35.92s.  Total: 1m 36.08s.
+[+] /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/gcc-7.4.0/hdf5-1.8.17-5nhcizm74ol7vrtifu2seyk7lswnndng
+==> autoconf@2.69 : externally installed in /usr
+==> autoconf@2.69 : already registered in DB
+==> Installing json-c
+==> Searching for binary cache of json-c
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for json-c found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/json-c/json-c-0.13.1.tar.gz
+==> Staging archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/json-c-0.13.1-z22i7gnapxi3qnsakoamxb7vmo735ut5/json-c-0.13.1.tar.gz
+==> Created stage in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/json-c-0.13.1-z22i7gnapxi3qnsakoamxb7vmo735ut5
+==> No patches needed for json-c
+==> Building json-c [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed json-c
+  Fetch: 0.05s.  Build: 15.15s.  Total: 15.20s.
+[+] /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/gcc-7.4.0/json-c-0.13.1-z22i7gnapxi3qnsakoamxb7vmo735ut5
+==> Installing libhio
+==> Searching for binary cache of libhio
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libhio found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/libhio/libhio-1.4.1.3.tar.bz2
+==> Staging archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/libhio-1.4.1.3-wdfgfcmtwgpmrhsebidqdixjj2gxg7gj/libhio-1.4.1.3.tar.bz2
+==> Created stage in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/libhio-1.4.1.3-wdfgfcmtwgpmrhsebidqdixjj2gxg7gj
+==> No patches needed for libhio
+==> Building libhio [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libhio
+  Fetch: 0.05s.  Build: 55.09s.  Total: 55.14s.
+[+] /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/gcc-7.4.0/libhio-1.4.1.3-wdfgfcmtwgpmrhsebidqdixjj2gxg7gj
+
+spack install libhio @ 1.4.1.3 % gcc@6.4.0  arch=linux-rhel7-x86_64
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/gcc-6.4.0/util-macros-1.19.1-et5doh3u6tn2m3hsa67vr7ut6yc7b42u
+==> libpciaccess is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/gcc-6.4.0/libpciaccess-0.13.5-o53uqv7v2rohysks7xl47e2blfxj7sen
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> hwloc is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/gcc-6.4.0/hwloc-1.11.11-foboruknhgunj2t6xmqzwbovqvphzlzl
+==> zlib is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/gcc-6.4.0/zlib-1.2.11-w43e56tzqjcnakpx5iekllq22dryj5ua
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/cache/openmpi/openmpi-3.1.4.tar.bz2
+==> Staging archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/openmpi-3.1.4-ay2ouotueyu2jyxyxlrwxmxzoaadeziw/openmpi-3.1.4.tar.bz2
+==> Created stage in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/openmpi-3.1.4-ay2ouotueyu2jyxyxlrwxmxzoaadeziw
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.02s.  Build: 10m 48.17s.  Total: 10m 48.19s.
+[+] /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/gcc-6.4.0/openmpi-3.1.4-ay2ouotueyu2jyxyxlrwxmxzoaadeziw
+==> Installing hdf5
+==> Searching for binary cache of hdf5
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hdf5 found: installing from source
+==> Using cached archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/cache/hdf5/hdf5-1.8.17.tar.gz
+==> Staging archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/hdf5-1.8.17-u5syege4lmi4k24plkfqa6waox7jryaf/hdf5-1.8.17.tar.gz
+==> Created stage in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/hdf5-1.8.17-u5syege4lmi4k24plkfqa6waox7jryaf
+==> No patches needed for hdf5
+==> Building hdf5 [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed hdf5
+  Fetch: 0.03s.  Build: 1m 35.10s.  Total: 1m 35.13s.
+[+] /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/gcc-6.4.0/hdf5-1.8.17-u5syege4lmi4k24plkfqa6waox7jryaf
+==> autoconf@2.69 : externally installed in /usr
+==> autoconf@2.69 : already registered in DB
+==> Installing json-c
+==> Searching for binary cache of json-c
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for json-c found: installing from source
+==> Using cached archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/cache/json-c/json-c-0.13.1.tar.gz
+==> Staging archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/json-c-0.13.1-l24u3kdgu2mp7dpp3simuxrcyqf3a3dr/json-c-0.13.1.tar.gz
+==> Created stage in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/json-c-0.13.1-l24u3kdgu2mp7dpp3simuxrcyqf3a3dr
+==> No patches needed for json-c
+==> Building json-c [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed json-c
+  Fetch: 0.01s.  Build: 15.52s.  Total: 15.53s.
+[+] /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/gcc-6.4.0/json-c-0.13.1-l24u3kdgu2mp7dpp3simuxrcyqf3a3dr
+==> Installing libhio
+==> Searching for binary cache of libhio
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libhio found: installing from source
+==> Using cached archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/cache/libhio/libhio-1.4.1.3.tar.bz2
+==> Staging archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/libhio-1.4.1.3-p6lndph5a7pidtmeb4ucfhlvatncwrrv/libhio-1.4.1.3.tar.bz2
+==> Created stage in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/libhio-1.4.1.3-p6lndph5a7pidtmeb4ucfhlvatncwrrv
+==> No patches needed for libhio
+==> Building libhio [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libhio
+  Fetch: 0.01s.  Build: 54.92s.  Total: 54.94s.
+[+] /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/gcc-6.4.0/libhio-1.4.1.3-p6lndph5a7pidtmeb4ucfhlvatncwrrv
+
+spack install libhio @ 1.4.1.3 % gcc@5.3.0  arch=linux-rhel7-x86_64
+
+spack install libhio @ 1.4.1.3 % intel@19.0.1.144  arch=linux-rhel7-x86_64
+
+spack install libhio @ 1.4.1.3 % intel@18.0.5  arch=linux-rhel7-x86_64
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/intel-18.0.5/util-macros-1.19.1-au6kcg7m7tzenzzfqa3x5mrxke4garor
+==> libpciaccess is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/intel-18.0.5/libpciaccess-0.13.5-awuq6lxap62vhz36eqms3n4wwzz62fmq
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> hwloc is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/intel-18.0.5/hwloc-1.11.11-iegddt7jo67rticytzhugypkeut5iexf
+==> zlib is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/intel-18.0.5/zlib-1.2.11-6nlmvd2i5cud3sj6c4kx7uskgha2sdxy
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/cache/openmpi/openmpi-3.1.4.tar.bz2
+==> Staging archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/openmpi-3.1.4-imuu3kyob4gvzo2we3lvrhlegsc57pod/openmpi-3.1.4.tar.bz2
+==> Created stage in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/openmpi-3.1.4-imuu3kyob4gvzo2we3lvrhlegsc57pod
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.02s.  Build: 14m 24.77s.  Total: 14m 24.79s.
+[+] /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/intel-18.0.5/openmpi-3.1.4-imuu3kyob4gvzo2we3lvrhlegsc57pod
+==> Installing hdf5
+==> Searching for binary cache of hdf5
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hdf5 found: installing from source
+==> Using cached archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/cache/hdf5/hdf5-1.8.17.tar.gz
+==> Staging archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/hdf5-1.8.17-nztlgytsztchtji3kogr6ldlykd55jbr/hdf5-1.8.17.tar.gz
+==> Created stage in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/hdf5-1.8.17-nztlgytsztchtji3kogr6ldlykd55jbr
+==> No patches needed for hdf5
+==> Building hdf5 [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed hdf5
+  Fetch: 0.03s.  Build: 3m 10.14s.  Total: 3m 10.17s.
+[+] /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/intel-18.0.5/hdf5-1.8.17-nztlgytsztchtji3kogr6ldlykd55jbr
+==> autoconf@2.69 : externally installed in /usr
+==> autoconf@2.69 : already registered in DB
+==> Installing json-c
+==> Searching for binary cache of json-c
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for json-c found: installing from source
+==> Using cached archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/cache/json-c/json-c-0.13.1.tar.gz
+==> Staging archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/json-c-0.13.1-kreesdiw2xb4ik5wutyhjxmgf3gnjoqf/json-c-0.13.1.tar.gz
+==> Created stage in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/json-c-0.13.1-kreesdiw2xb4ik5wutyhjxmgf3gnjoqf
+==> No patches needed for json-c
+==> Building json-c [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed json-c
+  Fetch: 0.01s.  Build: 28.85s.  Total: 28.85s.
+[+] /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/intel-18.0.5/json-c-0.13.1-kreesdiw2xb4ik5wutyhjxmgf3gnjoqf
+==> Installing libhio
+==> Searching for binary cache of libhio
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libhio found: installing from source
+==> Using cached archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/cache/libhio/libhio-1.4.1.3.tar.bz2
+==> Staging archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/libhio-1.4.1.3-sujy6btbcu5u4rkvsio3ho57tvhxspna/libhio-1.4.1.3.tar.bz2
+==> Created stage in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/libhio-1.4.1.3-sujy6btbcu5u4rkvsio3ho57tvhxspna
+==> No patches needed for libhio
+==> Building libhio [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libhio
+  Fetch: 0.01s.  Build: 1m 46.41s.  Total: 1m 46.42s.
+[+] /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/intel-18.0.5/libhio-1.4.1.3-sujy6btbcu5u4rkvsio3ho57tvhxspna
+
+spack install libhio @ 1.4.1.3 % intel@17.0.4  arch=linux-rhel7-x86_64
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/intel-17.0.4/util-macros-1.19.1-q3kbhxcxvwi2w4rj4sex2fobx4pyp67x
+==> libpciaccess is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/intel-17.0.4/libpciaccess-0.13.5-tm6ayg7giuemhrhxfsz2ibehmawlikdn
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> hwloc is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/intel-17.0.4/hwloc-1.11.11-vyowpxuzon45zmi2hgt2kukrtue7xiu7
+==> zlib is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/intel-17.0.4/zlib-1.2.11-cauhfyodn6iaepgl5f2p2syz6ksevjmx
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/cache/openmpi/openmpi-3.1.4.tar.bz2
+==> Staging archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/openmpi-3.1.4-6fnoofphf52kalx3jirwb6ipye2vxm4o/openmpi-3.1.4.tar.bz2
+==> Created stage in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/openmpi-3.1.4-6fnoofphf52kalx3jirwb6ipye2vxm4o
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.02s.  Build: 26m 53.53s.  Total: 26m 53.55s.
+[+] /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/intel-17.0.4/openmpi-3.1.4-6fnoofphf52kalx3jirwb6ipye2vxm4o
+==> Installing hdf5
+==> Searching for binary cache of hdf5
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hdf5 found: installing from source
+==> Using cached archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/cache/hdf5/hdf5-1.8.17.tar.gz
+==> Staging archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/hdf5-1.8.17-7tmi3io3u34z2whfuzle7p34a7zkiy2c/hdf5-1.8.17.tar.gz
+==> Created stage in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/hdf5-1.8.17-7tmi3io3u34z2whfuzle7p34a7zkiy2c
+==> No patches needed for hdf5
+==> Building hdf5 [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed hdf5
+  Fetch: 0.03s.  Build: 4m 25.09s.  Total: 4m 25.12s.
+[+] /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/intel-17.0.4/hdf5-1.8.17-7tmi3io3u34z2whfuzle7p34a7zkiy2c
+==> autoconf@2.69 : externally installed in /usr
+==> autoconf@2.69 : already registered in DB
+==> Installing json-c
+==> Searching for binary cache of json-c
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for json-c found: installing from source
+==> Using cached archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/cache/json-c/json-c-0.13.1.tar.gz
+==> Staging archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/json-c-0.13.1-fcpd36wmnbcipl65vterbvd25nrfiq6a/json-c-0.13.1.tar.gz
+==> Created stage in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/json-c-0.13.1-fcpd36wmnbcipl65vterbvd25nrfiq6a
+==> No patches needed for json-c
+==> Building json-c [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed json-c
+  Fetch: 0.01s.  Build: 47.22s.  Total: 47.23s.
+[+] /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/intel-17.0.4/json-c-0.13.1-fcpd36wmnbcipl65vterbvd25nrfiq6a
+==> Installing libhio
+==> Searching for binary cache of libhio
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libhio found: installing from source
+==> Using cached archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/cache/libhio/libhio-1.4.1.3.tar.bz2
+==> Staging archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/libhio-1.4.1.3-psmrdza5z6s5zzv36xvqllsivq55qhzx/libhio-1.4.1.3.tar.bz2
+==> Created stage in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/libhio-1.4.1.3-psmrdza5z6s5zzv36xvqllsivq55qhzx
+==> No patches needed for libhio
+==> Building libhio [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libhio
+  Fetch: 0.01s.  Build: 1m 48.71s.  Total: 1m 48.72s.
+[+] /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/intel-17.0.4/libhio-1.4.1.3-psmrdza5z6s5zzv36xvqllsivq55qhzx
+
+spack install libhio @ 1.4.1.3 % intel@16.0.3  arch=linux-rhel7-x86_64
+
+spack install libhio @ 1.4.1.3 % pgi@18.10  arch=linux-rhel7-x86_64
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/pgi-18.10/util-macros-1.19.1-uy5axk4iooak2l26lr3qrygdbzlanpsd
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/libpciaccess-0.13.5-7jys5j6in74b7k76nruprcfhck2km3ic/libpciaccess-0.13.5.tar.gz
+==> Created stage in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/libpciaccess-0.13.5-7jys5j6in74b7k76nruprcfhck2km3ic
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install libhio @ 1.4.1.3 % pgi@17.10  arch=linux-rhel7-x86_64
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/pgi-17.10/util-macros-1.19.1-ubfzjlnuuxdxcos4jhw64t5fycs3hbzr
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/libpciaccess-0.13.5-gbupg42otgmyvaan7owmtuj63mphpoai/libpciaccess-0.13.5.tar.gz
+==> Created stage in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/libpciaccess-0.13.5-gbupg42otgmyvaan7owmtuj63mphpoai
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install libhio @ 1.4.1.3 % pgi@16.10  arch=linux-rhel7-x86_64
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/pgi-16.10/util-macros-1.19.1-yir4ak2ltwr44psmxiqkiqprjg6swjv4
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/libpciaccess-0.13.5-5zuqqz72t6wm6l4rnhshc7df5wneu2pi/libpciaccess-0.13.5.tar.gz
+==> Created stage in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/libpciaccess-0.13.5-5zuqqz72t6wm6l4rnhshc7df5wneu2pi
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install libhio @ 1.4.1.2 % gcc@8.2.0  arch=linux-rhel7-x86_64
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : generating module file
+
+spack install libhio @ 1.4.1.2 % gcc@7.4.0  arch=linux-rhel7-x86_64
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/gcc-7.4.0/util-macros-1.19.1-pnh4ejaavuggcrimg56hzxduas6vggm3
+==> libpciaccess is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/gcc-7.4.0/libpciaccess-0.13.5-ucgnzc4brwfxukxltdd2npkisoiboki3
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> hwloc is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/gcc-7.4.0/hwloc-1.11.11-tkazfwtlb7pen27ish2bruwy5b36kcj3
+==> zlib is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/gcc-7.4.0/zlib-1.2.11-ml43muis5d6c34def55gguexogjqre4p
+==> openmpi is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/gcc-7.4.0/openmpi-3.1.4-qfsk52youf53ez6ye6kbrsjdbxbu26wd
+==> hdf5 is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/gcc-7.4.0/hdf5-1.8.17-5nhcizm74ol7vrtifu2seyk7lswnndng
+==> autoconf@2.69 : externally installed in /usr
+==> autoconf@2.69 : already registered in DB
+==> json-c is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/gcc-7.4.0/json-c-0.13.1-z22i7gnapxi3qnsakoamxb7vmo735ut5
+==> Installing libhio
+==> Searching for binary cache of libhio
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libhio found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/libhio/libhio-1.4.1.2.tar.bz2
+==> Staging archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/libhio-1.4.1.2-ccmqf5jl45qmc2waih32uohkxxsv65mf/libhio-1.4.1.2.tar.bz2
+==> Created stage in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/libhio-1.4.1.2-ccmqf5jl45qmc2waih32uohkxxsv65mf
+==> Applied patch /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/repos/builtin/packages/libhio/0001-spack-fix-for-spack-to-work-on-non-cray-systems.patch
+==> Building libhio [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libhio
+  Fetch: 0.03s.  Build: 54.69s.  Total: 54.72s.
+[+] /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/gcc-7.4.0/libhio-1.4.1.2-ccmqf5jl45qmc2waih32uohkxxsv65mf
+
+spack install libhio @ 1.4.1.2 % gcc@6.4.0  arch=linux-rhel7-x86_64
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/gcc-6.4.0/util-macros-1.19.1-et5doh3u6tn2m3hsa67vr7ut6yc7b42u
+==> libpciaccess is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/gcc-6.4.0/libpciaccess-0.13.5-o53uqv7v2rohysks7xl47e2blfxj7sen
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> hwloc is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/gcc-6.4.0/hwloc-1.11.11-foboruknhgunj2t6xmqzwbovqvphzlzl
+==> zlib is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/gcc-6.4.0/zlib-1.2.11-w43e56tzqjcnakpx5iekllq22dryj5ua
+==> openmpi is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/gcc-6.4.0/openmpi-3.1.4-ay2ouotueyu2jyxyxlrwxmxzoaadeziw
+==> hdf5 is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/gcc-6.4.0/hdf5-1.8.17-u5syege4lmi4k24plkfqa6waox7jryaf
+==> autoconf@2.69 : externally installed in /usr
+==> autoconf@2.69 : already registered in DB
+==> json-c is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/gcc-6.4.0/json-c-0.13.1-l24u3kdgu2mp7dpp3simuxrcyqf3a3dr
+==> Installing libhio
+==> Searching for binary cache of libhio
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libhio found: installing from source
+==> Using cached archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/cache/libhio/libhio-1.4.1.2.tar.bz2
+==> Staging archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/libhio-1.4.1.2-tqhu7kdgrz7x3y5vfp7hppxkogp5acvj/libhio-1.4.1.2.tar.bz2
+==> Created stage in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/libhio-1.4.1.2-tqhu7kdgrz7x3y5vfp7hppxkogp5acvj
+==> Applied patch /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/repos/builtin/packages/libhio/0001-spack-fix-for-spack-to-work-on-non-cray-systems.patch
+==> Building libhio [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libhio
+  Fetch: 0.01s.  Build: 53.52s.  Total: 53.53s.
+[+] /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/gcc-6.4.0/libhio-1.4.1.2-tqhu7kdgrz7x3y5vfp7hppxkogp5acvj
+
+spack install libhio @ 1.4.1.2 % gcc@5.3.0  arch=linux-rhel7-x86_64
+
+spack install libhio @ 1.4.1.2 % intel@19.0.1.144  arch=linux-rhel7-x86_64
+
+spack install libhio @ 1.4.1.2 % intel@18.0.5  arch=linux-rhel7-x86_64
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/intel-18.0.5/util-macros-1.19.1-au6kcg7m7tzenzzfqa3x5mrxke4garor
+==> libpciaccess is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/intel-18.0.5/libpciaccess-0.13.5-awuq6lxap62vhz36eqms3n4wwzz62fmq
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> hwloc is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/intel-18.0.5/hwloc-1.11.11-iegddt7jo67rticytzhugypkeut5iexf
+==> zlib is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/intel-18.0.5/zlib-1.2.11-6nlmvd2i5cud3sj6c4kx7uskgha2sdxy
+==> openmpi is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/intel-18.0.5/openmpi-3.1.4-imuu3kyob4gvzo2we3lvrhlegsc57pod
+==> hdf5 is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/intel-18.0.5/hdf5-1.8.17-nztlgytsztchtji3kogr6ldlykd55jbr
+==> autoconf@2.69 : externally installed in /usr
+==> autoconf@2.69 : already registered in DB
+==> json-c is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/intel-18.0.5/json-c-0.13.1-kreesdiw2xb4ik5wutyhjxmgf3gnjoqf
+==> Installing libhio
+==> Searching for binary cache of libhio
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libhio found: installing from source
+==> Using cached archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/cache/libhio/libhio-1.4.1.2.tar.bz2
+==> Staging archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/libhio-1.4.1.2-d3tvl3nhakcb4dgoe2falr2neho5e3bf/libhio-1.4.1.2.tar.bz2
+==> Created stage in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/libhio-1.4.1.2-d3tvl3nhakcb4dgoe2falr2neho5e3bf
+==> Applied patch /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/repos/builtin/packages/libhio/0001-spack-fix-for-spack-to-work-on-non-cray-systems.patch
+==> Building libhio [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libhio
+  Fetch: 0.01s.  Build: 1m 47.96s.  Total: 1m 47.97s.
+[+] /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/intel-18.0.5/libhio-1.4.1.2-d3tvl3nhakcb4dgoe2falr2neho5e3bf
+
+spack install libhio @ 1.4.1.2 % intel@17.0.4  arch=linux-rhel7-x86_64
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/intel-17.0.4/util-macros-1.19.1-q3kbhxcxvwi2w4rj4sex2fobx4pyp67x
+==> libpciaccess is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/intel-17.0.4/libpciaccess-0.13.5-tm6ayg7giuemhrhxfsz2ibehmawlikdn
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> hwloc is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/intel-17.0.4/hwloc-1.11.11-vyowpxuzon45zmi2hgt2kukrtue7xiu7
+==> zlib is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/intel-17.0.4/zlib-1.2.11-cauhfyodn6iaepgl5f2p2syz6ksevjmx
+==> openmpi is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/intel-17.0.4/openmpi-3.1.4-6fnoofphf52kalx3jirwb6ipye2vxm4o
+==> hdf5 is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/intel-17.0.4/hdf5-1.8.17-7tmi3io3u34z2whfuzle7p34a7zkiy2c
+==> autoconf@2.69 : externally installed in /usr
+==> autoconf@2.69 : already registered in DB
+==> json-c is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/intel-17.0.4/json-c-0.13.1-fcpd36wmnbcipl65vterbvd25nrfiq6a
+==> Installing libhio
+==> Searching for binary cache of libhio
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libhio found: installing from source
+==> Using cached archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/cache/libhio/libhio-1.4.1.2.tar.bz2
+==> Staging archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/libhio-1.4.1.2-2exh7xsuvxngmw6wehnkdzoydwi5iiwo/libhio-1.4.1.2.tar.bz2
+==> Created stage in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/libhio-1.4.1.2-2exh7xsuvxngmw6wehnkdzoydwi5iiwo
+==> Applied patch /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/repos/builtin/packages/libhio/0001-spack-fix-for-spack-to-work-on-non-cray-systems.patch
+==> Building libhio [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libhio
+  Fetch: 0.01s.  Build: 1m 49.42s.  Total: 1m 49.43s.
+[+] /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/intel-17.0.4/libhio-1.4.1.2-2exh7xsuvxngmw6wehnkdzoydwi5iiwo
+
+spack install libhio @ 1.4.1.2 % intel@16.0.3  arch=linux-rhel7-x86_64
+
+spack install libhio @ 1.4.1.2 % pgi@18.10  arch=linux-rhel7-x86_64
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/pgi-18.10/util-macros-1.19.1-uy5axk4iooak2l26lr3qrygdbzlanpsd
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/libpciaccess-0.13.5-7jys5j6in74b7k76nruprcfhck2km3ic/libpciaccess-0.13.5.tar.gz
+==> Created stage in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/libpciaccess-0.13.5-7jys5j6in74b7k76nruprcfhck2km3ic
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install libhio @ 1.4.1.2 % pgi@17.10  arch=linux-rhel7-x86_64
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/pgi-17.10/util-macros-1.19.1-ubfzjlnuuxdxcos4jhw64t5fycs3hbzr
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/libpciaccess-0.13.5-gbupg42otgmyvaan7owmtuj63mphpoai/libpciaccess-0.13.5.tar.gz
+==> Created stage in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/libpciaccess-0.13.5-gbupg42otgmyvaan7owmtuj63mphpoai
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install libhio @ 1.4.1.2 % pgi@16.10  arch=linux-rhel7-x86_64
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/pgi-16.10/util-macros-1.19.1-yir4ak2ltwr44psmxiqkiqprjg6swjv4
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/libpciaccess-0.13.5-5zuqqz72t6wm6l4rnhshc7df5wneu2pi/libpciaccess-0.13.5.tar.gz
+==> Created stage in /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/libpciaccess-0.13.5-5zuqqz72t6wm6l4rnhshc7df5wneu2pi
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'

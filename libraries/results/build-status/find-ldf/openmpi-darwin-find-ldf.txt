@@ -1,0 +1,563 @@
+Thu Apr 25 09:39:13 MDT 2019 libraries/tools/bash/interrogater.sh
+/scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results
+
+
+partition: general
+bin/spack find -ldf openmpi
+==> 42 installed packages
+-- linux-centos7-x86_64 / gcc@4.8.5 -----------------------------
+xfg5frc    openmpi@2.1.6%gcc 
+bkkhvej        ^hwloc@1.11.11%gcc 
+5chyfxo            ^libpciaccess@0.13.5%gcc 
+bcnjbc3            ^libxml2@2.9.8%gcc 
+tt2hkol            ^numactl@2.0.12%gcc 
+
+dqtmvyt    openmpi@3.0.3%gcc 
+bkkhvej        ^hwloc@1.11.11%gcc 
+5chyfxo            ^libpciaccess@0.13.5%gcc 
+bcnjbc3            ^libxml2@2.9.8%gcc 
+tt2hkol            ^numactl@2.0.12%gcc 
+64vg6e4        ^zlib@1.2.11%gcc 
+
+pdfogzx    openmpi@3.1.3%gcc 
+bkkhvej        ^hwloc@1.11.11%gcc 
+5chyfxo            ^libpciaccess@0.13.5%gcc 
+bcnjbc3            ^libxml2@2.9.8%gcc 
+tt2hkol            ^numactl@2.0.12%gcc 
+64vg6e4        ^zlib@1.2.11%gcc 
+
+bjftvhy    openmpi@3.1.4%gcc 
+bkkhvej        ^hwloc@1.11.11%gcc 
+5chyfxo            ^libpciaccess@0.13.5%gcc 
+bcnjbc3            ^libxml2@2.9.8%gcc 
+tt2hkol            ^numactl@2.0.12%gcc 
+64vg6e4        ^zlib@1.2.11%gcc 
+
+rldccba    openmpi@4.0.1%gcc 
+bkkhvej        ^hwloc@1.11.11%gcc 
+5chyfxo            ^libpciaccess@0.13.5%gcc 
+bcnjbc3            ^libxml2@2.9.8%gcc 
+tt2hkol            ^numactl@2.0.12%gcc 
+64vg6e4        ^zlib@1.2.11%gcc 
+
+
+-- linux-centos7-x86_64 / gcc@4.9.3 -----------------------------
+hbswdyb    openmpi@2.1.6%gcc 
+xvnhmjp        ^hwloc@1.11.11%gcc 
+nqafs22            ^libpciaccess@0.13.5%gcc 
+xr6jvqb            ^libxml2@2.9.8%gcc 
+gyit553            ^numactl@2.0.12%gcc 
+
+3bvis7m    openmpi@3.0.3%gcc 
+xvnhmjp        ^hwloc@1.11.11%gcc 
+nqafs22            ^libpciaccess@0.13.5%gcc 
+xr6jvqb            ^libxml2@2.9.8%gcc 
+gyit553            ^numactl@2.0.12%gcc 
+wabmm7g        ^zlib@1.2.11%gcc 
+
+glupwb5    openmpi@3.1.3%gcc 
+xvnhmjp        ^hwloc@1.11.11%gcc 
+nqafs22            ^libpciaccess@0.13.5%gcc 
+xr6jvqb            ^libxml2@2.9.8%gcc 
+gyit553            ^numactl@2.0.12%gcc 
+wabmm7g        ^zlib@1.2.11%gcc 
+
+3vyf7ew    openmpi@3.1.4%gcc 
+xvnhmjp        ^hwloc@1.11.11%gcc 
+nqafs22            ^libpciaccess@0.13.5%gcc 
+xr6jvqb            ^libxml2@2.9.8%gcc 
+gyit553            ^numactl@2.0.12%gcc 
+wabmm7g        ^zlib@1.2.11%gcc 
+
+zfmzp6w    openmpi@4.0.1%gcc 
+xvnhmjp        ^hwloc@1.11.11%gcc 
+nqafs22            ^libpciaccess@0.13.5%gcc 
+xr6jvqb            ^libxml2@2.9.8%gcc 
+gyit553            ^numactl@2.0.12%gcc 
+wabmm7g        ^zlib@1.2.11%gcc 
+
+
+-- linux-centos7-x86_64 / gcc@5.5.0 -----------------------------
+y4edz45    openmpi@2.1.6%gcc 
+2bjodks        ^hwloc@1.11.11%gcc 
+ygiicn2            ^libpciaccess@0.13.5%gcc 
+dyuna3l            ^libxml2@2.9.8%gcc 
+ccmgitq            ^numactl@2.0.12%gcc 
+
+77ubj67    openmpi@3.0.3%gcc 
+2bjodks        ^hwloc@1.11.11%gcc 
+ygiicn2            ^libpciaccess@0.13.5%gcc 
+dyuna3l            ^libxml2@2.9.8%gcc 
+ccmgitq            ^numactl@2.0.12%gcc 
+ijtgxbh        ^zlib@1.2.11%gcc 
+
+7wgwlvk    openmpi@3.1.3%gcc 
+2bjodks        ^hwloc@1.11.11%gcc 
+ygiicn2            ^libpciaccess@0.13.5%gcc 
+dyuna3l            ^libxml2@2.9.8%gcc 
+ccmgitq            ^numactl@2.0.12%gcc 
+ijtgxbh        ^zlib@1.2.11%gcc 
+
+t4s6t7w    openmpi@3.1.4%gcc 
+2bjodks        ^hwloc@1.11.11%gcc 
+ygiicn2            ^libpciaccess@0.13.5%gcc 
+dyuna3l            ^libxml2@2.9.8%gcc 
+ccmgitq            ^numactl@2.0.12%gcc 
+ijtgxbh        ^zlib@1.2.11%gcc 
+
+2zyirqs    openmpi@4.0.1%gcc 
+2bjodks        ^hwloc@1.11.11%gcc 
+ygiicn2            ^libpciaccess@0.13.5%gcc 
+dyuna3l            ^libxml2@2.9.8%gcc 
+ccmgitq            ^numactl@2.0.12%gcc 
+ijtgxbh        ^zlib@1.2.11%gcc 
+
+
+-- linux-centos7-x86_64 / gcc@6.4.0 -----------------------------
+nbgumcb    openmpi@2.1.6%gcc 
+ydbwr4w        ^hwloc@1.11.11%gcc 
+j6fsyhp            ^libpciaccess@0.13.5%gcc 
+ltoyknu            ^libxml2@2.9.8%gcc 
+2zmeci4            ^numactl@2.0.12%gcc 
+
+ra7ux2v    openmpi@3.0.3%gcc 
+ydbwr4w        ^hwloc@1.11.11%gcc 
+j6fsyhp            ^libpciaccess@0.13.5%gcc 
+ltoyknu            ^libxml2@2.9.8%gcc 
+2zmeci4            ^numactl@2.0.12%gcc 
+ufwqfd4        ^zlib@1.2.11%gcc 
+
+hpwyprd    openmpi@3.1.3%gcc 
+ydbwr4w        ^hwloc@1.11.11%gcc 
+j6fsyhp            ^libpciaccess@0.13.5%gcc 
+ltoyknu            ^libxml2@2.9.8%gcc 
+2zmeci4            ^numactl@2.0.12%gcc 
+ufwqfd4        ^zlib@1.2.11%gcc 
+
+23cc447    openmpi@3.1.4%gcc 
+ydbwr4w        ^hwloc@1.11.11%gcc 
+j6fsyhp            ^libpciaccess@0.13.5%gcc 
+ltoyknu            ^libxml2@2.9.8%gcc 
+2zmeci4            ^numactl@2.0.12%gcc 
+ufwqfd4        ^zlib@1.2.11%gcc 
+
+rrcedzo    openmpi@4.0.1%gcc 
+ydbwr4w        ^hwloc@1.11.11%gcc 
+j6fsyhp            ^libpciaccess@0.13.5%gcc 
+ltoyknu            ^libxml2@2.9.8%gcc 
+2zmeci4            ^numactl@2.0.12%gcc 
+ufwqfd4        ^zlib@1.2.11%gcc 
+
+
+-- linux-centos7-x86_64 / gcc@7.3.0 -----------------------------
+zlqdbbj    openmpi@2.1.6%gcc 
+vrpknac        ^hwloc@1.11.11%gcc 
+f5k35g4            ^libpciaccess@0.13.5%gcc 
+m46g2kt            ^libxml2@2.9.8%gcc 
+le6jhga            ^numactl@2.0.12%gcc 
+
+kdicfrl    openmpi@3.0.3%gcc 
+vrpknac        ^hwloc@1.11.11%gcc 
+f5k35g4            ^libpciaccess@0.13.5%gcc 
+m46g2kt            ^libxml2@2.9.8%gcc 
+le6jhga            ^numactl@2.0.12%gcc 
+zknfwan        ^zlib@1.2.11%gcc 
+
+rd4bhjh    openmpi@3.1.3%gcc 
+vrpknac        ^hwloc@1.11.11%gcc 
+f5k35g4            ^libpciaccess@0.13.5%gcc 
+m46g2kt            ^libxml2@2.9.8%gcc 
+le6jhga            ^numactl@2.0.12%gcc 
+zknfwan        ^zlib@1.2.11%gcc 
+
+zjghxab    openmpi@3.1.4%gcc 
+vrpknac        ^hwloc@1.11.11%gcc 
+f5k35g4            ^libpciaccess@0.13.5%gcc 
+m46g2kt            ^libxml2@2.9.8%gcc 
+le6jhga            ^numactl@2.0.12%gcc 
+zknfwan        ^zlib@1.2.11%gcc 
+
+dd46drz    openmpi@4.0.1%gcc 
+vrpknac        ^hwloc@1.11.11%gcc 
+f5k35g4            ^libpciaccess@0.13.5%gcc 
+m46g2kt            ^libxml2@2.9.8%gcc 
+le6jhga            ^numactl@2.0.12%gcc 
+zknfwan        ^zlib@1.2.11%gcc 
+
+
+-- linux-centos7-x86_64 / gcc@8.2.0 -----------------------------
+dbgnmvj    openmpi@2.1.6%gcc 
+kpmr675        ^hwloc@1.11.11%gcc 
+svkyphb            ^libpciaccess@0.13.5%gcc 
+uvcs5lc            ^libxml2@2.9.8%gcc 
+qwo625d            ^numactl@2.0.12%gcc 
+
+wwffvoa    openmpi@3.0.3%gcc 
+kpmr675        ^hwloc@1.11.11%gcc 
+svkyphb            ^libpciaccess@0.13.5%gcc 
+uvcs5lc            ^libxml2@2.9.8%gcc 
+qwo625d            ^numactl@2.0.12%gcc 
+6wdekzy        ^zlib@1.2.11%gcc 
+
+4jrf7jm    openmpi@3.1.3%gcc 
+kpmr675        ^hwloc@1.11.11%gcc 
+svkyphb            ^libpciaccess@0.13.5%gcc 
+uvcs5lc            ^libxml2@2.9.8%gcc 
+qwo625d            ^numactl@2.0.12%gcc 
+6wdekzy        ^zlib@1.2.11%gcc 
+
+6hdcscr    openmpi@3.1.4%gcc 
+kpmr675        ^hwloc@1.11.11%gcc 
+svkyphb            ^libpciaccess@0.13.5%gcc 
+uvcs5lc            ^libxml2@2.9.8%gcc 
+qwo625d            ^numactl@2.0.12%gcc 
+6wdekzy        ^zlib@1.2.11%gcc 
+
+we5exv2    openmpi@4.0.1%gcc 
+kpmr675        ^hwloc@1.11.11%gcc 
+svkyphb            ^libpciaccess@0.13.5%gcc 
+uvcs5lc            ^libxml2@2.9.8%gcc 
+qwo625d            ^numactl@2.0.12%gcc 
+6wdekzy        ^zlib@1.2.11%gcc 
+
+
+-- linux-centos7-x86_64 / intel@16.0.4 --------------------------
+v76vnks    openmpi@2.1.6%intel 
+i32wppi        ^hwloc@1.11.11%intel 
+jtzzof2            ^libpciaccess@0.13.5%intel 
+iikjujn            ^libxml2@2.9.8%intel 
+n2exbxj            ^numactl@2.0.12%intel 
+
+nadzipj    openmpi@3.0.3%intel 
+i32wppi        ^hwloc@1.11.11%intel 
+jtzzof2            ^libpciaccess@0.13.5%intel 
+iikjujn            ^libxml2@2.9.8%intel 
+n2exbxj            ^numactl@2.0.12%intel 
+khv5wg2        ^zlib@1.2.11%intel 
+
+v4gbqrp    openmpi@3.1.3%intel 
+i32wppi        ^hwloc@1.11.11%intel 
+jtzzof2            ^libpciaccess@0.13.5%intel 
+iikjujn            ^libxml2@2.9.8%intel 
+n2exbxj            ^numactl@2.0.12%intel 
+khv5wg2        ^zlib@1.2.11%intel 
+
+uwuguxd    openmpi@4.0.1%intel 
+i32wppi        ^hwloc@1.11.11%intel 
+jtzzof2            ^libpciaccess@0.13.5%intel 
+iikjujn            ^libxml2@2.9.8%intel 
+n2exbxj            ^numactl@2.0.12%intel 
+khv5wg2        ^zlib@1.2.11%intel 
+
+
+-- linux-centos7-x86_64 / intel@17.0.6 --------------------------
+3ic7uz2    openmpi@2.1.6%intel 
+itb72kn        ^hwloc@1.11.11%intel 
+5ywhccx            ^libpciaccess@0.13.5%intel 
+rxyquml            ^libxml2@2.9.8%intel 
+24xglv7            ^numactl@2.0.12%intel 
+
+nxru6zw    openmpi@3.0.3%intel 
+itb72kn        ^hwloc@1.11.11%intel 
+5ywhccx            ^libpciaccess@0.13.5%intel 
+rxyquml            ^libxml2@2.9.8%intel 
+24xglv7            ^numactl@2.0.12%intel 
+zlp4ddi        ^zlib@1.2.11%intel 
+
+zrps6ub    openmpi@3.1.3%intel 
+itb72kn        ^hwloc@1.11.11%intel 
+5ywhccx            ^libpciaccess@0.13.5%intel 
+rxyquml            ^libxml2@2.9.8%intel 
+24xglv7            ^numactl@2.0.12%intel 
+zlp4ddi        ^zlib@1.2.11%intel 
+
+iheuf7o    openmpi@4.0.1%intel 
+itb72kn        ^hwloc@1.11.11%intel 
+5ywhccx            ^libpciaccess@0.13.5%intel 
+rxyquml            ^libxml2@2.9.8%intel 
+24xglv7            ^numactl@2.0.12%intel 
+zlp4ddi        ^zlib@1.2.11%intel 
+
+
+-- linux-centos7-x86_64 / intel@18.0.3 --------------------------
+ce6etxz    openmpi@2.1.6%intel 
+537d5od        ^hwloc@1.11.11%intel 
+zrun5pc            ^libpciaccess@0.13.5%intel 
+x6jborh            ^libxml2@2.9.8%intel 
+caxqrj3            ^numactl@2.0.12%intel 
+
+p4nss7x    openmpi@3.0.3%intel 
+537d5od        ^hwloc@1.11.11%intel 
+zrun5pc            ^libpciaccess@0.13.5%intel 
+x6jborh            ^libxml2@2.9.8%intel 
+caxqrj3            ^numactl@2.0.12%intel 
+vonxam4        ^zlib@1.2.11%intel 
+
+htiaqn4    openmpi@3.1.3%intel 
+537d5od        ^hwloc@1.11.11%intel 
+zrun5pc            ^libpciaccess@0.13.5%intel 
+x6jborh            ^libxml2@2.9.8%intel 
+caxqrj3            ^numactl@2.0.12%intel 
+vonxam4        ^zlib@1.2.11%intel 
+
+3t366j6    openmpi@4.0.1%intel 
+537d5od        ^hwloc@1.11.11%intel 
+zrun5pc            ^libpciaccess@0.13.5%intel 
+x6jborh            ^libxml2@2.9.8%intel 
+caxqrj3            ^numactl@2.0.12%intel 
+vonxam4        ^zlib@1.2.11%intel 
+
+
+partition: arm
+bin/spack find -ldf openmpi
+==> 12 installed packages
+-- linux-rhel7-aarch64 / gcc@4.8.5 ------------------------------
+pbveyqp    openmpi@2.1.6%gcc 
+7gqvelc        ^hwloc@1.11.11%gcc 
+6a4he35            ^libpciaccess@0.13.5%gcc 
+6a5uzd6            ^libxml2@2.9.8%gcc 
+m5neuus            ^numactl@2.0.12%gcc 
+
+cq2y6b3    openmpi@3.0.4%gcc 
+7gqvelc        ^hwloc@1.11.11%gcc 
+6a4he35            ^libpciaccess@0.13.5%gcc 
+6a5uzd6            ^libxml2@2.9.8%gcc 
+m5neuus            ^numactl@2.0.12%gcc 
+67s2oqn        ^zlib@1.2.11%gcc 
+
+pvq3s35    openmpi@3.1.4%gcc 
+7gqvelc        ^hwloc@1.11.11%gcc 
+6a4he35            ^libpciaccess@0.13.5%gcc 
+6a5uzd6            ^libxml2@2.9.8%gcc 
+m5neuus            ^numactl@2.0.12%gcc 
+67s2oqn        ^zlib@1.2.11%gcc 
+
+hto7x2h    openmpi@4.0.1%gcc 
+7gqvelc        ^hwloc@1.11.11%gcc 
+6a4he35            ^libpciaccess@0.13.5%gcc 
+6a5uzd6            ^libxml2@2.9.8%gcc 
+m5neuus            ^numactl@2.0.12%gcc 
+67s2oqn        ^zlib@1.2.11%gcc 
+
+
+-- linux-rhel7-aarch64 / gcc@7.1.0 ------------------------------
+xlsmwm7    openmpi@2.1.6%gcc 
+izn5gbo        ^hwloc@1.11.11%gcc 
+gmwtdrw            ^libpciaccess@0.13.5%gcc 
+7sufcg5            ^libxml2@2.9.8%gcc 
+eukhjxm            ^numactl@2.0.12%gcc 
+
+n2xcfjj    openmpi@3.0.4%gcc 
+izn5gbo        ^hwloc@1.11.11%gcc 
+gmwtdrw            ^libpciaccess@0.13.5%gcc 
+7sufcg5            ^libxml2@2.9.8%gcc 
+eukhjxm            ^numactl@2.0.12%gcc 
+zsiftcm        ^zlib@1.2.11%gcc 
+
+jnzsss4    openmpi@3.1.4%gcc 
+izn5gbo        ^hwloc@1.11.11%gcc 
+gmwtdrw            ^libpciaccess@0.13.5%gcc 
+7sufcg5            ^libxml2@2.9.8%gcc 
+eukhjxm            ^numactl@2.0.12%gcc 
+zsiftcm        ^zlib@1.2.11%gcc 
+
+vr5ymyk    openmpi@4.0.1%gcc 
+izn5gbo        ^hwloc@1.11.11%gcc 
+gmwtdrw            ^libpciaccess@0.13.5%gcc 
+7sufcg5            ^libxml2@2.9.8%gcc 
+eukhjxm            ^numactl@2.0.12%gcc 
+zsiftcm        ^zlib@1.2.11%gcc 
+
+
+-- linux-rhel7-aarch64 / gcc@8.2.0 ------------------------------
+6j4ltax    openmpi@2.1.6%gcc 
+3pau2kk        ^hwloc@1.11.11%gcc 
+vfd6u24            ^libpciaccess@0.13.5%gcc 
+fo65cwc            ^libxml2@2.9.8%gcc 
+opoop4g            ^numactl@2.0.12%gcc 
+
+kq7qda7    openmpi@3.0.4%gcc 
+3pau2kk        ^hwloc@1.11.11%gcc 
+vfd6u24            ^libpciaccess@0.13.5%gcc 
+fo65cwc            ^libxml2@2.9.8%gcc 
+opoop4g            ^numactl@2.0.12%gcc 
+x5quqjk        ^zlib@1.2.11%gcc 
+
+e5deleg    openmpi@3.1.4%gcc 
+3pau2kk        ^hwloc@1.11.11%gcc 
+vfd6u24            ^libpciaccess@0.13.5%gcc 
+fo65cwc            ^libxml2@2.9.8%gcc 
+opoop4g            ^numactl@2.0.12%gcc 
+x5quqjk        ^zlib@1.2.11%gcc 
+
+hkzjqqm    openmpi@4.0.1%gcc 
+3pau2kk        ^hwloc@1.11.11%gcc 
+vfd6u24            ^libpciaccess@0.13.5%gcc 
+fo65cwc            ^libxml2@2.9.8%gcc 
+opoop4g            ^numactl@2.0.12%gcc 
+x5quqjk        ^zlib@1.2.11%gcc 
+
+
+partition: power9
+bin/spack find -ldf openmpi
+==> 22 installed packages
+-- linux-rhel7-ppc64le / gcc@4.8.5 ------------------------------
+nva7q77    openmpi@2.1.6%gcc 
+r6cylpu        ^hwloc@1.11.11%gcc 
+uzm3xdv            ^libpciaccess@0.13.5%gcc 
+trik6hj            ^libxml2@2.9.8%gcc 
+pmgndwh            ^numactl@2.0.12%gcc 
+
+otirvfn    openmpi@3.0.4%gcc 
+r6cylpu        ^hwloc@1.11.11%gcc 
+uzm3xdv            ^libpciaccess@0.13.5%gcc 
+trik6hj            ^libxml2@2.9.8%gcc 
+pmgndwh            ^numactl@2.0.12%gcc 
+4v3ticy        ^zlib@1.2.11%gcc 
+
+tv3vjxh    openmpi@3.1.4%gcc 
+r6cylpu        ^hwloc@1.11.11%gcc 
+uzm3xdv            ^libpciaccess@0.13.5%gcc 
+trik6hj            ^libxml2@2.9.8%gcc 
+pmgndwh            ^numactl@2.0.12%gcc 
+4v3ticy        ^zlib@1.2.11%gcc 
+
+tkze2gf    openmpi@4.0.1%gcc 
+r6cylpu        ^hwloc@1.11.11%gcc 
+uzm3xdv            ^libpciaccess@0.13.5%gcc 
+trik6hj            ^libxml2@2.9.8%gcc 
+pmgndwh            ^numactl@2.0.12%gcc 
+4v3ticy        ^zlib@1.2.11%gcc 
+
+
+-- linux-rhel7-ppc64le / gcc@6.4.0 ------------------------------
+w37zjff    openmpi@2.1.6%gcc 
+grntfnj        ^hwloc@1.11.11%gcc 
+xsxy3sn            ^libpciaccess@0.13.5%gcc 
+ch633d6            ^libxml2@2.9.8%gcc 
+tcpcexo            ^numactl@2.0.12%gcc 
+
+5wclfey    openmpi@3.0.4%gcc 
+grntfnj        ^hwloc@1.11.11%gcc 
+xsxy3sn            ^libpciaccess@0.13.5%gcc 
+ch633d6            ^libxml2@2.9.8%gcc 
+tcpcexo            ^numactl@2.0.12%gcc 
+fvgnqf6        ^zlib@1.2.11%gcc 
+
+modtwya    openmpi@3.1.4%gcc 
+grntfnj        ^hwloc@1.11.11%gcc 
+xsxy3sn            ^libpciaccess@0.13.5%gcc 
+ch633d6            ^libxml2@2.9.8%gcc 
+tcpcexo            ^numactl@2.0.12%gcc 
+fvgnqf6        ^zlib@1.2.11%gcc 
+
+sqjk33a    openmpi@4.0.1%gcc 
+grntfnj        ^hwloc@1.11.11%gcc 
+xsxy3sn            ^libpciaccess@0.13.5%gcc 
+ch633d6            ^libxml2@2.9.8%gcc 
+tcpcexo            ^numactl@2.0.12%gcc 
+fvgnqf6        ^zlib@1.2.11%gcc 
+
+
+-- linux-rhel7-ppc64le / gcc@7.3.0 ------------------------------
+67q7d67    openmpi@2.1.6%gcc 
+u522lpo        ^hwloc@1.11.11%gcc 
+flx3yxj            ^libpciaccess@0.13.5%gcc 
+obtfhh6            ^libxml2@2.9.8%gcc 
+kbnsrgd            ^numactl@2.0.12%gcc 
+
+7u27rpr    openmpi@3.0.4%gcc 
+u522lpo        ^hwloc@1.11.11%gcc 
+flx3yxj            ^libpciaccess@0.13.5%gcc 
+obtfhh6            ^libxml2@2.9.8%gcc 
+kbnsrgd            ^numactl@2.0.12%gcc 
+p5okwa3        ^zlib@1.2.11%gcc 
+
+jxdcwfn    openmpi@3.1.4%gcc 
+u522lpo        ^hwloc@1.11.11%gcc 
+flx3yxj            ^libpciaccess@0.13.5%gcc 
+obtfhh6            ^libxml2@2.9.8%gcc 
+kbnsrgd            ^numactl@2.0.12%gcc 
+p5okwa3        ^zlib@1.2.11%gcc 
+
+2iz2f5x    openmpi@4.0.1%gcc 
+u522lpo        ^hwloc@1.11.11%gcc 
+flx3yxj            ^libpciaccess@0.13.5%gcc 
+obtfhh6            ^libxml2@2.9.8%gcc 
+kbnsrgd            ^numactl@2.0.12%gcc 
+p5okwa3        ^zlib@1.2.11%gcc 
+
+
+-- linux-rhel7-ppc64le / gcc@8.2.0 ------------------------------
+7qb3bnn    openmpi@2.1.6%gcc 
+bnthjtz        ^hwloc@1.11.11%gcc 
+34jrd4x            ^libpciaccess@0.13.5%gcc 
+odcrwuk            ^libxml2@2.9.8%gcc 
+sjccaw6            ^numactl@2.0.12%gcc 
+
+ww7e7zm    openmpi@3.0.4%gcc 
+bnthjtz        ^hwloc@1.11.11%gcc 
+34jrd4x            ^libpciaccess@0.13.5%gcc 
+odcrwuk            ^libxml2@2.9.8%gcc 
+sjccaw6            ^numactl@2.0.12%gcc 
+vgftsvf        ^zlib@1.2.11%gcc 
+
+2nrealq    openmpi@3.1.4%gcc 
+bnthjtz        ^hwloc@1.11.11%gcc 
+34jrd4x            ^libpciaccess@0.13.5%gcc 
+odcrwuk            ^libxml2@2.9.8%gcc 
+sjccaw6            ^numactl@2.0.12%gcc 
+vgftsvf        ^zlib@1.2.11%gcc 
+
+fnxfedq    openmpi@4.0.1%gcc 
+bnthjtz        ^hwloc@1.11.11%gcc 
+34jrd4x            ^libpciaccess@0.13.5%gcc 
+odcrwuk            ^libxml2@2.9.8%gcc 
+sjccaw6            ^numactl@2.0.12%gcc 
+vgftsvf        ^zlib@1.2.11%gcc 
+
+
+-- linux-rhel7-ppc64le / pgi@17.10 ------------------------------
+cvqehog    openmpi@2.1.6%pgi 
+ebtztl3        ^hwloc@1.11.11%pgi 
+dy65i7h            ^libpciaccess@0.13.5%pgi 
+jvwtc75            ^libxml2@2.9.8%pgi 
+3biihzq            ^numactl@2.0.12%pgi 
+
+uodyipp    openmpi@3.0.4%pgi 
+ebtztl3        ^hwloc@1.11.11%pgi 
+dy65i7h            ^libpciaccess@0.13.5%pgi 
+jvwtc75            ^libxml2@2.9.8%pgi 
+3biihzq            ^numactl@2.0.12%pgi 
+djtus7b        ^zlib@1.2.11%pgi 
+
+hmwh4o5    openmpi@3.1.4%pgi 
+ebtztl3        ^hwloc@1.11.11%pgi 
+dy65i7h            ^libpciaccess@0.13.5%pgi 
+jvwtc75            ^libxml2@2.9.8%pgi 
+3biihzq            ^numactl@2.0.12%pgi 
+djtus7b        ^zlib@1.2.11%pgi 
+
+625f3b7    openmpi@4.0.1%pgi 
+ebtztl3        ^hwloc@1.11.11%pgi 
+dy65i7h            ^libpciaccess@0.13.5%pgi 
+jvwtc75            ^libxml2@2.9.8%pgi 
+3biihzq            ^numactl@2.0.12%pgi 
+djtus7b        ^zlib@1.2.11%pgi 
+
+
+-- linux-rhel7-ppc64le / pgi@18.10 ------------------------------
+ck5kl5a    openmpi@3.0.4%pgi 
+ckoq5tz        ^hwloc@1.11.11%pgi 
+tuuifqh            ^libpciaccess@0.13.5%pgi 
+2tlntw3            ^libxml2@2.9.8%pgi 
+qhlspkv            ^numactl@2.0.12%pgi 
+ygyqqzn        ^zlib@1.2.11%pgi 
+
+sw6xtdt    openmpi@4.0.1%pgi 
+ckoq5tz        ^hwloc@1.11.11%pgi 
+tuuifqh            ^libpciaccess@0.13.5%pgi 
+2tlntw3            ^libxml2@2.9.8%pgi 
+qhlspkv            ^numactl@2.0.12%pgi 
+ygyqqzn        ^zlib@1.2.11%pgi 
+

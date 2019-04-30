@@ -1,0 +1,126 @@
+Fri Apr 26 12:53:15 MDT 2019
+
+
+spack install pmix @ 3.1.2 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2
+
+spack install pmix @ 3.1.2 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/opt/spack/cray-cnl6-arm_thunderx2/gcc-7.3.0/util-macros-1.19.1-nk67leoikezxd3bfntim6whicrxld2mr
+==> libpciaccess is already installed in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/opt/spack/cray-cnl6-arm_thunderx2/gcc-7.3.0/libpciaccess-0.13.5-x7gsesv3u6o44h4rjc3fbhbtodg3oigp
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> Installing hwloc
+==> Searching for binary cache of hwloc
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hwloc found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/hwloc/hwloc-2.0.2.tar.gz
+==> Staging archive: /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/var/spack/stage/hwloc-2.0.2-g3b5rh6i2pa4d45duslrgwozd4a44je6/hwloc-2.0.2.tar.gz
+==> Created stage in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/var/spack/stage/hwloc-2.0.2-g3b5rh6i2pa4d45duslrgwozd4a44je6
+==> No patches needed for hwloc
+==> Building hwloc [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install pmix @ 3.1.2 % gcc@6.1.0  arch=cray-cnl6-arm_thunderx2
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/opt/spack/cray-cnl6-arm_thunderx2/gcc-6.1.0/util-macros-1.19.1-5dqpcgblqjjny5srcilcautem5443rew
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je/libpciaccess-0.13.5.tar.gz
+==> Created stage in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install pmix @ 3.0.2 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2
+
+spack install pmix @ 3.0.2 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/opt/spack/cray-cnl6-arm_thunderx2/gcc-7.3.0/util-macros-1.19.1-nk67leoikezxd3bfntim6whicrxld2mr
+==> libpciaccess is already installed in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/opt/spack/cray-cnl6-arm_thunderx2/gcc-7.3.0/libpciaccess-0.13.5-x7gsesv3u6o44h4rjc3fbhbtodg3oigp
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> Installing hwloc
+==> Searching for binary cache of hwloc
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hwloc found: installing from source
+==> Using cached archive: /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/var/spack/cache/hwloc/hwloc-2.0.2.tar.gz
+==> Staging archive: /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/var/spack/stage/hwloc-2.0.2-g3b5rh6i2pa4d45duslrgwozd4a44je6/hwloc-2.0.2.tar.gz
+==> Created stage in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/var/spack/stage/hwloc-2.0.2-g3b5rh6i2pa4d45duslrgwozd4a44je6
+==> No patches needed for hwloc
+==> Building hwloc [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install pmix @ 3.0.2 % gcc@6.1.0  arch=cray-cnl6-arm_thunderx2
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/opt/spack/cray-cnl6-arm_thunderx2/gcc-6.1.0/util-macros-1.19.1-5dqpcgblqjjny5srcilcautem5443rew
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je/libpciaccess-0.13.5.tar.gz
+==> Created stage in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install pmix @ 2.2.2 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2
+
+spack install pmix @ 2.2.2 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2
+==> pmix is already installed in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/opt/spack/cray-cnl6-arm_thunderx2/gcc-7.3.0/pmix-2.2.2-fd4hsntcnw23cqcrbtj53c7g7rx7hrzo
+
+spack install pmix @ 2.2.2 % gcc@6.1.0  arch=cray-cnl6-arm_thunderx2
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> Installing libevent
+==> Searching for binary cache of libevent
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libevent found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/libevent/libevent-2.1.8.tar.gz
+==> Staging archive: /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/var/spack/stage/libevent-2.1.8-wqygukc5tc4wb5y5zoqhg5c6a5btnith/libevent-2.1.8-stable.tar.gz
+==> Created stage in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/var/spack/stage/libevent-2.1.8-wqygukc5tc4wb5y5zoqhg5c6a5btnith
+==> No patches needed for libevent
+==> Building libevent [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install pmix @ 2.1.4 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2
+
+spack install pmix @ 2.1.4 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2
+==> pmix is already installed in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/opt/spack/cray-cnl6-arm_thunderx2/gcc-7.3.0/pmix-2.1.4-dht4lkpuf4cohya7vxs2qo35moatdu4n
+
+spack install pmix @ 2.1.4 % gcc@6.1.0  arch=cray-cnl6-arm_thunderx2
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> Installing libevent
+==> Searching for binary cache of libevent
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libevent found: installing from source
+==> Using cached archive: /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/var/spack/cache/libevent/libevent-2.1.8.tar.gz
+==> Staging archive: /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/var/spack/stage/libevent-2.1.8-wqygukc5tc4wb5y5zoqhg5c6a5btnith/libevent-2.1.8-stable.tar.gz
+==> Created stage in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.pmix/var/spack/stage/libevent-2.1.8-wqygukc5tc4wb5y5zoqhg5c6a5btnith
+==> No patches needed for libevent
+==> Building libevent [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'

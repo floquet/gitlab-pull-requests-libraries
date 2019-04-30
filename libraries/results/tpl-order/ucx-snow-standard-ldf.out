@@ -1,0 +1,4 @@
+Thu Apr 25 09:29:52 MDT 2019
+/net/scratch4/dantopa/spack/libraries/snow-standard.ucx
+spack find -ldf ucx
+==> No package matches the query: ucx

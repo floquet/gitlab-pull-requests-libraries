@@ -1,0 +1,1054 @@
+Wed Apr 24 14:31:12 MDT 2019 /var/spool/slurmd/job2807158/slurm_script
+source "${dir_tools}/bash/master-tpl-sweep.sh"
+Wed Apr 24 14:31:13 MDT 2019 /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh
+cd /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools
+source directories/libraries-snow.sh
+Wed Apr 24 14:31:13 MDT 2019 [1mdirectories/libraries-snow.sh(B[m
+source tpl-versions/versions-openmpi.sh
+Wed Apr 24 14:31:13 MDT 2019 [1mtpl-versions/versions-openmpi.sh(B[m
+4 openmpi versions loaded:
+4.0.1  3.1.4  3.0.4  2.1.6
+
+source compilers/compilers-snow-standard.sh
+Wed Apr 24 14:31:13 MDT 2019 [1mcompilers/compilers-snow-standard.sh(B[m
+11 Spack-recognized compilers loaded:
+gcc@8.2.0  gcc@7.4.0  gcc@6.4.0  gcc@5.3.0 intel@19.0.1.144  intel@18.0.5  intel@17.0.4  intel@16.0.3 pgi@18.10  pgi@17.10  pgi@16.10
+
+source klingons/snow-standard-openmpi.sh
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 36: klingons/snow-standard-openmpi.sh: No such file or directory
+cd /net/scratch4/dantopa/spack/libraries/snow-standard.openmpi
+. share/spack/setup-env.sh
+export spack_architecture='arch=linux-rhel7-x86_64'
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+spack compilers
+==> Available compilers
+-- gcc rhel7-x86_64 ---------------------------------------------
+gcc@8.2.0
+gcc@7.4.0
+gcc@6.4.0
+gcc@4.8.5
+
+-- intel rhel7-x86_64 -------------------------------------------
+intel@19.0.1
+intel@18.0.5
+intel@17.0.4
+
+-- pgi rhel7-x86_64 ---------------------------------------------
+pgi@18.10
+pgi@17.10
+pgi@16.10
+ls -alh etc/spack/defaults
+total 450K
+drwxrwx--- 4 dantopa dantopa  13K Apr 16 12:03 .
+drwxrwx--- 3 dantopa dantopa  12K Jan 22 11:59 ..
+-rw-r----- 1 dantopa dantopa 5.5K Apr  4 12:57 compilers.yaml
+-rw-rw---- 1 dantopa dantopa 4.4K Apr  4 12:57 config.yaml
+drwxrwx--- 2 dantopa dantopa  12K Jan 22 11:59 darwin
+drwxrwx--- 2 dantopa dantopa  12K Jan 22 11:59 linux
+-rw-rw---- 1 dantopa dantopa 2.8K Apr  4 12:57 lmod-modules.yaml
+-rw-rw---- 1 dantopa dantopa  137 Apr  4 12:57 mirrors.yaml
+-rw-rw---- 1 dantopa dantopa 3.4K Apr  4 12:57 modules.yaml
+-rw-rw---- 1 dantopa dantopa 3.9K Apr  4 12:57 packages.yaml
+-rw-rw---- 1 dantopa dantopa  530 Apr  4 12:57 release.yaml
+-rw-rw---- 1 dantopa dantopa  546 Apr  4 12:57 repos.yaml
+-rw-r----- 1 dantopa dantopa 5.5K Apr  4 12:57 snow-toss-2019-03-compilers.yaml
+-rw-rw---- 1 dantopa dantopa 3.4K Apr  4 12:57 tcl-modules.yaml
+cat etc/spack/defaults/compilers.yaml
+## gcc    4.8.5, 6.4.0, 7.4.0, 8.2.0
+## intel  17.0.4, 18.0.5, 19.0.1
+## pgi    16.10, 17.10, 18.10
+compilers:
+  #  #  gcc
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc:  /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec: gcc@4.8.5
+    target: x86_64
+    #
+- compiler:  #
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [gcc/6.4.0]
+    operating_system: rhel7
+    paths:
+      cc:  /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/gcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/g++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/gfortran
+      fc:  /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/gfortran
+    spec: gcc@6.4.0
+    target: x86_64
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/7.4.0
+    operating_system: rhel7
+    paths:
+      cc:  /yellow/usr/projects/hpcsoft/toss3/common/gcc/7.4.0/bin/gcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/gcc/7.4.0/bin/g++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/gcc/7.4.0/bin/gfortran
+      fc:  /yellow/usr/projects/hpcsoft/toss3/common/gcc/7.4.0/bin/gfortran
+    spec: gcc@7.4.0
+    target: x86_64
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - friendly-testing
+    - gcc/8.2.0
+    operating_system: rhel7
+    paths:
+      cc:  /projects/opt/rhel7/gcc/8.2.0/bin/gcc
+      cxx: /projects/opt/rhel7/gcc/8.2.0/bin/g++
+      f77: /projects/opt/rhel7/gcc/8.2.0/bin/gfortran
+      fc:  /projects/opt/rhel7/gcc/8.2.0/bin/gfortran
+    spec: gcc@8.2.0
+    target: x86_64
+  #  #  intel
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - intel/17.0.4
+    operating_system: rhel7
+    paths:
+      cc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/icc
+      cxx: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/icpc
+      f77: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/ifort
+      fc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/ifort
+    spec: intel@17.0.4
+    target: x86_64
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - friendly-testing
+    - intel/18.0.5
+    operating_system: rhel7
+    paths:
+      cc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/icc
+      cxx: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/icpc
+      f77: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/ifort
+      fc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/ifort
+    spec: intel@18.0.5
+    target: x86_64
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - friendly-testing
+    - intel/19.0.1
+    operating_system: rhel7
+    paths:
+      cc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.1.053/compilers_and_libraries_2019/linux/bin/intel64/icc
+      cxx: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.1.053/compilers_and_libraries_2019/linux/bin/intel64/icpc
+      f77: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.1.053/compilers_and_libraries_2019/linux/bin/intel64/ifort
+      fc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.1.053/compilers_and_libraries_2019/linux/bin/intel64/ifort
+    spec: intel@19.0.1
+    target: x86_64
+  #  #  pgi
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/16.10
+    operating_system: rhel7
+    paths:
+      cc:  /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin/pgcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin/pgc++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin/pgfortran
+      fc:  /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin/pgfortran
+    spec: pgi@16.10
+    target: x86_64
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/17.10
+    operating_system: rhel7
+    paths:
+      cc:  /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/18.10/bin/pgcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/18.10/bin/pgc++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/18.10/bin/pgf77
+      fc:  /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/18.10/bin/pgf90
+    spec: pgi@17.10
+    target: x86_64
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/18.10
+    operating_system: rhel7
+    paths:
+      cc:  /yellow/usr/projects/hpcsoft/toss3/common/pgi/18.10/linux86-64/18.10/bin/pgcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/pgi/18.10/linux86-64/18.10/bin/pgc++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/pgi/18.10/linux86-64/18.10/bin/pgf77
+      fc:  /yellow/usr/projects/hpcsoft/toss3/common/pgi/18.10/linux86-64/18.10/bin/pgf90
+    spec: pgi@18.10
+    target: x86_64
+spack config get compilers
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc: /usr/bin/gfortran
+    spec: gcc@4.8.5
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/6.4.0
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/gcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/g++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/gfortran
+      fc: /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/gfortran
+    spec: gcc@6.4.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/7.4.0
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss3/common/gcc/7.4.0/bin/gcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/gcc/7.4.0/bin/g++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/gcc/7.4.0/bin/gfortran
+      fc: /yellow/usr/projects/hpcsoft/toss3/common/gcc/7.4.0/bin/gfortran
+    spec: gcc@7.4.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - friendly-testing
+    - gcc/8.2.0
+    operating_system: rhel7
+    paths:
+      cc: /projects/opt/rhel7/gcc/8.2.0/bin/gcc
+      cxx: /projects/opt/rhel7/gcc/8.2.0/bin/g++
+      f77: /projects/opt/rhel7/gcc/8.2.0/bin/gfortran
+      fc: /projects/opt/rhel7/gcc/8.2.0/bin/gfortran
+    spec: gcc@8.2.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - intel/17.0.4
+    operating_system: rhel7
+    paths:
+      cc: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/icc
+      cxx: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/icpc
+      f77: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/ifort
+      fc: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/ifort
+    spec: intel@17.0.4
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - friendly-testing
+    - intel/18.0.5
+    operating_system: rhel7
+    paths:
+      cc: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/icc
+      cxx: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/icpc
+      f77: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/ifort
+      fc: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/ifort
+    spec: intel@18.0.5
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - friendly-testing
+    - intel/19.0.1
+    operating_system: rhel7
+    paths:
+      cc: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.1.053/compilers_and_libraries_2019/linux/bin/intel64/icc
+      cxx: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.1.053/compilers_and_libraries_2019/linux/bin/intel64/icpc
+      f77: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.1.053/compilers_and_libraries_2019/linux/bin/intel64/ifort
+      fc: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.1.053/compilers_and_libraries_2019/linux/bin/intel64/ifort
+    spec: intel@19.0.1
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/16.10
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin/pgcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin/pgc++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin/pgfortran
+      fc: /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin/pgfortran
+    spec: pgi@16.10
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/17.10
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/18.10/bin/pgcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/18.10/bin/pgc++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/18.10/bin/pgf77
+      fc: /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/18.10/bin/pgf90
+    spec: pgi@17.10
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/18.10
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss3/common/pgi/18.10/linux86-64/18.10/bin/pgcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/pgi/18.10/linux86-64/18.10/bin/pgc++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/pgi/18.10/linux86-64/18.10/bin/pgf77
+      fc: /yellow/usr/projects/hpcsoft/toss3/common/pgi/18.10/linux86-64/18.10/bin/pgf90
+    spec: pgi@18.10
+    target: x86_64
+spack install openmpi @ 4.0.1 % gcc@8.2.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: ProcessError: Command exited with status 1:
+    '/usr/share/lmod/lmod/libexec/lmod' 'python' 'show' 'gcc/8.2.0'
+os.environ["__LMOD_REF_COUNT_MODULEPATH"] = "/net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.openmpi/share/spack/modules/linux-rhel7-x86_64:1;/etc/modulefiles:1;/usr/share/modulefiles:1;/usr/share/modulefiles/Linux:1;/usr/share/modulefiles/Core:1;/usr/share/lmod/lmod/modulefiles/Core:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/compiler:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/debugger:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/libraries:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/misc:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/mpi:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/tools:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/viz:1";
+os.environ["MODULEPATH"] = "/net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.openmpi/share/spack/modules/linux-rhel7-x86_64:/etc/modulefiles:/usr/share/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core:/usr/projects/hpcsoft/modulefiles/toss3/snow/compiler:/usr/projects/hpcsoft/modulefiles/toss3/snow/debugger:/usr/projects/hpcsoft/modulefiles/toss3/snow/libraries:/usr/projects/hpcsoft/modulefiles/toss3/snow/misc:/usr/projects/hpcsoft/modulefiles/toss3/snow/mpi:/usr/projects/hpcsoft/modulefiles/toss3/snow/tools:/usr/projects/hpcsoft/modulefiles/toss3/snow/viz";
+os.environ["_ModuleTable001_"] = "X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXt9LG1wYXRoQT17Ii9uZXQvc2NyYXRjaDQvLm1kdDIvZGFudG9wYS9zcGFjay9saWJyYXJpZXMvc25vdy1zdGFuZGFyZC5vcGVubXBpL3NoYXJlL3NwYWNrL21vZHVsZXMvbGludXgtcmhlbDcteDg2XzY0IiwiL2V0Yy9tb2R1bGVmaWxlcyIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0xpbnV4IiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlIiwiL3Vzci9zaGFyZS9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsIi91c3IvcHJvamVjdHMvaHBjc29m";
+os.environ["_ModuleTable002_"] = "dC9tb2R1bGVmaWxlcy90b3NzMy9zbm93L2NvbXBpbGVyIiwiL3Vzci9wcm9qZWN0cy9ocGNzb2Z0L21vZHVsZWZpbGVzL3Rvc3MzL3Nub3cvZGVidWdnZXIiLCIvdXNyL3Byb2plY3RzL2hwY3NvZnQvbW9kdWxlZmlsZXMvdG9zczMvc25vdy9saWJyYXJpZXMiLCIvdXNyL3Byb2plY3RzL2hwY3NvZnQvbW9kdWxlZmlsZXMvdG9zczMvc25vdy9taXNjIiwiL3Vzci9wcm9qZWN0cy9ocGNzb2Z0L21vZHVsZWZpbGVzL3Rvc3MzL3Nub3cvbXBpIiwiL3Vzci9wcm9qZWN0cy9ocGNzb2Z0L21vZHVsZWZpbGVzL3Rvc3MzL3Nub3cvdG9vbHMiLCIvdXNyL3Byb2plY3RzL2hwY3NvZnQvbW9kdWxlZmlsZXMvdG9zczMvc25vdy92aXoiLH0sWyJzeXN0ZW1CYXNlTVBBVEgiXT0iL2V0Yy9t";
+os.environ["_ModuleTable003_"] = "b2R1bGVmaWxlczovdXNyL3NoYXJlL21vZHVsZWZpbGVzOi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXg6L3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlOi91c3Ivc2hhcmUvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLH0=";
+os.environ["_ModuleTable_Sz_"] = "3";
+
+false
+Lmod Warning: Failed to find the following module(s): "gcc/8.2.0" in your
+MODULEPATH
+Try:
+
+    $ module spider gcc/8.2.0
+
+to see if the module(s) are available across all compilers and MPI
+implementations.
+
+
+
+
+spack install openmpi @ 4.0.1 % gcc@7.4.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+spack install openmpi @ 4.0.1 % gcc@6.4.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+spack install openmpi @ 4.0.1 % gcc@5.3.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: No compilers with spec gcc@5.3.0 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 4.0.1 % intel@19.0.1.144  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: No compilers with spec intel@19.0.1.144 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 4.0.1 % intel@18.0.5  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+spack install openmpi @ 4.0.1 % intel@17.0.4  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+spack install openmpi @ 4.0.1 % intel@16.0.3  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: No compilers with spec intel@16.0.3 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 4.0.1 % pgi@18.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j36'
+
+9 errors found in build log:
+     498      CCLD     libpciaccess.la
+     499    make[2]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-L2
+            KniP/libpciaccess-0.13.5/src'
+     500    Making all in scanpci
+     501    make[2]: Entering directory `/tmp/dantopa/spack-stage/spack-stage-L
+            2KniP/libpciaccess-0.13.5/scanpci'
+     502      CC       scanpci.o
+     503      CCLD     scanpci
+  >> 504    ../src/.libs/libpciaccess.so: undefined reference to `inw'
+  >> 505    ../src/.libs/libpciaccess.so: undefined reference to `outw'
+  >> 506    ../src/.libs/libpciaccess.so: undefined reference to `inb'
+  >> 507    ../src/.libs/libpciaccess.so: undefined reference to `outb'
+  >> 508    ../src/.libs/libpciaccess.so: undefined reference to `inl'
+  >> 509    ../src/.libs/libpciaccess.so: undefined reference to `outl'
+  >> 510    make[2]: *** [scanpci] Error 2
+     511    make[2]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-L2
+            KniP/libpciaccess-0.13.5/scanpci'
+  >> 512    make[1]: *** [all-recursive] Error 1
+     513    make[1]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-L2
+            KniP/libpciaccess-0.13.5'
+  >> 514    make: *** [all] Error 2
+
+See build log for details:
+  /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.openmpi/var/spack/stage/libpciaccess-0.13.5-7jys5j6in74b7k76nruprcfhck2km3ic/spack-build.out
+spack install openmpi @ 4.0.1 % pgi@17.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.openmpi/var/spack/stage/libpciaccess-0.13.5-gbupg42otgmyvaan7owmtuj63mphpoai/libpciaccess-0.13.5/configure' '--prefix=/net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.openmpi/opt/spack/linux-rhel7-x86_64/pgi-17.10/libpciaccess-0.13.5-gbupg42otgmyvaan7owmtuj63mphpoai'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /net/scratch4/.mdt2/dantopa/spack/libraries/snow
+           -standard.openmpi/lib/spack/env/pgi/pgcc
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/tmp/dantopa/spack-stage/spack-stage-FXyz2Y/li
+           bpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.openmpi/var/spack/stage/libpciaccess-0.13.5-gbupg42otgmyvaan7owmtuj63mphpoai/spack-build.out
+spack install openmpi @ 4.0.1 % pgi@16.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j36'
+
+9 errors found in build log:
+     498      CCLD     libpciaccess.la
+     499    make[2]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-AA
+            WYha/libpciaccess-0.13.5/src'
+     500    Making all in scanpci
+     501    make[2]: Entering directory `/tmp/dantopa/spack-stage/spack-stage-A
+            AWYha/libpciaccess-0.13.5/scanpci'
+     502      CC       scanpci.o
+     503      CCLD     scanpci
+  >> 504    ../src/.libs/libpciaccess.so: undefined reference to `inw'
+  >> 505    ../src/.libs/libpciaccess.so: undefined reference to `outb'
+  >> 506    ../src/.libs/libpciaccess.so: undefined reference to `outl'
+  >> 507    ../src/.libs/libpciaccess.so: undefined reference to `inb'
+  >> 508    ../src/.libs/libpciaccess.so: undefined reference to `inl'
+  >> 509    ../src/.libs/libpciaccess.so: undefined reference to `outw'
+  >> 510    make[2]: *** [scanpci] Error 2
+     511    make[2]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-AA
+            WYha/libpciaccess-0.13.5/scanpci'
+  >> 512    make[1]: *** [all-recursive] Error 1
+     513    make[1]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-AA
+            WYha/libpciaccess-0.13.5'
+  >> 514    make: *** [all] Error 2
+
+See build log for details:
+  /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.openmpi/var/spack/stage/libpciaccess-0.13.5-5zuqqz72t6wm6l4rnhshc7df5wneu2pi/spack-build.out
+spack install openmpi @ 3.1.4 % gcc@8.2.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: ProcessError: Command exited with status 1:
+    '/usr/share/lmod/lmod/libexec/lmod' 'python' 'show' 'gcc/8.2.0'
+os.environ["__LMOD_REF_COUNT_MODULEPATH"] = "/net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.openmpi/share/spack/modules/linux-rhel7-x86_64:1;/etc/modulefiles:1;/usr/share/modulefiles:1;/usr/share/modulefiles/Linux:1;/usr/share/modulefiles/Core:1;/usr/share/lmod/lmod/modulefiles/Core:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/compiler:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/debugger:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/libraries:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/misc:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/mpi:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/tools:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/viz:1";
+os.environ["MODULEPATH"] = "/net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.openmpi/share/spack/modules/linux-rhel7-x86_64:/etc/modulefiles:/usr/share/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core:/usr/projects/hpcsoft/modulefiles/toss3/snow/compiler:/usr/projects/hpcsoft/modulefiles/toss3/snow/debugger:/usr/projects/hpcsoft/modulefiles/toss3/snow/libraries:/usr/projects/hpcsoft/modulefiles/toss3/snow/misc:/usr/projects/hpcsoft/modulefiles/toss3/snow/mpi:/usr/projects/hpcsoft/modulefiles/toss3/snow/tools:/usr/projects/hpcsoft/modulefiles/toss3/snow/viz";
+os.environ["_ModuleTable001_"] = "X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXt9LG1wYXRoQT17Ii9uZXQvc2NyYXRjaDQvLm1kdDIvZGFudG9wYS9zcGFjay9saWJyYXJpZXMvc25vdy1zdGFuZGFyZC5vcGVubXBpL3NoYXJlL3NwYWNrL21vZHVsZXMvbGludXgtcmhlbDcteDg2XzY0IiwiL2V0Yy9tb2R1bGVmaWxlcyIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0xpbnV4IiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlIiwiL3Vzci9zaGFyZS9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsIi91c3IvcHJvamVjdHMvaHBjc29m";
+os.environ["_ModuleTable002_"] = "dC9tb2R1bGVmaWxlcy90b3NzMy9zbm93L2NvbXBpbGVyIiwiL3Vzci9wcm9qZWN0cy9ocGNzb2Z0L21vZHVsZWZpbGVzL3Rvc3MzL3Nub3cvZGVidWdnZXIiLCIvdXNyL3Byb2plY3RzL2hwY3NvZnQvbW9kdWxlZmlsZXMvdG9zczMvc25vdy9saWJyYXJpZXMiLCIvdXNyL3Byb2plY3RzL2hwY3NvZnQvbW9kdWxlZmlsZXMvdG9zczMvc25vdy9taXNjIiwiL3Vzci9wcm9qZWN0cy9ocGNzb2Z0L21vZHVsZWZpbGVzL3Rvc3MzL3Nub3cvbXBpIiwiL3Vzci9wcm9qZWN0cy9ocGNzb2Z0L21vZHVsZWZpbGVzL3Rvc3MzL3Nub3cvdG9vbHMiLCIvdXNyL3Byb2plY3RzL2hwY3NvZnQvbW9kdWxlZmlsZXMvdG9zczMvc25vdy92aXoiLH0sWyJzeXN0ZW1CYXNlTVBBVEgiXT0iL2V0Yy9t";
+os.environ["_ModuleTable003_"] = "b2R1bGVmaWxlczovdXNyL3NoYXJlL21vZHVsZWZpbGVzOi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXg6L3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlOi91c3Ivc2hhcmUvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLH0=";
+os.environ["_ModuleTable_Sz_"] = "3";
+
+false
+Lmod Warning: Failed to find the following module(s): "gcc/8.2.0" in your
+MODULEPATH
+Try:
+
+    $ module spider gcc/8.2.0
+
+to see if the module(s) are available across all compilers and MPI
+implementations.
+
+
+
+
+spack install openmpi @ 3.1.4 % gcc@7.4.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+spack install openmpi @ 3.1.4 % gcc@6.4.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+spack install openmpi @ 3.1.4 % gcc@5.3.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: No compilers with spec gcc@5.3.0 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 3.1.4 % intel@19.0.1.144  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: No compilers with spec intel@19.0.1.144 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 3.1.4 % intel@18.0.5  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+spack install openmpi @ 3.1.4 % intel@17.0.4  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+spack install openmpi @ 3.1.4 % intel@16.0.3  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: No compilers with spec intel@16.0.3 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 3.1.4 % pgi@18.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j36'
+
+9 errors found in build log:
+     498      CCLD     libpciaccess.la
+     499    make[2]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-mF
+            fjPV/libpciaccess-0.13.5/src'
+     500    Making all in scanpci
+     501    make[2]: Entering directory `/tmp/dantopa/spack-stage/spack-stage-m
+            FfjPV/libpciaccess-0.13.5/scanpci'
+     502      CC       scanpci.o
+     503      CCLD     scanpci
+  >> 504    ../src/.libs/libpciaccess.so: undefined reference to `inw'
+  >> 505    ../src/.libs/libpciaccess.so: undefined reference to `outw'
+  >> 506    ../src/.libs/libpciaccess.so: undefined reference to `inb'
+  >> 507    ../src/.libs/libpciaccess.so: undefined reference to `outb'
+  >> 508    ../src/.libs/libpciaccess.so: undefined reference to `inl'
+  >> 509    ../src/.libs/libpciaccess.so: undefined reference to `outl'
+  >> 510    make[2]: *** [scanpci] Error 2
+     511    make[2]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-mF
+            fjPV/libpciaccess-0.13.5/scanpci'
+  >> 512    make[1]: *** [all-recursive] Error 1
+     513    make[1]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-mF
+            fjPV/libpciaccess-0.13.5'
+  >> 514    make: *** [all] Error 2
+
+See build log for details:
+  /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.openmpi/var/spack/stage/libpciaccess-0.13.5-7jys5j6in74b7k76nruprcfhck2km3ic/spack-build.out
+spack install openmpi @ 3.1.4 % pgi@17.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.openmpi/var/spack/stage/libpciaccess-0.13.5-gbupg42otgmyvaan7owmtuj63mphpoai/libpciaccess-0.13.5/configure' '--prefix=/net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.openmpi/opt/spack/linux-rhel7-x86_64/pgi-17.10/libpciaccess-0.13.5-gbupg42otgmyvaan7owmtuj63mphpoai'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /net/scratch4/.mdt2/dantopa/spack/libraries/snow
+           -standard.openmpi/lib/spack/env/pgi/pgcc
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/tmp/dantopa/spack-stage/spack-stage-6sYZ4h/li
+           bpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.openmpi/var/spack/stage/libpciaccess-0.13.5-gbupg42otgmyvaan7owmtuj63mphpoai/spack-build.out
+spack install openmpi @ 3.1.4 % pgi@16.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j36'
+
+9 errors found in build log:
+     498      CCLD     libpciaccess.la
+     499    make[2]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-lH
+            6T9C/libpciaccess-0.13.5/src'
+     500    Making all in scanpci
+     501    make[2]: Entering directory `/tmp/dantopa/spack-stage/spack-stage-l
+            H6T9C/libpciaccess-0.13.5/scanpci'
+     502      CC       scanpci.o
+     503      CCLD     scanpci
+  >> 504    ../src/.libs/libpciaccess.so: undefined reference to `inw'
+  >> 505    ../src/.libs/libpciaccess.so: undefined reference to `outb'
+  >> 506    ../src/.libs/libpciaccess.so: undefined reference to `outl'
+  >> 507    ../src/.libs/libpciaccess.so: undefined reference to `inb'
+  >> 508    ../src/.libs/libpciaccess.so: undefined reference to `inl'
+  >> 509    ../src/.libs/libpciaccess.so: undefined reference to `outw'
+  >> 510    make[2]: *** [scanpci] Error 2
+     511    make[2]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-lH
+            6T9C/libpciaccess-0.13.5/scanpci'
+  >> 512    make[1]: *** [all-recursive] Error 1
+     513    make[1]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-lH
+            6T9C/libpciaccess-0.13.5'
+  >> 514    make: *** [all] Error 2
+
+See build log for details:
+  /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.openmpi/var/spack/stage/libpciaccess-0.13.5-5zuqqz72t6wm6l4rnhshc7df5wneu2pi/spack-build.out
+spack install openmpi @ 3.0.4 % gcc@8.2.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: ProcessError: Command exited with status 1:
+    '/usr/share/lmod/lmod/libexec/lmod' 'python' 'show' 'gcc/8.2.0'
+os.environ["__LMOD_REF_COUNT_MODULEPATH"] = "/net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.openmpi/share/spack/modules/linux-rhel7-x86_64:1;/etc/modulefiles:1;/usr/share/modulefiles:1;/usr/share/modulefiles/Linux:1;/usr/share/modulefiles/Core:1;/usr/share/lmod/lmod/modulefiles/Core:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/compiler:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/debugger:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/libraries:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/misc:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/mpi:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/tools:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/viz:1";
+os.environ["MODULEPATH"] = "/net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.openmpi/share/spack/modules/linux-rhel7-x86_64:/etc/modulefiles:/usr/share/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core:/usr/projects/hpcsoft/modulefiles/toss3/snow/compiler:/usr/projects/hpcsoft/modulefiles/toss3/snow/debugger:/usr/projects/hpcsoft/modulefiles/toss3/snow/libraries:/usr/projects/hpcsoft/modulefiles/toss3/snow/misc:/usr/projects/hpcsoft/modulefiles/toss3/snow/mpi:/usr/projects/hpcsoft/modulefiles/toss3/snow/tools:/usr/projects/hpcsoft/modulefiles/toss3/snow/viz";
+os.environ["_ModuleTable001_"] = "X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXt9LG1wYXRoQT17Ii9uZXQvc2NyYXRjaDQvLm1kdDIvZGFudG9wYS9zcGFjay9saWJyYXJpZXMvc25vdy1zdGFuZGFyZC5vcGVubXBpL3NoYXJlL3NwYWNrL21vZHVsZXMvbGludXgtcmhlbDcteDg2XzY0IiwiL2V0Yy9tb2R1bGVmaWxlcyIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0xpbnV4IiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlIiwiL3Vzci9zaGFyZS9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsIi91c3IvcHJvamVjdHMvaHBjc29m";
+os.environ["_ModuleTable002_"] = "dC9tb2R1bGVmaWxlcy90b3NzMy9zbm93L2NvbXBpbGVyIiwiL3Vzci9wcm9qZWN0cy9ocGNzb2Z0L21vZHVsZWZpbGVzL3Rvc3MzL3Nub3cvZGVidWdnZXIiLCIvdXNyL3Byb2plY3RzL2hwY3NvZnQvbW9kdWxlZmlsZXMvdG9zczMvc25vdy9saWJyYXJpZXMiLCIvdXNyL3Byb2plY3RzL2hwY3NvZnQvbW9kdWxlZmlsZXMvdG9zczMvc25vdy9taXNjIiwiL3Vzci9wcm9qZWN0cy9ocGNzb2Z0L21vZHVsZWZpbGVzL3Rvc3MzL3Nub3cvbXBpIiwiL3Vzci9wcm9qZWN0cy9ocGNzb2Z0L21vZHVsZWZpbGVzL3Rvc3MzL3Nub3cvdG9vbHMiLCIvdXNyL3Byb2plY3RzL2hwY3NvZnQvbW9kdWxlZmlsZXMvdG9zczMvc25vdy92aXoiLH0sWyJzeXN0ZW1CYXNlTVBBVEgiXT0iL2V0Yy9t";
+os.environ["_ModuleTable003_"] = "b2R1bGVmaWxlczovdXNyL3NoYXJlL21vZHVsZWZpbGVzOi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXg6L3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlOi91c3Ivc2hhcmUvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLH0=";
+os.environ["_ModuleTable_Sz_"] = "3";
+
+false
+Lmod Warning: Failed to find the following module(s): "gcc/8.2.0" in your
+MODULEPATH
+Try:
+
+    $ module spider gcc/8.2.0
+
+to see if the module(s) are available across all compilers and MPI
+implementations.
+
+
+
+
+spack install openmpi @ 3.0.4 % gcc@7.4.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+spack install openmpi @ 3.0.4 % gcc@6.4.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+spack install openmpi @ 3.0.4 % gcc@5.3.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: No compilers with spec gcc@5.3.0 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 3.0.4 % intel@19.0.1.144  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: No compilers with spec intel@19.0.1.144 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 3.0.4 % intel@18.0.5  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+spack install openmpi @ 3.0.4 % intel@17.0.4  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+spack install openmpi @ 3.0.4 % intel@16.0.3  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: No compilers with spec intel@16.0.3 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 3.0.4 % pgi@18.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j36'
+
+9 errors found in build log:
+     498      CCLD     libpciaccess.la
+     499    make[2]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-sH
+            gW_Y/libpciaccess-0.13.5/src'
+     500    Making all in scanpci
+     501    make[2]: Entering directory `/tmp/dantopa/spack-stage/spack-stage-s
+            HgW_Y/libpciaccess-0.13.5/scanpci'
+     502      CC       scanpci.o
+     503      CCLD     scanpci
+  >> 504    ../src/.libs/libpciaccess.so: undefined reference to `inw'
+  >> 505    ../src/.libs/libpciaccess.so: undefined reference to `outw'
+  >> 506    ../src/.libs/libpciaccess.so: undefined reference to `inb'
+  >> 507    ../src/.libs/libpciaccess.so: undefined reference to `outb'
+  >> 508    ../src/.libs/libpciaccess.so: undefined reference to `inl'
+  >> 509    ../src/.libs/libpciaccess.so: undefined reference to `outl'
+  >> 510    make[2]: *** [scanpci] Error 2
+     511    make[2]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-sH
+            gW_Y/libpciaccess-0.13.5/scanpci'
+  >> 512    make[1]: *** [all-recursive] Error 1
+     513    make[1]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-sH
+            gW_Y/libpciaccess-0.13.5'
+  >> 514    make: *** [all] Error 2
+
+See build log for details:
+  /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.openmpi/var/spack/stage/libpciaccess-0.13.5-7jys5j6in74b7k76nruprcfhck2km3ic/spack-build.out
+spack install openmpi @ 3.0.4 % pgi@17.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.openmpi/var/spack/stage/libpciaccess-0.13.5-gbupg42otgmyvaan7owmtuj63mphpoai/libpciaccess-0.13.5/configure' '--prefix=/net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.openmpi/opt/spack/linux-rhel7-x86_64/pgi-17.10/libpciaccess-0.13.5-gbupg42otgmyvaan7owmtuj63mphpoai'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /net/scratch4/.mdt2/dantopa/spack/libraries/snow
+           -standard.openmpi/lib/spack/env/pgi/pgcc
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/tmp/dantopa/spack-stage/spack-stage-1yuoqD/li
+           bpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.openmpi/var/spack/stage/libpciaccess-0.13.5-gbupg42otgmyvaan7owmtuj63mphpoai/spack-build.out
+spack install openmpi @ 3.0.4 % pgi@16.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j36'
+
+9 errors found in build log:
+     498      CCLD     libpciaccess.la
+     499    make[2]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-B2
+            TFpo/libpciaccess-0.13.5/src'
+     500    Making all in scanpci
+     501    make[2]: Entering directory `/tmp/dantopa/spack-stage/spack-stage-B
+            2TFpo/libpciaccess-0.13.5/scanpci'
+     502      CC       scanpci.o
+     503      CCLD     scanpci
+  >> 504    ../src/.libs/libpciaccess.so: undefined reference to `inw'
+  >> 505    ../src/.libs/libpciaccess.so: undefined reference to `outb'
+  >> 506    ../src/.libs/libpciaccess.so: undefined reference to `outl'
+  >> 507    ../src/.libs/libpciaccess.so: undefined reference to `inb'
+  >> 508    ../src/.libs/libpciaccess.so: undefined reference to `inl'
+  >> 509    ../src/.libs/libpciaccess.so: undefined reference to `outw'
+  >> 510    make[2]: *** [scanpci] Error 2
+     511    make[2]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-B2
+            TFpo/libpciaccess-0.13.5/scanpci'
+  >> 512    make[1]: *** [all-recursive] Error 1
+     513    make[1]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-B2
+            TFpo/libpciaccess-0.13.5'
+  >> 514    make: *** [all] Error 2
+
+See build log for details:
+  /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.openmpi/var/spack/stage/libpciaccess-0.13.5-5zuqqz72t6wm6l4rnhshc7df5wneu2pi/spack-build.out
+spack install openmpi @ 2.1.6 % gcc@8.2.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: ProcessError: Command exited with status 1:
+    '/usr/share/lmod/lmod/libexec/lmod' 'python' 'show' 'gcc/8.2.0'
+os.environ["__LMOD_REF_COUNT_MODULEPATH"] = "/net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.openmpi/share/spack/modules/linux-rhel7-x86_64:1;/etc/modulefiles:1;/usr/share/modulefiles:1;/usr/share/modulefiles/Linux:1;/usr/share/modulefiles/Core:1;/usr/share/lmod/lmod/modulefiles/Core:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/compiler:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/debugger:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/libraries:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/misc:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/mpi:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/tools:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/viz:1";
+os.environ["MODULEPATH"] = "/net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.openmpi/share/spack/modules/linux-rhel7-x86_64:/etc/modulefiles:/usr/share/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core:/usr/projects/hpcsoft/modulefiles/toss3/snow/compiler:/usr/projects/hpcsoft/modulefiles/toss3/snow/debugger:/usr/projects/hpcsoft/modulefiles/toss3/snow/libraries:/usr/projects/hpcsoft/modulefiles/toss3/snow/misc:/usr/projects/hpcsoft/modulefiles/toss3/snow/mpi:/usr/projects/hpcsoft/modulefiles/toss3/snow/tools:/usr/projects/hpcsoft/modulefiles/toss3/snow/viz";
+os.environ["_ModuleTable001_"] = "X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXt9LG1wYXRoQT17Ii9uZXQvc2NyYXRjaDQvLm1kdDIvZGFudG9wYS9zcGFjay9saWJyYXJpZXMvc25vdy1zdGFuZGFyZC5vcGVubXBpL3NoYXJlL3NwYWNrL21vZHVsZXMvbGludXgtcmhlbDcteDg2XzY0IiwiL2V0Yy9tb2R1bGVmaWxlcyIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0xpbnV4IiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlIiwiL3Vzci9zaGFyZS9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsIi91c3IvcHJvamVjdHMvaHBjc29m";
+os.environ["_ModuleTable002_"] = "dC9tb2R1bGVmaWxlcy90b3NzMy9zbm93L2NvbXBpbGVyIiwiL3Vzci9wcm9qZWN0cy9ocGNzb2Z0L21vZHVsZWZpbGVzL3Rvc3MzL3Nub3cvZGVidWdnZXIiLCIvdXNyL3Byb2plY3RzL2hwY3NvZnQvbW9kdWxlZmlsZXMvdG9zczMvc25vdy9saWJyYXJpZXMiLCIvdXNyL3Byb2plY3RzL2hwY3NvZnQvbW9kdWxlZmlsZXMvdG9zczMvc25vdy9taXNjIiwiL3Vzci9wcm9qZWN0cy9ocGNzb2Z0L21vZHVsZWZpbGVzL3Rvc3MzL3Nub3cvbXBpIiwiL3Vzci9wcm9qZWN0cy9ocGNzb2Z0L21vZHVsZWZpbGVzL3Rvc3MzL3Nub3cvdG9vbHMiLCIvdXNyL3Byb2plY3RzL2hwY3NvZnQvbW9kdWxlZmlsZXMvdG9zczMvc25vdy92aXoiLH0sWyJzeXN0ZW1CYXNlTVBBVEgiXT0iL2V0Yy9t";
+os.environ["_ModuleTable003_"] = "b2R1bGVmaWxlczovdXNyL3NoYXJlL21vZHVsZWZpbGVzOi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXg6L3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlOi91c3Ivc2hhcmUvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLH0=";
+os.environ["_ModuleTable_Sz_"] = "3";
+
+false
+Lmod Warning: Failed to find the following module(s): "gcc/8.2.0" in your
+MODULEPATH
+Try:
+
+    $ module spider gcc/8.2.0
+
+to see if the module(s) are available across all compilers and MPI
+implementations.
+
+
+
+
+spack install openmpi @ 2.1.6 % gcc@7.4.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+spack install openmpi @ 2.1.6 % gcc@6.4.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+spack install openmpi @ 2.1.6 % gcc@5.3.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: No compilers with spec gcc@5.3.0 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 2.1.6 % intel@19.0.1.144  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: No compilers with spec intel@19.0.1.144 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 2.1.6 % intel@18.0.5  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+spack install openmpi @ 2.1.6 % intel@17.0.4  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+spack install openmpi @ 2.1.6 % intel@16.0.3  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: No compilers with spec intel@16.0.3 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 2.1.6 % pgi@18.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j36'
+
+9 errors found in build log:
+     498      CCLD     libpciaccess.la
+     499    make[2]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-Jb
+            71wq/libpciaccess-0.13.5/src'
+     500    Making all in scanpci
+     501    make[2]: Entering directory `/tmp/dantopa/spack-stage/spack-stage-J
+            b71wq/libpciaccess-0.13.5/scanpci'
+     502      CC       scanpci.o
+     503      CCLD     scanpci
+  >> 504    ../src/.libs/libpciaccess.so: undefined reference to `inw'
+  >> 505    ../src/.libs/libpciaccess.so: undefined reference to `outw'
+  >> 506    ../src/.libs/libpciaccess.so: undefined reference to `inb'
+  >> 507    ../src/.libs/libpciaccess.so: undefined reference to `outb'
+  >> 508    ../src/.libs/libpciaccess.so: undefined reference to `inl'
+  >> 509    ../src/.libs/libpciaccess.so: undefined reference to `outl'
+  >> 510    make[2]: *** [scanpci] Error 2
+     511    make[2]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-Jb
+            71wq/libpciaccess-0.13.5/scanpci'
+  >> 512    make[1]: *** [all-recursive] Error 1
+     513    make[1]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-Jb
+            71wq/libpciaccess-0.13.5'
+  >> 514    make: *** [all] Error 2
+
+See build log for details:
+  /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.openmpi/var/spack/stage/libpciaccess-0.13.5-7jys5j6in74b7k76nruprcfhck2km3ic/spack-build.out
+spack install openmpi @ 2.1.6 % pgi@17.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.openmpi/var/spack/stage/libpciaccess-0.13.5-gbupg42otgmyvaan7owmtuj63mphpoai/libpciaccess-0.13.5/configure' '--prefix=/net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.openmpi/opt/spack/linux-rhel7-x86_64/pgi-17.10/libpciaccess-0.13.5-gbupg42otgmyvaan7owmtuj63mphpoai'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /net/scratch4/.mdt2/dantopa/spack/libraries/snow
+           -standard.openmpi/lib/spack/env/pgi/pgcc
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/tmp/dantopa/spack-stage/spack-stage-p4h2SL/li
+           bpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.openmpi/var/spack/stage/libpciaccess-0.13.5-gbupg42otgmyvaan7owmtuj63mphpoai/spack-build.out
+spack install openmpi @ 2.1.6 % pgi@16.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j36'
+
+9 errors found in build log:
+     498      CCLD     libpciaccess.la
+     499    make[2]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-8K
+            ubqN/libpciaccess-0.13.5/src'
+     500    Making all in scanpci
+     501    make[2]: Entering directory `/tmp/dantopa/spack-stage/spack-stage-8
+            KubqN/libpciaccess-0.13.5/scanpci'
+     502      CC       scanpci.o
+     503      CCLD     scanpci
+  >> 504    ../src/.libs/libpciaccess.so: undefined reference to `inw'
+  >> 505    ../src/.libs/libpciaccess.so: undefined reference to `outb'
+  >> 506    ../src/.libs/libpciaccess.so: undefined reference to `outl'
+  >> 507    ../src/.libs/libpciaccess.so: undefined reference to `inb'
+  >> 508    ../src/.libs/libpciaccess.so: undefined reference to `inl'
+  >> 509    ../src/.libs/libpciaccess.so: undefined reference to `outw'
+  >> 510    make[2]: *** [scanpci] Error 2
+     511    make[2]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-8K
+            ubqN/libpciaccess-0.13.5/scanpci'
+  >> 512    make[1]: *** [all-recursive] Error 1
+     513    make[1]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-8K
+            ubqN/libpciaccess-0.13.5'
+  >> 514    make: *** [all] Error 2
+
+See build log for details:
+  /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.openmpi/var/spack/stage/libpciaccess-0.13.5-5zuqqz72t6wm6l4rnhshc7df5wneu2pi/spack-build.out
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+mkdir -p "${dir_results}/platform-order"
+mkdir -p "${dir_results}/tpl-order"
+mkdir -p "${dir_results}/graphs"
+spack find openmpi >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/platform-order/snow-standard-openmpi.out
+spack find openmpi >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/openmpi-snow-standard.out
+spack find -ldf openmpi  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/openmpi-snow-standard-ldf.out
+spack graph openmpi >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/graphs/openmpi-snow-standard-graph.out
+spack compilers
+==> Available compilers
+-- gcc rhel7-x86_64 ---------------------------------------------
+gcc@8.2.0
+gcc@7.4.0
+gcc@6.4.0
+gcc@4.8.5
+
+-- intel rhel7-x86_64 -------------------------------------------
+intel@19.0.1
+intel@18.0.5
+intel@17.0.4
+
+-- pgi rhel7-x86_64 ---------------------------------------------
+pgi@18.10
+pgi@17.10
+pgi@16.10
+spack find openmpi
+==> 24 installed packages
+-- linux-rhel7-x86_64 / gcc@6.4.0 -------------------------------
+openmpi@2.1.6
+openmpi@3.0.3
+openmpi@3.0.4
+openmpi@3.1.3
+openmpi@3.1.4
+openmpi@4.0.1
+
+-- linux-rhel7-x86_64 / gcc@7.4.0 -------------------------------
+openmpi@2.1.6
+openmpi@3.0.3
+openmpi@3.0.4
+openmpi@3.1.3
+openmpi@3.1.4
+openmpi@4.0.1
+
+-- linux-rhel7-x86_64 / intel@17.0.4 ----------------------------
+openmpi@2.1.6
+openmpi@3.0.3
+openmpi@3.0.4
+openmpi@3.1.3
+openmpi@3.1.4
+openmpi@4.0.1
+
+-- linux-rhel7-x86_64 / intel@18.0.5 ----------------------------
+openmpi@2.1.6
+openmpi@3.0.3
+openmpi@3.0.4
+openmpi@3.1.3
+openmpi@3.1.4
+openmpi@4.0.1
+spack find -ldf openmpi
+==> 24 installed packages
+-- linux-rhel7-x86_64 / gcc@6.4.0 -------------------------------
+yedlal4    openmpi@2.1.6%gcc 
+foboruk        ^hwloc@1.11.11%gcc 
+o53uqv7            ^libpciaccess@0.13.5%gcc 
+ao5x5ze            ^libxml2@2.9.8%gcc 
+jbuilf6            ^numactl@2.0.12%gcc 
+
+pvtns33    openmpi@3.0.3%gcc 
+foboruk        ^hwloc@1.11.11%gcc 
+o53uqv7            ^libpciaccess@0.13.5%gcc 
+ao5x5ze            ^libxml2@2.9.8%gcc 
+jbuilf6            ^numactl@2.0.12%gcc 
+w43e56t        ^zlib@1.2.11%gcc 
+
+34ssp4a    openmpi@3.0.4%gcc 
+foboruk        ^hwloc@1.11.11%gcc 
+o53uqv7            ^libpciaccess@0.13.5%gcc 
+ao5x5ze            ^libxml2@2.9.8%gcc 
+jbuilf6            ^numactl@2.0.12%gcc 
+w43e56t        ^zlib@1.2.11%gcc 
+
+st2ji54    openmpi@3.1.3%gcc 
+foboruk        ^hwloc@1.11.11%gcc 
+o53uqv7            ^libpciaccess@0.13.5%gcc 
+ao5x5ze            ^libxml2@2.9.8%gcc 
+jbuilf6            ^numactl@2.0.12%gcc 
+w43e56t        ^zlib@1.2.11%gcc 
+
+ay2ouot    openmpi@3.1.4%gcc 
+foboruk        ^hwloc@1.11.11%gcc 
+o53uqv7            ^libpciaccess@0.13.5%gcc 
+ao5x5ze            ^libxml2@2.9.8%gcc 
+jbuilf6            ^numactl@2.0.12%gcc 
+w43e56t        ^zlib@1.2.11%gcc 
+
+rbvkudx    openmpi@4.0.1%gcc 
+foboruk        ^hwloc@1.11.11%gcc 
+o53uqv7            ^libpciaccess@0.13.5%gcc 
+ao5x5ze            ^libxml2@2.9.8%gcc 
+jbuilf6            ^numactl@2.0.12%gcc 
+w43e56t        ^zlib@1.2.11%gcc 
+
+
+-- linux-rhel7-x86_64 / gcc@7.4.0 -------------------------------
+sxs46ca    openmpi@2.1.6%gcc 
+tkazfwt        ^hwloc@1.11.11%gcc 
+ucgnzc4            ^libpciaccess@0.13.5%gcc 
+4ixpolx            ^libxml2@2.9.8%gcc 
+ugwsdhh            ^numactl@2.0.12%gcc 
+
+x4j5xux    openmpi@3.0.3%gcc 
+tkazfwt        ^hwloc@1.11.11%gcc 
+ucgnzc4            ^libpciaccess@0.13.5%gcc 
+4ixpolx            ^libxml2@2.9.8%gcc 
+ugwsdhh            ^numactl@2.0.12%gcc 
+ml43mui        ^zlib@1.2.11%gcc 
+
+jk5aebp    openmpi@3.0.4%gcc 
+tkazfwt        ^hwloc@1.11.11%gcc 
+ucgnzc4            ^libpciaccess@0.13.5%gcc 
+4ixpolx            ^libxml2@2.9.8%gcc 
+ugwsdhh            ^numactl@2.0.12%gcc 
+ml43mui        ^zlib@1.2.11%gcc 
+
+7vgsi4q    openmpi@3.1.3%gcc 
+tkazfwt        ^hwloc@1.11.11%gcc 
+ucgnzc4            ^libpciaccess@0.13.5%gcc 
+4ixpolx            ^libxml2@2.9.8%gcc 
+ugwsdhh            ^numactl@2.0.12%gcc 
+ml43mui        ^zlib@1.2.11%gcc 
+
+qfsk52y    openmpi@3.1.4%gcc 
+tkazfwt        ^hwloc@1.11.11%gcc 
+ucgnzc4            ^libpciaccess@0.13.5%gcc 
+4ixpolx            ^libxml2@2.9.8%gcc 
+ugwsdhh            ^numactl@2.0.12%gcc 
+ml43mui        ^zlib@1.2.11%gcc 
+
+stefmjj    openmpi@4.0.1%gcc 
+tkazfwt        ^hwloc@1.11.11%gcc 
+ucgnzc4            ^libpciaccess@0.13.5%gcc 
+4ixpolx            ^libxml2@2.9.8%gcc 
+ugwsdhh            ^numactl@2.0.12%gcc 
+ml43mui        ^zlib@1.2.11%gcc 
+
+
+-- linux-rhel7-x86_64 / intel@17.0.4 ----------------------------
+vt6kpuu    openmpi@2.1.6%intel 
+vyowpxu        ^hwloc@1.11.11%intel 
+tm6ayg7            ^libpciaccess@0.13.5%intel 
+aojy5jp            ^libxml2@2.9.8%intel 
+hfvvqo6            ^numactl@2.0.12%intel 
+
+lmdylay    openmpi@3.0.3%intel 
+vyowpxu        ^hwloc@1.11.11%intel 
+tm6ayg7            ^libpciaccess@0.13.5%intel 
+aojy5jp            ^libxml2@2.9.8%intel 
+hfvvqo6            ^numactl@2.0.12%intel 
+cauhfyo        ^zlib@1.2.11%intel 
+
+h4kvur5    openmpi@3.0.4%intel 
+vyowpxu        ^hwloc@1.11.11%intel 
+tm6ayg7            ^libpciaccess@0.13.5%intel 
+aojy5jp            ^libxml2@2.9.8%intel 
+hfvvqo6            ^numactl@2.0.12%intel 
+cauhfyo        ^zlib@1.2.11%intel 
+
+4sp63kj    openmpi@3.1.3%intel 
+vyowpxu        ^hwloc@1.11.11%intel 
+tm6ayg7            ^libpciaccess@0.13.5%intel 
+aojy5jp            ^libxml2@2.9.8%intel 
+hfvvqo6            ^numactl@2.0.12%intel 
+cauhfyo        ^zlib@1.2.11%intel 
+
+6fnoofp    openmpi@3.1.4%intel 
+vyowpxu        ^hwloc@1.11.11%intel 
+tm6ayg7            ^libpciaccess@0.13.5%intel 
+aojy5jp            ^libxml2@2.9.8%intel 
+hfvvqo6            ^numactl@2.0.12%intel 
+cauhfyo        ^zlib@1.2.11%intel 
+
+6j7q3wk    openmpi@4.0.1%intel 
+vyowpxu        ^hwloc@1.11.11%intel 
+tm6ayg7            ^libpciaccess@0.13.5%intel 
+aojy5jp            ^libxml2@2.9.8%intel 
+hfvvqo6            ^numactl@2.0.12%intel 
+cauhfyo        ^zlib@1.2.11%intel 
+
+
+-- linux-rhel7-x86_64 / intel@18.0.5 ----------------------------
+but4y5d    openmpi@2.1.6%intel 
+iegddt7        ^hwloc@1.11.11%intel 
+awuq6lx            ^libpciaccess@0.13.5%intel 
+7fsp6x4            ^libxml2@2.9.8%intel 
+lgsjhfx            ^numactl@2.0.12%intel 
+
+d6fbttz    openmpi@3.0.3%intel 
+iegddt7        ^hwloc@1.11.11%intel 
+awuq6lx            ^libpciaccess@0.13.5%intel 
+7fsp6x4            ^libxml2@2.9.8%intel 
+lgsjhfx            ^numactl@2.0.12%intel 
+6nlmvd2        ^zlib@1.2.11%intel 
+
+lhejpta    openmpi@3.0.4%intel 
+iegddt7        ^hwloc@1.11.11%intel 
+awuq6lx            ^libpciaccess@0.13.5%intel 
+7fsp6x4            ^libxml2@2.9.8%intel 
+lgsjhfx            ^numactl@2.0.12%intel 
+6nlmvd2        ^zlib@1.2.11%intel 
+
+ax3krhb    openmpi@3.1.3%intel 
+iegddt7        ^hwloc@1.11.11%intel 
+awuq6lx            ^libpciaccess@0.13.5%intel 
+7fsp6x4            ^libxml2@2.9.8%intel 
+lgsjhfx            ^numactl@2.0.12%intel 
+6nlmvd2        ^zlib@1.2.11%intel 
+
+imuu3ky    openmpi@3.1.4%intel 
+iegddt7        ^hwloc@1.11.11%intel 
+awuq6lx            ^libpciaccess@0.13.5%intel 
+7fsp6x4            ^libxml2@2.9.8%intel 
+lgsjhfx            ^numactl@2.0.12%intel 
+6nlmvd2        ^zlib@1.2.11%intel 
+
+mj2exoh    openmpi@4.0.1%intel 
+iegddt7        ^hwloc@1.11.11%intel 
+awuq6lx            ^libpciaccess@0.13.5%intel 
+7fsp6x4            ^libxml2@2.9.8%intel 
+lgsjhfx            ^numactl@2.0.12%intel 
+6nlmvd2        ^zlib@1.2.11%intel 
+
+mv  /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/snow-standard-batch.out   /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/batch-out/snow-standard-openmpi-2019-04-24-batch.out
+cd /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries
+git add -A .
+git commit -m "${USER} ${tpl} ${hpc} ${partition} ${ymd}"
+[master 68037e5] dantopa openmpi snow standard 2019-04-24
+ 8 files changed, 1251 insertions(+), 692 deletions(-)
+ delete mode 100644 libraries/tools/bash/snow-standard-batch.out
+Wed Apr 24 17:47:37 MDT 2019

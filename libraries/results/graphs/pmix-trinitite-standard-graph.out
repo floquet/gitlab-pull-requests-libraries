@@ -1,0 +1,22 @@
+Wed Apr 24 21:13:04 MDT 2019
+/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.pmix
+spack graph pmix >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/graphs/pmix-trinitite-standard-graph.out
+o  pmix
+|\
+| o  hwloc
+| |\
+| | |\
+| | | o  libpciaccess
+| | |/| 
+| |/| | 
+| | | |\
+| | | o |  util-macros
+| | |  /
+| o | |  pkg-config
+|  / /
+o | |  libevent
+o | |  openssl
+ / /
+o |  libxml2
+ /
+o  libtool

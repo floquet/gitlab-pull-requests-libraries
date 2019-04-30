@@ -1,0 +1,381 @@
+Wed Apr 24 12:12:49 MDT 2019 [1m/home/dantopa/.mybash(B[m
+Wed Apr 24 12:12:49 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/platforms.sh(B[m
+attempting to mkdir /scratch/users/dantopa/repos/gitlab/node-queries/darwin/arm-cn809/dir-configuration
+directory of core scripts = ${core} = /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts
+Wed Apr 24 12:12:49 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/master.sh(B[m
+Wed Apr 24 12:12:49 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh(B[m
+Wed Apr 24 12:12:49 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh(B[m
+Wed Apr 24 12:12:49 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Wed Apr 24 12:12:49 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/gcc.sh(B[m
+Wed Apr 24 12:12:49 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh(B[m
+Wed Apr 24 12:12:49 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh: line 5: gonode: command not found
+Wed Apr 24 12:12:49 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/git.sh(B[m
+Wed Apr 24 12:12:49 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Wed Apr 24 12:12:49 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/ssh.sh(B[m
+Wed Apr 24 12:12:49 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/vim.sh(B[m
+Wed Apr 24 12:12:49 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bash.sh(B[m
+Wed Apr 24 12:12:49 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/finds.sh(B[m
+Wed Apr 24 12:12:49 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/cmake.sh(B[m
+Wed Apr 24 12:12:49 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/copy-configuration.sh(B[m
+Wed Apr 24 12:12:49 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/fortran.sh(B[m
+Wed Apr 24 12:12:49 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks.sh(B[m
+Wed Apr 24 12:12:49 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-bitbucket.sh(B[m
+Wed Apr 24 12:12:49 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-github.sh(B[m
+Wed Apr 24 12:12:49 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-gitlab.sh(B[m
+Wed Apr 24 12:12:49 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/disk.sh(B[m
+Wed Apr 24 12:12:49 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh(B[m
+[master d9239b9] darwin-arm-cn809 Wed Apr 24 12:12:49 MDT 2019
+ 3 files changed, 26 insertions(+)
+ create mode 100644 libraries/tools/bash/darwin-arm-batch.out
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh: line 33: sinfo_s: command not found
+Wed Apr 24 12:12:50 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh(B[m
+Wed Apr 24 12:12:50 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Wed Apr 24 12:12:50 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/spack.sh(B[m
+Wed Apr 24 12:12:50 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/uname.sh(B[m
+Wed Apr 24 12:12:50 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh(B[m
+Wed Apr 24 12:12:50 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh: line 5: gonode: command not found
+Wed Apr 24 12:12:50 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/modules.sh(B[m
+Wed Apr 24 12:12:50 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Wed Apr 24 12:12:50 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/alias.sh(B[m
+Wed Apr 24 12:12:50 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh: line 11: myprompt: command not found
+[master e2601eb] darwin-arm-cn809 Wed Apr 24 12:12:50 MDT 2019
+ 1 file changed, 21 insertions(+)
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh: line 33: sinfo_s: command not found
+Wed Apr 24 12:12:53 MDT 2019 /tmp/slurmd/job5195720/slurm_script
+source "${dir_tools}/bash/master-tpl-sweep.sh"
+Wed Apr 24 12:12:54 MDT 2019 /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh
+cd /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools
+source directories/libraries-darwin.sh
+Wed Apr 24 12:12:54 MDT 2019 [1mdirectories/libraries-darwin.sh(B[m
+source tpl-versions/versions-openmpi.sh
+Wed Apr 24 12:12:54 MDT 2019 [1mtpl-versions/versions-openmpi.sh(B[m
+4 openmpi versions loaded:
+4.0.1  3.1.4  3.0.4  2.1.6
+
+source compilers/compilers-darwin-arm.sh
+Wed Apr 24 12:12:54 MDT 2019 [1mcompilers/compilers-darwin-arm.sh(B[m
+9 Spack-recognized compilers loaded:
+gcc@8.2.0  gcc@8.1.0  gcc@7.1.0  gcc@4.8.5  arm@19.1  clang@18.4.2  clang@18.4.1  clang@18.4.0  clang@7.0.0
+
+source klingons/darwin-arm-openmpi.sh
+/scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 36: klingons/darwin-arm-openmpi.sh: No such file or directory
+cd /scratch/users/dantopa/new-spack/libraries/darwin-arm.openmpi
+. share/spack/setup-env.sh
+export spack_architecture='arch=linux-rhel7-aarch64'
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+spack compilers
+==> Available compilers
+-- gcc centos7-x86_64 -------------------------------------------
+gcc@8.2.0
+gcc@8.1.0
+gcc@7.3.0
+gcc@7.2.0
+gcc@6.4.0
+gcc@6.3.0
+gcc@5.5.0
+gcc@5.4.0
+gcc@4.9.3
+gcc@4.9.2
+gcc@4.8.5
+gcc@4.6.4
+
+-- intel centos7-x86_64 -----------------------------------------
+intel@18.0.3
+intel@18.0.2
+intel@17.0.6
+intel@17.0.1
+intel@16.0.4
+intel@16.0.3
+
+-- pgi centos7-x86_64 -------------------------------------------
+pgi@18.10
+pgi@18.7
+pgi@18.4
+pgi@18.3
+pgi@17.10
+pgi@17.4
+pgi@16.10
+spack install openmpi @ 4.0.1 % gcc@8.2.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 4.0.1 % gcc@8.1.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 4.0.1 % gcc@7.1.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 4.0.1 % gcc@4.8.5  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 4.0.1 % arm@19.1  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 4.0.1 % clang@18.4.2  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 4.0.1 % clang@18.4.1  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 4.0.1 % clang@18.4.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 4.0.1 % clang@7.0.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 3.1.4 % gcc@8.2.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 3.1.4 % gcc@8.1.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 3.1.4 % gcc@7.1.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 3.1.4 % gcc@4.8.5  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 3.1.4 % arm@19.1  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 3.1.4 % clang@18.4.2  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 3.1.4 % clang@18.4.1  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 3.1.4 % clang@18.4.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 3.1.4 % clang@7.0.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 3.0.4 % gcc@8.2.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 3.0.4 % gcc@8.1.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 3.0.4 % gcc@7.1.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 3.0.4 % gcc@4.8.5  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 3.0.4 % arm@19.1  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 3.0.4 % clang@18.4.2  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 3.0.4 % clang@18.4.1  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 3.0.4 % clang@18.4.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 3.0.4 % clang@7.0.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 2.1.6 % gcc@8.2.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 2.1.6 % gcc@8.1.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 2.1.6 % gcc@7.1.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 2.1.6 % gcc@4.8.5  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 2.1.6 % arm@19.1  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 2.1.6 % clang@18.4.2  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 2.1.6 % clang@18.4.1  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 2.1.6 % clang@18.4.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 2.1.6 % clang@7.0.0  arch=linux-rhel7-aarch64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-arm-openmpi-install.log
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+mkdir -p "${dir_results}/platform-order"
+mkdir -p "${dir_results}/tpl-order"
+mkdir -p "${dir_results}/graphs"
+spack find openmpi >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/platform-order/darwin-arm-openmpi.out
+spack find openmpi >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/openmpi-darwin-arm.out
+spack find -ldf openmpi  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/openmpi-darwin-arm-ldf.out
+spack graph openmpi >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/graphs/openmpi-darwin-arm-graph.out
+==> Error: No compilers found for operating system rhel7 and target aarch64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack compilers
+==> Available compilers
+-- gcc centos7-x86_64 -------------------------------------------
+gcc@8.2.0
+gcc@8.1.0
+gcc@7.3.0
+gcc@7.2.0
+gcc@6.4.0
+gcc@6.3.0
+gcc@5.5.0
+gcc@5.4.0
+gcc@4.9.3
+gcc@4.9.2
+gcc@4.8.5
+gcc@4.6.4
+
+-- intel centos7-x86_64 -----------------------------------------
+intel@18.0.3
+intel@18.0.2
+intel@17.0.6
+intel@17.0.1
+intel@16.0.4
+intel@16.0.3
+
+-- pgi centos7-x86_64 -------------------------------------------
+pgi@18.10
+pgi@18.7
+pgi@18.4
+pgi@18.3
+pgi@17.10
+pgi@17.4
+pgi@16.10
+spack find openmpi
+==> No package matches the query: openmpi
+spack find -ldf openmpi
+==> No package matches the query: openmpi
+mv  /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/darwin-arm-batch.out   /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/batch-out/darwin-arm-openmpi-2019-04-24-batch.out
+cd /scratch/users/dantopa/repos/gitlab/pull-requests/libraries
+git add -A .
+git commit -m "${USER} ${tpl} ${hpc} ${partition} ${ymd}"
+[master 398f186] dantopa openmpi darwin arm 2019-04-24
+ 12 files changed, 585 insertions(+), 152 deletions(-)
+ delete mode 100644 libraries/tools/bash/darwin-arm-batch.out
+Wed Apr 24 12:15:41 MDT 2019

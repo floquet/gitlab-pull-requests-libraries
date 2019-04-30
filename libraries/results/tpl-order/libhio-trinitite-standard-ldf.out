@@ -1,0 +1,75 @@
+Wed Apr 24 22:33:18 MDT 2019
+/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio
+spack find -ldf libhio
+==> 6 installed packages
+-- cray-cnl6-haswell / gcc@7.3.0 --------------------------------
+4w2crh6    libhio@1.4.1.2%gcc 
+7b4tn2m        ^bzip2@1.0.6%gcc 
+wv5njwt        ^hdf5@1.10.5%gcc 
+2y6czbj            ^openmpi@3.1.4%gcc 
+7zmbmjq                ^hwloc@1.11.11%gcc 
+h2ms6q3                    ^libpciaccess@0.13.5%gcc 
+36vc6qy                    ^libxml2@2.9.8%gcc 
+jo6rhc5                ^numactl@2.0.12%gcc 
+uw4fzi4                ^zlib@1.2.11%gcc 
+um3fijf        ^json-c@0.13.1%gcc 
+
+7mufv3r    libhio@1.4.1.3%gcc 
+7b4tn2m        ^bzip2@1.0.6%gcc 
+wv5njwt        ^hdf5@1.10.5%gcc 
+2y6czbj            ^openmpi@3.1.4%gcc 
+7zmbmjq                ^hwloc@1.11.11%gcc 
+h2ms6q3                    ^libpciaccess@0.13.5%gcc 
+36vc6qy                    ^libxml2@2.9.8%gcc 
+jo6rhc5                ^numactl@2.0.12%gcc 
+uw4fzi4                ^zlib@1.2.11%gcc 
+um3fijf        ^json-c@0.13.1%gcc 
+
+
+-- cray-cnl6-haswell / gcc@8.2.0 --------------------------------
+mr4fuxd    libhio@1.4.1.2%gcc 
+pijz26s        ^bzip2@1.0.6%gcc 
+w2yqgsk        ^hdf5@1.10.5%gcc 
+3xwpbhs            ^openmpi@3.1.4%gcc 
+fusyoi5                ^hwloc@1.11.11%gcc 
+ahkgt2w                    ^libpciaccess@0.13.5%gcc 
+zrurfh6                    ^libxml2@2.9.8%gcc 
+tq5cpbs                ^numactl@2.0.12%gcc 
+v25hso5                ^zlib@1.2.11%gcc 
+xp2i4a3        ^json-c@0.13.1%gcc 
+
+tkgzmbs    libhio@1.4.1.3%gcc 
+pijz26s        ^bzip2@1.0.6%gcc 
+w2yqgsk        ^hdf5@1.10.5%gcc 
+3xwpbhs            ^openmpi@3.1.4%gcc 
+fusyoi5                ^hwloc@1.11.11%gcc 
+ahkgt2w                    ^libpciaccess@0.13.5%gcc 
+zrurfh6                    ^libxml2@2.9.8%gcc 
+tq5cpbs                ^numactl@2.0.12%gcc 
+v25hso5                ^zlib@1.2.11%gcc 
+xp2i4a3        ^json-c@0.13.1%gcc 
+
+
+-- cray-cnl6-haswell / intel@18.0.5 -----------------------------
+tczn2qe    libhio@1.4.1.2%intel 
+nmrxwl5        ^bzip2@1.0.6%intel 
+4g7pxvz        ^hdf5@1.10.5%intel 
+ekgrtei            ^openmpi@3.1.4%intel 
+q2ysccq                ^hwloc@1.11.11%intel 
+sil2bz2                    ^libpciaccess@0.13.5%intel 
+c7h2sun                    ^libxml2@2.9.8%intel 
+rrzv6cm                ^numactl@2.0.12%intel 
+fqgrfuy                ^zlib@1.2.11%intel 
+jo7tu7f        ^json-c@0.13.1%intel 
+
+baunmnw    libhio@1.4.1.3%intel 
+nmrxwl5        ^bzip2@1.0.6%intel 
+4g7pxvz        ^hdf5@1.10.5%intel 
+ekgrtei            ^openmpi@3.1.4%intel 
+q2ysccq                ^hwloc@1.11.11%intel 
+sil2bz2                    ^libpciaccess@0.13.5%intel 
+c7h2sun                    ^libxml2@2.9.8%intel 
+rrzv6cm                ^numactl@2.0.12%intel 
+fqgrfuy                ^zlib@1.2.11%intel 
+jo7tu7f        ^json-c@0.13.1%intel 
+

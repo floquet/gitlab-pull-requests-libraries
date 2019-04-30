@@ -1,0 +1,15 @@
+Wed Apr 24 22:33:16 MDT 2019
+/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.libhio
+spack find libhio >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/libhio-trinitite-standard.out
+==> 6 installed packages
+-- cray-cnl6-haswell / gcc@7.3.0 --------------------------------
+libhio@1.4.1.2
+libhio@1.4.1.3
+
+-- cray-cnl6-haswell / gcc@8.2.0 --------------------------------
+libhio@1.4.1.2
+libhio@1.4.1.3
+
+-- cray-cnl6-haswell / intel@18.0.5 -----------------------------
+libhio@1.4.1.2
+libhio@1.4.1.3

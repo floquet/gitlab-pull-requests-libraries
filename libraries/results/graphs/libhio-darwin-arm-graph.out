@@ -1,0 +1,43 @@
+Wed Apr 24 14:41:21 MDT 2019
+/scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio
+spack graph libhio >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/graphs/libhio-darwin-arm-graph.out
+o  libhio
+|\
+| |\
+| | |\
+| | | |\
+| | | o |  hdf5
+| | |/| | 
+| |/| | | 
+| | | |\ \
+| o | | | |  openmpi
+| |\ \ \ \ \
+| | |_|/ / /
+| |/| | | | 
+| | |\ \ \ \
+| | | |_|/ /
+| | |/| | | 
+| o | | | |  zlib
+|  / / / /
+| | o | |  hwloc
+| |/| | | 
+|/|/| | | 
+| | |\ \ \
+| | | o | |  libpciaccess
+| |_|/| | | 
+|/| | | | | 
+| | | |\ \ \
+| | | o | | |  util-macros
+| | |  / / /
+o | | | | |  pkg-config
+ / / / / /
+o | | | |  numactl
+ / / / /
+o | | |  libxml2
+ / / /
+o | |  libtool
+ / /
+o |  json-c
+| o  bzip2
+| 
+o  autoconf

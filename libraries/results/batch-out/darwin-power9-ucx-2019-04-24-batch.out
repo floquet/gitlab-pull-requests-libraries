@@ -1,0 +1,665 @@
+Wed Apr 24 20:51:03 MDT 2019 [1m/home/dantopa/.mybash(B[m
+Wed Apr 24 20:51:03 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/platforms.sh(B[m
+attempting to mkdir /scratch/users/dantopa/repos/gitlab/node-queries/darwin/power9-cn2020/dir-configuration
+directory of core scripts = ${core} = /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts
+Wed Apr 24 20:51:03 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/master.sh(B[m
+Wed Apr 24 20:51:03 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh(B[m
+Wed Apr 24 20:51:04 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh(B[m
+Wed Apr 24 20:51:04 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Wed Apr 24 20:51:04 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/gcc.sh(B[m
+Wed Apr 24 20:51:04 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh(B[m
+Wed Apr 24 20:51:04 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh: line 5: gonode: command not found
+Wed Apr 24 20:51:04 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/git.sh(B[m
+Wed Apr 24 20:51:04 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Wed Apr 24 20:51:04 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/ssh.sh(B[m
+Wed Apr 24 20:51:04 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/vim.sh(B[m
+Wed Apr 24 20:51:04 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bash.sh(B[m
+Wed Apr 24 20:51:04 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/finds.sh(B[m
+Wed Apr 24 20:51:04 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/cmake.sh(B[m
+Wed Apr 24 20:51:04 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/copy-configuration.sh(B[m
+Wed Apr 24 20:51:04 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/fortran.sh(B[m
+Wed Apr 24 20:51:04 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks.sh(B[m
+Wed Apr 24 20:51:04 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-bitbucket.sh(B[m
+Wed Apr 24 20:51:04 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-github.sh(B[m
+Wed Apr 24 20:51:04 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-gitlab.sh(B[m
+Wed Apr 24 20:51:04 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/disk.sh(B[m
+Wed Apr 24 20:51:04 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh: line 33: sinfo_s: command not found
+[master d61abd4] darwin-power9-cn2020 Wed Apr 24 20:51:04 MDT 2019
+ 2 files changed, 47 insertions(+)
+ create mode 100644 libraries/tools/bash/darwin-power9-batch.out
+Wed Apr 24 20:51:04 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh(B[m
+Wed Apr 24 20:51:04 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Wed Apr 24 20:51:04 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh(B[m
+Wed Apr 24 20:51:04 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh(B[m
+Wed Apr 24 20:51:04 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/uname.sh(B[m
+Wed Apr 24 20:51:04 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/spack.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh: line 5: gonode: command not found
+Wed Apr 24 20:51:04 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/modules.sh(B[m
+Wed Apr 24 20:51:04 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Wed Apr 24 20:51:04 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/alias.sh(B[m
+Wed Apr 24 20:51:04 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh: line 11: myprompt: command not found
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh: line 33: sinfo_s: command not found
+[master dcff58c] darwin-power9-cn2020 Wed Apr 24 20:51:04 MDT 2019
+ 1 file changed, 22 insertions(+)
+Wed Apr 24 20:51:05 MDT 2019 /tmp/slurmd/job5197573/slurm_script
+source "${dir_tools}/bash/master-tpl-sweep.sh"
+Wed Apr 24 20:51:05 MDT 2019 /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh
+cd /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools
+source directories/libraries-darwin.sh
+Wed Apr 24 20:51:05 MDT 2019 [1mdirectories/libraries-darwin.sh(B[m
+source tpl-versions/versions-ucx.sh
+Wed Apr 24 20:51:05 MDT 2019 [1mtpl-versions/versions-ucx.sh(B[m
+4 ucx versions loaded:
+1.5.0  1.4.0  1.3.1  1.2.2
+
+source compilers/compilers-darwin-power9.sh
+Wed Apr 24 20:51:05 MDT 2019 [1mcompilers/compilers-darwin-power9.sh(B[m
+9 Spack-recognized compilers loaded:
+clang@7.0.0 gcc@8.2.0  gcc@7.3.0  gcc@6.4.0  gcc@4.8.5 pgi@18.10  pgi@17.10  pgi@16.10 xl@16.1
+
+source klingons/darwin-power9-ucx.sh
+Wed Apr 24 20:51:05 MDT 2019 [1mklingons/darwin-power9-ucx.sh(B[m
+cd /scratch/users/dantopa/new-spack/libraries/darwin-power9.ucx
+. share/spack/setup-env.sh
+export spack_architecture='arch=linux-rhel7-ppc64le'
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+spack compilers
+==> Available compilers
+-- clang rhel7-ppc64le ------------------------------------------
+clang@7.0.0
+
+-- gcc rhel7-ppc64le --------------------------------------------
+gcc@8.2.0
+gcc@7.3.0
+gcc@6.4.0
+gcc@4.8.5
+
+-- pgi rhel7-ppc64le --------------------------------------------
+pgi@18.10
+pgi@17.10
+pgi@16.10
+
+-- xl rhel7-ppc64le ---------------------------------------------
+xl@16.1
+ls -alh etc/spack/defaults
+total 97K
+drwxrwxr-x 4 dantopa dantopa   11 Apr 18 23:52 .
+drwxrwxr-x 3 dantopa dantopa    3 Nov 12 20:31 ..
+-rw-rw-r-- 1 dantopa dantopa 3.8K Apr 18 23:52 compilers.yaml
+-rw-rw-r-- 1 dantopa dantopa 4.4K Apr 15 09:41 config.yaml
+drwxrwxr-x 2 dantopa dantopa    4 Nov 12 20:31 darwin
+drwxrwxr-x 2 dantopa dantopa    3 Nov 12 20:31 linux
+-rw-rw-r-- 1 dantopa dantopa  136 Apr 15 09:41 mirrors.yaml
+-rw-rw-r-- 1 dantopa dantopa 3.1K Apr 15 09:41 modules.yaml
+-rw-rw-r-- 1 dantopa dantopa 4.0K Apr 15 17:28 packages.yaml
+-rw-rw-r-- 1 dantopa dantopa  530 Apr 15 09:41 release.yaml
+-rw-rw-r-- 1 dantopa dantopa  546 Apr 15 09:41 repos.yaml
+cat etc/spack/defaults/compilers.yaml
+# #  Darwin power9 nodes
+# #  compilers available in modules
+compilers:
+  # # clang  7.0.0
+  # # gcc    8.2.0  8.1.0  7.3.0  6.4.0  4.8.5*
+  # # pgi  18.10  18.7  18.4  18.3  17.10  16.10
+  # # XL   16.1
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /projects/opt/ppc64le/clang/7.0.0/usr/local/bin/clang
+      cxx: /projects/opt/ppc64le/clang/7.0.0/usr/local/bin/clang++
+      f77: null
+      fc: null
+    spec: clang@7.0.0
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/8.2.0
+    operating_system: rhel7
+    paths:
+      cc:  /projects/opt/ppc64le/gcc/8.2.0/bin/gcc
+      cxx: /projects/opt/ppc64le/gcc/8.2.0/bin/g++
+      f77: /projects/opt/ppc64le/gcc/8.2.0/bin/gfortran
+      fc:  /projects/opt/ppc64le/gcc/8.2.0/bin/gfortran
+    spec: gcc@8.2.0
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/7.3.0
+    operating_system: rhel7
+    paths:
+      cc:  /projects/opt/ppc64le/gcc/7.3.0/bin/gcc
+      cxx: /projects/opt/ppc64le/gcc/7.3.0/bin/g++
+      f77: /projects/opt/ppc64le/gcc/7.3.0/bin/gfortran
+      fc:  /projects/opt/ppc64le/gcc/7.3.0/bin/gfortran
+    spec: gcc@7.3.0
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/6.4.0
+    operating_system: rhel7
+    paths:
+      cc:  /projects/opt/ppc64le/gcc/6.4.0/bin/gcc
+      cxx: /projects/opt/ppc64le/gcc/6.4.0/bin/g++
+      f77: /projects/opt/ppc64le/gcc/6.4.0/bin/gfortran
+      fc:  /projects/opt/ppc64le/gcc/6.4.0/bin/gfortran
+    spec: gcc@6.4.0
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc:  /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec: gcc@4.8.5
+    target: ppc64le
+  # # pgi  18.10  18.7  18.4  18.3  17.10  16.10
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/18.10
+    operating_system: rhel7
+    paths:
+      cc:  /projects/opt/ppc64le/pgi/linuxpower/18.10/bin/pgcc
+      cxx: /projects/opt/ppc64le/pgi/linuxpower/18.10/bin/pgc++
+      f77: /projects/opt/ppc64le/pgi/linuxpower/18.10/bin/pgfortran
+      fc:  /projects/opt/ppc64le/pgi/linuxpower/18.10/bin/pgfortran
+    spec: pgi@18.10
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/17.10
+    operating_system: rhel7
+    paths:
+      cc:  /projects/opt/ppc64le/pgi/linuxpower/17.10/bin/pgcc
+      cxx: /projects/opt/ppc64le/pgi/linuxpower/17.10/bin/pgc++
+      f77: /projects/opt/ppc64le/pgi/linuxpower/17.10/bin/pgfortran
+      fc:  /projects/opt/ppc64le/pgi/linuxpower/17.10/bin/pgfortran
+    spec: pgi@17.10
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/16.10
+    operating_system: rhel7
+    paths:
+      cc:  /projects/opt/ppc64le/pgi/pgi-16.10/linuxpower/16.10/bin/pgcc
+      cxx: /projects/opt/ppc64le/pgi/pgi-16.10/linuxpower/16.10/bin/pgc++
+      f77: /projects/opt/ppc64le/pgi/pgi-16.10/linuxpower/16.10/bin/pgfortran
+      fc:  /projects/opt/ppc64le/pgi/pgi-16.10/linuxpower/16.10/bin/pgfortran
+    spec: pgi@16.10
+    target: ppc64le
+  # # XL  16.1
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags:
+      fflags: -qzerosize
+    modules:
+    - ibm/xlc-16.1.1.2-xlf-16.1.1.2
+    operating_system: rhel7
+    paths:
+      cc:  /projects/opt/ppc64le/ibm/xlc-16.1.1.2/xlC/16.1.1/bin/xlc
+      cxx: /projects/opt/ppc64le/ibm/xlc-16.1.1.2/xlC/16.1.1/bin/xlC
+      f77: /projects/opt/ppc64le/ibm/xlf-16.1.1.2/xlf/16.1.1/bin/xlf
+      fc:  /projects/opt/ppc64le/ibm/xlf-16.1.1.2/xlf/16.1.1/bin/xlf95
+    spec: xl@16.1
+    target: ppc64le
+
+spack config get compilers
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /projects/opt/ppc64le/clang/7.0.0/usr/local/bin/clang
+      cxx: /projects/opt/ppc64le/clang/7.0.0/usr/local/bin/clang++
+      f77: null
+      fc: null
+    spec: clang@7.0.0
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/8.2.0
+    operating_system: rhel7
+    paths:
+      cc: /projects/opt/ppc64le/gcc/8.2.0/bin/gcc
+      cxx: /projects/opt/ppc64le/gcc/8.2.0/bin/g++
+      f77: /projects/opt/ppc64le/gcc/8.2.0/bin/gfortran
+      fc: /projects/opt/ppc64le/gcc/8.2.0/bin/gfortran
+    spec: gcc@8.2.0
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/7.3.0
+    operating_system: rhel7
+    paths:
+      cc: /projects/opt/ppc64le/gcc/7.3.0/bin/gcc
+      cxx: /projects/opt/ppc64le/gcc/7.3.0/bin/g++
+      f77: /projects/opt/ppc64le/gcc/7.3.0/bin/gfortran
+      fc: /projects/opt/ppc64le/gcc/7.3.0/bin/gfortran
+    spec: gcc@7.3.0
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/6.4.0
+    operating_system: rhel7
+    paths:
+      cc: /projects/opt/ppc64le/gcc/6.4.0/bin/gcc
+      cxx: /projects/opt/ppc64le/gcc/6.4.0/bin/g++
+      f77: /projects/opt/ppc64le/gcc/6.4.0/bin/gfortran
+      fc: /projects/opt/ppc64le/gcc/6.4.0/bin/gfortran
+    spec: gcc@6.4.0
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc: /usr/bin/gfortran
+    spec: gcc@4.8.5
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/18.10
+    operating_system: rhel7
+    paths:
+      cc: /projects/opt/ppc64le/pgi/linuxpower/18.10/bin/pgcc
+      cxx: /projects/opt/ppc64le/pgi/linuxpower/18.10/bin/pgc++
+      f77: /projects/opt/ppc64le/pgi/linuxpower/18.10/bin/pgfortran
+      fc: /projects/opt/ppc64le/pgi/linuxpower/18.10/bin/pgfortran
+    spec: pgi@18.10
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/17.10
+    operating_system: rhel7
+    paths:
+      cc: /projects/opt/ppc64le/pgi/linuxpower/17.10/bin/pgcc
+      cxx: /projects/opt/ppc64le/pgi/linuxpower/17.10/bin/pgc++
+      f77: /projects/opt/ppc64le/pgi/linuxpower/17.10/bin/pgfortran
+      fc: /projects/opt/ppc64le/pgi/linuxpower/17.10/bin/pgfortran
+    spec: pgi@17.10
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/16.10
+    operating_system: rhel7
+    paths:
+      cc: /projects/opt/ppc64le/pgi/pgi-16.10/linuxpower/16.10/bin/pgcc
+      cxx: /projects/opt/ppc64le/pgi/pgi-16.10/linuxpower/16.10/bin/pgc++
+      f77: /projects/opt/ppc64le/pgi/pgi-16.10/linuxpower/16.10/bin/pgfortran
+      fc: /projects/opt/ppc64le/pgi/pgi-16.10/linuxpower/16.10/bin/pgfortran
+    spec: pgi@16.10
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags:
+      fflags: -qzerosize
+    modules:
+    - ibm/xlc-16.1.1.2-xlf-16.1.1.2
+    operating_system: rhel7
+    paths:
+      cc: /projects/opt/ppc64le/ibm/xlc-16.1.1.2/xlC/16.1.1/bin/xlc
+      cxx: /projects/opt/ppc64le/ibm/xlc-16.1.1.2/xlC/16.1.1/bin/xlC
+      f77: /projects/opt/ppc64le/ibm/xlf-16.1.1.2/xlf/16.1.1/bin/xlf
+      fc: /projects/opt/ppc64le/ibm/xlf-16.1.1.2/xlf/16.1.1/bin/xlf95
+    spec: xl@16.1
+    target: ppc64le
+spack install ucx @ 1.5.0 % clang@7.0.0  ^libnl/2263pm5 ^rdma-core/qymrwx6 arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-ucx-install.log
+==> Error: Unexpected token
+['ucx', '@', '1.5.0', '%', 'clang@7.0.0', '^libnl/2263pm5', '^rdma-core/qymrwx6', 'arch=linux-rhel7-ppc64le']
+       ^
+spack install ucx @ 1.5.0 % gcc@8.2.0  ^libnl/2263pm5 ^rdma-core/qymrwx6 arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-ucx-install.log
+==> Error: Unexpected token
+['ucx', '@', '1.5.0', '%', 'gcc@8.2.0', '^libnl/2263pm5', '^rdma-core/qymrwx6', 'arch=linux-rhel7-ppc64le']
+       ^
+spack install ucx @ 1.5.0 % gcc@7.3.0  ^libnl/2263pm5 ^rdma-core/qymrwx6 arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-ucx-install.log
+==> Error: Unexpected token
+['ucx', '@', '1.5.0', '%', 'gcc@7.3.0', '^libnl/2263pm5', '^rdma-core/qymrwx6', 'arch=linux-rhel7-ppc64le']
+       ^
+spack install ucx @ 1.5.0 % gcc@6.4.0  ^libnl/2263pm5 ^rdma-core/qymrwx6 arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-ucx-install.log
+==> Error: Unexpected token
+['ucx', '@', '1.5.0', '%', 'gcc@6.4.0', '^libnl/2263pm5', '^rdma-core/qymrwx6', 'arch=linux-rhel7-ppc64le']
+       ^
+spack install ucx @ 1.5.0 % gcc@4.8.5  ^libnl/2263pm5 ^rdma-core/qymrwx6 arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-ucx-install.log
+==> Error: Unexpected token
+['ucx', '@', '1.5.0', '%', 'gcc@4.8.5', '^libnl/2263pm5', '^rdma-core/qymrwx6', 'arch=linux-rhel7-ppc64le']
+       ^
+spack install ucx @ 1.5.0 % pgi@18.10  ^libnl/2263pm5 ^rdma-core/qymrwx6 arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-ucx-install.log
+==> Error: Unexpected token
+['ucx', '@', '1.5.0', '%', 'pgi@18.10', '^libnl/2263pm5', '^rdma-core/qymrwx6', 'arch=linux-rhel7-ppc64le']
+       ^
+spack install ucx @ 1.5.0 % pgi@17.10  ^libnl/2263pm5 ^rdma-core/qymrwx6 arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-ucx-install.log
+==> Error: Unexpected token
+['ucx', '@', '1.5.0', '%', 'pgi@17.10', '^libnl/2263pm5', '^rdma-core/qymrwx6', 'arch=linux-rhel7-ppc64le']
+       ^
+spack install ucx @ 1.5.0 % pgi@16.10  ^libnl/2263pm5 ^rdma-core/qymrwx6 arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-ucx-install.log
+==> Error: Unexpected token
+['ucx', '@', '1.5.0', '%', 'pgi@16.10', '^libnl/2263pm5', '^rdma-core/qymrwx6', 'arch=linux-rhel7-ppc64le']
+       ^
+spack install ucx @ 1.5.0 % xl@16.1  ^libnl/2263pm5 ^rdma-core/qymrwx6 arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-ucx-install.log
+==> Error: Unexpected token
+['ucx', '@', '1.5.0', '%', 'xl@16.1', '^libnl/2263pm5', '^rdma-core/qymrwx6', 'arch=linux-rhel7-ppc64le']
+       ^
+spack install ucx @ 1.4.0 % clang@7.0.0  ^libnl/2263pm5 ^rdma-core/qymrwx6 arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-ucx-install.log
+==> Error: Unexpected token
+['ucx', '@', '1.4.0', '%', 'clang@7.0.0', '^libnl/2263pm5', '^rdma-core/qymrwx6', 'arch=linux-rhel7-ppc64le']
+       ^
+spack install ucx @ 1.4.0 % gcc@8.2.0  ^libnl/2263pm5 ^rdma-core/qymrwx6 arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-ucx-install.log
+==> Error: Unexpected token
+['ucx', '@', '1.4.0', '%', 'gcc@8.2.0', '^libnl/2263pm5', '^rdma-core/qymrwx6', 'arch=linux-rhel7-ppc64le']
+       ^
+spack install ucx @ 1.4.0 % gcc@7.3.0  ^libnl/2263pm5 ^rdma-core/qymrwx6 arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-ucx-install.log
+==> Error: Unexpected token
+['ucx', '@', '1.4.0', '%', 'gcc@7.3.0', '^libnl/2263pm5', '^rdma-core/qymrwx6', 'arch=linux-rhel7-ppc64le']
+       ^
+spack install ucx @ 1.4.0 % gcc@6.4.0  ^libnl/2263pm5 ^rdma-core/qymrwx6 arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-ucx-install.log
+==> Error: Unexpected token
+['ucx', '@', '1.4.0', '%', 'gcc@6.4.0', '^libnl/2263pm5', '^rdma-core/qymrwx6', 'arch=linux-rhel7-ppc64le']
+       ^
+spack install ucx @ 1.4.0 % gcc@4.8.5  ^libnl/2263pm5 ^rdma-core/qymrwx6 arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-ucx-install.log
+==> Error: Unexpected token
+['ucx', '@', '1.4.0', '%', 'gcc@4.8.5', '^libnl/2263pm5', '^rdma-core/qymrwx6', 'arch=linux-rhel7-ppc64le']
+       ^
+spack install ucx @ 1.4.0 % pgi@18.10  ^libnl/2263pm5 ^rdma-core/qymrwx6 arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-ucx-install.log
+==> Error: Unexpected token
+['ucx', '@', '1.4.0', '%', 'pgi@18.10', '^libnl/2263pm5', '^rdma-core/qymrwx6', 'arch=linux-rhel7-ppc64le']
+       ^
+spack install ucx @ 1.4.0 % pgi@17.10  ^libnl/2263pm5 ^rdma-core/qymrwx6 arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-ucx-install.log
+==> Error: Unexpected token
+['ucx', '@', '1.4.0', '%', 'pgi@17.10', '^libnl/2263pm5', '^rdma-core/qymrwx6', 'arch=linux-rhel7-ppc64le']
+       ^
+spack install ucx @ 1.4.0 % pgi@16.10  ^libnl/2263pm5 ^rdma-core/qymrwx6 arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-ucx-install.log
+==> Error: Unexpected token
+['ucx', '@', '1.4.0', '%', 'pgi@16.10', '^libnl/2263pm5', '^rdma-core/qymrwx6', 'arch=linux-rhel7-ppc64le']
+       ^
+spack install ucx @ 1.4.0 % xl@16.1  ^libnl/2263pm5 ^rdma-core/qymrwx6 arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-ucx-install.log
+==> Error: Unexpected token
+['ucx', '@', '1.4.0', '%', 'xl@16.1', '^libnl/2263pm5', '^rdma-core/qymrwx6', 'arch=linux-rhel7-ppc64le']
+       ^
+spack install ucx @ 1.3.1 % clang@7.0.0  ^libnl/2263pm5 ^rdma-core/qymrwx6 arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-ucx-install.log
+==> Error: Unexpected token
+['ucx', '@', '1.3.1', '%', 'clang@7.0.0', '^libnl/2263pm5', '^rdma-core/qymrwx6', 'arch=linux-rhel7-ppc64le']
+       ^
+spack install ucx @ 1.3.1 % gcc@8.2.0  ^libnl/2263pm5 ^rdma-core/qymrwx6 arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-ucx-install.log
+==> Error: Unexpected token
+['ucx', '@', '1.3.1', '%', 'gcc@8.2.0', '^libnl/2263pm5', '^rdma-core/qymrwx6', 'arch=linux-rhel7-ppc64le']
+       ^
+spack install ucx @ 1.3.1 % gcc@7.3.0  ^libnl/2263pm5 ^rdma-core/qymrwx6 arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-ucx-install.log
+==> Error: Unexpected token
+['ucx', '@', '1.3.1', '%', 'gcc@7.3.0', '^libnl/2263pm5', '^rdma-core/qymrwx6', 'arch=linux-rhel7-ppc64le']
+       ^
+spack install ucx @ 1.3.1 % gcc@6.4.0  ^libnl/2263pm5 ^rdma-core/qymrwx6 arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-ucx-install.log
+==> Error: Unexpected token
+['ucx', '@', '1.3.1', '%', 'gcc@6.4.0', '^libnl/2263pm5', '^rdma-core/qymrwx6', 'arch=linux-rhel7-ppc64le']
+       ^
+spack install ucx @ 1.3.1 % gcc@4.8.5  ^libnl/2263pm5 ^rdma-core/qymrwx6 arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-ucx-install.log
+==> Error: Unexpected token
+['ucx', '@', '1.3.1', '%', 'gcc@4.8.5', '^libnl/2263pm5', '^rdma-core/qymrwx6', 'arch=linux-rhel7-ppc64le']
+       ^
+spack install ucx @ 1.3.1 % pgi@18.10  ^libnl/2263pm5 ^rdma-core/qymrwx6 arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-ucx-install.log
+==> Error: Unexpected token
+['ucx', '@', '1.3.1', '%', 'pgi@18.10', '^libnl/2263pm5', '^rdma-core/qymrwx6', 'arch=linux-rhel7-ppc64le']
+       ^
+spack install ucx @ 1.3.1 % pgi@17.10  ^libnl/2263pm5 ^rdma-core/qymrwx6 arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-ucx-install.log
+==> Error: Unexpected token
+['ucx', '@', '1.3.1', '%', 'pgi@17.10', '^libnl/2263pm5', '^rdma-core/qymrwx6', 'arch=linux-rhel7-ppc64le']
+       ^
+spack install ucx @ 1.3.1 % pgi@16.10  ^libnl/2263pm5 ^rdma-core/qymrwx6 arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-ucx-install.log
+==> Error: Unexpected token
+['ucx', '@', '1.3.1', '%', 'pgi@16.10', '^libnl/2263pm5', '^rdma-core/qymrwx6', 'arch=linux-rhel7-ppc64le']
+       ^
+spack install ucx @ 1.3.1 % xl@16.1  ^libnl/2263pm5 ^rdma-core/qymrwx6 arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-ucx-install.log
+==> Error: Unexpected token
+['ucx', '@', '1.3.1', '%', 'xl@16.1', '^libnl/2263pm5', '^rdma-core/qymrwx6', 'arch=linux-rhel7-ppc64le']
+       ^
+spack install ucx @ 1.2.2 % clang@7.0.0  ^libnl/2263pm5 ^rdma-core/qymrwx6 arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-ucx-install.log
+==> Error: Unexpected token
+['ucx', '@', '1.2.2', '%', 'clang@7.0.0', '^libnl/2263pm5', '^rdma-core/qymrwx6', 'arch=linux-rhel7-ppc64le']
+       ^
+spack install ucx @ 1.2.2 % gcc@8.2.0  ^libnl/2263pm5 ^rdma-core/qymrwx6 arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-ucx-install.log
+==> Error: Unexpected token
+['ucx', '@', '1.2.2', '%', 'gcc@8.2.0', '^libnl/2263pm5', '^rdma-core/qymrwx6', 'arch=linux-rhel7-ppc64le']
+       ^
+spack install ucx @ 1.2.2 % gcc@7.3.0  ^libnl/2263pm5 ^rdma-core/qymrwx6 arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-ucx-install.log
+==> Error: Unexpected token
+['ucx', '@', '1.2.2', '%', 'gcc@7.3.0', '^libnl/2263pm5', '^rdma-core/qymrwx6', 'arch=linux-rhel7-ppc64le']
+       ^
+spack install ucx @ 1.2.2 % gcc@6.4.0  ^libnl/2263pm5 ^rdma-core/qymrwx6 arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-ucx-install.log
+==> Error: Unexpected token
+['ucx', '@', '1.2.2', '%', 'gcc@6.4.0', '^libnl/2263pm5', '^rdma-core/qymrwx6', 'arch=linux-rhel7-ppc64le']
+       ^
+spack install ucx @ 1.2.2 % gcc@4.8.5  ^libnl/2263pm5 ^rdma-core/qymrwx6 arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-ucx-install.log
+==> Error: Unexpected token
+['ucx', '@', '1.2.2', '%', 'gcc@4.8.5', '^libnl/2263pm5', '^rdma-core/qymrwx6', 'arch=linux-rhel7-ppc64le']
+       ^
+spack install ucx @ 1.2.2 % pgi@18.10  ^libnl/2263pm5 ^rdma-core/qymrwx6 arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-ucx-install.log
+==> Error: Unexpected token
+['ucx', '@', '1.2.2', '%', 'pgi@18.10', '^libnl/2263pm5', '^rdma-core/qymrwx6', 'arch=linux-rhel7-ppc64le']
+       ^
+spack install ucx @ 1.2.2 % pgi@17.10  ^libnl/2263pm5 ^rdma-core/qymrwx6 arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-ucx-install.log
+==> Error: Unexpected token
+['ucx', '@', '1.2.2', '%', 'pgi@17.10', '^libnl/2263pm5', '^rdma-core/qymrwx6', 'arch=linux-rhel7-ppc64le']
+       ^
+spack install ucx @ 1.2.2 % pgi@16.10  ^libnl/2263pm5 ^rdma-core/qymrwx6 arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-ucx-install.log
+==> Error: Unexpected token
+['ucx', '@', '1.2.2', '%', 'pgi@16.10', '^libnl/2263pm5', '^rdma-core/qymrwx6', 'arch=linux-rhel7-ppc64le']
+       ^
+spack install ucx @ 1.2.2 % xl@16.1  ^libnl/2263pm5 ^rdma-core/qymrwx6 arch=linux-rhel7-ppc64le  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-ucx-install.log
+==> Error: Unexpected token
+['ucx', '@', '1.2.2', '%', 'xl@16.1', '^libnl/2263pm5', '^rdma-core/qymrwx6', 'arch=linux-rhel7-ppc64le']
+       ^
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+mkdir -p "${dir_results}/platform-order"
+mkdir -p "${dir_results}/tpl-order"
+mkdir -p "${dir_results}/graphs"
+spack find ucx >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/platform-order/darwin-power9-ucx.out
+spack find ucx >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/ucx-darwin-power9.out
+spack find -ldf ucx  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/ucx-darwin-power9-ldf.out
+spack graph ucx >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/graphs/ucx-darwin-power9-graph.out
+spack compilers
+==> Available compilers
+-- clang rhel7-ppc64le ------------------------------------------
+clang@7.0.0
+
+-- gcc rhel7-ppc64le --------------------------------------------
+gcc@8.2.0
+gcc@7.3.0
+gcc@6.4.0
+gcc@4.8.5
+
+-- pgi rhel7-ppc64le --------------------------------------------
+pgi@18.10
+pgi@17.10
+pgi@16.10
+
+-- xl rhel7-ppc64le ---------------------------------------------
+xl@16.1
+spack find ucx
+==> 15 installed packages
+-- linux-rhel7-ppc64le / gcc@4.8.5 ------------------------------
+ucx@1.2.2
+ucx@1.3.1
+ucx@1.4.0
+ucx@1.5.0
+
+-- linux-rhel7-ppc64le / gcc@6.4.0 ------------------------------
+ucx@1.2.2
+ucx@1.3.1
+ucx@1.4.0
+ucx@1.5.0
+
+-- linux-rhel7-ppc64le / gcc@7.3.0 ------------------------------
+ucx@1.2.2
+ucx@1.3.1
+ucx@1.4.0
+ucx@1.5.0
+
+-- linux-rhel7-ppc64le / gcc@8.2.0 ------------------------------
+ucx@1.3.1
+ucx@1.4.0
+ucx@1.5.0
+spack find -ldf ucx
+==> 15 installed packages
+-- linux-rhel7-ppc64le / gcc@4.8.5 ------------------------------
+k3ywwal    ucx@1.2.2%gcc 
+pmgndwh        ^numactl@2.0.12%gcc 
+qymrwx6        ^rdma-core@20%gcc 
+2263pm5            ^libnl@3.3.0%gcc 
+
+axjc2vc    ucx@1.3.1%gcc 
+pmgndwh        ^numactl@2.0.12%gcc 
+qymrwx6        ^rdma-core@20%gcc 
+2263pm5            ^libnl@3.3.0%gcc 
+
+n6yscai    ucx@1.4.0%gcc 
+pmgndwh        ^numactl@2.0.12%gcc 
+qymrwx6        ^rdma-core@20%gcc 
+2263pm5            ^libnl@3.3.0%gcc 
+
+2hfzmam    ucx@1.5.0%gcc 
+pmgndwh        ^numactl@2.0.12%gcc 
+qymrwx6        ^rdma-core@20%gcc 
+2263pm5            ^libnl@3.3.0%gcc 
+
+
+-- linux-rhel7-ppc64le / gcc@6.4.0 ------------------------------
+7272miy    ucx@1.2.2%gcc 
+tcpcexo        ^numactl@2.0.12%gcc 
+ioenmhh        ^rdma-core@20%gcc 
+pmfm6l5            ^libnl@3.3.0%gcc 
+
+gl5r4vu    ucx@1.3.1%gcc 
+tcpcexo        ^numactl@2.0.12%gcc 
+ioenmhh        ^rdma-core@20%gcc 
+pmfm6l5            ^libnl@3.3.0%gcc 
+
+qhgl6ux    ucx@1.4.0%gcc 
+tcpcexo        ^numactl@2.0.12%gcc 
+ioenmhh        ^rdma-core@20%gcc 
+pmfm6l5            ^libnl@3.3.0%gcc 
+
+b3uqj65    ucx@1.5.0%gcc 
+tcpcexo        ^numactl@2.0.12%gcc 
+ioenmhh        ^rdma-core@20%gcc 
+pmfm6l5            ^libnl@3.3.0%gcc 
+
+
+-- linux-rhel7-ppc64le / gcc@7.3.0 ------------------------------
+pan22z6    ucx@1.2.2%gcc 
+kbnsrgd        ^numactl@2.0.12%gcc 
+wzxh7fe        ^rdma-core@20%gcc 
+y4euscu            ^libnl@3.3.0%gcc 
+
+gmdexrt    ucx@1.3.1%gcc 
+kbnsrgd        ^numactl@2.0.12%gcc 
+wzxh7fe        ^rdma-core@20%gcc 
+y4euscu            ^libnl@3.3.0%gcc 
+
+7kgcn3p    ucx@1.4.0%gcc 
+kbnsrgd        ^numactl@2.0.12%gcc 
+wzxh7fe        ^rdma-core@20%gcc 
+y4euscu            ^libnl@3.3.0%gcc 
+
+owafalj    ucx@1.5.0%gcc 
+kbnsrgd        ^numactl@2.0.12%gcc 
+wzxh7fe        ^rdma-core@20%gcc 
+y4euscu            ^libnl@3.3.0%gcc 
+
+
+-- linux-rhel7-ppc64le / gcc@8.2.0 ------------------------------
+gzrbbsy    ucx@1.3.1%gcc 
+sjccaw6        ^numactl@2.0.12%gcc 
+ybzwo2y        ^rdma-core@20%gcc 
+ueuxawf            ^libnl@3.3.0%gcc 
+
+rjt6ooz    ucx@1.4.0%gcc 
+sjccaw6        ^numactl@2.0.12%gcc 
+ybzwo2y        ^rdma-core@20%gcc 
+ueuxawf            ^libnl@3.3.0%gcc 
+
+yku7ya3    ucx@1.5.0%gcc 
+sjccaw6        ^numactl@2.0.12%gcc 
+ybzwo2y        ^rdma-core@20%gcc 
+ueuxawf            ^libnl@3.3.0%gcc 
+
+mv  /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/darwin-power9-batch.out   /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/batch-out/darwin-power9-ucx-2019-04-24-batch.out
+cd /scratch/users/dantopa/repos/gitlab/pull-requests/libraries
+git add -A .
+git commit -m "${USER} ${tpl} ${hpc} ${partition} ${ymd}"
+[master 3a2ed79] dantopa ucx darwin power9 2019-04-24
+ 13 files changed, 1817 insertions(+), 278 deletions(-)
+ create mode 100644 libraries/results/batch-out/darwin-power9-ucx-2019-04-24-batch.out
+ rewrite libraries/results/command-log/darwin-arm-openmpi-command.log (89%)
+ create mode 100644 libraries/results/command-log/darwin-general-libhio-command.log
+ rewrite libraries/results/command-log/darwin-power9-ucx-command.log (66%)
+ create mode 100644 libraries/results/graphs/ucx-darwin-power9-graph.out
+ rewrite libraries/results/install-log/darwin-arm-openmpi-install.log (89%)
+ create mode 100644 libraries/results/install-log/darwin-general-libhio-install.log
+ create mode 100644 libraries/results/platform-order/darwin-power9-ucx.out
+ rewrite libraries/results/tpl-order/ucx-darwin-power9-ldf.out (85%)
+ delete mode 100644 libraries/tools/bash/darwin-power9-batch.out
+Wed Apr 24 20:52:26 MDT 2019

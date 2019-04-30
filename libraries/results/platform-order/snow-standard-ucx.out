@@ -1,0 +1,4 @@
+Thu Apr 25 09:29:46 MDT 2019
+/net/scratch4/dantopa/spack/libraries/snow-standard.ucx
+spack find ucx >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/platform-order/snow-standard-ucx.out
+==> No package matches the query: ucx

@@ -1,0 +1,15 @@
+Wed Apr 24 20:54:16 MDT 2019
+1 spack install libhio @ 1.4.1.3 % cce@8.7.9  arch=cray-cnl6-haswell
+2 spack install libhio @ 1.4.1.3 % cce@8.7.8  arch=cray-cnl6-haswell
+3 spack install libhio @ 1.4.1.3 % gcc@8.2.0  arch=cray-cnl6-haswell
+4 spack install libhio @ 1.4.1.3 % gcc@7.3.0  arch=cray-cnl6-haswell
+5 spack install libhio @ 1.4.1.3 % gcc@6.3.0  arch=cray-cnl6-haswell
+6 spack install libhio @ 1.4.1.3 % intel@19.0.1  arch=cray-cnl6-haswell
+7 spack install libhio @ 1.4.1.3 % intel@18.0.5  arch=cray-cnl6-haswell
+8 spack install libhio @ 1.4.1.2 % cce@8.7.9  arch=cray-cnl6-haswell
+9 spack install libhio @ 1.4.1.2 % cce@8.7.8  arch=cray-cnl6-haswell
+10 spack install libhio @ 1.4.1.2 % gcc@8.2.0  arch=cray-cnl6-haswell
+11 spack install libhio @ 1.4.1.2 % gcc@7.3.0  arch=cray-cnl6-haswell
+12 spack install libhio @ 1.4.1.2 % gcc@6.3.0  arch=cray-cnl6-haswell
+13 spack install libhio @ 1.4.1.2 % intel@19.0.1  arch=cray-cnl6-haswell
+14 spack install libhio @ 1.4.1.2 % intel@18.0.5  arch=cray-cnl6-haswell

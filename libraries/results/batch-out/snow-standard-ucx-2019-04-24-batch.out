@@ -1,0 +1,2413 @@
+Wed Apr 24 20:55:07 MDT 2019 /var/spool/slurmd/job2807814/slurm_script
+source "${dir_tools}/bash/master-tpl-sweep.sh"
+Wed Apr 24 20:55:07 MDT 2019 /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh
+cd /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools
+source directories/libraries-snow.sh
+Wed Apr 24 20:55:07 MDT 2019 [1mdirectories/libraries-snow.sh(B[m
+source tpl-versions/versions-ucx.sh
+Wed Apr 24 20:55:07 MDT 2019 [1mtpl-versions/versions-ucx.sh(B[m
+4 ucx versions loaded:
+1.5.0  1.4.0  1.3.1  1.2.2
+
+source compilers/compilers-snow-standard.sh
+Wed Apr 24 20:55:07 MDT 2019 [1mcompilers/compilers-snow-standard.sh(B[m
+11 Spack-recognized compilers loaded:
+gcc@8.2.0  gcc@7.4.0  gcc@6.4.0  gcc@5.3.0 intel@19.0.1.144  intel@18.0.5  intel@17.0.4  intel@16.0.3 pgi@18.10  pgi@17.10  pgi@16.10
+
+source klingons/snow-standard-ucx.sh
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 36: klingons/snow-standard-ucx.sh: No such file or directory
+cd /net/scratch4/dantopa/spack/libraries/snow-standard.ucx
+. share/spack/setup-env.sh
+export spack_architecture='arch=linux-rhel7-x86_64'
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+spack compilers
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+spack compilers
+==> Available compilers
+-- gcc rhel7-x86_64 ---------------------------------------------
+gcc@8.2.0
+gcc@7.4.0
+gcc@6.4.0
+gcc@4.8.5
+
+-- intel rhel7-x86_64 -------------------------------------------
+intel@19.0.1
+intel@18.0.5
+intel@17.0.4
+
+-- pgi rhel7-x86_64 ---------------------------------------------
+pgi@18.10
+pgi@17.10
+pgi@16.10
+ls -alh etc/spack/defaults
+total 450K
+drwxrwx--- 4 dantopa dantopa  13K Apr  4 12:58 .
+drwxrwx--- 3 dantopa dantopa  12K Jan 22 11:59 ..
+-rw-r----- 1 dantopa dantopa 5.5K Apr  4 12:58 compilers.yaml
+-rw-rw---- 1 dantopa dantopa 4.4K Apr  4 12:58 config.yaml
+drwxrwx--- 2 dantopa dantopa  12K Jan 22 11:59 darwin
+drwxrwx--- 2 dantopa dantopa  12K Jan 22 11:59 linux
+-rw-rw---- 1 dantopa dantopa 2.8K Apr  4 12:58 lmod-modules.yaml
+-rw-rw---- 1 dantopa dantopa  137 Apr  4 12:58 mirrors.yaml
+-rw-rw---- 1 dantopa dantopa 3.4K Apr  4 12:58 modules.yaml
+-rw-rw---- 1 dantopa dantopa 3.9K Apr  4 12:58 packages.yaml
+-rw-rw---- 1 dantopa dantopa  530 Apr  4 12:58 release.yaml
+-rw-rw---- 1 dantopa dantopa  546 Apr  4 12:58 repos.yaml
+-rw-r----- 1 dantopa dantopa 5.5K Apr  4 12:58 snow-toss-2019-03-compilers.yaml
+-rw-rw---- 1 dantopa dantopa 3.4K Apr  4 12:58 tcl-modules.yaml
+cat etc/spack/defaults/compilers.yaml
+## gcc    4.8.5, 6.4.0, 7.4.0, 8.2.0
+## intel  17.0.4, 18.0.5, 19.0.1
+## pgi    16.10, 17.10, 18.10
+compilers:
+  #  #  gcc
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc:  /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec: gcc@4.8.5
+    target: x86_64
+    #
+- compiler:  #
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [gcc/6.4.0]
+    operating_system: rhel7
+    paths:
+      cc:  /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/gcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/g++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/gfortran
+      fc:  /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/gfortran
+    spec: gcc@6.4.0
+    target: x86_64
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/7.4.0
+    operating_system: rhel7
+    paths:
+      cc:  /yellow/usr/projects/hpcsoft/toss3/common/gcc/7.4.0/bin/gcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/gcc/7.4.0/bin/g++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/gcc/7.4.0/bin/gfortran
+      fc:  /yellow/usr/projects/hpcsoft/toss3/common/gcc/7.4.0/bin/gfortran
+    spec: gcc@7.4.0
+    target: x86_64
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - friendly-testing
+    - gcc/8.2.0
+    operating_system: rhel7
+    paths:
+      cc:  /projects/opt/rhel7/gcc/8.2.0/bin/gcc
+      cxx: /projects/opt/rhel7/gcc/8.2.0/bin/g++
+      f77: /projects/opt/rhel7/gcc/8.2.0/bin/gfortran
+      fc:  /projects/opt/rhel7/gcc/8.2.0/bin/gfortran
+    spec: gcc@8.2.0
+    target: x86_64
+  #  #  intel
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - intel/17.0.4
+    operating_system: rhel7
+    paths:
+      cc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/icc
+      cxx: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/icpc
+      f77: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/ifort
+      fc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/ifort
+    spec: intel@17.0.4
+    target: x86_64
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - friendly-testing
+    - intel/18.0.5
+    operating_system: rhel7
+    paths:
+      cc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/icc
+      cxx: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/icpc
+      f77: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/ifort
+      fc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/ifort
+    spec: intel@18.0.5
+    target: x86_64
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - friendly-testing
+    - intel/19.0.1
+    operating_system: rhel7
+    paths:
+      cc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.1.053/compilers_and_libraries_2019/linux/bin/intel64/icc
+      cxx: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.1.053/compilers_and_libraries_2019/linux/bin/intel64/icpc
+      f77: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.1.053/compilers_and_libraries_2019/linux/bin/intel64/ifort
+      fc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.1.053/compilers_and_libraries_2019/linux/bin/intel64/ifort
+    spec: intel@19.0.1
+    target: x86_64
+  #  #  pgi
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/16.10
+    operating_system: rhel7
+    paths:
+      cc:  /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin/pgcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin/pgc++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin/pgfortran
+      fc:  /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin/pgfortran
+    spec: pgi@16.10
+    target: x86_64
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/17.10
+    operating_system: rhel7
+    paths:
+      cc:  /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/18.10/bin/pgcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/18.10/bin/pgc++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/18.10/bin/pgf77
+      fc:  /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/18.10/bin/pgf90
+    spec: pgi@17.10
+    target: x86_64
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/18.10
+    operating_system: rhel7
+    paths:
+      cc:  /yellow/usr/projects/hpcsoft/toss3/common/pgi/18.10/linux86-64/18.10/bin/pgcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/pgi/18.10/linux86-64/18.10/bin/pgc++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/pgi/18.10/linux86-64/18.10/bin/pgf77
+      fc:  /yellow/usr/projects/hpcsoft/toss3/common/pgi/18.10/linux86-64/18.10/bin/pgf90
+    spec: pgi@18.10
+    target: x86_64
+spack config get compilers
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc: /usr/bin/gfortran
+    spec: gcc@4.8.5
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/6.4.0
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/gcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/g++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/gfortran
+      fc: /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/gfortran
+    spec: gcc@6.4.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/7.4.0
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss3/common/gcc/7.4.0/bin/gcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/gcc/7.4.0/bin/g++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/gcc/7.4.0/bin/gfortran
+      fc: /yellow/usr/projects/hpcsoft/toss3/common/gcc/7.4.0/bin/gfortran
+    spec: gcc@7.4.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - friendly-testing
+    - gcc/8.2.0
+    operating_system: rhel7
+    paths:
+      cc: /projects/opt/rhel7/gcc/8.2.0/bin/gcc
+      cxx: /projects/opt/rhel7/gcc/8.2.0/bin/g++
+      f77: /projects/opt/rhel7/gcc/8.2.0/bin/gfortran
+      fc: /projects/opt/rhel7/gcc/8.2.0/bin/gfortran
+    spec: gcc@8.2.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - intel/17.0.4
+    operating_system: rhel7
+    paths:
+      cc: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/icc
+      cxx: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/icpc
+      f77: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/ifort
+      fc: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/ifort
+    spec: intel@17.0.4
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - friendly-testing
+    - intel/18.0.5
+    operating_system: rhel7
+    paths:
+      cc: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/icc
+      cxx: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/icpc
+      f77: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/ifort
+      fc: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/ifort
+    spec: intel@18.0.5
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - friendly-testing
+    - intel/19.0.1
+    operating_system: rhel7
+    paths:
+      cc: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.1.053/compilers_and_libraries_2019/linux/bin/intel64/icc
+      cxx: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.1.053/compilers_and_libraries_2019/linux/bin/intel64/icpc
+      f77: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.1.053/compilers_and_libraries_2019/linux/bin/intel64/ifort
+      fc: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.1.053/compilers_and_libraries_2019/linux/bin/intel64/ifort
+    spec: intel@19.0.1
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/16.10
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin/pgcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin/pgc++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin/pgfortran
+      fc: /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin/pgfortran
+    spec: pgi@16.10
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/17.10
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/18.10/bin/pgcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/18.10/bin/pgc++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/18.10/bin/pgf77
+      fc: /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/18.10/bin/pgf90
+    spec: pgi@17.10
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/18.10
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss3/common/pgi/18.10/linux86-64/18.10/bin/pgcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/pgi/18.10/linux86-64/18.10/bin/pgc++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/pgi/18.10/linux86-64/18.10/bin/pgf77
+      fc: /yellow/usr/projects/hpcsoft/toss3/common/pgi/18.10/linux86-64/18.10/bin/pgf90
+    spec: pgi@18.10
+    target: x86_64
+spack install pmix @ 3.1.2 % gcc@8.2.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+==> Available compilers
+-- gcc rhel7-x86_64 ---------------------------------------------
+gcc@8.2.0
+gcc@7.4.0
+gcc@6.4.0
+gcc@4.8.5
+
+-- intel rhel7-x86_64 -------------------------------------------
+intel@19.0.1
+intel@18.0.5
+intel@17.0.4
+
+-- pgi rhel7-x86_64 ---------------------------------------------
+pgi@18.10
+pgi@17.10
+pgi@16.10
+ls -alh etc/spack/defaults
+total 391K
+drwxrwx--- 4 dantopa dantopa  13K Apr  4 12:56 .
+drwxrwx--- 3 dantopa dantopa  12K Jan 22 11:59 ..
+-rw-r----- 1 dantopa dantopa 5.5K Apr  2 16:08 compilers.yaml
+-rw-rw---- 1 dantopa dantopa 4.4K Mar 26 10:20 config.yaml
+drwxrwx--- 2 dantopa dantopa  12K Jan 22 11:59 darwin
+drwxrwx--- 2 dantopa dantopa  12K Jan 22 11:59 linux
+-rw-rw---- 1 dantopa dantopa 2.8K Apr  2 15:37 lmod-modules.yaml
+-rw-rw---- 1 dantopa dantopa  137 Apr  2 15:35 mirrors.yaml
+-rw-rw---- 1 dantopa dantopa 3.4K Apr  2 15:58 modules.yaml
+-rw-rw---- 1 dantopa dantopa 3.9K Apr  2 15:36 packages.yaml
+-rw-rw---- 1 dantopa dantopa  530 Mar  7 16:57 release.yaml
+-rw-rw---- 1 dantopa dantopa  546 Jan 22 11:59 repos.yaml
+-rw-r--r-- 1 dantopa dantopa 5.5K Apr  2 15:57 snow-toss-2019-03-compilers.yaml
+-rw-rw---- 1 dantopa dantopa 3.4K Apr  2 15:35 tcl-modules.yaml
+cat etc/spack/defaults/compilers.yaml
+## gcc    4.8.5, 6.4.0, 7.4.0, 8.2.0
+## intel  17.0.4, 18.0.5, 19.0.1
+## pgi    16.10, 17.10, 18.10
+compilers:
+  #  #  gcc
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc:  /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec: gcc@4.8.5
+    target: x86_64
+    #
+- compiler:  #
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [gcc/6.4.0]
+    operating_system: rhel7
+    paths:
+      cc:  /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/gcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/g++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/gfortran
+      fc:  /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/gfortran
+    spec: gcc@6.4.0
+    target: x86_64
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/7.4.0
+    operating_system: rhel7
+    paths:
+      cc:  /yellow/usr/projects/hpcsoft/toss3/common/gcc/7.4.0/bin/gcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/gcc/7.4.0/bin/g++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/gcc/7.4.0/bin/gfortran
+      fc:  /yellow/usr/projects/hpcsoft/toss3/common/gcc/7.4.0/bin/gfortran
+    spec: gcc@7.4.0
+    target: x86_64
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - friendly-testing
+    - gcc/8.2.0
+    operating_system: rhel7
+    paths:
+      cc:  /projects/opt/rhel7/gcc/8.2.0/bin/gcc
+      cxx: /projects/opt/rhel7/gcc/8.2.0/bin/g++
+      f77: /projects/opt/rhel7/gcc/8.2.0/bin/gfortran
+      fc:  /projects/opt/rhel7/gcc/8.2.0/bin/gfortran
+    spec: gcc@8.2.0
+    target: x86_64
+  #  #  intel
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - intel/17.0.4
+    operating_system: rhel7
+    paths:
+      cc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/icc
+      cxx: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/icpc
+      f77: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/ifort
+      fc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/ifort
+    spec: intel@17.0.4
+    target: x86_64
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - friendly-testing
+    - intel/18.0.5
+    operating_system: rhel7
+    paths:
+      cc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/icc
+      cxx: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/icpc
+      f77: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/ifort
+      fc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/ifort
+    spec: intel@18.0.5
+    target: x86_64
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - friendly-testing
+    - intel/19.0.1
+    operating_system: rhel7
+    paths:
+      cc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.1.053/compilers_and_libraries_2019/linux/bin/intel64/icc
+      cxx: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.1.053/compilers_and_libraries_2019/linux/bin/intel64/icpc
+      f77: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.1.053/compilers_and_libraries_2019/linux/bin/intel64/ifort
+      fc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.1.053/compilers_and_libraries_2019/linux/bin/intel64/ifort
+    spec: intel@19.0.1
+    target: x86_64
+  #  #  pgi
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/16.10
+    operating_system: rhel7
+    paths:
+      cc:  /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin/pgcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin/pgc++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin/pgfortran
+      fc:  /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin/pgfortran
+    spec: pgi@16.10
+    target: x86_64
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/17.10
+    operating_system: rhel7
+    paths:
+      cc:  /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/18.10/bin/pgcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/18.10/bin/pgc++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/18.10/bin/pgf77
+      fc:  /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/18.10/bin/pgf90
+    spec: pgi@17.10
+    target: x86_64
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/18.10
+    operating_system: rhel7
+    paths:
+      cc:  /yellow/usr/projects/hpcsoft/toss3/common/pgi/18.10/linux86-64/18.10/bin/pgcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/pgi/18.10/linux86-64/18.10/bin/pgc++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/pgi/18.10/linux86-64/18.10/bin/pgf77
+      fc:  /yellow/usr/projects/hpcsoft/toss3/common/pgi/18.10/linux86-64/18.10/bin/pgf90
+    spec: pgi@18.10
+    target: x86_64
+spack config get compilers
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc: /usr/bin/gfortran
+    spec: gcc@4.8.5
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/6.4.0
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/gcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/g++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/gfortran
+      fc: /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/gfortran
+    spec: gcc@6.4.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/7.4.0
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss3/common/gcc/7.4.0/bin/gcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/gcc/7.4.0/bin/g++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/gcc/7.4.0/bin/gfortran
+      fc: /yellow/usr/projects/hpcsoft/toss3/common/gcc/7.4.0/bin/gfortran
+    spec: gcc@7.4.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - friendly-testing
+    - gcc/8.2.0
+    operating_system: rhel7
+    paths:
+      cc: /projects/opt/rhel7/gcc/8.2.0/bin/gcc
+      cxx: /projects/opt/rhel7/gcc/8.2.0/bin/g++
+      f77: /projects/opt/rhel7/gcc/8.2.0/bin/gfortran
+      fc: /projects/opt/rhel7/gcc/8.2.0/bin/gfortran
+    spec: gcc@8.2.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - intel/17.0.4
+    operating_system: rhel7
+    paths:
+      cc: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/icc
+      cxx: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/icpc
+      f77: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/ifort
+      fc: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/ifort
+    spec: intel@17.0.4
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - friendly-testing
+    - intel/18.0.5
+    operating_system: rhel7
+    paths:
+      cc: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/icc
+      cxx: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/icpc
+      f77: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/ifort
+      fc: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/ifort
+    spec: intel@18.0.5
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - friendly-testing
+    - intel/19.0.1
+    operating_system: rhel7
+    paths:
+      cc: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.1.053/compilers_and_libraries_2019/linux/bin/intel64/icc
+      cxx: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.1.053/compilers_and_libraries_2019/linux/bin/intel64/icpc
+      f77: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.1.053/compilers_and_libraries_2019/linux/bin/intel64/ifort
+      fc: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.1.053/compilers_and_libraries_2019/linux/bin/intel64/ifort
+    spec: intel@19.0.1
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/16.10
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin/pgcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin/pgc++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin/pgfortran
+      fc: /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin/pgfortran
+    spec: pgi@16.10
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/17.10
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/18.10/bin/pgcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/18.10/bin/pgc++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/18.10/bin/pgf77
+      fc: /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/18.10/bin/pgf90
+    spec: pgi@17.10
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/18.10
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss3/common/pgi/18.10/linux86-64/18.10/bin/pgcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/pgi/18.10/linux86-64/18.10/bin/pgc++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/pgi/18.10/linux86-64/18.10/bin/pgf77
+      fc: /yellow/usr/projects/hpcsoft/toss3/common/pgi/18.10/linux86-64/18.10/bin/pgf90
+    spec: pgi@18.10
+    target: x86_64
+spack install libhio @ 1.4.1.3 % gcc@8.2.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-libhio-install.log
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+spack compilers
+==> Available compilers
+-- gcc centos7-x86_64 -------------------------------------------
+gcc@8.2.0
+gcc@7.4.0
+gcc@6.4.0
+gcc@5.3.0
+
+-- intel centos7-x86_64 -----------------------------------------
+intel@19.0.1.144
+intel@18.0.5
+intel@17.0.4
+intel@16.0.3
+
+-- pgi centos7-x86_64 -------------------------------------------
+pgi@18.10
+pgi@17.10
+pgi@16.10
+ls -alh etc/spack/defaults
+total 500K
+drwxrwx--- 4 dantopa dantopa  13K Apr 16 13:19 .
+drwxrwx--- 3 dantopa dantopa  12K Jan 22 11:59 ..
+-rw-r----- 1 dantopa dantopa 5.1K Apr 16 13:19 compilers.yaml
+-rw-rw---- 1 dantopa dantopa 4.4K Apr 16 12:04 config.yaml
+drwxrwx--- 2 dantopa dantopa  12K Jan 22 11:59 darwin
+drwxrwx--- 2 dantopa dantopa  12K Jan 22 11:59 linux
+-rw-rw---- 1 dantopa dantopa 2.8K Apr 16 12:04 lmod-modules.yaml
+-rw-rw---- 1 dantopa dantopa  137 Apr 16 12:04 mirrors.yaml
+-rw-rw---- 1 dantopa dantopa 3.4K Apr 16 12:04 modules.yaml
+-rw-rw---- 1 dantopa dantopa 3.9K Apr 16 12:04 packages.yaml
+-rw-rw---- 1 dantopa dantopa  530 Apr 16 12:04 release.yaml
+-rw-rw---- 1 dantopa dantopa  546 Apr 16 12:04 repos.yaml
+-rw-rw---- 1 dantopa dantopa 5.1K Apr 16 13:19 snow-linux-centos7-x86_64-basic-compilers.yaml
+-rw-r----- 1 dantopa dantopa 5.5K Apr 16 12:04 snow-toss-2019-03-compilers.yaml
+-rw-rw---- 1 dantopa dantopa 3.4K Apr 16 12:04 tcl-modules.yaml
+cat etc/spack/defaults/compilers.yaml
+## gcc    8.2.0  8.1.0  7.3.0  6.4.0*  4.8.5
+## intel  19.0.1.144  18.0.3  17.0.6
+## pgi    18.7  17.10  16.10
+compilers:
+  #  #  gcc
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - friendly-testing
+    - gcc/8.2.0
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/8.2.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/8.2.0/bin/g++
+      f77: /projects/opt/centos7/gcc/8.2.0/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/8.2.0/bin/gfortran
+    spec: gcc@8.2.0
+    target: x86_64
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/7.4.0
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/7.4.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/7.4.0/bin/g++
+      f77: /projects/opt/centos7/gcc/7.4.0/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/7.4.0/bin/gfortran
+    spec: gcc@7.4.0
+    target: x86_64
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/6.4.0
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/6.4.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/6.4.0/bin/g++
+      f77: /projects/opt/centos7/gcc/6.4.0/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/6.4.0/bin/gfortran
+    spec: gcc@6.4.0
+    target: x86_64
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/5.3.0
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/5.3.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/5.3.0/bin/g++
+      f77: /projects/opt/centos7/gcc/5.3.0/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/5.3.0/bin/gfortran
+    spec: gcc@5.3.0
+    target: x86_64
+  #  #  intel
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [intel/19.0.1]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/intel/compilers_and_libraries_2019.1.144/linux/bin/intel64/icc
+      cxx: /projects/opt/intel/compilers_and_libraries_2019.1.144/linux/bin/intel64/icpc
+      f77: /projects/opt/intel/compilers_and_libraries_2019.1.144/linux/bin/intel64/ifort
+      fc:  /projects/opt/intel/compilers_and_libraries_2019.1.144/linux/bin/intel64/ifort
+    spec: intel@19.0.1.144
+    target: x86_64
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - intel/18.0.5
+    operating_system: centos7
+    paths:
+      cc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/icc
+      cxx: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/icpc
+      fc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/ifort
+      f77: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/ifort
+    spec: intel@18.0.5
+    target: x86_64
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - intel/17.0.4
+    operating_system: centos7
+    paths:
+      cc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/icc
+      cxx: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/icpc
+      f77: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/ifort
+      fc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/ifort
+    spec: intel@17.0.4
+    target: x86_64
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - intel/16.0.3
+    operating_system: centos7
+    paths:
+      cc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icc
+      cxx: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2017/linux/bin/intel64/icpc
+      f77: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2017/linux/bin/intel64/ifort
+      fc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2017/linux/bin/intel64/ifort
+    spec: intel@16.0.3
+    target: x86_64
+  #  #  pgi
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/18.10
+    operating_system: centos7
+    paths:
+      cc:  pgcc
+      cxx: pgc++
+      f77: pgfortran
+      fc:  pgfortran
+    spec: pgi@18.10
+    target: x86_64
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/17.10
+    operating_system: centos7
+    paths:
+      cc:  pgcc
+      cxx: pgc++
+      f77: pgfortran
+      fc:  pgfortran
+    spec: pgi@17.10
+    target: x86_64
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/16.10
+    operating_system: centos7
+    paths:
+      cc:  pgcc
+      cxx: pgc++
+      f77: pgfortran
+      fc:  pgfortran
+    spec: pgi@16.10
+    target: x86_64
+spack config get compilers
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - friendly-testing
+    - gcc/8.2.0
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/centos7/gcc/8.2.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/8.2.0/bin/g++
+      f77: /projects/opt/centos7/gcc/8.2.0/bin/gfortran
+      fc: /projects/opt/centos7/gcc/8.2.0/bin/gfortran
+    spec: gcc@8.2.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/7.4.0
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/centos7/gcc/7.4.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/7.4.0/bin/g++
+      f77: /projects/opt/centos7/gcc/7.4.0/bin/gfortran
+      fc: /projects/opt/centos7/gcc/7.4.0/bin/gfortran
+    spec: gcc@7.4.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/6.4.0
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/centos7/gcc/6.4.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/6.4.0/bin/g++
+      f77: /projects/opt/centos7/gcc/6.4.0/bin/gfortran
+      fc: /projects/opt/centos7/gcc/6.4.0/bin/gfortran
+    spec: gcc@6.4.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/5.3.0
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/centos7/gcc/5.3.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/5.3.0/bin/g++
+      f77: /projects/opt/centos7/gcc/5.3.0/bin/gfortran
+      fc: /projects/opt/centos7/gcc/5.3.0/bin/gfortran
+    spec: gcc@5.3.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - intel/19.0.1
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/intel/compilers_and_libraries_2019.1.144/linux/bin/intel64/icc
+      cxx: /projects/opt/intel/compilers_and_libraries_2019.1.144/linux/bin/intel64/icpc
+      f77: /projects/opt/intel/compilers_and_libraries_2019.1.144/linux/bin/intel64/ifort
+      fc: /projects/opt/intel/compilers_and_libraries_2019.1.144/linux/bin/intel64/ifort
+    spec: intel@19.0.1.144
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - intel/18.0.5
+    operating_system: centos7
+    paths:
+      cc: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/icc
+      cxx: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/icpc
+      fc: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/ifort
+      f77: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/ifort
+    spec: intel@18.0.5
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - intel/17.0.4
+    operating_system: centos7
+    paths:
+      cc: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/icc
+      cxx: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/icpc
+      f77: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/ifort
+      fc: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/ifort
+    spec: intel@17.0.4
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - intel/16.0.3
+    operating_system: centos7
+    paths:
+      cc: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2016/linux/bin/intel64/icc
+      cxx: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2017/linux/bin/intel64/icpc
+      f77: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2017/linux/bin/intel64/ifort
+      fc: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2016.3.067/compilers_and_libraries_2017/linux/bin/intel64/ifort
+    spec: intel@16.0.3
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/18.10
+    operating_system: centos7
+    paths:
+      cc: pgcc
+      cxx: pgc++
+      f77: pgfortran
+      fc: pgfortran
+    spec: pgi@18.10
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/17.10
+    operating_system: centos7
+    paths:
+      cc: pgcc
+      cxx: pgc++
+      f77: pgfortran
+      fc: pgfortran
+    spec: pgi@17.10
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/16.10
+    operating_system: centos7
+    paths:
+      cc: pgcc
+      cxx: pgc++
+      f77: pgfortran
+      fc: pgfortran
+    spec: pgi@16.10
+    target: x86_64
+spack install ucx @ 1.5.0 % gcc@8.2.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+==> Error: [Errno 116] Stale file handle
+spack install pmix @ 3.1.2 % gcc@7.4.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+==> Error: Timed out waiting for lock.
+spack install libhio @ 1.4.1.3 % gcc@7.4.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-libhio-install.log
+==> Error: Timed out waiting for lock.
+spack install pmix @ 3.1.2 % gcc@6.4.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 3.1.2 % gcc@5.3.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+spack install ucx @ 1.5.0 % gcc@7.4.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+==> Error: No compilers with spec gcc@5.3.0 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 3.1.2 % intel@19.0.1.144  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+==> Error: No compilers with spec intel@19.0.1.144 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 3.1.2 % intel@18.0.5  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.5.0 % gcc@6.4.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+spack install pmix @ 3.1.2 % intel@17.0.4  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.5.0 % gcc@5.3.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+spack install pmix @ 3.1.2 % intel@16.0.3  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.5.0 % intel@19.0.1.144  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+==> Error: No compilers with spec intel@16.0.3 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 3.1.2 % pgi@18.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.5.0 % intel@18.0.5  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.5.0 % intel@17.0.4  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.5.0 % intel@16.0.3  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.5.0 % pgi@18.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.5.0 % pgi@17.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.5.0 % pgi@16.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.4.0 % gcc@8.2.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.4.0 % gcc@7.4.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.4.0 % gcc@6.4.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.4.0 % gcc@5.3.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.4.0 % intel@19.0.1.144  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j36'
+
+9 errors found in build log:
+     498      CCLD     libpciaccess.la
+     499    make[2]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-Yz
+            YLat/libpciaccess-0.13.5/src'
+     500    Making all in scanpci
+     501    make[2]: Entering directory `/tmp/dantopa/spack-stage/spack-stage-Y
+            zYLat/libpciaccess-0.13.5/scanpci'
+     502      CC       scanpci.o
+     503      CCLD     scanpci
+  >> 504    ../src/.libs/libpciaccess.so: undefined reference to `inw'
+  >> 505    ../src/.libs/libpciaccess.so: undefined reference to `outw'
+  >> 506    ../src/.libs/libpciaccess.so: undefined reference to `inb'
+  >> 507    ../src/.libs/libpciaccess.so: undefined reference to `outb'
+  >> 508    ../src/.libs/libpciaccess.so: undefined reference to `inl'
+  >> 509    ../src/.libs/libpciaccess.so: undefined reference to `outl'
+  >> 510    make[2]: *** [scanpci] Error 2
+     511    make[2]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-Yz
+            YLat/libpciaccess-0.13.5/scanpci'
+  >> 512    make[1]: *** [all-recursive] Error 1
+     513    make[1]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-Yz
+            YLat/libpciaccess-0.13.5'
+  >> 514    make: *** [all] Error 2
+
+See build log for details:
+  /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/var/spack/stage/libpciaccess-0.13.5-7jys5j6in74b7k76nruprcfhck2km3ic/spack-build.out
+spack install pmix @ 3.1.2 % pgi@17.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.4.0 % intel@18.0.5  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.4.0 % intel@17.0.4  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.4.0 % intel@16.0.3  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/var/spack/stage/libpciaccess-0.13.5-gbupg42otgmyvaan7owmtuj63mphpoai/libpciaccess-0.13.5/configure' '--prefix=/net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/opt/spack/linux-rhel7-x86_64/pgi-17.10/libpciaccess-0.13.5-gbupg42otgmyvaan7owmtuj63mphpoai'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /net/scratch4/.mdt2/dantopa/spack/libraries/snow
+           -standard.pmix/lib/spack/env/pgi/pgcc
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/tmp/dantopa/spack-stage/spack-stage-56yOuv/li
+           bpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/var/spack/stage/libpciaccess-0.13.5-gbupg42otgmyvaan7owmtuj63mphpoai/spack-build.out
+spack install pmix @ 3.1.2 % pgi@16.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.4.0 % pgi@18.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.4.0 % pgi@17.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.4.0 % pgi@16.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.3.1 % gcc@8.2.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.3.1 % gcc@7.4.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.3.1 % gcc@6.4.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.3.1 % gcc@5.3.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.3.1 % intel@19.0.1.144  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.3.1 % intel@18.0.5  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.3.1 % intel@17.0.4  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j36'
+spack install ucx @ 1.3.1 % intel@16.0.3  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+
+9 errors found in build log:
+     498      CCLD     libpciaccess.la
+     499    make[2]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-LX
+            Hb36/libpciaccess-0.13.5/src'
+     500    Making all in scanpci
+     501    make[2]: Entering directory `/tmp/dantopa/spack-stage/spack-stage-L
+            XHb36/libpciaccess-0.13.5/scanpci'
+     502      CC       scanpci.o
+     503      CCLD     scanpci
+  >> 504    ../src/.libs/libpciaccess.so: undefined reference to `inw'
+  >> 505    ../src/.libs/libpciaccess.so: undefined reference to `outb'
+  >> 506    ../src/.libs/libpciaccess.so: undefined reference to `outl'
+  >> 507    ../src/.libs/libpciaccess.so: undefined reference to `inb'
+  >> 508    ../src/.libs/libpciaccess.so: undefined reference to `inl'
+  >> 509    ../src/.libs/libpciaccess.so: undefined reference to `outw'
+  >> 510    make[2]: *** [scanpci] Error 2
+     511    make[2]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-LX
+            Hb36/libpciaccess-0.13.5/scanpci'
+  >> 512    make[1]: *** [all-recursive] Error 1
+     513    make[1]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-LX
+            Hb36/libpciaccess-0.13.5'
+  >> 514    make: *** [all] Error 2
+
+See build log for details:
+  /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/var/spack/stage/libpciaccess-0.13.5-5zuqqz72t6wm6l4rnhshc7df5wneu2pi/spack-build.out
+spack install pmix @ 3.0.2 % gcc@8.2.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.3.1 % pgi@18.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+==> Error: Command exited with status 1:
+'/usr/share/lmod/lmod/libexec/lmod' 'python' 'show' 'gcc/8.2.0'
+os.environ["__LMOD_REF_COUNT_MODULEPATH"] = "/net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/share/spack/modules/linux-rhel7-x86_64:1;/etc/modulefiles:1;/usr/share/modulefiles:1;/usr/share/modulefiles/Linux:1;/usr/share/modulefiles/Core:1;/usr/share/lmod/lmod/modulefiles/Core:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/compiler:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/debugger:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/libraries:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/misc:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/mpi:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/tools:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/viz:1";
+os.environ["MODULEPATH"] = "/net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/share/spack/modules/linux-rhel7-x86_64:/etc/modulefiles:/usr/share/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core:/usr/projects/hpcsoft/modulefiles/toss3/snow/compiler:/usr/projects/hpcsoft/modulefiles/toss3/snow/debugger:/usr/projects/hpcsoft/modulefiles/toss3/snow/libraries:/usr/projects/hpcsoft/modulefiles/toss3/snow/misc:/usr/projects/hpcsoft/modulefiles/toss3/snow/mpi:/usr/projects/hpcsoft/modulefiles/toss3/snow/tools:/usr/projects/hpcsoft/modulefiles/toss3/snow/viz";
+os.environ["_ModuleTable001_"] = "X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXt9LG1wYXRoQT17Ii9uZXQvc2NyYXRjaDQvLm1kdDIvZGFudG9wYS9zcGFjay9saWJyYXJpZXMvc25vdy1zdGFuZGFyZC5wbWl4L3NoYXJlL3NwYWNrL21vZHVsZXMvbGludXgtcmhlbDcteDg2XzY0IiwiL2V0Yy9tb2R1bGVmaWxlcyIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0xpbnV4IiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlIiwiL3Vzci9zaGFyZS9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsIi91c3IvcHJvamVjdHMvaHBjc29mdC9t";
+os.environ["_ModuleTable002_"] = "b2R1bGVmaWxlcy90b3NzMy9zbm93L2NvbXBpbGVyIiwiL3Vzci9wcm9qZWN0cy9ocGNzb2Z0L21vZHVsZWZpbGVzL3Rvc3MzL3Nub3cvZGVidWdnZXIiLCIvdXNyL3Byb2plY3RzL2hwY3NvZnQvbW9kdWxlZmlsZXMvdG9zczMvc25vdy9saWJyYXJpZXMiLCIvdXNyL3Byb2plY3RzL2hwY3NvZnQvbW9kdWxlZmlsZXMvdG9zczMvc25vdy9taXNjIiwiL3Vzci9wcm9qZWN0cy9ocGNzb2Z0L21vZHVsZWZpbGVzL3Rvc3MzL3Nub3cvbXBpIiwiL3Vzci9wcm9qZWN0cy9ocGNzb2Z0L21vZHVsZWZpbGVzL3Rvc3MzL3Nub3cvdG9vbHMiLCIvdXNyL3Byb2plY3RzL2hwY3NvZnQvbW9kdWxlZmlsZXMvdG9zczMvc25vdy92aXoiLH0sWyJzeXN0ZW1CYXNlTVBBVEgiXT0iL2V0Yy9tb2R1";
+os.environ["_ModuleTable003_"] = "bGVmaWxlczovdXNyL3NoYXJlL21vZHVsZWZpbGVzOi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXg6L3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlOi91c3Ivc2hhcmUvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLH0=";
+os.environ["_ModuleTable_Sz_"] = "3";
+
+false
+Lmod Warning: Failed to find the following module(s): "gcc/8.2.0" in your
+MODULEPATH
+Try:
+
+    $ module spider gcc/8.2.0
+
+to see if the module(s) are available across all compilers and MPI
+implementations.
+
+
+
+
+spack install pmix @ 3.0.2 % gcc@7.4.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.3.1 % pgi@17.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.3.1 % pgi@16.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+spack install pmix @ 3.0.2 % gcc@6.4.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.2.2 % gcc@8.2.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+spack install pmix @ 3.0.2 % gcc@5.3.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+==> Error: No compilers with spec gcc@5.3.0 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 3.0.2 % intel@19.0.1.144  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+spack install ucx @ 1.2.2 % gcc@7.4.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+==> Error: No compilers with spec intel@19.0.1.144 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 3.0.2 % intel@18.0.5  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.2.2 % gcc@6.4.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+spack install pmix @ 3.0.2 % intel@17.0.4  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.2.2 % gcc@5.3.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+spack install pmix @ 3.0.2 % intel@16.0.3  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.2.2 % intel@19.0.1.144  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+==> Error: No compilers with spec intel@16.0.3 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 3.0.2 % pgi@18.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.2.2 % intel@18.0.5  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.2.2 % intel@17.0.4  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.2.2 % intel@16.0.3  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.2.2 % pgi@18.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.2.2 % pgi@17.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack install ucx @ 1.2.2 % pgi@16.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-ucx-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack clean -a
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j36'
+
+9 errors found in build log:
+     498      CCLD     libpciaccess.la
+     499    make[2]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-eu
+            3vTi/libpciaccess-0.13.5/src'
+     500    Making all in scanpci
+     501    make[2]: Entering directory `/tmp/dantopa/spack-stage/spack-stage-e
+            u3vTi/libpciaccess-0.13.5/scanpci'
+     502      CC       scanpci.o
+     503      CCLD     scanpci
+  >> 504    ../src/.libs/libpciaccess.so: undefined reference to `inw'
+  >> 505    ../src/.libs/libpciaccess.so: undefined reference to `outw'
+  >> 506    ../src/.libs/libpciaccess.so: undefined reference to `inb'
+  >> 507    ../src/.libs/libpciaccess.so: undefined reference to `outb'
+  >> 508    ../src/.libs/libpciaccess.so: undefined reference to `inl'
+  >> 509    ../src/.libs/libpciaccess.so: undefined reference to `outl'
+  >> 510    make[2]: *** [scanpci] Error 2
+     511    make[2]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-eu
+            3vTi/libpciaccess-0.13.5/scanpci'
+  >> 512    make[1]: *** [all-recursive] Error 1
+     513    make[1]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-eu
+            3vTi/libpciaccess-0.13.5'
+  >> 514    make: *** [all] Error 2
+
+See build log for details:
+  /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/var/spack/stage/libpciaccess-0.13.5-7jys5j6in74b7k76nruprcfhck2km3ic/spack-build.out
+spack install pmix @ 3.0.2 % pgi@17.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+mkdir -p "${dir_results}/platform-order"
+mkdir -p "${dir_results}/tpl-order"
+mkdir -p "${dir_results}/graphs"
+spack find ucx >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/platform-order/snow-standard-ucx.out
+spack find ucx >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/ucx-snow-standard.out
+spack find -ldf ucx  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/ucx-snow-standard-ldf.out
+spack graph ucx >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/graphs/ucx-snow-standard-graph.out
+==> Error: ProcessError: Command exited with status 77:
+    '/net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/var/spack/stage/libpciaccess-0.13.5-gbupg42otgmyvaan7owmtuj63mphpoai/libpciaccess-0.13.5/configure' '--prefix=/net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/opt/spack/linux-rhel7-x86_64/pgi-17.10/libpciaccess-0.13.5-gbupg42otgmyvaan7owmtuj63mphpoai'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /net/scratch4/.mdt2/dantopa/spack/libraries/snow
+           -standard.pmix/lib/spack/env/pgi/pgcc
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/tmp/dantopa/spack-stage/spack-stage-Kj6vS6/li
+           bpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/var/spack/stage/libpciaccess-0.13.5-gbupg42otgmyvaan7owmtuj63mphpoai/spack-build.out
+spack install pmix @ 3.0.2 % pgi@16.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+==> Error: No compilers found for operating system rhel7 and target x86_64.
+If previous installations have succeeded, the operating system may have been updated.
+Compilers are defined for the following operating systems and targets:
+	centos7-x86_64
+Run 'spack compiler find' to add compilers.
+spack compilers
+==> Available compilers
+-- gcc centos7-x86_64 -------------------------------------------
+gcc@8.2.0
+gcc@7.4.0
+gcc@6.4.0
+gcc@5.3.0
+
+-- intel centos7-x86_64 -----------------------------------------
+intel@19.0.1.144
+intel@18.0.5
+intel@17.0.4
+intel@16.0.3
+
+-- pgi centos7-x86_64 -------------------------------------------
+pgi@18.10
+pgi@17.10
+pgi@16.10
+spack find ucx
+==> No package matches the query: ucx
+spack find -ldf ucx
+==> No package matches the query: ucx
+mv  /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/snow-standard-batch.out   /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/batch-out/snow-standard-ucx-2019-04-24-batch.out
+cd /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries
+git add -A .
+git commit -m "${USER} ${tpl} ${hpc} ${partition} ${ymd}"
+[master 985b24a] dantopa ucx snow standard 2019-04-24
+ 11 files changed, 1773 insertions(+), 4 deletions(-)
+ create mode 100644 libraries/results/batch-out/snow-standard-ucx-2019-04-24-batch.out
+ create mode 100644 libraries/results/command-log/snow-standard-libhio-command.log
+ create mode 100644 libraries/results/command-log/snow-standard-pmix-command.log
+ create mode 100644 libraries/results/graphs/ucx-snow-standard-graph.out
+ create mode 100644 libraries/results/install-log/snow-standard-libhio-install.log
+ create mode 100644 libraries/results/install-log/snow-standard-pmix-install.log
+ create mode 100644 libraries/results/platform-order/snow-standard-ucx.out
+Wed Apr 24 21:02:50 MDT 2019
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j36'
+
+9 errors found in build log:
+     498      CCLD     libpciaccess.la
+     499    make[2]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-45
+            rxpW/libpciaccess-0.13.5/src'
+     500    Making all in scanpci
+     501    make[2]: Entering directory `/tmp/dantopa/spack-stage/spack-stage-4
+            5rxpW/libpciaccess-0.13.5/scanpci'
+     502      CC       scanpci.o
+     503      CCLD     scanpci
+  >> 504    ../src/.libs/libpciaccess.so: undefined reference to `inw'
+  >> 505    ../src/.libs/libpciaccess.so: undefined reference to `outb'
+  >> 506    ../src/.libs/libpciaccess.so: undefined reference to `outl'
+  >> 507    ../src/.libs/libpciaccess.so: undefined reference to `inb'
+  >> 508    ../src/.libs/libpciaccess.so: undefined reference to `inl'
+  >> 509    ../src/.libs/libpciaccess.so: undefined reference to `outw'
+  >> 510    make[2]: *** [scanpci] Error 2
+     511    make[2]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-45
+            rxpW/libpciaccess-0.13.5/scanpci'
+  >> 512    make[1]: *** [all-recursive] Error 1
+     513    make[1]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-45
+            rxpW/libpciaccess-0.13.5'
+  >> 514    make: *** [all] Error 2
+
+See build log for details:
+  /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/var/spack/stage/libpciaccess-0.13.5-5zuqqz72t6wm6l4rnhshc7df5wneu2pi/spack-build.out
+spack install pmix @ 2.2.2 % gcc@8.2.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+==> Error: Command exited with status 1:
+'/usr/share/lmod/lmod/libexec/lmod' 'python' 'show' 'gcc/8.2.0'
+os.environ["__LMOD_REF_COUNT_MODULEPATH"] = "/net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/share/spack/modules/linux-rhel7-x86_64:1;/etc/modulefiles:1;/usr/share/modulefiles:1;/usr/share/modulefiles/Linux:1;/usr/share/modulefiles/Core:1;/usr/share/lmod/lmod/modulefiles/Core:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/compiler:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/debugger:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/libraries:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/misc:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/mpi:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/tools:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/viz:1";
+os.environ["MODULEPATH"] = "/net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/share/spack/modules/linux-rhel7-x86_64:/etc/modulefiles:/usr/share/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core:/usr/projects/hpcsoft/modulefiles/toss3/snow/compiler:/usr/projects/hpcsoft/modulefiles/toss3/snow/debugger:/usr/projects/hpcsoft/modulefiles/toss3/snow/libraries:/usr/projects/hpcsoft/modulefiles/toss3/snow/misc:/usr/projects/hpcsoft/modulefiles/toss3/snow/mpi:/usr/projects/hpcsoft/modulefiles/toss3/snow/tools:/usr/projects/hpcsoft/modulefiles/toss3/snow/viz";
+os.environ["_ModuleTable001_"] = "X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXt9LG1wYXRoQT17Ii9uZXQvc2NyYXRjaDQvLm1kdDIvZGFudG9wYS9zcGFjay9saWJyYXJpZXMvc25vdy1zdGFuZGFyZC5wbWl4L3NoYXJlL3NwYWNrL21vZHVsZXMvbGludXgtcmhlbDcteDg2XzY0IiwiL2V0Yy9tb2R1bGVmaWxlcyIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0xpbnV4IiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlIiwiL3Vzci9zaGFyZS9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsIi91c3IvcHJvamVjdHMvaHBjc29mdC9t";
+os.environ["_ModuleTable002_"] = "b2R1bGVmaWxlcy90b3NzMy9zbm93L2NvbXBpbGVyIiwiL3Vzci9wcm9qZWN0cy9ocGNzb2Z0L21vZHVsZWZpbGVzL3Rvc3MzL3Nub3cvZGVidWdnZXIiLCIvdXNyL3Byb2plY3RzL2hwY3NvZnQvbW9kdWxlZmlsZXMvdG9zczMvc25vdy9saWJyYXJpZXMiLCIvdXNyL3Byb2plY3RzL2hwY3NvZnQvbW9kdWxlZmlsZXMvdG9zczMvc25vdy9taXNjIiwiL3Vzci9wcm9qZWN0cy9ocGNzb2Z0L21vZHVsZWZpbGVzL3Rvc3MzL3Nub3cvbXBpIiwiL3Vzci9wcm9qZWN0cy9ocGNzb2Z0L21vZHVsZWZpbGVzL3Rvc3MzL3Nub3cvdG9vbHMiLCIvdXNyL3Byb2plY3RzL2hwY3NvZnQvbW9kdWxlZmlsZXMvdG9zczMvc25vdy92aXoiLH0sWyJzeXN0ZW1CYXNlTVBBVEgiXT0iL2V0Yy9tb2R1";
+os.environ["_ModuleTable003_"] = "bGVmaWxlczovdXNyL3NoYXJlL21vZHVsZWZpbGVzOi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXg6L3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlOi91c3Ivc2hhcmUvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLH0=";
+os.environ["_ModuleTable_Sz_"] = "3";
+
+false
+Lmod Warning: Failed to find the following module(s): "gcc/8.2.0" in your
+MODULEPATH
+Try:
+
+    $ module spider gcc/8.2.0
+
+to see if the module(s) are available across all compilers and MPI
+implementations.
+
+
+
+
+spack install pmix @ 2.2.2 % gcc@7.4.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+spack install pmix @ 2.2.2 % gcc@6.4.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+spack install pmix @ 2.2.2 % gcc@5.3.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+==> Error: No compilers with spec gcc@5.3.0 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 2.2.2 % intel@19.0.1.144  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+==> Error: No compilers with spec intel@19.0.1.144 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 2.2.2 % intel@18.0.5  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+spack install pmix @ 2.2.2 % intel@17.0.4  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+spack install pmix @ 2.2.2 % intel@16.0.3  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+==> Error: No compilers with spec intel@16.0.3 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 2.2.2 % pgi@18.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j36'
+
+6 errors found in build log:
+     110     checking dependency style of /net/scratch4/.mdt2/dantopa/spack/lib
+             raries/snow-standard.pmix/lib/spack/env/pgi/pgc++... none
+     111     checking how to run the C++ preprocessor... /net/scratch4/.mdt2/da
+             ntopa/spack/libraries/snow-standard.pmix/lib/spack/env/pgi/pgc++ -
+             E
+     112     checking for ld used by /net/scratch4/.mdt2/dantopa/spack/librarie
+             s/snow-standard.pmix/lib/spack/env/pgi/pgc++... /usr/bin/ld -m elf
+             _x86_64
+     113     checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... ye
+             s
+     114     pgc++-Warning-Unknown switch: -print-prog-name=ld
+     115     /usr/lib64/crt1.o: In function `_start':
+  >> 116     (.text+0x20): undefined reference to `main'
+     117     checking whether the /net/scratch4/.mdt2/dantopa/spack/libraries/s
+             now-standard.pmix/lib/spack/env/pgi/pgc++ linker (/usr/bin/ld -m e
+             lf_x86_64) supports shared libraries... yes
+     118     checking for /net/scratch4/.mdt2/dantopa/spack/libraries/snow-stan
+             dard.pmix/lib/spack/env/pgi/pgc++ option to produce PIC... -fPIC -
+             DPIC
+     119     checking if /net/scratch4/.mdt2/dantopa/spack/libraries/snow-stand
+             ard.pmix/lib/spack/env/pgi/pgc++ PIC flag -fPIC -DPIC works... yes
+     120     checking if /net/scratch4/.mdt2/dantopa/spack/libraries/snow-stand
+             ard.pmix/lib/spack/env/pgi/pgc++ static flag -static works... yes
+     121     checking if /net/scratch4/.mdt2/dantopa/spack/libraries/snow-stand
+             ard.pmix/lib/spack/env/pgi/pgc++ supports -c -o file.o... yes
+     122     checking if /net/scratch4/.mdt2/dantopa/spack/libraries/snow-stand
+             ard.pmix/lib/spack/env/pgi/pgc++ supports -c -o file.o... (cached)
+              yes
+
+     ...
+
+     1184      CC       simptimeout.o
+     1185      CC       stability.o
+     1186      CC       quietclient.o
+     1187      CC       simpjctrl.o
+     1188    PGC-F-0206-Can't find include file simptest.h (simpjctrl.c: 35)
+     1189    PGC/x86-64 Linux 18.10-0: compilation aborted
+  >> 1190    make[2]: *** [simpjctrl.o] Error 2
+     1191    make[2]: *** Waiting for unfinished jobs....
+     1192    PGC-F-0206-Can't find include file simptest.h (simptest.c: 49)
+     1193    PGC/x86-64 Linux 18.10-0: compilation aborted
+  >> 1194    make[2]: *** [simptest.o] Error 2
+     1195    PGC-F-0206-Can't find include file simptest.h (stability.c: 49)
+     1196    PGC/x86-64 Linux 18.10-0: compilation aborted
+  >> 1197    make[2]: *** [stability.o] Error 2
+     1198    make[2]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-x
+             T2pzY/pmix-2.2.2/test/simple'
+  >> 1199    make[1]: *** [all-recursive] Error 1
+     1200    make[1]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-x
+             T2pzY/pmix-2.2.2/test'
+  >> 1201    make: *** [all-recursive] Error 1
+
+See build log for details:
+  /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/var/spack/stage/pmix-2.2.2-pmbg67jc5jwav5m3kltvd4esq3qszqqe/spack-build.out
+spack install pmix @ 2.2.2 % pgi@17.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/var/spack/stage/libevent-2.1.8-mdde2ckuea6g4grvw5zxmcp4wahwp7j6/libevent-2.1.8-stable/configure' '--prefix=/net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/opt/spack/linux-rhel7-x86_64/pgi-17.10/libevent-2.1.8-mdde2ckuea6g4grvw5zxmcp4wahwp7j6' '--enable-openssl'
+
+2 errors found in build log:
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking whether make supports nested variables... (cached) yes
+     11    checking for style of include used by make... GNU
+     12    checking for gcc... /net/scratch4/.mdt2/dantopa/spack/libraries/snow
+           -standard.pmix/lib/spack/env/pgi/pgcc
+     13    checking whether the C compiler works... no
+  >> 14    configure: error: in `/tmp/dantopa/spack-stage/spack-stage-RXFPns/li
+           bevent-2.1.8-stable':
+  >> 15    configure: error: C compiler cannot create executables
+     16    See `config.log' for more details
+
+See build log for details:
+  /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/var/spack/stage/libevent-2.1.8-mdde2ckuea6g4grvw5zxmcp4wahwp7j6/spack-build.out
+spack install pmix @ 2.2.2 % pgi@16.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j36'
+
+6 errors found in build log:
+     110     checking dependency style of /net/scratch4/.mdt2/dantopa/spack/lib
+             raries/snow-standard.pmix/lib/spack/env/pgi/pgc++... none
+     111     checking how to run the C++ preprocessor... /net/scratch4/.mdt2/da
+             ntopa/spack/libraries/snow-standard.pmix/lib/spack/env/pgi/pgc++ -
+             E
+     112     checking for ld used by /net/scratch4/.mdt2/dantopa/spack/librarie
+             s/snow-standard.pmix/lib/spack/env/pgi/pgc++... /usr/bin/ld -m elf
+             _x86_64
+     113     checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... ye
+             s
+     114     pgc++-Warning-Unknown switch: -print-prog-name=ld
+     115     /usr/lib64/crt1.o: In function `_start':
+  >> 116     (.text+0x20): undefined reference to `main'
+     117     checking whether the /net/scratch4/.mdt2/dantopa/spack/libraries/s
+             now-standard.pmix/lib/spack/env/pgi/pgc++ linker (/usr/bin/ld -m e
+             lf_x86_64) supports shared libraries... yes
+     118     checking for /net/scratch4/.mdt2/dantopa/spack/libraries/snow-stan
+             dard.pmix/lib/spack/env/pgi/pgc++ option to produce PIC... -fPIC -
+             DPIC
+     119     checking if /net/scratch4/.mdt2/dantopa/spack/libraries/snow-stand
+             ard.pmix/lib/spack/env/pgi/pgc++ PIC flag -fPIC -DPIC works... yes
+     120     checking if /net/scratch4/.mdt2/dantopa/spack/libraries/snow-stand
+             ard.pmix/lib/spack/env/pgi/pgc++ static flag -static works... no
+     121     checking if /net/scratch4/.mdt2/dantopa/spack/libraries/snow-stand
+             ard.pmix/lib/spack/env/pgi/pgc++ supports -c -o file.o... yes
+     122     checking if /net/scratch4/.mdt2/dantopa/spack/libraries/snow-stand
+             ard.pmix/lib/spack/env/pgi/pgc++ supports -c -o file.o... (cached)
+              yes
+
+     ...
+
+     1184      CC       simptimeout.o
+     1185      CC       stability.o
+     1186      CC       quietclient.o
+     1187      CC       simpjctrl.o
+     1188    PGC-F-0206-Can't find include file simptest.h (simpjctrl.c: 35)
+     1189    PGC/x86-64 Linux 16.10-0: compilation aborted
+  >> 1190    make[2]: *** [simpjctrl.o] Error 2
+     1191    make[2]: *** Waiting for unfinished jobs....
+     1192    PGC-F-0206-Can't find include file simptest.h (simptest.c: 49)
+     1193    PGC/x86-64 Linux 16.10-0: compilation aborted
+     1194    PGC-F-0206-Can't find include file simptest.h (stability.c: 49)
+     1195    PGC/x86-64 Linux 16.10-0: compilation aborted
+  >> 1196    make[2]: *** [simptest.o] Error 2
+  >> 1197    make[2]: *** [stability.o] Error 2
+     1198    make[2]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-4
+             b1RNN/pmix-2.2.2/test/simple'
+  >> 1199    make[1]: *** [all-recursive] Error 1
+     1200    make[1]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-4
+             b1RNN/pmix-2.2.2/test'
+  >> 1201    make: *** [all-recursive] Error 1
+
+See build log for details:
+  /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/var/spack/stage/pmix-2.2.2-qf4uqay7yl2ccppcxzykbosulezhrdwm/spack-build.out
+spack install pmix @ 2.1.4 % gcc@8.2.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+==> Error: Command exited with status 1:
+'/usr/share/lmod/lmod/libexec/lmod' 'python' 'show' 'gcc/8.2.0'
+os.environ["__LMOD_REF_COUNT_MODULEPATH"] = "/net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/share/spack/modules/linux-rhel7-x86_64:1;/etc/modulefiles:1;/usr/share/modulefiles:1;/usr/share/modulefiles/Linux:1;/usr/share/modulefiles/Core:1;/usr/share/lmod/lmod/modulefiles/Core:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/compiler:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/debugger:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/libraries:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/misc:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/mpi:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/tools:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/viz:1";
+os.environ["MODULEPATH"] = "/net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/share/spack/modules/linux-rhel7-x86_64:/etc/modulefiles:/usr/share/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core:/usr/projects/hpcsoft/modulefiles/toss3/snow/compiler:/usr/projects/hpcsoft/modulefiles/toss3/snow/debugger:/usr/projects/hpcsoft/modulefiles/toss3/snow/libraries:/usr/projects/hpcsoft/modulefiles/toss3/snow/misc:/usr/projects/hpcsoft/modulefiles/toss3/snow/mpi:/usr/projects/hpcsoft/modulefiles/toss3/snow/tools:/usr/projects/hpcsoft/modulefiles/toss3/snow/viz";
+os.environ["_ModuleTable001_"] = "X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXt9LG1wYXRoQT17Ii9uZXQvc2NyYXRjaDQvLm1kdDIvZGFudG9wYS9zcGFjay9saWJyYXJpZXMvc25vdy1zdGFuZGFyZC5wbWl4L3NoYXJlL3NwYWNrL21vZHVsZXMvbGludXgtcmhlbDcteDg2XzY0IiwiL2V0Yy9tb2R1bGVmaWxlcyIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0xpbnV4IiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlIiwiL3Vzci9zaGFyZS9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsIi91c3IvcHJvamVjdHMvaHBjc29mdC9t";
+os.environ["_ModuleTable002_"] = "b2R1bGVmaWxlcy90b3NzMy9zbm93L2NvbXBpbGVyIiwiL3Vzci9wcm9qZWN0cy9ocGNzb2Z0L21vZHVsZWZpbGVzL3Rvc3MzL3Nub3cvZGVidWdnZXIiLCIvdXNyL3Byb2plY3RzL2hwY3NvZnQvbW9kdWxlZmlsZXMvdG9zczMvc25vdy9saWJyYXJpZXMiLCIvdXNyL3Byb2plY3RzL2hwY3NvZnQvbW9kdWxlZmlsZXMvdG9zczMvc25vdy9taXNjIiwiL3Vzci9wcm9qZWN0cy9ocGNzb2Z0L21vZHVsZWZpbGVzL3Rvc3MzL3Nub3cvbXBpIiwiL3Vzci9wcm9qZWN0cy9ocGNzb2Z0L21vZHVsZWZpbGVzL3Rvc3MzL3Nub3cvdG9vbHMiLCIvdXNyL3Byb2plY3RzL2hwY3NvZnQvbW9kdWxlZmlsZXMvdG9zczMvc25vdy92aXoiLH0sWyJzeXN0ZW1CYXNlTVBBVEgiXT0iL2V0Yy9tb2R1";
+os.environ["_ModuleTable003_"] = "bGVmaWxlczovdXNyL3NoYXJlL21vZHVsZWZpbGVzOi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXg6L3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlOi91c3Ivc2hhcmUvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLH0=";
+os.environ["_ModuleTable_Sz_"] = "3";
+
+false
+Lmod Warning: Failed to find the following module(s): "gcc/8.2.0" in your
+MODULEPATH
+Try:
+
+    $ module spider gcc/8.2.0
+
+to see if the module(s) are available across all compilers and MPI
+implementations.
+
+
+
+
+spack install pmix @ 2.1.4 % gcc@7.4.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+spack install pmix @ 2.1.4 % gcc@6.4.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+spack install pmix @ 2.1.4 % gcc@5.3.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+==> Error: No compilers with spec gcc@5.3.0 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 2.1.4 % intel@19.0.1.144  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+==> Error: No compilers with spec intel@19.0.1.144 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 2.1.4 % intel@18.0.5  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+spack install pmix @ 2.1.4 % intel@17.0.4  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+spack install pmix @ 2.1.4 % intel@16.0.3  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+==> Error: No compilers with spec intel@16.0.3 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+spack install pmix @ 2.1.4 % pgi@18.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+spack install pmix @ 2.1.4 % pgi@17.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/var/spack/stage/libevent-2.1.8-mdde2ckuea6g4grvw5zxmcp4wahwp7j6/libevent-2.1.8-stable/configure' '--prefix=/net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/opt/spack/linux-rhel7-x86_64/pgi-17.10/libevent-2.1.8-mdde2ckuea6g4grvw5zxmcp4wahwp7j6' '--enable-openssl'
+
+2 errors found in build log:
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking whether make supports nested variables... (cached) yes
+     11    checking for style of include used by make... GNU
+     12    checking for gcc... /net/scratch4/.mdt2/dantopa/spack/libraries/snow
+           -standard.pmix/lib/spack/env/pgi/pgcc
+     13    checking whether the C compiler works... no
+  >> 14    configure: error: in `/tmp/dantopa/spack-stage/spack-stage-AutBbz/li
+           bevent-2.1.8-stable':
+  >> 15    configure: error: C compiler cannot create executables
+     16    See `config.log' for more details
+
+See build log for details:
+  /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.pmix/var/spack/stage/libevent-2.1.8-mdde2ckuea6g4grvw5zxmcp4wahwp7j6/spack-build.out
+spack install pmix @ 2.1.4 % pgi@16.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-pmix-install.log
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+mkdir -p "${dir_results}/platform-order"
+mkdir -p "${dir_results}/tpl-order"
+mkdir -p "${dir_results}/graphs"
+spack find pmix >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/platform-order/snow-standard-pmix.out
+spack find pmix >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/pmix-snow-standard.out
+spack find -ldf pmix  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/pmix-snow-standard-ldf.out
+spack graph pmix >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/graphs/pmix-snow-standard-graph.out
+spack compilers
+==> Available compilers
+-- gcc rhel7-x86_64 ---------------------------------------------
+gcc@8.2.0
+gcc@7.4.0
+gcc@6.4.0
+gcc@4.8.5
+
+-- intel rhel7-x86_64 -------------------------------------------
+intel@19.0.1
+intel@18.0.5
+intel@17.0.4
+
+-- pgi rhel7-x86_64 ---------------------------------------------
+pgi@18.10
+pgi@17.10
+pgi@16.10
+spack find pmix
+==> 22 installed packages
+-- linux-rhel7-x86_64 / gcc@4.8.5 -------------------------------
+pmix@2.1.4
+pmix@2.2.2
+pmix@3.0.2
+pmix@3.1.2
+
+-- linux-rhel7-x86_64 / gcc@6.4.0 -------------------------------
+pmix@2.1.4
+pmix@2.2.2
+pmix@3.0.2
+pmix@3.1.2
+
+-- linux-rhel7-x86_64 / gcc@7.4.0 -------------------------------
+pmix@2.1.4
+pmix@2.2.2
+pmix@3.0.2
+pmix@3.1.2
+
+-- linux-rhel7-x86_64 / intel@17.0.4 ----------------------------
+pmix@2.1.4
+pmix@2.2.2
+pmix@3.0.2
+pmix@3.1.2
+
+-- linux-rhel7-x86_64 / intel@18.0.5 ----------------------------
+pmix@2.1.4
+pmix@2.2.2
+pmix@3.0.2
+pmix@3.1.2
+
+-- linux-rhel7-x86_64 / pgi@16.10 -------------------------------
+pmix@2.1.4
+
+-- linux-rhel7-x86_64 / pgi@18.10 -------------------------------
+pmix@2.1.4
+spack find -ldf pmix
+==> 22 installed packages
+-- linux-rhel7-x86_64 / gcc@4.8.5 -------------------------------
+vqo2bdg    pmix@2.1.4%gcc 
+dvvown3        ^libevent@2.1.8%gcc 
+7s4iwxd            ^openssl@1.1.1b%gcc 
+
+nvruarc    pmix@2.2.2%gcc 
+dvvown3        ^libevent@2.1.8%gcc 
+7s4iwxd            ^openssl@1.1.1b%gcc 
+
+zcuwmb2    pmix@3.0.2%gcc 
+wdz3le4        ^hwloc@2.0.2%gcc 
+qxhgslw            ^libpciaccess@0.13.5%gcc 
+xsjgwoj            ^libxml2@2.9.8%gcc 
+dvvown3        ^libevent@2.1.8%gcc 
+7s4iwxd            ^openssl@1.1.1b%gcc 
+
+p4zdihg    pmix@3.1.2%gcc 
+wdz3le4        ^hwloc@2.0.2%gcc 
+qxhgslw            ^libpciaccess@0.13.5%gcc 
+xsjgwoj            ^libxml2@2.9.8%gcc 
+dvvown3        ^libevent@2.1.8%gcc 
+7s4iwxd            ^openssl@1.1.1b%gcc 
+
+
+-- linux-rhel7-x86_64 / gcc@6.4.0 -------------------------------
+c3z5xyf    pmix@2.1.4%gcc 
+yej6ne5        ^libevent@2.1.8%gcc 
+exnfbo3            ^openssl@1.1.1b%gcc 
+
+rol4za4    pmix@2.2.2%gcc 
+yej6ne5        ^libevent@2.1.8%gcc 
+exnfbo3            ^openssl@1.1.1b%gcc 
+
+457hx2s    pmix@3.0.2%gcc 
+7zqssnl        ^hwloc@2.0.2%gcc 
+o53uqv7            ^libpciaccess@0.13.5%gcc 
+ao5x5ze            ^libxml2@2.9.8%gcc 
+yej6ne5        ^libevent@2.1.8%gcc 
+exnfbo3            ^openssl@1.1.1b%gcc 
+
+yfj2dod    pmix@3.1.2%gcc 
+7zqssnl        ^hwloc@2.0.2%gcc 
+o53uqv7            ^libpciaccess@0.13.5%gcc 
+ao5x5ze            ^libxml2@2.9.8%gcc 
+yej6ne5        ^libevent@2.1.8%gcc 
+exnfbo3            ^openssl@1.1.1b%gcc 
+
+
+-- linux-rhel7-x86_64 / gcc@7.4.0 -------------------------------
+f72va4r    pmix@2.1.4%gcc 
+po3tspu        ^libevent@2.1.8%gcc 
+7p6vpoe            ^openssl@1.1.1b%gcc 
+
+qnvd2dv    pmix@2.2.2%gcc 
+po3tspu        ^libevent@2.1.8%gcc 
+7p6vpoe            ^openssl@1.1.1b%gcc 
+
+3k7vgcu    pmix@3.0.2%gcc 
+zcedp3a        ^hwloc@2.0.2%gcc 
+ucgnzc4            ^libpciaccess@0.13.5%gcc 
+4ixpolx            ^libxml2@2.9.8%gcc 
+po3tspu        ^libevent@2.1.8%gcc 
+7p6vpoe            ^openssl@1.1.1b%gcc 
+
+6vnumvo    pmix@3.1.2%gcc 
+zcedp3a        ^hwloc@2.0.2%gcc 
+ucgnzc4            ^libpciaccess@0.13.5%gcc 
+4ixpolx            ^libxml2@2.9.8%gcc 
+po3tspu        ^libevent@2.1.8%gcc 
+7p6vpoe            ^openssl@1.1.1b%gcc 
+
+
+-- linux-rhel7-x86_64 / intel@17.0.4 ----------------------------
+5vngdge    pmix@2.1.4%intel 
+63oguz2        ^libevent@2.1.8%intel 
+kxslfzu            ^openssl@1.1.1b%intel 
+
+32rka7j    pmix@2.2.2%intel 
+63oguz2        ^libevent@2.1.8%intel 
+kxslfzu            ^openssl@1.1.1b%intel 
+
+ahle3bp    pmix@3.0.2%intel 
+mrw5q4c        ^hwloc@2.0.2%intel 
+tm6ayg7            ^libpciaccess@0.13.5%intel 
+aojy5jp            ^libxml2@2.9.8%intel 
+63oguz2        ^libevent@2.1.8%intel 
+kxslfzu            ^openssl@1.1.1b%intel 
+
+yzpa4m2    pmix@3.1.2%intel 
+mrw5q4c        ^hwloc@2.0.2%intel 
+tm6ayg7            ^libpciaccess@0.13.5%intel 
+aojy5jp            ^libxml2@2.9.8%intel 
+63oguz2        ^libevent@2.1.8%intel 
+kxslfzu            ^openssl@1.1.1b%intel 
+
+
+-- linux-rhel7-x86_64 / intel@18.0.5 ----------------------------
+4jgpz7q    pmix@2.1.4%intel 
+vkzbos7        ^libevent@2.1.8%intel 
+zacvdf3            ^openssl@1.1.1b%intel 
+
+xc44t4v    pmix@2.2.2%intel 
+vkzbos7        ^libevent@2.1.8%intel 
+zacvdf3            ^openssl@1.1.1b%intel 
+
+ylqo2k5    pmix@3.0.2%intel 
+so44wyk        ^hwloc@2.0.2%intel 
+awuq6lx            ^libpciaccess@0.13.5%intel 
+7fsp6x4            ^libxml2@2.9.8%intel 
+vkzbos7        ^libevent@2.1.8%intel 
+zacvdf3            ^openssl@1.1.1b%intel 
+
+ojgxgi6    pmix@3.1.2%intel 
+so44wyk        ^hwloc@2.0.2%intel 
+awuq6lx            ^libpciaccess@0.13.5%intel 
+7fsp6x4            ^libxml2@2.9.8%intel 
+vkzbos7        ^libevent@2.1.8%intel 
+zacvdf3            ^openssl@1.1.1b%intel 
+
+
+-- linux-rhel7-x86_64 / pgi@16.10 -------------------------------
+svz7ru4    pmix@2.1.4%pgi 
+xxxjqen        ^libevent@2.1.8%pgi 
+u4kg5c6            ^openssl@1.1.1b%pgi 
+
+
+-- linux-rhel7-x86_64 / pgi@18.10 -------------------------------
+fprpesh    pmix@2.1.4%pgi 
+nlyeotu        ^libevent@2.1.8%pgi 
+2e7zuzb            ^openssl@1.1.1b%pgi 
+
+mv  /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/snow-standard-batch.out   /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/batch-out/snow-standard-pmix-2019-04-24-batch.out
+mv: cannot stat ‘/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/snow-standard-batch.out’: No such file or directory
+cd /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries
+git add -A .
+git commit -m "${USER} ${tpl} ${hpc} ${partition} ${ymd}"
+[master b74116b] dantopa pmix snow standard 2019-04-24
+ 8 files changed, 843 insertions(+), 2 deletions(-)
+ create mode 100644 libraries/results/graphs/pmix-snow-standard-graph.out
+ create mode 100644 libraries/results/platform-order/snow-standard-pmix.out
+Wed Apr 24 21:08:45 MDT 2019
+spack install libhio @ 1.4.1.3 % gcc@6.4.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-libhio-install.log
+spack install libhio @ 1.4.1.3 % gcc@5.3.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-libhio-install.log
+==> Error: No compilers with spec gcc@5.3.0 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+spack install libhio @ 1.4.1.3 % intel@19.0.1.144  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-libhio-install.log
+==> Error: No compilers with spec intel@19.0.1.144 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+spack install libhio @ 1.4.1.3 % intel@18.0.5  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-libhio-install.log
+spack install libhio @ 1.4.1.3 % intel@17.0.4  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-libhio-install.log
+spack install libhio @ 1.4.1.3 % intel@16.0.3  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-libhio-install.log
+==> Error: No compilers with spec intel@16.0.3 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+spack install libhio @ 1.4.1.3 % pgi@18.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-libhio-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j36'
+
+9 errors found in build log:
+     498      CCLD     libpciaccess.la
+     499    make[2]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-ex
+            oJ9c/libpciaccess-0.13.5/src'
+     500    Making all in scanpci
+     501    make[2]: Entering directory `/tmp/dantopa/spack-stage/spack-stage-e
+            xoJ9c/libpciaccess-0.13.5/scanpci'
+     502      CC       scanpci.o
+     503      CCLD     scanpci
+  >> 504    ../src/.libs/libpciaccess.so: undefined reference to `inw'
+  >> 505    ../src/.libs/libpciaccess.so: undefined reference to `outw'
+  >> 506    ../src/.libs/libpciaccess.so: undefined reference to `inb'
+  >> 507    ../src/.libs/libpciaccess.so: undefined reference to `outb'
+  >> 508    ../src/.libs/libpciaccess.so: undefined reference to `inl'
+  >> 509    ../src/.libs/libpciaccess.so: undefined reference to `outl'
+  >> 510    make[2]: *** [scanpci] Error 2
+     511    make[2]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-ex
+            oJ9c/libpciaccess-0.13.5/scanpci'
+  >> 512    make[1]: *** [all-recursive] Error 1
+     513    make[1]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-ex
+            oJ9c/libpciaccess-0.13.5'
+  >> 514    make: *** [all] Error 2
+
+See build log for details:
+  /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/libpciaccess-0.13.5-7jys5j6in74b7k76nruprcfhck2km3ic/spack-build.out
+spack install libhio @ 1.4.1.3 % pgi@17.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-libhio-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/libpciaccess-0.13.5-gbupg42otgmyvaan7owmtuj63mphpoai/libpciaccess-0.13.5/configure' '--prefix=/net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/pgi-17.10/libpciaccess-0.13.5-gbupg42otgmyvaan7owmtuj63mphpoai'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /net/scratch4/.mdt2/dantopa/spack/libraries/snow
+           -standard.libhio/lib/spack/env/pgi/pgcc
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/tmp/dantopa/spack-stage/spack-stage-mBq5Gl/li
+           bpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/libpciaccess-0.13.5-gbupg42otgmyvaan7owmtuj63mphpoai/spack-build.out
+spack install libhio @ 1.4.1.3 % pgi@16.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-libhio-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j36'
+
+9 errors found in build log:
+     498      CCLD     libpciaccess.la
+     499    make[2]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-iD
+            LY4z/libpciaccess-0.13.5/src'
+     500    Making all in scanpci
+     501    make[2]: Entering directory `/tmp/dantopa/spack-stage/spack-stage-i
+            DLY4z/libpciaccess-0.13.5/scanpci'
+     502      CC       scanpci.o
+     503      CCLD     scanpci
+  >> 504    ../src/.libs/libpciaccess.so: undefined reference to `inw'
+  >> 505    ../src/.libs/libpciaccess.so: undefined reference to `outb'
+  >> 506    ../src/.libs/libpciaccess.so: undefined reference to `outl'
+  >> 507    ../src/.libs/libpciaccess.so: undefined reference to `inb'
+  >> 508    ../src/.libs/libpciaccess.so: undefined reference to `inl'
+  >> 509    ../src/.libs/libpciaccess.so: undefined reference to `outw'
+  >> 510    make[2]: *** [scanpci] Error 2
+     511    make[2]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-iD
+            LY4z/libpciaccess-0.13.5/scanpci'
+  >> 512    make[1]: *** [all-recursive] Error 1
+     513    make[1]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-iD
+            LY4z/libpciaccess-0.13.5'
+  >> 514    make: *** [all] Error 2
+
+See build log for details:
+  /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/libpciaccess-0.13.5-5zuqqz72t6wm6l4rnhshc7df5wneu2pi/spack-build.out
+spack install libhio @ 1.4.1.2 % gcc@8.2.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-libhio-install.log
+==> Error: Command exited with status 1:
+'/usr/share/lmod/lmod/libexec/lmod' 'python' 'show' 'gcc/8.2.0'
+os.environ["__LMOD_REF_COUNT_MODULEPATH"] = "/net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/share/spack/modules/linux-rhel7-x86_64:1;/etc/modulefiles:1;/usr/share/modulefiles:1;/usr/share/modulefiles/Linux:1;/usr/share/modulefiles/Core:1;/usr/share/lmod/lmod/modulefiles/Core:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/compiler:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/debugger:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/libraries:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/misc:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/mpi:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/tools:1;/usr/projects/hpcsoft/modulefiles/toss3/snow/viz:1";
+os.environ["MODULEPATH"] = "/net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/share/spack/modules/linux-rhel7-x86_64:/etc/modulefiles:/usr/share/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core:/usr/projects/hpcsoft/modulefiles/toss3/snow/compiler:/usr/projects/hpcsoft/modulefiles/toss3/snow/debugger:/usr/projects/hpcsoft/modulefiles/toss3/snow/libraries:/usr/projects/hpcsoft/modulefiles/toss3/snow/misc:/usr/projects/hpcsoft/modulefiles/toss3/snow/mpi:/usr/projects/hpcsoft/modulefiles/toss3/snow/tools:/usr/projects/hpcsoft/modulefiles/toss3/snow/viz";
+os.environ["_ModuleTable001_"] = "X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXt9LG1wYXRoQT17Ii9uZXQvc2NyYXRjaDQvLm1kdDIvZGFudG9wYS9zcGFjay9saWJyYXJpZXMvc25vdy1zdGFuZGFyZC5saWJoaW8vc2hhcmUvc3BhY2svbW9kdWxlcy9saW51eC1yaGVsNy14ODZfNjQiLCIvZXRjL21vZHVsZWZpbGVzIiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcyIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXgiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0NvcmUiLCIvdXNyL3NoYXJlL2xtb2QvbG1vZC9tb2R1bGVmaWxlcy9Db3JlIiwiL3Vzci9wcm9qZWN0cy9ocGNzb2Z0";
+os.environ["_ModuleTable002_"] = "L21vZHVsZWZpbGVzL3Rvc3MzL3Nub3cvY29tcGlsZXIiLCIvdXNyL3Byb2plY3RzL2hwY3NvZnQvbW9kdWxlZmlsZXMvdG9zczMvc25vdy9kZWJ1Z2dlciIsIi91c3IvcHJvamVjdHMvaHBjc29mdC9tb2R1bGVmaWxlcy90b3NzMy9zbm93L2xpYnJhcmllcyIsIi91c3IvcHJvamVjdHMvaHBjc29mdC9tb2R1bGVmaWxlcy90b3NzMy9zbm93L21pc2MiLCIvdXNyL3Byb2plY3RzL2hwY3NvZnQvbW9kdWxlZmlsZXMvdG9zczMvc25vdy9tcGkiLCIvdXNyL3Byb2plY3RzL2hwY3NvZnQvbW9kdWxlZmlsZXMvdG9zczMvc25vdy90b29scyIsIi91c3IvcHJvamVjdHMvaHBjc29mdC9tb2R1bGVmaWxlcy90b3NzMy9zbm93L3ZpeiIsfSxbInN5c3RlbUJhc2VNUEFUSCJdPSIvZXRjL21v";
+os.environ["_ModuleTable003_"] = "ZHVsZWZpbGVzOi91c3Ivc2hhcmUvbW9kdWxlZmlsZXM6L3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9MaW51eDovdXNyL3NoYXJlL21vZHVsZWZpbGVzL0NvcmU6L3Vzci9zaGFyZS9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsfQ==";
+os.environ["_ModuleTable_Sz_"] = "3";
+
+false
+Lmod Warning: Failed to find the following module(s): "gcc/8.2.0" in your
+MODULEPATH
+Try:
+
+    $ module spider gcc/8.2.0
+
+to see if the module(s) are available across all compilers and MPI
+implementations.
+
+
+
+
+spack install libhio @ 1.4.1.2 % gcc@7.4.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-libhio-install.log
+spack install libhio @ 1.4.1.2 % gcc@6.4.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-libhio-install.log
+spack install libhio @ 1.4.1.2 % gcc@5.3.0  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-libhio-install.log
+==> Error: No compilers with spec gcc@5.3.0 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+spack install libhio @ 1.4.1.2 % intel@19.0.1.144  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-libhio-install.log
+==> Error: No compilers with spec intel@19.0.1.144 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+spack install libhio @ 1.4.1.2 % intel@18.0.5  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-libhio-install.log
+spack install libhio @ 1.4.1.2 % intel@17.0.4  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-libhio-install.log
+spack install libhio @ 1.4.1.2 % intel@16.0.3  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-libhio-install.log
+==> Error: No compilers with spec intel@16.0.3 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+spack install libhio @ 1.4.1.2 % pgi@18.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-libhio-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j36'
+
+9 errors found in build log:
+     498      CCLD     libpciaccess.la
+     499    make[2]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-AL
+            nuHB/libpciaccess-0.13.5/src'
+     500    Making all in scanpci
+     501    make[2]: Entering directory `/tmp/dantopa/spack-stage/spack-stage-A
+            LnuHB/libpciaccess-0.13.5/scanpci'
+     502      CC       scanpci.o
+     503      CCLD     scanpci
+  >> 504    ../src/.libs/libpciaccess.so: undefined reference to `inw'
+  >> 505    ../src/.libs/libpciaccess.so: undefined reference to `outw'
+  >> 506    ../src/.libs/libpciaccess.so: undefined reference to `inb'
+  >> 507    ../src/.libs/libpciaccess.so: undefined reference to `outb'
+  >> 508    ../src/.libs/libpciaccess.so: undefined reference to `inl'
+  >> 509    ../src/.libs/libpciaccess.so: undefined reference to `outl'
+  >> 510    make[2]: *** [scanpci] Error 2
+     511    make[2]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-AL
+            nuHB/libpciaccess-0.13.5/scanpci'
+  >> 512    make[1]: *** [all-recursive] Error 1
+     513    make[1]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-AL
+            nuHB/libpciaccess-0.13.5'
+  >> 514    make: *** [all] Error 2
+
+See build log for details:
+  /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/libpciaccess-0.13.5-7jys5j6in74b7k76nruprcfhck2km3ic/spack-build.out
+spack install libhio @ 1.4.1.2 % pgi@17.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-libhio-install.log
+==> Error: ProcessError: Command exited with status 77:
+    '/net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/libpciaccess-0.13.5-gbupg42otgmyvaan7owmtuj63mphpoai/libpciaccess-0.13.5/configure' '--prefix=/net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/opt/spack/linux-rhel7-x86_64/pgi-17.10/libpciaccess-0.13.5-gbupg42otgmyvaan7owmtuj63mphpoai'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /net/scratch4/.mdt2/dantopa/spack/libraries/snow
+           -standard.libhio/lib/spack/env/pgi/pgcc
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/tmp/dantopa/spack-stage/spack-stage-V0f67v/li
+           bpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/libpciaccess-0.13.5-gbupg42otgmyvaan7owmtuj63mphpoai/spack-build.out
+spack install libhio @ 1.4.1.2 % pgi@16.10  arch=linux-rhel7-x86_64  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-libhio-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j36'
+
+9 errors found in build log:
+     498      CCLD     libpciaccess.la
+     499    make[2]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-Zp
+            qa3j/libpciaccess-0.13.5/src'
+     500    Making all in scanpci
+     501    make[2]: Entering directory `/tmp/dantopa/spack-stage/spack-stage-Z
+            pqa3j/libpciaccess-0.13.5/scanpci'
+     502      CC       scanpci.o
+     503      CCLD     scanpci
+  >> 504    ../src/.libs/libpciaccess.so: undefined reference to `inw'
+  >> 505    ../src/.libs/libpciaccess.so: undefined reference to `outb'
+  >> 506    ../src/.libs/libpciaccess.so: undefined reference to `outl'
+  >> 507    ../src/.libs/libpciaccess.so: undefined reference to `inb'
+  >> 508    ../src/.libs/libpciaccess.so: undefined reference to `inl'
+  >> 509    ../src/.libs/libpciaccess.so: undefined reference to `outw'
+  >> 510    make[2]: *** [scanpci] Error 2
+     511    make[2]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-Zp
+            qa3j/libpciaccess-0.13.5/scanpci'
+  >> 512    make[1]: *** [all-recursive] Error 1
+     513    make[1]: Leaving directory `/tmp/dantopa/spack-stage/spack-stage-Zp
+            qa3j/libpciaccess-0.13.5'
+  >> 514    make: *** [all] Error 2
+
+See build log for details:
+  /net/scratch4/.mdt2/dantopa/spack/libraries/snow-standard.libhio/var/spack/stage/libpciaccess-0.13.5-5zuqqz72t6wm6l4rnhshc7df5wneu2pi/spack-build.out
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+mkdir -p "${dir_results}/platform-order"
+mkdir -p "${dir_results}/tpl-order"
+mkdir -p "${dir_results}/graphs"
+spack find libhio >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/platform-order/snow-standard-libhio.out
+spack find libhio >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/libhio-snow-standard.out
+spack find -ldf libhio  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/libhio-snow-standard-ldf.out
+spack graph libhio >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/graphs/libhio-snow-standard-graph.out
+==> Error: [Errno 116] Stale file handle
+spack compilers
+==> Available compilers
+-- gcc rhel7-x86_64 ---------------------------------------------
+gcc@8.2.0
+gcc@7.4.0
+gcc@6.4.0
+gcc@4.8.5
+
+-- intel rhel7-x86_64 -------------------------------------------
+intel@19.0.1
+intel@18.0.5
+intel@17.0.4
+
+-- pgi rhel7-x86_64 ---------------------------------------------
+pgi@18.10
+pgi@17.10
+pgi@16.10
+spack find libhio
+==> 10 installed packages
+-- linux-rhel7-x86_64 / gcc@4.8.5 -------------------------------
+libhio@1.4.1.2
+libhio@1.4.1.3
+
+-- linux-rhel7-x86_64 / gcc@6.4.0 -------------------------------
+libhio@1.4.1.2
+libhio@1.4.1.3
+
+-- linux-rhel7-x86_64 / gcc@7.4.0 -------------------------------
+libhio@1.4.1.2
+libhio@1.4.1.3
+
+-- linux-rhel7-x86_64 / intel@17.0.4 ----------------------------
+libhio@1.4.1.2
+libhio@1.4.1.3
+
+-- linux-rhel7-x86_64 / intel@18.0.5 ----------------------------
+libhio@1.4.1.2
+libhio@1.4.1.3
+spack find -ldf libhio
+==> 10 installed packages
+-- linux-rhel7-x86_64 / gcc@4.8.5 -------------------------------
+zxfniji    libhio@1.4.1.2%gcc 
+jkf4uhq        ^bzip2@1.0.6%gcc 
+neu7pln        ^hdf5@1.8.17%gcc 
+g6x2lja            ^numactl@2.0.12%gcc 
+nr3psix            ^openmpi@3.1.0%gcc 
+ww7x3is                ^hwloc@1.11.11%gcc 
+qxhgslw                    ^libpciaccess@0.13.5%gcc 
+xsjgwoj                    ^libxml2@2.9.8%gcc 
+vhzh5cf                ^zlib@1.2.11%gcc 
+z2t45bu        ^json-c@0.13.1%gcc 
+
+lucv6lh    libhio@1.4.1.3%gcc 
+jkf4uhq        ^bzip2@1.0.6%gcc 
+neu7pln        ^hdf5@1.8.17%gcc 
+g6x2lja            ^numactl@2.0.12%gcc 
+nr3psix            ^openmpi@3.1.0%gcc 
+ww7x3is                ^hwloc@1.11.11%gcc 
+qxhgslw                    ^libpciaccess@0.13.5%gcc 
+xsjgwoj                    ^libxml2@2.9.8%gcc 
+vhzh5cf                ^zlib@1.2.11%gcc 
+z2t45bu        ^json-c@0.13.1%gcc 
+
+
+-- linux-rhel7-x86_64 / gcc@6.4.0 -------------------------------
+tqhu7kd    libhio@1.4.1.2%gcc 
+7k2pzlu        ^bzip2@1.0.6%gcc 
+u5syege        ^hdf5@1.8.17%gcc 
+jbuilf6            ^numactl@2.0.12%gcc 
+ay2ouot            ^openmpi@3.1.4%gcc 
+foboruk                ^hwloc@1.11.11%gcc 
+o53uqv7                    ^libpciaccess@0.13.5%gcc 
+ao5x5ze                    ^libxml2@2.9.8%gcc 
+w43e56t                ^zlib@1.2.11%gcc 
+l24u3kd        ^json-c@0.13.1%gcc 
+
+p6lndph    libhio@1.4.1.3%gcc 
+7k2pzlu        ^bzip2@1.0.6%gcc 
+u5syege        ^hdf5@1.8.17%gcc 
+jbuilf6            ^numactl@2.0.12%gcc 
+ay2ouot            ^openmpi@3.1.4%gcc 
+foboruk                ^hwloc@1.11.11%gcc 
+o53uqv7                    ^libpciaccess@0.13.5%gcc 
+ao5x5ze                    ^libxml2@2.9.8%gcc 
+w43e56t                ^zlib@1.2.11%gcc 
+l24u3kd        ^json-c@0.13.1%gcc 
+
+
+-- linux-rhel7-x86_64 / gcc@7.4.0 -------------------------------
+ccmqf5j    libhio@1.4.1.2%gcc 
+ef63s25        ^bzip2@1.0.6%gcc 
+5nhcizm        ^hdf5@1.8.17%gcc 
+ugwsdhh            ^numactl@2.0.12%gcc 
+qfsk52y            ^openmpi@3.1.4%gcc 
+tkazfwt                ^hwloc@1.11.11%gcc 
+ucgnzc4                    ^libpciaccess@0.13.5%gcc 
+4ixpolx                    ^libxml2@2.9.8%gcc 
+ml43mui                ^zlib@1.2.11%gcc 
+z22i7gn        ^json-c@0.13.1%gcc 
+
+wdfgfcm    libhio@1.4.1.3%gcc 
+ef63s25        ^bzip2@1.0.6%gcc 
+5nhcizm        ^hdf5@1.8.17%gcc 
+ugwsdhh            ^numactl@2.0.12%gcc 
+qfsk52y            ^openmpi@3.1.4%gcc 
+tkazfwt                ^hwloc@1.11.11%gcc 
+ucgnzc4                    ^libpciaccess@0.13.5%gcc 
+4ixpolx                    ^libxml2@2.9.8%gcc 
+ml43mui                ^zlib@1.2.11%gcc 
+z22i7gn        ^json-c@0.13.1%gcc 
+
+
+-- linux-rhel7-x86_64 / intel@17.0.4 ----------------------------
+2exh7xs    libhio@1.4.1.2%intel 
+bfqxg55        ^bzip2@1.0.6%intel 
+7tmi3io        ^hdf5@1.8.17%intel 
+hfvvqo6            ^numactl@2.0.12%intel 
+6fnoofp            ^openmpi@3.1.4%intel 
+vyowpxu                ^hwloc@1.11.11%intel 
+tm6ayg7                    ^libpciaccess@0.13.5%intel 
+aojy5jp                    ^libxml2@2.9.8%intel 
+cauhfyo                ^zlib@1.2.11%intel 
+fcpd36w        ^json-c@0.13.1%intel 
+
+psmrdza    libhio@1.4.1.3%intel 
+bfqxg55        ^bzip2@1.0.6%intel 
+7tmi3io        ^hdf5@1.8.17%intel 
+hfvvqo6            ^numactl@2.0.12%intel 
+6fnoofp            ^openmpi@3.1.4%intel 
+vyowpxu                ^hwloc@1.11.11%intel 
+tm6ayg7                    ^libpciaccess@0.13.5%intel 
+aojy5jp                    ^libxml2@2.9.8%intel 
+cauhfyo                ^zlib@1.2.11%intel 
+fcpd36w        ^json-c@0.13.1%intel 
+
+
+-- linux-rhel7-x86_64 / intel@18.0.5 ----------------------------
+d3tvl3n    libhio@1.4.1.2%intel 
+vt4n3cg        ^bzip2@1.0.6%intel 
+nztlgyt        ^hdf5@1.8.17%intel 
+lgsjhfx            ^numactl@2.0.12%intel 
+imuu3ky            ^openmpi@3.1.4%intel 
+iegddt7                ^hwloc@1.11.11%intel 
+awuq6lx                    ^libpciaccess@0.13.5%intel 
+7fsp6x4                    ^libxml2@2.9.8%intel 
+6nlmvd2                ^zlib@1.2.11%intel 
+kreesdi        ^json-c@0.13.1%intel 
+
+sujy6bt    libhio@1.4.1.3%intel 
+vt4n3cg        ^bzip2@1.0.6%intel 
+nztlgyt        ^hdf5@1.8.17%intel 
+lgsjhfx            ^numactl@2.0.12%intel 
+imuu3ky            ^openmpi@3.1.4%intel 
+iegddt7                ^hwloc@1.11.11%intel 
+awuq6lx                    ^libpciaccess@0.13.5%intel 
+7fsp6x4                    ^libxml2@2.9.8%intel 
+6nlmvd2                ^zlib@1.2.11%intel 
+kreesdi        ^json-c@0.13.1%intel 
+
+mv  /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/snow-standard-batch.out   /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/batch-out/snow-standard-libhio-2019-04-24-batch.out
+mv: cannot stat ‘/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/snow-standard-batch.out’: No such file or directory
+cd /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries
+git add -A .
+git commit -m "${USER} ${tpl} ${hpc} ${partition} ${ymd}"
+[master 6f1a748] dantopa libhio snow standard 2019-04-24
+ 7 files changed, 1176 insertions(+)
+ create mode 100644 libraries/results/graphs/libhio-snow-standard-graph.out
+ create mode 100644 libraries/results/platform-order/snow-standard-libhio.out
+ create mode 100644 libraries/results/tpl-order/libhio-snow-standard-ldf.out
+ create mode 100644 libraries/results/tpl-order/libhio-snow-standard.out
+Wed Apr 24 22:33:36 MDT 2019

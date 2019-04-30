@@ -1,0 +1,174 @@
+Mon Apr 29 10:08:39 MDT 2019
+
+
+spack install openmpi @ 4.0.1 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2
+
+spack install openmpi @ 4.0.1 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2
+==> openmpi is already installed in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/opt/spack/cray-cnl6-arm_thunderx2/gcc-7.3.0/openmpi-4.0.1-iq7s57qo6jyfgj7a3ocmkqyfxbjwgjil
+
+spack install openmpi @ 4.0.1 % gcc@6.1.0  arch=cray-cnl6-arm_thunderx2
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/opt/spack/cray-cnl6-arm_thunderx2/gcc-6.1.0/util-macros-1.19.1-5dqpcgblqjjny5srcilcautem5443rew
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/var/spack/stage/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je/libpciaccess-0.13.5.tar.gz
+==> Created stage in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/var/spack/stage/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install openmpi @ 3.1.4 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2
+
+spack install openmpi @ 3.1.4 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/opt/spack/cray-cnl6-arm_thunderx2/gcc-7.3.0/util-macros-1.19.1-nk67leoikezxd3bfntim6whicrxld2mr
+==> libpciaccess is already installed in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/opt/spack/cray-cnl6-arm_thunderx2/gcc-7.3.0/libpciaccess-0.13.5-x7gsesv3u6o44h4rjc3fbhbtodg3oigp
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> hwloc is already installed in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/opt/spack/cray-cnl6-arm_thunderx2/gcc-7.3.0/hwloc-1.11.11-escua5mpph6camwvxhs5g2dsxjo2x2sd
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> zlib is already installed in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/opt/spack/cray-cnl6-arm_thunderx2/gcc-7.3.0/zlib-1.2.11-23nzrkzyaqvddc53zxncvnjbney2inkf
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/openmpi/openmpi-3.1.4.tar.bz2
+==> Staging archive: /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/var/spack/stage/openmpi-3.1.4-7ycszouzfqntfuakzdl5omuikxflawtg/openmpi-3.1.4.tar.bz2
+==> Created stage in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/var/spack/stage/openmpi-3.1.4-7ycszouzfqntfuakzdl5omuikxflawtg
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.25s.  Build: 19m 29.90s.  Total: 19m 30.15s.
+[+] /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/opt/spack/cray-cnl6-arm_thunderx2/gcc-7.3.0/openmpi-3.1.4-7ycszouzfqntfuakzdl5omuikxflawtg
+
+spack install openmpi @ 3.1.4 % gcc@6.1.0  arch=cray-cnl6-arm_thunderx2
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/opt/spack/cray-cnl6-arm_thunderx2/gcc-6.1.0/util-macros-1.19.1-5dqpcgblqjjny5srcilcautem5443rew
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/var/spack/stage/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je/libpciaccess-0.13.5.tar.gz
+==> Created stage in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/var/spack/stage/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install openmpi @ 3.0.4 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2
+
+spack install openmpi @ 3.0.4 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/opt/spack/cray-cnl6-arm_thunderx2/gcc-7.3.0/util-macros-1.19.1-nk67leoikezxd3bfntim6whicrxld2mr
+==> libpciaccess is already installed in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/opt/spack/cray-cnl6-arm_thunderx2/gcc-7.3.0/libpciaccess-0.13.5-x7gsesv3u6o44h4rjc3fbhbtodg3oigp
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> hwloc is already installed in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/opt/spack/cray-cnl6-arm_thunderx2/gcc-7.3.0/hwloc-1.11.11-escua5mpph6camwvxhs5g2dsxjo2x2sd
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> zlib is already installed in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/opt/spack/cray-cnl6-arm_thunderx2/gcc-7.3.0/zlib-1.2.11-23nzrkzyaqvddc53zxncvnjbney2inkf
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/openmpi/openmpi-3.0.4.tar.bz2
+==> Staging archive: /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/var/spack/stage/openmpi-3.0.4-c6arsu2fxocqjmqthhf3kahbin6gvbn2/openmpi-3.0.4.tar.bz2
+==> Created stage in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/var/spack/stage/openmpi-3.0.4-c6arsu2fxocqjmqthhf3kahbin6gvbn2
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.18s.  Build: 20m 0.31s.  Total: 20m 0.50s.
+[+] /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/opt/spack/cray-cnl6-arm_thunderx2/gcc-7.3.0/openmpi-3.0.4-c6arsu2fxocqjmqthhf3kahbin6gvbn2
+
+spack install openmpi @ 3.0.4 % gcc@6.1.0  arch=cray-cnl6-arm_thunderx2
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/opt/spack/cray-cnl6-arm_thunderx2/gcc-6.1.0/util-macros-1.19.1-5dqpcgblqjjny5srcilcautem5443rew
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/var/spack/stage/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je/libpciaccess-0.13.5.tar.gz
+==> Created stage in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/var/spack/stage/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install openmpi @ 2.1.6 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2
+
+spack install openmpi @ 2.1.6 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/opt/spack/cray-cnl6-arm_thunderx2/gcc-7.3.0/util-macros-1.19.1-nk67leoikezxd3bfntim6whicrxld2mr
+==> libpciaccess is already installed in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/opt/spack/cray-cnl6-arm_thunderx2/gcc-7.3.0/libpciaccess-0.13.5-x7gsesv3u6o44h4rjc3fbhbtodg3oigp
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> hwloc is already installed in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/opt/spack/cray-cnl6-arm_thunderx2/gcc-7.3.0/hwloc-1.11.11-escua5mpph6camwvxhs5g2dsxjo2x2sd
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/openmpi/openmpi-2.1.6.tar.bz2
+==> Staging archive: /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/var/spack/stage/openmpi-2.1.6-bh3iolwrges26kjfgpsuxj4wffbandjy/openmpi-2.1.6.tar.bz2
+==> Created stage in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/var/spack/stage/openmpi-2.1.6-bh3iolwrges26kjfgpsuxj4wffbandjy
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.25s.  Build: 17m 48.70s.  Total: 17m 48.96s.
+[+] /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/opt/spack/cray-cnl6-arm_thunderx2/gcc-7.3.0/openmpi-2.1.6-bh3iolwrges26kjfgpsuxj4wffbandjy
+
+spack install openmpi @ 2.1.6 % gcc@6.1.0  arch=cray-cnl6-arm_thunderx2
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/opt/spack/cray-cnl6-arm_thunderx2/gcc-6.1.0/util-macros-1.19.1-5dqpcgblqjjny5srcilcautem5443rew
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/var/spack/stage/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je/libpciaccess-0.13.5.tar.gz
+==> Created stage in /pfs/cpscratch1/yellow/dantopa/repos/spack/libraries/capulin-arm.openmpi/var/spack/stage/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'

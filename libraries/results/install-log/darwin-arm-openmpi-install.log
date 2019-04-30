@@ -1,0 +1,186 @@
+Mon Apr 29 10:38:57 MDT 2019
+
+
+spack install openmpi @ 4.0.1 % gcc@8.2.0  arch=linux-rhel7-aarch64
+
+spack install openmpi @ 4.0.1 % gcc@8.1.0  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+
+spack install openmpi @ 4.0.1 % gcc@7.1.0  arch=linux-rhel7-aarch64
+
+spack install openmpi @ 4.0.1 % gcc@4.8.5  arch=linux-rhel7-aarch64
+
+spack install openmpi @ 4.0.1 % arm@19.1  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+
+spack install openmpi @ 4.0.1 % clang@18.4.2  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+
+spack install openmpi @ 4.0.1 % clang@18.4.1  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+
+spack install openmpi @ 4.0.1 % clang@18.4.0  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> Installing util-macros
+==> Searching for binary cache of util-macros
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for util-macros found: installing from source
+
+spack install openmpi @ 4.0.1 % clang@7.0.0  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+
+spack install openmpi @ 3.1.4 % gcc@8.2.0  arch=linux-rhel7-aarch64
+
+spack install openmpi @ 3.1.4 % gcc@8.1.0  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+
+spack install openmpi @ 3.1.4 % gcc@7.1.0  arch=linux-rhel7-aarch64
+
+spack install openmpi @ 3.1.4 % gcc@4.8.5  arch=linux-rhel7-aarch64
+
+spack install openmpi @ 3.1.4 % arm@19.1  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+
+spack install openmpi @ 3.1.4 % clang@18.4.2  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+
+spack install openmpi @ 3.1.4 % clang@18.4.1  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+
+spack install openmpi @ 3.1.4 % clang@18.4.0  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> Installing util-macros
+==> Searching for binary cache of util-macros
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for util-macros found: installing from source
+
+spack install openmpi @ 3.1.4 % clang@7.0.0  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+
+spack install openmpi @ 3.0.4 % gcc@8.2.0  arch=linux-rhel7-aarch64
+
+spack install openmpi @ 3.0.4 % gcc@8.1.0  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+
+spack install openmpi @ 3.0.4 % gcc@7.1.0  arch=linux-rhel7-aarch64
+
+spack install openmpi @ 3.0.4 % gcc@4.8.5  arch=linux-rhel7-aarch64
+
+spack install openmpi @ 3.0.4 % arm@19.1  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+
+spack install openmpi @ 3.0.4 % clang@18.4.2  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+
+spack install openmpi @ 3.0.4 % clang@18.4.1  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+
+spack install openmpi @ 3.0.4 % clang@18.4.0  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> Installing util-macros
+==> Searching for binary cache of util-macros
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for util-macros found: installing from source
+
+spack install openmpi @ 3.0.4 % clang@7.0.0  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+
+spack install openmpi @ 2.1.6 % gcc@8.2.0  arch=linux-rhel7-aarch64
+
+spack install openmpi @ 2.1.6 % gcc@8.1.0  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+
+spack install openmpi @ 2.1.6 % gcc@7.1.0  arch=linux-rhel7-aarch64
+
+spack install openmpi @ 2.1.6 % gcc@4.8.5  arch=linux-rhel7-aarch64
+
+spack install openmpi @ 2.1.6 % arm@19.1  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+
+spack install openmpi @ 2.1.6 % clang@18.4.2  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+
+spack install openmpi @ 2.1.6 % clang@18.4.1  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+
+spack install openmpi @ 2.1.6 % clang@18.4.0  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> Installing util-macros
+==> Searching for binary cache of util-macros
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for util-macros found: installing from source
+
+spack install openmpi @ 2.1.6 % clang@7.0.0  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB

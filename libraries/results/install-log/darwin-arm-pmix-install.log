@@ -1,0 +1,380 @@
+Wed Apr 24 16:14:22 MDT 2019
+
+
+spack install pmix @ 3.1.2 % gcc@8.2.0  arch=linux-rhel7-aarch64
+==> pmix is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/gcc-8.2.0/pmix-3.1.2-2dhlnqq5zrhrkq7sbx6hynewfiqveqig
+
+spack install pmix @ 3.1.2 % gcc@8.1.0  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/gcc-8.1.0/util-macros-1.19.1-ebpysshggo32zk4dga537yakdo5wdeia
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-gpzuvig2ughdn2tbygwjwwo4sjjjpckx/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-gpzuvig2ughdn2tbygwjwwo4sjjjpckx
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install pmix @ 3.1.2 % gcc@7.1.0  arch=linux-rhel7-aarch64
+==> pmix is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/gcc-7.1.0/pmix-3.1.2-2zgcz6d2l6qd47i6i2jqf4hnafswlyim
+
+spack install pmix @ 3.1.2 % gcc@4.8.5  arch=linux-rhel7-aarch64
+==> pmix is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/pmix-3.1.2-ospnwd6ezzpxgm3w2mqiuhxzfjk2aigb
+
+spack install pmix @ 3.1.2 % arm@19.1  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/arm-19.1/util-macros-1.19.1-6334hbdfcbbks7mxvueh7ol2e2q55gt3
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-syimrildzpuh3cythz2l2zkwmk4e2buv/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-syimrildzpuh3cythz2l2zkwmk4e2buv
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install pmix @ 3.1.2 % clang@18.4.2  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/clang-18.4.2/util-macros-1.19.1-cn7b44vbwcvskh5rebgthm37uii37nu7
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-zmhg7tt5i5efkdqkbklhejtqo2trvtr7/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-zmhg7tt5i5efkdqkbklhejtqo2trvtr7
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install pmix @ 3.1.2 % clang@18.4.1  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/clang-18.4.1/util-macros-1.19.1-l6bywkvjvdjtht56dcesy2736lyzzpp7
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-q2f4lw2hjiy26w67orjs4od4jvewx5ir/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-q2f4lw2hjiy26w67orjs4od4jvewx5ir
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install pmix @ 3.1.2 % clang@18.4.0  arch=linux-rhel7-aarch64
+==> pmix is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/clang-18.4.0/pmix-3.1.2-4unymgkttyr43l42xiaumexinre5j7cb
+
+spack install pmix @ 3.1.2 % clang@7.0.0  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/clang-7.0.0/util-macros-1.19.1-ksbkmubtrwwq5exzl5sdf7z2lz3vyjli
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-t24hqeld27fu4srlt6s5ujtp5lhff5bg/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-t24hqeld27fu4srlt6s5ujtp5lhff5bg
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install pmix @ 3.0.2 % gcc@8.2.0  arch=linux-rhel7-aarch64
+==> pmix is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/gcc-8.2.0/pmix-3.0.2-ry7dsjvljph62wdvuklzqpvoqkk62fov
+
+spack install pmix @ 3.0.2 % gcc@8.1.0  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/gcc-8.1.0/util-macros-1.19.1-ebpysshggo32zk4dga537yakdo5wdeia
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-gpzuvig2ughdn2tbygwjwwo4sjjjpckx/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-gpzuvig2ughdn2tbygwjwwo4sjjjpckx
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install pmix @ 3.0.2 % gcc@7.1.0  arch=linux-rhel7-aarch64
+==> pmix is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/gcc-7.1.0/pmix-3.0.2-pv26vjyi7325o4hqmjmvoqz26qg7dt6z
+
+spack install pmix @ 3.0.2 % gcc@4.8.5  arch=linux-rhel7-aarch64
+==> pmix is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/pmix-3.0.2-cjxrvakgh7e5abmmo2wdhhkmysryck6r
+
+spack install pmix @ 3.0.2 % arm@19.1  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/arm-19.1/util-macros-1.19.1-6334hbdfcbbks7mxvueh7ol2e2q55gt3
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-syimrildzpuh3cythz2l2zkwmk4e2buv/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-syimrildzpuh3cythz2l2zkwmk4e2buv
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install pmix @ 3.0.2 % clang@18.4.2  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/clang-18.4.2/util-macros-1.19.1-cn7b44vbwcvskh5rebgthm37uii37nu7
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-zmhg7tt5i5efkdqkbklhejtqo2trvtr7/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-zmhg7tt5i5efkdqkbklhejtqo2trvtr7
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install pmix @ 3.0.2 % clang@18.4.1  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/clang-18.4.1/util-macros-1.19.1-l6bywkvjvdjtht56dcesy2736lyzzpp7
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-q2f4lw2hjiy26w67orjs4od4jvewx5ir/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-q2f4lw2hjiy26w67orjs4od4jvewx5ir
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install pmix @ 3.0.2 % clang@18.4.0  arch=linux-rhel7-aarch64
+==> pmix is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/clang-18.4.0/pmix-3.0.2-63sdy53ccjozbm5m24ssgjrce5ehs5oc
+
+spack install pmix @ 3.0.2 % clang@7.0.0  arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/clang-7.0.0/util-macros-1.19.1-ksbkmubtrwwq5exzl5sdf7z2lz3vyjli
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-t24hqeld27fu4srlt6s5ujtp5lhff5bg/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libpciaccess-0.13.5-t24hqeld27fu4srlt6s5ujtp5lhff5bg
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install pmix @ 2.2.2 % gcc@8.2.0  arch=linux-rhel7-aarch64
+==> pmix is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/gcc-8.2.0/pmix-2.2.2-nw36mogcxpwzk2aikspcdw7jtqiqld4d
+
+spack install pmix @ 2.2.2 % gcc@8.1.0  arch=linux-rhel7-aarch64
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> Installing libevent
+==> Searching for binary cache of libevent
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libevent found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/libevent/libevent-2.1.8.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libevent-2.1.8-bpx7chgsd2xshewk5zh7qt3bifm4pjld/libevent-2.1.8-stable.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libevent-2.1.8-bpx7chgsd2xshewk5zh7qt3bifm4pjld
+==> No patches needed for libevent
+==> Building libevent [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install pmix @ 2.2.2 % gcc@7.1.0  arch=linux-rhel7-aarch64
+==> pmix is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/gcc-7.1.0/pmix-2.2.2-a5whrle5buiff22qzdbpyhowys5w7zg5
+
+spack install pmix @ 2.2.2 % gcc@4.8.5  arch=linux-rhel7-aarch64
+==> pmix is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/pmix-2.2.2-irohz74wfwcwc6wltn3vwwjquidx7wr7
+
+spack install pmix @ 2.2.2 % arm@19.1  arch=linux-rhel7-aarch64
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> Installing libevent
+==> Searching for binary cache of libevent
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libevent found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/cache/libevent/libevent-2.1.8.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libevent-2.1.8-qyhcbkcqxtbxc66xivbq3s52arwq55td/libevent-2.1.8-stable.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libevent-2.1.8-qyhcbkcqxtbxc66xivbq3s52arwq55td
+==> No patches needed for libevent
+==> Building libevent [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install pmix @ 2.2.2 % clang@18.4.2  arch=linux-rhel7-aarch64
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> Installing libevent
+==> Searching for binary cache of libevent
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libevent found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/cache/libevent/libevent-2.1.8.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libevent-2.1.8-vvhzkjnqlubvbq4zlftei2dm3cgfj2sw/libevent-2.1.8-stable.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libevent-2.1.8-vvhzkjnqlubvbq4zlftei2dm3cgfj2sw
+==> No patches needed for libevent
+==> Building libevent [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install pmix @ 2.2.2 % clang@18.4.1  arch=linux-rhel7-aarch64
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> Installing libevent
+==> Searching for binary cache of libevent
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libevent found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/cache/libevent/libevent-2.1.8.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libevent-2.1.8-44qgojiodmdvmk45qquj62yzijkdhgyy/libevent-2.1.8-stable.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libevent-2.1.8-44qgojiodmdvmk45qquj62yzijkdhgyy
+==> No patches needed for libevent
+==> Building libevent [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install pmix @ 2.2.2 % clang@18.4.0  arch=linux-rhel7-aarch64
+==> pmix is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/clang-18.4.0/pmix-2.2.2-c3tisariqprqwabweq44f3dbm5grxgg4
+
+spack install pmix @ 2.2.2 % clang@7.0.0  arch=linux-rhel7-aarch64
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> Installing libevent
+==> Searching for binary cache of libevent
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libevent found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/cache/libevent/libevent-2.1.8.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libevent-2.1.8-dmmmzdth4chhe6y3jg7ujdjfcim7n4g7/libevent-2.1.8-stable.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libevent-2.1.8-dmmmzdth4chhe6y3jg7ujdjfcim7n4g7
+==> No patches needed for libevent
+==> Building libevent [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install pmix @ 2.1.4 % gcc@8.2.0  arch=linux-rhel7-aarch64
+==> pmix is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/gcc-8.2.0/pmix-2.1.4-5e3z47p6sllomaxb672ic4mr3gvc3rbo
+
+spack install pmix @ 2.1.4 % gcc@8.1.0  arch=linux-rhel7-aarch64
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> Installing libevent
+==> Searching for binary cache of libevent
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libevent found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/cache/libevent/libevent-2.1.8.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libevent-2.1.8-bpx7chgsd2xshewk5zh7qt3bifm4pjld/libevent-2.1.8-stable.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libevent-2.1.8-bpx7chgsd2xshewk5zh7qt3bifm4pjld
+==> No patches needed for libevent
+==> Building libevent [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install pmix @ 2.1.4 % gcc@7.1.0  arch=linux-rhel7-aarch64
+==> pmix is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/gcc-7.1.0/pmix-2.1.4-efeq4qvwkxrx7wkxmk3s5zuxhhmavcfs
+
+spack install pmix @ 2.1.4 % gcc@4.8.5  arch=linux-rhel7-aarch64
+==> pmix is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/pmix-2.1.4-locccivavfxmf273vgxvfyy5vtx35s4o
+
+spack install pmix @ 2.1.4 % arm@19.1  arch=linux-rhel7-aarch64
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> Installing libevent
+==> Searching for binary cache of libevent
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libevent found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/cache/libevent/libevent-2.1.8.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libevent-2.1.8-qyhcbkcqxtbxc66xivbq3s52arwq55td/libevent-2.1.8-stable.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libevent-2.1.8-qyhcbkcqxtbxc66xivbq3s52arwq55td
+==> No patches needed for libevent
+==> Building libevent [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install pmix @ 2.1.4 % clang@18.4.2  arch=linux-rhel7-aarch64
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> Installing libevent
+==> Searching for binary cache of libevent
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libevent found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/cache/libevent/libevent-2.1.8.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libevent-2.1.8-vvhzkjnqlubvbq4zlftei2dm3cgfj2sw/libevent-2.1.8-stable.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libevent-2.1.8-vvhzkjnqlubvbq4zlftei2dm3cgfj2sw
+==> No patches needed for libevent
+==> Building libevent [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install pmix @ 2.1.4 % clang@18.4.1  arch=linux-rhel7-aarch64
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> Installing libevent
+==> Searching for binary cache of libevent
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libevent found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/cache/libevent/libevent-2.1.8.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libevent-2.1.8-44qgojiodmdvmk45qquj62yzijkdhgyy/libevent-2.1.8-stable.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libevent-2.1.8-44qgojiodmdvmk45qquj62yzijkdhgyy
+==> No patches needed for libevent
+==> Building libevent [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install pmix @ 2.1.4 % clang@18.4.0  arch=linux-rhel7-aarch64
+==> pmix is already installed in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/opt/spack/linux-rhel7-aarch64/clang-18.4.0/pmix-2.1.4-tpo7s72ngqhbhzdrhtocyums7jjlriif
+
+spack install pmix @ 2.1.4 % clang@7.0.0  arch=linux-rhel7-aarch64
+==> openssl@1.1.1b : externally installed in /usr
+==> openssl@1.1.1b : already registered in DB
+==> Installing libevent
+==> Searching for binary cache of libevent
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libevent found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/cache/libevent/libevent-2.1.8.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libevent-2.1.8-dmmmzdth4chhe6y3jg7ujdjfcim7n4g7/libevent-2.1.8-stable.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix/var/spack/stage/libevent-2.1.8-dmmmzdth4chhe6y3jg7ujdjfcim7n4g7
+==> No patches needed for libevent
+==> Building libevent [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'

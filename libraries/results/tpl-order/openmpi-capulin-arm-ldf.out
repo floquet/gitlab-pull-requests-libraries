@@ -1,0 +1,41 @@
+Mon Apr 29 11:08:46 MDT 2019
+/lustre/cpscratch1/dantopa/repos/spack/libraries/capulin-arm.openmpi
+spack find -ldf openmpi
+==> 5 installed packages
+-- cray-cnl6-arm_thunderx2 / gcc@7.3.0 --------------------------
+bh3iolw    openmpi@2.1.6%gcc 
+escua5m        ^hwloc@1.11.11%gcc 
+x7gsesv            ^libpciaccess@0.13.5%gcc 
+4wvodxv            ^libxml2@2.9.8%gcc 
+7qperrt        ^numactl@2.0.12%gcc 
+
+c6arsu2    openmpi@3.0.4%gcc 
+escua5m        ^hwloc@1.11.11%gcc 
+x7gsesv            ^libpciaccess@0.13.5%gcc 
+4wvodxv            ^libxml2@2.9.8%gcc 
+7qperrt        ^numactl@2.0.12%gcc 
+23nzrkz        ^zlib@1.2.11%gcc 
+
+7ycszou    openmpi@3.1.4%gcc 
+escua5m        ^hwloc@1.11.11%gcc 
+x7gsesv            ^libpciaccess@0.13.5%gcc 
+4wvodxv            ^libxml2@2.9.8%gcc 
+7qperrt        ^numactl@2.0.12%gcc 
+23nzrkz        ^zlib@1.2.11%gcc 
+
+iq7s57q    openmpi@4.0.1%gcc 
+escua5m        ^hwloc@1.11.11%gcc 
+x7gsesv            ^libpciaccess@0.13.5%gcc 
+4wvodxv            ^libxml2@2.9.8%gcc 
+7qperrt        ^numactl@2.0.12%gcc 
+23nzrkz        ^zlib@1.2.11%gcc 
+
+
+-- cray-cnl6-arm_thunderx2 / gcc@8.2.0 --------------------------
+tserntc    openmpi@4.0.1%gcc 
+fyyzqam        ^hwloc@1.11.11%gcc 
+kjzalvs            ^libpciaccess@0.13.5%gcc 
+f6rwdah            ^libxml2@2.9.8%gcc 
+4sxssb5        ^numactl@2.0.12%gcc 
+qd2bcw6        ^zlib@1.2.11%gcc 
+

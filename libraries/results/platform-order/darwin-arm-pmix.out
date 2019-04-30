@@ -1,0 +1,27 @@
+Wed Apr 24 16:18:23 MDT 2019
+/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix
+spack find pmix >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/platform-order/darwin-arm-pmix.out
+==> 16 installed packages
+-- linux-rhel7-aarch64 / clang@18.4.0 ---------------------------
+pmix@2.1.4
+pmix@2.2.2
+pmix@3.0.2
+pmix@3.1.2
+
+-- linux-rhel7-aarch64 / gcc@4.8.5 ------------------------------
+pmix@2.1.4
+pmix@2.2.2
+pmix@3.0.2
+pmix@3.1.2
+
+-- linux-rhel7-aarch64 / gcc@7.1.0 ------------------------------
+pmix@2.1.4
+pmix@2.2.2
+pmix@3.0.2
+pmix@3.1.2
+
+-- linux-rhel7-aarch64 / gcc@8.2.0 ------------------------------
+pmix@2.1.4
+pmix@2.2.2
+pmix@3.0.2
+pmix@3.1.2

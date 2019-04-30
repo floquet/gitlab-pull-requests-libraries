@@ -1,0 +1,942 @@
+Thu Apr 18 23:59:34 MDT 2019 [1m/home/dantopa/.mybash(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/platforms.sh(B[m
+attempting to mkdir /scratch/users/dantopa/repos/gitlab/node-queries/darwin/general-cn121/dir-configuration
+directory of core scripts = ${core} = /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/master.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/gcc.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh: line 5: gonode: command not found
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/git.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/ssh.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/vim.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bash.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/finds.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/cmake.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/fortran.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/copy-configuration.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-bitbucket.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-github.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-gitlab.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/disk.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh: line 33: sinfo_s: command not found
+[master 89bf1a4] darwin-general-cn121 Thu Apr 18 23:59:34 MDT 2019
+ 3 files changed, 15 insertions(+)
+ create mode 100644 libraries/tools/bash/darwin-arm-batch.out
+ create mode 100644 libraries/tools/bash/darwin-general-batch.out
+ create mode 100644 libraries/tools/bash/darwin-power9-batch.out
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh: line 5: gonode: command not found
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/uname.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/spack.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/modules.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/alias.sh(B[m
+Thu Apr 18 23:59:34 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh: line 11: myprompt: command not found
+[master 6077ee3] darwin-general-cn121 Thu Apr 18 23:59:34 MDT 2019
+ 2 files changed, 28 insertions(+)
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh: line 33: sinfo_s: command not found
+Thu Apr 18 23:59:41 MDT 2019 /tmp/slurmd/job5185850/slurm_script
+source "${dir_tools}/bash/master-tpl-sweep.sh"
+Thu Apr 18 23:59:41 MDT 2019 /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh
+cd /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools
+source directories/libraries-darwin.sh
+Thu Apr 18 23:59:41 MDT 2019 [1mdirectories/libraries-darwin.sh(B[m
+source tpl-versions/versions-openmpi.sh
+Thu Apr 18 23:59:41 MDT 2019 [1mtpl-versions/versions-openmpi.sh(B[m
+4 openmpi versions loaded:
+4.0.1  3.1.3  3.0.3  2.1.6
+
+source compilers/compilers-darwin-general.sh
+Thu Apr 18 23:59:41 MDT 2019 [1mcompilers/compilers-darwin-general.sh(B[m
+13 Spack-recognized compilers loaded:
+gcc@8.2.0  gcc@7.3.0  gcc@6.4.0  gcc@5.5.0  gcc@4.9.3  gcc@4.8.5 intel@18.0.3  intel@17.0.6  intel@16.0.4  pgi@18.10  pgi@18.7  pgi@17.10  pgi@16.10
+
+source klingons/darwin-general-openmpi.sh
+/scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 36: klingons/darwin-general-openmpi.sh: No such file or directory
+cd /scratch/users/dantopa/new-spack/libraries/darwin-general.openmpi
+. share/spack/setup-env.sh
+export spack_architecture='arch=linux-centos7-x86_64'
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+spack install openmpi @ 4.0.1 % gcc@8.2.0  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+spack install openmpi @ 4.0.1 % gcc@7.3.0  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+spack install openmpi @ 4.0.1 % gcc@6.4.0  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+spack install openmpi @ 4.0.1 % gcc@5.5.0  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+spack install openmpi @ 4.0.1 % gcc@4.9.3  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+spack install openmpi @ 4.0.1 % gcc@4.8.5  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+spack install openmpi @ 4.0.1 % intel@18.0.3  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+spack install openmpi @ 4.0.1 % intel@17.0.6  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+spack install openmpi @ 4.0.1 % intel@16.0.4  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+spack install openmpi @ 4.0.1 % pgi@18.10  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j40'
+
+9 errors found in build log:
+     174      CCLD     libpciaccess.la
+     175    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-UqFYfb/libpciaccess-0.13.5/src'
+     176    Making all in scanpci
+     177    make[2]: Entering directory `/ram/tmp/dantopa/spack-stage/spack-sta
+            ge-UqFYfb/libpciaccess-0.13.5/scanpci'
+     178      CC       scanpci.o
+     179      CCLD     scanpci
+  >> 180    ../src/.libs/libpciaccess.so: undefined reference to `inw'
+  >> 181    ../src/.libs/libpciaccess.so: undefined reference to `outw'
+  >> 182    ../src/.libs/libpciaccess.so: undefined reference to `inb'
+  >> 183    ../src/.libs/libpciaccess.so: undefined reference to `outb'
+  >> 184    ../src/.libs/libpciaccess.so: undefined reference to `inl'
+  >> 185    ../src/.libs/libpciaccess.so: undefined reference to `outl'
+  >> 186    make[2]: *** [scanpci] Error 2
+     187    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-UqFYfb/libpciaccess-0.13.5/scanpci'
+  >> 188    make[1]: *** [all-recursive] Error 1
+     189    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-UqFYfb/libpciaccess-0.13.5'
+  >> 190    make: *** [all] Error 2
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-general.openmpi/var/spack/stage/libpciaccess-0.13.5-txmk33tz4pwzoqpu7kzmtcuskj56yt5y/spack-build.out
+spack install openmpi @ 4.0.1 % pgi@18.7  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j40'
+
+9 errors found in build log:
+     174      CCLD     libpciaccess.la
+     175    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-AsZb7t/libpciaccess-0.13.5/src'
+     176    Making all in scanpci
+     177    make[2]: Entering directory `/ram/tmp/dantopa/spack-stage/spack-sta
+            ge-AsZb7t/libpciaccess-0.13.5/scanpci'
+     178      CC       scanpci.o
+     179      CCLD     scanpci
+  >> 180    ../src/.libs/libpciaccess.so: undefined reference to `inw'
+  >> 181    ../src/.libs/libpciaccess.so: undefined reference to `outw'
+  >> 182    ../src/.libs/libpciaccess.so: undefined reference to `inb'
+  >> 183    ../src/.libs/libpciaccess.so: undefined reference to `outb'
+  >> 184    ../src/.libs/libpciaccess.so: undefined reference to `inl'
+  >> 185    ../src/.libs/libpciaccess.so: undefined reference to `outl'
+  >> 186    make[2]: *** [scanpci] Error 2
+     187    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-AsZb7t/libpciaccess-0.13.5/scanpci'
+  >> 188    make[1]: *** [all-recursive] Error 1
+     189    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-AsZb7t/libpciaccess-0.13.5'
+  >> 190    make: *** [all] Error 2
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-general.openmpi/var/spack/stage/libpciaccess-0.13.5-v53lqyxkusuk5gzpa2c27if6gz74i6ef/spack-build.out
+spack install openmpi @ 4.0.1 % pgi@17.10  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j40'
+
+9 errors found in build log:
+     174      CCLD     libpciaccess.la
+     175    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-_Ra3lm/libpciaccess-0.13.5/src'
+     176    Making all in scanpci
+     177    make[2]: Entering directory `/ram/tmp/dantopa/spack-stage/spack-sta
+            ge-_Ra3lm/libpciaccess-0.13.5/scanpci'
+     178      CC       scanpci.o
+     179      CCLD     scanpci
+  >> 180    ../src/.libs/libpciaccess.so: undefined reference to `inw'
+  >> 181    ../src/.libs/libpciaccess.so: undefined reference to `outb'
+  >> 182    ../src/.libs/libpciaccess.so: undefined reference to `outl'
+  >> 183    ../src/.libs/libpciaccess.so: undefined reference to `inb'
+  >> 184    ../src/.libs/libpciaccess.so: undefined reference to `inl'
+  >> 185    ../src/.libs/libpciaccess.so: undefined reference to `outw'
+  >> 186    make[2]: *** [scanpci] Error 2
+     187    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-_Ra3lm/libpciaccess-0.13.5/scanpci'
+  >> 188    make[1]: *** [all-recursive] Error 1
+     189    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-_Ra3lm/libpciaccess-0.13.5'
+  >> 190    make: *** [all] Error 2
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-general.openmpi/var/spack/stage/libpciaccess-0.13.5-pg2xuuyhcjdndbls4t7dgpig6zg6rbgi/spack-build.out
+spack install openmpi @ 4.0.1 % pgi@16.10  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j40'
+
+9 errors found in build log:
+     174      CCLD     libpciaccess.la
+     175    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-ckQwsp/libpciaccess-0.13.5/src'
+     176    Making all in scanpci
+     177    make[2]: Entering directory `/ram/tmp/dantopa/spack-stage/spack-sta
+            ge-ckQwsp/libpciaccess-0.13.5/scanpci'
+     178      CC       scanpci.o
+     179      CCLD     scanpci
+  >> 180    ../src/.libs/libpciaccess.so: undefined reference to `inw'
+  >> 181    ../src/.libs/libpciaccess.so: undefined reference to `outb'
+  >> 182    ../src/.libs/libpciaccess.so: undefined reference to `outl'
+  >> 183    ../src/.libs/libpciaccess.so: undefined reference to `inb'
+  >> 184    ../src/.libs/libpciaccess.so: undefined reference to `inl'
+  >> 185    ../src/.libs/libpciaccess.so: undefined reference to `outw'
+  >> 186    make[2]: *** [scanpci] Error 2
+     187    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-ckQwsp/libpciaccess-0.13.5/scanpci'
+  >> 188    make[1]: *** [all-recursive] Error 1
+     189    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-ckQwsp/libpciaccess-0.13.5'
+  >> 190    make: *** [all] Error 2
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-general.openmpi/var/spack/stage/libpciaccess-0.13.5-nl5rxpywvoxmxgoo22g2rne5btq2crh5/spack-build.out
+spack install openmpi @ 3.1.3 % gcc@8.2.0  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+spack install openmpi @ 3.1.3 % gcc@7.3.0  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+spack install openmpi @ 3.1.3 % gcc@6.4.0  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+spack install openmpi @ 3.1.3 % gcc@5.5.0  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+spack install openmpi @ 3.1.3 % gcc@4.9.3  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+spack install openmpi @ 3.1.3 % gcc@4.8.5  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+spack install openmpi @ 3.1.3 % intel@18.0.3  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+spack install openmpi @ 3.1.3 % intel@17.0.6  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+spack install openmpi @ 3.1.3 % intel@16.0.4  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+spack install openmpi @ 3.1.3 % pgi@18.10  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j40'
+
+9 errors found in build log:
+     174      CCLD     libpciaccess.la
+     175    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-JdpCjJ/libpciaccess-0.13.5/src'
+     176    Making all in scanpci
+     177    make[2]: Entering directory `/ram/tmp/dantopa/spack-stage/spack-sta
+            ge-JdpCjJ/libpciaccess-0.13.5/scanpci'
+     178      CC       scanpci.o
+     179      CCLD     scanpci
+  >> 180    ../src/.libs/libpciaccess.so: undefined reference to `inw'
+  >> 181    ../src/.libs/libpciaccess.so: undefined reference to `outw'
+  >> 182    ../src/.libs/libpciaccess.so: undefined reference to `inb'
+  >> 183    ../src/.libs/libpciaccess.so: undefined reference to `outb'
+  >> 184    ../src/.libs/libpciaccess.so: undefined reference to `inl'
+  >> 185    ../src/.libs/libpciaccess.so: undefined reference to `outl'
+  >> 186    make[2]: *** [scanpci] Error 2
+     187    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-JdpCjJ/libpciaccess-0.13.5/scanpci'
+  >> 188    make[1]: *** [all-recursive] Error 1
+     189    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-JdpCjJ/libpciaccess-0.13.5'
+  >> 190    make: *** [all] Error 2
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-general.openmpi/var/spack/stage/libpciaccess-0.13.5-txmk33tz4pwzoqpu7kzmtcuskj56yt5y/spack-build.out
+spack install openmpi @ 3.1.3 % pgi@18.7  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j40'
+
+9 errors found in build log:
+     174      CCLD     libpciaccess.la
+     175    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-kUgWh4/libpciaccess-0.13.5/src'
+     176    Making all in scanpci
+     177    make[2]: Entering directory `/ram/tmp/dantopa/spack-stage/spack-sta
+            ge-kUgWh4/libpciaccess-0.13.5/scanpci'
+     178      CC       scanpci.o
+     179      CCLD     scanpci
+  >> 180    ../src/.libs/libpciaccess.so: undefined reference to `inw'
+  >> 181    ../src/.libs/libpciaccess.so: undefined reference to `outw'
+  >> 182    ../src/.libs/libpciaccess.so: undefined reference to `inb'
+  >> 183    ../src/.libs/libpciaccess.so: undefined reference to `outb'
+  >> 184    ../src/.libs/libpciaccess.so: undefined reference to `inl'
+  >> 185    ../src/.libs/libpciaccess.so: undefined reference to `outl'
+  >> 186    make[2]: *** [scanpci] Error 2
+     187    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-kUgWh4/libpciaccess-0.13.5/scanpci'
+  >> 188    make[1]: *** [all-recursive] Error 1
+     189    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-kUgWh4/libpciaccess-0.13.5'
+  >> 190    make: *** [all] Error 2
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-general.openmpi/var/spack/stage/libpciaccess-0.13.5-v53lqyxkusuk5gzpa2c27if6gz74i6ef/spack-build.out
+spack install openmpi @ 3.1.3 % pgi@17.10  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j40'
+
+9 errors found in build log:
+     174      CCLD     libpciaccess.la
+     175    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-ZpgcMA/libpciaccess-0.13.5/src'
+     176    Making all in scanpci
+     177    make[2]: Entering directory `/ram/tmp/dantopa/spack-stage/spack-sta
+            ge-ZpgcMA/libpciaccess-0.13.5/scanpci'
+     178      CC       scanpci.o
+     179      CCLD     scanpci
+  >> 180    ../src/.libs/libpciaccess.so: undefined reference to `inw'
+  >> 181    ../src/.libs/libpciaccess.so: undefined reference to `outb'
+  >> 182    ../src/.libs/libpciaccess.so: undefined reference to `outl'
+  >> 183    ../src/.libs/libpciaccess.so: undefined reference to `inb'
+  >> 184    ../src/.libs/libpciaccess.so: undefined reference to `inl'
+  >> 185    ../src/.libs/libpciaccess.so: undefined reference to `outw'
+  >> 186    make[2]: *** [scanpci] Error 2
+     187    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-ZpgcMA/libpciaccess-0.13.5/scanpci'
+  >> 188    make[1]: *** [all-recursive] Error 1
+     189    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-ZpgcMA/libpciaccess-0.13.5'
+  >> 190    make: *** [all] Error 2
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-general.openmpi/var/spack/stage/libpciaccess-0.13.5-pg2xuuyhcjdndbls4t7dgpig6zg6rbgi/spack-build.out
+spack install openmpi @ 3.1.3 % pgi@16.10  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j40'
+
+9 errors found in build log:
+     174      CCLD     libpciaccess.la
+     175    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-7ANU3v/libpciaccess-0.13.5/src'
+     176    Making all in scanpci
+     177    make[2]: Entering directory `/ram/tmp/dantopa/spack-stage/spack-sta
+            ge-7ANU3v/libpciaccess-0.13.5/scanpci'
+     178      CC       scanpci.o
+     179      CCLD     scanpci
+  >> 180    ../src/.libs/libpciaccess.so: undefined reference to `inw'
+  >> 181    ../src/.libs/libpciaccess.so: undefined reference to `outb'
+  >> 182    ../src/.libs/libpciaccess.so: undefined reference to `outl'
+  >> 183    ../src/.libs/libpciaccess.so: undefined reference to `inb'
+  >> 184    ../src/.libs/libpciaccess.so: undefined reference to `inl'
+  >> 185    ../src/.libs/libpciaccess.so: undefined reference to `outw'
+  >> 186    make[2]: *** [scanpci] Error 2
+     187    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-7ANU3v/libpciaccess-0.13.5/scanpci'
+  >> 188    make[1]: *** [all-recursive] Error 1
+     189    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-7ANU3v/libpciaccess-0.13.5'
+  >> 190    make: *** [all] Error 2
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-general.openmpi/var/spack/stage/libpciaccess-0.13.5-nl5rxpywvoxmxgoo22g2rne5btq2crh5/spack-build.out
+spack install openmpi @ 3.0.3 % gcc@8.2.0  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+spack install openmpi @ 3.0.3 % gcc@7.3.0  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+spack install openmpi @ 3.0.3 % gcc@6.4.0  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+spack install openmpi @ 3.0.3 % gcc@5.5.0  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+spack install openmpi @ 3.0.3 % gcc@4.9.3  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+spack install openmpi @ 3.0.3 % gcc@4.8.5  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+spack install openmpi @ 3.0.3 % intel@18.0.3  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+spack install openmpi @ 3.0.3 % intel@17.0.6  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+spack install openmpi @ 3.0.3 % intel@16.0.4  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+spack install openmpi @ 3.0.3 % pgi@18.10  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j40'
+
+9 errors found in build log:
+     174      CCLD     libpciaccess.la
+     175    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-b7WuUs/libpciaccess-0.13.5/src'
+     176    Making all in scanpci
+     177    make[2]: Entering directory `/ram/tmp/dantopa/spack-stage/spack-sta
+            ge-b7WuUs/libpciaccess-0.13.5/scanpci'
+     178      CC       scanpci.o
+     179      CCLD     scanpci
+  >> 180    ../src/.libs/libpciaccess.so: undefined reference to `inw'
+  >> 181    ../src/.libs/libpciaccess.so: undefined reference to `outw'
+  >> 182    ../src/.libs/libpciaccess.so: undefined reference to `inb'
+  >> 183    ../src/.libs/libpciaccess.so: undefined reference to `outb'
+  >> 184    ../src/.libs/libpciaccess.so: undefined reference to `inl'
+  >> 185    ../src/.libs/libpciaccess.so: undefined reference to `outl'
+  >> 186    make[2]: *** [scanpci] Error 2
+     187    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-b7WuUs/libpciaccess-0.13.5/scanpci'
+  >> 188    make[1]: *** [all-recursive] Error 1
+     189    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-b7WuUs/libpciaccess-0.13.5'
+  >> 190    make: *** [all] Error 2
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-general.openmpi/var/spack/stage/libpciaccess-0.13.5-txmk33tz4pwzoqpu7kzmtcuskj56yt5y/spack-build.out
+spack install openmpi @ 3.0.3 % pgi@18.7  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j40'
+
+9 errors found in build log:
+     174      CCLD     libpciaccess.la
+     175    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-2ZdbPd/libpciaccess-0.13.5/src'
+     176    Making all in scanpci
+     177    make[2]: Entering directory `/ram/tmp/dantopa/spack-stage/spack-sta
+            ge-2ZdbPd/libpciaccess-0.13.5/scanpci'
+     178      CC       scanpci.o
+     179      CCLD     scanpci
+  >> 180    ../src/.libs/libpciaccess.so: undefined reference to `inw'
+  >> 181    ../src/.libs/libpciaccess.so: undefined reference to `outw'
+  >> 182    ../src/.libs/libpciaccess.so: undefined reference to `inb'
+  >> 183    ../src/.libs/libpciaccess.so: undefined reference to `outb'
+  >> 184    ../src/.libs/libpciaccess.so: undefined reference to `inl'
+  >> 185    ../src/.libs/libpciaccess.so: undefined reference to `outl'
+  >> 186    make[2]: *** [scanpci] Error 2
+     187    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-2ZdbPd/libpciaccess-0.13.5/scanpci'
+  >> 188    make[1]: *** [all-recursive] Error 1
+     189    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-2ZdbPd/libpciaccess-0.13.5'
+  >> 190    make: *** [all] Error 2
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-general.openmpi/var/spack/stage/libpciaccess-0.13.5-v53lqyxkusuk5gzpa2c27if6gz74i6ef/spack-build.out
+spack install openmpi @ 3.0.3 % pgi@17.10  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j40'
+
+9 errors found in build log:
+     174      CCLD     libpciaccess.la
+     175    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-e7oR74/libpciaccess-0.13.5/src'
+     176    Making all in scanpci
+     177    make[2]: Entering directory `/ram/tmp/dantopa/spack-stage/spack-sta
+            ge-e7oR74/libpciaccess-0.13.5/scanpci'
+     178      CC       scanpci.o
+     179      CCLD     scanpci
+  >> 180    ../src/.libs/libpciaccess.so: undefined reference to `inw'
+  >> 181    ../src/.libs/libpciaccess.so: undefined reference to `outb'
+  >> 182    ../src/.libs/libpciaccess.so: undefined reference to `outl'
+  >> 183    ../src/.libs/libpciaccess.so: undefined reference to `inb'
+  >> 184    ../src/.libs/libpciaccess.so: undefined reference to `inl'
+  >> 185    ../src/.libs/libpciaccess.so: undefined reference to `outw'
+  >> 186    make[2]: *** [scanpci] Error 2
+     187    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-e7oR74/libpciaccess-0.13.5/scanpci'
+  >> 188    make[1]: *** [all-recursive] Error 1
+     189    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-e7oR74/libpciaccess-0.13.5'
+  >> 190    make: *** [all] Error 2
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-general.openmpi/var/spack/stage/libpciaccess-0.13.5-pg2xuuyhcjdndbls4t7dgpig6zg6rbgi/spack-build.out
+spack install openmpi @ 3.0.3 % pgi@16.10  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j40'
+
+9 errors found in build log:
+     174      CCLD     libpciaccess.la
+     175    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-fi8HJd/libpciaccess-0.13.5/src'
+     176    Making all in scanpci
+     177    make[2]: Entering directory `/ram/tmp/dantopa/spack-stage/spack-sta
+            ge-fi8HJd/libpciaccess-0.13.5/scanpci'
+     178      CC       scanpci.o
+     179      CCLD     scanpci
+  >> 180    ../src/.libs/libpciaccess.so: undefined reference to `inw'
+  >> 181    ../src/.libs/libpciaccess.so: undefined reference to `outb'
+  >> 182    ../src/.libs/libpciaccess.so: undefined reference to `outl'
+  >> 183    ../src/.libs/libpciaccess.so: undefined reference to `inb'
+  >> 184    ../src/.libs/libpciaccess.so: undefined reference to `inl'
+  >> 185    ../src/.libs/libpciaccess.so: undefined reference to `outw'
+  >> 186    make[2]: *** [scanpci] Error 2
+     187    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-fi8HJd/libpciaccess-0.13.5/scanpci'
+  >> 188    make[1]: *** [all-recursive] Error 1
+     189    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-fi8HJd/libpciaccess-0.13.5'
+  >> 190    make: *** [all] Error 2
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-general.openmpi/var/spack/stage/libpciaccess-0.13.5-nl5rxpywvoxmxgoo22g2rne5btq2crh5/spack-build.out
+spack install openmpi @ 2.1.6 % gcc@8.2.0  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+spack install openmpi @ 2.1.6 % gcc@7.3.0  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+spack install openmpi @ 2.1.6 % gcc@6.4.0  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+spack install openmpi @ 2.1.6 % gcc@5.5.0  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+spack install openmpi @ 2.1.6 % gcc@4.9.3  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+spack install openmpi @ 2.1.6 % gcc@4.8.5  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+spack install openmpi @ 2.1.6 % intel@18.0.3  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+spack install openmpi @ 2.1.6 % intel@17.0.6  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+spack install openmpi @ 2.1.6 % intel@16.0.4  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+spack install openmpi @ 2.1.6 % pgi@18.10  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j40'
+
+9 errors found in build log:
+     174      CCLD     libpciaccess.la
+     175    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-F8phNX/libpciaccess-0.13.5/src'
+     176    Making all in scanpci
+     177    make[2]: Entering directory `/ram/tmp/dantopa/spack-stage/spack-sta
+            ge-F8phNX/libpciaccess-0.13.5/scanpci'
+     178      CC       scanpci.o
+     179      CCLD     scanpci
+  >> 180    ../src/.libs/libpciaccess.so: undefined reference to `inw'
+  >> 181    ../src/.libs/libpciaccess.so: undefined reference to `outw'
+  >> 182    ../src/.libs/libpciaccess.so: undefined reference to `inb'
+  >> 183    ../src/.libs/libpciaccess.so: undefined reference to `outb'
+  >> 184    ../src/.libs/libpciaccess.so: undefined reference to `inl'
+  >> 185    ../src/.libs/libpciaccess.so: undefined reference to `outl'
+  >> 186    make[2]: *** [scanpci] Error 2
+     187    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-F8phNX/libpciaccess-0.13.5/scanpci'
+  >> 188    make[1]: *** [all-recursive] Error 1
+     189    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-F8phNX/libpciaccess-0.13.5'
+  >> 190    make: *** [all] Error 2
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-general.openmpi/var/spack/stage/libpciaccess-0.13.5-txmk33tz4pwzoqpu7kzmtcuskj56yt5y/spack-build.out
+spack install openmpi @ 2.1.6 % pgi@18.7  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j40'
+
+9 errors found in build log:
+     174      CCLD     libpciaccess.la
+     175    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-1b2gxK/libpciaccess-0.13.5/src'
+     176    Making all in scanpci
+     177    make[2]: Entering directory `/ram/tmp/dantopa/spack-stage/spack-sta
+            ge-1b2gxK/libpciaccess-0.13.5/scanpci'
+     178      CC       scanpci.o
+     179      CCLD     scanpci
+  >> 180    ../src/.libs/libpciaccess.so: undefined reference to `inw'
+  >> 181    ../src/.libs/libpciaccess.so: undefined reference to `outw'
+  >> 182    ../src/.libs/libpciaccess.so: undefined reference to `inb'
+  >> 183    ../src/.libs/libpciaccess.so: undefined reference to `outb'
+  >> 184    ../src/.libs/libpciaccess.so: undefined reference to `inl'
+  >> 185    ../src/.libs/libpciaccess.so: undefined reference to `outl'
+  >> 186    make[2]: *** [scanpci] Error 2
+     187    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-1b2gxK/libpciaccess-0.13.5/scanpci'
+  >> 188    make[1]: *** [all-recursive] Error 1
+     189    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-1b2gxK/libpciaccess-0.13.5'
+  >> 190    make: *** [all] Error 2
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-general.openmpi/var/spack/stage/libpciaccess-0.13.5-v53lqyxkusuk5gzpa2c27if6gz74i6ef/spack-build.out
+spack install openmpi @ 2.1.6 % pgi@17.10  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j40'
+
+9 errors found in build log:
+     174      CCLD     libpciaccess.la
+     175    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-Z1K7yw/libpciaccess-0.13.5/src'
+     176    Making all in scanpci
+     177    make[2]: Entering directory `/ram/tmp/dantopa/spack-stage/spack-sta
+            ge-Z1K7yw/libpciaccess-0.13.5/scanpci'
+     178      CC       scanpci.o
+     179      CCLD     scanpci
+  >> 180    ../src/.libs/libpciaccess.so: undefined reference to `inw'
+  >> 181    ../src/.libs/libpciaccess.so: undefined reference to `outb'
+  >> 182    ../src/.libs/libpciaccess.so: undefined reference to `outl'
+  >> 183    ../src/.libs/libpciaccess.so: undefined reference to `inb'
+  >> 184    ../src/.libs/libpciaccess.so: undefined reference to `inl'
+  >> 185    ../src/.libs/libpciaccess.so: undefined reference to `outw'
+  >> 186    make[2]: *** [scanpci] Error 2
+     187    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-Z1K7yw/libpciaccess-0.13.5/scanpci'
+  >> 188    make[1]: *** [all-recursive] Error 1
+     189    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-Z1K7yw/libpciaccess-0.13.5'
+  >> 190    make: *** [all] Error 2
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-general.openmpi/var/spack/stage/libpciaccess-0.13.5-pg2xuuyhcjdndbls4t7dgpig6zg6rbgi/spack-build.out
+spack install openmpi @ 2.1.6 % pgi@16.10  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-openmpi-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j40'
+
+9 errors found in build log:
+     174      CCLD     libpciaccess.la
+     175    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-nrajVq/libpciaccess-0.13.5/src'
+     176    Making all in scanpci
+     177    make[2]: Entering directory `/ram/tmp/dantopa/spack-stage/spack-sta
+            ge-nrajVq/libpciaccess-0.13.5/scanpci'
+     178      CC       scanpci.o
+     179      CCLD     scanpci
+  >> 180    ../src/.libs/libpciaccess.so: undefined reference to `inw'
+  >> 181    ../src/.libs/libpciaccess.so: undefined reference to `outb'
+  >> 182    ../src/.libs/libpciaccess.so: undefined reference to `outl'
+  >> 183    ../src/.libs/libpciaccess.so: undefined reference to `inb'
+  >> 184    ../src/.libs/libpciaccess.so: undefined reference to `inl'
+  >> 185    ../src/.libs/libpciaccess.so: undefined reference to `outw'
+  >> 186    make[2]: *** [scanpci] Error 2
+     187    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-nrajVq/libpciaccess-0.13.5/scanpci'
+  >> 188    make[1]: *** [all-recursive] Error 1
+     189    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-nrajVq/libpciaccess-0.13.5'
+  >> 190    make: *** [all] Error 2
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-general.openmpi/var/spack/stage/libpciaccess-0.13.5-nl5rxpywvoxmxgoo22g2rne5btq2crh5/spack-build.out
+mkdir -p "${dir_results}/tpl-order"
+spack find openmpi >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/openmpi-darwin-general.out
+spack find -ldf openmpi  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/openmpi-darwin-general-ldf.out
+spack graph openmpi >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/openmpi-darwin-general-graph.out
+spack compilers
+==> Available compilers
+-- clang rhel7-ppc64le ------------------------------------------
+clang@7.0.0
+
+-- gcc centos7-x86_64 -------------------------------------------
+gcc@8.2.0
+gcc@8.1.0
+gcc@7.3.0
+gcc@7.2.0
+gcc@6.4.0
+gcc@6.3.0
+gcc@5.5.0
+gcc@5.4.0
+gcc@4.9.3
+gcc@4.9.2
+gcc@4.8.5
+gcc@4.6.4
+
+-- intel centos7-x86_64 -----------------------------------------
+intel@18.0.3
+intel@18.0.2
+intel@17.0.6
+intel@17.0.1
+intel@16.0.4
+intel@16.0.3
+
+-- pgi centos7-x86_64 -------------------------------------------
+pgi@18.10
+pgi@18.7
+pgi@18.4
+pgi@18.3
+pgi@17.10
+pgi@17.4
+pgi@16.10
+spack find openmpi
+==> 36 installed packages
+-- linux-centos7-x86_64 / gcc@4.8.5 -----------------------------
+openmpi@2.1.6
+openmpi@3.0.3
+openmpi@3.1.3
+openmpi@4.0.1
+
+-- linux-centos7-x86_64 / gcc@4.9.3 -----------------------------
+openmpi@2.1.6
+openmpi@3.0.3
+openmpi@3.1.3
+openmpi@4.0.1
+
+-- linux-centos7-x86_64 / gcc@5.5.0 -----------------------------
+openmpi@2.1.6
+openmpi@3.0.3
+openmpi@3.1.3
+openmpi@4.0.1
+
+-- linux-centos7-x86_64 / gcc@6.4.0 -----------------------------
+openmpi@2.1.6
+openmpi@3.0.3
+openmpi@3.1.3
+openmpi@4.0.1
+
+-- linux-centos7-x86_64 / gcc@7.3.0 -----------------------------
+openmpi@2.1.6
+openmpi@3.0.3
+openmpi@3.1.3
+openmpi@4.0.1
+
+-- linux-centos7-x86_64 / gcc@8.2.0 -----------------------------
+openmpi@2.1.6
+openmpi@3.0.3
+openmpi@3.1.3
+openmpi@4.0.1
+
+-- linux-centos7-x86_64 / intel@16.0.4 --------------------------
+openmpi@2.1.6
+openmpi@3.0.3
+openmpi@3.1.3
+openmpi@4.0.1
+
+-- linux-centos7-x86_64 / intel@17.0.6 --------------------------
+openmpi@2.1.6
+openmpi@3.0.3
+openmpi@3.1.3
+openmpi@4.0.1
+
+-- linux-centos7-x86_64 / intel@18.0.3 --------------------------
+openmpi@2.1.6
+openmpi@3.0.3
+openmpi@3.1.3
+openmpi@4.0.1
+spack find -ldf openmpi
+==> 36 installed packages
+-- linux-centos7-x86_64 / gcc@4.8.5 -----------------------------
+xfg5frc    openmpi@2.1.6%gcc
+bkkhvej        ^hwloc@1.11.11%gcc
+5chyfxo            ^libpciaccess@0.13.5%gcc
+bcnjbc3            ^libxml2@2.9.8%gcc
+tt2hkol            ^numactl@2.0.12%gcc
+
+dqtmvyt    openmpi@3.0.3%gcc
+bkkhvej        ^hwloc@1.11.11%gcc
+5chyfxo            ^libpciaccess@0.13.5%gcc
+bcnjbc3            ^libxml2@2.9.8%gcc
+tt2hkol            ^numactl@2.0.12%gcc
+64vg6e4        ^zlib@1.2.11%gcc
+
+pdfogzx    openmpi@3.1.3%gcc
+bkkhvej        ^hwloc@1.11.11%gcc
+5chyfxo            ^libpciaccess@0.13.5%gcc
+bcnjbc3            ^libxml2@2.9.8%gcc
+tt2hkol            ^numactl@2.0.12%gcc
+64vg6e4        ^zlib@1.2.11%gcc
+
+rldccba    openmpi@4.0.1%gcc
+bkkhvej        ^hwloc@1.11.11%gcc
+5chyfxo            ^libpciaccess@0.13.5%gcc
+bcnjbc3            ^libxml2@2.9.8%gcc
+tt2hkol            ^numactl@2.0.12%gcc
+64vg6e4        ^zlib@1.2.11%gcc
+
+
+-- linux-centos7-x86_64 / gcc@4.9.3 -----------------------------
+hbswdyb    openmpi@2.1.6%gcc
+xvnhmjp        ^hwloc@1.11.11%gcc
+nqafs22            ^libpciaccess@0.13.5%gcc
+xr6jvqb            ^libxml2@2.9.8%gcc
+gyit553            ^numactl@2.0.12%gcc
+
+3bvis7m    openmpi@3.0.3%gcc
+xvnhmjp        ^hwloc@1.11.11%gcc
+nqafs22            ^libpciaccess@0.13.5%gcc
+xr6jvqb            ^libxml2@2.9.8%gcc
+gyit553            ^numactl@2.0.12%gcc
+wabmm7g        ^zlib@1.2.11%gcc
+
+glupwb5    openmpi@3.1.3%gcc
+xvnhmjp        ^hwloc@1.11.11%gcc
+nqafs22            ^libpciaccess@0.13.5%gcc
+xr6jvqb            ^libxml2@2.9.8%gcc
+gyit553            ^numactl@2.0.12%gcc
+wabmm7g        ^zlib@1.2.11%gcc
+
+zfmzp6w    openmpi@4.0.1%gcc
+xvnhmjp        ^hwloc@1.11.11%gcc
+nqafs22            ^libpciaccess@0.13.5%gcc
+xr6jvqb            ^libxml2@2.9.8%gcc
+gyit553            ^numactl@2.0.12%gcc
+wabmm7g        ^zlib@1.2.11%gcc
+
+
+-- linux-centos7-x86_64 / gcc@5.5.0 -----------------------------
+y4edz45    openmpi@2.1.6%gcc
+2bjodks        ^hwloc@1.11.11%gcc
+ygiicn2            ^libpciaccess@0.13.5%gcc
+dyuna3l            ^libxml2@2.9.8%gcc
+ccmgitq            ^numactl@2.0.12%gcc
+
+77ubj67    openmpi@3.0.3%gcc
+2bjodks        ^hwloc@1.11.11%gcc
+ygiicn2            ^libpciaccess@0.13.5%gcc
+dyuna3l            ^libxml2@2.9.8%gcc
+ccmgitq            ^numactl@2.0.12%gcc
+ijtgxbh        ^zlib@1.2.11%gcc
+
+7wgwlvk    openmpi@3.1.3%gcc
+2bjodks        ^hwloc@1.11.11%gcc
+ygiicn2            ^libpciaccess@0.13.5%gcc
+dyuna3l            ^libxml2@2.9.8%gcc
+ccmgitq            ^numactl@2.0.12%gcc
+ijtgxbh        ^zlib@1.2.11%gcc
+
+2zyirqs    openmpi@4.0.1%gcc
+2bjodks        ^hwloc@1.11.11%gcc
+ygiicn2            ^libpciaccess@0.13.5%gcc
+dyuna3l            ^libxml2@2.9.8%gcc
+ccmgitq            ^numactl@2.0.12%gcc
+ijtgxbh        ^zlib@1.2.11%gcc
+
+
+-- linux-centos7-x86_64 / gcc@6.4.0 -----------------------------
+nbgumcb    openmpi@2.1.6%gcc
+ydbwr4w        ^hwloc@1.11.11%gcc
+j6fsyhp            ^libpciaccess@0.13.5%gcc
+ltoyknu            ^libxml2@2.9.8%gcc
+2zmeci4            ^numactl@2.0.12%gcc
+
+ra7ux2v    openmpi@3.0.3%gcc
+ydbwr4w        ^hwloc@1.11.11%gcc
+j6fsyhp            ^libpciaccess@0.13.5%gcc
+ltoyknu            ^libxml2@2.9.8%gcc
+2zmeci4            ^numactl@2.0.12%gcc
+ufwqfd4        ^zlib@1.2.11%gcc
+
+hpwyprd    openmpi@3.1.3%gcc
+ydbwr4w        ^hwloc@1.11.11%gcc
+j6fsyhp            ^libpciaccess@0.13.5%gcc
+ltoyknu            ^libxml2@2.9.8%gcc
+2zmeci4            ^numactl@2.0.12%gcc
+ufwqfd4        ^zlib@1.2.11%gcc
+
+rrcedzo    openmpi@4.0.1%gcc
+ydbwr4w        ^hwloc@1.11.11%gcc
+j6fsyhp            ^libpciaccess@0.13.5%gcc
+ltoyknu            ^libxml2@2.9.8%gcc
+2zmeci4            ^numactl@2.0.12%gcc
+ufwqfd4        ^zlib@1.2.11%gcc
+
+
+-- linux-centos7-x86_64 / gcc@7.3.0 -----------------------------
+zlqdbbj    openmpi@2.1.6%gcc
+vrpknac        ^hwloc@1.11.11%gcc
+f5k35g4            ^libpciaccess@0.13.5%gcc
+m46g2kt            ^libxml2@2.9.8%gcc
+le6jhga            ^numactl@2.0.12%gcc
+
+kdicfrl    openmpi@3.0.3%gcc
+vrpknac        ^hwloc@1.11.11%gcc
+f5k35g4            ^libpciaccess@0.13.5%gcc
+m46g2kt            ^libxml2@2.9.8%gcc
+le6jhga            ^numactl@2.0.12%gcc
+zknfwan        ^zlib@1.2.11%gcc
+
+rd4bhjh    openmpi@3.1.3%gcc
+vrpknac        ^hwloc@1.11.11%gcc
+f5k35g4            ^libpciaccess@0.13.5%gcc
+m46g2kt            ^libxml2@2.9.8%gcc
+le6jhga            ^numactl@2.0.12%gcc
+zknfwan        ^zlib@1.2.11%gcc
+
+dd46drz    openmpi@4.0.1%gcc
+vrpknac        ^hwloc@1.11.11%gcc
+f5k35g4            ^libpciaccess@0.13.5%gcc
+m46g2kt            ^libxml2@2.9.8%gcc
+le6jhga            ^numactl@2.0.12%gcc
+zknfwan        ^zlib@1.2.11%gcc
+
+
+-- linux-centos7-x86_64 / gcc@8.2.0 -----------------------------
+dbgnmvj    openmpi@2.1.6%gcc
+kpmr675        ^hwloc@1.11.11%gcc
+svkyphb            ^libpciaccess@0.13.5%gcc
+uvcs5lc            ^libxml2@2.9.8%gcc
+qwo625d            ^numactl@2.0.12%gcc
+
+wwffvoa    openmpi@3.0.3%gcc
+kpmr675        ^hwloc@1.11.11%gcc
+svkyphb            ^libpciaccess@0.13.5%gcc
+uvcs5lc            ^libxml2@2.9.8%gcc
+qwo625d            ^numactl@2.0.12%gcc
+6wdekzy        ^zlib@1.2.11%gcc
+
+4jrf7jm    openmpi@3.1.3%gcc
+kpmr675        ^hwloc@1.11.11%gcc
+svkyphb            ^libpciaccess@0.13.5%gcc
+uvcs5lc            ^libxml2@2.9.8%gcc
+qwo625d            ^numactl@2.0.12%gcc
+6wdekzy        ^zlib@1.2.11%gcc
+
+we5exv2    openmpi@4.0.1%gcc
+kpmr675        ^hwloc@1.11.11%gcc
+svkyphb            ^libpciaccess@0.13.5%gcc
+uvcs5lc            ^libxml2@2.9.8%gcc
+qwo625d            ^numactl@2.0.12%gcc
+6wdekzy        ^zlib@1.2.11%gcc
+
+
+-- linux-centos7-x86_64 / intel@16.0.4 --------------------------
+v76vnks    openmpi@2.1.6%intel
+i32wppi        ^hwloc@1.11.11%intel
+jtzzof2            ^libpciaccess@0.13.5%intel
+iikjujn            ^libxml2@2.9.8%intel
+n2exbxj            ^numactl@2.0.12%intel
+
+nadzipj    openmpi@3.0.3%intel
+i32wppi        ^hwloc@1.11.11%intel
+jtzzof2            ^libpciaccess@0.13.5%intel
+iikjujn            ^libxml2@2.9.8%intel
+n2exbxj            ^numactl@2.0.12%intel
+khv5wg2        ^zlib@1.2.11%intel
+
+v4gbqrp    openmpi@3.1.3%intel
+i32wppi        ^hwloc@1.11.11%intel
+jtzzof2            ^libpciaccess@0.13.5%intel
+iikjujn            ^libxml2@2.9.8%intel
+n2exbxj            ^numactl@2.0.12%intel
+khv5wg2        ^zlib@1.2.11%intel
+
+uwuguxd    openmpi@4.0.1%intel
+i32wppi        ^hwloc@1.11.11%intel
+jtzzof2            ^libpciaccess@0.13.5%intel
+iikjujn            ^libxml2@2.9.8%intel
+n2exbxj            ^numactl@2.0.12%intel
+khv5wg2        ^zlib@1.2.11%intel
+
+
+-- linux-centos7-x86_64 / intel@17.0.6 --------------------------
+3ic7uz2    openmpi@2.1.6%intel
+itb72kn        ^hwloc@1.11.11%intel
+5ywhccx            ^libpciaccess@0.13.5%intel
+rxyquml            ^libxml2@2.9.8%intel
+24xglv7            ^numactl@2.0.12%intel
+
+nxru6zw    openmpi@3.0.3%intel
+itb72kn        ^hwloc@1.11.11%intel
+5ywhccx            ^libpciaccess@0.13.5%intel
+rxyquml            ^libxml2@2.9.8%intel
+24xglv7            ^numactl@2.0.12%intel
+zlp4ddi        ^zlib@1.2.11%intel
+
+zrps6ub    openmpi@3.1.3%intel
+itb72kn        ^hwloc@1.11.11%intel
+5ywhccx            ^libpciaccess@0.13.5%intel
+rxyquml            ^libxml2@2.9.8%intel
+24xglv7            ^numactl@2.0.12%intel
+zlp4ddi        ^zlib@1.2.11%intel
+
+iheuf7o    openmpi@4.0.1%intel
+itb72kn        ^hwloc@1.11.11%intel
+5ywhccx            ^libpciaccess@0.13.5%intel
+rxyquml            ^libxml2@2.9.8%intel
+24xglv7            ^numactl@2.0.12%intel
+zlp4ddi        ^zlib@1.2.11%intel
+
+
+-- linux-centos7-x86_64 / intel@18.0.3 --------------------------
+ce6etxz    openmpi@2.1.6%intel
+537d5od        ^hwloc@1.11.11%intel
+zrun5pc            ^libpciaccess@0.13.5%intel
+x6jborh            ^libxml2@2.9.8%intel
+caxqrj3            ^numactl@2.0.12%intel
+
+p4nss7x    openmpi@3.0.3%intel
+537d5od        ^hwloc@1.11.11%intel
+zrun5pc            ^libpciaccess@0.13.5%intel
+x6jborh            ^libxml2@2.9.8%intel
+caxqrj3            ^numactl@2.0.12%intel
+vonxam4        ^zlib@1.2.11%intel
+
+htiaqn4    openmpi@3.1.3%intel
+537d5od        ^hwloc@1.11.11%intel
+zrun5pc            ^libpciaccess@0.13.5%intel
+x6jborh            ^libxml2@2.9.8%intel
+caxqrj3            ^numactl@2.0.12%intel
+vonxam4        ^zlib@1.2.11%intel
+
+3t366j6    openmpi@4.0.1%intel
+537d5od        ^hwloc@1.11.11%intel
+zrun5pc            ^libpciaccess@0.13.5%intel
+x6jborh            ^libxml2@2.9.8%intel
+caxqrj3            ^numactl@2.0.12%intel
+vonxam4        ^zlib@1.2.11%intel
+
+mv  /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/darwin-general-batch.out   /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/batch-out/darwin-general-openmpi-2019-04-18-batch.out
+cd /scratch/users/dantopa/repos/gitlab/pull-requests/libraries
+git add -A .
+git commit -m "${USER} ${tpl} ${hpc} ${partition} ${ymd}"
+[master 7a6d97e] dantopa openmpi darwin general 2019-04-18
+ 11 files changed, 2229 insertions(+), 142 deletions(-)
+ create mode 100644 libraries/results/batch-out/darwin-general-openmpi-2019-04-18-batch.out
+ create mode 100644 libraries/results/tpl-order/openmpi-darwin-general-graph.out
+ create mode 100644 libraries/results/tpl-order/openmpi-darwin-general-ldf.out
+ create mode 100644 libraries/results/tpl-order/openmpi-darwin-general.out
+ delete mode 100644 libraries/tools/bash/darwin-general-batch.out
+Fri Apr 19 00:06:57 MDT 2019

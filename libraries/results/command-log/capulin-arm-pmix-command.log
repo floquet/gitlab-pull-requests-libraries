@@ -1,0 +1,13 @@
+Fri Apr 26 12:53:15 MDT 2019
+1 spack install pmix @ 3.1.2 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2
+2 spack install pmix @ 3.1.2 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2
+3 spack install pmix @ 3.1.2 % gcc@6.1.0  arch=cray-cnl6-arm_thunderx2
+4 spack install pmix @ 3.0.2 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2
+5 spack install pmix @ 3.0.2 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2
+6 spack install pmix @ 3.0.2 % gcc@6.1.0  arch=cray-cnl6-arm_thunderx2
+7 spack install pmix @ 2.2.2 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2
+8 spack install pmix @ 2.2.2 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2
+9 spack install pmix @ 2.2.2 % gcc@6.1.0  arch=cray-cnl6-arm_thunderx2
+10 spack install pmix @ 2.1.4 % gcc@8.2.0  arch=cray-cnl6-arm_thunderx2
+11 spack install pmix @ 2.1.4 % gcc@7.3.0  arch=cray-cnl6-arm_thunderx2
+12 spack install pmix @ 2.1.4 % gcc@6.1.0  arch=cray-cnl6-arm_thunderx2

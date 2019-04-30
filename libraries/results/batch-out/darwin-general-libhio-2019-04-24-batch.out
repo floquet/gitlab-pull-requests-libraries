@@ -1,0 +1,1588 @@
+Wed Apr 24 20:50:54 MDT 2019 [1m/home/dantopa/.mybash(B[m
+Wed Apr 24 20:50:54 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/platforms.sh(B[m
+attempting to mkdir /scratch/users/dantopa/repos/gitlab/node-queries/darwin/general-cn100/dir-configuration
+directory of core scripts = ${core} = /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts
+Wed Apr 24 20:50:54 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/master.sh(B[m
+Wed Apr 24 20:50:54 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh(B[m
+Wed Apr 24 20:50:54 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh(B[m
+Wed Apr 24 20:50:54 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Wed Apr 24 20:50:54 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh(B[m
+Wed Apr 24 20:50:54 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/gcc.sh(B[m
+Wed Apr 24 20:50:54 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/git.sh(B[m
+Wed Apr 24 20:50:54 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Wed Apr 24 20:50:54 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh: line 5: gonode: command not found
+Wed Apr 24 20:50:55 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/ssh.sh(B[m
+Wed Apr 24 20:50:55 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/vim.sh(B[m
+Wed Apr 24 20:50:55 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bash.sh(B[m
+Wed Apr 24 20:50:55 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/finds.sh(B[m
+Wed Apr 24 20:50:55 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/cmake.sh(B[m
+Wed Apr 24 20:50:55 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/fortran.sh(B[m
+Wed Apr 24 20:50:55 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/copy-configuration.sh(B[m
+Wed Apr 24 20:50:55 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks.sh(B[m
+Wed Apr 24 20:50:55 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-bitbucket.sh(B[m
+Wed Apr 24 20:50:55 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-github.sh(B[m
+Wed Apr 24 20:50:55 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-gitlab.sh(B[m
+[master 272d12a] darwin-general-cn100 Wed Apr 24 20:50:55 MDT 2019
+ 1 file changed, 16 insertions(+)
+ create mode 100644 libraries/tools/bash/darwin-general-batch.out
+Wed Apr 24 20:50:55 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/disk.sh(B[m
+Wed Apr 24 20:50:55 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh: line 33: sinfo_s: command not found
+Wed Apr 24 20:50:55 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh(B[m
+Wed Apr 24 20:50:55 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Wed Apr 24 20:50:55 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh(B[m
+Wed Apr 24 20:50:55 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh(B[m
+Wed Apr 24 20:50:55 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/spack.sh(B[m
+Wed Apr 24 20:50:55 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/uname.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh: line 5: gonode: command not found
+Wed Apr 24 20:50:55 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/modules.sh(B[m
+Wed Apr 24 20:50:55 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Wed Apr 24 20:50:55 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/alias.sh(B[m
+Wed Apr 24 20:50:55 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh: line 11: myprompt: command not found
+[master 8345b47] darwin-general-cn100 Wed Apr 24 20:50:55 MDT 2019
+ 1 file changed, 22 insertions(+)
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh: line 33: sinfo_s: command not found
+Wed Apr 24 20:50:58 MDT 2019 /tmp/slurmd/job5197572/slurm_script
+source "${dir_tools}/bash/master-tpl-sweep.sh"
+Wed Apr 24 20:50:58 MDT 2019 /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh
+cd /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools
+source directories/libraries-darwin.sh
+Wed Apr 24 20:50:58 MDT 2019 [1mdirectories/libraries-darwin.sh(B[m
+source tpl-versions/versions-libhio.sh
+Wed Apr 24 20:50:58 MDT 2019 [1mtpl-versions/versions-libhio.sh(B[m
+2 libhio versions loaded:
+1.4.1.3  1.4.1.2
+
+source compilers/compilers-darwin-general.sh
+Wed Apr 24 20:50:58 MDT 2019 [1mcompilers/compilers-darwin-general.sh(B[m
+13 Spack-recognized compilers loaded:
+gcc@8.2.0  gcc@7.3.0  gcc@6.4.0  gcc@5.5.0  gcc@4.9.3  gcc@4.8.5 intel@18.0.3  intel@17.0.6  intel@16.0.4  pgi@18.10  pgi@18.7  pgi@17.10  pgi@16.10
+
+source klingons/darwin-general-libhio.sh
+/scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 36: klingons/darwin-general-libhio.sh: No such file or directory
+cd /scratch/users/dantopa/new-spack/libraries/darwin-general.libhio
+. share/spack/setup-env.sh
+export spack_architecture='arch=linux-centos7-x86_64'
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+spack compilers
+==> Available compilers
+-- gcc centos7-x86_64 -------------------------------------------
+gcc@8.2.0
+gcc@8.1.0
+gcc@7.3.0
+gcc@7.2.0
+gcc@6.4.0
+gcc@6.3.0
+gcc@5.5.0
+gcc@5.4.0
+gcc@4.9.3
+gcc@4.9.2
+gcc@4.8.5
+gcc@4.6.4
+
+-- intel centos7-x86_64 -----------------------------------------
+intel@18.0.3
+intel@18.0.2
+intel@17.0.6
+intel@17.0.1
+intel@16.0.4
+intel@16.0.3
+
+-- pgi centos7-x86_64 -------------------------------------------
+pgi@18.10
+pgi@18.7
+pgi@18.4
+pgi@18.3
+pgi@17.10
+pgi@17.4
+pgi@16.10
+ls -alh etc/spack/defaults
+total 154K
+drwxrwxr-x 4 dantopa dantopa   15 Apr  2 14:30 .
+drwxrwxr-x 3 dantopa dantopa    3 Nov 12 20:31 ..
+-rw-rw-r-- 1 dantopa dantopa  11K Apr  1 11:47 compilers.yaml
+-rw-rw-r-- 1 dantopa dantopa 4.4K Mar 14 13:55 config.yaml
+drwxrwxr-x 2 dantopa dantopa    4 Nov 12 20:31 darwin
+-rw-rw-r-- 1 dantopa dantopa  11K Apr  1 11:25 darwin-general-modules-compilers.yaml
+drwxrwxr-x 2 dantopa dantopa    3 Nov 12 20:31 linux
+-rw-rw-r-- 1 dantopa dantopa    3 Apr  1 11:22 lmod-modules.yaml
+-rw-rw-r-- 1 dantopa dantopa 3.9K Apr  1 11:21 minimal-build-packages.yaml
+-rw-rw-r-- 1 dantopa dantopa  136 Apr  1 11:22 mirrors.yaml
+-rw-rw-r-- 1 dantopa dantopa 3.4K Apr  1 11:47 modules.yaml
+-rw-rw-r-- 1 dantopa dantopa 3.9K Apr  2 14:30 packages.yaml
+-rw-rw-r-- 1 dantopa dantopa  530 Feb 21 14:55 release.yaml
+-rw-rw-r-- 1 dantopa dantopa  546 Nov 12 20:31 repos.yaml
+-rw-rw-r-- 1 dantopa dantopa 3.4K Apr  1 11:22 tcl-modules.yaml
+cat etc/spack/defaults/compilers.yaml
+  #   #   #  intel 18.0.3 18.0.2 17.0.6 17.0.1 16.10 16.0.4 16.0.3
+  #   #   #  gcc 8.2.0 8.1.0 7.3.0 7.2.0 6.4.0 6.3.0 5.5.0 5.4.0 4.9.3 4.9.2 4.8.5 4.6.4
+  #   #   #  pgi  18.10 18.7 18.4 18.3 17.10 17.4 16.10
+compilers:
+  #   #   #  gcc 8.2.0 8.1.0 7.3.0 7.2.0 6.4.0 6.3.0 5.5.0 5.4.0 4.9.3 4.9.2 4.8.5 4.6.4
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [gcc/8.2.0]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/8.2.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/8.2.0/bin/g++
+      f77: /projects/opt/centos7/gcc/8.2.0/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/8.2.0/bin/gfortran
+    spec: gcc@8.2.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [gcc/8.1.0]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/8.1.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/8.1.0/bin/g++
+      f77: /projects/opt/centos7/gcc/8.1.0/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/8.1.0/bin/gfortran
+    spec: gcc@8.1.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [gcc/7.3.0]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/7.3.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/7.3.0/bin/g++
+      f77: /projects/opt/centos7/gcc/7.3.0/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/7.3.0/bin/gfortran
+    spec: gcc@7.3.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [gcc/7.2.0]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/7.2.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/7.2.0/bin/g++
+      f77: /projects/opt/centos7/gcc/7.2.0/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/7.2.0/bin/gfortran
+    spec: gcc@7.2.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [gcc/6.4.0]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/6.4.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/6.4.0/bin/g++
+      f77: /projects/opt/centos7/gcc/6.4.0/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/6.4.0/bin/gfortran
+    spec: gcc@6.4.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [gcc/6.3.0]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/6.3.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/6.3.0/bin/g++
+      f77: /projects/opt/centos7/gcc/6.3.0/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/6.3.0/bin/gfortran
+    spec: gcc@6.3.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [gcc/5.5.0]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/5.5.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/5.5.0/bin/g++
+      f77: /projects/opt/centos7/gcc/5.5.0/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/5.5.0/bin/gfortran
+    spec: gcc@5.5.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [gcc/5.4.0]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/5.4.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/5.4.0/bin/g++
+      f77: /projects/opt/centos7/gcc/5.4.0/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/5.4.0/bin/gfortran
+    spec: gcc@5.4.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [gcc/4.9.3]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/4.9.3/bin/gcc
+      cxx: /projects/opt/centos7/gcc/4.9.3/bin/g++
+      f77: /projects/opt/centos7/gcc/4.9.3/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/4.9.3/bin/gfortran
+    spec: gcc@4.9.3
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [gcc/4.9.2]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/4.9.2/bin/gcc
+      cxx: /projects/opt/centos7/gcc/4.9.2/bin/g++
+      f77: /projects/opt/centos7/gcc/4.9.2/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/4.9.2/bin/gfortran
+    spec: gcc@4.9.2
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec: gcc@4.8.5
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [gcc/4.6.4]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/gcc/4.6.4/bin/gcc
+      cxx: /projects/opt/centos7/gcc/4.6.4/bin/g++
+      f77: /projects/opt/centos7/gcc/4.6.4/bin/gfortran
+      fc:  /projects/opt/centos7/gcc/4.6.4/bin/gfortran
+    spec: gcc@4.6.4
+    target: x86_64
+  #   #   #  intel 18.0.3 18.0.2 17.0.6 17.0.1 16.10 16.0.4 16.0.3
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [intel/18.0.3]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/intel/compilers_and_libraries_2018.3.222/linux/bin/intel64/icc
+      cxx: /projects/opt/intel/compilers_and_libraries_2018.3.222/linux/bin/intel64/icpc
+      f77: /projects/opt/intel/compilers_and_libraries_2018.3.222/linux/bin/intel64/ifort
+      fc:  /projects/opt/intel/compilers_and_libraries_2018.3.222/linux/bin/intel64/ifort
+    spec: intel@18.0.3
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [intel/18.0.2]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/intel/compilers_and_libraries_2018.2.199/linux/bin/intel64/icc
+      cxx: /projects/opt/intel/compilers_and_libraries_2018.2.199/linux/bin/intel64/icpc
+      f77: /projects/opt/intel/compilers_and_libraries_2018.2.199/linux/bin/intel64/ifort
+      fc:  /projects/opt/intel/compilers_and_libraries_2018.2.199/linux/bin/intel64/ifort
+    spec: intel@18.0.2
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [intel/17.0.6]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/intel/compilers_and_libraries_2017.6.256/linux/bin/intel64/icc
+      cxx: /projects/opt/intel/compilers_and_libraries_2017.6.256/linux/bin/intel64/icpc
+      f77: /projects/opt/intel/compilers_and_libraries_2017.6.256/linux/bin/intel64/ifort
+      fc:  /projects/opt/intel/compilers_and_libraries_2017.6.256/linux/bin/intel64/ifort
+    spec: intel@17.0.6
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [intel/17.0.1]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/intel/compilers_and_libraries_2017.1.132/linux/bin/intel64/icc
+      cxx: /projects/opt/intel/compilers_and_libraries_2017.1.132/linux/bin/intel64/icpc
+      f77: /projects/opt/intel/compilers_and_libraries_2017.1.132/linux/bin/intel64/ifort
+      fc:  /projects/opt/intel/compilers_and_libraries_2017.1.132/linux/bin/intel64/ifort
+    spec: intel@17.0.1
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [intel/16.0.4]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/intel/compilers_and_libraries_2016.4.258/linux/bin/intel64/icc
+      cxx: /projects/opt/intel/compilers_and_libraries_2016.4.258/linux/bin/intel64/icpc
+      f77: /projects/opt/intel/compilers_and_libraries_2016.4.258/linux/bin/intel64/ifort
+      fc:  /projects/opt/intel/compilers_and_libraries_2016.4.258/linux/bin/intel64/ifort
+    spec: intel@16.0.4
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [intel@16.0.3]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/intel/compilers/compilers_and_libraries_2016.3.210/linux/bin/intel64/icc
+      cxx: /projects/opt/intel/compilers/compilers_and_libraries_2016.3.210/linux/bin/intel64/icpc
+      f77: /projects/opt/intel/compilers/compilers_and_libraries_2016.3.210/linux/bin/intel64/ifort
+      fc:  /projects/opt/intel/compilers/compilers_and_libraries_2016.3.210/linux/bin/intel64/ifort
+    spec: intel@16.0.3
+    target: x86_64
+  #   #   #  pgi  18.10 18.7 18.4 18.3 17.10 17.4 16.10
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/pgi/linux86-64/18.10/bin/pgcc
+      cxx: /projects/opt/centos7/pgi/linux86-64/18.10/bin/pgc++
+      f77: /projects/opt/centos7/pgi/linux86-64/18.10/bin/pgfortran
+      fc:  /projects/opt/centos7/pgi/linux86-64/18.10/bin/pgfortran
+    spec: pgi@18.10
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [pgi/18.7]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/pgi/linux86-64/18.7/bin/pgcc
+      cxx: /projects/opt/centos7/pgi/linux86-64/18.7/bin/pgc++
+      f77: /projects/opt/centos7/pgi/linux86-64/18.7/bin/pgfortran
+      fc:  /projects/opt/centos7/pgi/linux86-64/18.7/bin/pgfortran
+    spec: pgi@18.7
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [pgi/18.4]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/pgi/linux86-64/18.4/bin/pgcc
+      cxx: /projects/opt/centos7/pgi/linux86-64/18.4/bin/pgc++
+      f77: /projects/opt/centos7/pgi/linux86-64/18.4/bin/pgfortran
+      fc:  /projects/opt/centos7/pgi/linux86-64/18.4/bin/pgfortran
+    spec: pgi@18.4
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [pgi/18.3]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/pgi/linux86-64/18.3/bin/pgcc
+      cxx: /projects/opt/centos7/pgi/linux86-64/18.3/bin/pgc++
+      f77: /projects/opt/centos7/pgi/linux86-64/18.3/bin/pgfortran
+      fc:  /projects/opt/centos7/pgi/linux86-64/18.3/bin/pgfortran
+    spec: pgi@18.3
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [pgi/17.10]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/pgi/linux86-64/17.10/bin/pgcc
+      cxx: /projects/opt/centos7/pgi/linux86-64/17.10/bin/pgc++
+      f77: /projects/opt/centos7/pgi/linux86-64/17.10/bin/pgfortran
+      fc:  /projects/opt/centos7/pgi/linux86-64/17.10/bin/pgfortran
+    spec: pgi@17.10
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [pgi/17.4]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/pgi/linux86-64/17.4/bin/pgcc
+      cxx: /projects/opt/centos7/pgi/linux86-64/17.4/bin/pgc++
+      f77: /projects/opt/centos7/pgi/linux86-64/17.4/bin/pgfortran
+      fc:  /projects/opt/centos7/pgi/linux86-64/17.4/bin/pgfortran
+    spec: pgi@17.4
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [pgi/16.10]
+    operating_system: centos7
+    paths:
+      cc:  /projects/opt/centos7/pgi/linux86-64/16.10/bin/pgcc
+      cxx: /projects/opt/centos7/pgi/linux86-64/16.10/bin/pgc++
+      f77: /projects/opt/centos7/pgi/linux86-64/16.10/bin/pgfortran
+      fc:  /projects/opt/centos7/pgi/linux86-64/16.10/bin/pgfortran
+    spec: pgi@16.10
+    target: x86_64
+spack config get compilers
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/8.2.0
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/centos7/gcc/8.2.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/8.2.0/bin/g++
+      f77: /projects/opt/centos7/gcc/8.2.0/bin/gfortran
+      fc: /projects/opt/centos7/gcc/8.2.0/bin/gfortran
+    spec: gcc@8.2.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/8.1.0
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/centos7/gcc/8.1.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/8.1.0/bin/g++
+      f77: /projects/opt/centos7/gcc/8.1.0/bin/gfortran
+      fc: /projects/opt/centos7/gcc/8.1.0/bin/gfortran
+    spec: gcc@8.1.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/7.3.0
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/centos7/gcc/7.3.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/7.3.0/bin/g++
+      f77: /projects/opt/centos7/gcc/7.3.0/bin/gfortran
+      fc: /projects/opt/centos7/gcc/7.3.0/bin/gfortran
+    spec: gcc@7.3.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/7.2.0
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/centos7/gcc/7.2.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/7.2.0/bin/g++
+      f77: /projects/opt/centos7/gcc/7.2.0/bin/gfortran
+      fc: /projects/opt/centos7/gcc/7.2.0/bin/gfortran
+    spec: gcc@7.2.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/6.4.0
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/centos7/gcc/6.4.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/6.4.0/bin/g++
+      f77: /projects/opt/centos7/gcc/6.4.0/bin/gfortran
+      fc: /projects/opt/centos7/gcc/6.4.0/bin/gfortran
+    spec: gcc@6.4.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/6.3.0
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/centos7/gcc/6.3.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/6.3.0/bin/g++
+      f77: /projects/opt/centos7/gcc/6.3.0/bin/gfortran
+      fc: /projects/opt/centos7/gcc/6.3.0/bin/gfortran
+    spec: gcc@6.3.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/5.5.0
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/centos7/gcc/5.5.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/5.5.0/bin/g++
+      f77: /projects/opt/centos7/gcc/5.5.0/bin/gfortran
+      fc: /projects/opt/centos7/gcc/5.5.0/bin/gfortran
+    spec: gcc@5.5.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/5.4.0
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/centos7/gcc/5.4.0/bin/gcc
+      cxx: /projects/opt/centos7/gcc/5.4.0/bin/g++
+      f77: /projects/opt/centos7/gcc/5.4.0/bin/gfortran
+      fc: /projects/opt/centos7/gcc/5.4.0/bin/gfortran
+    spec: gcc@5.4.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/4.9.3
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/centos7/gcc/4.9.3/bin/gcc
+      cxx: /projects/opt/centos7/gcc/4.9.3/bin/g++
+      f77: /projects/opt/centos7/gcc/4.9.3/bin/gfortran
+      fc: /projects/opt/centos7/gcc/4.9.3/bin/gfortran
+    spec: gcc@4.9.3
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/4.9.2
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/centos7/gcc/4.9.2/bin/gcc
+      cxx: /projects/opt/centos7/gcc/4.9.2/bin/g++
+      f77: /projects/opt/centos7/gcc/4.9.2/bin/gfortran
+      fc: /projects/opt/centos7/gcc/4.9.2/bin/gfortran
+    spec: gcc@4.9.2
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc: /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc: /usr/bin/gfortran
+    spec: gcc@4.8.5
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/4.6.4
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/centos7/gcc/4.6.4/bin/gcc
+      cxx: /projects/opt/centos7/gcc/4.6.4/bin/g++
+      f77: /projects/opt/centos7/gcc/4.6.4/bin/gfortran
+      fc: /projects/opt/centos7/gcc/4.6.4/bin/gfortran
+    spec: gcc@4.6.4
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - intel/18.0.3
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/intel/compilers_and_libraries_2018.3.222/linux/bin/intel64/icc
+      cxx: /projects/opt/intel/compilers_and_libraries_2018.3.222/linux/bin/intel64/icpc
+      f77: /projects/opt/intel/compilers_and_libraries_2018.3.222/linux/bin/intel64/ifort
+      fc: /projects/opt/intel/compilers_and_libraries_2018.3.222/linux/bin/intel64/ifort
+    spec: intel@18.0.3
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - intel/18.0.2
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/intel/compilers_and_libraries_2018.2.199/linux/bin/intel64/icc
+      cxx: /projects/opt/intel/compilers_and_libraries_2018.2.199/linux/bin/intel64/icpc
+      f77: /projects/opt/intel/compilers_and_libraries_2018.2.199/linux/bin/intel64/ifort
+      fc: /projects/opt/intel/compilers_and_libraries_2018.2.199/linux/bin/intel64/ifort
+    spec: intel@18.0.2
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - intel/17.0.6
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/intel/compilers_and_libraries_2017.6.256/linux/bin/intel64/icc
+      cxx: /projects/opt/intel/compilers_and_libraries_2017.6.256/linux/bin/intel64/icpc
+      f77: /projects/opt/intel/compilers_and_libraries_2017.6.256/linux/bin/intel64/ifort
+      fc: /projects/opt/intel/compilers_and_libraries_2017.6.256/linux/bin/intel64/ifort
+    spec: intel@17.0.6
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - intel/17.0.1
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/intel/compilers_and_libraries_2017.1.132/linux/bin/intel64/icc
+      cxx: /projects/opt/intel/compilers_and_libraries_2017.1.132/linux/bin/intel64/icpc
+      f77: /projects/opt/intel/compilers_and_libraries_2017.1.132/linux/bin/intel64/ifort
+      fc: /projects/opt/intel/compilers_and_libraries_2017.1.132/linux/bin/intel64/ifort
+    spec: intel@17.0.1
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - intel/16.0.4
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/intel/compilers_and_libraries_2016.4.258/linux/bin/intel64/icc
+      cxx: /projects/opt/intel/compilers_and_libraries_2016.4.258/linux/bin/intel64/icpc
+      f77: /projects/opt/intel/compilers_and_libraries_2016.4.258/linux/bin/intel64/ifort
+      fc: /projects/opt/intel/compilers_and_libraries_2016.4.258/linux/bin/intel64/ifort
+    spec: intel@16.0.4
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - intel@16.0.3
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/intel/compilers/compilers_and_libraries_2016.3.210/linux/bin/intel64/icc
+      cxx: /projects/opt/intel/compilers/compilers_and_libraries_2016.3.210/linux/bin/intel64/icpc
+      f77: /projects/opt/intel/compilers/compilers_and_libraries_2016.3.210/linux/bin/intel64/ifort
+      fc: /projects/opt/intel/compilers/compilers_and_libraries_2016.3.210/linux/bin/intel64/ifort
+    spec: intel@16.0.3
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/centos7/pgi/linux86-64/18.10/bin/pgcc
+      cxx: /projects/opt/centos7/pgi/linux86-64/18.10/bin/pgc++
+      f77: /projects/opt/centos7/pgi/linux86-64/18.10/bin/pgfortran
+      fc: /projects/opt/centos7/pgi/linux86-64/18.10/bin/pgfortran
+    spec: pgi@18.10
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/18.7
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/centos7/pgi/linux86-64/18.7/bin/pgcc
+      cxx: /projects/opt/centos7/pgi/linux86-64/18.7/bin/pgc++
+      f77: /projects/opt/centos7/pgi/linux86-64/18.7/bin/pgfortran
+      fc: /projects/opt/centos7/pgi/linux86-64/18.7/bin/pgfortran
+    spec: pgi@18.7
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/18.4
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/centos7/pgi/linux86-64/18.4/bin/pgcc
+      cxx: /projects/opt/centos7/pgi/linux86-64/18.4/bin/pgc++
+      f77: /projects/opt/centos7/pgi/linux86-64/18.4/bin/pgfortran
+      fc: /projects/opt/centos7/pgi/linux86-64/18.4/bin/pgfortran
+    spec: pgi@18.4
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/18.3
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/centos7/pgi/linux86-64/18.3/bin/pgcc
+      cxx: /projects/opt/centos7/pgi/linux86-64/18.3/bin/pgc++
+      f77: /projects/opt/centos7/pgi/linux86-64/18.3/bin/pgfortran
+      fc: /projects/opt/centos7/pgi/linux86-64/18.3/bin/pgfortran
+    spec: pgi@18.3
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/17.10
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/centos7/pgi/linux86-64/17.10/bin/pgcc
+      cxx: /projects/opt/centos7/pgi/linux86-64/17.10/bin/pgc++
+      f77: /projects/opt/centos7/pgi/linux86-64/17.10/bin/pgfortran
+      fc: /projects/opt/centos7/pgi/linux86-64/17.10/bin/pgfortran
+    spec: pgi@17.10
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/17.4
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/centos7/pgi/linux86-64/17.4/bin/pgcc
+      cxx: /projects/opt/centos7/pgi/linux86-64/17.4/bin/pgc++
+      f77: /projects/opt/centos7/pgi/linux86-64/17.4/bin/pgfortran
+      fc: /projects/opt/centos7/pgi/linux86-64/17.4/bin/pgfortran
+    spec: pgi@17.4
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/16.10
+    operating_system: centos7
+    paths:
+      cc: /projects/opt/centos7/pgi/linux86-64/16.10/bin/pgcc
+      cxx: /projects/opt/centos7/pgi/linux86-64/16.10/bin/pgc++
+      f77: /projects/opt/centos7/pgi/linux86-64/16.10/bin/pgfortran
+      fc: /projects/opt/centos7/pgi/linux86-64/16.10/bin/pgfortran
+    spec: pgi@16.10
+    target: x86_64
+spack install libhio @ 1.4.1.3 % gcc@8.2.0  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-libhio-install.log
+==> Error: [Errno 37] No locks available
+close failed in file object destructor:
+IOError: [Errno 116] Stale file handle
+Traceback (most recent call last):
+  File "/scratch/users/dantopa/new-spack/libraries/darwin-general.libhio/bin/spack", line 48, in <module>
+    sys.exit(spack.main.main())
+SystemError: error return without exception set
+spack install libhio @ 1.4.1.3 % gcc@7.3.0  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-libhio-install.log
+spack install libhio @ 1.4.1.3 % gcc@6.4.0  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-libhio-install.log
+spack install libhio @ 1.4.1.3 % gcc@5.5.0  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-libhio-install.log
+spack install libhio @ 1.4.1.3 % gcc@4.9.3  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-libhio-install.log
+spack install libhio @ 1.4.1.3 % gcc@4.8.5  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-libhio-install.log
+spack install libhio @ 1.4.1.3 % intel@18.0.3  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-libhio-install.log
+spack install libhio @ 1.4.1.3 % intel@17.0.6  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-libhio-install.log
+spack install libhio @ 1.4.1.3 % intel@16.0.4  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-libhio-install.log
+spack install libhio @ 1.4.1.3 % pgi@18.10  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-libhio-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j12'
+
+9 errors found in build log:
+     174      CCLD     libpciaccess.la
+     175    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-nXqCBV/libpciaccess-0.13.5/src'
+     176    Making all in scanpci
+     177    make[2]: Entering directory `/ram/tmp/dantopa/spack-stage/spack-sta
+            ge-nXqCBV/libpciaccess-0.13.5/scanpci'
+     178      CC       scanpci.o
+     179      CCLD     scanpci
+  >> 180    ../src/.libs/libpciaccess.so: undefined reference to `inw'
+  >> 181    ../src/.libs/libpciaccess.so: undefined reference to `outw'
+  >> 182    ../src/.libs/libpciaccess.so: undefined reference to `inb'
+  >> 183    ../src/.libs/libpciaccess.so: undefined reference to `outb'
+  >> 184    ../src/.libs/libpciaccess.so: undefined reference to `inl'
+  >> 185    ../src/.libs/libpciaccess.so: undefined reference to `outl'
+  >> 186    make[2]: *** [scanpci] Error 2
+     187    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-nXqCBV/libpciaccess-0.13.5/scanpci'
+  >> 188    make[1]: *** [all-recursive] Error 1
+     189    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-nXqCBV/libpciaccess-0.13.5'
+  >> 190    make: *** [all] Error 2
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-general.libhio/var/spack/stage/libpciaccess-0.13.5-txmk33tz4pwzoqpu7kzmtcuskj56yt5y/spack-build.out
+spack install libhio @ 1.4.1.3 % pgi@18.7  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-libhio-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j12'
+
+9 errors found in build log:
+     174      CCLD     libpciaccess.la
+     175    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-8sUkDY/libpciaccess-0.13.5/src'
+     176    Making all in scanpci
+     177    make[2]: Entering directory `/ram/tmp/dantopa/spack-stage/spack-sta
+            ge-8sUkDY/libpciaccess-0.13.5/scanpci'
+     178      CC       scanpci.o
+     179      CCLD     scanpci
+  >> 180    ../src/.libs/libpciaccess.so: undefined reference to `inw'
+  >> 181    ../src/.libs/libpciaccess.so: undefined reference to `outw'
+  >> 182    ../src/.libs/libpciaccess.so: undefined reference to `inb'
+  >> 183    ../src/.libs/libpciaccess.so: undefined reference to `outb'
+  >> 184    ../src/.libs/libpciaccess.so: undefined reference to `inl'
+  >> 185    ../src/.libs/libpciaccess.so: undefined reference to `outl'
+  >> 186    make[2]: *** [scanpci] Error 2
+     187    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-8sUkDY/libpciaccess-0.13.5/scanpci'
+  >> 188    make[1]: *** [all-recursive] Error 1
+     189    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-8sUkDY/libpciaccess-0.13.5'
+  >> 190    make: *** [all] Error 2
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-general.libhio/var/spack/stage/libpciaccess-0.13.5-v53lqyxkusuk5gzpa2c27if6gz74i6ef/spack-build.out
+spack install libhio @ 1.4.1.3 % pgi@17.10  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-libhio-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j12'
+
+9 errors found in build log:
+     174      CCLD     libpciaccess.la
+     175    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-4tj1wP/libpciaccess-0.13.5/src'
+     176    Making all in scanpci
+     177    make[2]: Entering directory `/ram/tmp/dantopa/spack-stage/spack-sta
+            ge-4tj1wP/libpciaccess-0.13.5/scanpci'
+     178      CC       scanpci.o
+     179      CCLD     scanpci
+  >> 180    ../src/.libs/libpciaccess.so: undefined reference to `inw'
+  >> 181    ../src/.libs/libpciaccess.so: undefined reference to `outb'
+  >> 182    ../src/.libs/libpciaccess.so: undefined reference to `outl'
+  >> 183    ../src/.libs/libpciaccess.so: undefined reference to `inb'
+  >> 184    ../src/.libs/libpciaccess.so: undefined reference to `inl'
+  >> 185    ../src/.libs/libpciaccess.so: undefined reference to `outw'
+  >> 186    make[2]: *** [scanpci] Error 2
+     187    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-4tj1wP/libpciaccess-0.13.5/scanpci'
+  >> 188    make[1]: *** [all-recursive] Error 1
+     189    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-4tj1wP/libpciaccess-0.13.5'
+  >> 190    make: *** [all] Error 2
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-general.libhio/var/spack/stage/libpciaccess-0.13.5-pg2xuuyhcjdndbls4t7dgpig6zg6rbgi/spack-build.out
+spack install libhio @ 1.4.1.3 % pgi@16.10  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-libhio-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j12'
+
+9 errors found in build log:
+     174      CCLD     libpciaccess.la
+     175    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-cC05zX/libpciaccess-0.13.5/src'
+     176    Making all in scanpci
+     177    make[2]: Entering directory `/ram/tmp/dantopa/spack-stage/spack-sta
+            ge-cC05zX/libpciaccess-0.13.5/scanpci'
+     178      CC       scanpci.o
+     179      CCLD     scanpci
+  >> 180    ../src/.libs/libpciaccess.so: undefined reference to `inw'
+  >> 181    ../src/.libs/libpciaccess.so: undefined reference to `outb'
+  >> 182    ../src/.libs/libpciaccess.so: undefined reference to `outl'
+  >> 183    ../src/.libs/libpciaccess.so: undefined reference to `inb'
+  >> 184    ../src/.libs/libpciaccess.so: undefined reference to `inl'
+  >> 185    ../src/.libs/libpciaccess.so: undefined reference to `outw'
+  >> 186    make[2]: *** [scanpci] Error 2
+     187    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-cC05zX/libpciaccess-0.13.5/scanpci'
+  >> 188    make[1]: *** [all-recursive] Error 1
+     189    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-cC05zX/libpciaccess-0.13.5'
+  >> 190    make: *** [all] Error 2
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-general.libhio/var/spack/stage/libpciaccess-0.13.5-nl5rxpywvoxmxgoo22g2rne5btq2crh5/spack-build.out
+spack install libhio @ 1.4.1.2 % gcc@8.2.0  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-libhio-install.log
+spack install libhio @ 1.4.1.2 % gcc@7.3.0  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-libhio-install.log
+spack install libhio @ 1.4.1.2 % gcc@6.4.0  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-libhio-install.log
+spack install libhio @ 1.4.1.2 % gcc@5.5.0  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-libhio-install.log
+spack install libhio @ 1.4.1.2 % gcc@4.9.3  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-libhio-install.log
+spack install libhio @ 1.4.1.2 % gcc@4.8.5  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-libhio-install.log
+spack install libhio @ 1.4.1.2 % intel@18.0.3  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-libhio-install.log
+spack install libhio @ 1.4.1.2 % intel@17.0.6  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-libhio-install.log
+spack install libhio @ 1.4.1.2 % intel@16.0.4  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-libhio-install.log
+spack install libhio @ 1.4.1.2 % pgi@18.10  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-libhio-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j12'
+
+9 errors found in build log:
+     174      CCLD     libpciaccess.la
+     175    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-DJqklw/libpciaccess-0.13.5/src'
+     176    Making all in scanpci
+     177    make[2]: Entering directory `/ram/tmp/dantopa/spack-stage/spack-sta
+            ge-DJqklw/libpciaccess-0.13.5/scanpci'
+     178      CC       scanpci.o
+     179      CCLD     scanpci
+  >> 180    ../src/.libs/libpciaccess.so: undefined reference to `inw'
+  >> 181    ../src/.libs/libpciaccess.so: undefined reference to `outw'
+  >> 182    ../src/.libs/libpciaccess.so: undefined reference to `inb'
+  >> 183    ../src/.libs/libpciaccess.so: undefined reference to `outb'
+  >> 184    ../src/.libs/libpciaccess.so: undefined reference to `inl'
+  >> 185    ../src/.libs/libpciaccess.so: undefined reference to `outl'
+  >> 186    make[2]: *** [scanpci] Error 2
+     187    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-DJqklw/libpciaccess-0.13.5/scanpci'
+  >> 188    make[1]: *** [all-recursive] Error 1
+     189    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-DJqklw/libpciaccess-0.13.5'
+  >> 190    make: *** [all] Error 2
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-general.libhio/var/spack/stage/libpciaccess-0.13.5-txmk33tz4pwzoqpu7kzmtcuskj56yt5y/spack-build.out
+spack install libhio @ 1.4.1.2 % pgi@18.7  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-libhio-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j12'
+
+9 errors found in build log:
+     174      CCLD     libpciaccess.la
+     175    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-uoM8lF/libpciaccess-0.13.5/src'
+     176    Making all in scanpci
+     177    make[2]: Entering directory `/ram/tmp/dantopa/spack-stage/spack-sta
+            ge-uoM8lF/libpciaccess-0.13.5/scanpci'
+     178      CC       scanpci.o
+     179      CCLD     scanpci
+  >> 180    ../src/.libs/libpciaccess.so: undefined reference to `inw'
+  >> 181    ../src/.libs/libpciaccess.so: undefined reference to `outw'
+  >> 182    ../src/.libs/libpciaccess.so: undefined reference to `inb'
+  >> 183    ../src/.libs/libpciaccess.so: undefined reference to `outb'
+  >> 184    ../src/.libs/libpciaccess.so: undefined reference to `inl'
+  >> 185    ../src/.libs/libpciaccess.so: undefined reference to `outl'
+  >> 186    make[2]: *** [scanpci] Error 2
+     187    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-uoM8lF/libpciaccess-0.13.5/scanpci'
+  >> 188    make[1]: *** [all-recursive] Error 1
+     189    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-uoM8lF/libpciaccess-0.13.5'
+  >> 190    make: *** [all] Error 2
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-general.libhio/var/spack/stage/libpciaccess-0.13.5-v53lqyxkusuk5gzpa2c27if6gz74i6ef/spack-build.out
+spack install libhio @ 1.4.1.2 % pgi@17.10  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-libhio-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j12'
+
+9 errors found in build log:
+     174      CCLD     libpciaccess.la
+     175    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-LeNdwg/libpciaccess-0.13.5/src'
+     176    Making all in scanpci
+     177    make[2]: Entering directory `/ram/tmp/dantopa/spack-stage/spack-sta
+            ge-LeNdwg/libpciaccess-0.13.5/scanpci'
+     178      CC       scanpci.o
+     179      CCLD     scanpci
+  >> 180    ../src/.libs/libpciaccess.so: undefined reference to `inw'
+  >> 181    ../src/.libs/libpciaccess.so: undefined reference to `outb'
+  >> 182    ../src/.libs/libpciaccess.so: undefined reference to `outl'
+  >> 183    ../src/.libs/libpciaccess.so: undefined reference to `inb'
+  >> 184    ../src/.libs/libpciaccess.so: undefined reference to `inl'
+  >> 185    ../src/.libs/libpciaccess.so: undefined reference to `outw'
+  >> 186    make[2]: *** [scanpci] Error 2
+     187    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-LeNdwg/libpciaccess-0.13.5/scanpci'
+  >> 188    make[1]: *** [all-recursive] Error 1
+     189    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-LeNdwg/libpciaccess-0.13.5'
+  >> 190    make: *** [all] Error 2
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-general.libhio/var/spack/stage/libpciaccess-0.13.5-pg2xuuyhcjdndbls4t7dgpig6zg6rbgi/spack-build.out
+spack install libhio @ 1.4.1.2 % pgi@16.10  arch=linux-centos7-x86_64  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-general-libhio-install.log
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j12'
+
+9 errors found in build log:
+     174      CCLD     libpciaccess.la
+     175    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-6zAF07/libpciaccess-0.13.5/src'
+     176    Making all in scanpci
+     177    make[2]: Entering directory `/ram/tmp/dantopa/spack-stage/spack-sta
+            ge-6zAF07/libpciaccess-0.13.5/scanpci'
+     178      CC       scanpci.o
+     179      CCLD     scanpci
+  >> 180    ../src/.libs/libpciaccess.so: undefined reference to `inw'
+  >> 181    ../src/.libs/libpciaccess.so: undefined reference to `outb'
+  >> 182    ../src/.libs/libpciaccess.so: undefined reference to `outl'
+  >> 183    ../src/.libs/libpciaccess.so: undefined reference to `inb'
+  >> 184    ../src/.libs/libpciaccess.so: undefined reference to `inl'
+  >> 185    ../src/.libs/libpciaccess.so: undefined reference to `outw'
+  >> 186    make[2]: *** [scanpci] Error 2
+     187    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-6zAF07/libpciaccess-0.13.5/scanpci'
+  >> 188    make[1]: *** [all-recursive] Error 1
+     189    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-6zAF07/libpciaccess-0.13.5'
+  >> 190    make: *** [all] Error 2
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/libraries/darwin-general.libhio/var/spack/stage/libpciaccess-0.13.5-nl5rxpywvoxmxgoo22g2rne5btq2crh5/spack-build.out
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+mkdir -p "${dir_results}/platform-order"
+mkdir -p "${dir_results}/tpl-order"
+mkdir -p "${dir_results}/graphs"
+spack find libhio >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/platform-order/darwin-general-libhio.out
+spack find libhio >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/libhio-darwin-general.out
+spack find -ldf libhio  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/libhio-darwin-general-ldf.out
+spack graph libhio >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/graphs/libhio-darwin-general-graph.out
+spack compilers
+==> Available compilers
+-- gcc centos7-x86_64 -------------------------------------------
+gcc@8.2.0
+gcc@8.1.0
+gcc@7.3.0
+gcc@7.2.0
+gcc@6.4.0
+gcc@6.3.0
+gcc@5.5.0
+gcc@5.4.0
+gcc@4.9.3
+gcc@4.9.2
+gcc@4.8.5
+gcc@4.6.4
+
+-- intel centos7-x86_64 -----------------------------------------
+intel@18.0.3
+intel@18.0.2
+intel@17.0.6
+intel@17.0.1
+intel@16.0.4
+intel@16.0.3
+
+-- pgi centos7-x86_64 -------------------------------------------
+pgi@18.10
+pgi@18.7
+pgi@18.4
+pgi@18.3
+pgi@17.10
+pgi@17.4
+pgi@16.10
+spack find libhio
+==> 36 installed packages
+-- linux-centos7-x86_64 / gcc@4.8.5 -----------------------------
+libhio@1.4.1.2
+libhio@1.4.1.2
+libhio@1.4.1.2
+libhio@1.4.1.3
+libhio@1.4.1.3
+libhio@1.4.1.3
+
+-- linux-centos7-x86_64 / gcc@4.9.3 -----------------------------
+libhio@1.4.1.2
+libhio@1.4.1.2
+libhio@1.4.1.3
+libhio@1.4.1.3
+
+-- linux-centos7-x86_64 / gcc@5.5.0 -----------------------------
+libhio@1.4.1.2
+libhio@1.4.1.2
+libhio@1.4.1.3
+libhio@1.4.1.3
+
+-- linux-centos7-x86_64 / gcc@6.4.0 -----------------------------
+libhio@1.4.1.2
+libhio@1.4.1.2
+libhio@1.4.1.3
+libhio@1.4.1.3
+
+-- linux-centos7-x86_64 / gcc@7.3.0 -----------------------------
+libhio@1.4.1.2
+libhio@1.4.1.2
+libhio@1.4.1.3
+libhio@1.4.1.3
+
+-- linux-centos7-x86_64 / gcc@8.2.0 -----------------------------
+libhio@1.4.1.2
+libhio@1.4.1.2
+
+-- linux-centos7-x86_64 / intel@16.0.4 --------------------------
+libhio@1.4.1.2
+libhio@1.4.1.2
+libhio@1.4.1.3
+libhio@1.4.1.3
+
+-- linux-centos7-x86_64 / intel@17.0.6 --------------------------
+libhio@1.4.1.2
+libhio@1.4.1.2
+libhio@1.4.1.3
+libhio@1.4.1.3
+
+-- linux-centos7-x86_64 / intel@18.0.3 --------------------------
+libhio@1.4.1.2
+libhio@1.4.1.2
+libhio@1.4.1.3
+libhio@1.4.1.3
+spack find -ldf libhio
+==> 36 installed packages
+-- linux-centos7-x86_64 / gcc@4.8.5 -----------------------------
+mheol77    libhio@1.4.1.2%gcc 
+fxe4hfn        ^bzip2@1.0.6%gcc 
+gsf4a7i        ^hdf5@1.8.17%gcc 
+tt2hkol            ^numactl@2.0.12%gcc 
+pdfogzx            ^openmpi@3.1.3%gcc 
+bkkhvej                ^hwloc@1.11.11%gcc 
+5chyfxo                    ^libpciaccess@0.13.5%gcc 
+bcnjbc3                    ^libxml2@2.9.8%gcc 
+64vg6e4                ^zlib@1.2.11%gcc 
+iaq3vl7        ^json-c@0.13.1%gcc 
+
+zh4svok    libhio@1.4.1.2%gcc 
+fxe4hfn        ^bzip2@1.0.6%gcc 
+hiuxuhw        ^hdf5@1.8.17%gcc 
+tt2hkol            ^numactl@2.0.12%gcc 
+oi4nsrq            ^openmpi@3.1.0%gcc 
+bkkhvej                ^hwloc@1.11.11%gcc 
+5chyfxo                    ^libpciaccess@0.13.5%gcc 
+bcnjbc3                    ^libxml2@2.9.8%gcc 
+64vg6e4                ^zlib@1.2.11%gcc 
+iaq3vl7        ^json-c@0.13.1%gcc 
+
+qqrdnyc    libhio@1.4.1.2%gcc 
+fxe4hfn        ^bzip2@1.0.6%gcc 
+ywlvdkx        ^hdf5@1.8.17%gcc 
+tt2hkol            ^numactl@2.0.12%gcc 
+bjftvhy            ^openmpi@3.1.4%gcc 
+bkkhvej                ^hwloc@1.11.11%gcc 
+5chyfxo                    ^libpciaccess@0.13.5%gcc 
+bcnjbc3                    ^libxml2@2.9.8%gcc 
+64vg6e4                ^zlib@1.2.11%gcc 
+iaq3vl7        ^json-c@0.13.1%gcc 
+
+6vifjxa    libhio@1.4.1.3%gcc 
+fxe4hfn        ^bzip2@1.0.6%gcc 
+gsf4a7i        ^hdf5@1.8.17%gcc 
+tt2hkol            ^numactl@2.0.12%gcc 
+pdfogzx            ^openmpi@3.1.3%gcc 
+bkkhvej                ^hwloc@1.11.11%gcc 
+5chyfxo                    ^libpciaccess@0.13.5%gcc 
+bcnjbc3                    ^libxml2@2.9.8%gcc 
+64vg6e4                ^zlib@1.2.11%gcc 
+iaq3vl7        ^json-c@0.13.1%gcc 
+
+grjmo2d    libhio@1.4.1.3%gcc 
+fxe4hfn        ^bzip2@1.0.6%gcc 
+hiuxuhw        ^hdf5@1.8.17%gcc 
+tt2hkol            ^numactl@2.0.12%gcc 
+oi4nsrq            ^openmpi@3.1.0%gcc 
+bkkhvej                ^hwloc@1.11.11%gcc 
+5chyfxo                    ^libpciaccess@0.13.5%gcc 
+bcnjbc3                    ^libxml2@2.9.8%gcc 
+64vg6e4                ^zlib@1.2.11%gcc 
+iaq3vl7        ^json-c@0.13.1%gcc 
+
+bdhefin    libhio@1.4.1.3%gcc 
+fxe4hfn        ^bzip2@1.0.6%gcc 
+ywlvdkx        ^hdf5@1.8.17%gcc 
+tt2hkol            ^numactl@2.0.12%gcc 
+bjftvhy            ^openmpi@3.1.4%gcc 
+bkkhvej                ^hwloc@1.11.11%gcc 
+5chyfxo                    ^libpciaccess@0.13.5%gcc 
+bcnjbc3                    ^libxml2@2.9.8%gcc 
+64vg6e4                ^zlib@1.2.11%gcc 
+iaq3vl7        ^json-c@0.13.1%gcc 
+
+
+-- linux-centos7-x86_64 / gcc@4.9.3 -----------------------------
+6cefred    libhio@1.4.1.2%gcc 
+lz5gufp        ^bzip2@1.0.6%gcc 
+qyzw5x4        ^hdf5@1.8.17%gcc 
+gyit553            ^numactl@2.0.12%gcc 
+glupwb5            ^openmpi@3.1.3%gcc 
+xvnhmjp                ^hwloc@1.11.11%gcc 
+nqafs22                    ^libpciaccess@0.13.5%gcc 
+xr6jvqb                    ^libxml2@2.9.8%gcc 
+wabmm7g                ^zlib@1.2.11%gcc 
+hcuwj67        ^json-c@0.13.1%gcc 
+
+xkxqhxl    libhio@1.4.1.2%gcc 
+lz5gufp        ^bzip2@1.0.6%gcc 
+lhezfni        ^hdf5@1.8.17%gcc 
+gyit553            ^numactl@2.0.12%gcc 
+3vyf7ew            ^openmpi@3.1.4%gcc 
+xvnhmjp                ^hwloc@1.11.11%gcc 
+nqafs22                    ^libpciaccess@0.13.5%gcc 
+xr6jvqb                    ^libxml2@2.9.8%gcc 
+wabmm7g                ^zlib@1.2.11%gcc 
+hcuwj67        ^json-c@0.13.1%gcc 
+
+2tpau46    libhio@1.4.1.3%gcc 
+lz5gufp        ^bzip2@1.0.6%gcc 
+qyzw5x4        ^hdf5@1.8.17%gcc 
+gyit553            ^numactl@2.0.12%gcc 
+glupwb5            ^openmpi@3.1.3%gcc 
+xvnhmjp                ^hwloc@1.11.11%gcc 
+nqafs22                    ^libpciaccess@0.13.5%gcc 
+xr6jvqb                    ^libxml2@2.9.8%gcc 
+wabmm7g                ^zlib@1.2.11%gcc 
+hcuwj67        ^json-c@0.13.1%gcc 
+
+fvmvnrx    libhio@1.4.1.3%gcc 
+lz5gufp        ^bzip2@1.0.6%gcc 
+lhezfni        ^hdf5@1.8.17%gcc 
+gyit553            ^numactl@2.0.12%gcc 
+3vyf7ew            ^openmpi@3.1.4%gcc 
+xvnhmjp                ^hwloc@1.11.11%gcc 
+nqafs22                    ^libpciaccess@0.13.5%gcc 
+xr6jvqb                    ^libxml2@2.9.8%gcc 
+wabmm7g                ^zlib@1.2.11%gcc 
+hcuwj67        ^json-c@0.13.1%gcc 
+
+
+-- linux-centos7-x86_64 / gcc@5.5.0 -----------------------------
+a3yucze    libhio@1.4.1.2%gcc 
+zlbwevm        ^bzip2@1.0.6%gcc 
+ef6d2gz        ^hdf5@1.8.17%gcc 
+ccmgitq            ^numactl@2.0.12%gcc 
+7wgwlvk            ^openmpi@3.1.3%gcc 
+2bjodks                ^hwloc@1.11.11%gcc 
+ygiicn2                    ^libpciaccess@0.13.5%gcc 
+dyuna3l                    ^libxml2@2.9.8%gcc 
+ijtgxbh                ^zlib@1.2.11%gcc 
+ghpun6v        ^json-c@0.13.1%gcc 
+
+nhxzyor    libhio@1.4.1.2%gcc 
+zlbwevm        ^bzip2@1.0.6%gcc 
+3qojmyz        ^hdf5@1.8.17%gcc 
+ccmgitq            ^numactl@2.0.12%gcc 
+t4s6t7w            ^openmpi@3.1.4%gcc 
+2bjodks                ^hwloc@1.11.11%gcc 
+ygiicn2                    ^libpciaccess@0.13.5%gcc 
+dyuna3l                    ^libxml2@2.9.8%gcc 
+ijtgxbh                ^zlib@1.2.11%gcc 
+ghpun6v        ^json-c@0.13.1%gcc 
+
+4fmemyq    libhio@1.4.1.3%gcc 
+zlbwevm        ^bzip2@1.0.6%gcc 
+ef6d2gz        ^hdf5@1.8.17%gcc 
+ccmgitq            ^numactl@2.0.12%gcc 
+7wgwlvk            ^openmpi@3.1.3%gcc 
+2bjodks                ^hwloc@1.11.11%gcc 
+ygiicn2                    ^libpciaccess@0.13.5%gcc 
+dyuna3l                    ^libxml2@2.9.8%gcc 
+ijtgxbh                ^zlib@1.2.11%gcc 
+ghpun6v        ^json-c@0.13.1%gcc 
+
+3qecppp    libhio@1.4.1.3%gcc 
+zlbwevm        ^bzip2@1.0.6%gcc 
+3qojmyz        ^hdf5@1.8.17%gcc 
+ccmgitq            ^numactl@2.0.12%gcc 
+t4s6t7w            ^openmpi@3.1.4%gcc 
+2bjodks                ^hwloc@1.11.11%gcc 
+ygiicn2                    ^libpciaccess@0.13.5%gcc 
+dyuna3l                    ^libxml2@2.9.8%gcc 
+ijtgxbh                ^zlib@1.2.11%gcc 
+ghpun6v        ^json-c@0.13.1%gcc 
+
+
+-- linux-centos7-x86_64 / gcc@6.4.0 -----------------------------
+3jlxpzh    libhio@1.4.1.2%gcc 
+asyca7z        ^bzip2@1.0.6%gcc 
+zsbw4kd        ^hdf5@1.8.17%gcc 
+2zmeci4            ^numactl@2.0.12%gcc 
+hpwyprd            ^openmpi@3.1.3%gcc 
+ydbwr4w                ^hwloc@1.11.11%gcc 
+j6fsyhp                    ^libpciaccess@0.13.5%gcc 
+ltoyknu                    ^libxml2@2.9.8%gcc 
+ufwqfd4                ^zlib@1.2.11%gcc 
+kilrzph        ^json-c@0.13.1%gcc 
+
+wrwmqrp    libhio@1.4.1.2%gcc 
+asyca7z        ^bzip2@1.0.6%gcc 
+ljxpksn        ^hdf5@1.8.17%gcc 
+2zmeci4            ^numactl@2.0.12%gcc 
+23cc447            ^openmpi@3.1.4%gcc 
+ydbwr4w                ^hwloc@1.11.11%gcc 
+j6fsyhp                    ^libpciaccess@0.13.5%gcc 
+ltoyknu                    ^libxml2@2.9.8%gcc 
+ufwqfd4                ^zlib@1.2.11%gcc 
+kilrzph        ^json-c@0.13.1%gcc 
+
+4hbuozy    libhio@1.4.1.3%gcc 
+asyca7z        ^bzip2@1.0.6%gcc 
+zsbw4kd        ^hdf5@1.8.17%gcc 
+2zmeci4            ^numactl@2.0.12%gcc 
+hpwyprd            ^openmpi@3.1.3%gcc 
+ydbwr4w                ^hwloc@1.11.11%gcc 
+j6fsyhp                    ^libpciaccess@0.13.5%gcc 
+ltoyknu                    ^libxml2@2.9.8%gcc 
+ufwqfd4                ^zlib@1.2.11%gcc 
+kilrzph        ^json-c@0.13.1%gcc 
+
+rx7wgkn    libhio@1.4.1.3%gcc 
+asyca7z        ^bzip2@1.0.6%gcc 
+ljxpksn        ^hdf5@1.8.17%gcc 
+2zmeci4            ^numactl@2.0.12%gcc 
+23cc447            ^openmpi@3.1.4%gcc 
+ydbwr4w                ^hwloc@1.11.11%gcc 
+j6fsyhp                    ^libpciaccess@0.13.5%gcc 
+ltoyknu                    ^libxml2@2.9.8%gcc 
+ufwqfd4                ^zlib@1.2.11%gcc 
+kilrzph        ^json-c@0.13.1%gcc 
+
+
+-- linux-centos7-x86_64 / gcc@7.3.0 -----------------------------
+vtomis3    libhio@1.4.1.2%gcc 
+omvt7fb        ^bzip2@1.0.6%gcc 
+m3s6dal        ^hdf5@1.8.17%gcc 
+le6jhga            ^numactl@2.0.12%gcc 
+rd4bhjh            ^openmpi@3.1.3%gcc 
+vrpknac                ^hwloc@1.11.11%gcc 
+f5k35g4                    ^libpciaccess@0.13.5%gcc 
+m46g2kt                    ^libxml2@2.9.8%gcc 
+zknfwan                ^zlib@1.2.11%gcc 
+e6taii6        ^json-c@0.13.1%gcc 
+
+fj7kumi    libhio@1.4.1.2%gcc 
+omvt7fb        ^bzip2@1.0.6%gcc 
+e7tcrtk        ^hdf5@1.8.17%gcc 
+le6jhga            ^numactl@2.0.12%gcc 
+zjghxab            ^openmpi@3.1.4%gcc 
+vrpknac                ^hwloc@1.11.11%gcc 
+f5k35g4                    ^libpciaccess@0.13.5%gcc 
+m46g2kt                    ^libxml2@2.9.8%gcc 
+zknfwan                ^zlib@1.2.11%gcc 
+e6taii6        ^json-c@0.13.1%gcc 
+
+pvs43vp    libhio@1.4.1.3%gcc 
+omvt7fb        ^bzip2@1.0.6%gcc 
+m3s6dal        ^hdf5@1.8.17%gcc 
+le6jhga            ^numactl@2.0.12%gcc 
+rd4bhjh            ^openmpi@3.1.3%gcc 
+vrpknac                ^hwloc@1.11.11%gcc 
+f5k35g4                    ^libpciaccess@0.13.5%gcc 
+m46g2kt                    ^libxml2@2.9.8%gcc 
+zknfwan                ^zlib@1.2.11%gcc 
+e6taii6        ^json-c@0.13.1%gcc 
+
+tnmj2cz    libhio@1.4.1.3%gcc 
+omvt7fb        ^bzip2@1.0.6%gcc 
+e7tcrtk        ^hdf5@1.8.17%gcc 
+le6jhga            ^numactl@2.0.12%gcc 
+zjghxab            ^openmpi@3.1.4%gcc 
+vrpknac                ^hwloc@1.11.11%gcc 
+f5k35g4                    ^libpciaccess@0.13.5%gcc 
+m46g2kt                    ^libxml2@2.9.8%gcc 
+zknfwan                ^zlib@1.2.11%gcc 
+e6taii6        ^json-c@0.13.1%gcc 
+
+
+-- linux-centos7-x86_64 / gcc@8.2.0 -----------------------------
+b6ksnh6    libhio@1.4.1.2%gcc 
+3zeieuq        ^bzip2@1.0.6%gcc 
+d6snfho        ^hdf5@1.8.17%gcc 
+qwo625d            ^numactl@2.0.12%gcc 
+4jrf7jm            ^openmpi@3.1.3%gcc 
+kpmr675                ^hwloc@1.11.11%gcc 
+svkyphb                    ^libpciaccess@0.13.5%gcc 
+uvcs5lc                    ^libxml2@2.9.8%gcc 
+6wdekzy                ^zlib@1.2.11%gcc 
+bzwno6p        ^json-c@0.13.1%gcc 
+
+x2unywn    libhio@1.4.1.2%gcc 
+3zeieuq        ^bzip2@1.0.6%gcc 
+ryhkc7v        ^hdf5@1.8.17%gcc 
+qwo625d            ^numactl@2.0.12%gcc 
+6hdcscr            ^openmpi@3.1.4%gcc 
+kpmr675                ^hwloc@1.11.11%gcc 
+svkyphb                    ^libpciaccess@0.13.5%gcc 
+uvcs5lc                    ^libxml2@2.9.8%gcc 
+6wdekzy                ^zlib@1.2.11%gcc 
+bzwno6p        ^json-c@0.13.1%gcc 
+
+
+-- linux-centos7-x86_64 / intel@16.0.4 --------------------------
+msfxn7y    libhio@1.4.1.2%intel 
+hpa6wqs        ^bzip2@1.0.6%intel 
+nbzzb34        ^hdf5@1.8.17%intel 
+n2exbxj            ^numactl@2.0.12%intel 
+v4gbqrp            ^openmpi@3.1.3%intel 
+i32wppi                ^hwloc@1.11.11%intel 
+jtzzof2                    ^libpciaccess@0.13.5%intel 
+iikjujn                    ^libxml2@2.9.8%intel 
+khv5wg2                ^zlib@1.2.11%intel 
+t7vgewc        ^json-c@0.13.1%intel 
+
+7vdmgly    libhio@1.4.1.2%intel 
+hpa6wqs        ^bzip2@1.0.6%intel 
+fktdkps        ^hdf5@1.8.17%intel 
+n2exbxj            ^numactl@2.0.12%intel 
+7sww7u2            ^openmpi@3.1.4%intel 
+i32wppi                ^hwloc@1.11.11%intel 
+jtzzof2                    ^libpciaccess@0.13.5%intel 
+iikjujn                    ^libxml2@2.9.8%intel 
+khv5wg2                ^zlib@1.2.11%intel 
+t7vgewc        ^json-c@0.13.1%intel 
+
+3bhnnbe    libhio@1.4.1.3%intel 
+hpa6wqs        ^bzip2@1.0.6%intel 
+nbzzb34        ^hdf5@1.8.17%intel 
+n2exbxj            ^numactl@2.0.12%intel 
+v4gbqrp            ^openmpi@3.1.3%intel 
+i32wppi                ^hwloc@1.11.11%intel 
+jtzzof2                    ^libpciaccess@0.13.5%intel 
+iikjujn                    ^libxml2@2.9.8%intel 
+khv5wg2                ^zlib@1.2.11%intel 
+t7vgewc        ^json-c@0.13.1%intel 
+
+ojbnrdr    libhio@1.4.1.3%intel 
+hpa6wqs        ^bzip2@1.0.6%intel 
+fktdkps        ^hdf5@1.8.17%intel 
+n2exbxj            ^numactl@2.0.12%intel 
+7sww7u2            ^openmpi@3.1.4%intel 
+i32wppi                ^hwloc@1.11.11%intel 
+jtzzof2                    ^libpciaccess@0.13.5%intel 
+iikjujn                    ^libxml2@2.9.8%intel 
+khv5wg2                ^zlib@1.2.11%intel 
+t7vgewc        ^json-c@0.13.1%intel 
+
+
+-- linux-centos7-x86_64 / intel@17.0.6 --------------------------
+gmf4x6i    libhio@1.4.1.2%intel 
+vkrckk5        ^bzip2@1.0.6%intel 
+3ktfkxl        ^hdf5@1.8.17%intel 
+24xglv7            ^numactl@2.0.12%intel 
+kavl5tr            ^openmpi@3.1.4%intel 
+itb72kn                ^hwloc@1.11.11%intel 
+5ywhccx                    ^libpciaccess@0.13.5%intel 
+rxyquml                    ^libxml2@2.9.8%intel 
+zlp4ddi                ^zlib@1.2.11%intel 
+gbzdeoj        ^json-c@0.13.1%intel 
+
+wd2zgmq    libhio@1.4.1.2%intel 
+vkrckk5        ^bzip2@1.0.6%intel 
+rz7mlnr        ^hdf5@1.8.17%intel 
+24xglv7            ^numactl@2.0.12%intel 
+zrps6ub            ^openmpi@3.1.3%intel 
+itb72kn                ^hwloc@1.11.11%intel 
+5ywhccx                    ^libpciaccess@0.13.5%intel 
+rxyquml                    ^libxml2@2.9.8%intel 
+zlp4ddi                ^zlib@1.2.11%intel 
+gbzdeoj        ^json-c@0.13.1%intel 
+
+hk2h5um    libhio@1.4.1.3%intel 
+vkrckk5        ^bzip2@1.0.6%intel 
+3ktfkxl        ^hdf5@1.8.17%intel 
+24xglv7            ^numactl@2.0.12%intel 
+kavl5tr            ^openmpi@3.1.4%intel 
+itb72kn                ^hwloc@1.11.11%intel 
+5ywhccx                    ^libpciaccess@0.13.5%intel 
+rxyquml                    ^libxml2@2.9.8%intel 
+zlp4ddi                ^zlib@1.2.11%intel 
+gbzdeoj        ^json-c@0.13.1%intel 
+
+hinbeiz    libhio@1.4.1.3%intel 
+vkrckk5        ^bzip2@1.0.6%intel 
+rz7mlnr        ^hdf5@1.8.17%intel 
+24xglv7            ^numactl@2.0.12%intel 
+zrps6ub            ^openmpi@3.1.3%intel 
+itb72kn                ^hwloc@1.11.11%intel 
+5ywhccx                    ^libpciaccess@0.13.5%intel 
+rxyquml                    ^libxml2@2.9.8%intel 
+zlp4ddi                ^zlib@1.2.11%intel 
+gbzdeoj        ^json-c@0.13.1%intel 
+
+
+-- linux-centos7-x86_64 / intel@18.0.3 --------------------------
+ec3mgwn    libhio@1.4.1.2%intel 
+i3g4ssk        ^bzip2@1.0.6%intel 
+3eesgjy        ^hdf5@1.8.17%intel 
+caxqrj3            ^numactl@2.0.12%intel 
+htiaqn4            ^openmpi@3.1.3%intel 
+537d5od                ^hwloc@1.11.11%intel 
+zrun5pc                    ^libpciaccess@0.13.5%intel 
+x6jborh                    ^libxml2@2.9.8%intel 
+vonxam4                ^zlib@1.2.11%intel 
+i6p2xqh        ^json-c@0.13.1%intel 
+
+pkeho7v    libhio@1.4.1.2%intel 
+i3g4ssk        ^bzip2@1.0.6%intel 
+anqwcqt        ^hdf5@1.8.17%intel 
+caxqrj3            ^numactl@2.0.12%intel 
+tzivn7y            ^openmpi@3.1.4%intel 
+537d5od                ^hwloc@1.11.11%intel 
+zrun5pc                    ^libpciaccess@0.13.5%intel 
+x6jborh                    ^libxml2@2.9.8%intel 
+vonxam4                ^zlib@1.2.11%intel 
+i6p2xqh        ^json-c@0.13.1%intel 
+
+ug3pja4    libhio@1.4.1.3%intel 
+i3g4ssk        ^bzip2@1.0.6%intel 
+3eesgjy        ^hdf5@1.8.17%intel 
+caxqrj3            ^numactl@2.0.12%intel 
+htiaqn4            ^openmpi@3.1.3%intel 
+537d5od                ^hwloc@1.11.11%intel 
+zrun5pc                    ^libpciaccess@0.13.5%intel 
+x6jborh                    ^libxml2@2.9.8%intel 
+vonxam4                ^zlib@1.2.11%intel 
+i6p2xqh        ^json-c@0.13.1%intel 
+
+uzf66au    libhio@1.4.1.3%intel 
+i3g4ssk        ^bzip2@1.0.6%intel 
+anqwcqt        ^hdf5@1.8.17%intel 
+caxqrj3            ^numactl@2.0.12%intel 
+tzivn7y            ^openmpi@3.1.4%intel 
+537d5od                ^hwloc@1.11.11%intel 
+zrun5pc                    ^libpciaccess@0.13.5%intel 
+x6jborh                    ^libxml2@2.9.8%intel 
+vonxam4                ^zlib@1.2.11%intel 
+i6p2xqh        ^json-c@0.13.1%intel 
+
+mv  /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/darwin-general-batch.out   /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/batch-out/darwin-general-libhio-2019-04-24-batch.out
+cd /scratch/users/dantopa/repos/gitlab/pull-requests/libraries
+git add -A .
+git commit -m "${USER} ${tpl} ${hpc} ${partition} ${ymd}"
+[master 68bb66d] dantopa libhio darwin general 2019-04-24
+ 8 files changed, 2823 insertions(+), 819 deletions(-)
+ create mode 100644 libraries/results/batch-out/darwin-general-libhio-2019-04-24-batch.out
+ create mode 100644 libraries/results/graphs/libhio-darwin-general-graph.out
+ create mode 100644 libraries/results/platform-order/darwin-general-libhio.out
+ create mode 100644 libraries/results/tpl-order/libhio-darwin-general-ldf.out
+ create mode 100644 libraries/results/tpl-order/libhio-darwin-general.out
+ delete mode 100644 libraries/tools/bash/darwin-general-batch.out
+Wed Apr 24 23:41:57 MDT 2019

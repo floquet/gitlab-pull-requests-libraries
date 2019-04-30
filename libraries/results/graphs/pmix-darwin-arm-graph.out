@@ -1,0 +1,22 @@
+Wed Apr 24 16:18:26 MDT 2019
+/scratch/users/dantopa/new-spack/libraries/darwin-arm.pmix
+spack graph pmix >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/graphs/pmix-darwin-arm-graph.out
+o  pmix
+|\
+| o  hwloc
+| |\
+| | |\
+| | | o  libpciaccess
+| | |/| 
+| |/| | 
+| | | |\
+| | | o |  util-macros
+| | |  /
+| o | |  pkg-config
+|  / /
+o | |  libevent
+o | |  openssl
+ / /
+o |  libxml2
+ /
+o  libtool

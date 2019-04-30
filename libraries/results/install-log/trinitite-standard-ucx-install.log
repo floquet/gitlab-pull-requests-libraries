@@ -1,0 +1,502 @@
+Thu Apr 25 09:34:37 MDT 2019
+
+
+spack install ucx @ 1.5.0 % cce@8.7.9  arch=cray-cnl6-haswell
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> libnl is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.9/libnl-3.3.0-jq2kvxyfmftq5iqinsfe7geenbm3tu2u
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> Installing rdma-core
+==> Searching for binary cache of rdma-core
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for rdma-core found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/rdma-core/rdma-core-20.tar.gz
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-lohpaykt22txejldu32npfbr57ja3ptm/rdma-core-20.tar.gz
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-lohpaykt22txejldu32npfbr57ja3ptm
+==> No patches needed for rdma-core
+==> Building rdma-core [CMakePackage]
+==> Executing phase: 'cmake'
+
+spack install ucx @ 1.5.0 % cce@8.7.8  arch=cray-cnl6-haswell
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> libnl is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.8/libnl-3.3.0-rapk5ylsifpczjuq26sav3p4vmmbnwjd
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> Installing rdma-core
+==> Searching for binary cache of rdma-core
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for rdma-core found: installing from source
+==> Using cached archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/cache/rdma-core/rdma-core-20.tar.gz
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-yjfm7fb5beiae3wp7f7rc4poy5byhrt3/rdma-core-20.tar.gz
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-yjfm7fb5beiae3wp7f7rc4poy5byhrt3
+==> No patches needed for rdma-core
+==> Building rdma-core [CMakePackage]
+==> Executing phase: 'cmake'
+
+spack install ucx @ 1.5.0 % gcc@8.2.0  arch=cray-cnl6-haswell
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> libnl is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-8.2.0/libnl-3.3.0-q4rgvq4sjsafpceamk2mrqavkpyb2n2d
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> Installing rdma-core
+==> Searching for binary cache of rdma-core
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for rdma-core found: installing from source
+==> Using cached archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/cache/rdma-core/rdma-core-20.tar.gz
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-kh35sfe3lvpamma6yrnb23voeyy455um/rdma-core-20.tar.gz
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-kh35sfe3lvpamma6yrnb23voeyy455um
+==> No patches needed for rdma-core
+==> Building rdma-core [CMakePackage]
+==> Executing phase: 'cmake'
+
+spack install ucx @ 1.5.0 % gcc@7.3.0  arch=cray-cnl6-haswell
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> libnl is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-7.3.0/libnl-3.3.0-4bomwwjjku537bsd5mbcwy55gtxdst5g
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> Installing rdma-core
+==> Searching for binary cache of rdma-core
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for rdma-core found: installing from source
+==> Using cached archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/cache/rdma-core/rdma-core-20.tar.gz
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-hgw6nh2xqkjb2aqjqcjy6wjft75ntqkg/rdma-core-20.tar.gz
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-hgw6nh2xqkjb2aqjqcjy6wjft75ntqkg
+==> No patches needed for rdma-core
+==> Building rdma-core [CMakePackage]
+==> Executing phase: 'cmake'
+
+spack install ucx @ 1.5.0 % gcc@6.3.0  arch=cray-cnl6-haswell
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> Installing libnl
+==> Searching for binary cache of libnl
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libnl found: installing from source
+
+spack install ucx @ 1.5.0 % intel@19.0.1  arch=cray-cnl6-haswell
+
+spack install ucx @ 1.5.0 % intel@18.0.5  arch=cray-cnl6-haswell
+
+spack install ucx @ 1.4.0 % cce@8.7.9  arch=cray-cnl6-haswell
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> libnl is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.9/libnl-3.3.0-jq2kvxyfmftq5iqinsfe7geenbm3tu2u
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> Installing rdma-core
+==> Searching for binary cache of rdma-core
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for rdma-core found: installing from source
+==> Using cached archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/cache/rdma-core/rdma-core-20.tar.gz
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-lohpaykt22txejldu32npfbr57ja3ptm/rdma-core-20.tar.gz
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-lohpaykt22txejldu32npfbr57ja3ptm
+==> No patches needed for rdma-core
+==> Building rdma-core [CMakePackage]
+==> Executing phase: 'cmake'
+
+spack install ucx @ 1.4.0 % cce@8.7.8  arch=cray-cnl6-haswell
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> libnl is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.8/libnl-3.3.0-rapk5ylsifpczjuq26sav3p4vmmbnwjd
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> Installing rdma-core
+==> Searching for binary cache of rdma-core
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for rdma-core found: installing from source
+==> Using cached archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/cache/rdma-core/rdma-core-20.tar.gz
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-yjfm7fb5beiae3wp7f7rc4poy5byhrt3/rdma-core-20.tar.gz
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-yjfm7fb5beiae3wp7f7rc4poy5byhrt3
+==> No patches needed for rdma-core
+==> Building rdma-core [CMakePackage]
+==> Executing phase: 'cmake'
+
+spack install ucx @ 1.4.0 % gcc@8.2.0  arch=cray-cnl6-haswell
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> libnl is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-8.2.0/libnl-3.3.0-q4rgvq4sjsafpceamk2mrqavkpyb2n2d
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> Installing rdma-core
+==> Searching for binary cache of rdma-core
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for rdma-core found: installing from source
+==> Using cached archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/cache/rdma-core/rdma-core-20.tar.gz
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-kh35sfe3lvpamma6yrnb23voeyy455um/rdma-core-20.tar.gz
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-kh35sfe3lvpamma6yrnb23voeyy455um
+==> No patches needed for rdma-core
+==> Building rdma-core [CMakePackage]
+==> Executing phase: 'cmake'
+
+spack install ucx @ 1.4.0 % gcc@7.3.0  arch=cray-cnl6-haswell
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> libnl is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-7.3.0/libnl-3.3.0-4bomwwjjku537bsd5mbcwy55gtxdst5g
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> Installing rdma-core
+==> Searching for binary cache of rdma-core
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for rdma-core found: installing from source
+==> Using cached archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/cache/rdma-core/rdma-core-20.tar.gz
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-hgw6nh2xqkjb2aqjqcjy6wjft75ntqkg/rdma-core-20.tar.gz
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-hgw6nh2xqkjb2aqjqcjy6wjft75ntqkg
+==> No patches needed for rdma-core
+==> Building rdma-core [CMakePackage]
+==> Executing phase: 'cmake'
+
+spack install ucx @ 1.4.0 % gcc@6.3.0  arch=cray-cnl6-haswell
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> Installing libnl
+==> Searching for binary cache of libnl
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libnl found: installing from source
+
+spack install ucx @ 1.4.0 % intel@19.0.1  arch=cray-cnl6-haswell
+
+spack install ucx @ 1.4.0 % intel@18.0.5  arch=cray-cnl6-haswell
+
+spack install ucx @ 1.3.1 % cce@8.7.9  arch=cray-cnl6-haswell
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> libnl is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.9/libnl-3.3.0-jq2kvxyfmftq5iqinsfe7geenbm3tu2u
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> Installing rdma-core
+==> Searching for binary cache of rdma-core
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for rdma-core found: installing from source
+==> Using cached archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/cache/rdma-core/rdma-core-20.tar.gz
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-lohpaykt22txejldu32npfbr57ja3ptm/rdma-core-20.tar.gz
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-lohpaykt22txejldu32npfbr57ja3ptm
+==> No patches needed for rdma-core
+==> Building rdma-core [CMakePackage]
+==> Executing phase: 'cmake'
+
+spack install ucx @ 1.3.1 % cce@8.7.8  arch=cray-cnl6-haswell
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> libnl is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.8/libnl-3.3.0-rapk5ylsifpczjuq26sav3p4vmmbnwjd
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> Installing rdma-core
+==> Searching for binary cache of rdma-core
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for rdma-core found: installing from source
+==> Using cached archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/cache/rdma-core/rdma-core-20.tar.gz
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-yjfm7fb5beiae3wp7f7rc4poy5byhrt3/rdma-core-20.tar.gz
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-yjfm7fb5beiae3wp7f7rc4poy5byhrt3
+==> No patches needed for rdma-core
+==> Building rdma-core [CMakePackage]
+==> Executing phase: 'cmake'
+
+spack install ucx @ 1.3.1 % gcc@8.2.0  arch=cray-cnl6-haswell
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> libnl is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-8.2.0/libnl-3.3.0-q4rgvq4sjsafpceamk2mrqavkpyb2n2d
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> Installing rdma-core
+==> Searching for binary cache of rdma-core
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for rdma-core found: installing from source
+==> Using cached archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/cache/rdma-core/rdma-core-20.tar.gz
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-kh35sfe3lvpamma6yrnb23voeyy455um/rdma-core-20.tar.gz
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-kh35sfe3lvpamma6yrnb23voeyy455um
+==> No patches needed for rdma-core
+==> Building rdma-core [CMakePackage]
+==> Executing phase: 'cmake'
+
+spack install ucx @ 1.3.1 % gcc@7.3.0  arch=cray-cnl6-haswell
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> libnl is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-7.3.0/libnl-3.3.0-4bomwwjjku537bsd5mbcwy55gtxdst5g
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> Installing rdma-core
+==> Searching for binary cache of rdma-core
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for rdma-core found: installing from source
+==> Using cached archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/cache/rdma-core/rdma-core-20.tar.gz
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-hgw6nh2xqkjb2aqjqcjy6wjft75ntqkg/rdma-core-20.tar.gz
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-hgw6nh2xqkjb2aqjqcjy6wjft75ntqkg
+==> No patches needed for rdma-core
+==> Building rdma-core [CMakePackage]
+==> Executing phase: 'cmake'
+
+spack install ucx @ 1.3.1 % gcc@6.3.0  arch=cray-cnl6-haswell
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> Installing libnl
+==> Searching for binary cache of libnl
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libnl found: installing from source
+
+spack install ucx @ 1.3.1 % intel@19.0.1  arch=cray-cnl6-haswell
+
+spack install ucx @ 1.3.1 % intel@18.0.5  arch=cray-cnl6-haswell
+
+spack install ucx @ 1.2.2 % cce@8.7.9  arch=cray-cnl6-haswell
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> libnl is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.9/libnl-3.3.0-jq2kvxyfmftq5iqinsfe7geenbm3tu2u
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> Installing rdma-core
+==> Searching for binary cache of rdma-core
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for rdma-core found: installing from source
+==> Using cached archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/cache/rdma-core/rdma-core-20.tar.gz
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-lohpaykt22txejldu32npfbr57ja3ptm/rdma-core-20.tar.gz
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-lohpaykt22txejldu32npfbr57ja3ptm
+==> No patches needed for rdma-core
+==> Building rdma-core [CMakePackage]
+==> Executing phase: 'cmake'
+
+spack install ucx @ 1.2.2 % cce@8.7.8  arch=cray-cnl6-haswell
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> libnl is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/cce-8.7.8/libnl-3.3.0-rapk5ylsifpczjuq26sav3p4vmmbnwjd
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> Installing rdma-core
+==> Searching for binary cache of rdma-core
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for rdma-core found: installing from source
+==> Using cached archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/cache/rdma-core/rdma-core-20.tar.gz
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-yjfm7fb5beiae3wp7f7rc4poy5byhrt3/rdma-core-20.tar.gz
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-yjfm7fb5beiae3wp7f7rc4poy5byhrt3
+==> No patches needed for rdma-core
+==> Building rdma-core [CMakePackage]
+==> Executing phase: 'cmake'
+
+spack install ucx @ 1.2.2 % gcc@8.2.0  arch=cray-cnl6-haswell
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> libnl is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-8.2.0/libnl-3.3.0-q4rgvq4sjsafpceamk2mrqavkpyb2n2d
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> Installing rdma-core
+==> Searching for binary cache of rdma-core
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for rdma-core found: installing from source
+==> Using cached archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/cache/rdma-core/rdma-core-20.tar.gz
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-kh35sfe3lvpamma6yrnb23voeyy455um/rdma-core-20.tar.gz
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-kh35sfe3lvpamma6yrnb23voeyy455um
+==> No patches needed for rdma-core
+==> Building rdma-core [CMakePackage]
+==> Executing phase: 'cmake'
+
+spack install ucx @ 1.2.2 % gcc@7.3.0  arch=cray-cnl6-haswell
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> libnl is already installed in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/opt/spack/cray-cnl6-haswell/gcc-7.3.0/libnl-3.3.0-4bomwwjjku537bsd5mbcwy55gtxdst5g
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> Installing rdma-core
+==> Searching for binary cache of rdma-core
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for rdma-core found: installing from source
+==> Using cached archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/cache/rdma-core/rdma-core-20.tar.gz
+==> Staging archive: /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-hgw6nh2xqkjb2aqjqcjy6wjft75ntqkg/rdma-core-20.tar.gz
+==> Created stage in /lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.ucx/var/spack/stage/rdma-core-20-hgw6nh2xqkjb2aqjqcjy6wjft75ntqkg
+==> No patches needed for rdma-core
+==> Building rdma-core [CMakePackage]
+==> Executing phase: 'cmake'
+
+spack install ucx @ 1.2.2 % gcc@6.3.0  arch=cray-cnl6-haswell
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/projects/hpcsoft/cle6.0/common/cmake/3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> Installing libnl
+==> Searching for binary cache of libnl
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libnl found: installing from source
+
+spack install ucx @ 1.2.2 % intel@19.0.1  arch=cray-cnl6-haswell
+
+spack install ucx @ 1.2.2 % intel@18.0.5  arch=cray-cnl6-haswell

@@ -1,0 +1,18 @@
+Tue Apr 30 09:29:01 MDT 2019 libraries/tools/bash/interrogater.sh
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results
+
+
+partition: standard
+bin/spack find pmix
+==> 6 installed packages
+-- cray-cnl6-haswell / gcc@7.3.0 --------------------------------
+pmix@2.1.4
+pmix@2.2.2
+
+-- cray-cnl6-haswell / gcc@8.2.0 --------------------------------
+pmix@2.1.4
+pmix@2.2.2
+
+-- cray-cnl6-haswell / intel@18.0.5 -----------------------------
+pmix@2.1.4
+pmix@2.2.2

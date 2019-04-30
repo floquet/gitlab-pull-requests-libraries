@@ -1,0 +1,40 @@
+Fri Apr 26 14:09:49 MDT 2019
+/lustre/cpscratch1/dantopa/repos/spack/libraries/capulin-arm.libhio
+spack graph libhio >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/graphs/libhio-capulin-arm-graph.out
+o  libhio
+|\
+| |\
+| | |\
+| | | |\
+| | | o |  hdf5
+| | |/| | 
+| |/| | | 
+| o | | |  openmpi
+| |\ \ \ \
+| | |_|/ /
+| |/| | | 
+| | |\ \ \
+| o | | | |  zlib
+|  / / / /
+| | o | |  hwloc
+| |/| | | 
+|/| | | | 
+| | |\ \ \
+| | | o | |  libpciaccess
+| |_|/| | | 
+|/| | | | | 
+| | | |\ \ \
+| | | o | | |  util-macros
+| | |  / / /
+o | | | | |  pkg-config
+ / / / / /
+o | | | |  numactl
+ / / / /
+o | | |  libxml2
+ / / /
+o | |  libtool
+ / /
+o |  json-c
+| o  bzip2
+| 
+o  autoconf

@@ -1,0 +1,15 @@
+Wed Apr 24 21:12:58 MDT 2019
+/lustre/ttscratch1/dantopa/spack/libraries/trinitite-standard.pmix
+spack find pmix >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/platform-order/trinitite-standard-pmix.out
+==> 6 installed packages
+-- cray-cnl6-haswell / gcc@7.3.0 --------------------------------
+pmix@2.1.4
+pmix@2.2.2
+
+-- cray-cnl6-haswell / gcc@8.2.0 --------------------------------
+pmix@2.1.4
+pmix@2.2.2
+
+-- cray-cnl6-haswell / intel@18.0.5 -----------------------------
+pmix@2.1.4
+pmix@2.2.2

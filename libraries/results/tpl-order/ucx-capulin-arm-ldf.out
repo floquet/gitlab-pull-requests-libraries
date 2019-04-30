@@ -1,0 +1,4 @@
+Fri Apr 26 12:43:13 MDT 2019
+/lustre/cpscratch1/dantopa/repos/spack/libraries/capulin-arm.ucx
+spack find -ldf ucx
+==> No package matches the query: ucx

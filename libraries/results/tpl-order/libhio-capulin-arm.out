@@ -1,0 +1,14 @@
+Fri Apr 26 14:09:44 MDT 2019
+/lustre/cpscratch1/dantopa/repos/spack/libraries/capulin-arm.libhio
+spack find libhio >> /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/libhio-capulin-arm.out
+==> 5 installed packages
+-- cray-cnl6-arm_thunderx2 / gcc@7.3.0 --------------------------
+libhio@1.4.1.2
+libhio@1.4.1.3
+
+-- cray-cnl6-arm_thunderx2 / gcc@8.2.0 --------------------------
+libhio@1.4.1.2
+
+-- cray-cnl6-arm_thunderx2 / gcc@8.3.0 --------------------------
+libhio@1.4.1.2
+libhio@1.4.1.3

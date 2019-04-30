@@ -1,0 +1,19 @@
+dantopa@darwin-fe2.lanl.gov:xz $ lss
+total 5.1M
+drwxrwxr-x   2 dantopa dantopa    6 Apr  1 18:38 .
+drwxrwxr-x 103 dantopa dantopa  104 Apr  1 18:17 ..
+-rw-rw-r--   1 dantopa dantopa 1.2M Mar 15 23:09 xz-5.2.0.tar.bz2
+-rw-rw-r--   1 dantopa dantopa 1.2M Mar 15 23:09 xz-5.2.2.tar.bz2
+-rw-rw-r--   1 dantopa dantopa 1.2M Mar 15 23:09 xz-5.2.3.tar.bz2
+-rw-rw-r--   1 dantopa dantopa 1.3M Mar 15 23:09 xz-5.2.4.tar.bz2
+
+dantopa@darwin-fe2.lanl.gov:xz $ chown dantopa:user_contrib *
+
+dantopa@darwin-fe2.lanl.gov:xz $ lss
+total 5.1M
+drwxrwxr-x   2 dantopa dantopa         6 Apr  1 18:38 .
+drwxrwxr-x 103 dantopa dantopa       104 Apr  1 18:17 ..
+-rw-rw-r--   1 dantopa user_contrib 1.2M Mar 15 23:09 xz-5.2.0.tar.bz2
+-rw-rw-r--   1 dantopa user_contrib 1.2M Mar 15 23:09 xz-5.2.2.tar.bz2
+-rw-rw-r--   1 dantopa user_contrib 1.2M Mar 15 23:09 xz-5.2.3.tar.bz2
+-rw-rw-r--   1 dantopa user_contrib 1.3M Mar 15 23:09 xz-5.2.4.tar.bz2

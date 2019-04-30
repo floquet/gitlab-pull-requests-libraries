@@ -1,0 +1,56 @@
+Fri Apr 19 00:06:51 MDT 2019
+spack find openmpi >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/openmpi-darwin-general.out
+==> 36 installed packages
+-- linux-centos7-x86_64 / gcc@4.8.5 -----------------------------
+openmpi@2.1.6
+openmpi@3.0.3
+openmpi@3.1.3
+openmpi@4.0.1
+
+-- linux-centos7-x86_64 / gcc@4.9.3 -----------------------------
+openmpi@2.1.6
+openmpi@3.0.3
+openmpi@3.1.3
+openmpi@4.0.1
+
+-- linux-centos7-x86_64 / gcc@5.5.0 -----------------------------
+openmpi@2.1.6
+openmpi@3.0.3
+openmpi@3.1.3
+openmpi@4.0.1
+
+-- linux-centos7-x86_64 / gcc@6.4.0 -----------------------------
+openmpi@2.1.6
+openmpi@3.0.3
+openmpi@3.1.3
+openmpi@4.0.1
+
+-- linux-centos7-x86_64 / gcc@7.3.0 -----------------------------
+openmpi@2.1.6
+openmpi@3.0.3
+openmpi@3.1.3
+openmpi@4.0.1
+
+-- linux-centos7-x86_64 / gcc@8.2.0 -----------------------------
+openmpi@2.1.6
+openmpi@3.0.3
+openmpi@3.1.3
+openmpi@4.0.1
+
+-- linux-centos7-x86_64 / intel@16.0.4 --------------------------
+openmpi@2.1.6
+openmpi@3.0.3
+openmpi@3.1.3
+openmpi@4.0.1
+
+-- linux-centos7-x86_64 / intel@17.0.6 --------------------------
+openmpi@2.1.6
+openmpi@3.0.3
+openmpi@3.1.3
+openmpi@4.0.1
+
+-- linux-centos7-x86_64 / intel@18.0.3 --------------------------
+openmpi@2.1.6
+openmpi@3.0.3
+openmpi@3.1.3
+openmpi@4.0.1

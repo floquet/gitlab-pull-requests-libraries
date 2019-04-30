@@ -1,0 +1,578 @@
+Mon Apr 29 10:37:40 MDT 2019 /var/spool/slurm/job548901/slurm_script
+source /users/dantopa/libraries-trinitite.sh
+Mon Apr 29 10:37:40 MDT 2019 [1m/users/dantopa/libraries-trinitite.sh(B[m
+source "${dir_tools}/bash/master-tpl-sweep.sh"
+Mon Apr 29 10:37:40 MDT 2019 /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh
+cd /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools
+source directories/libraries-trinitite.sh
+Mon Apr 29 10:37:40 MDT 2019 [1mdirectories/libraries-trinitite.sh(B[m
+source tpl-versions/versions-openmpi.sh
+Mon Apr 29 10:37:40 MDT 2019 [1mtpl-versions/versions-openmpi.sh(B[m
+4 openmpi versions loaded:
+4.0.1  3.1.4  3.0.4  2.1.6
+
+source compilers/compilers-trinitite-standard.sh
+Mon Apr 29 10:37:40 MDT 2019 [1mcompilers/compilers-trinitite-standard.sh(B[m
+7 Spack-recognized compilers loaded:
+cce@8.7.9  cce@8.7.8  gcc@8.2.0  gcc@7.3.0  gcc@6.3.0  intel@19.0.1  intel@18.0.5
+
+source klingons/trinitite-standard-openmpi.sh
+/lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 37: klingons/trinitite-standard-openmpi.sh: No such file or directory
+cd /lustre/ttscratch1/dantopa/repos/spack/libraries/trinitite-standard.openmpi
+. share/spack/setup-env.sh
+export spack_architecture='arch=cray-cnl6-haswell'
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+spack compilers
+==> Available compilers
+-- cce cnl6-any -------------------------------------------------
+cce@8.7.9
+cce@8.7.8
+
+-- gcc cnl6-any -------------------------------------------------
+gcc@8.2.0
+gcc@7.3.0
+gcc@6.3.0
+
+-- intel cnl6-any -----------------------------------------------
+intel@19.0.1
+intel@18.0.5
+ls -alh etc/spack/defaults
+total 56K
+drwxr-xr-x 4 dantopa dantopa 4.0K Apr 18 16:54 .
+drwxr-xr-x 3 dantopa dantopa 4.0K Oct 15  2018 ..
+-rw-r----- 1 dantopa dantopa 2.6K Apr 18 17:18 compilers.yaml
+-rw-r----- 1 dantopa dantopa 4.4K Mar 15 18:15 config.yaml
+drwxr-xr-x 2 dantopa dantopa 4.0K Oct 15  2018 darwin
+drwxr-xr-x 2 dantopa dantopa 4.0K Oct 15  2018 linux
+-rw-r----- 1 dantopa dantopa 2.8K Apr 18 17:18 lmod-modules.yaml
+-rw-r----- 1 dantopa dantopa   77 Apr 18 17:18 mirrors.yaml
+-rw-r--r-- 1 dantopa dantopa 3.7K Apr 18 17:18 modules.yaml
+-rw-r----- 1 dantopa dantopa 3.1K Apr 18 17:18 packages.yaml
+-rw-r----- 1 dantopa dantopa  530 Mar  7 17:30 release.yaml
+-rw-r--r-- 1 dantopa dantopa  546 Oct 15  2018 repos.yaml
+-rw-r----- 1 dantopa dantopa 3.7K Apr 18 17:18 tcl-modules.yaml
+cat etc/spack/defaults/compilers.yaml
+# # # Trinitite system compilers
+
+# dantopa@tt-fey1:spack.trinitite.compilers $ date
+# Tue Jan 29 19:06:30 MST 2019
+
+# dantopa@tt-fey1:spack.trinitite.compilers $ pwd
+# /lustre/ttscratch1/dantopa/repos/spack/spack.trinitite.compilers
+
+# dantopa@tt-fey1:spack.trinitite.compilers $ spack compilers
+# ==> Available compilers
+# -- cce cnl6-any -------------------------------------------------
+# cce@8.7.9  cce@8.7.8
+#
+# -- gcc cnl6-any -------------------------------------------------
+# gcc@8.2.0  gcc@7.3.0  gcc@6.3.0
+#
+# -- intel cnl6-any -----------------------------------------------
+# intel@19.0.1  intel@18.0.5
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - !!python/unicode
+      'cce/8.7.9'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: cce@8.7.9
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - !!python/unicode
+      'cce/8.7.8'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: cce@8.7.8
+    target: any
+# # # GCC
+  #  # gcc@8.2.0  gcc@7.3.0  gcc@6.3.0
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/8.2.0'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: gcc@8.2.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/7.3.0'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: gcc@7.3.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/6.3.0'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: gcc@6.3.0
+    target: any
+# # # intel
+  # #  intel@19.0.1  intel@18.0.5
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-intel
+    - friendly-testing
+    - !!python/unicode
+      'intel/19.0.1'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: intel@19.0.1
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-intel
+    - !!python/unicode
+      'intel/18.0.5'
+    operating_system: cnl6
+    paths:
+      cc:  cc
+      cxx: CC
+      f77: ftn
+      fc:  ftn
+    spec: intel@18.0.5
+    target: any
+spack config get compilers
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - !!python/unicode
+      'cce/8.7.9'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: cce@8.7.9
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-cray
+    - !!python/unicode
+      'cce/8.7.8'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: cce@8.7.8
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/8.2.0'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: gcc@8.2.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/7.3.0'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: gcc@7.3.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-gnu
+    - !!python/unicode
+      'gcc/6.3.0'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: gcc@6.3.0
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-intel
+    - friendly-testing
+    - !!python/unicode
+      'intel/19.0.1'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: intel@19.0.1
+    target: any
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - PrgEnv-intel
+    - !!python/unicode
+      'intel/18.0.5'
+    operating_system: cnl6
+    paths:
+      cc: cc
+      cxx: CC
+      f77: ftn
+      fc: ftn
+    spec: intel@18.0.5
+    target: any
+spack install openmpi @ 4.0.1 % cce@8.7.9  arch=cray-cnl6-haswell 2>&1 >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: [Errno 116] Stale file handle
+spack install openmpi @ 4.0.1 % cce@8.7.8  arch=cray-cnl6-haswell 2>&1 >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /lustre/ttscratch1/dantopa/repos/spack/libraries/trinitite-standard.openmpi/opt/spack/cray-cnl6-haswell/cce-8.7.8/util-macros-1.19.1-fp5alpo7zzgk3bntf2tmk73fbjatp2ve
+spack install openmpi @ 4.0.1 % gcc@8.2.0  arch=cray-cnl6-haswell 2>&1 >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /lustre/ttscratch1/dantopa/repos/spack/libraries/trinitite-standard.openmpi/opt/spack/cray-cnl6-haswell/gcc-8.2.0/openmpi-4.0.1-nqtir3276mff2md2xhqmmtraryp2d4fi
+spack install openmpi @ 4.0.1 % gcc@7.3.0  arch=cray-cnl6-haswell 2>&1 >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /lustre/ttscratch1/dantopa/repos/spack/libraries/trinitite-standard.openmpi/opt/spack/cray-cnl6-haswell/gcc-7.3.0/openmpi-4.0.1-yq6s3wofo2sf6yokz3uzajqmje3j3i35
+spack install openmpi @ 4.0.1 % gcc@6.3.0  arch=cray-cnl6-haswell 2>&1 >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /lustre/ttscratch1/dantopa/repos/spack/libraries/trinitite-standard.openmpi/opt/spack/cray-cnl6-haswell/gcc-6.3.0/util-macros-1.19.1-lb5vwbskpyp2iauuv34rolobxqyl5ysg
+spack install openmpi @ 4.0.1 % intel@19.0.1  arch=cray-cnl6-haswell 2>&1 >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: sequence item 2: expected string, NoneType found
+spack install openmpi @ 4.0.1 % intel@18.0.5  arch=cray-cnl6-haswell 2>&1 >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /lustre/ttscratch1/dantopa/repos/spack/libraries/trinitite-standard.openmpi/opt/spack/cray-cnl6-haswell/intel-18.0.5/openmpi-4.0.1-nxqvneleuqcxjvq6azfopylmh2yklrbl
+spack install openmpi @ 3.1.4 % cce@8.7.9  arch=cray-cnl6-haswell 2>&1 >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /lustre/ttscratch1/dantopa/repos/spack/libraries/trinitite-standard.openmpi/opt/spack/cray-cnl6-haswell/cce-8.7.9/util-macros-1.19.1-dcqjyrkat5plbxxta6ewr5e6yvdel2yf
+spack install openmpi @ 3.1.4 % cce@8.7.8  arch=cray-cnl6-haswell 2>&1 >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /lustre/ttscratch1/dantopa/repos/spack/libraries/trinitite-standard.openmpi/opt/spack/cray-cnl6-haswell/cce-8.7.8/util-macros-1.19.1-fp5alpo7zzgk3bntf2tmk73fbjatp2ve
+spack install openmpi @ 3.1.4 % gcc@8.2.0  arch=cray-cnl6-haswell 2>&1 >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /lustre/ttscratch1/dantopa/repos/spack/libraries/trinitite-standard.openmpi/opt/spack/cray-cnl6-haswell/gcc-8.2.0/openmpi-3.1.4-3xwpbhsvqw7mtkbfnnfq3ndgdi7s2ulx
+spack install openmpi @ 3.1.4 % gcc@7.3.0  arch=cray-cnl6-haswell 2>&1 >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /lustre/ttscratch1/dantopa/repos/spack/libraries/trinitite-standard.openmpi/opt/spack/cray-cnl6-haswell/gcc-7.3.0/openmpi-3.1.4-2y6czbjnrr7yjnbqzuegcvi3mqk6xhgl
+spack install openmpi @ 3.1.4 % gcc@6.3.0  arch=cray-cnl6-haswell 2>&1 >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /lustre/ttscratch1/dantopa/repos/spack/libraries/trinitite-standard.openmpi/opt/spack/cray-cnl6-haswell/gcc-6.3.0/util-macros-1.19.1-lb5vwbskpyp2iauuv34rolobxqyl5ysg
+spack install openmpi @ 3.1.4 % intel@19.0.1  arch=cray-cnl6-haswell 2>&1 >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: sequence item 2: expected string, NoneType found
+spack install openmpi @ 3.1.4 % intel@18.0.5  arch=cray-cnl6-haswell 2>&1 >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /lustre/ttscratch1/dantopa/repos/spack/libraries/trinitite-standard.openmpi/opt/spack/cray-cnl6-haswell/intel-18.0.5/openmpi-3.1.4-ekgrteirjxzlsuor65dv446yjtv3vqco
+spack install openmpi @ 3.0.4 % cce@8.7.9  arch=cray-cnl6-haswell 2>&1 >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /lustre/ttscratch1/dantopa/repos/spack/libraries/trinitite-standard.openmpi/opt/spack/cray-cnl6-haswell/cce-8.7.9/util-macros-1.19.1-dcqjyrkat5plbxxta6ewr5e6yvdel2yf
+spack install openmpi @ 3.0.4 % cce@8.7.8  arch=cray-cnl6-haswell 2>&1 >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /lustre/ttscratch1/dantopa/repos/spack/libraries/trinitite-standard.openmpi/opt/spack/cray-cnl6-haswell/cce-8.7.8/util-macros-1.19.1-fp5alpo7zzgk3bntf2tmk73fbjatp2ve
+spack install openmpi @ 3.0.4 % gcc@8.2.0  arch=cray-cnl6-haswell 2>&1 >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /lustre/ttscratch1/dantopa/repos/spack/libraries/trinitite-standard.openmpi/opt/spack/cray-cnl6-haswell/gcc-8.2.0/openmpi-3.0.4-xchpy7rzz7mrszwnpjvwh7ujenl7z4jb
+spack install openmpi @ 3.0.4 % gcc@7.3.0  arch=cray-cnl6-haswell 2>&1 >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /lustre/ttscratch1/dantopa/repos/spack/libraries/trinitite-standard.openmpi/opt/spack/cray-cnl6-haswell/gcc-7.3.0/openmpi-3.0.4-wauujibgrn5btppfyyjszkumw43p5axf
+spack install openmpi @ 3.0.4 % gcc@6.3.0  arch=cray-cnl6-haswell 2>&1 >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /lustre/ttscratch1/dantopa/repos/spack/libraries/trinitite-standard.openmpi/opt/spack/cray-cnl6-haswell/gcc-6.3.0/util-macros-1.19.1-lb5vwbskpyp2iauuv34rolobxqyl5ysg
+spack install openmpi @ 3.0.4 % intel@19.0.1  arch=cray-cnl6-haswell 2>&1 >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: sequence item 2: expected string, NoneType found
+spack install openmpi @ 3.0.4 % intel@18.0.5  arch=cray-cnl6-haswell 2>&1 >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /lustre/ttscratch1/dantopa/repos/spack/libraries/trinitite-standard.openmpi/opt/spack/cray-cnl6-haswell/intel-18.0.5/openmpi-3.0.4-ovqlwiawpj6qz2drkev5pj2sfgjhl46w
+spack install openmpi @ 2.1.6 % cce@8.7.9  arch=cray-cnl6-haswell 2>&1 >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /lustre/ttscratch1/dantopa/repos/spack/libraries/trinitite-standard.openmpi/opt/spack/cray-cnl6-haswell/cce-8.7.9/util-macros-1.19.1-dcqjyrkat5plbxxta6ewr5e6yvdel2yf
+spack install openmpi @ 2.1.6 % cce@8.7.8  arch=cray-cnl6-haswell 2>&1 >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /lustre/ttscratch1/dantopa/repos/spack/libraries/trinitite-standard.openmpi/opt/spack/cray-cnl6-haswell/cce-8.7.8/util-macros-1.19.1-fp5alpo7zzgk3bntf2tmk73fbjatp2ve
+spack install openmpi @ 2.1.6 % gcc@8.2.0  arch=cray-cnl6-haswell 2>&1 >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /lustre/ttscratch1/dantopa/repos/spack/libraries/trinitite-standard.openmpi/opt/spack/cray-cnl6-haswell/gcc-8.2.0/openmpi-2.1.6-q7dh3c2ll22sn3mddbo7vm2pdatrml5p
+spack install openmpi @ 2.1.6 % gcc@7.3.0  arch=cray-cnl6-haswell 2>&1 >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /lustre/ttscratch1/dantopa/repos/spack/libraries/trinitite-standard.openmpi/opt/spack/cray-cnl6-haswell/gcc-7.3.0/openmpi-2.1.6-6sedn5mlntejmjl5vpq3lbixx6wteo46
+spack install openmpi @ 2.1.6 % gcc@6.3.0  arch=cray-cnl6-haswell 2>&1 >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /lustre/ttscratch1/dantopa/repos/spack/libraries/trinitite-standard.openmpi/opt/spack/cray-cnl6-haswell/gcc-6.3.0/util-macros-1.19.1-lb5vwbskpyp2iauuv34rolobxqyl5ysg
+spack install openmpi @ 2.1.6 % intel@19.0.1  arch=cray-cnl6-haswell 2>&1 >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: sequence item 2: expected string, NoneType found
+spack install openmpi @ 2.1.6 % intel@18.0.5  arch=cray-cnl6-haswell 2>&1 >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/trinitite-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /lustre/ttscratch1/dantopa/repos/spack/libraries/trinitite-standard.openmpi/opt/spack/cray-cnl6-haswell/intel-18.0.5/openmpi-2.1.6-i6wpksqxihyfzcrybs2tiqik46trpwxj
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+mkdir -p "${dir_results}/platform-order"
+mkdir -p "${dir_results}/tpl-order"
+mkdir -p "${dir_results}/graphs"
+spack find openmpi >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/platform-order/trinitite-standard-openmpi.out
+spack find openmpi >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/openmpi-trinitite-standard.out
+spack find -ldf openmpi  >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/openmpi-trinitite-standard-ldf.out
+spack graph openmpi >> /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/graphs/openmpi-trinitite-standard-graph.out
+spack compilers
+==> Available compilers
+-- cce cnl6-any -------------------------------------------------
+cce@8.7.9
+cce@8.7.8
+
+-- gcc cnl6-any -------------------------------------------------
+gcc@8.2.0
+gcc@7.3.0
+gcc@6.3.0
+
+-- intel cnl6-any -----------------------------------------------
+intel@19.0.1
+intel@18.0.5
+spack find openmpi
+==> 18 installed packages
+-- cray-cnl6-haswell / gcc@7.3.0 --------------------------------
+openmpi@2.1.6
+openmpi@3.0.3
+openmpi@3.0.4
+openmpi@3.1.3
+openmpi@3.1.4
+openmpi@4.0.1
+
+-- cray-cnl6-haswell / gcc@8.2.0 --------------------------------
+openmpi@2.1.6
+openmpi@3.0.3
+openmpi@3.0.4
+openmpi@3.1.3
+openmpi@3.1.4
+openmpi@4.0.1
+
+-- cray-cnl6-haswell / intel@18.0.5 -----------------------------
+openmpi@2.1.6
+openmpi@3.0.3
+openmpi@3.0.4
+openmpi@3.1.3
+openmpi@3.1.4
+openmpi@4.0.1
+spack find -ldf openmpi
+==> 18 installed packages
+-- cray-cnl6-haswell / gcc@7.3.0 --------------------------------
+6sedn5m    openmpi@2.1.6%gcc 
+7zmbmjq        ^hwloc@1.11.11%gcc 
+h2ms6q3            ^libpciaccess@0.13.5%gcc 
+36vc6qy            ^libxml2@2.9.8%gcc 
+jo6rhc5        ^numactl@2.0.12%gcc 
+
+im4b3wq    openmpi@3.0.3%gcc 
+7zmbmjq        ^hwloc@1.11.11%gcc 
+h2ms6q3            ^libpciaccess@0.13.5%gcc 
+36vc6qy            ^libxml2@2.9.8%gcc 
+jo6rhc5        ^numactl@2.0.12%gcc 
+uw4fzi4        ^zlib@1.2.11%gcc 
+
+wauujib    openmpi@3.0.4%gcc 
+7zmbmjq        ^hwloc@1.11.11%gcc 
+h2ms6q3            ^libpciaccess@0.13.5%gcc 
+36vc6qy            ^libxml2@2.9.8%gcc 
+jo6rhc5        ^numactl@2.0.12%gcc 
+uw4fzi4        ^zlib@1.2.11%gcc 
+
+umqkoip    openmpi@3.1.3%gcc 
+7zmbmjq        ^hwloc@1.11.11%gcc 
+h2ms6q3            ^libpciaccess@0.13.5%gcc 
+36vc6qy            ^libxml2@2.9.8%gcc 
+jo6rhc5        ^numactl@2.0.12%gcc 
+uw4fzi4        ^zlib@1.2.11%gcc 
+
+2y6czbj    openmpi@3.1.4%gcc 
+7zmbmjq        ^hwloc@1.11.11%gcc 
+h2ms6q3            ^libpciaccess@0.13.5%gcc 
+36vc6qy            ^libxml2@2.9.8%gcc 
+jo6rhc5        ^numactl@2.0.12%gcc 
+uw4fzi4        ^zlib@1.2.11%gcc 
+
+yq6s3wo    openmpi@4.0.1%gcc 
+7zmbmjq        ^hwloc@1.11.11%gcc 
+h2ms6q3            ^libpciaccess@0.13.5%gcc 
+36vc6qy            ^libxml2@2.9.8%gcc 
+jo6rhc5        ^numactl@2.0.12%gcc 
+uw4fzi4        ^zlib@1.2.11%gcc 
+
+
+-- cray-cnl6-haswell / gcc@8.2.0 --------------------------------
+q7dh3c2    openmpi@2.1.6%gcc 
+fusyoi5        ^hwloc@1.11.11%gcc 
+ahkgt2w            ^libpciaccess@0.13.5%gcc 
+zrurfh6            ^libxml2@2.9.8%gcc 
+tq5cpbs        ^numactl@2.0.12%gcc 
+
+hh6nzt5    openmpi@3.0.3%gcc 
+fusyoi5        ^hwloc@1.11.11%gcc 
+ahkgt2w            ^libpciaccess@0.13.5%gcc 
+zrurfh6            ^libxml2@2.9.8%gcc 
+tq5cpbs        ^numactl@2.0.12%gcc 
+v25hso5        ^zlib@1.2.11%gcc 
+
+xchpy7r    openmpi@3.0.4%gcc 
+fusyoi5        ^hwloc@1.11.11%gcc 
+ahkgt2w            ^libpciaccess@0.13.5%gcc 
+zrurfh6            ^libxml2@2.9.8%gcc 
+tq5cpbs        ^numactl@2.0.12%gcc 
+v25hso5        ^zlib@1.2.11%gcc 
+
+ujgvwki    openmpi@3.1.3%gcc 
+fusyoi5        ^hwloc@1.11.11%gcc 
+ahkgt2w            ^libpciaccess@0.13.5%gcc 
+zrurfh6            ^libxml2@2.9.8%gcc 
+tq5cpbs        ^numactl@2.0.12%gcc 
+v25hso5        ^zlib@1.2.11%gcc 
+
+3xwpbhs    openmpi@3.1.4%gcc 
+fusyoi5        ^hwloc@1.11.11%gcc 
+ahkgt2w            ^libpciaccess@0.13.5%gcc 
+zrurfh6            ^libxml2@2.9.8%gcc 
+tq5cpbs        ^numactl@2.0.12%gcc 
+v25hso5        ^zlib@1.2.11%gcc 
+
+nqtir32    openmpi@4.0.1%gcc 
+fusyoi5        ^hwloc@1.11.11%gcc 
+ahkgt2w            ^libpciaccess@0.13.5%gcc 
+zrurfh6            ^libxml2@2.9.8%gcc 
+tq5cpbs        ^numactl@2.0.12%gcc 
+v25hso5        ^zlib@1.2.11%gcc 
+
+
+-- cray-cnl6-haswell / intel@18.0.5 -----------------------------
+i6wpksq    openmpi@2.1.6%intel 
+q2ysccq        ^hwloc@1.11.11%intel 
+sil2bz2            ^libpciaccess@0.13.5%intel 
+c7h2sun            ^libxml2@2.9.8%intel 
+rrzv6cm        ^numactl@2.0.12%intel 
+
+s72k4cd    openmpi@3.0.3%intel 
+q2ysccq        ^hwloc@1.11.11%intel 
+sil2bz2            ^libpciaccess@0.13.5%intel 
+c7h2sun            ^libxml2@2.9.8%intel 
+rrzv6cm        ^numactl@2.0.12%intel 
+fqgrfuy        ^zlib@1.2.11%intel 
+
+ovqlwia    openmpi@3.0.4%intel 
+q2ysccq        ^hwloc@1.11.11%intel 
+sil2bz2            ^libpciaccess@0.13.5%intel 
+c7h2sun            ^libxml2@2.9.8%intel 
+rrzv6cm        ^numactl@2.0.12%intel 
+fqgrfuy        ^zlib@1.2.11%intel 
+
+wbfoi4w    openmpi@3.1.3%intel 
+q2ysccq        ^hwloc@1.11.11%intel 
+sil2bz2            ^libpciaccess@0.13.5%intel 
+c7h2sun            ^libxml2@2.9.8%intel 
+rrzv6cm        ^numactl@2.0.12%intel 
+fqgrfuy        ^zlib@1.2.11%intel 
+
+ekgrtei    openmpi@3.1.4%intel 
+q2ysccq        ^hwloc@1.11.11%intel 
+sil2bz2            ^libpciaccess@0.13.5%intel 
+c7h2sun            ^libxml2@2.9.8%intel 
+rrzv6cm        ^numactl@2.0.12%intel 
+fqgrfuy        ^zlib@1.2.11%intel 
+
+nxqvnel    openmpi@4.0.1%intel 
+q2ysccq        ^hwloc@1.11.11%intel 
+sil2bz2            ^libpciaccess@0.13.5%intel 
+c7h2sun            ^libxml2@2.9.8%intel 
+rrzv6cm        ^numactl@2.0.12%intel 
+fqgrfuy        ^zlib@1.2.11%intel 
+
+mv  /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/trinitite-standard-batch.out   /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results/batch-out/trinitite-standard-openmpi-2019-04-29-batch.out
+cd /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries
+git add -A .
+git commit -m "${USER} ${tpl} ${hpc} ${partition} ${ymd}"
+[master 8ce66bf] dantopa openmpi trinitite standard 2019-04-29
+ 7 files changed, 691 insertions(+), 449 deletions(-)
+ create mode 100644 libraries/results/batch-out/trinitite-standard-openmpi-2019-04-29-batch.out
+ rewrite libraries/results/install-log/trinitite-standard-openmpi-install.log (86%)
+Mon Apr 29 10:41:39 MDT 2019
