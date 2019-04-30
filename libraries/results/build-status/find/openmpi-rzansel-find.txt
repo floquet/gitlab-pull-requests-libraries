@@ -1,0 +1,18 @@
+Tue Apr 30 09:01:02 PDT 2019 libraries/tools/bash/interrogater.sh
+/usr/workspace/wsrzc/topa1/repos/Github/gitlab-pull-requests-libraries/libraries/results
+
+
+partition: power9
+bin/spack find openmpi
+==> 8 installed packages
+-- linux-rhel7-ppc64le / gcc@4.8.5 ------------------------------
+openmpi@2.1.6
+openmpi@3.0.3
+openmpi@3.1.3
+openmpi@4.0.1
+
+-- linux-rhel7-ppc64le / gcc@4.9.3 ------------------------------
+openmpi@2.1.6
+openmpi@3.0.3
+openmpi@3.1.3
+openmpi@4.0.1

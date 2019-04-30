@@ -19,9 +19,9 @@ function query(){
 
 myTPLS="libhio openmpi pmix ucx"
 
-myPartitions="standard"
+# myPartitions="standard"
 # myPartitions="general arm power9"
-# myPartitions="power9"
+myPartitions="power9"
 # myPartitions="arm"
 
 echo "source ${HOME}/libraries-${hpc}.sh"

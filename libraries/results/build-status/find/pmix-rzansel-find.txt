@@ -1,0 +1,18 @@
+Tue Apr 30 09:01:15 PDT 2019 libraries/tools/bash/interrogater.sh
+/usr/workspace/wsrzc/topa1/repos/Github/gitlab-pull-requests-libraries/libraries/results
+
+
+partition: power9
+bin/spack find pmix
+==> 8 installed packages
+-- linux-rhel7-ppc64le / gcc@4.8.5 ------------------------------
+pmix@2.1.4
+pmix@2.2.2
+pmix@3.0.2
+pmix@3.1.2
+
+-- linux-rhel7-ppc64le / gcc@4.9.3 ------------------------------
+pmix@2.1.4
+pmix@2.2.2
+pmix@3.0.2
+pmix@3.1.2

@@ -1,0 +1,4 @@
+Tue Apr 30 09:42:08 PDT 2019
+/usr/workspace/wsrzc/topa1/repos/spack/libraries/rzansel-power9.ucx
+spack find ucx >> /usr/workspace/wsrzc/topa1/repos/Github/gitlab-pull-requests-libraries/libraries/results/tpl-order/ucx-rzansel-power9.out
+==> No package matches the query: ucx

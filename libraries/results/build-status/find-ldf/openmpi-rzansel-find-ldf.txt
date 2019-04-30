@@ -1,0 +1,82 @@
+Tue Apr 30 09:01:02 PDT 2019 libraries/tools/bash/interrogater.sh
+/usr/workspace/wsrzc/topa1/repos/Github/gitlab-pull-requests-libraries/libraries/results
+
+
+partition: power9
+bin/spack find -ldf openmpi
+==> 8 installed packages
+-- linux-rhel7-ppc64le / gcc@4.8.5 ------------------------------
+jkcsl7b    openmpi@2.1.6%gcc 
+owbblt5        ^hwloc@1.11.11%gcc 
+uzm3xdv            ^libpciaccess@0.13.5%gcc 
+4tjndlx            ^libxml2@2.9.8%gcc 
+dv5pw6w                ^libiconv@1.15%gcc 
+goozwyd                ^xz@5.2.4%gcc 
+4v3ticy                ^zlib@1.2.11%gcc 
+mv4yjsp            ^numactl@2.0.12%gcc 
+
+h3ufmmi    openmpi@3.0.3%gcc 
+owbblt5        ^hwloc@1.11.11%gcc 
+uzm3xdv            ^libpciaccess@0.13.5%gcc 
+4tjndlx            ^libxml2@2.9.8%gcc 
+dv5pw6w                ^libiconv@1.15%gcc 
+goozwyd                ^xz@5.2.4%gcc 
+4v3ticy                ^zlib@1.2.11%gcc 
+mv4yjsp            ^numactl@2.0.12%gcc 
+
+s3lpgo7    openmpi@3.1.3%gcc 
+owbblt5        ^hwloc@1.11.11%gcc 
+uzm3xdv            ^libpciaccess@0.13.5%gcc 
+4tjndlx            ^libxml2@2.9.8%gcc 
+dv5pw6w                ^libiconv@1.15%gcc 
+goozwyd                ^xz@5.2.4%gcc 
+4v3ticy                ^zlib@1.2.11%gcc 
+mv4yjsp            ^numactl@2.0.12%gcc 
+
+t54qs7x    openmpi@4.0.1%gcc 
+owbblt5        ^hwloc@1.11.11%gcc 
+uzm3xdv            ^libpciaccess@0.13.5%gcc 
+4tjndlx            ^libxml2@2.9.8%gcc 
+dv5pw6w                ^libiconv@1.15%gcc 
+goozwyd                ^xz@5.2.4%gcc 
+4v3ticy                ^zlib@1.2.11%gcc 
+mv4yjsp            ^numactl@2.0.12%gcc 
+
+
+-- linux-rhel7-ppc64le / gcc@4.9.3 ------------------------------
+65dz2mi    openmpi@2.1.6%gcc 
+hyq7skg        ^hwloc@1.11.11%gcc 
+pezczu3            ^libpciaccess@0.13.5%gcc 
+jiatnre            ^libxml2@2.9.8%gcc 
+7nszima                ^libiconv@1.15%gcc 
+hathmj6                ^xz@5.2.4%gcc 
+5jgyzbl                ^zlib@1.2.11%gcc 
+r7dsnpy            ^numactl@2.0.12%gcc 
+
+lsv3imv    openmpi@3.0.3%gcc 
+hyq7skg        ^hwloc@1.11.11%gcc 
+pezczu3            ^libpciaccess@0.13.5%gcc 
+jiatnre            ^libxml2@2.9.8%gcc 
+7nszima                ^libiconv@1.15%gcc 
+hathmj6                ^xz@5.2.4%gcc 
+5jgyzbl                ^zlib@1.2.11%gcc 
+r7dsnpy            ^numactl@2.0.12%gcc 
+
+an55bni    openmpi@3.1.3%gcc 
+hyq7skg        ^hwloc@1.11.11%gcc 
+pezczu3            ^libpciaccess@0.13.5%gcc 
+jiatnre            ^libxml2@2.9.8%gcc 
+7nszima                ^libiconv@1.15%gcc 
+hathmj6                ^xz@5.2.4%gcc 
+5jgyzbl                ^zlib@1.2.11%gcc 
+r7dsnpy            ^numactl@2.0.12%gcc 
+
+5mlct4g    openmpi@4.0.1%gcc 
+hyq7skg        ^hwloc@1.11.11%gcc 
+pezczu3            ^libpciaccess@0.13.5%gcc 
+jiatnre            ^libxml2@2.9.8%gcc 
+7nszima                ^libiconv@1.15%gcc 
+hathmj6                ^xz@5.2.4%gcc 
+5jgyzbl                ^zlib@1.2.11%gcc 
+r7dsnpy            ^numactl@2.0.12%gcc 
+

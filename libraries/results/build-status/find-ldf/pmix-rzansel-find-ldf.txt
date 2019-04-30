@@ -1,0 +1,70 @@
+Tue Apr 30 09:01:15 PDT 2019 libraries/tools/bash/interrogater.sh
+/usr/workspace/wsrzc/topa1/repos/Github/gitlab-pull-requests-libraries/libraries/results
+
+
+partition: power9
+bin/spack find -ldf pmix
+==> 8 installed packages
+-- linux-rhel7-ppc64le / gcc@4.8.5 ------------------------------
+otc6hcx    pmix@2.1.4%gcc 
+5pydedp        ^libevent@2.1.8%gcc 
+4av6kqc            ^openssl@1.1.1b%gcc 
+4v3ticy                ^zlib@1.2.11%gcc 
+
+gydmktq    pmix@2.2.2%gcc 
+5pydedp        ^libevent@2.1.8%gcc 
+4av6kqc            ^openssl@1.1.1b%gcc 
+4v3ticy                ^zlib@1.2.11%gcc 
+
+ruxl4q6    pmix@3.0.2%gcc 
+4rcbmcu        ^hwloc@2.0.2%gcc 
+uzm3xdv            ^libpciaccess@0.13.5%gcc 
+4tjndlx            ^libxml2@2.9.8%gcc 
+dv5pw6w                ^libiconv@1.15%gcc 
+goozwyd                ^xz@5.2.4%gcc 
+4v3ticy                ^zlib@1.2.11%gcc 
+5pydedp        ^libevent@2.1.8%gcc 
+4av6kqc            ^openssl@1.1.1b%gcc 
+
+scjexfu    pmix@3.1.2%gcc 
+4rcbmcu        ^hwloc@2.0.2%gcc 
+uzm3xdv            ^libpciaccess@0.13.5%gcc 
+4tjndlx            ^libxml2@2.9.8%gcc 
+dv5pw6w                ^libiconv@1.15%gcc 
+goozwyd                ^xz@5.2.4%gcc 
+4v3ticy                ^zlib@1.2.11%gcc 
+5pydedp        ^libevent@2.1.8%gcc 
+4av6kqc            ^openssl@1.1.1b%gcc 
+
+
+-- linux-rhel7-ppc64le / gcc@4.9.3 ------------------------------
+ct3rdtj    pmix@2.1.4%gcc 
+dynt5ae        ^libevent@2.1.8%gcc 
+66ad5r6            ^openssl@1.1.1b%gcc 
+5jgyzbl                ^zlib@1.2.11%gcc 
+
+a2e6jfw    pmix@2.2.2%gcc 
+dynt5ae        ^libevent@2.1.8%gcc 
+66ad5r6            ^openssl@1.1.1b%gcc 
+5jgyzbl                ^zlib@1.2.11%gcc 
+
+z4vzreu    pmix@3.0.2%gcc 
+vab74z4        ^hwloc@2.0.2%gcc 
+pezczu3            ^libpciaccess@0.13.5%gcc 
+jiatnre            ^libxml2@2.9.8%gcc 
+7nszima                ^libiconv@1.15%gcc 
+hathmj6                ^xz@5.2.4%gcc 
+5jgyzbl                ^zlib@1.2.11%gcc 
+dynt5ae        ^libevent@2.1.8%gcc 
+66ad5r6            ^openssl@1.1.1b%gcc 
+
+cenkhok    pmix@3.1.2%gcc 
+vab74z4        ^hwloc@2.0.2%gcc 
+pezczu3            ^libpciaccess@0.13.5%gcc 
+jiatnre            ^libxml2@2.9.8%gcc 
+7nszima                ^libiconv@1.15%gcc 
+hathmj6                ^xz@5.2.4%gcc 
+5jgyzbl                ^zlib@1.2.11%gcc 
+dynt5ae        ^libevent@2.1.8%gcc 
+66ad5r6            ^openssl@1.1.1b%gcc 
+

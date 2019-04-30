@@ -1,0 +1,7 @@
+Tue Apr 30 09:01:39 PDT 2019 libraries/tools/bash/interrogater.sh
+/usr/workspace/wsrzc/topa1/repos/Github/gitlab-pull-requests-libraries/libraries/results
+
+
+partition: power9
+bin/spack find ucx
+==> No package matches the query: ucx

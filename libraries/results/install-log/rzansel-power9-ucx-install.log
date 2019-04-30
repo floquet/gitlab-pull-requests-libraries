@@ -1,0 +1,922 @@
+Tue Apr 30 09:06:39 PDT 2019
+
+
+spack install ucx @ 1.5.0 % clang@7.0.0  arch=linux-rhel7-ppc64le
+
+spack install ucx @ 1.5.0 % gcc@7.3.1  arch=linux-rhel7-ppc64le
+
+spack install ucx @ 1.5.0 % gcc@4.9.3  arch=linux-rhel7-ppc64le
+==> Installing libsigsegv
+==> Searching for binary cache of libsigsegv
+==> No binary for libsigsegv found: installing from source
+==> Fetching https://ftpmirror.gnu.org/libsigsegv/libsigsegv-2.11.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libsigsegv-2.11-qcamfpcvnyrfhpehnffnspp2kdmc7h6a/libsigsegv-2.11.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libsigsegv-2.11-qcamfpcvnyrfhpehnffnspp2kdmc7h6a
+==> No patches needed for libsigsegv
+==> Building libsigsegv [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libsigsegv
+  Fetch: 3.48s.  Build: 8.17s.  Total: 11.65s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/libsigsegv-2.11-qcamfpcvnyrfhpehnffnspp2kdmc7h6a
+==> Installing m4
+==> Searching for binary cache of m4
+==> No binary for m4 found: installing from source
+==> Fetching https://ftpmirror.gnu.org/m4/m4-1.4.18.tar.gz
+==> Fetching https://src.fedoraproject.org/rpms/m4/raw/5d147168d4b93f38a4833f5dd1d650ad88af5a8a/f/m4-1.4.18-glibc-change-work-around.patch
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/m4-1.4.18-3l4elj5jqja6bg33vcqkpjwsogkkoqcb/m4-1.4.18.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/m4-1.4.18-3l4elj5jqja6bg33vcqkpjwsogkkoqcb
+==> Applied patch /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/repos/builtin/packages/m4/gnulib-pgi.patch
+==> Applied patch /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/repos/builtin/packages/m4/secure_snprintf.patch
+==> Applied patch https://src.fedoraproject.org/rpms/m4/raw/5d147168d4b93f38a4833f5dd1d650ad88af5a8a/f/m4-1.4.18-glibc-change-work-around.patch
+==> Building m4 [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed m4
+  Fetch: 5.06s.  Build: 36.73s.  Total: 41.79s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/m4-1.4.18-3l4elj5jqja6bg33vcqkpjwsogkkoqcb
+==> Installing pkgconf
+==> Searching for binary cache of pkgconf
+==> No binary for pkgconf found: installing from source
+==> Fetching http://distfiles.dereferenced.org/pkgconf/pkgconf-1.6.0.tar.xz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/pkgconf-1.6.0-u2hn7cjat6siyqonu2vy6nr64u4emaiv/pkgconf-1.6.0.tar.xz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/pkgconf-1.6.0-u2hn7cjat6siyqonu2vy6nr64u4emaiv
+==> No patches needed for pkgconf
+==> Building pkgconf [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pkgconf
+  Fetch: 0.74s.  Build: 6.69s.  Total: 7.44s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/pkgconf-1.6.0-u2hn7cjat6siyqonu2vy6nr64u4emaiv
+==> Installing ncurses
+==> Searching for binary cache of ncurses
+==> No binary for ncurses found: installing from source
+==> Fetching https://ftpmirror.gnu.org/ncurses/ncurses-6.1.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/ncurses-6.1-ef2a4donccpvfrwzsvn7jdcpkporktxb/ncurses-6.1.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/ncurses-6.1-ef2a4donccpvfrwzsvn7jdcpkporktxb
+==> No patches needed for ncurses
+==> Building ncurses [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed ncurses
+  Fetch: 7.59s.  Build: 1m 38.23s.  Total: 1m 45.82s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/ncurses-6.1-ef2a4donccpvfrwzsvn7jdcpkporktxb
+==> Installing readline
+==> Searching for binary cache of readline
+==> No binary for readline found: installing from source
+==> Fetching https://ftpmirror.gnu.org/readline/readline-7.0.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/readline-7.0-owal6z2zh5zotgvdmwow6sgdn6cqfn43/readline-7.0.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/readline-7.0-owal6z2zh5zotgvdmwow6sgdn6cqfn43
+==> No patches needed for readline
+==> Building readline [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed readline
+  Fetch: 3.22s.  Build: 11.35s.  Total: 14.57s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/readline-7.0-owal6z2zh5zotgvdmwow6sgdn6cqfn43
+==> Installing gdbm
+==> Searching for binary cache of gdbm
+==> No binary for gdbm found: installing from source
+==> Fetching https://ftpmirror.gnu.org/gdbm/gdbm-1.18.1.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/gdbm-1.18.1-6lnyoxhrdj6e2jwo7chkqjfvrazlmegx/gdbm-1.18.1.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/gdbm-1.18.1-6lnyoxhrdj6e2jwo7chkqjfvrazlmegx
+==> No patches needed for gdbm
+==> Building gdbm [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed gdbm
+  Fetch: 3.11s.  Build: 11.18s.  Total: 14.29s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/gdbm-1.18.1-6lnyoxhrdj6e2jwo7chkqjfvrazlmegx
+==> Installing perl
+==> Searching for binary cache of perl
+==> No binary for perl found: installing from source
+==> Fetching http://www.cpan.org/src/5.0/perl-5.26.2.tar.gz
+==> Fetching http://search.cpan.org/CPAN/authors/id/M/MI/MIYAGAWA/App-cpanminus-1.7042.tar.gz
+==> Fetching https://src.fedoraproject.org/rpms/perl/raw/004cea3a67df42e92ffdf4e9ac36d47a3c6a05a4/f/perl-5.26.1-guard_old_libcrypt_fix.patch
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/perl-5.26.2-jysfgnwse6dh5surrl37f4shurtlsqf7/perl-5.26.2.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/perl-5.26.2-jysfgnwse6dh5surrl37f4shurtlsqf7
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/resource-cpanm-jysfgnwse6dh5surrl37f4shurtlsqf7/App-cpanminus-1.7042.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/resource-cpanm-jysfgnwse6dh5surrl37f4shurtlsqf7
+==> Moving resource stage
+	source : /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/resource-cpanm-jysfgnwse6dh5surrl37f4shurtlsqf7/App-cpanminus-1.7042/
+	destination : /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/perl-5.26.2-jysfgnwse6dh5surrl37f4shurtlsqf7/perl-5.26.2/cpanm/cpanm
+==> Applied patch https://src.fedoraproject.org/rpms/perl/raw/004cea3a67df42e92ffdf4e9ac36d47a3c6a05a4/f/perl-5.26.1-guard_old_libcrypt_fix.patch
+==> Building perl [Package]
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed perl
+  Fetch: 2.30s.  Build: 3m 13.78s.  Total: 3m 16.07s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/perl-5.26.2-jysfgnwse6dh5surrl37f4shurtlsqf7
+==> Installing autoconf
+==> Searching for binary cache of autoconf
+==> No binary for autoconf found: installing from source
+==> Fetching https://ftpmirror.gnu.org/autoconf/autoconf-2.69.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/autoconf-2.69-uqhb3yywv5swvlbdkspwxhwuu6rpy6ja/autoconf-2.69.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/autoconf-2.69-uqhb3yywv5swvlbdkspwxhwuu6rpy6ja
+==> Ran patch() for autoconf
+==> Building autoconf [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed autoconf
+  Fetch: 5.94s.  Build: 5.34s.  Total: 11.28s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/autoconf-2.69-uqhb3yywv5swvlbdkspwxhwuu6rpy6ja
+==> Installing automake
+==> Searching for binary cache of automake
+==> No binary for automake found: installing from source
+==> Fetching https://ftpmirror.gnu.org/automake/automake-1.16.1.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/automake-1.16.1-aota3bgkpbzvbc7pkvyamvoyf4qga24k/automake-1.16.1.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/automake-1.16.1-aota3bgkpbzvbc7pkvyamvoyf4qga24k
+==> Ran patch() for automake
+==> Building automake [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed automake
+  Fetch: 7.06s.  Build: 6.47s.  Total: 13.54s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/automake-1.16.1-aota3bgkpbzvbc7pkvyamvoyf4qga24k
+==> Installing libtool
+==> Searching for binary cache of libtool
+==> No binary for libtool found: installing from source
+==> Fetching https://ftpmirror.gnu.org/libtool/libtool-2.4.6.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libtool-2.4.6-6lrhky7mvuxaiirctfsac7xnxqkbj5zp/libtool-2.4.6.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libtool-2.4.6-6lrhky7mvuxaiirctfsac7xnxqkbj5zp
+==> No patches needed for libtool
+==> Building libtool [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libtool
+  Fetch: 6.35s.  Build: 11.99s.  Total: 18.34s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/libtool-2.4.6-6lrhky7mvuxaiirctfsac7xnxqkbj5zp
+==> Installing numactl
+==> Searching for binary cache of numactl
+==> No binary for numactl found: installing from source
+==> Fetching https://github.com/numactl/numactl/archive/v2.0.12.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/numactl-2.0.12-r7dsnpyvtyjppbi66wnnjj7rcb7jq3fp/v2.0.12.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/numactl-2.0.12-r7dsnpyvtyjppbi66wnnjj7rcb7jq3fp
+==> No patches needed for numactl
+==> Building numactl [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed numactl
+  Fetch: 1.11s.  Build: 17.16s.  Total: 18.26s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/numactl-2.0.12-r7dsnpyvtyjppbi66wnnjj7rcb7jq3fp
+==> Installing diffutils
+==> Searching for binary cache of diffutils
+==> No binary for diffutils found: installing from source
+==> Fetching https://ftpmirror.gnu.org/diffutils/diffutils-3.7.tar.xz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/diffutils-3.7-jx4jd42tmdaeatlrlsk2ekvzmlz6rvfp/diffutils-3.7.tar.xz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/diffutils-3.7-jx4jd42tmdaeatlrlsk2ekvzmlz6rvfp
+==> No patches needed for diffutils
+==> Building diffutils [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed diffutils
+  Fetch: 4.23s.  Build: 36.31s.  Total: 40.54s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/diffutils-3.7-jx4jd42tmdaeatlrlsk2ekvzmlz6rvfp
+==> Installing bzip2
+==> Searching for binary cache of bzip2
+==> No binary for bzip2 found: installing from source
+==> Fetching https://fossies.org/linux/misc/bzip2-1.0.6.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/bzip2-1.0.6-afxnmm6v4scy5ojncsdxm2pjf4buf5zt/bzip2-1.0.6.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/bzip2-1.0.6-afxnmm6v4scy5ojncsdxm2pjf4buf5zt
+==> Ran patch() for bzip2
+==> Building bzip2 [Package]
+==> Executing phase: 'install'
+==> Successfully installed bzip2
+  Fetch: 6.42s.  Build: 3.17s.  Total: 9.59s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/bzip2-1.0.6-afxnmm6v4scy5ojncsdxm2pjf4buf5zt
+==> Installing zlib
+==> Searching for binary cache of zlib
+==> No binary for zlib found: installing from source
+==> Fetching http://zlib.net/fossils/zlib-1.2.11.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/zlib-1.2.11-5jgyzbl3pajltsw76ptogoawyfnudhkh/zlib-1.2.11.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/zlib-1.2.11-5jgyzbl3pajltsw76ptogoawyfnudhkh
+==> No patches needed for zlib
+==> Building zlib [Package]
+==> Executing phase: 'install'
+==> Successfully installed zlib
+  Fetch: 0.46s.  Build: 2.17s.  Total: 2.62s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/zlib-1.2.11-5jgyzbl3pajltsw76ptogoawyfnudhkh
+==> Installing openssl
+==> Searching for binary cache of openssl
+==> No binary for openssl found: installing from source
+==> Fetching http://www.openssl.org/source/openssl-1.1.1b.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/openssl-1.1.1b-66ad5r6cjh3jv5wtqywmgvmuhaeqtei3/openssl-1.1.1b.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/openssl-1.1.1b-66ad5r6cjh3jv5wtqywmgvmuhaeqtei3
+==> No patches needed for openssl
+==> Building openssl [Package]
+==> Executing phase: 'install'
+==> Successfully installed openssl
+  Fetch: 9.11s.  Build: 6m 3.01s.  Total: 6m 12.12s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/openssl-1.1.1b-66ad5r6cjh3jv5wtqywmgvmuhaeqtei3
+==> Installing curl
+==> Searching for binary cache of curl
+==> No binary for curl found: installing from source
+==> Fetching http://curl.haxx.se/download/curl-7.63.0.tar.bz2
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/curl-7.63.0-ekex36d3eau5onnlykum6uppeduwa6cy/curl-7.63.0.tar.bz2
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/curl-7.63.0-ekex36d3eau5onnlykum6uppeduwa6cy
+==> No patches needed for curl
+==> Building curl [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed curl
+  Fetch: 7.93s.  Build: 1m 1.40s.  Total: 1m 9.32s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/curl-7.63.0-ekex36d3eau5onnlykum6uppeduwa6cy
+==> Installing libbsd
+==> Searching for binary cache of libbsd
+==> No binary for libbsd found: installing from source
+==> Fetching https://libbsd.freedesktop.org/releases/libbsd-0.9.1.tar.xz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libbsd-0.9.1-mnkgjqv55vqvb4ioq43ktpg44cdelopl/libbsd-0.9.1.tar.xz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libbsd-0.9.1-mnkgjqv55vqvb4ioq43ktpg44cdelopl
+==> No patches needed for libbsd
+==> Building libbsd [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libbsd
+  Fetch: 1.17s.  Build: 10.10s.  Total: 11.27s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/libbsd-0.9.1-mnkgjqv55vqvb4ioq43ktpg44cdelopl
+==> Installing expat
+==> Searching for binary cache of expat
+==> No binary for expat found: installing from source
+==> Fetching https://github.com/libexpat/libexpat/releases/download/R_2_2_5/expat-2.2.5.tar.bz2
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/expat-2.2.5-at5i2txqezpj5s3yszenmjjuhdrbm36l/expat-2.2.5.tar.bz2
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/expat-2.2.5-at5i2txqezpj5s3yszenmjjuhdrbm36l
+==> No patches needed for expat
+==> Building expat [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed expat
+  Fetch: 1.20s.  Build: 13.22s.  Total: 14.42s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/expat-2.2.5-at5i2txqezpj5s3yszenmjjuhdrbm36l
+==> Installing libiconv
+==> Searching for binary cache of libiconv
+==> No binary for libiconv found: installing from source
+==> Fetching https://ftpmirror.gnu.org/libiconv/libiconv-1.15.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libiconv-1.15-7nszimaxvwgvymbmlrt6ds7z7dr32mhq/libiconv-1.15.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libiconv-1.15-7nszimaxvwgvymbmlrt6ds7z7dr32mhq
+==> No patches needed for libiconv
+==> Building libiconv [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libiconv
+  Fetch: 16.29s.  Build: 44.63s.  Total: 1m 0.92s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/libiconv-1.15-7nszimaxvwgvymbmlrt6ds7z7dr32mhq
+==> Installing xz
+==> Searching for binary cache of xz
+==> No binary for xz found: installing from source
+==> Fetching http://tukaani.org/xz/xz-5.2.4.tar.bz2
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/xz-5.2.4-hathmj6rlzsn2etjouhfq25zoyjob347/xz-5.2.4.tar.bz2
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/xz-5.2.4-hathmj6rlzsn2etjouhfq25zoyjob347
+==> No patches needed for xz
+==> Building xz [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed xz
+  Fetch: 6.75s.  Build: 15.96s.  Total: 22.71s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/xz-5.2.4-hathmj6rlzsn2etjouhfq25zoyjob347
+==> Installing libxml2
+==> Searching for binary cache of libxml2
+==> No binary for libxml2 found: installing from source
+==> Fetching http://xmlsoft.org/sources/libxml2-2.9.8.tar.gz
+==> Fetching http://www.w3.org/XML/Test/xmlts20080827.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libxml2-2.9.8-jiatnrey2xblax4qvcpjww5occ5kolsq/libxml2-2.9.8.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libxml2-2.9.8-jiatnrey2xblax4qvcpjww5occ5kolsq
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/resource-xmlts-jiatnrey2xblax4qvcpjww5occ5kolsq/xmlts20080827.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/resource-xmlts-jiatnrey2xblax4qvcpjww5occ5kolsq
+==> Moving resource stage
+	source : /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/resource-xmlts-jiatnrey2xblax4qvcpjww5occ5kolsq/xmlconf/
+	destination : /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libxml2-2.9.8-jiatnrey2xblax4qvcpjww5occ5kolsq/libxml2-2.9.8/xmlconf
+==> No patches needed for libxml2
+==> Building libxml2 [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libxml2
+  Fetch: 7.37s.  Build: 30.86s.  Total: 38.22s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/libxml2-2.9.8-jiatnrey2xblax4qvcpjww5occ5kolsq
+==> Installing lz4
+==> Searching for binary cache of lz4
+==> No binary for lz4 found: installing from source
+==> Fetching https://github.com/lz4/lz4/archive/v1.9.0.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/lz4-1.9.0-fuoz43ojslrt6mbv4tfgfo2tuzhx4wzf/v1.9.0.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/lz4-1.9.0-fuoz43ojslrt6mbv4tfgfo2tuzhx4wzf
+==> No patches needed for lz4
+==> Building lz4 [Package]
+==> Executing phase: 'install'
+
+spack install ucx @ 1.5.0 % gcc@4.8.5  arch=linux-rhel7-ppc64le
+==> Installing libsigsegv
+==> Searching for binary cache of libsigsegv
+==> No binary for libsigsegv found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/libsigsegv/libsigsegv-2.11.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libsigsegv-2.11-jz72ujpo6i6rjfadjntfrhuymodm67si/libsigsegv-2.11.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libsigsegv-2.11-jz72ujpo6i6rjfadjntfrhuymodm67si
+==> No patches needed for libsigsegv
+==> Building libsigsegv [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libsigsegv
+  Fetch: 0.03s.  Build: 6.59s.  Total: 6.62s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/libsigsegv-2.11-jz72ujpo6i6rjfadjntfrhuymodm67si
+==> Installing m4
+==> Searching for binary cache of m4
+==> No binary for m4 found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/m4/m4-1.4.18.tar.gz
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/m4/m4-1.4.18-glibc-change-work-around.patch
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/m4-1.4.18-skilxj6yputtanpoahrmlemejtyf5tqc/m4-1.4.18.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/m4-1.4.18-skilxj6yputtanpoahrmlemejtyf5tqc
+==> Applied patch /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/repos/builtin/packages/m4/gnulib-pgi.patch
+==> Applied patch /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/repos/builtin/packages/m4/secure_snprintf.patch
+==> Applied patch https://src.fedoraproject.org/rpms/m4/raw/5d147168d4b93f38a4833f5dd1d650ad88af5a8a/f/m4-1.4.18-glibc-change-work-around.patch
+==> Building m4 [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed m4
+  Fetch: 0.01s.  Build: 28.99s.  Total: 29.00s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/m4-1.4.18-skilxj6yputtanpoahrmlemejtyf5tqc
+==> Installing pkgconf
+==> Searching for binary cache of pkgconf
+==> No binary for pkgconf found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/pkgconf/pkgconf-1.6.0.tar.xz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/pkgconf-1.6.0-fm3hz2b2kw76xz34y65m4psacp63gxz5/pkgconf-1.6.0.tar.xz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/pkgconf-1.6.0-fm3hz2b2kw76xz34y65m4psacp63gxz5
+==> No patches needed for pkgconf
+==> Building pkgconf [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pkgconf
+  Fetch: 0.03s.  Build: 5.66s.  Total: 5.69s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/pkgconf-1.6.0-fm3hz2b2kw76xz34y65m4psacp63gxz5
+==> Installing ncurses
+==> Searching for binary cache of ncurses
+==> No binary for ncurses found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/ncurses/ncurses-6.1.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/ncurses-6.1-jp42wsit7mklqgtlbq7rys5prgrrhajs/ncurses-6.1.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/ncurses-6.1-jp42wsit7mklqgtlbq7rys5prgrrhajs
+==> No patches needed for ncurses
+==> Building ncurses [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed ncurses
+  Fetch: 0.10s.  Build: 1m 3.93s.  Total: 1m 4.03s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/ncurses-6.1-jp42wsit7mklqgtlbq7rys5prgrrhajs
+==> Installing readline
+==> Searching for binary cache of readline
+==> No binary for readline found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/readline/readline-7.0.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/readline-7.0-saf6z7uchqyykwtaixttbfhr2qc3zgb6/readline-7.0.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/readline-7.0-saf6z7uchqyykwtaixttbfhr2qc3zgb6
+==> No patches needed for readline
+==> Building readline [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed readline
+  Fetch: 0.05s.  Build: 9.03s.  Total: 9.09s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/readline-7.0-saf6z7uchqyykwtaixttbfhr2qc3zgb6
+==> Installing gdbm
+==> Searching for binary cache of gdbm
+==> No binary for gdbm found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/gdbm/gdbm-1.18.1.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/gdbm-1.18.1-qstr2ltko3dz3m3fsati3ynvwhkdbsqt/gdbm-1.18.1.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/gdbm-1.18.1-qstr2ltko3dz3m3fsati3ynvwhkdbsqt
+==> No patches needed for gdbm
+==> Building gdbm [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed gdbm
+  Fetch: 0.04s.  Build: 9.15s.  Total: 9.19s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/gdbm-1.18.1-qstr2ltko3dz3m3fsati3ynvwhkdbsqt
+==> Installing perl
+==> Searching for binary cache of perl
+==> No binary for perl found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/perl/perl-5.26.2.tar.gz
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/perl/cpanm-5.26.2.tar.gz
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/perl/perl-5.26.1-guard_old_libcrypt_fix.patch
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/perl-5.26.2-fkuzax346k36ez377ojltxt4ai3vckta/perl-5.26.2.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/perl-5.26.2-fkuzax346k36ez377ojltxt4ai3vckta
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/resource-cpanm-fkuzax346k36ez377ojltxt4ai3vckta/App-cpanminus-1.7042.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/resource-cpanm-fkuzax346k36ez377ojltxt4ai3vckta
+==> Moving resource stage
+	source : /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/resource-cpanm-fkuzax346k36ez377ojltxt4ai3vckta/App-cpanminus-1.7042/
+	destination : /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/perl-5.26.2-fkuzax346k36ez377ojltxt4ai3vckta/perl-5.26.2/cpanm/cpanm
+==> Applied patch https://src.fedoraproject.org/rpms/perl/raw/004cea3a67df42e92ffdf4e9ac36d47a3c6a05a4/f/perl-5.26.1-guard_old_libcrypt_fix.patch
+==> Building perl [Package]
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed perl
+  Fetch: 0.24s.  Build: 2m 44.24s.  Total: 2m 44.48s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/perl-5.26.2-fkuzax346k36ez377ojltxt4ai3vckta
+==> Installing autoconf
+==> Searching for binary cache of autoconf
+==> No binary for autoconf found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/autoconf/autoconf-2.69.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/autoconf-2.69-3fh6t7d4oag4klgeps2gqdprbhm7pugj/autoconf-2.69.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/autoconf-2.69-3fh6t7d4oag4klgeps2gqdprbhm7pugj
+==> Ran patch() for autoconf
+==> Building autoconf [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed autoconf
+  Fetch: 0.04s.  Build: 4.87s.  Total: 4.91s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/autoconf-2.69-3fh6t7d4oag4klgeps2gqdprbhm7pugj
+==> Installing automake
+==> Searching for binary cache of automake
+==> No binary for automake found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/automake/automake-1.16.1.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/automake-1.16.1-a6ztyoouzpwsjpjl6ml2lwu7bx5dicfk/automake-1.16.1.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/automake-1.16.1-a6ztyoouzpwsjpjl6ml2lwu7bx5dicfk
+==> Ran patch() for automake
+==> Building automake [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed automake
+  Fetch: 0.05s.  Build: 4.73s.  Total: 4.77s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/automake-1.16.1-a6ztyoouzpwsjpjl6ml2lwu7bx5dicfk
+==> Installing libtool
+==> Searching for binary cache of libtool
+==> No binary for libtool found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/libtool/libtool-2.4.6.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libtool-2.4.6-git6yhz76g7qxfzrs2536gzuphl6xkgi/libtool-2.4.6.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libtool-2.4.6-git6yhz76g7qxfzrs2536gzuphl6xkgi
+==> No patches needed for libtool
+==> Building libtool [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libtool
+  Fetch: 0.07s.  Build: 10.40s.  Total: 10.47s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/libtool-2.4.6-git6yhz76g7qxfzrs2536gzuphl6xkgi
+==> Installing numactl
+==> Searching for binary cache of numactl
+==> No binary for numactl found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/numactl/numactl-2.0.12.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/numactl-2.0.12-mv4yjsp64j7ntdovweptx7qqanw2swvv/v2.0.12.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/numactl-2.0.12-mv4yjsp64j7ntdovweptx7qqanw2swvv
+==> No patches needed for numactl
+==> Building numactl [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed numactl
+  Fetch: 0.02s.  Build: 15.49s.  Total: 15.51s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/numactl-2.0.12-mv4yjsp64j7ntdovweptx7qqanw2swvv
+==> Installing diffutils
+==> Searching for binary cache of diffutils
+==> No binary for diffutils found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/diffutils/diffutils-3.7.tar.xz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/diffutils-3.7-ailjfailkssrsf6yd5dy5cmpars3qnqp/diffutils-3.7.tar.xz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/diffutils-3.7-ailjfailkssrsf6yd5dy5cmpars3qnqp
+==> No patches needed for diffutils
+==> Building diffutils [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed diffutils
+  Fetch: 0.03s.  Build: 30.50s.  Total: 30.53s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/diffutils-3.7-ailjfailkssrsf6yd5dy5cmpars3qnqp
+==> Installing bzip2
+==> Searching for binary cache of bzip2
+==> No binary for bzip2 found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/bzip2/bzip2-1.0.6.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/bzip2-1.0.6-xydsgkugket42j766luwgsuqipqnwqyd/bzip2-1.0.6.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/bzip2-1.0.6-xydsgkugket42j766luwgsuqipqnwqyd
+==> Ran patch() for bzip2
+==> Building bzip2 [Package]
+==> Executing phase: 'install'
+==> Successfully installed bzip2
+  Fetch: 0.03s.  Build: 2.94s.  Total: 2.98s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/bzip2-1.0.6-xydsgkugket42j766luwgsuqipqnwqyd
+==> Installing zlib
+==> Searching for binary cache of zlib
+==> No binary for zlib found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/zlib/zlib-1.2.11.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/zlib-1.2.11-4v3ticyykh2xcgw5fzltjrfuxkx7ipqh/zlib-1.2.11.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/zlib-1.2.11-4v3ticyykh2xcgw5fzltjrfuxkx7ipqh
+==> No patches needed for zlib
+==> Building zlib [Package]
+==> Executing phase: 'install'
+==> Successfully installed zlib
+  Fetch: 0.03s.  Build: 1.89s.  Total: 1.92s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/zlib-1.2.11-4v3ticyykh2xcgw5fzltjrfuxkx7ipqh
+==> Installing openssl
+==> Searching for binary cache of openssl
+==> No binary for openssl found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/openssl/openssl-1.1.1b.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/openssl-1.1.1b-4av6kqcpkpea5bey3jbbgzlmlfs5cmax/openssl-1.1.1b.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/openssl-1.1.1b-4av6kqcpkpea5bey3jbbgzlmlfs5cmax
+==> No patches needed for openssl
+==> Building openssl [Package]
+==> Executing phase: 'install'
+==> Successfully installed openssl
+  Fetch: 0.12s.  Build: 5m 3.81s.  Total: 5m 3.92s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/openssl-1.1.1b-4av6kqcpkpea5bey3jbbgzlmlfs5cmax
+==> Installing curl
+==> Searching for binary cache of curl
+==> No binary for curl found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/curl/curl-7.63.0.tar.bz2
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/curl-7.63.0-pbgkusizmxxtgfhlfmvkky4tqgehfwy4/curl-7.63.0.tar.bz2
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/curl-7.63.0-pbgkusizmxxtgfhlfmvkky4tqgehfwy4
+==> No patches needed for curl
+==> Building curl [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed curl
+  Fetch: 0.05s.  Build: 48.94s.  Total: 48.99s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/curl-7.63.0-pbgkusizmxxtgfhlfmvkky4tqgehfwy4
+==> Installing libbsd
+==> Searching for binary cache of libbsd
+==> No binary for libbsd found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/libbsd/libbsd-0.9.1.tar.xz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libbsd-0.9.1-voay4iqzp27tqmbg6a2z54rc7kmer2jx/libbsd-0.9.1.tar.xz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libbsd-0.9.1-voay4iqzp27tqmbg6a2z54rc7kmer2jx
+==> No patches needed for libbsd
+==> Building libbsd [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libbsd
+  Fetch: 0.02s.  Build: 9.30s.  Total: 9.32s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/libbsd-0.9.1-voay4iqzp27tqmbg6a2z54rc7kmer2jx
+==> Installing expat
+==> Searching for binary cache of expat
+==> No binary for expat found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/expat/expat-2.2.5.tar.bz2
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/expat-2.2.5-wlslwljfzi52exlanr7koedbpx7wngz2/expat-2.2.5.tar.bz2
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/expat-2.2.5-wlslwljfzi52exlanr7koedbpx7wngz2
+==> No patches needed for expat
+==> Building expat [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed expat
+  Fetch: 0.02s.  Build: 11.42s.  Total: 11.44s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/expat-2.2.5-wlslwljfzi52exlanr7koedbpx7wngz2
+==> Installing libiconv
+==> Searching for binary cache of libiconv
+==> No binary for libiconv found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/libiconv/libiconv-1.15.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libiconv-1.15-dv5pw6wseqg7e5gq575prdelndrc6fh4/libiconv-1.15.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libiconv-1.15-dv5pw6wseqg7e5gq575prdelndrc6fh4
+==> No patches needed for libiconv
+==> Building libiconv [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libiconv
+  Fetch: 0.11s.  Build: 36.95s.  Total: 37.05s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/libiconv-1.15-dv5pw6wseqg7e5gq575prdelndrc6fh4
+==> Installing xz
+==> Searching for binary cache of xz
+==> No binary for xz found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/xz/xz-5.2.4.tar.bz2
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/xz-5.2.4-goozwyd3vo334mzphodqavktxzvhxgv2/xz-5.2.4.tar.bz2
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/xz-5.2.4-goozwyd3vo334mzphodqavktxzvhxgv2
+==> No patches needed for xz
+==> Building xz [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed xz
+  Fetch: 0.03s.  Build: 13.53s.  Total: 13.56s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/xz-5.2.4-goozwyd3vo334mzphodqavktxzvhxgv2
+==> Installing libxml2
+==> Searching for binary cache of libxml2
+==> No binary for libxml2 found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/libxml2/libxml2-2.9.8.tar.gz
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/libxml2/xmlts-2.9.8.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libxml2-2.9.8-4tjndlxvkvi6ufe2k66br2abriyck5dq/libxml2-2.9.8.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libxml2-2.9.8-4tjndlxvkvi6ufe2k66br2abriyck5dq
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/resource-xmlts-4tjndlxvkvi6ufe2k66br2abriyck5dq/xmlts20080827.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/resource-xmlts-4tjndlxvkvi6ufe2k66br2abriyck5dq
+==> Moving resource stage
+	source : /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/resource-xmlts-4tjndlxvkvi6ufe2k66br2abriyck5dq/xmlconf/
+	destination : /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libxml2-2.9.8-4tjndlxvkvi6ufe2k66br2abriyck5dq/libxml2-2.9.8/xmlconf
+==> No patches needed for libxml2
+==> Building libxml2 [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libxml2
+  Fetch: 0.11s.  Build: 26.04s.  Total: 26.16s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/libxml2-2.9.8-4tjndlxvkvi6ufe2k66br2abriyck5dq
+==> Installing lz4
+==> Searching for binary cache of lz4
+==> No binary for lz4 found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/lz4/lz4-1.9.0.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/lz4-1.9.0-7wkrsry3onfnq6nreszofnk5ia7efnss/v1.9.0.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/lz4-1.9.0-7wkrsry3onfnq6nreszofnk5ia7efnss
+==> No patches needed for lz4
+==> Building lz4 [Package]
+==> Executing phase: 'install'
+
+spack install ucx @ 1.5.0 % pgi@19.1  arch=linux-rhel7-ppc64le
+
+spack install ucx @ 1.5.0 % pgi@18.10  arch=linux-rhel7-ppc64le
+
+spack install ucx @ 1.5.0 % pgi@17.10  arch=linux-rhel7-ppc64le
+
+spack install ucx @ 1.5.0 % xl@16.1.2  arch=linux-rhel7-ppc64le
+
+spack install ucx @ 1.5.0 % xl@16.1.1  arch=linux-rhel7-ppc64le
+
+spack install ucx @ 1.5.0 % xl@16.1.0  arch=linux-rhel7-ppc64le
+
+spack install ucx @ 1.4.0 % clang@7.0.0  arch=linux-rhel7-ppc64le
+
+spack install ucx @ 1.4.0 % gcc@7.3.1  arch=linux-rhel7-ppc64le
+
+spack install ucx @ 1.4.0 % gcc@4.9.3  arch=linux-rhel7-ppc64le
+==> libsigsegv is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/libsigsegv-2.11-qcamfpcvnyrfhpehnffnspp2kdmc7h6a
+==> m4 is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/m4-1.4.18-3l4elj5jqja6bg33vcqkpjwsogkkoqcb
+==> pkgconf is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/pkgconf-1.6.0-u2hn7cjat6siyqonu2vy6nr64u4emaiv
+==> ncurses is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/ncurses-6.1-ef2a4donccpvfrwzsvn7jdcpkporktxb
+==> readline is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/readline-7.0-owal6z2zh5zotgvdmwow6sgdn6cqfn43
+==> gdbm is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/gdbm-1.18.1-6lnyoxhrdj6e2jwo7chkqjfvrazlmegx
+==> perl is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/perl-5.26.2-jysfgnwse6dh5surrl37f4shurtlsqf7
+==> autoconf is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/autoconf-2.69-uqhb3yywv5swvlbdkspwxhwuu6rpy6ja
+==> automake is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/automake-1.16.1-aota3bgkpbzvbc7pkvyamvoyf4qga24k
+==> libtool is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/libtool-2.4.6-6lrhky7mvuxaiirctfsac7xnxqkbj5zp
+==> numactl is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/numactl-2.0.12-r7dsnpyvtyjppbi66wnnjj7rcb7jq3fp
+==> diffutils is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/diffutils-3.7-jx4jd42tmdaeatlrlsk2ekvzmlz6rvfp
+==> bzip2 is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/bzip2-1.0.6-afxnmm6v4scy5ojncsdxm2pjf4buf5zt
+==> zlib is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/zlib-1.2.11-5jgyzbl3pajltsw76ptogoawyfnudhkh
+==> openssl is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/openssl-1.1.1b-66ad5r6cjh3jv5wtqywmgvmuhaeqtei3
+==> curl is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/curl-7.63.0-ekex36d3eau5onnlykum6uppeduwa6cy
+==> libbsd is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/libbsd-0.9.1-mnkgjqv55vqvb4ioq43ktpg44cdelopl
+==> expat is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/expat-2.2.5-at5i2txqezpj5s3yszenmjjuhdrbm36l
+==> libiconv is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/libiconv-1.15-7nszimaxvwgvymbmlrt6ds7z7dr32mhq
+==> xz is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/xz-5.2.4-hathmj6rlzsn2etjouhfq25zoyjob347
+==> libxml2 is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/libxml2-2.9.8-jiatnrey2xblax4qvcpjww5occ5kolsq
+==> Installing lz4
+==> Searching for binary cache of lz4
+==> No binary for lz4 found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/lz4/lz4-1.9.0.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/lz4-1.9.0-fuoz43ojslrt6mbv4tfgfo2tuzhx4wzf/v1.9.0.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/lz4-1.9.0-fuoz43ojslrt6mbv4tfgfo2tuzhx4wzf
+==> No patches needed for lz4
+==> Building lz4 [Package]
+==> Executing phase: 'install'
+
+spack install ucx @ 1.4.0 % gcc@4.8.5  arch=linux-rhel7-ppc64le
+==> libsigsegv is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/libsigsegv-2.11-jz72ujpo6i6rjfadjntfrhuymodm67si
+==> m4 is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/m4-1.4.18-skilxj6yputtanpoahrmlemejtyf5tqc
+==> pkgconf is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/pkgconf-1.6.0-fm3hz2b2kw76xz34y65m4psacp63gxz5
+==> ncurses is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/ncurses-6.1-jp42wsit7mklqgtlbq7rys5prgrrhajs
+==> readline is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/readline-7.0-saf6z7uchqyykwtaixttbfhr2qc3zgb6
+==> gdbm is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/gdbm-1.18.1-qstr2ltko3dz3m3fsati3ynvwhkdbsqt
+==> perl is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/perl-5.26.2-fkuzax346k36ez377ojltxt4ai3vckta
+==> autoconf is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/autoconf-2.69-3fh6t7d4oag4klgeps2gqdprbhm7pugj
+==> automake is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/automake-1.16.1-a6ztyoouzpwsjpjl6ml2lwu7bx5dicfk
+==> libtool is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/libtool-2.4.6-git6yhz76g7qxfzrs2536gzuphl6xkgi
+==> numactl is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/numactl-2.0.12-mv4yjsp64j7ntdovweptx7qqanw2swvv
+==> diffutils is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/diffutils-3.7-ailjfailkssrsf6yd5dy5cmpars3qnqp
+==> bzip2 is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/bzip2-1.0.6-xydsgkugket42j766luwgsuqipqnwqyd
+==> zlib is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/zlib-1.2.11-4v3ticyykh2xcgw5fzltjrfuxkx7ipqh
+==> openssl is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/openssl-1.1.1b-4av6kqcpkpea5bey3jbbgzlmlfs5cmax
+==> curl is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/curl-7.63.0-pbgkusizmxxtgfhlfmvkky4tqgehfwy4
+==> libbsd is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/libbsd-0.9.1-voay4iqzp27tqmbg6a2z54rc7kmer2jx
+==> expat is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/expat-2.2.5-wlslwljfzi52exlanr7koedbpx7wngz2
+==> libiconv is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/libiconv-1.15-dv5pw6wseqg7e5gq575prdelndrc6fh4
+==> xz is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/xz-5.2.4-goozwyd3vo334mzphodqavktxzvhxgv2
+==> libxml2 is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/libxml2-2.9.8-4tjndlxvkvi6ufe2k66br2abriyck5dq
+==> Installing lz4
+==> Searching for binary cache of lz4
+==> No binary for lz4 found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/lz4/lz4-1.9.0.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/lz4-1.9.0-7wkrsry3onfnq6nreszofnk5ia7efnss/v1.9.0.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/lz4-1.9.0-7wkrsry3onfnq6nreszofnk5ia7efnss
+==> No patches needed for lz4
+==> Building lz4 [Package]
+==> Executing phase: 'install'
+
+spack install ucx @ 1.4.0 % pgi@19.1  arch=linux-rhel7-ppc64le
+
+spack install ucx @ 1.4.0 % pgi@18.10  arch=linux-rhel7-ppc64le
+
+spack install ucx @ 1.4.0 % pgi@17.10  arch=linux-rhel7-ppc64le
+
+spack install ucx @ 1.4.0 % xl@16.1.2  arch=linux-rhel7-ppc64le
+
+spack install ucx @ 1.4.0 % xl@16.1.1  arch=linux-rhel7-ppc64le
+
+spack install ucx @ 1.4.0 % xl@16.1.0  arch=linux-rhel7-ppc64le
+
+spack install ucx @ 1.3.1 % clang@7.0.0  arch=linux-rhel7-ppc64le
+
+spack install ucx @ 1.3.1 % gcc@7.3.1  arch=linux-rhel7-ppc64le
+
+spack install ucx @ 1.3.1 % gcc@4.9.3  arch=linux-rhel7-ppc64le
+==> libsigsegv is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/libsigsegv-2.11-qcamfpcvnyrfhpehnffnspp2kdmc7h6a
+==> m4 is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/m4-1.4.18-3l4elj5jqja6bg33vcqkpjwsogkkoqcb
+==> pkgconf is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/pkgconf-1.6.0-u2hn7cjat6siyqonu2vy6nr64u4emaiv
+==> ncurses is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/ncurses-6.1-ef2a4donccpvfrwzsvn7jdcpkporktxb
+==> readline is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/readline-7.0-owal6z2zh5zotgvdmwow6sgdn6cqfn43
+==> gdbm is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/gdbm-1.18.1-6lnyoxhrdj6e2jwo7chkqjfvrazlmegx
+==> perl is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/perl-5.26.2-jysfgnwse6dh5surrl37f4shurtlsqf7
+==> autoconf is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/autoconf-2.69-uqhb3yywv5swvlbdkspwxhwuu6rpy6ja
+==> automake is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/automake-1.16.1-aota3bgkpbzvbc7pkvyamvoyf4qga24k
+==> libtool is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/libtool-2.4.6-6lrhky7mvuxaiirctfsac7xnxqkbj5zp
+==> numactl is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/numactl-2.0.12-r7dsnpyvtyjppbi66wnnjj7rcb7jq3fp
+==> diffutils is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/diffutils-3.7-jx4jd42tmdaeatlrlsk2ekvzmlz6rvfp
+==> bzip2 is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/bzip2-1.0.6-afxnmm6v4scy5ojncsdxm2pjf4buf5zt
+==> zlib is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/zlib-1.2.11-5jgyzbl3pajltsw76ptogoawyfnudhkh
+==> openssl is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/openssl-1.1.1b-66ad5r6cjh3jv5wtqywmgvmuhaeqtei3
+==> curl is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/curl-7.63.0-ekex36d3eau5onnlykum6uppeduwa6cy
+==> libbsd is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/libbsd-0.9.1-mnkgjqv55vqvb4ioq43ktpg44cdelopl
+==> expat is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/expat-2.2.5-at5i2txqezpj5s3yszenmjjuhdrbm36l
+==> libiconv is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/libiconv-1.15-7nszimaxvwgvymbmlrt6ds7z7dr32mhq
+==> xz is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/xz-5.2.4-hathmj6rlzsn2etjouhfq25zoyjob347
+==> libxml2 is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/libxml2-2.9.8-jiatnrey2xblax4qvcpjww5occ5kolsq
+==> Installing lz4
+==> Searching for binary cache of lz4
+==> No binary for lz4 found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/lz4/lz4-1.9.0.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/lz4-1.9.0-fuoz43ojslrt6mbv4tfgfo2tuzhx4wzf/v1.9.0.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/lz4-1.9.0-fuoz43ojslrt6mbv4tfgfo2tuzhx4wzf
+==> No patches needed for lz4
+==> Building lz4 [Package]
+==> Executing phase: 'install'
+
+spack install ucx @ 1.3.1 % gcc@4.8.5  arch=linux-rhel7-ppc64le
+==> libsigsegv is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/libsigsegv-2.11-jz72ujpo6i6rjfadjntfrhuymodm67si
+==> m4 is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/m4-1.4.18-skilxj6yputtanpoahrmlemejtyf5tqc
+==> pkgconf is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/pkgconf-1.6.0-fm3hz2b2kw76xz34y65m4psacp63gxz5
+==> ncurses is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/ncurses-6.1-jp42wsit7mklqgtlbq7rys5prgrrhajs
+==> readline is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/readline-7.0-saf6z7uchqyykwtaixttbfhr2qc3zgb6
+==> gdbm is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/gdbm-1.18.1-qstr2ltko3dz3m3fsati3ynvwhkdbsqt
+==> perl is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/perl-5.26.2-fkuzax346k36ez377ojltxt4ai3vckta
+==> autoconf is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/autoconf-2.69-3fh6t7d4oag4klgeps2gqdprbhm7pugj
+==> automake is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/automake-1.16.1-a6ztyoouzpwsjpjl6ml2lwu7bx5dicfk
+==> libtool is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/libtool-2.4.6-git6yhz76g7qxfzrs2536gzuphl6xkgi
+==> numactl is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/numactl-2.0.12-mv4yjsp64j7ntdovweptx7qqanw2swvv
+==> diffutils is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/diffutils-3.7-ailjfailkssrsf6yd5dy5cmpars3qnqp
+==> bzip2 is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/bzip2-1.0.6-xydsgkugket42j766luwgsuqipqnwqyd
+==> zlib is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/zlib-1.2.11-4v3ticyykh2xcgw5fzltjrfuxkx7ipqh
+==> openssl is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/openssl-1.1.1b-4av6kqcpkpea5bey3jbbgzlmlfs5cmax
+==> curl is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/curl-7.63.0-pbgkusizmxxtgfhlfmvkky4tqgehfwy4
+==> libbsd is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/libbsd-0.9.1-voay4iqzp27tqmbg6a2z54rc7kmer2jx
+==> expat is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/expat-2.2.5-wlslwljfzi52exlanr7koedbpx7wngz2
+==> libiconv is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/libiconv-1.15-dv5pw6wseqg7e5gq575prdelndrc6fh4
+==> xz is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/xz-5.2.4-goozwyd3vo334mzphodqavktxzvhxgv2
+==> libxml2 is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/libxml2-2.9.8-4tjndlxvkvi6ufe2k66br2abriyck5dq
+==> Installing lz4
+==> Searching for binary cache of lz4
+==> No binary for lz4 found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/lz4/lz4-1.9.0.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/lz4-1.9.0-7wkrsry3onfnq6nreszofnk5ia7efnss/v1.9.0.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/lz4-1.9.0-7wkrsry3onfnq6nreszofnk5ia7efnss
+==> No patches needed for lz4
+==> Building lz4 [Package]
+==> Executing phase: 'install'
+
+spack install ucx @ 1.3.1 % pgi@19.1  arch=linux-rhel7-ppc64le
+
+spack install ucx @ 1.3.1 % pgi@18.10  arch=linux-rhel7-ppc64le
+
+spack install ucx @ 1.3.1 % pgi@17.10  arch=linux-rhel7-ppc64le
+
+spack install ucx @ 1.3.1 % xl@16.1.2  arch=linux-rhel7-ppc64le
+
+spack install ucx @ 1.3.1 % xl@16.1.1  arch=linux-rhel7-ppc64le
+
+spack install ucx @ 1.3.1 % xl@16.1.0  arch=linux-rhel7-ppc64le
+
+spack install ucx @ 1.2.2 % clang@7.0.0  arch=linux-rhel7-ppc64le
+
+spack install ucx @ 1.2.2 % gcc@7.3.1  arch=linux-rhel7-ppc64le
+
+spack install ucx @ 1.2.2 % gcc@4.9.3  arch=linux-rhel7-ppc64le
+==> libsigsegv is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/libsigsegv-2.11-qcamfpcvnyrfhpehnffnspp2kdmc7h6a
+==> m4 is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/m4-1.4.18-3l4elj5jqja6bg33vcqkpjwsogkkoqcb
+==> pkgconf is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/pkgconf-1.6.0-u2hn7cjat6siyqonu2vy6nr64u4emaiv
+==> ncurses is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/ncurses-6.1-ef2a4donccpvfrwzsvn7jdcpkporktxb
+==> readline is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/readline-7.0-owal6z2zh5zotgvdmwow6sgdn6cqfn43
+==> gdbm is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/gdbm-1.18.1-6lnyoxhrdj6e2jwo7chkqjfvrazlmegx
+==> perl is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/perl-5.26.2-jysfgnwse6dh5surrl37f4shurtlsqf7
+==> autoconf is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/autoconf-2.69-uqhb3yywv5swvlbdkspwxhwuu6rpy6ja
+==> automake is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/automake-1.16.1-aota3bgkpbzvbc7pkvyamvoyf4qga24k
+==> libtool is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/libtool-2.4.6-6lrhky7mvuxaiirctfsac7xnxqkbj5zp
+==> numactl is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/numactl-2.0.12-r7dsnpyvtyjppbi66wnnjj7rcb7jq3fp
+==> diffutils is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/diffutils-3.7-jx4jd42tmdaeatlrlsk2ekvzmlz6rvfp
+==> bzip2 is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/bzip2-1.0.6-afxnmm6v4scy5ojncsdxm2pjf4buf5zt
+==> zlib is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/zlib-1.2.11-5jgyzbl3pajltsw76ptogoawyfnudhkh
+==> openssl is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/openssl-1.1.1b-66ad5r6cjh3jv5wtqywmgvmuhaeqtei3
+==> curl is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/curl-7.63.0-ekex36d3eau5onnlykum6uppeduwa6cy
+==> libbsd is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/libbsd-0.9.1-mnkgjqv55vqvb4ioq43ktpg44cdelopl
+==> expat is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/expat-2.2.5-at5i2txqezpj5s3yszenmjjuhdrbm36l
+==> libiconv is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/libiconv-1.15-7nszimaxvwgvymbmlrt6ds7z7dr32mhq
+==> xz is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/xz-5.2.4-hathmj6rlzsn2etjouhfq25zoyjob347
+==> libxml2 is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/libxml2-2.9.8-jiatnrey2xblax4qvcpjww5occ5kolsq
+==> Installing lz4
+==> Searching for binary cache of lz4
+==> No binary for lz4 found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/lz4/lz4-1.9.0.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/lz4-1.9.0-fuoz43ojslrt6mbv4tfgfo2tuzhx4wzf/v1.9.0.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/lz4-1.9.0-fuoz43ojslrt6mbv4tfgfo2tuzhx4wzf
+==> No patches needed for lz4
+==> Building lz4 [Package]
+==> Executing phase: 'install'
+
+spack install ucx @ 1.2.2 % gcc@4.8.5  arch=linux-rhel7-ppc64le
+==> libsigsegv is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/libsigsegv-2.11-jz72ujpo6i6rjfadjntfrhuymodm67si
+==> m4 is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/m4-1.4.18-skilxj6yputtanpoahrmlemejtyf5tqc
+==> pkgconf is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/pkgconf-1.6.0-fm3hz2b2kw76xz34y65m4psacp63gxz5
+==> ncurses is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/ncurses-6.1-jp42wsit7mklqgtlbq7rys5prgrrhajs
+==> readline is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/readline-7.0-saf6z7uchqyykwtaixttbfhr2qc3zgb6
+==> gdbm is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/gdbm-1.18.1-qstr2ltko3dz3m3fsati3ynvwhkdbsqt
+==> perl is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/perl-5.26.2-fkuzax346k36ez377ojltxt4ai3vckta
+==> autoconf is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/autoconf-2.69-3fh6t7d4oag4klgeps2gqdprbhm7pugj
+==> automake is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/automake-1.16.1-a6ztyoouzpwsjpjl6ml2lwu7bx5dicfk
+==> libtool is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/libtool-2.4.6-git6yhz76g7qxfzrs2536gzuphl6xkgi
+==> numactl is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/numactl-2.0.12-mv4yjsp64j7ntdovweptx7qqanw2swvv
+==> diffutils is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/diffutils-3.7-ailjfailkssrsf6yd5dy5cmpars3qnqp
+==> bzip2 is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/bzip2-1.0.6-xydsgkugket42j766luwgsuqipqnwqyd
+==> zlib is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/zlib-1.2.11-4v3ticyykh2xcgw5fzltjrfuxkx7ipqh
+==> openssl is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/openssl-1.1.1b-4av6kqcpkpea5bey3jbbgzlmlfs5cmax
+==> curl is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/curl-7.63.0-pbgkusizmxxtgfhlfmvkky4tqgehfwy4
+==> libbsd is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/libbsd-0.9.1-voay4iqzp27tqmbg6a2z54rc7kmer2jx
+==> expat is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/expat-2.2.5-wlslwljfzi52exlanr7koedbpx7wngz2
+==> libiconv is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/libiconv-1.15-dv5pw6wseqg7e5gq575prdelndrc6fh4
+==> xz is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/xz-5.2.4-goozwyd3vo334mzphodqavktxzvhxgv2
+==> libxml2 is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/libxml2-2.9.8-4tjndlxvkvi6ufe2k66br2abriyck5dq
+==> Installing lz4
+==> Searching for binary cache of lz4
+==> No binary for lz4 found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/lz4/lz4-1.9.0.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/lz4-1.9.0-7wkrsry3onfnq6nreszofnk5ia7efnss/v1.9.0.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/lz4-1.9.0-7wkrsry3onfnq6nreszofnk5ia7efnss
+==> No patches needed for lz4
+==> Building lz4 [Package]
+==> Executing phase: 'install'
+
+spack install ucx @ 1.2.2 % pgi@19.1  arch=linux-rhel7-ppc64le
+
+spack install ucx @ 1.2.2 % pgi@18.10  arch=linux-rhel7-ppc64le
+
+spack install ucx @ 1.2.2 % pgi@17.10  arch=linux-rhel7-ppc64le
+
+spack install ucx @ 1.2.2 % xl@16.1.2  arch=linux-rhel7-ppc64le
+
+spack install ucx @ 1.2.2 % xl@16.1.1  arch=linux-rhel7-ppc64le
+
+spack install ucx @ 1.2.2 % xl@16.1.0  arch=linux-rhel7-ppc64le
