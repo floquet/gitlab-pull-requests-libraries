@@ -1,0 +1,246 @@
+Tue Apr 30 17:33:24 PDT 2019
+
+
+spack install libhio @ 1.4.1.3 % clang@7.0.0  arch=linux-rhel7-ppc64le
+
+spack install libhio @ 1.4.1.3 % gcc@7.3.1  arch=linux-rhel7-ppc64le
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : generating module file
+==> bzip2@1.0.6 : registering into DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : generating module file
+==> libtool@2.4.6 : registering into DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : generating module file
+==> pkg-config@0.29.2 : registering into DB
+==> Installing util-macros
+==> Searching for binary cache of util-macros
+==> Finding buildcaches in /usr/workspace/wsrzc/topa1/spack-home/mirror/build_cache
+==> No binary for util-macros found: installing from source
+==> Fetching file:///usr/workspace/wsrzc/topa1/spack-home/mirror/util-macros/util-macros-1.19.1.tar.bz2
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.libhio/var/spack/stage/util-macros-1.19.1-4xtacz6nhy2pavwc5orry7t2rw5utf2f/util-macros-1.19.1.tar.bz2
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.libhio/var/spack/stage/util-macros-1.19.1-4xtacz6nhy2pavwc5orry7t2rw5utf2f
+==> No patches needed for util-macros
+==> Building util-macros [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed util-macros
+  Fetch: 0.02s.  Build: 1.70s.  Total: 1.72s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.libhio/opt/spack/linux-rhel7-ppc64le/gcc-7.3.1/util-macros-1.19.1-4xtacz6nhy2pavwc5orry7t2rw5utf2f
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/workspace/wsrzc/topa1/spack-home/mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Fetching file:///usr/workspace/wsrzc/topa1/spack-home/mirror/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.libhio/var/spack/stage/libpciaccess-0.13.5-nevqxc6dt7pex5oukbhqcivkv2agq5i7/libpciaccess-0.13.5.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.libhio/var/spack/stage/libpciaccess-0.13.5-nevqxc6dt7pex5oukbhqcivkv2agq5i7
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libpciaccess
+  Fetch: 0.02s.  Build: 9.40s.  Total: 9.41s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.libhio/opt/spack/linux-rhel7-ppc64le/gcc-7.3.1/libpciaccess-0.13.5-nevqxc6dt7pex5oukbhqcivkv2agq5i7
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : generating module file
+==> libxml2@2.9.8 : registering into DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : generating module file
+==> numactl@2.0.12 : registering into DB
+==> Installing hwloc
+==> Searching for binary cache of hwloc
+==> Finding buildcaches in /usr/workspace/wsrzc/topa1/spack-home/mirror/build_cache
+==> No binary for hwloc found: installing from source
+==> Fetching file:///usr/workspace/wsrzc/topa1/spack-home/mirror/hwloc/hwloc-1.11.11.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.libhio/var/spack/stage/hwloc-1.11.11-6kto7skexir7q7vkulryjg55vpgxugph/hwloc-1.11.11.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.libhio/var/spack/stage/hwloc-1.11.11-6kto7skexir7q7vkulryjg55vpgxugph
+==> No patches needed for hwloc
+==> Building hwloc [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed hwloc
+  Fetch: 0.02s.  Build: 30.69s.  Total: 30.72s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.libhio/opt/spack/linux-rhel7-ppc64le/gcc-7.3.1/hwloc-1.11.11-6kto7skexir7q7vkulryjg55vpgxugph
+==> Installing zlib
+==> Searching for binary cache of zlib
+==> Finding buildcaches in /usr/workspace/wsrzc/topa1/spack-home/mirror/build_cache
+==> No binary for zlib found: installing from source
+==> Fetching file:///usr/workspace/wsrzc/topa1/spack-home/mirror/zlib/zlib-1.2.11.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.libhio/var/spack/stage/zlib-1.2.11-tz7eup7srlwdjquzfgfsyjrwt3k73jkv/zlib-1.2.11.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.libhio/var/spack/stage/zlib-1.2.11-tz7eup7srlwdjquzfgfsyjrwt3k73jkv
+==> No patches needed for zlib
+==> Building zlib [Package]
+==> Executing phase: 'install'
+==> Successfully installed zlib
+  Fetch: 0.02s.  Build: 2.19s.  Total: 2.21s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.libhio/opt/spack/linux-rhel7-ppc64le/gcc-7.3.1/zlib-1.2.11-tz7eup7srlwdjquzfgfsyjrwt3k73jkv
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/workspace/wsrzc/topa1/spack-home/mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Fetching file:///usr/workspace/wsrzc/topa1/spack-home/mirror/openmpi/openmpi-3.1.4.tar.bz2
+==> Fetching from file:///usr/workspace/wsrzc/topa1/spack-home/mirror/openmpi/openmpi-3.1.4.tar.bz2 failed.
+==> Fetching http://www.open-mpi.org/software/ompi/v3.1/downloads/openmpi-3.1.4.tar.bz2
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.libhio/var/spack/stage/openmpi-3.1.4-svmbirv55qzxta5m7hfjfjueupefqyho/openmpi-3.1.4.tar.bz2
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.libhio/var/spack/stage/openmpi-3.1.4-svmbirv55qzxta5m7hfjfjueupefqyho
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 2.26s.  Build: 10m 58.28s.  Total: 11m 0.54s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.libhio/opt/spack/linux-rhel7-ppc64le/gcc-7.3.1/openmpi-3.1.4-svmbirv55qzxta5m7hfjfjueupefqyho
+==> Installing hdf5
+==> Searching for binary cache of hdf5
+==> Finding buildcaches in /usr/workspace/wsrzc/topa1/spack-home/mirror/build_cache
+==> No binary for hdf5 found: installing from source
+==> Fetching file:///usr/workspace/wsrzc/topa1/spack-home/mirror/hdf5/hdf5-1.10.5.tar.gz
+==> Fetching from file:///usr/workspace/wsrzc/topa1/spack-home/mirror/hdf5/hdf5-1.10.5.tar.gz failed.
+==> Fetching https://support.hdfgroup.org/ftp/HDF5/releases/hdf5-1.10/hdf5-1.10.5/src/hdf5-1.10.5.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.libhio/var/spack/stage/hdf5-1.10.5-dguh4japsqgv2f75xibuobfgptjxzzoi/hdf5-1.10.5.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.libhio/var/spack/stage/hdf5-1.10.5-dguh4japsqgv2f75xibuobfgptjxzzoi
+==> No patches needed for hdf5
+==> Building hdf5 [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install libhio @ 1.4.1.3 % gcc@4.9.3  arch=linux-rhel7-ppc64le
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : generating module file
+==> bzip2@1.0.6 : registering into DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : generating module file
+==> libtool@2.4.6 : registering into DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : generating module file
+==> pkg-config@0.29.2 : registering into DB
+
+spack install libhio @ 1.4.1.3 % gcc@4.8.5  arch=linux-rhel7-ppc64le
+
+spack install libhio @ 1.4.1.3 % pgi@19.1  arch=linux-rhel7-ppc64le
+
+spack install libhio @ 1.4.1.3 % pgi@18.10  arch=linux-rhel7-ppc64le
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : generating module file
+==> bzip2@1.0.6 : registering into DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : generating module file
+==> libtool@2.4.6 : registering into DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : generating module file
+==> pkg-config@0.29.2 : registering into DB
+==> Installing util-macros
+==> Searching for binary cache of util-macros
+==> Finding buildcaches in /usr/workspace/wsrzc/topa1/spack-home/mirror/build_cache
+==> No binary for util-macros found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.libhio/var/spack/cache/util-macros/util-macros-1.19.1.tar.bz2
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.libhio/var/spack/stage/util-macros-1.19.1-mldraxpsgrs5xbwdy4hh4np7b4pdhryn/util-macros-1.19.1.tar.bz2
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.libhio/var/spack/stage/util-macros-1.19.1-mldraxpsgrs5xbwdy4hh4np7b4pdhryn
+==> No patches needed for util-macros
+==> Building util-macros [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed util-macros
+  Fetch: 0.00s.  Build: 1.64s.  Total: 1.64s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.libhio/opt/spack/linux-rhel7-ppc64le/pgi-18.10/util-macros-1.19.1-mldraxpsgrs5xbwdy4hh4np7b4pdhryn
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/workspace/wsrzc/topa1/spack-home/mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.libhio/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.libhio/var/spack/stage/libpciaccess-0.13.5-tuuifqhuodpxphvj2455uzqursorzbwr/libpciaccess-0.13.5.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.libhio/var/spack/stage/libpciaccess-0.13.5-tuuifqhuodpxphvj2455uzqursorzbwr
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libpciaccess
+  Fetch: 0.00s.  Build: 37.98s.  Total: 37.99s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.libhio/opt/spack/linux-rhel7-ppc64le/pgi-18.10/libpciaccess-0.13.5-tuuifqhuodpxphvj2455uzqursorzbwr
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : generating module file
+==> libxml2@2.9.8 : registering into DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : generating module file
+==> numactl@2.0.12 : registering into DB
+==> Installing hwloc
+==> Searching for binary cache of hwloc
+==> Finding buildcaches in /usr/workspace/wsrzc/topa1/spack-home/mirror/build_cache
+==> No binary for hwloc found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.libhio/var/spack/cache/hwloc/hwloc-1.11.11.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.libhio/var/spack/stage/hwloc-1.11.11-ckoq5tzku3yybcivov2txkmy3wj7e4ae/hwloc-1.11.11.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.libhio/var/spack/stage/hwloc-1.11.11-ckoq5tzku3yybcivov2txkmy3wj7e4ae
+==> No patches needed for hwloc
+==> Building hwloc [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed hwloc
+  Fetch: 0.06s.  Build: 2m 35.58s.  Total: 2m 35.63s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.libhio/opt/spack/linux-rhel7-ppc64le/pgi-18.10/hwloc-1.11.11-ckoq5tzku3yybcivov2txkmy3wj7e4ae
+==> Installing zlib
+==> Searching for binary cache of zlib
+==> Finding buildcaches in /usr/workspace/wsrzc/topa1/spack-home/mirror/build_cache
+==> No binary for zlib found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.libhio/var/spack/cache/zlib/zlib-1.2.11.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.libhio/var/spack/stage/zlib-1.2.11-ygyqqzne7bmtohiyllxfxaiwqybbrnz2/zlib-1.2.11.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.libhio/var/spack/stage/zlib-1.2.11-ygyqqzne7bmtohiyllxfxaiwqybbrnz2
+==> No patches needed for zlib
+==> Building zlib [Package]
+==> Executing phase: 'install'
+==> Successfully installed zlib
+  Fetch: 0.01s.  Build: 13.88s.  Total: 13.88s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.libhio/opt/spack/linux-rhel7-ppc64le/pgi-18.10/zlib-1.2.11-ygyqqzne7bmtohiyllxfxaiwqybbrnz2
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/workspace/wsrzc/topa1/spack-home/mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.libhio/var/spack/cache/openmpi/openmpi-3.1.4.tar.bz2
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.libhio/var/spack/stage/openmpi-3.1.4-l55e3eb3l425lh2ydaa5wbctgokvzjg4/openmpi-3.1.4.tar.bz2
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.libhio/var/spack/stage/openmpi-3.1.4-l55e3eb3l425lh2ydaa5wbctgokvzjg4
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install libhio @ 1.4.1.3 % pgi@17.10  arch=linux-rhel7-ppc64le
+
+spack install libhio @ 1.4.1.3 % xl@16.1.2  arch=linux-rhel7-ppc64le
+
+spack install libhio @ 1.4.1.3 % xl@16.1.1  arch=linux-rhel7-ppc64le
+
+spack install libhio @ 1.4.1.3 % xl@16.1.0  arch=linux-rhel7-ppc64le
+
+spack install libhio @ 1.4.1.2 % clang@7.0.0  arch=linux-rhel7-ppc64le
+
+spack install libhio @ 1.4.1.2 % gcc@7.3.1  arch=linux-rhel7-ppc64le
+
+spack install libhio @ 1.4.1.2 % gcc@4.9.3  arch=linux-rhel7-ppc64le
+
+spack install libhio @ 1.4.1.2 % gcc@4.8.5  arch=linux-rhel7-ppc64le
+
+spack install libhio @ 1.4.1.2 % pgi@19.1  arch=linux-rhel7-ppc64le
+
+spack install libhio @ 1.4.1.2 % pgi@18.10  arch=linux-rhel7-ppc64le
+
+spack install libhio @ 1.4.1.2 % pgi@17.10  arch=linux-rhel7-ppc64le
+
+spack install libhio @ 1.4.1.2 % xl@16.1.2  arch=linux-rhel7-ppc64le
+
+spack install libhio @ 1.4.1.2 % xl@16.1.1  arch=linux-rhel7-ppc64le
+
+spack install libhio @ 1.4.1.2 % xl@16.1.0  arch=linux-rhel7-ppc64le

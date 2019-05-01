@@ -1,4 +1,4 @@
-Tue Apr 30 09:06:39 PDT 2019
+Tue Apr 30 17:32:42 PDT 2019
 1 spack install ucx @ 1.5.0 % clang@7.0.0  arch=linux-rhel7-ppc64le
 2 spack install ucx @ 1.5.0 % gcc@7.3.1  arch=linux-rhel7-ppc64le
 3 spack install ucx @ 1.5.0 % gcc@4.9.3  arch=linux-rhel7-ppc64le
@@ -22,20 +22,3 @@ Tue Apr 30 09:06:39 PDT 2019
 21 spack install ucx @ 1.3.1 % clang@7.0.0  arch=linux-rhel7-ppc64le
 22 spack install ucx @ 1.3.1 % gcc@7.3.1  arch=linux-rhel7-ppc64le
 23 spack install ucx @ 1.3.1 % gcc@4.9.3  arch=linux-rhel7-ppc64le
-24 spack install ucx @ 1.3.1 % gcc@4.8.5  arch=linux-rhel7-ppc64le
-25 spack install ucx @ 1.3.1 % pgi@19.1  arch=linux-rhel7-ppc64le
-26 spack install ucx @ 1.3.1 % pgi@18.10  arch=linux-rhel7-ppc64le
-27 spack install ucx @ 1.3.1 % pgi@17.10  arch=linux-rhel7-ppc64le
-28 spack install ucx @ 1.3.1 % xl@16.1.2  arch=linux-rhel7-ppc64le
-29 spack install ucx @ 1.3.1 % xl@16.1.1  arch=linux-rhel7-ppc64le
-30 spack install ucx @ 1.3.1 % xl@16.1.0  arch=linux-rhel7-ppc64le
-31 spack install ucx @ 1.2.2 % clang@7.0.0  arch=linux-rhel7-ppc64le
-32 spack install ucx @ 1.2.2 % gcc@7.3.1  arch=linux-rhel7-ppc64le
-33 spack install ucx @ 1.2.2 % gcc@4.9.3  arch=linux-rhel7-ppc64le
-34 spack install ucx @ 1.2.2 % gcc@4.8.5  arch=linux-rhel7-ppc64le
-35 spack install ucx @ 1.2.2 % pgi@19.1  arch=linux-rhel7-ppc64le
-36 spack install ucx @ 1.2.2 % pgi@18.10  arch=linux-rhel7-ppc64le
-37 spack install ucx @ 1.2.2 % pgi@17.10  arch=linux-rhel7-ppc64le
-38 spack install ucx @ 1.2.2 % xl@16.1.2  arch=linux-rhel7-ppc64le
-39 spack install ucx @ 1.2.2 % xl@16.1.1  arch=linux-rhel7-ppc64le
-40 spack install ucx @ 1.2.2 % xl@16.1.0  arch=linux-rhel7-ppc64le

@@ -1,0 +1,14 @@
+Tue Apr 30 17:34:22 PDT 2019
+1 spack install openmpi @ 4.0.1 % clang@7.0.0  arch=linux-rhel7-ppc64le
+2 spack install openmpi @ 4.0.1 % gcc@7.3.1  arch=linux-rhel7-ppc64le
+3 spack install openmpi @ 4.0.1 % gcc@4.9.3  arch=linux-rhel7-ppc64le
+4 spack install openmpi @ 4.0.1 % gcc@4.8.5  arch=linux-rhel7-ppc64le
+5 spack install openmpi @ 4.0.1 % pgi@19.1  arch=linux-rhel7-ppc64le
+6 spack install openmpi @ 4.0.1 % pgi@18.10  arch=linux-rhel7-ppc64le
+7 spack install openmpi @ 4.0.1 % pgi@17.10  arch=linux-rhel7-ppc64le
+8 spack install openmpi @ 4.0.1 % xl@16.1.2  arch=linux-rhel7-ppc64le
+9 spack install openmpi @ 4.0.1 % xl@16.1.1  arch=linux-rhel7-ppc64le
+10 spack install openmpi @ 4.0.1 % xl@16.1.0  arch=linux-rhel7-ppc64le
+11 spack install openmpi @ 3.1.4 % clang@7.0.0  arch=linux-rhel7-ppc64le
+12 spack install openmpi @ 3.1.4 % gcc@7.3.1  arch=linux-rhel7-ppc64le
+13 spack install openmpi @ 3.1.4 % gcc@4.9.3  arch=linux-rhel7-ppc64le
