@@ -1,9 +1,7 @@
-Tue Apr 30 17:32:42 PDT 2019
+Tue May 7 12:10:16 PDT 2019
 
 
-spack install ucx @ 1.5.0 % clang@7.0.0  arch=linux-rhel7-ppc64le
-
-spack install ucx @ 1.5.0 % gcc@7.3.1  arch=linux-rhel7-ppc64le
+spack install ucx @ 1.5.0 % clang@4.0.0  arch=linux-rhel7-ppc64le
 ==> numactl@2.0.12 : externally installed in /usr
 ==> numactl@2.0.12 : generating module file
 ==> numactl@2.0.12 : registering into DB
@@ -22,13 +20,13 @@ spack install ucx @ 1.5.0 % gcc@7.3.1  arch=linux-rhel7-ppc64le
 ==> m4@1.4.18 : registering into DB
 ==> Installing libnl
 ==> Searching for binary cache of libnl
-==> Finding buildcaches in /usr/workspace/wsrzc/topa1/spack-home/mirror/build_cache
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
 ==> No binary for libnl found: installing from source
-==> Fetching file:///usr/workspace/wsrzc/topa1/spack-home/mirror/libnl/libnl-3.3.0.tar.gz
-==> Fetching from file:///usr/workspace/wsrzc/topa1/spack-home/mirror/libnl/libnl-3.3.0.tar.gz failed.
+==> Fetching /usr/workspace/wsrzc/topa1/spack-home/mirror/libnl/libnl-3.3.0.tar.gz
+==> Fetching from /usr/workspace/wsrzc/topa1/spack-home/mirror/libnl/libnl-3.3.0.tar.gz failed.
 ==> Fetching https://github.com/thom311/libnl/releases/download/libnl3_3_0/libnl-3.3.0.tar.gz
-==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-2tf7enrqfzclzqky5udd5vfdd5knkees/libnl-3.3.0.tar.gz
-==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-2tf7enrqfzclzqky5udd5vfdd5knkees
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-puwrr7xazsh7tr75rjqiqqpeubagkn7c/libnl-3.3.0.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-puwrr7xazsh7tr75rjqiqqpeubagkn7c
 ==> No patches needed for libnl
 ==> Building libnl [AutotoolsPackage]
 ==> Executing phase: 'autoreconf'
@@ -36,35 +34,37 @@ spack install ucx @ 1.5.0 % gcc@7.3.1  arch=linux-rhel7-ppc64le
 ==> Executing phase: 'build'
 ==> Executing phase: 'install'
 ==> Successfully installed libnl
-  Fetch: 1.35s.  Build: 15.44s.  Total: 16.79s.
-[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-7.3.1/libnl-3.3.0-2tf7enrqfzclzqky5udd5vfdd5knkees
+  Fetch: 1.23s.  Build: 15.05s.  Total: 16.28s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/clang-4.0.0/libnl-3.3.0-puwrr7xazsh7tr75rjqiqqpeubagkn7c
 ==> pkg-config@0.29.2 : externally installed in /usr
 ==> pkg-config@0.29.2 : generating module file
 ==> pkg-config@0.29.2 : registering into DB
 ==> Installing rdma-core
 ==> Searching for binary cache of rdma-core
-==> Finding buildcaches in /usr/workspace/wsrzc/topa1/spack-home/mirror/build_cache
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
 ==> No binary for rdma-core found: installing from source
-==> Fetching file:///usr/workspace/wsrzc/topa1/spack-home/mirror/rdma-core/rdma-core-20.tar.gz
-==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/rdma-core-20-ck4kvzotci4rftbslstgyyq5axezjizz/rdma-core-20.tar.gz
-==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/rdma-core-20-ck4kvzotci4rftbslstgyyq5axezjizz
+==> Fetching /usr/workspace/wsrzc/topa1/spack-home/mirror/rdma-core/rdma-core-20.tar.gz
+==> Fetching from /usr/workspace/wsrzc/topa1/spack-home/mirror/rdma-core/rdma-core-20.tar.gz failed.
+==> Fetching https://github.com/linux-rdma/rdma-core/releases/download/v20/rdma-core-20.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/rdma-core-20-tpucnuhnqoxtbcpzbfvkwr3nouxvwm3g/rdma-core-20.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/rdma-core-20-tpucnuhnqoxtbcpzbfvkwr3nouxvwm3g
 ==> No patches needed for rdma-core
 ==> Building rdma-core [CMakePackage]
 ==> Executing phase: 'cmake'
 ==> Executing phase: 'build'
 ==> Executing phase: 'install'
 ==> Successfully installed rdma-core
-  Fetch: 0.07s.  Build: 15.53s.  Total: 15.60s.
-[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-7.3.1/rdma-core-20-ck4kvzotci4rftbslstgyyq5axezjizz
+  Fetch: 1.24s.  Build: 14.05s.  Total: 15.28s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/clang-4.0.0/rdma-core-20-tpucnuhnqoxtbcpzbfvkwr3nouxvwm3g
 ==> Installing ucx
 ==> Searching for binary cache of ucx
-==> Finding buildcaches in /usr/workspace/wsrzc/topa1/spack-home/mirror/build_cache
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
 ==> No binary for ucx found: installing from source
-==> Fetching file:///usr/workspace/wsrzc/topa1/spack-home/mirror/ucx/ucx-1.5.0.tar.gz
-==> Fetching from file:///usr/workspace/wsrzc/topa1/spack-home/mirror/ucx/ucx-1.5.0.tar.gz failed.
+==> Fetching /usr/workspace/wsrzc/topa1/spack-home/mirror/ucx/ucx-1.5.0.tar.gz
+==> Fetching from /usr/workspace/wsrzc/topa1/spack-home/mirror/ucx/ucx-1.5.0.tar.gz failed.
 ==> Fetching https://github.com/openucx/ucx/releases/download/v1.5.0/ucx-1.5.0.tar.gz
-==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/ucx-1.5.0-tacazebjog5ttqvxov6cablp2rsy2aoa/ucx-1.5.0.tar.gz
-==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/ucx-1.5.0-tacazebjog5ttqvxov6cablp2rsy2aoa
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/ucx-1.5.0-s7gejnjf6z527tat3s7bbmjbyaereyly/ucx-1.5.0.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/ucx-1.5.0-s7gejnjf6z527tat3s7bbmjbyaereyly
 ==> No patches needed for ucx
 ==> Building ucx [AutotoolsPackage]
 ==> Executing phase: 'autoreconf'
@@ -72,10 +72,10 @@ spack install ucx @ 1.5.0 % gcc@7.3.1  arch=linux-rhel7-ppc64le
 ==> Executing phase: 'build'
 ==> Executing phase: 'install'
 ==> Successfully installed ucx
-  Fetch: 3.39s.  Build: 1m 5.72s.  Total: 1m 9.11s.
-[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-7.3.1/ucx-1.5.0-tacazebjog5ttqvxov6cablp2rsy2aoa
+  Fetch: 1.45s.  Build: 57.78s.  Total: 59.23s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/clang-4.0.0/ucx-1.5.0-s7gejnjf6z527tat3s7bbmjbyaereyly
 
-spack install ucx @ 1.5.0 % gcc@4.9.3  arch=linux-rhel7-ppc64le
+spack install ucx @ 1.5.0 % clang@3.9.1  arch=linux-rhel7-ppc64le
 ==> numactl@2.0.12 : externally installed in /usr
 ==> numactl@2.0.12 : generating module file
 ==> numactl@2.0.12 : registering into DB
@@ -94,11 +94,11 @@ spack install ucx @ 1.5.0 % gcc@4.9.3  arch=linux-rhel7-ppc64le
 ==> m4@1.4.18 : registering into DB
 ==> Installing libnl
 ==> Searching for binary cache of libnl
-==> Finding buildcaches in /usr/workspace/wsrzc/topa1/spack-home/mirror/build_cache
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
 ==> No binary for libnl found: installing from source
 ==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/libnl/libnl-3.3.0.tar.gz
-==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-u7dpqnklg6mrp4qkpakeeugd45ivhjwt/libnl-3.3.0.tar.gz
-==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-u7dpqnklg6mrp4qkpakeeugd45ivhjwt
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-ykhjsg7id5vd6igdngb6hxjpjnaql4vb/libnl-3.3.0.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-ykhjsg7id5vd6igdngb6hxjpjnaql4vb
 ==> No patches needed for libnl
 ==> Building libnl [AutotoolsPackage]
 ==> Executing phase: 'autoreconf'
@@ -106,33 +106,33 @@ spack install ucx @ 1.5.0 % gcc@4.9.3  arch=linux-rhel7-ppc64le
 ==> Executing phase: 'build'
 ==> Executing phase: 'install'
 ==> Successfully installed libnl
-  Fetch: 0.02s.  Build: 16.27s.  Total: 16.29s.
-[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/libnl-3.3.0-u7dpqnklg6mrp4qkpakeeugd45ivhjwt
+  Fetch: 0.01s.  Build: 14.92s.  Total: 14.93s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/clang-3.9.1/libnl-3.3.0-ykhjsg7id5vd6igdngb6hxjpjnaql4vb
 ==> pkg-config@0.29.2 : externally installed in /usr
 ==> pkg-config@0.29.2 : generating module file
 ==> pkg-config@0.29.2 : registering into DB
 ==> Installing rdma-core
 ==> Searching for binary cache of rdma-core
-==> Finding buildcaches in /usr/workspace/wsrzc/topa1/spack-home/mirror/build_cache
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
 ==> No binary for rdma-core found: installing from source
 ==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/rdma-core/rdma-core-20.tar.gz
-==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/rdma-core-20-c3x3nw7xpttfk6sst7owtri2x6t7tgpa/rdma-core-20.tar.gz
-==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/rdma-core-20-c3x3nw7xpttfk6sst7owtri2x6t7tgpa
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/rdma-core-20-e4aknpfm3tpkxpa7x75wfh3mrisqpwhm/rdma-core-20.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/rdma-core-20-e4aknpfm3tpkxpa7x75wfh3mrisqpwhm
 ==> No patches needed for rdma-core
 ==> Building rdma-core [CMakePackage]
 ==> Executing phase: 'cmake'
 ==> Executing phase: 'build'
 ==> Executing phase: 'install'
 ==> Successfully installed rdma-core
-  Fetch: 0.01s.  Build: 16.89s.  Total: 16.90s.
-[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/rdma-core-20-c3x3nw7xpttfk6sst7owtri2x6t7tgpa
+  Fetch: 0.01s.  Build: 14.45s.  Total: 14.46s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/clang-3.9.1/rdma-core-20-e4aknpfm3tpkxpa7x75wfh3mrisqpwhm
 ==> Installing ucx
 ==> Searching for binary cache of ucx
-==> Finding buildcaches in /usr/workspace/wsrzc/topa1/spack-home/mirror/build_cache
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
 ==> No binary for ucx found: installing from source
 ==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/ucx/ucx-1.5.0.tar.gz
-==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/ucx-1.5.0-n7kkubyr3ywylkhk7sgr4wpvhi4fxzvd/ucx-1.5.0.tar.gz
-==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/ucx-1.5.0-n7kkubyr3ywylkhk7sgr4wpvhi4fxzvd
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/ucx-1.5.0-boduozz6w2kkvagbmhob4ibkwphhdcbg/ucx-1.5.0.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/ucx-1.5.0-boduozz6w2kkvagbmhob4ibkwphhdcbg
 ==> No patches needed for ucx
 ==> Building ucx [AutotoolsPackage]
 ==> Executing phase: 'autoreconf'
@@ -140,8 +140,16 @@ spack install ucx @ 1.5.0 % gcc@4.9.3  arch=linux-rhel7-ppc64le
 ==> Executing phase: 'build'
 ==> Executing phase: 'install'
 ==> Successfully installed ucx
-  Fetch: 0.01s.  Build: 1m 8.69s.  Total: 1m 8.70s.
-[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/ucx-1.5.0-n7kkubyr3ywylkhk7sgr4wpvhi4fxzvd
+  Fetch: 0.01s.  Build: 56.31s.  Total: 56.32s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/clang-3.9.1/ucx-1.5.0-boduozz6w2kkvagbmhob4ibkwphhdcbg
+
+spack install ucx @ 1.5.0 % gcc@8.2.0  arch=linux-rhel7-ppc64le
+
+spack install ucx @ 1.5.0 % gcc@7.3.1  arch=linux-rhel7-ppc64le
+==> ucx is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-7.3.1/ucx-1.5.0-tacazebjog5ttqvxov6cablp2rsy2aoa
+
+spack install ucx @ 1.5.0 % gcc@4.9.3  arch=linux-rhel7-ppc64le
+==> ucx is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/ucx-1.5.0-n7kkubyr3ywylkhk7sgr4wpvhi4fxzvd
 
 spack install ucx @ 1.5.0 % gcc@4.8.5  arch=linux-rhel7-ppc64le
 
@@ -149,24 +157,19 @@ spack install ucx @ 1.5.0 % pgi@19.1  arch=linux-rhel7-ppc64le
 
 spack install ucx @ 1.5.0 % pgi@18.10  arch=linux-rhel7-ppc64le
 ==> numactl@2.0.12 : externally installed in /usr
-==> numactl@2.0.12 : generating module file
-==> numactl@2.0.12 : registering into DB
+==> numactl@2.0.12 : already registered in DB
 ==> cmake@3.14.2 : has external module in cmake/3.12.1
 ==> cmake@3.14.2 : is actually installed in /usr/tce/packages/cmake/cmake-3.12.1
-==> cmake@3.14.2 : generating module file
-==> cmake@3.14.2 : registering into DB
+==> cmake@3.14.2 : already registered in DB
 ==> bison@3.0.5 : externally installed in /usr
-==> bison@3.0.5 : generating module file
-==> bison@3.0.5 : registering into DB
+==> bison@3.0.5 : already registered in DB
 ==> flex@2.6.4 : externally installed in /usr
-==> flex@2.6.4 : generating module file
-==> flex@2.6.4 : registering into DB
+==> flex@2.6.4 : already registered in DB
 ==> m4@1.4.18 : externally installed in /usr
-==> m4@1.4.18 : generating module file
-==> m4@1.4.18 : registering into DB
+==> m4@1.4.18 : already registered in DB
 ==> Installing libnl
 ==> Searching for binary cache of libnl
-==> Finding buildcaches in /usr/workspace/wsrzc/topa1/spack-home/mirror/build_cache
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
 ==> No binary for libnl found: installing from source
 ==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/libnl/libnl-3.3.0.tar.gz
 ==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-seumjlyl7tzxgiayjrtfu6xybrddylhe/libnl-3.3.0.tar.gz
@@ -177,7 +180,7 @@ spack install ucx @ 1.5.0 % pgi@18.10  arch=linux-rhel7-ppc64le
 ==> Executing phase: 'configure'
 ==> Executing phase: 'build'
 
-spack install ucx @ 1.5.0 % pgi@17.10  arch=linux-rhel7-ppc64le
+spack install ucx @ 1.5.0 % pgi@18.7  arch=linux-rhel7-ppc64le
 ==> numactl@2.0.12 : externally installed in /usr
 ==> numactl@2.0.12 : generating module file
 ==> numactl@2.0.12 : registering into DB
@@ -196,7 +199,32 @@ spack install ucx @ 1.5.0 % pgi@17.10  arch=linux-rhel7-ppc64le
 ==> m4@1.4.18 : registering into DB
 ==> Installing libnl
 ==> Searching for binary cache of libnl
-==> Finding buildcaches in /usr/workspace/wsrzc/topa1/spack-home/mirror/build_cache
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for libnl found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/libnl/libnl-3.3.0.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-3amwurglxglx66qvnivsdq46qblji4bl/libnl-3.3.0.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-3amwurglxglx66qvnivsdq46qblji4bl
+==> No patches needed for libnl
+==> Building libnl [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install ucx @ 1.5.0 % pgi@17.10  arch=linux-rhel7-ppc64le
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/tce/packages/cmake/cmake-3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> Installing libnl
+==> Searching for binary cache of libnl
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
 ==> No binary for libnl found: installing from source
 ==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/libnl/libnl-3.3.0.tar.gz
 ==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-hmgfkbpe2ol4crkpukl2vf67dzrb5gpp/libnl-3.3.0.tar.gz
@@ -207,15 +235,67 @@ spack install ucx @ 1.5.0 % pgi@17.10  arch=linux-rhel7-ppc64le
 ==> Executing phase: 'configure'
 ==> Executing phase: 'build'
 
-spack install ucx @ 1.5.0 % xl@16.1.2  arch=linux-rhel7-ppc64le
+spack install ucx @ 1.5.0 % xl@16.2  arch=linux-rhel7-ppc64le
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : generating module file
+==> numactl@2.0.12 : registering into DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/tce/packages/cmake/cmake-3.12.1
+==> cmake@3.14.2 : generating module file
+==> cmake@3.14.2 : registering into DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : generating module file
+==> bison@3.0.5 : registering into DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : generating module file
+==> flex@2.6.4 : registering into DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : generating module file
+==> m4@1.4.18 : registering into DB
+==> Installing libnl
+==> Searching for binary cache of libnl
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for libnl found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/libnl/libnl-3.3.0.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-wglyxjeq2yprdymplyf6o52lbdnpioei/libnl-3.3.0.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-wglyxjeq2yprdymplyf6o52lbdnpioei
+==> No patches needed for libnl
+==> Building libnl [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
 
-spack install ucx @ 1.5.0 % xl@16.1.1  arch=linux-rhel7-ppc64le
+spack install ucx @ 1.5.0 % xl@16.1  arch=linux-rhel7-ppc64le
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : generating module file
+==> numactl@2.0.12 : registering into DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/tce/packages/cmake/cmake-3.12.1
+==> cmake@3.14.2 : generating module file
+==> cmake@3.14.2 : registering into DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : generating module file
+==> bison@3.0.5 : registering into DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : generating module file
+==> flex@2.6.4 : registering into DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : generating module file
+==> m4@1.4.18 : registering into DB
+==> Installing libnl
+==> Searching for binary cache of libnl
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for libnl found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/libnl/libnl-3.3.0.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-7ldwelin7h26nbipqaai6l75lbliyecj/libnl-3.3.0.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-7ldwelin7h26nbipqaai6l75lbliyecj
+==> No patches needed for libnl
+==> Building libnl [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
 
-spack install ucx @ 1.5.0 % xl@16.1.0  arch=linux-rhel7-ppc64le
-
-spack install ucx @ 1.4.0 % clang@7.0.0  arch=linux-rhel7-ppc64le
-
-spack install ucx @ 1.4.0 % gcc@7.3.1  arch=linux-rhel7-ppc64le
+spack install ucx @ 1.4.0 % clang@4.0.0  arch=linux-rhel7-ppc64le
 ==> numactl@2.0.12 : externally installed in /usr
 ==> numactl@2.0.12 : already registered in DB
 ==> cmake@3.14.2 : has external module in cmake/3.12.1
@@ -227,17 +307,19 @@ spack install ucx @ 1.4.0 % gcc@7.3.1  arch=linux-rhel7-ppc64le
 ==> flex@2.6.4 : already registered in DB
 ==> m4@1.4.18 : externally installed in /usr
 ==> m4@1.4.18 : already registered in DB
-==> libnl is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-7.3.1/libnl-3.3.0-2tf7enrqfzclzqky5udd5vfdd5knkees
+==> libnl is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/clang-4.0.0/libnl-3.3.0-puwrr7xazsh7tr75rjqiqqpeubagkn7c
 ==> pkg-config@0.29.2 : externally installed in /usr
 ==> pkg-config@0.29.2 : already registered in DB
-==> rdma-core is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-7.3.1/rdma-core-20-ck4kvzotci4rftbslstgyyq5axezjizz
+==> rdma-core is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/clang-4.0.0/rdma-core-20-tpucnuhnqoxtbcpzbfvkwr3nouxvwm3g
 ==> Installing ucx
 ==> Searching for binary cache of ucx
-==> Finding buildcaches in /usr/workspace/wsrzc/topa1/spack-home/mirror/build_cache
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
 ==> No binary for ucx found: installing from source
-==> Fetching file:///usr/workspace/wsrzc/topa1/spack-home/mirror/ucx/ucx-1.4.0.tar.gz
-==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/ucx-1.4.0-is6brci3u3xwmia2bnpiuzoj5orjeab7/ucx-1.4.0.tar.gz
-==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/ucx-1.4.0-is6brci3u3xwmia2bnpiuzoj5orjeab7
+==> Fetching /usr/workspace/wsrzc/topa1/spack-home/mirror/ucx/ucx-1.4.0.tar.gz
+==> Fetching from /usr/workspace/wsrzc/topa1/spack-home/mirror/ucx/ucx-1.4.0.tar.gz failed.
+==> Fetching https://github.com/openucx/ucx/releases/download/v1.4.0/ucx-1.4.0.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/ucx-1.4.0-sbxyb43dmcpeonvufqxw5maopc5ujynn/ucx-1.4.0.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/ucx-1.4.0-sbxyb43dmcpeonvufqxw5maopc5ujynn
 ==> No patches needed for ucx
 ==> Building ucx [AutotoolsPackage]
 ==> Executing phase: 'autoreconf'
@@ -245,10 +327,10 @@ spack install ucx @ 1.4.0 % gcc@7.3.1  arch=linux-rhel7-ppc64le
 ==> Executing phase: 'build'
 ==> Executing phase: 'install'
 ==> Successfully installed ucx
-  Fetch: 0.07s.  Build: 1m 0.08s.  Total: 1m 0.15s.
-[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-7.3.1/ucx-1.4.0-is6brci3u3xwmia2bnpiuzoj5orjeab7
+  Fetch: 1.28s.  Build: 51.45s.  Total: 52.73s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/clang-4.0.0/ucx-1.4.0-sbxyb43dmcpeonvufqxw5maopc5ujynn
 
-spack install ucx @ 1.4.0 % gcc@4.9.3  arch=linux-rhel7-ppc64le
+spack install ucx @ 1.4.0 % clang@3.9.1  arch=linux-rhel7-ppc64le
 ==> numactl@2.0.12 : externally installed in /usr
 ==> numactl@2.0.12 : already registered in DB
 ==> cmake@3.14.2 : has external module in cmake/3.12.1
@@ -260,17 +342,17 @@ spack install ucx @ 1.4.0 % gcc@4.9.3  arch=linux-rhel7-ppc64le
 ==> flex@2.6.4 : already registered in DB
 ==> m4@1.4.18 : externally installed in /usr
 ==> m4@1.4.18 : already registered in DB
-==> libnl is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/libnl-3.3.0-u7dpqnklg6mrp4qkpakeeugd45ivhjwt
+==> libnl is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/clang-3.9.1/libnl-3.3.0-ykhjsg7id5vd6igdngb6hxjpjnaql4vb
 ==> pkg-config@0.29.2 : externally installed in /usr
 ==> pkg-config@0.29.2 : already registered in DB
-==> rdma-core is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/rdma-core-20-c3x3nw7xpttfk6sst7owtri2x6t7tgpa
+==> rdma-core is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/clang-3.9.1/rdma-core-20-e4aknpfm3tpkxpa7x75wfh3mrisqpwhm
 ==> Installing ucx
 ==> Searching for binary cache of ucx
-==> Finding buildcaches in /usr/workspace/wsrzc/topa1/spack-home/mirror/build_cache
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
 ==> No binary for ucx found: installing from source
 ==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/ucx/ucx-1.4.0.tar.gz
-==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/ucx-1.4.0-pmw5svnyj7wdmd6bg3ficxqmtyirx4rk/ucx-1.4.0.tar.gz
-==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/ucx-1.4.0-pmw5svnyj7wdmd6bg3ficxqmtyirx4rk
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/ucx-1.4.0-lkl35wwtpkgakdbqpwonsue4eblhvu5s/ucx-1.4.0.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/ucx-1.4.0-lkl35wwtpkgakdbqpwonsue4eblhvu5s
 ==> No patches needed for ucx
 ==> Building ucx [AutotoolsPackage]
 ==> Executing phase: 'autoreconf'
@@ -278,8 +360,16 @@ spack install ucx @ 1.4.0 % gcc@4.9.3  arch=linux-rhel7-ppc64le
 ==> Executing phase: 'build'
 ==> Executing phase: 'install'
 ==> Successfully installed ucx
-  Fetch: 0.01s.  Build: 1m 1.26s.  Total: 1m 1.27s.
-[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/ucx-1.4.0-pmw5svnyj7wdmd6bg3ficxqmtyirx4rk
+  Fetch: 0.01s.  Build: 49.61s.  Total: 49.62s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/clang-3.9.1/ucx-1.4.0-lkl35wwtpkgakdbqpwonsue4eblhvu5s
+
+spack install ucx @ 1.4.0 % gcc@8.2.0  arch=linux-rhel7-ppc64le
+
+spack install ucx @ 1.4.0 % gcc@7.3.1  arch=linux-rhel7-ppc64le
+==> ucx is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-7.3.1/ucx-1.4.0-is6brci3u3xwmia2bnpiuzoj5orjeab7
+
+spack install ucx @ 1.4.0 % gcc@4.9.3  arch=linux-rhel7-ppc64le
+==> ucx is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/ucx-1.4.0-pmw5svnyj7wdmd6bg3ficxqmtyirx4rk
 
 spack install ucx @ 1.4.0 % gcc@4.8.5  arch=linux-rhel7-ppc64le
 
@@ -299,11 +389,36 @@ spack install ucx @ 1.4.0 % pgi@18.10  arch=linux-rhel7-ppc64le
 ==> m4@1.4.18 : already registered in DB
 ==> Installing libnl
 ==> Searching for binary cache of libnl
-==> Finding buildcaches in /usr/workspace/wsrzc/topa1/spack-home/mirror/build_cache
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
 ==> No binary for libnl found: installing from source
 ==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/libnl/libnl-3.3.0.tar.gz
 ==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-seumjlyl7tzxgiayjrtfu6xybrddylhe/libnl-3.3.0.tar.gz
 ==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-seumjlyl7tzxgiayjrtfu6xybrddylhe
+==> No patches needed for libnl
+==> Building libnl [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install ucx @ 1.4.0 % pgi@18.7  arch=linux-rhel7-ppc64le
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/tce/packages/cmake/cmake-3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> Installing libnl
+==> Searching for binary cache of libnl
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for libnl found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/libnl/libnl-3.3.0.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-3amwurglxglx66qvnivsdq46qblji4bl/libnl-3.3.0.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-3amwurglxglx66qvnivsdq46qblji4bl
 ==> No patches needed for libnl
 ==> Building libnl [AutotoolsPackage]
 ==> Executing phase: 'autoreconf'
@@ -324,7 +439,7 @@ spack install ucx @ 1.4.0 % pgi@17.10  arch=linux-rhel7-ppc64le
 ==> m4@1.4.18 : already registered in DB
 ==> Installing libnl
 ==> Searching for binary cache of libnl
-==> Finding buildcaches in /usr/workspace/wsrzc/topa1/spack-home/mirror/build_cache
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
 ==> No binary for libnl found: installing from source
 ==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/libnl/libnl-3.3.0.tar.gz
 ==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-hmgfkbpe2ol4crkpukl2vf67dzrb5gpp/libnl-3.3.0.tar.gz
@@ -335,14 +450,578 @@ spack install ucx @ 1.4.0 % pgi@17.10  arch=linux-rhel7-ppc64le
 ==> Executing phase: 'configure'
 ==> Executing phase: 'build'
 
-spack install ucx @ 1.4.0 % xl@16.1.2  arch=linux-rhel7-ppc64le
+spack install ucx @ 1.4.0 % xl@16.2  arch=linux-rhel7-ppc64le
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/tce/packages/cmake/cmake-3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> Installing libnl
+==> Searching for binary cache of libnl
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for libnl found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/libnl/libnl-3.3.0.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-wglyxjeq2yprdymplyf6o52lbdnpioei/libnl-3.3.0.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-wglyxjeq2yprdymplyf6o52lbdnpioei
+==> No patches needed for libnl
+==> Building libnl [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
 
-spack install ucx @ 1.4.0 % xl@16.1.1  arch=linux-rhel7-ppc64le
+spack install ucx @ 1.4.0 % xl@16.1  arch=linux-rhel7-ppc64le
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/tce/packages/cmake/cmake-3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> Installing libnl
+==> Searching for binary cache of libnl
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for libnl found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/libnl/libnl-3.3.0.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-7ldwelin7h26nbipqaai6l75lbliyecj/libnl-3.3.0.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-7ldwelin7h26nbipqaai6l75lbliyecj
+==> No patches needed for libnl
+==> Building libnl [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
 
-spack install ucx @ 1.4.0 % xl@16.1.0  arch=linux-rhel7-ppc64le
+spack install ucx @ 1.3.1 % clang@4.0.0  arch=linux-rhel7-ppc64le
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/tce/packages/cmake/cmake-3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> libnl is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/clang-4.0.0/libnl-3.3.0-puwrr7xazsh7tr75rjqiqqpeubagkn7c
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> rdma-core is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/clang-4.0.0/rdma-core-20-tpucnuhnqoxtbcpzbfvkwr3nouxvwm3g
+==> Installing ucx
+==> Searching for binary cache of ucx
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for ucx found: installing from source
+==> Fetching /usr/workspace/wsrzc/topa1/spack-home/mirror/ucx/ucx-1.3.1.tar.gz
+==> Fetching from /usr/workspace/wsrzc/topa1/spack-home/mirror/ucx/ucx-1.3.1.tar.gz failed.
+==> Fetching https://github.com/openucx/ucx/releases/download/v1.3.1/ucx-1.3.1.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/ucx-1.3.1-mkgfgy5yjfsbft657xcocy3cpejtumlx/ucx-1.3.1.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/ucx-1.3.1-mkgfgy5yjfsbft657xcocy3cpejtumlx
+==> No patches needed for ucx
+==> Building ucx [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed ucx
+  Fetch: 1.45s.  Build: 50.73s.  Total: 52.18s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/clang-4.0.0/ucx-1.3.1-mkgfgy5yjfsbft657xcocy3cpejtumlx
 
-spack install ucx @ 1.3.1 % clang@7.0.0  arch=linux-rhel7-ppc64le
+spack install ucx @ 1.3.1 % clang@3.9.1  arch=linux-rhel7-ppc64le
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/tce/packages/cmake/cmake-3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> libnl is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/clang-3.9.1/libnl-3.3.0-ykhjsg7id5vd6igdngb6hxjpjnaql4vb
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> rdma-core is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/clang-3.9.1/rdma-core-20-e4aknpfm3tpkxpa7x75wfh3mrisqpwhm
+==> Installing ucx
+==> Searching for binary cache of ucx
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for ucx found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/ucx/ucx-1.3.1.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/ucx-1.3.1-hpnibo4yml7efidgkapl6eoitn2s3otl/ucx-1.3.1.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/ucx-1.3.1-hpnibo4yml7efidgkapl6eoitn2s3otl
+==> No patches needed for ucx
+==> Building ucx [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed ucx
+  Fetch: 0.01s.  Build: 48.08s.  Total: 48.09s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/clang-3.9.1/ucx-1.3.1-hpnibo4yml7efidgkapl6eoitn2s3otl
+
+spack install ucx @ 1.3.1 % gcc@8.2.0  arch=linux-rhel7-ppc64le
 
 spack install ucx @ 1.3.1 % gcc@7.3.1  arch=linux-rhel7-ppc64le
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/tce/packages/cmake/cmake-3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> libnl is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-7.3.1/libnl-3.3.0-2tf7enrqfzclzqky5udd5vfdd5knkees
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> rdma-core is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-7.3.1/rdma-core-20-ck4kvzotci4rftbslstgyyq5axezjizz
+==> Installing ucx
+==> Searching for binary cache of ucx
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for ucx found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/ucx/ucx-1.3.1.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/ucx-1.3.1-am5oalrzmr27vkruk2u5yezqzmbgtyto/ucx-1.3.1.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/ucx-1.3.1-am5oalrzmr27vkruk2u5yezqzmbgtyto
+==> No patches needed for ucx
+==> Building ucx [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed ucx
+  Fetch: 0.01s.  Build: 57.29s.  Total: 57.29s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-7.3.1/ucx-1.3.1-am5oalrzmr27vkruk2u5yezqzmbgtyto
 
 spack install ucx @ 1.3.1 % gcc@4.9.3  arch=linux-rhel7-ppc64le
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/tce/packages/cmake/cmake-3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> libnl is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/libnl-3.3.0-u7dpqnklg6mrp4qkpakeeugd45ivhjwt
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> rdma-core is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/rdma-core-20-c3x3nw7xpttfk6sst7owtri2x6t7tgpa
+==> Installing ucx
+==> Searching for binary cache of ucx
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for ucx found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/ucx/ucx-1.3.1.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/ucx-1.3.1-adzv52dki6h7npr4ymzcytzhvbyel43n/ucx-1.3.1.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/ucx-1.3.1-adzv52dki6h7npr4ymzcytzhvbyel43n
+==> No patches needed for ucx
+==> Building ucx [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed ucx
+  Fetch: 0.01s.  Build: 59.28s.  Total: 59.29s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/ucx-1.3.1-adzv52dki6h7npr4ymzcytzhvbyel43n
+
+spack install ucx @ 1.3.1 % gcc@4.8.5  arch=linux-rhel7-ppc64le
+
+spack install ucx @ 1.3.1 % pgi@19.1  arch=linux-rhel7-ppc64le
+
+spack install ucx @ 1.3.1 % pgi@18.10  arch=linux-rhel7-ppc64le
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/tce/packages/cmake/cmake-3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> Installing libnl
+==> Searching for binary cache of libnl
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for libnl found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/libnl/libnl-3.3.0.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-seumjlyl7tzxgiayjrtfu6xybrddylhe/libnl-3.3.0.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-seumjlyl7tzxgiayjrtfu6xybrddylhe
+==> No patches needed for libnl
+==> Building libnl [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install ucx @ 1.3.1 % pgi@18.7  arch=linux-rhel7-ppc64le
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/tce/packages/cmake/cmake-3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> Installing libnl
+==> Searching for binary cache of libnl
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for libnl found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/libnl/libnl-3.3.0.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-3amwurglxglx66qvnivsdq46qblji4bl/libnl-3.3.0.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-3amwurglxglx66qvnivsdq46qblji4bl
+==> No patches needed for libnl
+==> Building libnl [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install ucx @ 1.3.1 % pgi@17.10  arch=linux-rhel7-ppc64le
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/tce/packages/cmake/cmake-3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> Installing libnl
+==> Searching for binary cache of libnl
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for libnl found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/libnl/libnl-3.3.0.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-hmgfkbpe2ol4crkpukl2vf67dzrb5gpp/libnl-3.3.0.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-hmgfkbpe2ol4crkpukl2vf67dzrb5gpp
+==> No patches needed for libnl
+==> Building libnl [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install ucx @ 1.3.1 % xl@16.2  arch=linux-rhel7-ppc64le
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/tce/packages/cmake/cmake-3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> Installing libnl
+==> Searching for binary cache of libnl
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for libnl found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/libnl/libnl-3.3.0.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-wglyxjeq2yprdymplyf6o52lbdnpioei/libnl-3.3.0.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-wglyxjeq2yprdymplyf6o52lbdnpioei
+==> No patches needed for libnl
+==> Building libnl [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install ucx @ 1.3.1 % xl@16.1  arch=linux-rhel7-ppc64le
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/tce/packages/cmake/cmake-3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> Installing libnl
+==> Searching for binary cache of libnl
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for libnl found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/libnl/libnl-3.3.0.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-7ldwelin7h26nbipqaai6l75lbliyecj/libnl-3.3.0.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-7ldwelin7h26nbipqaai6l75lbliyecj
+==> No patches needed for libnl
+==> Building libnl [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install ucx @ 1.2.2 % clang@4.0.0  arch=linux-rhel7-ppc64le
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/tce/packages/cmake/cmake-3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> libnl is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/clang-4.0.0/libnl-3.3.0-puwrr7xazsh7tr75rjqiqqpeubagkn7c
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> rdma-core is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/clang-4.0.0/rdma-core-20-tpucnuhnqoxtbcpzbfvkwr3nouxvwm3g
+==> Installing ucx
+==> Searching for binary cache of ucx
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for ucx found: installing from source
+==> Fetching /usr/workspace/wsrzc/topa1/spack-home/mirror/ucx/ucx-1.2.2.tar.gz
+==> Fetching from /usr/workspace/wsrzc/topa1/spack-home/mirror/ucx/ucx-1.2.2.tar.gz failed.
+==> Fetching https://github.com/openucx/ucx/releases/download/v1.2.2/ucx-1.2.2.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/ucx-1.2.2-qvy6flgilkwwmjhfdltuetdnlzeqvsnk/ucx-1.2.2.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/ucx-1.2.2-qvy6flgilkwwmjhfdltuetdnlzeqvsnk
+==> No patches needed for ucx
+==> Building ucx [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install ucx @ 1.2.2 % clang@3.9.1  arch=linux-rhel7-ppc64le
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/tce/packages/cmake/cmake-3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> libnl is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/clang-3.9.1/libnl-3.3.0-ykhjsg7id5vd6igdngb6hxjpjnaql4vb
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> rdma-core is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/clang-3.9.1/rdma-core-20-e4aknpfm3tpkxpa7x75wfh3mrisqpwhm
+==> Installing ucx
+==> Searching for binary cache of ucx
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for ucx found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/ucx/ucx-1.2.2.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/ucx-1.2.2-u7aldust74fjnhl7p5aibgup4qbmph2w/ucx-1.2.2.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/ucx-1.2.2-u7aldust74fjnhl7p5aibgup4qbmph2w
+==> No patches needed for ucx
+==> Building ucx [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed ucx
+  Fetch: 0.01s.  Build: 39.10s.  Total: 39.11s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/clang-3.9.1/ucx-1.2.2-u7aldust74fjnhl7p5aibgup4qbmph2w
+
+spack install ucx @ 1.2.2 % gcc@8.2.0  arch=linux-rhel7-ppc64le
+
+spack install ucx @ 1.2.2 % gcc@7.3.1  arch=linux-rhel7-ppc64le
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/tce/packages/cmake/cmake-3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> libnl is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-7.3.1/libnl-3.3.0-2tf7enrqfzclzqky5udd5vfdd5knkees
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> rdma-core is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-7.3.1/rdma-core-20-ck4kvzotci4rftbslstgyyq5axezjizz
+==> Installing ucx
+==> Searching for binary cache of ucx
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for ucx found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/ucx/ucx-1.2.2.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/ucx-1.2.2-phg3plk2rgobhjzwpdlhhohadcp7lfji/ucx-1.2.2.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/ucx-1.2.2-phg3plk2rgobhjzwpdlhhohadcp7lfji
+==> No patches needed for ucx
+==> Building ucx [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed ucx
+  Fetch: 0.01s.  Build: 44.27s.  Total: 44.28s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-7.3.1/ucx-1.2.2-phg3plk2rgobhjzwpdlhhohadcp7lfji
+
+spack install ucx @ 1.2.2 % gcc@4.9.3  arch=linux-rhel7-ppc64le
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/tce/packages/cmake/cmake-3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> libnl is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/libnl-3.3.0-u7dpqnklg6mrp4qkpakeeugd45ivhjwt
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> rdma-core is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/rdma-core-20-c3x3nw7xpttfk6sst7owtri2x6t7tgpa
+==> Installing ucx
+==> Searching for binary cache of ucx
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for ucx found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/ucx/ucx-1.2.2.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/ucx-1.2.2-4qehaurcizni3i4nxu6ahugmmig7ey74/ucx-1.2.2.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/ucx-1.2.2-4qehaurcizni3i4nxu6ahugmmig7ey74
+==> No patches needed for ucx
+==> Building ucx [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed ucx
+  Fetch: 0.01s.  Build: 46.77s.  Total: 46.78s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/opt/spack/linux-rhel7-ppc64le/gcc-4.9.3/ucx-1.2.2-4qehaurcizni3i4nxu6ahugmmig7ey74
+
+spack install ucx @ 1.2.2 % gcc@4.8.5  arch=linux-rhel7-ppc64le
+
+spack install ucx @ 1.2.2 % pgi@19.1  arch=linux-rhel7-ppc64le
+
+spack install ucx @ 1.2.2 % pgi@18.10  arch=linux-rhel7-ppc64le
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/tce/packages/cmake/cmake-3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> Installing libnl
+==> Searching for binary cache of libnl
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for libnl found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/libnl/libnl-3.3.0.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-seumjlyl7tzxgiayjrtfu6xybrddylhe/libnl-3.3.0.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-seumjlyl7tzxgiayjrtfu6xybrddylhe
+==> No patches needed for libnl
+==> Building libnl [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install ucx @ 1.2.2 % pgi@18.7  arch=linux-rhel7-ppc64le
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/tce/packages/cmake/cmake-3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> Installing libnl
+==> Searching for binary cache of libnl
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for libnl found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/libnl/libnl-3.3.0.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-3amwurglxglx66qvnivsdq46qblji4bl/libnl-3.3.0.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-3amwurglxglx66qvnivsdq46qblji4bl
+==> No patches needed for libnl
+==> Building libnl [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install ucx @ 1.2.2 % pgi@17.10  arch=linux-rhel7-ppc64le
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/tce/packages/cmake/cmake-3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> Installing libnl
+==> Searching for binary cache of libnl
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for libnl found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/libnl/libnl-3.3.0.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-hmgfkbpe2ol4crkpukl2vf67dzrb5gpp/libnl-3.3.0.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-hmgfkbpe2ol4crkpukl2vf67dzrb5gpp
+==> No patches needed for libnl
+==> Building libnl [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install ucx @ 1.2.2 % xl@16.2  arch=linux-rhel7-ppc64le
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/tce/packages/cmake/cmake-3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> Installing libnl
+==> Searching for binary cache of libnl
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for libnl found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/libnl/libnl-3.3.0.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-wglyxjeq2yprdymplyf6o52lbdnpioei/libnl-3.3.0.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-wglyxjeq2yprdymplyf6o52lbdnpioei
+==> No patches needed for libnl
+==> Building libnl [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install ucx @ 1.2.2 % xl@16.1  arch=linux-rhel7-ppc64le
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> cmake@3.14.2 : has external module in cmake/3.12.1
+==> cmake@3.14.2 : is actually installed in /usr/tce/packages/cmake/cmake-3.12.1
+==> cmake@3.14.2 : already registered in DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : already registered in DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : already registered in DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : already registered in DB
+==> Installing libnl
+==> Searching for binary cache of libnl
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for libnl found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/cache/libnl/libnl-3.3.0.tar.gz
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-7ldwelin7h26nbipqaai6l75lbliyecj/libnl-3.3.0.tar.gz
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.ucx/var/spack/stage/libnl-3.3.0-7ldwelin7h26nbipqaai6l75lbliyecj
+==> No patches needed for libnl
+==> Building libnl [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
