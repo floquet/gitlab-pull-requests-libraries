@@ -1,0 +1,355 @@
+Fri Mar 29 11:00:50 MDT 2019 [1m/home/dantopa/.mybash(B[m
+Fri Mar 29 11:00:50 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/platforms.sh(B[m
+attempting to mkdir /scratch/users/dantopa/repos/gitlab/node-queries/darwin/general-cn100/dir-configuration
+directory of core scripts = ${core} = /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts
+Fri Mar 29 11:00:50 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/master.sh(B[m
+Fri Mar 29 11:00:50 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh(B[m
+Fri Mar 29 11:00:51 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh(B[m
+Fri Mar 29 11:00:51 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Fri Mar 29 11:00:51 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh(B[m
+Fri Mar 29 11:00:51 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/gcc.sh(B[m
+Fri Mar 29 11:00:51 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh: line 5: gonode: command not found
+Fri Mar 29 11:00:51 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/git.sh(B[m
+Fri Mar 29 11:00:51 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Fri Mar 29 11:00:51 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/ssh.sh(B[m
+Fri Mar 29 11:00:51 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/vim.sh(B[m
+Fri Mar 29 11:00:51 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bash.sh(B[m
+Fri Mar 29 11:00:51 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/finds.sh(B[m
+Fri Mar 29 11:00:51 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/cmake.sh(B[m
+Fri Mar 29 11:00:51 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/copy-configuration.sh(B[m
+Fri Mar 29 11:00:51 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/fortran.sh(B[m
+Fri Mar 29 11:00:51 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks.sh(B[m
+Fri Mar 29 11:00:51 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-bitbucket.sh(B[m
+Fri Mar 29 11:00:51 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-github.sh(B[m
+Fri Mar 29 11:00:51 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-gitlab.sh(B[m
+Fri Mar 29 11:00:51 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/disk.sh(B[m
+Fri Mar 29 11:00:51 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh: line 33: sinfo_s: command not found
+Fri Mar 29 11:00:51 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh(B[m
+Fri Mar 29 11:00:51 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Fri Mar 29 11:00:51 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh(B[m
+Fri Mar 29 11:00:51 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh(B[m
+Fri Mar 29 11:00:51 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/spack.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh: line 5: gonode: command not found
+Fri Mar 29 11:00:51 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/uname.sh(B[m
+Fri Mar 29 11:00:51 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/modules.sh(B[m
+Fri Mar 29 11:00:51 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Fri Mar 29 11:00:51 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/alias.sh(B[m
+Fri Mar 29 11:00:51 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh: line 11: myprompt: command not found
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh: line 33: sinfo_s: command not found
+fatal: Unable to create '/scratch/users/dantopa/repos/gitlab/pull-requests/.git/refs/heads/master.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+[master f8f3778] darwin-general-cn100 Fri Mar 29 11:00:51 MDT 2019
+ 2 files changed, 18 insertions(+), 17 deletions(-)
+Fri Mar 29 11:00:52 MDT 2019 /tmp/slurmd/job5138810/slurm_script
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+
+spack install pmix @ 3.1.2 % gcc@4.8.5 arch=linux-centos7-x86_64
+==> Installing libsigsegv
+==> Searching for binary cache of libsigsegv
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libsigsegv found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/libsigsegv/libsigsegv-2.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/pmix.general.spack/var/spack/stage/libsigsegv-2.11-qpmaxx6z62df4s4hwyehdwptv6kmrfhf/libsigsegv-2.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/pmix.general.spack/var/spack/stage/libsigsegv-2.11-qpmaxx6z62df4s4hwyehdwptv6kmrfhf
+==> No patches needed for libsigsegv
+==> Building libsigsegv [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libsigsegv
+  Fetch: 0.20s.  Build: 6.46s.  Total: 6.66s.
+[+] /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/libsigsegv-2.11-qpmaxx6z62df4s4hwyehdwptv6kmrfhf
+==> Installing m4
+==> Searching for binary cache of m4
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for m4 found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/m4/m4-1.4.18.tar.gz
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/m4/m4-1.4.18-glibc-change-work-around.patch
+==> Staging archive: /scratch/users/dantopa/new-spack/pmix.general.spack/var/spack/stage/m4-1.4.18-d3ev3mslx5w4xz5tjx4jhhj7sfbv42ub/m4-1.4.18.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/pmix.general.spack/var/spack/stage/m4-1.4.18-d3ev3mslx5w4xz5tjx4jhhj7sfbv42ub
+==> Applied patch /scratch/users/dantopa/new-spack/pmix.general.spack/var/spack/repos/builtin/packages/m4/gnulib-pgi.patch
+==> Applied patch /scratch/users/dantopa/new-spack/pmix.general.spack/var/spack/repos/builtin/packages/m4/secure_snprintf.patch
+==> Applied patch https://src.fedoraproject.org/rpms/m4/raw/5d147168d4b93f38a4833f5dd1d650ad88af5a8a/f/m4-1.4.18-glibc-change-work-around.patch
+==> Building m4 [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed m4
+  Fetch: 0.14s.  Build: 32.89s.  Total: 33.03s.
+[+] /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/m4-1.4.18-d3ev3mslx5w4xz5tjx4jhhj7sfbv42ub
+==> Installing libtool
+==> Searching for binary cache of libtool
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libtool found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/libtool/libtool-2.4.6.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/pmix.general.spack/var/spack/stage/libtool-2.4.6-bcbiddkmbu4gy7wx6ftntmxqe3c5br3z/libtool-2.4.6.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/pmix.general.spack/var/spack/stage/libtool-2.4.6-bcbiddkmbu4gy7wx6ftntmxqe3c5br3z
+==> No patches needed for libtool
+==> Building libtool [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libtool
+  Fetch: 0.11s.  Build: 9.53s.  Total: 9.64s.
+[+] /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/libtool-2.4.6-bcbiddkmbu4gy7wx6ftntmxqe3c5br3z
+==> Installing pkgconf
+==> Searching for binary cache of pkgconf
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pkgconf found: installing from source
+curl: (37) Couldn't open file /usr/projects/draco/vendors/spack.mirror/pkgconf/pkgconf-1.6.0.tar.xz
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/pkgconf/pkgconf-1.6.0.tar.xz
+==> Fetching from file:///usr/projects/draco/vendors/spack.mirror/pkgconf/pkgconf-1.6.0.tar.xz failed.
+==> Fetching http://distfiles.dereferenced.org/pkgconf/pkgconf-1.6.0.tar.xz
+==> Staging archive: /scratch/users/dantopa/new-spack/pmix.general.spack/var/spack/stage/pkgconf-1.6.0-lb63mhdhdxn77fragqn7f7t2hkunpomb/pkgconf-1.6.0.tar.xz
+==> Created stage in /scratch/users/dantopa/new-spack/pmix.general.spack/var/spack/stage/pkgconf-1.6.0-lb63mhdhdxn77fragqn7f7t2hkunpomb
+==> No patches needed for pkgconf
+==> Building pkgconf [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pkgconf
+  Fetch: 1.02s.  Build: 5.55s.  Total: 6.56s.
+[+] /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/pkgconf-1.6.0-lb63mhdhdxn77fragqn7f7t2hkunpomb
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/util-macros-1.19.1-p66qdrtaslf2cq4wyc6mitrxzhnyujhc
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/libpciaccess-0.13.5-5chyfxo6gpmcf74gpv3sqni2aa6v5x57
+==> Installing libiconv
+==> Searching for binary cache of libiconv
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libiconv found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/libiconv/libiconv-1.15.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/pmix.general.spack/var/spack/stage/libiconv-1.15-bli6oh4rawy6bwdqa7ylbp7wt5tkynyv/libiconv-1.15.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/pmix.general.spack/var/spack/stage/libiconv-1.15-bli6oh4rawy6bwdqa7ylbp7wt5tkynyv
+==> No patches needed for libiconv
+==> Building libiconv [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libiconv
+  Fetch: 0.32s.  Build: 33.14s.  Total: 33.46s.
+[+] /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/libiconv-1.15-bli6oh4rawy6bwdqa7ylbp7wt5tkynyv
+==> Installing xz
+==> Searching for binary cache of xz
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for xz found: installing from source
+curl: (37) Couldn't open file /usr/projects/draco/vendors/spack.mirror/xz/xz-5.2.4.tar.bz2
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/xz/xz-5.2.4.tar.bz2
+==> Fetching from file:///usr/projects/draco/vendors/spack.mirror/xz/xz-5.2.4.tar.bz2 failed.
+==> Fetching http://tukaani.org/xz/xz-5.2.4.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/pmix.general.spack/var/spack/stage/xz-5.2.4-agv5zlv7phi4ye3evlpv3t4ypgve4bpe/xz-5.2.4.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/pmix.general.spack/var/spack/stage/xz-5.2.4-agv5zlv7phi4ye3evlpv3t4ypgve4bpe
+==> No patches needed for xz
+==> Building xz [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed xz
+  Fetch: 4.62s.  Build: 14.73s.  Total: 19.35s.
+[+] /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/xz-5.2.4-agv5zlv7phi4ye3evlpv3t4ypgve4bpe
+==> zlib is already installed in /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/zlib-1.2.11-64vg6e4evdrlqgx7iicwhu2hs7lv6gpz
+==> Installing libxml2
+==> Searching for binary cache of libxml2
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libxml2 found: installing from source
+curl: (37) Couldn't open file /usr/projects/draco/vendors/spack.mirror/libxml2/xmlts-2.9.8.tar.gz
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/libxml2/libxml2-2.9.8.tar.gz
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/libxml2/xmlts-2.9.8.tar.gz
+==> Fetching from file:///usr/projects/draco/vendors/spack.mirror/libxml2/xmlts-2.9.8.tar.gz failed.
+==> Fetching http://www.w3.org/XML/Test/xmlts20080827.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/pmix.general.spack/var/spack/stage/libxml2-2.9.8-i5ugxoeinzxmkexakp3ydfnwrh4tmj4m/libxml2-2.9.8.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/pmix.general.spack/var/spack/stage/libxml2-2.9.8-i5ugxoeinzxmkexakp3ydfnwrh4tmj4m
+==> Staging archive: /scratch/users/dantopa/new-spack/pmix.general.spack/var/spack/stage/resource-xmlts-i5ugxoeinzxmkexakp3ydfnwrh4tmj4m/xmlts20080827.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/pmix.general.spack/var/spack/stage/resource-xmlts-i5ugxoeinzxmkexakp3ydfnwrh4tmj4m
+==> Moving resource stage
+	source : /scratch/users/dantopa/new-spack/pmix.general.spack/var/spack/stage/resource-xmlts-i5ugxoeinzxmkexakp3ydfnwrh4tmj4m/xmlconf/
+	destination : /scratch/users/dantopa/new-spack/pmix.general.spack/var/spack/stage/libxml2-2.9.8-i5ugxoeinzxmkexakp3ydfnwrh4tmj4m/libxml2-2.9.8/xmlconf
+==> No patches needed for libxml2
+==> Building libxml2 [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libxml2
+  Fetch: 1.26s.  Build: 24.53s.  Total: 25.79s.
+[+] /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/libxml2-2.9.8-i5ugxoeinzxmkexakp3ydfnwrh4tmj4m
+==> Installing hwloc
+==> Searching for binary cache of hwloc
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hwloc found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/hwloc/hwloc-2.0.2.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/pmix.general.spack/var/spack/stage/hwloc-2.0.2-6ay63kcl3jkls3yl2mz3526gmkszpyvd/hwloc-2.0.2.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/pmix.general.spack/var/spack/stage/hwloc-2.0.2-6ay63kcl3jkls3yl2mz3526gmkszpyvd
+==> No patches needed for hwloc
+==> Building hwloc [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed hwloc
+  Fetch: 0.16s.  Build: 26.90s.  Total: 27.06s.
+[+] /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/hwloc-2.0.2-6ay63kcl3jkls3yl2mz3526gmkszpyvd
+==> ncurses is already installed in /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/ncurses-6.1-rqw3cmcwvd76h4rjgtaxpvrqg47prwkg
+==> readline is already installed in /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/readline-7.0-b4z2xcjalfc4z7tgktx7txhe2my3wlfd
+==> gdbm is already installed in /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/gdbm-1.18.1-dv2qksj2dheh7hzmu7iftqhxlkqrinwt
+==> perl is already installed in /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/perl-5.26.2-7tmxubxk4qnty7decxqsz5yu5v3p3lqq
+==> Installing openssl
+==> Searching for binary cache of openssl
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openssl found: installing from source
+curl: (37) Couldn't open file /usr/projects/draco/vendors/spack.mirror/openssl/openssl-1.1.1b.tar.gz
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/openssl/openssl-1.1.1b.tar.gz
+==> Fetching from file:///usr/projects/draco/vendors/spack.mirror/openssl/openssl-1.1.1b.tar.gz failed.
+==> Fetching http://www.openssl.org/source/openssl-1.1.1b.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/pmix.general.spack/var/spack/stage/openssl-1.1.1b-obdqvnldju4cc5ry45vpvwwppx2456wo/openssl-1.1.1b.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/pmix.general.spack/var/spack/stage/openssl-1.1.1b-obdqvnldju4cc5ry45vpvwwppx2456wo
+==> No patches needed for openssl
+==> Building openssl [Package]
+==> Executing phase: 'install'
+==> Successfully installed openssl
+  Fetch: 2.15s.  Build: 3m 47.18s.  Total: 3m 49.33s.
+[+] /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/openssl-1.1.1b-obdqvnldju4cc5ry45vpvwwppx2456wo
+==> Installing libevent
+==> Searching for binary cache of libevent
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libevent found: installing from source
+curl: (37) Couldn't open file /usr/projects/draco/vendors/spack.mirror/libevent/libevent-2.1.8.tar.gz
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/libevent/libevent-2.1.8.tar.gz
+==> Fetching from file:///usr/projects/draco/vendors/spack.mirror/libevent/libevent-2.1.8.tar.gz failed.
+==> Fetching https://github.com/libevent/libevent/releases/download/release-2.1.8-stable/libevent-2.1.8-stable.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/pmix.general.spack/var/spack/stage/libevent-2.1.8-7k2p4dld22fkisoqgw3anv7bnxy43ngd/libevent-2.1.8-stable.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/pmix.general.spack/var/spack/stage/libevent-2.1.8-7k2p4dld22fkisoqgw3anv7bnxy43ngd
+==> No patches needed for libevent
+==> Building libevent [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libevent
+  Fetch: 1.30s.  Build: 19.72s.  Total: 21.02s.
+[+] /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/libevent-2.1.8-7k2p4dld22fkisoqgw3anv7bnxy43ngd
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+curl: (37) Couldn't open file /usr/projects/draco/vendors/spack.mirror/pmix/pmix-3.1.2.tar.bz2
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/pmix/pmix-3.1.2.tar.bz2
+==> Fetching from file:///usr/projects/draco/vendors/spack.mirror/pmix/pmix-3.1.2.tar.bz2 failed.
+==> Fetching https://github.com/pmix/pmix/releases/download/v3.1.2/pmix-3.1.2.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/pmix.general.spack/var/spack/stage/pmix-3.1.2-zdj7onhirx63fwfxfaoq474foubbokzr/pmix-3.1.2.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/pmix.general.spack/var/spack/stage/pmix-3.1.2-zdj7onhirx63fwfxfaoq474foubbokzr
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 1.46s.  Build: 1m 32.70s.  Total: 1m 34.16s.
+[+] /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/pmix-3.1.2-zdj7onhirx63fwfxfaoq474foubbokzr
+
+spack install pmix @ 3.0.2 % gcc@4.8.5 arch=linux-centos7-x86_64
+==> libsigsegv is already installed in /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/libsigsegv-2.11-qpmaxx6z62df4s4hwyehdwptv6kmrfhf
+==> m4 is already installed in /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/m4-1.4.18-d3ev3mslx5w4xz5tjx4jhhj7sfbv42ub
+==> libtool is already installed in /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/libtool-2.4.6-bcbiddkmbu4gy7wx6ftntmxqe3c5br3z
+==> pkgconf is already installed in /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/pkgconf-1.6.0-lb63mhdhdxn77fragqn7f7t2hkunpomb
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/util-macros-1.19.1-p66qdrtaslf2cq4wyc6mitrxzhnyujhc
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/libpciaccess-0.13.5-5chyfxo6gpmcf74gpv3sqni2aa6v5x57
+==> libiconv is already installed in /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/libiconv-1.15-bli6oh4rawy6bwdqa7ylbp7wt5tkynyv
+==> xz is already installed in /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/xz-5.2.4-agv5zlv7phi4ye3evlpv3t4ypgve4bpe
+==> zlib is already installed in /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/zlib-1.2.11-64vg6e4evdrlqgx7iicwhu2hs7lv6gpz
+==> libxml2 is already installed in /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/libxml2-2.9.8-i5ugxoeinzxmkexakp3ydfnwrh4tmj4m
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/hwloc-2.0.2-6ay63kcl3jkls3yl2mz3526gmkszpyvd
+==> ncurses is already installed in /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/ncurses-6.1-rqw3cmcwvd76h4rjgtaxpvrqg47prwkg
+==> readline is already installed in /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/readline-7.0-b4z2xcjalfc4z7tgktx7txhe2my3wlfd
+==> gdbm is already installed in /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/gdbm-1.18.1-dv2qksj2dheh7hzmu7iftqhxlkqrinwt
+==> perl is already installed in /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/perl-5.26.2-7tmxubxk4qnty7decxqsz5yu5v3p3lqq
+==> openssl is already installed in /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/openssl-1.1.1b-obdqvnldju4cc5ry45vpvwwppx2456wo
+==> libevent is already installed in /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/libevent-2.1.8-7k2p4dld22fkisoqgw3anv7bnxy43ngd
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/pmix/pmix-3.0.2.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/pmix.general.spack/var/spack/stage/pmix-3.0.2-mirr2z2sh6pmfkyxwxqco5jopwmc25sr/pmix-3.0.2.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/pmix.general.spack/var/spack/stage/pmix-3.0.2-mirr2z2sh6pmfkyxwxqco5jopwmc25sr
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 0.04s.  Build: 1m 23.12s.  Total: 1m 23.16s.
+[+] /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/pmix-3.0.2-mirr2z2sh6pmfkyxwxqco5jopwmc25sr
+
+spack install pmix @ 2.2.2 % gcc@4.8.5 arch=linux-centos7-x86_64
+==> pkgconf is already installed in /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/pkgconf-1.6.0-lb63mhdhdxn77fragqn7f7t2hkunpomb
+==> ncurses is already installed in /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/ncurses-6.1-rqw3cmcwvd76h4rjgtaxpvrqg47prwkg
+==> readline is already installed in /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/readline-7.0-b4z2xcjalfc4z7tgktx7txhe2my3wlfd
+==> gdbm is already installed in /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/gdbm-1.18.1-dv2qksj2dheh7hzmu7iftqhxlkqrinwt
+==> perl is already installed in /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/perl-5.26.2-7tmxubxk4qnty7decxqsz5yu5v3p3lqq
+==> zlib is already installed in /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/zlib-1.2.11-64vg6e4evdrlqgx7iicwhu2hs7lv6gpz
+==> openssl is already installed in /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/openssl-1.1.1b-obdqvnldju4cc5ry45vpvwwppx2456wo
+==> libevent is already installed in /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/libevent-2.1.8-7k2p4dld22fkisoqgw3anv7bnxy43ngd
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+curl: (37) Couldn't open file /usr/projects/draco/vendors/spack.mirror/pmix/pmix-2.2.2.tar.bz2
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/pmix/pmix-2.2.2.tar.bz2
+==> Fetching from file:///usr/projects/draco/vendors/spack.mirror/pmix/pmix-2.2.2.tar.bz2 failed.
+==> Fetching https://github.com/pmix/pmix/releases/download/v2.2.2/pmix-2.2.2.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/pmix.general.spack/var/spack/stage/pmix-2.2.2-cpjs6hezygtogfrybgoxbpuadgtvgdj7/pmix-2.2.2.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/pmix.general.spack/var/spack/stage/pmix-2.2.2-cpjs6hezygtogfrybgoxbpuadgtvgdj7
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 1.39s.  Build: 1m 12.90s.  Total: 1m 14.28s.
+[+] /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/pmix-2.2.2-cpjs6hezygtogfrybgoxbpuadgtvgdj7
+
+spack install pmix @ 2.1.4 % gcc@4.8.5 arch=linux-centos7-x86_64
+==> pkgconf is already installed in /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/pkgconf-1.6.0-lb63mhdhdxn77fragqn7f7t2hkunpomb
+==> ncurses is already installed in /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/ncurses-6.1-rqw3cmcwvd76h4rjgtaxpvrqg47prwkg
+==> readline is already installed in /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/readline-7.0-b4z2xcjalfc4z7tgktx7txhe2my3wlfd
+==> gdbm is already installed in /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/gdbm-1.18.1-dv2qksj2dheh7hzmu7iftqhxlkqrinwt
+==> perl is already installed in /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/perl-5.26.2-7tmxubxk4qnty7decxqsz5yu5v3p3lqq
+==> zlib is already installed in /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/zlib-1.2.11-64vg6e4evdrlqgx7iicwhu2hs7lv6gpz
+==> openssl is already installed in /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/openssl-1.1.1b-obdqvnldju4cc5ry45vpvwwppx2456wo
+==> libevent is already installed in /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/libevent-2.1.8-7k2p4dld22fkisoqgw3anv7bnxy43ngd
+==> Installing pmix
+==> Searching for binary cache of pmix
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for pmix found: installing from source
+curl: (37) Couldn't open file /usr/projects/draco/vendors/spack.mirror/pmix/pmix-2.1.4.tar.bz2
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/pmix/pmix-2.1.4.tar.bz2
+==> Fetching from file:///usr/projects/draco/vendors/spack.mirror/pmix/pmix-2.1.4.tar.bz2 failed.
+==> Fetching https://github.com/pmix/pmix/releases/download/v2.1.4/pmix-2.1.4.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/pmix.general.spack/var/spack/stage/pmix-2.1.4-5sj6y6zwxggoevlwgik4ijxmugh2b3el/pmix-2.1.4.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/pmix.general.spack/var/spack/stage/pmix-2.1.4-5sj6y6zwxggoevlwgik4ijxmugh2b3el
+==> No patches needed for pmix
+==> Building pmix [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed pmix
+  Fetch: 1.24s.  Build: 1m 5.95s.  Total: 1m 7.19s.
+[+] /scratch/users/dantopa/new-spack/pmix.general.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/pmix-2.1.4-5sj6y6zwxggoevlwgik4ijxmugh2b3el

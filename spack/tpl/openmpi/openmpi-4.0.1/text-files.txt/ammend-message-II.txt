@@ -1,0 +1,66 @@
+Turns on --enable-mpi1-compatibility for Open MPI 4.0+
+
+## Discussion
+Discussion: https://github.com/spack/spack/pull/11029
+
+davydden:
+noticed that netlib-scalapack-2.0.2 does not like the new version, which is not a surprise as it was released in 2012. But the problem is that it's a default provider for ScaLAPACK. So perhaps we should keep 3.1.3 as preferred.
+
+davydden:
+or maybe turn on the deprecated functions by default?
+
+davydden: here's a relevant discussion open-mpi/ompi#6114 (comment)
+
+## Verification builds (LANL Darwin)
+```
+$ spack install openmpi @ 4.0.1 % gcc @ 4.8.5 arch=linux-centos7-x86_64
+[+] /scratch/users/dantopa/new-spack/pr-openmpi-4.0.1.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/openmpi-4.0.1-rldccbaweier2wesl7x4fmj7qqpfsojp
+```
+
+```
+$ spack install openmpi @ 4.0.1 % gcc @ 4.8.5 arch=linux-rhel7-aarch64
+[+] /scratch/users/dantopa/new-spack/libraries/darwin-arm.libhio/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/openmpi-4.0.1-hto7x2hrsz6rtcod4vnjvmdyhcmbpikt
+```
+
+```
+$ spack install openmpi @ 4.0.1 % gcc @ 4.8.5 arch=linux-rhel7-ppc64le
+[+] /scratch/users/dantopa/new-spack/pr-openmpi-4.0.1.spack/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/openmpi-4.0.1-tkze2gfc7cpy4qye5tu4qvuq6vx6uopj
+```
+
+## Dependencies
+dantopa@cn2023:pr-openmpi-4.0.1.spack $ date
+Tue Apr  2 16:33:10 MDT 2019
+
+dantopa@cn2023:pr-openmpi-4.0.1.spack $ pwd
+/scratch/users/dantopa/new-spack/pr-openmpi-4.0.1.spack
+
+dantopa@cn2023:pr-openmpi-4.0.1.spack $ spack find -ldf openmpi@4.0.1
+==> 3 installed packages
+-- linux-centos7-x86_64 / gcc@4.8.5 -----------------------------
+rldccba    openmpi@4.0.1%gcc
+bkkhvej        ^hwloc@1.11.11%gcc
+5chyfxo            ^libpciaccess@0.13.5%gcc
+bcnjbc3            ^libxml2@2.9.8%gcc
+tt2hkol            ^numactl@2.0.12%gcc
+64vg6e4        ^zlib@1.2.11%gcc
+
+
+-- linux-rhel7-aarch64 / gcc@4.8.5 ------------------------------
+hto7x2h    openmpi@4.0.1%gcc
+7gqvelc        ^hwloc@1.11.11%gcc
+6a4he35            ^libpciaccess@0.13.5%gcc
+6a5uzd6            ^libxml2@2.9.8%gcc
+m5neuus            ^numactl@2.0.12%gcc
+67s2oqn        ^zlib@1.2.11%gcc
+
+
+-- linux-rhel7-ppc64le / gcc@4.8.5 ------------------------------
+tkze2gf    openmpi@4.0.1%gcc
+r6cylpu        ^hwloc@1.11.11%gcc
+uzm3xdv            ^libpciaccess@0.13.5%gcc
+trik6hj            ^libxml2@2.9.8%gcc
+pmgndwh            ^numactl@2.0.12%gcc
+4v3ticy        ^zlib@1.2.11%gcc
+
+
+2019-04-02

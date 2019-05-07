@@ -1,0 +1,2764 @@
+Mon Feb 25 11:42:40 MST 2019 [1m/home/dantopa/.mybash(B[m
+Mon Feb 25 11:42:40 MST 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/platforms.sh(B[m
+attempting to mkdir /scratch/users/dantopa/repos/gitlab/node-queries/darwin/power9-cn2024/dir-configuration
+directory of core scripts = ${core} = /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts
+Mon Feb 25 11:42:40 MST 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/master.sh(B[m
+Mon Feb 25 11:42:40 MST 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh(B[m
+Mon Feb 25 11:42:41 MST 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh(B[m
+Mon Feb 25 11:42:41 MST 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Mon Feb 25 11:42:41 MST 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh(B[m
+Mon Feb 25 11:42:41 MST 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Mon Feb 25 11:42:41 MST 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/gcc.sh(B[m
+Mon Feb 25 11:42:41 MST 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh: line 5: gonode: command not found
+Mon Feb 25 11:42:41 MST 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/git.sh(B[m
+Mon Feb 25 11:42:41 MST 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/ssh.sh(B[m
+Mon Feb 25 11:42:41 MST 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/vim.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh: line 33: sinfo_s: command not found
+Mon Feb 25 11:42:41 MST 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bash.sh(B[m
+Mon Feb 25 11:42:41 MST 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/finds.sh(B[m
+Mon Feb 25 11:42:41 MST 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/cmake.sh(B[m
+Mon Feb 25 11:42:41 MST 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/copy-configuration.sh(B[m
+Mon Feb 25 11:42:41 MST 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/fortran.sh(B[m
+Mon Feb 25 11:42:41 MST 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks.sh(B[m
+Mon Feb 25 11:42:41 MST 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-bitbucket.sh(B[m
+Mon Feb 25 11:42:41 MST 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-github.sh(B[m
+Mon Feb 25 11:42:41 MST 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-gitlab.sh(B[m
+Mon Feb 25 11:42:41 MST 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/disk.sh(B[m
+Mon Feb 25 11:42:41 MST 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh(B[m
+Mon Feb 25 11:42:42 MST 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh(B[m
+Mon Feb 25 11:42:42 MST 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Mon Feb 25 11:42:42 MST 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh(B[m
+Mon Feb 25 11:42:42 MST 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh: line 5: gonode: command not found
+fatal: Unable to create '/scratch/users/dantopa/new-spack/strawman.pr.libhio/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+Mon Feb 25 11:42:42 MST 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Mon Feb 25 11:42:42 MST 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/uname.sh(B[m
+Mon Feb 25 11:42:42 MST 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/spack.sh(B[m
+Mon Feb 25 11:42:42 MST 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/modules.sh(B[m
+Mon Feb 25 11:42:42 MST 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/alias.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh: line 33: sinfo_s: command not found
+Mon Feb 25 11:42:42 MST 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh: line 11: myprompt: command not found
+fatal: Unable to create '/scratch/users/dantopa/new-spack/strawman.pr.libhio/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+[develop 19cdd91] darwin-power9-cn2024 Mon Feb 25 11:42:45 MST 2019
+ 6 files changed, 694 insertions(+), 295 deletions(-)
+ create mode 100644 etc/spack/defaults/Xcompilers.yaml
+ create mode 100644 etc/spack/defaults/Xpackages.yaml
+ create mode 100644 etc/spack/defaults/compilers.yaml
+ rewrite power9-batch.out (86%)
+ create mode 100644 power9-libhio-debug.sh
+/usr/bin/python: No module named virtualenvwrapper
+virtualenvwrapper.sh: There was a problem running the initialization hooks.
+
+If Python could not import the module virtualenvwrapper.hook_loader,
+check that virtualenvwrapper has been installed for
+VIRTUALENVWRAPPER_PYTHON=/usr/bin/python and that PATH is
+set properly.
+Mon Feb 25 11:42:45 MST 2019 /tmp/slurmd/job5024409/slurm_script
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+
+spack install libhio@1.4.1.3 % gcc@6.4.0
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : generating module file
+==> bzip2@1.0.6 : registering into DB
+==> openmpi@4.0.0 : has external module in openmpi/p9/4.0.0-gcc_6.4.0
+==> openmpi@4.0.0 : is actually installed in /projects/opt/ppc64le/openmpi/p9/4.0.0-gcc_6.4.0
+==> openmpi@4.0.0 : generating module file
+==> openmpi@4.0.0 : registering into DB
+==> Installing zlib
+==> Searching for binary cache of zlib
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for zlib found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/zlib/zlib-1.2.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/zlib-1.2.11-fvgnqf6k3ffhltldndu7pmntzvoyfsk4/zlib-1.2.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/zlib-1.2.11-fvgnqf6k3ffhltldndu7pmntzvoyfsk4
+==> No patches needed for zlib
+==> Building zlib [Package]
+==> Executing phase: 'install'
+==> Successfully installed zlib
+  Fetch: 0.14s.  Build: 18.57s.  Total: 18.72s.
+[+] /scratch/users/dantopa/new-spack/strawman.pr.libhio/opt/spack/linux-rhel7-ppc64le/gcc-6.4.0/zlib-1.2.11-fvgnqf6k3ffhltldndu7pmntzvoyfsk4
+==> Installing hdf5
+==> Searching for binary cache of hdf5
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hdf5 found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/hdf5/hdf5-1.10.4.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/hdf5-1.10.4-sa2kzb45tjrk3h5ataglp43reqoml6ow/hdf5-1.10.4.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/hdf5-1.10.4-sa2kzb45tjrk3h5ataglp43reqoml6ow
+==> No patches needed for hdf5
+==> Building hdf5 [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j160'
+
+301 errors found in build log:
+     4711      CCLD     swmr_sparse_writer
+     4712      CCLD     swmr_check_compat_vfd
+     4713      CCLD     vds_swmr_gen
+     4714      CCLD     vds_swmr_reader
+     4715      CCLD     vds_swmr_writer
+     4716      CCLD     filter_plugin
+  >> 4717    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4718    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4719    collect2: error: ld returned 1 exit status
+  >> 4720    make[1]: *** [farray] Error 1
+     4721    make[1]: *** Waiting for unfinished jobs....
+     4722    tselect.c: In function 'test_select_hyper_contig_dr__run_test.cons
+             tprop':
+     4723    tselect.c:2256:21: warning: cannot optimize possibly infinite loop
+             s [-Wunsafe-loop-optimizations]
+     4724                         for(; s <= stop_index; s++) {
+     4725                         ^~~
+     4726    tselect.c:2015:21: warning: cannot optimize possibly infinite loop
+             s [-Wunsafe-loop-optimizations]
+     4727                         for(; s <= stop_index; s++) {
+     4728                         ^~~
+  >> 4729    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4730    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4731    collect2: error: ld returned 1 exit status
+  >> 4732    make[1]: *** [swmr_addrem_writer] Error 1
+  >> 4733    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4734    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4735    collect2: error: ld returned 1 exit status
+  >> 4736    make[1]: *** [ohdr] Error 1
+  >> 4737    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4738    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4739    collect2: error: ld returned 1 exit status
+  >> 4740    make[1]: *** [swmr_sparse_reader] Error 1
+  >> 4741    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4742    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4743    collect2: error: ld returned 1 exit status
+  >> 4744    make[1]: *** [vds_swmr_writer] Error 1
+  >> 4745    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4746    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4747    collect2: error: ld returned 1 exit status
+  >> 4748    make[1]: *** [filter_plugin] Error 1
+  >> 4749    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4750    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4751    collect2: error: ld returned 1 exit status
+  >> 4752    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+     4753    make[1]: ../*** [swmr_remove_writer] Error 1src/
+  >> 4754    .libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_COPY_FN'
+  >> 4755    collect2: error: ld returned 1 exit status
+  >> 4756    make[1]: *** [dt_arith] Error 1
+  >> 4757    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4758    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4759    collect2: error: ld returned 1 exit status
+  >> 4760    make[1]: *** [big] Error 1
+  >> 4761    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4762    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4763    collect2: error: ld returned 1 exit status
+  >> 4764    make[1]: *** [vds_swmr_gen] Error 1
+  >> 4765    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4766    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4767    collect2: error: ld returned 1 exit status
+  >> 4768    make[1]: *** [cache_api] Error 1
+  >> 4769    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4770    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4771    collect2: error: ld returned 1 exit status
+  >> 4772    make[1]: *** [external] Error 1
+  >> 4773    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4774    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4775    collect2: error: ld returned 1 exit status
+  >> 4776    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4777    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4778    collect2: error: ld returned 1 exit status
+  >> 4779    make[1]: *** [stab] Error 1
+  >> 4780    make[1]: *** [vds_swmr_reader] Error 1
+  >> 4781    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4782    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4783    collect2: error: ld returned 1 exit status
+  >> 4784    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4785    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4786    collect2: error: ld returned 1 exit status
+  >> 4787    make[1]: *** [freespace] Error 1
+  >> 4788    make[1]: *** [cache_tagging] Error 1
+  >> 4789    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4790    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4791    collect2: error: ld returned 1 exit status
+  >> 4792    make[1]: *** [earray] Error 1
+  >> 4793    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4794    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4795    collect2: error: ld returned 1 exit status
+  >> 4796    make[1]: *** [gheap] Error 1
+  >> 4797    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4798    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4799    collect2: error: ld returned 1 exit status
+  >> 4800    make[1]: *** [flush2] Error 1
+  >> 4801    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4802    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4803    collect2: error: ld returned 1 exit status
+  >> 4804    make[1]: *** [evict_on_close] Error 1
+  >> 4805    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4806    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4807    collect2: error: ld returned 1 exit status
+  >> 4808    make[1]: *** [btree2] Error 1
+  >> 4809    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4810    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4811    collect2: error: ld returned 1 exit status
+  >> 4812    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4813    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4814    collect2: error: ld returned 1 exit status
+  >> 4815    make[1]: *** [getname] Error 1
+  >> 4816    make[1]: *** [direct_chunk] Error 1
+  >> 4817    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4818    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4819    collect2: error: ld returned 1 exit status
+  >> 4820    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4821    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4822    collect2: error: ld returned 1 exit status
+  >> 4823    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4824    ../src/.libs/libhdf5.so: undefined referencemake[1]:  to*** [dtype
+             s] Error 1 `
+     4825    OMPI_C_MPI_NULL_COPY_FN'
+  >> 4826    make[1]: *** [filter_fail] Error 1
+  >> 4827    collect2: error: ld returned 1 exit status
+  >> 4828    make[1]: *** [cache_image] Error 1
+  >> 4829    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4830    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4831    collect2: error: ld returned 1 exit status
+  >> 4832    make[1]: *** [page_buffer] Error 1
+  >> 4833    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4834    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4835    ../src/.libscollect2: error: ld returned 1 exit status
+     4836    /.libhdf5.so: .undefined/ srcreference/ .tolibs /`MPI_Type_extent'
+     4837    libhdf5.so.:. /srcundefined/ .libsreference/ libhdf5.soto:  `undef
+             ined MPI_Type_extentreference'
+     4838    to.. /`srcOMPI_C_MPI_NULL_COPY_FN/'.
+  >> 4839    libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_COPY_FN'
+  >> 4840    collect2: error: ld returned 1 exit status
+  >> 4841    collect2: error: ld returned 1 exit status
+  >> 4842    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4843    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4844    collect2: error: ld returned 1 exit status
+  >> 4845    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4846    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4847    collect2: error: ld returned 1 exit status
+  >> 4848    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4849    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4850    collect2: error: ld returned 1 exit status
+  >> 4851    make[1]: *** [hyperslab] Error 1
+  >> 4852    make[1]: *** [file_image] Error 1
+  >> 4853    make[1]: *** [twriteorder] Error 1
+  >> 4854    make[1]: *** [enum] Error 1
+  >> 4855    make[1]: *** [bittests] Error 1
+  >> 4856    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4857    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4858    collect2: error: ld returned 1 exit status
+  >> 4859    make[1]: *** [cross_read] Error 1
+  >> 4860    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4861    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4862    collect2: error: ld returned 1 exit status
+  >> 4863    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4864    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4865    collect2: error: ld returned 1 exit status
+  >> 4866    make[1]: *** [flush1] Error 1
+  >> 4867    make[1]: *** [extend] Error 1
+  >> 4868    make[1]: *** [mtime] Error 1
+  >> 4869    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4870    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4871    collect2: error: ld returned 1 exit status
+  >> 4872    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4873    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4874    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4875    ../collect2: error: ld returned 1 exit status
+  >> 4876    src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_COPY
+             _FN'
+  >> 4877    collect2: error: ld returned 1 exit status
+  >> 4878    make[1]: *** [lheap] Error 1
+  >> 4879    make[1]: *** [flushrefresh] Error 1
+  >> 4880    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4881    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4882    collect2: error: ld returned 1 exit status
+  >> 4883    make[1]: *** [dtransform] Error 1
+  >> 4884    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4885    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4886    collect2: error: ld returned 1 exit status
+  >> 4887    make[1]: *** [pool] Error 1
+  >> 4888    make[1]: *** [enc_dec_plist_cross_platform] Error 1
+     4889    ....//srcsrc//..libslibs//libhdf5.solibhdf5.so::  undefinedundefin
+             ed  referencereference  toto  ``MPI_Type_extentMPI_Type_extent''
+     4890    
+     4891    .../.src//src./libs./libslibhdf5.so/:libhdf5.so :undefined  undefi
+             nedreference  referenceto  to` `OMPI_C_MPI_NULL_COPY_FN'OMPI_C_MPI
+             _NULL_COPY_FN
+     4892    '
+  >> 4893    collect2: error: ld returned 1 exit status
+  >> 4894    collect2: error: ld returned 1 exit status
+  >> 4895    make[1]: *** [swmr_generator] Error 1
+  >> 4896    make[1]: *** [unlink] Error 1
+  >> 4897    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4898    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4899    collect2: error: ld returned 1 exit status
+  >> 4900    make[1]: *** [reserved] Error 1
+  >> 4901    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4902    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4903    collect2: error: ld returned 1 exit status
+  >> 4904    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4905    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4906    collect2: error: ld returned 1 exit status
+  >> 4907    make[1]: *** [cork] Error 1
+  >> 4908    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4909    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4910    collect2: error: ld returned 1 exit status
+  >> 4911    make[1]: *** [efc] Error 1
+  >> 4912    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4913    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4914    collect2: error: ld returned 1 exit status
+  >> 4915    make[1]: *** [error_test] Error 1
+  >> 4916    make[1]: *** [fillval] Error 1
+     4917    ../src/.libs/libhdf5.so: undefined .reference. /tosrc/ .`libsMPI_T
+             ype_extent/'
+     4918    libhdf5.so.:. /undefinedsrc /reference. libsto/ `libhdf5.so:MPI_Ty
+             pe_extent '
+     4919    undefined. ./referencesrc /to. libs`/libhdf5.soOMPI_C_MPI_NULL_COP
+             Y_FN:'
+     4920    undefined reference to `OMPI_C_MPI_NULL_COPY_FN'
+  >> 4921    collect2: error: ld returned 1 exit status
+  >> 4922    collect2: error: ld returned 1 exit status
+  >> 4923    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4924    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4925    collect2: error: ld returned 1 exit status
+  >> 4926    make[1]: *** [vfd] Error 1
+  >> 4927    make[1]: *** [err_compat] Error 1
+  >> 4928    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4929    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4930    collect2: error: ld returned 1 exit status
+  >> 4931    make[1]: *** [testmeta] Error 1
+  >> 4932    make[1]: *** [ttsafe] Error 1
+  >> 4933    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4934    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4935    collect2: error: ld returned 1 exit status
+  >> 4936    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4937    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4938    collect2: error: ld returned 1 exit status
+  >> 4939    make[1]: *** [accum] Error 1
+  >> 4940    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4941    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4942    collect2: error: ld returned 1 exit status
+  >> 4943    make[1]: *** [enc_dec_plist] Error 1
+  >> 4944    make[1]: *** [accum_swmr_reader] Error 1
+  >> 4945    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4946    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4947    collect2: error: ld returned 1 exit status
+  >> 4948    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4949    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4950    collect2: error: ld returned 1 exit status
+  >> 4951    make[1]: *** [ntypes] Error 1
+  >> 4952    make[1]: *** [swmr] Error 1
+  >> 4953    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4954    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4955    collect2: error: ld returned 1 exit status
+  >> 4956    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4957    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4958    collect2: error: ld returned 1 exit status
+  >> 4959    make[1]: *** [mount] Error 1
+  >> 4960    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4961    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4962    collect2: error: ld returned 1 exit status
+     4963    ../src/.libs/libhdf5.so: undefined .reference to. `/MPI_Type_exten
+             tsrc'
+     4964    /.../libssrc//.libs/libhdf5.so: libhdf5.soundefined :reference  to
+             undefined ` OMPI_C_MPI_NULL_COPY_FNreference'
+     4965    to `MPI_Type_extent'
+  >> 4966    ../src/.libs/libhdf5.so: collect2: error: ld returned 1 exit statu
+             s
+     4967    undefined reference to `OMPI_C_MPI_NULL_COPY_FN'
+  >> 4968    collect2: error: ld returned 1 exit status
+  >> 4969    make[1]: *** [filenotclosed] Error 1
+  >> 4970    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4971    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4972    make[1]: *** [use_disable_mdc_flushes] Error 1
+  >> 4973    collect2: error: ld returned 1 exit status
+  >> 4974    make[1]: *** [cmpd_dset] Error 1
+  >> 4975    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4976    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4977    make[1]: *** [use_append_chunk] Error 1
+  >> 4978    collect2: error: ld returned 1 exit status
+  >> 4979    make[1]: *** [tcheck_version] Error 1
+  >> 4980    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4981    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4982    collect2: error: ld returned 1 exit status
+  >> 4983    make[1]: *** [mf] Error 1
+  >> 4984    make[1]: *** [links_env] Error 1
+  >> 4985    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4986    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4987    collect2: error: ld returned 1 exit status
+  >> 4988    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4989    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4990    collect2: error: ld returned 1 exit status
+  >> 4991    make[1]: *** [atomic_writer] Error 1
+     4992    ../src/.libs/libhdf5.so: undefined make[1]: reference*** [unregist
+             er] Error 1
+     4993    to `MPI_Type_extent'
+  >> 4994    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4995    collect2: error: ld returned 1 exit status
+  >> 4996    make[1]: *** [dangle] Error 1
+  >> 4997    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4998    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4999    collect2: error: ld returned 1 exit status
+  >> 5000    make[1]: *** [set_extent] Error 1
+  >> 5001    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 5002    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 5003    collect2: error: ld returned 1 exit status
+  >> 5004    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 5005    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 5006    collect2: error: ld returned 1 exit status
+  >> 5007    make[1]: *** [app_ref] Error 1
+  >> 5008    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 5009    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 5010    collect2: error: ld returned 1 exit status
+  >> 5011    make[1]: *** [swmr_writer] Error 1
+  >> 5012    make[1]: *** [swmr_reader] Error 1
+  >> 5013    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 5014    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 5015    collect2: error: ld returned 1 exit status
+  >> 5016    make[1]: *** [swmr_remove_reader] Error 1
+  >> 5017    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 5018    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 5019    collect2: error: ld returned 1 exit status
+  >> 5020    make[1]: *** [atomic_reader] Error 1
+  >> 5021    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 5022    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 5023    collect2: error: ld returned 1 exit status
+  >> 5024    make[1]: *** [swmr_start_write] Error 1
+  >> 5025    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 5026    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 5027    collect2: error: ld returned 1 exit status
+  >> 5028    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 5029    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 5030    collect2: error: ld returned 1 exit status
+  >> 5031    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+     5032    ..make[1]: /*** [swmr_sparse_writer] Error 1src
+  >> 5033    /.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_COPY_FN
+             '
+  >> 5034    collect2: error: ld returned 1 exit status
+  >> 5035    make[1]: *** [istore] Error 1
+  >> 5036    make[1]: *** [use_append_mchunks] Error 1
+  >> 5037    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 5038    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 5039    collect2: error: ld returned 1 exit status
+  >> 5040    make[1]: *** [swmr_check_compat_vfd] Error 1
+  >> 5041    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 5042    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 5043    collect2: error: ld returned 1 exit status
+  >> 5044    make[1]: *** [cache_logging] Error 1
+     5045    tselect.c: In function 'test_select':
+     5046    tselect.c:11685:9: warning: cannot optimize possibly infinite loop
+             s [-Wunsafe-loop-optimizations]
+     5047             for(small_rank = 1; small_rank <= large_rank; small_rank+
+             +) {
+     5048             ^~~
+     5049    tselect.c:11137:9: warning: cannot optimize possibly infinite loop
+             s [-Wunsafe-loop-optimizations]
+     5050             for(small_rank = 1; small_rank <= large_rank; small_rank+
+             +) {
+
+     ...
+
+     5086     ^
+     5087    cache.c: In function 'check_flush_cache__single_entry':
+     5088    cache.c:10934:1: warning: stack usage is 8528 bytes [-Wstack-usage
+             =]
+     5089     check_flush_cache__single_entry(H5F_t * file_ptr)
+     5090     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     5091    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-sta
+             ge-KuGWys/hdf5-1.10.4/test'
+  >> 5092    make: *** [all-recursive] Error 1
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/hdf5-1.10.4-sa2kzb45tjrk3h5ataglp43reqoml6ow/hdf5-1.10.4/spack-build.out
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+
+spack install libhio@1.4.1.3 % gcc@7.3.0
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : generating module file
+==> bzip2@1.0.6 : registering into DB
+==> openmpi@4.0.0 : has external module in openmpi/p9/4.0.0-gcc_7.3.0
+==> openmpi@4.0.0 : is actually installed in /projects/opt/ppc64le/openmpi/p9/4.0.0-gcc_7.3.0
+==> openmpi@4.0.0 : generating module file
+==> openmpi@4.0.0 : registering into DB
+==> Installing zlib
+==> Searching for binary cache of zlib
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for zlib found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/zlib/zlib-1.2.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/zlib-1.2.11-p5okwa3bjpvjro3jy73qdstf655cyfru/zlib-1.2.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/zlib-1.2.11-p5okwa3bjpvjro3jy73qdstf655cyfru
+==> No patches needed for zlib
+==> Building zlib [Package]
+==> Executing phase: 'install'
+==> Successfully installed zlib
+  Fetch: 0.03s.  Build: 3.60s.  Total: 3.63s.
+[+] /scratch/users/dantopa/new-spack/strawman.pr.libhio/opt/spack/linux-rhel7-ppc64le/gcc-7.3.0/zlib-1.2.11-p5okwa3bjpvjro3jy73qdstf655cyfru
+==> Installing hdf5
+==> Searching for binary cache of hdf5
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hdf5 found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/hdf5/hdf5-1.10.4.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/hdf5-1.10.4-ysg76crlr74jg7dfxfibatddtvg7vi7c/hdf5-1.10.4.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/hdf5-1.10.4-ysg76crlr74jg7dfxfibatddtvg7vi7c
+==> No patches needed for hdf5
+==> Building hdf5 [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j160'
+
+304 errors found in build log:
+     3921      CCLD     vds_swmr_writer
+     3922      CCLD     filter_plugin
+     3923      CCLD     dtypes
+     3924      CCLD     swmr
+     3925      CCLD     mf
+     3926      CCLD     btree2
+  >> 3927    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 3928    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 3929    collect2: error: ld returned 1 exit status
+  >> 3930    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 3931    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 3932    collect2: error: ld returned 1 exit status
+  >> 3933    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 3934    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 3935    collect2: error: ld returned 1 exit status
+  >> 3936    make[1]: *** [app_ref] Error 1
+     3937    make[1]: *** Waiting for unfinished jobs....
+  >> 3938    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 3939    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 3940    ../src/.libs/collect2: error: ld returned 1 exit status
+  >> 3941    libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 3942    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 3943    collect2: error: ld returned 1 exit status
+  >> 3944    make[1]: *** [bittests] Error 1
+  >> 3945    make[1]: *** [big] Error 1
+  >> 3946    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+     3947    ../src/.libs/make[1]: libhdf5.so*** [direct_chunk] Error 1:
+     3948     undefined reference to `OMPI_C_MPI_NULL_COPY_FN'
+  >> 3949    collect2: error: ld returned 1 exit status
+  >> 3950    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 3951    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 3952    collect2: error: ld returned 1 exit status
+  >> 3953    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 3954    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 3955    collect2: error: ld returned 1 exit status
+  >> 3956    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 3957    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 3958    collect2: error: ld returned 1 exit status
+  >> 3959    make[1]: *** [twriteorder] Error 1
+  >> 3960    make[1]: *** [fillval] Error 1
+  >> 3961    make[1]: *** [ohdr] Error 1
+  >> 3962    make[1]: *** [earray] Error 1
+  >> 3963    make[1]: *** [hyperslab] Error 1
+     3964    .../.src//src/..libslibs//libhdf5.solibhdf5.so::  undefined undefi
+             nedreference  toreference ` MPI_Type_extentto'
+     3965    `..MPI_Type_extent/'src
+     3966    /...libs//srclibhdf5.so/:. libsundefined/ libhdf5.soreference:  to
+              undefined` OMPI_C_MPI_NULL_COPY_FNreference'
+     3967    to `OMPI_C_MPI_NULL_COPY_FN'
+  >> 3968    collect2: error: ld returned 1 exit status
+  >> 3969    collect2: error: ld returned 1 exit status
+  >> 3970    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 3971    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 3972    collect2: error: ld returned 1 exit status
+  >> 3973    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 3974    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 3975    collect2: error: ld returned 1 exit status
+  >> 3976    make[1]: *** [pool] Error 1
+  >> 3977    make[1]: *** [lheap] Error 1
+  >> 3978    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 3979    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 3980    collect2: error: ld returned 1 exit status
+  >> 3981    make[1]: *** [gheap] Error 1
+  >> 3982    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 3983    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 3984    collect2: error: ld returned 1 exit status
+  >> 3985    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 3986    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 3987    collect2: error: ld returned 1 exit status
+  >> 3988    make[1]: *** [cache_image] Error 1
+  >> 3989    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 3990    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 3991    collect2: error: ld returned 1 exit status
+  >> 3992    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 3993    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 3994    collect2: error: ld returned 1 exit status
+  >> 3995    make[1]: *** [cache_tagging] Error 1
+  >> 3996    make[1]: *** [extend] Error 1
+  >> 3997    make[1]: *** [external] Error 1
+  >> 3998    make[1]: *** [dangle] Error 1
+  >> 3999    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4000    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4001    collect2: error: ld returned 1 exit status
+  >> 4002    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4003    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4004    collect2: error: ld returned 1 exit status
+  >> 4005    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4006    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4007    collect2: error: ld returned 1 exit status
+  >> 4008    make[1]: *** [stab] Error 1
+  >> 4009    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4010    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4011    make[1]: *** [filter_fail] Error 1
+  >> 4012    collect2: error: ld returned 1 exit status
+  >> 4013    make[1]: *** [page_buffer] Error 1
+  >> 4014    make[1]: *** [accum] Error 1
+  >> 4015    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4016    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4017    collect2: error: ld returned 1 exit status
+  >> 4018    make[1]: *** [dt_arith] Error 1
+  >> 4019    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4020    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4021    collect2: error: ld returned 1 exit status
+  >> 4022    make[1]: *** [mtime] Error 1
+  >> 4023    make[1]: *** [cache_api] Error 1
+  >> 4024    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4025    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4026    collect2: error: ld returned 1 exit status
+  >> 4027    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4028    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4029    collect2: error: ld returned 1 exit status
+  >> 4030    make[1]: *** [unlink] Error 1
+  >> 4031    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4032    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4033    collect2: error: ld returned 1 exit status
+  >> 4034    make[1]: *** [istore] Error 1
+  >> 4035    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4036    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4037    collect2: error: ld returned 1 exit status
+  >> 4038    make[1]: *** [cmpd_dset] Error 1
+  >> 4039    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4040    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4041    collect2: error: ld returned 1 exit status
+  >> 4042    make[1]: *** [vfd] Error 1
+  >> 4043    make[1]: *** [evict_on_close] Error 1
+  >> 4044    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4045    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4046    collect2: error: ld returned 1 exit status
+  >> 4047    make[1]: *** [farray] Error 1
+     4048    links.c: In function 'group_info':
+     4049    links.c:14346:21: warning: missed loop optimization, the loop coun
+             ter may overflow [-Wunsafe-loop-optimizations]
+     4050                         for(v = 0; v <= u; v++) {
+     4051                         ^~~
+     4052    links.c:14205:21: warning: missed loop optimization, the loop coun
+             ter may overflow [-Wunsafe-loop-optimizations]
+     4053                         for(v = 0; v <= u; v++) {
+     4054                         ^~~
+  >> 4055    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4056    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4057    collect2: error: ld returned 1 exit status
+  >> 4058    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4059    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4060    collect2: error: ld returned 1 exit status
+  >> 4061    make[1]: *** [flush1] Error 1
+  >> 4062    make[1]: *** [efc] Error 1
+  >> 4063    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4064    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4065    collect2: error: ld returned 1 exit status
+  >> 4066    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4067    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4068    collect2: error: ld returned 1 exit status
+  >> 4069    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4070    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4071    collect2: error: ld returned 1 exit status
+     4072    ../src/.libsmake[1]: /*** [enc_dec_plist_cross_platform] Error 1li
+             bhdf5.so:
+     4073     undefined reference to `MPI_Type_extent'
+  >> 4074    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4075    collect2: error: ld returned 1 exit status
+  >> 4076    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4077    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4078    collect2: error: ld returned 1 exit status
+  >> 4079    make[1]: *** [cache_logging] Error 1
+  >> 4080    make[1]: *** [cross_read] Error 1
+  >> 4081    make[1]: *** [tcheck_version] Error 1
+  >> 4082    make[1]: *** [testmeta] Error 1
+  >> 4083    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4084    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4085    collect2: error: ld returned 1 exit status
+  >> 4086    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4087    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4088    collect2: error: ld returned 1 exit status
+  >> 4089    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4090    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4091    collect2: error: ld returned 1 exit status
+  >> 4092    make[1]: *** [enum] Error 1
+  >> 4093    make[1]: *** [flush2] Error 1
+  >> 4094    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+     4095    ../.src.//src./libs./libs/libhdf5.solibhdf5.so::  undefined undefi
+             ned reference referenceto  `toMPI_Type_extent '
+     4096    `../OMPI_C_MPI_NULL_COPY_FNsrc'/.
+  >> 4097    libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_COPY_FN'
+  >> 4098    collect2: error: ld returned 1 exit status
+  >> 4099    collect2: error: ld returned 1 exit status
+  >> 4100    make[1]: *** [set_extent] Error 1
+  >> 4101    make[1]: *** [mount] Error 1
+  >> 4102    make[1]: *** [atomic_reader] Error 1
+  >> 4103    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4104    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4105    collect2: error: ld returned 1 exit status
+  >> 4106    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4107    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4108    collect2: error: ld returned 1 exit status
+  >> 4109    make[1]: *** [cork] Error 1
+  >> 4110    make[1]: *** [file_image] Error 1
+     4111    ../src/.libs/libhdf5.so: undefined ..reference ..to/ /`srcsrc//MPI
+             _Type_extent.'.libs
+     4112    libs/./.libhdf5.solibhdf5.so/:: src /undefinedundefined.  libsrefe
+             rence/reference  libhdf5.soto:to   ``undefined MPI_Type_extentMPI_
+             Type_extent'reference'
+     4113    
+     4114    .to.. ./`/srcsrc/OMPI_C_MPI_NULL_COPY_FN/.'.libs
+     4115    libs//libhdf5.solibhdf5.so::  undefinedundefined  referencereferen
+             ce  toto  ``OMPI_C_MPI_NULL_COPY_FNOMPI_C_MPI_NULL_COPY_FN''
+     4116    
+  >> 4117    collect2: error: ld returned 1 exit status
+  >> 4118    collect2: error: ld returned 1 exit status
+  >> 4119    collect2: error: ld returned 1 exit status
+  >> 4120    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4121    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4122    collect2: error: ld returned 1 exit status
+  >> 4123    make[1]: *** [enc_dec_plist] Error 1
+  >> 4124    make[1]: *** [err_compat] Error 1
+  >> 4125    make[1]: *** [unregister] Error 1
+  >> 4126    make[1]: *** [reserved] Error 1
+  >> 4127    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4128    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4129    collect2: error: ld returned 1 exit status
+  >> 4130    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4131    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4132    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4133    ../src/.libs/libhdf5.socollect2: error: ld returned 1 exit status
+     4134    : undefined reference to `OMPI_C_MPI_NULL_COPY_FN'
+  >> 4135    collect2: error: ld returned 1 exit status
+  >> 4136    make[1]: *** [accum_swmr_reader] Error 1
+  >> 4137    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4138    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4139    collect2: error: ld returned 1 exit status
+  >> 4140    make[1]: *** [getname] Error 1
+  >> 4141    make[1]: *** [dtransform] Error 1
+  >> 4142    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4143    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4144    collect2: error: ld returned 1 exit status
+  >> 4145    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4146    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4147    collect2: error: ld returned 1 exit status
+  >> 4148    make[1]: *** [ttsafe] Error 1
+  >> 4149    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4150    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4151    make[1]: *** [ntypes] Error 1
+  >> 4152    collect2: error: ld returned 1 exit status
+  >> 4153    make[1]: *** [error_test] Error 1
+  >> 4154    make[1]: *** [freespace] Error 1
+  >> 4155    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4156    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4157    collect2: error: ld returned 1 exit status
+  >> 4158    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4159    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4160    collect2: error: ld returned 1 exit status
+  >> 4161    make[1]: *** [links_env] Error 1
+  >> 4162    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4163    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4164    collect2: error: ld returned 1 exit status
+  >> 4165    make[1]: *** [atomic_writer] Error 1
+  >> 4166    make[1]: *** [filenotclosed] Error 1
+  >> 4167    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4168    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4169    collect2: error: ld returned 1 exit status
+  >> 4170    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4171    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4172    collect2: error: ld returned 1 exit status
+  >> 4173    make[1]: *** [swmr_generator] Error 1
+  >> 4174    make[1]: *** [flushrefresh] Error 1
+  >> 4175    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4176    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4177    collect2: error: ld returned 1 exit status
+  >> 4178    make[1]: *** [swmr_reader] Error 1
+  >> 4179    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4180    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4181    collect2: error: ld returned 1 exit status
+  >> 4182    make[1]: *** [swmr_remove_writer] Error 1
+  >> 4183    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4184    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4185    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4186    collect2: error: ld returned 1 exit status
+  >> 4187    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4188    collect2: error: ld returned 1 exit status
+  >> 4189    make[1]: *** [use_append_mchunks] Error 1
+  >> 4190    make[1]: *** [swmr_start_write] Error 1
+  >> 4191    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4192    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4193    collect2: error: ld returned 1 exit status
+  >> 4194    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4195    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4196    collect2: error: ld returned 1 exit status
+  >> 4197    make[1]: *** [use_append_chunk] Error 1
+  >> 4198    make[1]: *** [swmr_sparse_reader] Error 1
+  >> 4199    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4200    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4201    collect2: error: ld returned 1 exit status
+  >> 4202    make[1]: *** [swmr_addrem_writer] Error 1
+  >> 4203    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4204    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4205    collect2: error: ld returned 1 exit status
+  >> 4206    make[1]: *** [swmr_remove_reader] Error 1
+  >> 4207    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4208    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4209    collect2: error: ld returned 1 exit status
+  >> 4210    make[1]: *** [swmr_writer] Error 1
+  >> 4211    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4212    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4213    collect2: error: ld returned 1 exit status
+  >> 4214    make[1]: *** [swmr_sparse_writer] Error 1
+  >> 4215    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4216    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4217    collect2: error: ld returned 1 exit status
+  >> 4218    make[1]: *** [vds_swmr_gen] Error 1
+  >> 4219    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4220    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4221    collect2: error: ld returned 1 exit status
+  >> 4222    make[1]: *** [use_disable_mdc_flushes] Error 1
+  >> 4223    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4224    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4225    collect2: error: ld returned 1 exit status
+  >> 4226    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4227    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4228    collect2: error: ld returned 1 exit status
+  >> 4229    make[1]: *** [swmr_check_compat_vfd] Error 1
+  >> 4230    make[1]: *** [vds_swmr_writer] Error 1
+     4231    links.c: In function 'group_info_old':
+     4232    links.c:14576:13: warning: missed loop optimization, the loop coun
+             ter may overflow [-Wunsafe-loop-optimizations]
+     4233                 for(v = 0; v <= u; v++) {
+     4234                 ^~~
+  >> 4235    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4236    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4237    collect2: error: ld returned 1 exit status
+  >> 4238    make[1]: *** [vds_swmr_reader] Error 1
+  >> 4239    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4240    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4241    collect2: error: ld returned 1 exit status
+  >> 4242    make[1]: *** [swmr] Error 1
+  >> 4243    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4244    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4245    collect2: error: ld returned 1 exit status
+  >> 4246    make[1]: *** [filter_plugin] Error 1
+  >> 4247    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4248    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4249    collect2: error: ld returned 1 exit status
+  >> 4250    make[1]: *** [dtypes] Error 1
+  >> 4251    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4252    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4253    collect2: error: ld returned 1 exit status
+  >> 4254    make[1]: *** [mf] Error 1
+  >> 4255    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4256    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4257    collect2: error: ld returned 1 exit status
+  >> 4258    make[1]: *** [btree2] Error 1
+     4259    tselect.c: In function 'test_shape_same_dr__run_full_space_vs_slic
+             e_tests':
+     4260    tselect.c:10650:9: warning: missed loop optimization, the loop cou
+             nter may overflow [-Wunsafe-loop-optimizations]
+     4261             for(small_rank = 1; small_rank <= large_rank; small_rank+
+             +) {
+     4262             ^~~
+     4263    tselect.c: In function 'test_shape_same_dr__run_checkerboard_tests
+             ':
+     4264    tselect.c:11137:9: warning: missed loop optimization, the loop cou
+             nter may overflow [-Wunsafe-loop-optimizations]
+
+     ...
+
+     4266             ^~~
+     4267    tselect.c: In function 'test_select':
+     4268    tselect.c:11685:9: warning: missed loop optimization, the loop cou
+             nter may overflow [-Wunsafe-loop-optimizations]
+     4269             for(small_rank = 1; small_rank <= large_rank; small_rank+
+             +) {
+     4270             ^~~
+     4271    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-sta
+             ge-iuIacD/hdf5-1.10.4/test'
+  >> 4272    make: *** [all-recursive] Error 1
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/hdf5-1.10.4-ysg76crlr74jg7dfxfibatddtvg7vi7c/hdf5-1.10.4/spack-build.out
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+
+spack install libhio@1.4.1.3 % gcc@8.2.0
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : generating module file
+==> bzip2@1.0.6 : registering into DB
+==> openmpi@4.0.0 : has external module in openmpi/p9/4.0.0-gcc_8.2.0
+==> openmpi@4.0.0 : is actually installed in /projects/opt/ppc64le/openmpi/p9/4.0.0-gcc_8.2.0
+==> openmpi@4.0.0 : generating module file
+==> openmpi@4.0.0 : registering into DB
+==> Installing zlib
+==> Searching for binary cache of zlib
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for zlib found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/zlib/zlib-1.2.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/zlib-1.2.11-vgftsvfmckp36w2o6y5zrv45yoa52bfs/zlib-1.2.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/zlib-1.2.11-vgftsvfmckp36w2o6y5zrv45yoa52bfs
+==> No patches needed for zlib
+==> Building zlib [Package]
+==> Executing phase: 'install'
+==> Successfully installed zlib
+  Fetch: 0.03s.  Build: 3.37s.  Total: 3.40s.
+[+] /scratch/users/dantopa/new-spack/strawman.pr.libhio/opt/spack/linux-rhel7-ppc64le/gcc-8.2.0/zlib-1.2.11-vgftsvfmckp36w2o6y5zrv45yoa52bfs
+==> Installing hdf5
+==> Searching for binary cache of hdf5
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hdf5 found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/hdf5/hdf5-1.10.4.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/hdf5-1.10.4-deytzjfa4syx6pnrrpx5rkjlicj3ed4s/hdf5-1.10.4.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/hdf5-1.10.4-deytzjfa4syx6pnrrpx5rkjlicj3ed4s
+==> No patches needed for hdf5
+==> Building hdf5 [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j160'
+
+297 errors found in build log:
+     4042      CCLD     swmr_sparse_writer
+     4043      CCLD     swmr_check_compat_vfd
+     4044      CCLD     vds_swmr_gen
+     4045      CCLD     vds_swmr_reader
+     4046      CCLD     vds_swmr_writer
+     4047      CCLD     filter_plugin
+  >> 4048    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4049    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4050    collect2: error: ld returned 1 exit status
+  >> 4051    make[1]: *** [lheap] Error 1
+     4052    make[1]: *** Waiting for unfinished jobs....
+  >> 4053    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4054    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4055    collect2: error: ld returned 1 exit status
+  >> 4056    make[1]: *** [use_disable_mdc_flushes] Error 1
+  >> 4057    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4058    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4059    collect2: error: ld returned 1 exit status
+  >> 4060    make[1]: *** [swmr_writer] Error 1
+  >> 4061    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4062    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4063    collect2: error: ld returned 1 exit status
+  >> 4064    make[1]: *** [swmr_reader] Error 1
+  >> 4065    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4066    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4067    collect2: error: ld returned 1 exit status
+  >> 4068    make[1]: *** [swmr_addrem_writer] Error 1
+  >> 4069    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4070    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4071    collect2: error: ld returned 1 exit status
+  >> 4072    make[1]: *** [use_append_mchunks] Error 1
+  >> 4073    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4074    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4075    collect2: error: ld returned 1 exit status
+  >> 4076    make[1]: *** [swmr_sparse_writer] Error 1
+  >> 4077    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4078    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4079    collect2: error: ld returned 1 exit status
+  >> 4080    make[1]: *** [enc_dec_plist] Error 1
+  >> 4081    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4082    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4083    collect2: error: ld returned 1 exit status
+  >> 4084    make[1]: *** [bittests] Error 1
+  >> 4085    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4086    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4087    collect2: error: ld returned 1 exit status
+  >> 4088    make[1]: *** [vds_swmr_reader] Error 1
+  >> 4089    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4090    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4091    collect2: error: ld returned 1 exit status
+  >> 4092    make[1]: *** [cache_tagging] Error 1
+  >> 4093    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4094    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4095    collect2: error: ld returned 1 exit status
+  >> 4096    make[1]: *** [ohdr] Error 1
+  >> 4097    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4098    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4099    collect2: error: ld returned 1 exit status
+  >> 4100    make[1]: *** [page_buffer] Error 1
+  >> 4101    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4102    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4103    collect2: error: ld returned 1 exit status
+  >> 4104    make[1]: *** [earray] Error 1
+  >> 4105    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4106    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4107    collect2: error: ld returned 1 exit status
+  >> 4108    make[1]: *** [filter_plugin] Error 1
+  >> 4109    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4110    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4111    collect2: error: ld returned 1 exit status
+  >> 4112    make[1]: *** [farray] Error 1
+  >> 4113    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4114    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4115    collect2: error: ld returned 1 exit status
+  >> 4116    make[1]: *** [app_ref] Error 1
+  >> 4117    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4118    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4119    ../src/.libs/libhdf5.so: collect2: error: ld returned 1 exit statu
+             s
+     4120    undefined reference. to. /`srcMPI_Type_extent/'.
+     4121    libs././libhdf5.sosrc:/. libs/undefinedlibhdf5.so : referenceundef
+             ined  toreference  `to MPI_Type_extent`'
+     4122    OMPI_C_MPI_NULL_COPY_FN.'.
+  >> 4123    /src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_COP
+             Y_FN'
+  >> 4124    collect2: error: ld returned 1 exit status
+  >> 4125    collect2: error: ld returned 1 exit status
+  >> 4126    make[1]: *** [big] Error 1
+  >> 4127    make[1]: *** [gheap] Error 1
+  >> 4128    make[1]: *** [filter_fail] Error 1
+  >> 4129    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4130    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4131    collect2: error: ld returned 1 exit status
+  >> 4132    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4133    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4134    collect2: error: ld returned 1 exit status
+  >> 4135    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4136    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4137    collect2: error: ld returned 1 exit status
+  >> 4138    make[1]: *** [mount] Error 1
+  >> 4139    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4140    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4141    collect2: error: ld returned 1 exit status
+  >> 4142    make[1]: *** [cache_api] Error 1
+  >> 4143    make[1]: *** [accum] Error 1
+  >> 4144    make[1]: *** [evict_on_close] Error 1
+  >> 4145    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4146    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4147    collect2: error: ld returned 1 exit status
+     4148    ../srcmake[1]: /.*** [direct_chunk] Error 1libs
+  >> 4149    /libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4150    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4151    collect2: error: ld returned 1 exit status
+  >> 4152    make[1]: *** [pool] Error 1
+  >> 4153    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4154    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4155    collect2: error: ld returned 1 exit status
+     4156    ../src/.libs/libhdf5.so: make[1]: undefined *** [flush2] Error 1re
+             ference
+     4157     to `MPI_Type_extent'
+  >> 4158    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4159    collect2: error: ld returned 1 exit status
+  >> 4160    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4161    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4162    collect2: error: ld returned 1 exit status
+  >> 4163    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4164    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4165    collect2: error: ld returned 1 exit status
+  >> 4166    make[1]: *** [stab] Error 1
+  >> 4167    make[1]: *** [hyperslab] Error 1
+  >> 4168    make[1]: *** [twriteorder] Error 1
+  >> 4169    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4170    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4171    ..collect2: error: ld returned 1 exit status
+  >> 4172    /src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4173    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4174    collect2: error: ld returned 1 exit status
+  >> 4175    make[1]: *** [unlink] Error 1
+  >> 4176    make[1]: *** [istore] Error 1
+  >> 4177    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4178    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4179    collect2: error: ld returned 1 exit status
+  >> 4180    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4181    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4182    collect2: error: ld returned 1 exit status
+  >> 4183    make[1]: *** [vds_swmr_writer] Error 1
+  >> 4184    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4185    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4186    collect2: error: ld returned 1 exit status
+  >> 4187    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4188    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4189    collect2: error: ld returned 1 exit status
+  >> 4190    make[1]: *** [cross_read] Error 1
+  >> 4191    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4192    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4193    collect2: error: ld returned 1 exit status
+  >> 4194    make[1]: *** [enc_dec_plist_cross_platform] Error 1
+  >> 4195    make[1]: *** [flush1] Error 1
+  >> 4196    make[1]: *** [extend] Error 1
+  >> 4197    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4198    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4199    collect2: error: ld returned 1 exit status
+  >> 4200    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4201    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4202    collect2: error: ld returned 1 exit status
+  >> 4203    make[1]: *** [vfd] Error 1
+  >> 4204    make[1]: *** [freespace] Error 1
+  >> 4205    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4206    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4207    collect2: error: ld returned 1 exit status
+  >> 4208    ../src/.libs/libhdf5.so: undefined reference.. /srcto/ .`libs/MPI_
+             Type_extentlibhdf5.so':
+     4209    undefined. .reference /to src`/MPI_Type_extent'.
+     4210    .libs.//src/.libhdf5.solibs/:libhdf5.so : undefinedundefined  refe
+             rence referenceto  `toOMPI_C_MPI_NULL_COPY_FN '
+     4211    `OMPI_C_MPI_NULL_COPY_FN'
+  >> 4212    collect2: error: ld returned 1 exit status
+  >> 4213    collect2: error: ld returned 1 exit status
+  >> 4214    make[1]: *** [cmpd_dset] Error 1
+  >> 4215    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4216    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4217    collect2: error: ld returned 1 exit status
+  >> 4218    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4219    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4220    collect2: error: ld returned 1 exit status
+  >> 4221    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4222    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4223    collect2: error: ld returned 1 exit status
+  >> 4224    ../src/.libs/libhdf5.so: undefined ../src/.libs/libhdf5.so: undefi
+             ned reference to `MPI_Type_extent'
+     4225    ../src/.libs/libhdf5.so: referenceundefined  referenceto  to` `MPI
+             _Type_extentOMPI_C_MPI_NULL_COPY_FN''
+     4226    
+  >> 4227    ../src/.libs/libhdf5.so: undefined reference to `collect2: error: 
+             ld returned 1 exit status
+     4228    OMPI_C_MPI_NULL_COPY_FN'
+  >> 4229    make[1]: *** [unregister] Error 1
+  >> 4230    collect2: error: ld returned 1 exit status
+  >> 4231    make[1]: *** [dt_arith] Error 1
+  >> 4232    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4233    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4234    collect2: error: ld returned 1 exit status
+  >> 4235    make[1]: *** [fillval] Error 1
+  >> 4236    make[1]: *** [file_image] Error 1
+  >> 4237    make[1]: *** [external] Error 1
+  >> 4238    make[1]: *** [cache_image] Error 1
+  >> 4239    make[1]: *** [mtime] Error 1
+  >> 4240    make[1]: *** [reserved] Error 1
+  >> 4241    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4242    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4243    collect2: error: ld returned 1 exit status
+  >> 4244    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4245    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4246    collect2: error: ld returned 1 exit status
+  >> 4247    make[1]: *** [dtypes] Error 1
+  >> 4248    make[1]: *** [enum] Error 1
+  >> 4249    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4250    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4251    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'c
+             ollect2: error: ld returned 1 exit status
+     4252    
+  >> 4253    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4254    collect2: error: ld returned 1 exit status
+  >> 4255    make[1]: *** [cork] Error 1
+  >> 4256    make[1]: *** [dangle] Error 1
+  >> 4257    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4258    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4259    collect2: error: ld returned 1 exit status
+  >> 4260    make[1]: *** [error_test] Error 1
+  >> 4261    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4262    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4263    collect2: error: ld returned 1 exit status
+  >> 4264    make[1]: *** [ttsafe] Error 1
+  >> 4265    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+     4266    ../src/.libs/.libhdf5.so:. /undefined srcreference/ .tolibs /`libh
+             df5.so:OMPI_C_MPI_NULL_COPY_FN '
+     4267    undefined reference to `MPI_Type_extent'
+  >> 4268    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4269    collect2: error: ld returned 1 exit status
+  >> 4270    collect2: error: ld returned 1 exit status
+  >> 4271    make[1]: *** [ntypes] Error 1
+  >> 4272    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4273    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4274    make[1]: *** [mf] Error 1
+  >> 4275    collect2: error: ld returned 1 exit status
+  >> 4276    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4277    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4278    collect2: error: ld returned 1 exit status
+  >> 4279    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4280    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4281    collect2: error: ld returned 1 exit status
+  >> 4282    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4283    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4284    collect2: error: ld returned 1 exit status
+  >> 4285    make[1]: *** [getname] Error 1
+  >> 4286    make[1]: *** [cache_logging] Error 1
+  >> 4287    make[1]: *** [efc] Error 1
+  >> 4288    make[1]: *** [set_extent] Error 1
+  >> 4289    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4290    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4291    collect2: error: ld returned 1 exit status
+  >> 4292    make[1]: *** [accum_swmr_reader] Error 1
+  >> 4293    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4294    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4295    collect2: error: ld returned 1 exit status
+  >> 4296    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+     4297    ../src/.libs/libhdf5.so: undefinedmake[1]:  reference*** [swmr_sta
+             rt_write] Error 1
+     4298    to `OMPI_C_MPI_NULL_COPY_FN'
+  >> 4299    collect2: error: ld returned 1 exit status
+  >> 4300    make[1]: *** [links_env] Error 1
+  >> 4301    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4302    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4303    collect2: error: ld returned 1 exit status
+  >> 4304    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4305    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4306    collect2: error: ld returned 1 exit status
+  >> 4307    make[1]: *** [dtransform] Error 1
+  >> 4308    make[1]: *** [use_append_chunk] Error 1
+  >> 4309    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4310    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4311    collect2: error: ld returned 1 exit status
+  >> 4312    make[1]: *** [atomic_reader] Error 1
+  >> 4313    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4314    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4315    collect2: error: ld returned 1 exit status
+  >> 4316    make[1]: *** [swmr] Error 1
+  >> 4317    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4318    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4319    collect2: error: ld returned 1 exit status
+     4320    ../src/make[1]: .libs/*** [flushrefresh] Error 1libhdf5.so
+     4321    : undefined reference to `MPI_Type_extent'
+  >> 4322    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4323    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4324    .collect2: error: ld returned 1 exit status
+  >> 4325    ./src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_CO
+             PY_FN'
+  >> 4326    collect2: error: ld returned 1 exit status
+  >> 4327    make[1]: *** [swmr_generator] Error 1
+  >> 4328    make[1]: *** [tcheck_version] Error 1
+  >> 4329    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4330    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4331    collect2: error: ld returned 1 exit status
+  >> 4332    make[1]: *** [filenotclosed] Error 1
+  >> 4333    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4334    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4335    collect2: error: ld returned 1 exit status
+  >> 4336    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4337    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4338    collect2: error: ld returned 1 exit status
+  >> 4339    make[1]: *** [testmeta] Error 1
+  >> 4340    make[1]: *** [err_compat] Error 1
+  >> 4341    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4342    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4343    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4344    ../src/.libs/libhdf5.socollect2: error: ld returned 1 exit status
+     4345    : undefined reference to `OMPI_C_MPI_NULL_COPY_FN'
+  >> 4346    collect2: error: ld returned 1 exit status
+  >> 4347    make[1]: *** [swmr_remove_writer] Error 1
+  >> 4348    make[1]: *** [atomic_writer] Error 1
+  >> 4349    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4350    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4351    collect2: error: ld returned 1 exit status
+  >> 4352    make[1]: *** [swmr_remove_reader] Error 1
+  >> 4353    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4354    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4355    collect2: error: ld returned 1 exit status
+  >> 4356    make[1]: *** [swmr_sparse_reader] Error 1
+  >> 4357    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4358    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4359    collect2: error: ld returned 1 exit status
+  >> 4360    make[1]: *** [swmr_check_compat_vfd] Error 1
+  >> 4361    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 4362    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 4363    collect2: error: ld returned 1 exit status
+  >> 4364    make[1]: *** [vds_swmr_gen] Error 1
+     4365    In file included from objcopy.c:22:
+     4366    objcopy.c: In function 'test_copy_old_layout':
+     4367    H5srcdir.h:62:69: warning: '%s' directive output may be truncated 
+             writing 11 bytes into a region of size between 1 and 1024 [-Wforma
+             t-truncation=]
+     4368                 HDsnprintf(srcdir_testpath, sizeof(srcdir_testpath), 
+             "%s%s", srcdir, filename);
+     4369                                                                      
+                ^~
+     4370    In file included from h5test.h:28,
+
+     ...
+
+     4433                 sprintf(valname, "/%s/%s", CORDER_GROUP_NAME, objname
+             );
+     4434                                       ^~                      ~~~~~~~
+     4435    links.c:14658:13: note: 'sprintf' output between 15 and 1038 bytes
+              into a destination of size 1024
+     4436                 sprintf(valname, "/%s/%s", CORDER_GROUP_NAME, objname
+             );
+     4437                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+             ~
+     4438    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-sta
+             ge-bkJMjl/hdf5-1.10.4/test'
+  >> 4439    make: *** [all-recursive] Error 1
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/hdf5-1.10.4-deytzjfa4syx6pnrrpx5rkjlicj3ed4s/hdf5-1.10.4/spack-build.out
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+
+spack install libhio@1.4.1.3 % pgi@17.10
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : generating module file
+==> bzip2@1.0.6 : registering into DB
+==> openmpi@4.0.0 : has external module in openmpi/p9/4.0.0-pgi_17.10
+==> openmpi@4.0.0 : is actually installed in /projects/opt/ppc64le/openmpi/p9/4.0.0-pgi_17.10
+==> openmpi@4.0.0 : generating module file
+==> openmpi@4.0.0 : registering into DB
+==> Installing zlib
+==> Searching for binary cache of zlib
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for zlib found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/zlib/zlib-1.2.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/zlib-1.2.11-djtus7bgda7vbkc6szkviz4gvsgjn7md/zlib-1.2.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/zlib-1.2.11-djtus7bgda7vbkc6szkviz4gvsgjn7md
+==> No patches needed for zlib
+==> Building zlib [Package]
+==> Executing phase: 'install'
+==> Error: ProcessError: Command exited with status 1:
+    './configure' '--prefix=/scratch/users/dantopa/new-spack/strawman.pr.libhio/opt/spack/linux-rhel7-ppc64le/pgi-17.10/zlib-1.2.11-djtus7bgda7vbkc6szkviz4gvsgjn7md'
+See build log for details:
+  /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/zlib-1.2.11-djtus7bgda7vbkc6szkviz4gvsgjn7md/zlib-1.2.11/spack-build.out
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+
+spack install libhio@1.4.1.3 % pgi@18.10
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : generating module file
+==> bzip2@1.0.6 : registering into DB
+==> openmpi@4.0.0 : has external module in openmpi/p9/4.0.0-pgi_18.10
+==> openmpi@4.0.0 : is actually installed in /projects/opt/ppc64le/openmpi/p9/4.0.0-pgi_18.10
+==> openmpi@4.0.0 : generating module file
+==> openmpi@4.0.0 : registering into DB
+==> Installing zlib
+==> Searching for binary cache of zlib
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for zlib found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/zlib/zlib-1.2.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/zlib-1.2.11-ygyqqzne7bmtohiyllxfxaiwqybbrnz2/zlib-1.2.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/zlib-1.2.11-ygyqqzne7bmtohiyllxfxaiwqybbrnz2
+==> No patches needed for zlib
+==> Building zlib [Package]
+==> Executing phase: 'install'
+==> Successfully installed zlib
+  Fetch: 0.02s.  Build: 18.80s.  Total: 18.82s.
+[+] /scratch/users/dantopa/new-spack/strawman.pr.libhio/opt/spack/linux-rhel7-ppc64le/pgi-18.10/zlib-1.2.11-ygyqqzne7bmtohiyllxfxaiwqybbrnz2
+==> Installing hdf5
+==> Searching for binary cache of hdf5
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hdf5 found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/hdf5/hdf5-1.10.4.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/hdf5-1.10.4-7jeyhau7zjxyhn5spcxdrcsmbjmqmk27/hdf5-1.10.4.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/hdf5-1.10.4-7jeyhau7zjxyhn5spcxdrcsmbjmqmk27
+==> No patches needed for hdf5
+==> Building hdf5 [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j160'
+
+231 errors found in build log:
+     1669      CCLD     swmr_sparse_writer
+     1670      CCLD     swmr_check_compat_vfd
+     1671      CCLD     vds_swmr_gen
+     1672      CCLD     vds_swmr_reader
+     1673      CCLD     vds_swmr_writer
+     1674      CCLD     filter_plugin
+  >> 1675    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1676    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1677    make[1]: *** [cache_tagging] Error 2
+     1678    make[1]: *** Waiting for unfinished jobs....
+  >> 1679    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1680    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1681    make[1]: *** [lheap] Error 2
+  >> 1682    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1683    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1684    make[1]: *** [earray] Error 2
+  >> 1685    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1686    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1687    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1688    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1689    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1690    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1691    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1692    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1693    make[1]: *** [farray] Error 2
+  >> 1694    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1695    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1696    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1697    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1698    make[1]: *** [external] Error 2
+  >> 1699    make[1]: *** [stab] Error 2
+  >> 1700    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1701    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1702    make[1]: *** [app_ref] Error 2
+  >> 1703    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1704    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1705    make[1]: *** [cache_api] Error 2
+  >> 1706    make[1]: *** [ohdr] Error 2
+  >> 1707    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1708    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1709    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1710    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1711    make[1]: *** [efc] Error 2
+  >> 1712    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1713    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1714    make[1]: *** [evict_on_close] Error 2
+  >> 1715    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1716    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1717    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1718    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1719    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1720    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1721    make[1]: *** [twriteorder] Error 2
+  >> 1722    make[1]: *** [istore] Error 2
+  >> 1723    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1724    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1725    make[1]: *** [page_buffer] Error 2
+  >> 1726    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1727    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1728    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1729    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1730    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1731    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1732    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1733    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1734    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1735    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1736    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1737    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1738    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1739    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1740    make[1]: *** [direct_chunk] Error 2
+  >> 1741    make[1]: *** [gheap] Error 2
+  >> 1742    make[1]: *** [set_extent] Error 2
+  >> 1743    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1744    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1745    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1746    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1747    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1748    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1749    make[1]: *** [fillval] Error 2
+  >> 1750    make[1]: *** [mtime] Error 2
+  >> 1751    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1752    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1753    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1754    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1755    make[1]: *** [dt_arith] Error 2
+  >> 1756    make[1]: *** [unlink] Error 2
+  >> 1757    make[1]: *** [pool] Error 2
+  >> 1758    make[1]: *** [big] Error 2
+  >> 1759    make[1]: *** [dtypes] Error 2
+  >> 1760    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1761    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1762    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1763    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1764    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1765    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1766    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1767    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1768    make[1]: *** [extend] Error 2
+  >> 1769    make[1]: *** [accum] Error 2
+  >> 1770    make[1]: *** [hyperslab] Error 2
+  >> 1771    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1772    make[1]: *** [cmpd_dset] Error 2
+  >> 1773    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1774    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1775    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1776    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1777    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1778    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1779    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1780    make[1]: *** [bittests] Error 2
+  >> 1781    make[1]: *** [filter_fail] Error 2
+  >> 1782    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1783    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1784    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1785    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1786    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1787    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1788    make[1]: *** [flush2] Error 2
+  >> 1789    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1790    make[1]: *** [cache_logging] Error 2
+  >> 1791    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1792    make[1]: *** [enum] Error 2
+  >> 1793    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1794    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1795    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1796    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1797    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1798    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1799    make[1]: *** [flush1] Error 2
+  >> 1800    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1801    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1802    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1803    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1804    make[1]: *** [ntypes] Error 2
+  >> 1805    make[1]: *** [enc_dec_plist] Error 2
+  >> 1806    make[1]: *** [mf] Error 2
+  >> 1807    make[1]: *** [mount] Error 2
+  >> 1808    make[1]: *** [cross_read] Error 2
+  >> 1809    make[1]: *** [dtransform] Error 2
+  >> 1810    make[1]: *** [ttsafe] Error 2
+  >> 1811    make[1]: *** [getname] Error 2
+  >> 1812    make[1]: *** [dangle] Error 2
+  >> 1813    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1814    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1815    make[1]: *** [vfd] Error 2
+  >> 1816    make[1]: *** [enc_dec_plist_cross_platform] Error 2
+  >> 1817    make[1]: *** [reserved] Error 2
+  >> 1818    make[1]: *** [freespace] Error 2
+  >> 1819    make[1]: *** [unregister] Error 2
+  >> 1820    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1821    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1822    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1823    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1824    make[1]: *** [swmr_start_write] Error 2
+  >> 1825    make[1]: *** [flushrefresh] Error 2
+  >> 1826    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1827    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1828    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1829    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1830    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1831    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1832    make[1]: *** [use_append_chunk] Error 2
+  >> 1833    make[1]: *** [tcheck_version] Error 2
+  >> 1834    make[1]: *** [cork] Error 2
+  >> 1835    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1836    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1837    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1838    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1839    make[1]: *** [err_compat] Error 2
+  >> 1840    make[1]: *** [links_env] Error 2
+  >> 1841    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1842    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1843    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1844    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1845    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1846    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1847    make[1]: *** [testmeta] Error 2
+  >> 1848    make[1]: *** [error_test] Error 2
+  >> 1849    make[1]: *** [atomic_writer] Error 2
+  >> 1850    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1851    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1852    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1853    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1854    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1855    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1856    make[1]: *** [atomic_reader] Error 2
+  >> 1857    make[1]: *** [swmr_check_compat_vfd] Error 2
+  >> 1858    make[1]: *** [accum_swmr_reader] Error 2
+  >> 1859    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1860    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1861    make[1]: *** [file_image] Error 2
+  >> 1862    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1863    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent..
+             /src/.libs/libhdf5.so'
+     1864    : undefined reference to `OMPI_C_MPI_NULL_COPY_FN'
+  >> 1865    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1866    make[1]: *** [swmr_remove_writer] Error 2
+  >> 1867    make[1]: *** [swmr_addrem_writer] Error 2
+  >> 1868    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1869    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1870    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1871    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1872    make[1]: *** [swmr_remove_reader] Error 2
+  >> 1873    make[1]: *** [filenotclosed] Error 2
+  >> 1874    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1875    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1876    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1877    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1878    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1879    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1880    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1881    make[1]: *** [swmr_reader] Error 2
+  >> 1882    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1883    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1884    make[1]: *** [swmr_generator] Error 2
+  >> 1885    make[1]: *** [use_disable_mdc_flushes] Error 2
+  >> 1886    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1887    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1888    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1889    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1890    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1891    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1892    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1893    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1894    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1895    make[1]: *** [swmr_writer] Error 2
+  >> 1896    make[1]: *** [vds_swmr_reader] Error 2
+  >> 1897    make[1]: *** [use_append_mchunks] Error 2
+  >> 1898    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1899    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1900    make[1]: *** [swmr_sparse_reader] Error 2
+  >> 1901    make[1]: *** [vds_swmr_writer] Error 2
+  >> 1902    make[1]: *** [vds_swmr_gen] Error 2
+  >> 1903    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1904    make[1]: *** [swmr_sparse_writer] Error 2
+  >> 1905    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1906    make[1]: *** [filter_plugin] Error 2
+     1907    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-sta
+             ge-rJCUwr/hdf5-1.10.4/test'
+  >> 1908    make: *** [all-recursive] Error 1
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/hdf5-1.10.4-7jeyhau7zjxyhn5spcxdrcsmbjmqmk27/hdf5-1.10.4/spack-build.out
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+
+spack install libhio@1.4.1.3 % xl@16.1.0
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : generating module file
+==> bzip2@1.0.6 : registering into DB
+==> openmpi@4.0.0 : has external module in openmpi/p9/4.0.0-xlc_16.1.0-xlf_16.1.0
+==> openmpi@4.0.0 : is actually installed in /projects/opt/ppc64le/openmpi/p9/4.0.0-xlc-16.1.0-xlf-16.1.0
+==> openmpi@4.0.0 : generating module file
+==> openmpi@4.0.0 : registering into DB
+==> Installing zlib
+==> Searching for binary cache of zlib
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for zlib found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/zlib/zlib-1.2.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/zlib-1.2.11-jgtbsu2lpmsf2olyq6d7bmt4gsztg57n/zlib-1.2.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/zlib-1.2.11-jgtbsu2lpmsf2olyq6d7bmt4gsztg57n
+==> No patches needed for zlib
+==> Building zlib [Package]
+==> Executing phase: 'install'
+==> Successfully installed zlib
+  Fetch: 0.03s.  Build: 4.42s.  Total: 4.45s.
+[+] /scratch/users/dantopa/new-spack/strawman.pr.libhio/opt/spack/linux-rhel7-ppc64le/xl-16.1.0/zlib-1.2.11-jgtbsu2lpmsf2olyq6d7bmt4gsztg57n
+==> Installing hdf5
+==> Searching for binary cache of hdf5
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hdf5 found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/hdf5/hdf5-1.10.4.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/hdf5-1.10.4-knfvty4ruahmawpw5rzsw55siqmquqft/hdf5-1.10.4.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/hdf5-1.10.4-knfvty4ruahmawpw5rzsw55siqmquqft
+==> No patches needed for hdf5
+==> Building hdf5 [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j160'
+
+252 errors found in build log:
+     119     checking if /projects/opt/ppc64le/openmpi/p9/4.0.0-xlc-16.1.0-xlf-
+             16.1.0/bin/mpicc PIC flag -fPIC -DPIC works... yes
+     120     checking if /projects/opt/ppc64le/openmpi/p9/4.0.0-xlc-16.1.0-xlf-
+             16.1.0/bin/mpicc static flag -static works... no
+     121     checking if /projects/opt/ppc64le/openmpi/p9/4.0.0-xlc-16.1.0-xlf-
+             16.1.0/bin/mpicc supports -c -o file.o... yes
+     122     checking if /projects/opt/ppc64le/openmpi/p9/4.0.0-xlc-16.1.0-xlf-
+             16.1.0/bin/mpicc supports -c -o file.o... (cached) yes
+     123     checking whether the /projects/opt/ppc64le/openmpi/p9/4.0.0-xlc-16
+             .1.0-xlf-16.1.0/bin/mpicc linker (/usr/bin/ld) supports shared lib
+             raries... yes
+     124     checking whether -lc should be explicitly linked in... yes
+  >> 125     checking dynamic linker characteristics... /projects/opt/ppc64le/i
+             bm/xlc-16.1.0/xlC/16.1.0/bin/.orig/xlc: error: 1501-294 No input f
+             ile specified. Please use -qhelp for more information.
+     126     GNU/Linux ld.so
+     127     checking how to hardcode library paths into programs... immediate
+     128     checking for shl_load... no
+     129     checking for shl_load in -ldld... no
+     130     checking for dlopen... yes
+     131     checking whether a program can dlopen itself... yes
+
+     ...
+
+     1361      CCLD     swmr_sparse_writer
+     1362      CCLD     swmr_check_compat_vfd
+     1363      CCLD     vds_swmr_gen
+     1364      CCLD     vds_swmr_reader
+     1365      CCLD     vds_swmr_writer
+     1366      CCLD     filter_plugin
+  >> 1367    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1368    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1369    make[1]: *** [gheap] Error 1
+     1370    make[1]: *** Waiting for unfinished jobs....
+  >> 1371    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1372    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1373    make[1]: *** [cmpd_dset] Error 1
+  >> 1374    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1375    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1376    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1377    make[1]: *** [ohdr] Error 1
+  >> 1378    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1379    make[1]: *** [lheap] Error 1
+  >> 1380    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1381    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1382    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1383    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1384    make[1]: *** [stab] Error 1
+  >> 1385    make[1]: *** [cache_tagging] Error 1
+  >> 1386    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1387    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1388    make[1]: *** [cache_api] Error 1
+  >> 1389    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1390    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1391    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1392    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1393    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1394    make[1]: *** [evict_on_close] Error 1
+  >> 1395    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1396    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1397    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1398    make[1]: *** [accum] Error 1
+  >> 1399    make[1]: *** [btree2] Error 1
+  >> 1400    make[1]: *** [earray] Error 1
+  >> 1401    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1402    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1403    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1404    make[1]: *** [page_buffer] Error 1
+  >> 1405    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1406    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1407    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1408    make[1]: *** [cache_image] Error 1
+  >> 1409    make[1]: *** [pool] Error 1
+  >> 1410    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1411    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1412    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1413    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1414    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1415    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1416    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1417    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1418    make[1]: *** [farray] Error 1
+  >> 1419    make[1]: *** [cache] Error 1
+  >> 1420    make[1]: *** [hyperslab] Error 1
+  >> 1421    ../src/.libs/libhdf5.so: undefined reference to `make[1]: *** [ext
+             end] Error 1MPI_Type_extent
+     1422    '
+  >> 1423    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1424    make[1]: *** [bittests] Error 1
+  >> 1425    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1426    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1427    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1428    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1429    make[1]: *** [dtypes] Error 1
+  >> 1430    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1431    make[1]: *** [dt_arith] Error 1
+  >> 1432    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1433    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1434    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1435    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1436    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1437    make[1]: *** [fheap] Error 1
+  >> 1438    make[1]: *** [filter_fail] Error 1
+  >> 1439    make[1]: *** [twriteorder] Error 1
+  >> 1440    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1441    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1442    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1443    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1444    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1445    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1446    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1447    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1448    make[1]: *** [dsets] Error 1
+  >> 1449    make[1]: *** [direct_chunk] Error 1
+  >> 1450    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1451    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1452    make[1]: *** [dtransform] Error 1
+  >> 1453    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1454    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1455    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1456    make[1]: *** [fillval] Error 1
+  >> 1457    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1458    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1459    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1460    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1461    make[1]: *** [enc_dec_plist_cross_platform] Error 1
+  >> 1462    make[1]: *** [istore] Error 1
+  >> 1463    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1464    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1465    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent..
+             /src/.libs/libhdf5.so'
+     1466    : undefined reference to `MPI_Type_extent'
+  >> 1467    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1468    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1469    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1470    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extentma
+             ke[1]: '
+     1471    *** [mtime] Error 1
+  >> 1472    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1473    make[1]: *** [set_extent] Error 1
+  >> 1474    make[1]: *** [unlink] Error 1
+  >> 1475    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1476    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1477    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1478    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1479    make[1]: *** [reserved] Error 1
+  >> 1480    make[1]: *** [external] Error 1
+  >> 1481    make[1]: *** [flush1] Error 1
+  >> 1482    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1483    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1484    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1485    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1486    make[1]: *** [efc] Error 1
+  >> 1487    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1488    make[1]: *** [big] Error 1
+  >> 1489    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1490    make[1]: *** [enum] Error 1
+  >> 1491    make[1]: *** [tcheck_version] Error 1
+  >> 1492    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1493    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1494    make[1]: *** [freespace] Error 1
+  >> 1495    make[1]: *** [dangle] Error 1
+  >> 1496    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1497    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1498    make[1]: *** [accum_swmr_reader] Error 1
+  >> 1499    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1500    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1501    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1502    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1503    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1504    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1505    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1506    make[1]: *** [cache_logging] Error 1
+  >> 1507    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1508    make[1]: *** [flush2] Error 1
+  >> 1509    make[1]: *** [mount] Error 1
+  >> 1510    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1511    make[1]: *** [vfd] Error 1
+  >> 1512    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1513    make[1]: *** [file_image] Error 1
+  >> 1514    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1515    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1516    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1517    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1518    make[1]: *** [enc_dec_plist] Error 1
+  >> 1519    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1520    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1521    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1522    make[1]: *** [error_test] Error 1
+  >> 1523    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1524    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1525    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1526    make[1]: *** [app_ref] Error 1
+  >> 1527    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1528    make[1]: *** [cork] Error 1
+  >> 1529    make[1]: *** [ttsafe] Error 1
+  >> 1530    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1531    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1532    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1533    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1534    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1535    make[1]: *** [testmeta] Error 1
+  >> 1536    make[1]: *** [flushrefresh] Error 1
+  >> 1537    make[1]: ../src/.libs/libhdf5.so*** [cross_read] Error 1: undefine
+             d reference to `
+     1538    MPI_Type_extent'
+  >> 1539    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1540    make[1]: *** [unregister] Error 1
+  >> 1541    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1542    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1543    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1544    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1545    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1546    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1547    make[1]: *** [swmr] Error 1
+  >> 1548    make[1]: *** [ntypes] Error 1
+  >> 1549    make[1]: *** [err_compat] Error 1
+  >> 1550    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1551    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1552    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1553    make[1]: *** [links_env] Error 1
+  >> 1554    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1555    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1556    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1557    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1558    make[1]: *** [getname] Error 1
+  >> 1559    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1560    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1561    ../src/.libs/libhdf5.so: undefined reference to `../src/.libs/libh
+             df5.so: undefined reference to `OMPI_C_MPI_NULL_COPY_FN'
+     1562    MPI_Type_extent'
+  >> 1563    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1564    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1565    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1566    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1567    make[1]: *** [use_disable_mdc_flushes] Error 1
+  >> 1568    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1569    make[1]: *** [swmr_addrem_writer] Error 1
+  >> 1570    make[1]: *** [mf] Error 1
+  >> 1571    make[1]: *** [atomic_reader] Error 1
+  >> 1572    make[1]: *** [use_append_chunk] Error 1
+  >> 1573    make[1]: *** [swmr_remove_reader] Error 1
+  >> 1574    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1575    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1576    make[1]: *** [swmr_writer] Error 1
+  >> 1577    make[1]: *** [swmr_sparse_writer] Error 1
+  >> 1578    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1579    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1580    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1581    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1582    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1583    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1584    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1585    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1586    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1587    make[1]: *** [use_append_mchunks] Error 1
+  >> 1588    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1589    make[1]: *** [vds] Error 1
+  >> 1590    make[1]: *** [atomic_writer] Error 1
+  >> 1591    make[1]: *** [filenotclosed] Error 1
+  >> 1592    make[1]: *** [vds_swmr_gen] Error 1
+  >> 1593    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1594    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1595    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1596    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1597    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1598    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1599    make[1]: *** [swmr_sparse_reader] Error 1
+  >> 1600    make[1]: *** [vds_swmr_reader] Error 1
+  >> 1601    make[1]: *** [swmr_start_write] Error 1
+  >> 1602    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1603    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1604    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1605    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1606    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1607    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1608    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1609    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1610    make[1]: *** [swmr_remove_writer] Error 1
+  >> 1611    make[1]: *** [swmr_check_compat_vfd] Error 1
+  >> 1612    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1613    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1614    make[1]: *** [vds_swmr_writer] Error 1
+  >> 1615    make[1]: *** [swmr_reader] Error 1
+  >> 1616    make[1]: *** [swmr_generator] Error 1
+  >> 1617    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1618    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1619    make[1]: *** [filter_plugin] Error 1
+  >> 1620    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1621    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1622    make[1]: *** [testhdf5] Error 1
+     1623    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-sta
+             ge-SdE_Qu/hdf5-1.10.4/test'
+  >> 1624    make: *** [all-recursive] Error 1
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/hdf5-1.10.4-knfvty4ruahmawpw5rzsw55siqmquqft/hdf5-1.10.4/spack-build.out
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+
+spack install libhio@1.4.1.3 % xl@16.1.1
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : generating module file
+==> bzip2@1.0.6 : registering into DB
+==> openmpi@4.0.0 : has external module in openmpi/p9/4.0.0-xlc_16.1.1-xlf_16.1.1
+==> openmpi@4.0.0 : is actually installed in /projects/opt/ppc64le/openmpi/p9/4.0.0-xlc-16.1.1-xlf-16.1.1
+==> openmpi@4.0.0 : generating module file
+==> openmpi@4.0.0 : registering into DB
+==> Installing zlib
+==> Searching for binary cache of zlib
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for zlib found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/zlib/zlib-1.2.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/zlib-1.2.11-qzxl665z7gvs3suzkjmd76f54gpeemrj/zlib-1.2.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/zlib-1.2.11-qzxl665z7gvs3suzkjmd76f54gpeemrj
+==> No patches needed for zlib
+==> Building zlib [Package]
+==> Executing phase: 'install'
+==> Successfully installed zlib
+  Fetch: 0.03s.  Build: 3.22s.  Total: 3.25s.
+[+] /scratch/users/dantopa/new-spack/strawman.pr.libhio/opt/spack/linux-rhel7-ppc64le/xl-16.1.1/zlib-1.2.11-qzxl665z7gvs3suzkjmd76f54gpeemrj
+==> Installing hdf5
+==> Searching for binary cache of hdf5
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hdf5 found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/hdf5/hdf5-1.10.4.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/hdf5-1.10.4-qcjxiohojgy5ie3n4wig5zw7skdtr47x/hdf5-1.10.4.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/hdf5-1.10.4-qcjxiohojgy5ie3n4wig5zw7skdtr47x
+==> No patches needed for hdf5
+==> Building hdf5 [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j160'
+
+256 errors found in build log:
+     119     checking if /projects/opt/ppc64le/openmpi/p9/4.0.0-xlc-16.1.1-xlf-
+             16.1.1/bin/mpicc PIC flag -fPIC -DPIC works... yes
+     120     checking if /projects/opt/ppc64le/openmpi/p9/4.0.0-xlc-16.1.1-xlf-
+             16.1.1/bin/mpicc static flag -static works... no
+     121     checking if /projects/opt/ppc64le/openmpi/p9/4.0.0-xlc-16.1.1-xlf-
+             16.1.1/bin/mpicc supports -c -o file.o... yes
+     122     checking if /projects/opt/ppc64le/openmpi/p9/4.0.0-xlc-16.1.1-xlf-
+             16.1.1/bin/mpicc supports -c -o file.o... (cached) yes
+     123     checking whether the /projects/opt/ppc64le/openmpi/p9/4.0.0-xlc-16
+             .1.1-xlf-16.1.1/bin/mpicc linker (/usr/bin/ld) supports shared lib
+             raries... yes
+     124     checking whether -lc should be explicitly linked in... yes
+  >> 125     checking dynamic linker characteristics... /projects/opt/ppc64le/i
+             bm/xlc-16.1.1/xlC/16.1.1/bin/.orig/xlc: error: 1501-294 No input f
+             ile specified. Please use -qhelp for more information.
+     126     GNU/Linux ld.so
+     127     checking how to hardcode library paths into programs... immediate
+     128     checking for shl_load... no
+     129     checking for shl_load in -ldld... no
+     130     checking for dlopen... yes
+     131     checking whether a program can dlopen itself... yes
+
+     ...
+
+     1363      CCLD     swmr_sparse_writer
+     1364      CCLD     swmr_check_compat_vfd
+     1365      CCLD     vds_swmr_gen
+     1366      CCLD     vds_swmr_reader
+     1367      CCLD     vds_swmr_writer
+     1368      CCLD     filter_plugin
+  >> 1369    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1370    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1371    make[1]: *** [cache_tagging] Error 1
+     1372    make[1]: *** Waiting for unfinished jobs....
+  >> 1373    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1374    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1375    make[1]: *** [cache_api] Error 1
+  >> 1376    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1377    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1378    make[1]: *** [filter_fail] Error 1
+  >> 1379    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1380    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1381    make[1]: *** [hyperslab] Error 1
+  >> 1382    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1383    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1384    make[1]: *** [farray] Error 1
+  >> 1385    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1386    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1387    ../src/.libs/libhdf5.so: undefined reference to `../src/.libs/libh
+             df5.soMPI_Type_extent: undefined reference to `'
+     1388    MPI_Type_extent'
+  >> 1389    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1390    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1391    make[1]: *** [lheap] Error 1
+  >> 1392    make[1]: *** [cache_image] Error 1
+  >> 1393    make[1]: *** [ohdr] Error 1
+  >> 1394    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1395    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1396    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1397    ../src/.libs/libhdf5.so: undefined reference to `../src/.libs/libh
+             df5.soMPI_Type_extent: undefined reference to `'
+     1398    OMPI_C_MPI_NULL_COPY_FN'
+  >> 1399    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1400    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1401    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1402    make[1]: *** [evict_on_close] Error 1
+  >> 1403    make[1]: *** [dt_arith] Error 1
+  >> 1404    make[1]: *** [stab] Error 1
+  >> 1405    make[1]: *** [earray] Error 1
+  >> 1406    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1407    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1408    make[1]: *** [cache] Error 1
+  >> 1409    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1410    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1411    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1412    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1413    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1414    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1415    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1416    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1417    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1418    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1419    make[1]: *** [pool] Error 1
+  >> 1420    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1421    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1422    make[1]: *** [cmpd_dset] Error 1
+  >> 1423    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1424    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1425    make[1]: *** [gheap] Error 1
+  >> 1426    make[1]: *** [btree2] Error 1
+  >> 1427    make[1]: *** [bittests] Error 1
+  >> 1428    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1429    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1430    make[1]: *** [accum] Error 1
+  >> 1431    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1432    make[1]: *** [unlink] Error 1
+  >> 1433    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1434    make[1]: *** [app_ref] Error 1
+  >> 1435    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1436    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1437    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1438    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1439    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1440    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1441    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1442    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1443    make[1]: *** [extend] Error 1
+  >> 1444    make[1]: *** [page_buffer] Error 1
+  >> 1445    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1446    make[1]: *** [istore] Error 1
+  >> 1447    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1448    make[1]: *** [dtypes] Error 1
+  >> 1449    make[1]: *** [fheap] Error 1
+  >> 1450    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1451    make[1]: *** [vfd] Error 1
+  >> 1452    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1453    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1454    make[1]: *** [big] Error 1
+  >> 1455    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1456    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1457    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1458    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1459    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1460    make[1]: *** [dsets] Error 1
+  >> 1461    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1462    ../src/.libs/libhdf5.so: undefined reference to `../src/.libs/libh
+             df5.so: undefined reference to `OMPI_C_MPI_NULL_COPY_FNMPI_Type_ex
+             tent'
+     1463    '
+  >> 1464    make[1]: *** [freespace] Error 1
+  >> 1465    make[1]: *** [flush1] Error 1
+  >> 1466    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1467    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1468    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1469    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1470    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1471    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1472    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1473    make[1]: *** [twriteorder] Error 1
+  >> 1474    make[1]: *** [tcheck_version] Error 1
+  >> 1475    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1476    make[1]: *** [direct_chunk] Error 1
+  >> 1477    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1478    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1479    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1480    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1481    make[1]: *** [reserved] Error 1
+  >> 1482    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1483    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1484    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1485    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1486    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1487    make[1]: *** [err_compat] Error 1
+  >> 1488    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1489    make[1]: *** [file_image] Error 1
+  >> 1490    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1491    make[1]: *** [mtime] Error 1
+  >> 1492    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1493    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1494    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1495    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1496    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1497    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1498    make[1]: *** [flush2] Error 1
+  >> 1499    make[1]: *** [external] Error 1
+  >> 1500    make[1]: *** [dtransform] Error 1
+  >> 1501    make[1]: *** [enum] Error 1
+  >> 1502    make[1]: *** [testmeta] Error 1
+  >> 1503    make[1]: *** [enc_dec_plist] Error 1
+  >> 1504    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1505    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1506    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1507    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1508    make[1]: *** [ntypes] Error 1
+  >> 1509    make[1]: *** [mount] Error 1
+  >> 1510    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1511    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1512    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1513    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1514    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1515    make[1]: ../src/.libs/libhdf5.so: undefined reference to `*** [obj
+             copy] Error 1OMPI_C_MPI_NULL_COPY_FN
+     1516    '
+  >> 1517    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1518    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1519    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1520    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1521    make[1]: *** [atomic_reader] Error 1
+  >> 1522    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1523    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1524    make[1]: *** [cork] Error 1
+  >> 1525    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1526    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1527    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1528    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1529    ../src/.libs/libhdf5.so: undefined reference to `make[1]: MPI_Type
+             _extent*** [cache_logging] Error 1
+     1530    '
+  >> 1531    make[1]: *** [fillval] Error 1
+  >> 1532    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1533    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1534    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1535    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1536    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1537    make[1]: *** [set_extent] Error 1
+  >> 1538    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1539    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1540    make[1]: *** [cross_read] Error 1
+  >> 1541    make[1]: *** [dangle] Error 1
+  >> 1542    make[1]: *** [ttsafe] Error 1
+  >> 1543    make[1]: *** [unregister] Error 1
+  >> 1544    make[1]: *** [enc_dec_plist_cross_platform] Error 1
+  >> 1545    make[1]: *** [error_test] Error 1
+  >> 1546    make[1]: *** [efc] Error 1
+  >> 1547    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1548    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1549    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1550    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1551    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1552    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1553    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1554    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1555    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1556    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1557    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1558    ../src/.libs/libhdf5.so../src/.libs/libhdf5.so: undefined referenc
+             e to `: undefined reference to `OMPI_C_MPI_NULL_COPY_FN'
+     1559    MPI_Type_extent'
+  >> 1560    make[1]: *** [filenotclosed] Error 1
+  >> 1561    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1562    make[1]: *** [links] Error 1
+  >> 1563    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1564    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1565    make[1]: *** [swmr] Error 1
+  >> 1566    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1567    make[1]: *** [accum_swmr_reader] Error 1
+  >> 1568    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1569    make[1]: *** [use_append_chunk] Error 1
+  >> 1570    make[1]: *** [getname] Error 1
+  >> 1571    make[1]: *** [atomic_writer] Error 1
+  >> 1572    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1573    make[1]: *** [mf] Error 1
+  >> 1574    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1575    make[1]: *** [swmr_start_write] Error 1
+  >> 1576    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1577    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1578    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1579    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1580    ../src/.libs/libhdf5.so: undefined reference to `../src/.libs/libh
+             df5.soMPI_Type_extent'
+     1581    : undefined reference to `MPI_Type_extent'
+  >> 1582    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1583    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1584    make[1]: *** [swmr_generator] Error 1
+  >> 1585    make[1]: *** [links_env] Error 1
+  >> 1586    make[1]: *** [use_disable_mdc_flushes] Error 1
+  >> 1587    make[1]: *** [use_append_mchunks] Error 1
+  >> 1588    make[1]: *** [swmr_remove_reader] Error 1
+  >> 1589    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1590    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1591    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1592    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1593    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1594    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1595    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1596    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1597    make[1]: *** [swmr_remove_writer] Error 1
+  >> 1598    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1599    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1600    make[1]: *** [swmr_reader] Error 1
+  >> 1601    make[1]: *** [swmr_writer] Error 1
+  >> 1602    make[1]: *** [flushrefresh] Error 1
+  >> 1603    make[1]: *** [vds] Error 1
+  >> 1604    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1605    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1606    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1607    make[1]: *** [vds_swmr_reader] Error 1
+  >> 1608    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1609    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1610    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1611    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1612    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1613    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1614    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1615    make[1]: *** [swmr_sparse_reader] Error 1
+  >> 1616    make[1]: *** [vds_swmr_gen] Error 1
+  >> 1617    make[1]: *** [swmr_addrem_writer] Error 1
+  >> 1618    make[1]: *** [swmr_check_compat_vfd] Error 1
+  >> 1619    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1620    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1621    make[1]: *** [swmr_sparse_writer] Error 1
+  >> 1622    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1623    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1624    make[1]: *** [filter_plugin] Error 1
+  >> 1625    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1626    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1627    make[1]: *** [vds_swmr_writer] Error 1
+  >> 1628    ../src/.libs/libhdf5.so: undefined reference to `MPI_Type_extent'
+  >> 1629    ../src/.libs/libhdf5.so: undefined reference to `OMPI_C_MPI_NULL_C
+             OPY_FN'
+  >> 1630    make[1]: *** [testhdf5] Error 1
+     1631    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-sta
+             ge-aM7jE5/hdf5-1.10.4/test'
+  >> 1632    make: *** [all-recursive] Error 1
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/hdf5-1.10.4-qcjxiohojgy5ie3n4wig5zw7skdtr47x/hdf5-1.10.4/spack-build.out
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files

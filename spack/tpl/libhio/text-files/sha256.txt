@@ -1,0 +1,17 @@
+l127914@pn1249300.lanl.gov:libhio $ pwd
+/Users/l127914/Documents/repos/gitlab/transfer-spack/libhio
+
+l127914@pn1249300.lanl.gov:libhio $ date
+Thu Feb 21 15:29:13 MST 2019
+
+l127914@pn1249300.lanl.gov:libhio $ shasum -a 256 libhio-1.4.1.0.tar.bz2
+963f4a8d365afd92a5593f80946e2c4c79f4185d897436a43fae61dae5567ac4  libhio-1.4.1.0.tar.bz2
+
+l127914@pn1249300.lanl.gov:libhio $ shasum -a 256 libhio-1.4.1.1.tar.bz2
+5c65d18bf74357f9d9960bf6b9ad2432f8fc5a2b653e72befe4d1caabb9a2f7a  libhio-1.4.1.1.tar.bz2
+
+l127914@pn1249300.lanl.gov:libhio $ shasum -a 256 libhio-1.4.1.2.tar.bz2
+87a0f9b72b7aa69485c40d9bd36f02af653b70e8eed3eb0b50eaeb02ff0a9049  libhio-1.4.1.2.tar.bz2
+
+l127914@pn1249300.lanl.gov:libhio $ shasum -a 256 libhio-1.4.1.3.tar.bz2
+b6ad2354f1bc597e7e55fc989ff50944835d64149f4925c2f45df950919e4d08  libhio-1.4.1.3.tar.bz2

@@ -1,0 +1,19 @@
+Delete old fork: floquet/spack
+Create spack/spack fork
+
+Go to spack directory
+1. git pull
+2. git remote add floquet https://github.com/floquet/spack.git
+3. vi var/spack/repos/builtin/packages/***/package.py
+4. git diff var/spack/repos/builtin/packages/***/package.py
+5. git add var/spack/repos/builtin/packages/***/package.py
+6. git checkout -b descriptive-branch-name
+7. git commit -s
+8. git push floquet HEAD
+
+Authenticate to GitHub
+
+Switch to GUI: https://github.com/spack/spack
+under recently pushed branches: select green buttons
+1. Compare and pull request (green button)
+2. Create a pull request (green button)

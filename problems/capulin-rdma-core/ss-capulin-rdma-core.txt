@@ -1,0 +1,474 @@
+dantopa@nid00003:capulin-arm.ucx $ date
+Thu Apr 18 12:38:39 MDT 2019
+
+dantopa@nid00003:capulin-arm.ucx $ pwd
+/lustre/cpscratch1/dantopa/repos/github/libraries/capulin-arm.ucx
+
+dantopa@nid00003:capulin-arm.ucx $ ml
+Currently Loaded Modulefiles:
+  1) modules/3.2.11.1                                    9) nodehealth/5.6.15-7.0.0.1_4.19__g3727db8.ari       17) cray-mpich/7.7.6
+  2) pdsh/2.27-7.0.0.1_5.5__g70b69a8.ari                10) system-config/3.5.2956-7.0.0.1_3.9__g0e7888c5.ari  18) rca/2.2.20-7.0.0.1_4.19__g8e3fb5b.ari
+  3) udreg/2.3.2-7.0.0.1_4.10__g8175d3d.ari             11) slurm/18.08.3-1                                    19) cray-libsci/18.12.1
+  4) ugni/6.0.14.0-7.0.0.1_7.12__ge78e5b0.ari           12) Base-opts/2.4.139-7.0.0.1_4.11__gbb799dd.ari       20) pmi/5.0.14
+  5) gni-headers/5.0.12.0-7.0.0.1_7.14__g3b1768f.ari    13) gcc/8.3.0                                          21) atp/2.1.3
+  6) dmapp/7.1.1-7.0.0.1_4.18__g54dc2b7.ari             14) craype-arm-thunderx2                               22) perftools-base/7.0.6
+  7) xpmem/2.2.17-7.0.0.1_3.11__g7acee3a.ari            15) craype-network-aries                               23) PrgEnv-gnu/6.0.5
+  8) llm/21.4.570-7.0.0.1_5.6__ge50c6aa.ari             16) craype/2.5.18
+
+dantopa@nid00003:capulin-arm.ucx $ spack install rdma-core % gcc @ 8.3.0
+==> cmake@3.14.1 : has external module in cmake/3.12.1
+==> cmake@3.14.1 : is actually installed in None
+==> cmake@3.14.1 : generating module file
+==> cmake@3.14.1 : registering into DB
+==> bison@3.0.5 : externally installed in /usr
+==> bison@3.0.5 : generating module file
+==> bison@3.0.5 : registering into DB
+==> flex@2.6.4 : externally installed in /usr
+==> flex@2.6.4 : generating module file
+==> flex@2.6.4 : registering into DB
+==> m4@1.4.18 : externally installed in /usr
+==> m4@1.4.18 : generating module file
+==> m4@1.4.18 : registering into DB
+==> Installing libnl
+==> Searching for binary cache of libnl
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libnl found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/libnl/libnl-3.3.0.tar.gz
+############################################################################################################################################################################# 100.0%
+==> Staging archive: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/var/spack/stage/libnl-3.3.0-imk7ocwvuuk6eiopv3yszo77fbm6eo3e/libnl-3.3.0.tar.gz
+==> Created stage in /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/var/spack/stage/libnl-3.3.0-imk7ocwvuuk6eiopv3yszo77fbm6eo3e
+==> No patches needed for libnl
+==> Building libnl [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libnl
+  Fetch: 0.09s.  Build: 1m 0.60s.  Total: 1m 0.69s.
+[+] /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/cray-cnl6-arm_thunderx2/gcc-8.3.0/libnl-3.3.0-imk7ocwvuuk6eiopv3yszo77fbm6eo3e
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : generating module file
+==> pkg-config@0.29.2 : registering into DB
+==> Installing rdma-core
+==> Searching for binary cache of rdma-core
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for rdma-core found: installing from source
+==> Error: SyntaxError: invalid syntax (<string>, line 1)
+
+/pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py:784, in child_process:
+        781            tb_string = traceback.format_exc()
+        782
+        783            # build up some context from the offending package so we can
+  >>    784            # show that, too.
+        785            package_context = get_package_context(tb)
+        786
+        787            build_log = None
+
+
+dantopa@nid00003:capulin-arm.ucx $ spack install -d rdma-core % gcc @ 8.3.0
+==> Error: unrecognized arguments: -d
+dantopa@nid00003:capulin-arm.ucx $ spack -d install rdma-core % gcc @ 8.3.0
+==> [2019-04-18-12:37:11.617468] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:11.655085] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'avail' '-t' 'craype-'
+==> [2019-04-18-12:37:11.733562] '/usr/bin/env' '-i' '/bin/bash' '-lc' 'echo $CRAY_CPU_TARGET'
+==> [2019-04-18-12:37:12.304525] Found default module:arm-thunderx2
+==> [2019-04-18-12:37:12.340139] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:12.373094] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'avail' 'PrgEnv-'
+==> [2019-04-18-12:37:12.564974] Reading config file /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/etc/spack/defaults/modules.yaml
+==> [2019-04-18-12:37:12.621971] Reading config file /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/etc/spack/defaults/config.yaml
+==> [2019-04-18-12:37:12.662214] Imported install from built-in commands
+==> [2019-04-18-12:37:12.663835] Imported install from built-in commands
+==> [2019-04-18-12:37:12.895486] Reading config file /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/etc/spack/defaults/repos.yaml
+==> [2019-04-18-12:37:13.271032] Reading config file /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/etc/spack/defaults/packages.yaml
+==> [2019-04-18-12:37:13.350689] READ LOCK: /users/dantopa/.spack/cache/tags/.builtin-index.json.lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:13.371968] READ LOCK: /users/dantopa/.spack/cache/tags/.builtin-index.json.lock[0:0] [Acquired]
+==> [2019-04-18-12:37:13.375026] READ LOCK: /users/dantopa/.spack/cache/tags/.builtin-index.json.lock[0:0] [Released]
+==> [2019-04-18-12:37:13.382230] READ LOCK: /users/dantopa/.spack/cache/patches/.builtin-index.json.lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:13.385803] READ LOCK: /users/dantopa/.spack/cache/patches/.builtin-index.json.lock[0:0] [Acquired]
+==> [2019-04-18-12:37:13.411818] READ LOCK: /users/dantopa/.spack/cache/patches/.builtin-index.json.lock[0:0] [Released]
+==> [2019-04-18-12:37:13.418660] READ LOCK: /users/dantopa/.spack/cache/providers/.builtin-index.json.lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:13.422156] READ LOCK: /users/dantopa/.spack/cache/providers/.builtin-index.json.lock[0:0] [Acquired]
+==> [2019-04-18-12:37:13.468133] READ LOCK: /users/dantopa/.spack/cache/providers/.builtin-index.json.lock[0:0] [Released]
+==> [2019-04-18-12:37:13.612604] Reading config file /users/dantopa/.spack/cray/compilers.yaml
+==> [2019-04-18-12:37:14.100619] Ordered hashes [flex]: flex/0/09c22e5c6fef327d3e48eb23f0d610dcd3a35ab9207f12e0f875701c677978d3
+==> [2019-04-18-12:37:14.103300] Ordered hashes [m4]: m4/2/3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00, m4/4/c0a408fbffb7255fcc75e26bd8edab116fc81d216bfd18b473668b7739a4158e, m4/5/fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8
+==> [2019-04-18-12:37:14.111162] Loading module: PrgEnv-gnu
+==> [2019-04-18-12:37:14.122588] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:14.157097] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'PrgEnv-gnu'
+==> [2019-04-18-12:37:14.183269] Unloading module: PrgEnv
+==> [2019-04-18-12:37:14.191408] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:14.225540] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv'
+==> [2019-04-18-12:37:14.237939] Unloading module: PrgEnv-x1
+==> [2019-04-18-12:37:14.245982] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:14.279859] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-x1'
+==> [2019-04-18-12:37:14.292423] Unloading module: PrgEnv-x2
+==> [2019-04-18-12:37:14.300448] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:14.334691] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-x2'
+==> [2019-04-18-12:37:14.347049] Unloading module: PrgEnv-cray
+==> [2019-04-18-12:37:14.355072] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:14.388645] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-cray'
+==> [2019-04-18-12:37:14.400936] Unloading module: PrgEnv-allinea
+==> [2019-04-18-12:37:14.408954] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:14.441788] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-allinea'
+==> [2019-04-18-12:37:14.454099] Unloading module: PrgEnv-intel
+==> [2019-04-18-12:37:14.462100] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:14.494959] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-intel'
+==> [2019-04-18-12:37:14.507345] Unloading module: PrgEnv-pgi
+==> [2019-04-18-12:37:14.515340] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:14.548137] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-pgi'
+==> [2019-04-18-12:37:14.560502] Unloading module: PrgEnv-pathscale
+==> [2019-04-18-12:37:14.568550] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:14.601608] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-pathscale'
+==> [2019-04-18-12:37:14.613975] Unloading module: PrgEnv-gnu
+==> [2019-04-18-12:37:14.621946] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:14.656002] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-gnu'
+==> [2019-04-18-12:37:14.872317] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'load' 'PrgEnv-gnu'
+==> [2019-04-18-12:37:15.167783] Loading module: gcc/8.3.0
+==> [2019-04-18-12:37:15.176232] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:15.209310] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:37:15.225000] Unloading module: gcc
+==> [2019-04-18-12:37:15.233182] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:15.266182] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'gcc'
+==> [2019-04-18-12:37:15.280195] Unloading module: gcc-cross-aarch64
+==> [2019-04-18-12:37:15.288239] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:15.320120] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'gcc-cross-aarch64'
+==> [2019-04-18-12:37:15.332853] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'load' 'gcc/8.3.0'
+==> [2019-04-18-12:37:15.360846] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:15.393872] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'cmake/3.12.1'
+==> [2019-04-18-12:37:15.407498] Module name: cmake/3.12.1
+==> [2019-04-18-12:37:15.407658] Package directory variable prefix: CMAKE
+==> [2019-04-18-12:37:15.427768] DATABASE LOCK TIMEOUT: 120s
+==> [2019-04-18-12:37:15.427866] PACKAGE LOCK TIMEOUT: No timeout
+==> [2019-04-18-12:37:15.428632] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:15.430101] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:15.447721] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:15.448809] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:15.450395] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:15.465768] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:15.468108] WRITE LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/prefix_lock[4241784102828391912:1] [Acquiring]
+==> [2019-04-18-12:37:15.469842] WRITE LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/prefix_lock[4241784102828391912:1] [Acquired]
+==> [2019-04-18-12:37:15.469965] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:15.471499] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:15.487249] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:15.488211] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:15.489914] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:15.505412] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:15.509921] WRITE LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/prefix_lock[4241784102828391912:1] [Released]
+==> [2019-04-18-12:37:15.528099] link /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/var/spack/stage/rdma-core-20-ow53avon7b55bcohbc252gpbcz7yoixk -> /tmp/dantopa/spack-stage/spack-stage-1qvWyC
+==> [2019-04-18-12:37:15.530131] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/prefix_lock[4241784102828391912:1] [Acquiring]
+==> [2019-04-18-12:37:15.531805] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/prefix_lock[4241784102828391912:1] [Acquired]
+==> [2019-04-18-12:37:15.532284] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/prefix_lock[4241784102828391912:1] [Released]
+==> [2019-04-18-12:37:15.533193] Installing rdma-core dependencies
+==> [2019-04-18-12:37:15.533379] cmake@3.14.1 : has external module in cmake/3.12.1
+==> [2019-04-18-12:37:15.533478] cmake@3.14.1 : is actually installed in None
+==> [2019-04-18-12:37:15.538371] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:15.539815] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:15.555805] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:15.556762] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:15.558434] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:15.573961] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:15.574952] cmake@3.14.1 : already registered in DB
+==> [2019-04-18-12:37:15.575129] bison@3.0.5 : externally installed in /usr
+==> [2019-04-18-12:37:15.579156] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:15.580901] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:15.596502] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:15.597656] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:15.599115] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:15.616242] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:15.617296] bison@3.0.5 : already registered in DB
+==> [2019-04-18-12:37:15.617454] flex@2.6.4 : externally installed in /usr
+==> [2019-04-18-12:37:15.622276] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:15.623920] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:15.639241] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:15.640279] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:15.641808] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:15.656833] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:15.657743] flex@2.6.4 : already registered in DB
+==> [2019-04-18-12:37:15.657894] m4@1.4.18 : externally installed in /usr
+==> [2019-04-18-12:37:15.663362] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:15.664849] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:15.680064] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:15.680984] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:15.682707] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:15.697762] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:15.698717] m4@1.4.18 : already registered in DB
+==> [2019-04-18-12:37:15.698854] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:15.700327] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:15.715666] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:15.716619] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:15.718209] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:15.733478] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:15.735370] WRITE LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/prefix_lock[2417020700479097585:1] [Acquiring]
+==> [2019-04-18-12:37:15.736967] WRITE LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/prefix_lock[2417020700479097585:1] [Acquired]
+==> [2019-04-18-12:37:15.737088] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:15.738624] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:15.754207] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:15.755147] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:15.756718] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:15.773927] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:15.774886] WRITE LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/prefix_lock[2417020700479097585:1] [Released]
+==> [2019-04-18-12:37:15.780151] link /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/var/spack/stage/libnl-3.3.0-imk7ocwvuuk6eiopv3yszo77fbm6eo3e -> /tmp/dantopa/spack-stage/spack-stage-ZcYYu1
+==> [2019-04-18-12:37:15.781510] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/prefix_lock[2417020700479097585:1] [Acquiring]
+==> [2019-04-18-12:37:15.782763] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/prefix_lock[2417020700479097585:1] [Acquired]
+==> [2019-04-18-12:37:15.792186] libnl is already installed in /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/cray-cnl6-arm_thunderx2/gcc-8.3.0/libnl-3.3.0-imk7ocwvuuk6eiopv3yszo77fbm6eo3e
+==> [2019-04-18-12:37:15.792317] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:15.793784] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:15.808731] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:15.809584] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:15.811144] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:15.826299] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:15.828576] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/prefix_lock[2417020700479097585:1] [Released]
+==> [2019-04-18-12:37:15.829534] pkg-config@0.29.2 : externally installed in /usr
+==> [2019-04-18-12:37:15.833731] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:15.835342] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:15.850351] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:15.851514] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:15.852933] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:15.868172] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:15.869343] pkg-config@0.29.2 : already registered in DB
+==> [2019-04-18-12:37:15.869492] Boostrapping gcc@8.3.0 compiler for rdma-core
+==> [2019-04-18-12:37:15.877090] Installing rdma-core
+==> [2019-04-18-12:37:15.877173] Searching for binary cache of rdma-core
+==> [2019-04-18-12:37:15.877430] Reading config file /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/etc/spack/defaults/mirrors.yaml
+==> [2019-04-18-12:37:15.882006] Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> [2019-04-18-12:37:15.886595] No binary for rdma-core found: installing from source
+==> [2019-04-18-12:37:16.175279] No libraries found for libnl
+==> [2019-04-18-12:37:16.237822] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:16.239527] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:16.255720] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:16.256706] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:16.257899] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:16.276681] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:16.324681] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:16.360473] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'avail' '-t' 'craype-'
+==> [2019-04-18-12:37:16.438133] '/usr/bin/env' '-i' '/bin/bash' '-lc' 'echo $CRAY_CPU_TARGET'
+==> [2019-04-18-12:37:17.009743] Found default module:arm-thunderx2
+==> [2019-04-18-12:37:17.019166] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:17.052381] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'avail' 'PrgEnv-'
+==> [2019-04-18-12:37:17.116288] Unloading module: cray-mpich
+==> [2019-04-18-12:37:17.124090] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:17.156916] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'cray-mpich'
+==> [2019-04-18-12:37:17.177084] Unloading module: darshan
+==> [2019-04-18-12:37:17.184657] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:17.216383] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'darshan'
+==> [2019-04-18-12:37:17.228697] Unloading module: cray-libsci
+==> [2019-04-18-12:37:17.236212] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:17.268025] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'cray-libsci'
+==> [2019-04-18-12:37:17.287850] Unloading module: altd
+==> [2019-04-18-12:37:17.295225] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:17.326127] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'altd'
+==> [2019-04-18-12:37:17.378846] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:17.409869] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:37:17.425171] Module name: gcc/8.3.0
+==> [2019-04-18-12:37:17.425365] Package directory variable prefix: GCC
+==> [2019-04-18-12:37:17.488443] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:17.519514] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:37:17.534862] Module name: gcc/8.3.0
+==> [2019-04-18-12:37:17.535037] Package directory variable prefix: GCC
+==> [2019-04-18-12:37:17.567935] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:17.569613] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:17.585495] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:17.617023] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:17.649141] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:37:17.664382] Module name: gcc/8.3.0
+==> [2019-04-18-12:37:17.664561] Package directory variable prefix: GCC
+==> [2019-04-18-12:37:17.726981] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:17.757432] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:37:17.772725] Module name: gcc/8.3.0
+==> [2019-04-18-12:37:17.772901] Package directory variable prefix: GCC
+==> [2019-04-18-12:37:17.805514] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:17.807025] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:17.822733] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:17.853824] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:17.884200] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:37:17.899422] Module name: gcc/8.3.0
+==> [2019-04-18-12:37:17.899599] Package directory variable prefix: GCC
+==> [2019-04-18-12:37:17.961954] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:17.992242] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:37:18.007486] Module name: gcc/8.3.0
+==> [2019-04-18-12:37:18.007668] Package directory variable prefix: GCC
+==> [2019-04-18-12:37:18.040433] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquiring]
+==> [2019-04-18-12:37:18.042117] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Acquired]
+==> [2019-04-18-12:37:18.057914] READ LOCK: /pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/opt/spack/.spack-db/lock[0:0] [Released]
+==> [2019-04-18-12:37:18.089267] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:18.119799] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:37:18.135049] Module name: gcc/8.3.0
+==> [2019-04-18-12:37:18.135222] Package directory variable prefix: GCC
+==> [2019-04-18-12:37:18.197776] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:18.228091] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:37:18.243351] Module name: gcc/8.3.0
+==> [2019-04-18-12:37:18.243528] Package directory variable prefix: GCC
+==> [2019-04-18-12:37:18.306598] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:18.336949] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:37:18.352212] Module name: gcc/8.3.0
+==> [2019-04-18-12:37:18.352393] Package directory variable prefix: GCC
+==> [2019-04-18-12:37:18.414819] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:18.444988] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:37:18.460164] Module name: gcc/8.3.0
+==> [2019-04-18-12:37:18.460341] Package directory variable prefix: GCC
+==> [2019-04-18-12:37:18.523299] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:18.553776] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:37:18.569014] Module name: gcc/8.3.0
+==> [2019-04-18-12:37:18.569193] Package directory variable prefix: GCC
+==> [2019-04-18-12:37:18.631502] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:18.662514] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:37:18.677743] Module name: gcc/8.3.0
+==> [2019-04-18-12:37:18.677919] Package directory variable prefix: GCC
+==> [2019-04-18-12:37:18.712435] A dependency has updated CPATH, this may lead pkg-config to assume that the package is part of the system includes and omit it when invoked with '--cflags'.
+==> [2019-04-18-12:37:18.744040] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:18.775100] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:37:18.790375] Module name: gcc/8.3.0
+==> [2019-04-18-12:37:18.790551] Package directory variable prefix: GCC
+==> [2019-04-18-12:37:18.853358] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:18.884408] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:37:18.899595] Module name: gcc/8.3.0
+==> [2019-04-18-12:37:18.899771] Package directory variable prefix: GCC
+==> [2019-04-18-12:37:18.938343] Loading module: PrgEnv-gnu
+==> [2019-04-18-12:37:18.945711] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:18.976576] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'PrgEnv-gnu'
+==> [2019-04-18-12:37:19.003275] Unloading module: PrgEnv
+==> [2019-04-18-12:37:19.010728] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:19.041527] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv'
+==> [2019-04-18-12:37:19.053889] Unloading module: PrgEnv-x1
+==> [2019-04-18-12:37:19.061312] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:19.091360] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-x1'
+==> [2019-04-18-12:37:19.103739] Unloading module: PrgEnv-x2
+==> [2019-04-18-12:37:19.111131] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:19.141601] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-x2'
+==> [2019-04-18-12:37:19.153920] Unloading module: PrgEnv-cray
+==> [2019-04-18-12:37:19.161368] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:19.191712] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-cray'
+==> [2019-04-18-12:37:19.204129] Unloading module: PrgEnv-allinea
+==> [2019-04-18-12:37:19.211530] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:19.242070] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-allinea'
+==> [2019-04-18-12:37:19.254419] Unloading module: PrgEnv-intel
+==> [2019-04-18-12:37:19.261850] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:19.292182] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-intel'
+==> [2019-04-18-12:37:19.304561] Unloading module: PrgEnv-pgi
+==> [2019-04-18-12:37:19.311975] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:19.342384] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-pgi'
+==> [2019-04-18-12:37:19.354741] Unloading module: PrgEnv-pathscale
+==> [2019-04-18-12:37:19.362209] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:19.392516] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-pathscale'
+==> [2019-04-18-12:37:19.404833] Unloading module: PrgEnv-gnu
+==> [2019-04-18-12:37:19.412219] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:19.442727] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'PrgEnv-gnu'
+==> [2019-04-18-12:37:19.658940] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'load' 'PrgEnv-gnu'
+==> [2019-04-18-12:37:19.913236] Loading module: gcc/8.3.0
+==> [2019-04-18-12:37:19.921287] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:19.953098] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'gcc/8.3.0'
+==> [2019-04-18-12:37:19.968844] Unloading module: gcc
+==> [2019-04-18-12:37:19.976686] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:20.008250] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'gcc'
+==> [2019-04-18-12:37:20.022280] Unloading module: gcc-cross-aarch64
+==> [2019-04-18-12:37:20.029892] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:20.060009] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'gcc-cross-aarch64'
+==> [2019-04-18-12:37:20.072882] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'load' 'gcc/8.3.0'
+==> [2019-04-18-12:37:20.101163] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:20.134316] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'avail' '-t' 'craype-'
+==> [2019-04-18-12:37:20.221173] '/usr/bin/env' '-i' '/bin/bash' '-lc' 'echo $CRAY_CPU_TARGET'
+==> [2019-04-18-12:37:20.794187] Found default module:arm-thunderx2
+==> [2019-04-18-12:37:20.803322] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:20.834554] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'avail' 'PrgEnv-'
+==> [2019-04-18-12:37:20.906670] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:20.937518] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'avail' '-t' 'craype-'
+==> [2019-04-18-12:37:21.002356] '/usr/bin/env' '-i' '/bin/bash' '-lc' 'echo $CRAY_CPU_TARGET'
+==> [2019-04-18-12:37:21.573121] Found default module:arm-thunderx2
+==> [2019-04-18-12:37:21.582236] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:21.613579] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'avail' 'PrgEnv-'
+==> [2019-04-18-12:37:21.686996] Loading module: craype-arm-thunderx2
+==> [2019-04-18-12:37:21.694820] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:21.726613] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'craype-arm-thunderx2'
+==> [2019-04-18-12:37:21.742460] Unloading module: xtpe-abudhabi
+==> [2019-04-18-12:37:21.750261] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:21.782257] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-abudhabi'
+==> [2019-04-18-12:37:21.794768] Unloading module: xtpe-abudhabi-cu
+==> [2019-04-18-12:37:21.802547] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:21.834189] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-abudhabi-cu'
+==> [2019-04-18-12:37:21.846676] Unloading module: xtpe-barcelona
+==> [2019-04-18-12:37:21.854385] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:21.886121] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-barcelona'
+==> [2019-04-18-12:37:21.898599] Unloading module: xtep-haswell
+==> [2019-04-18-12:37:21.906350] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:21.938070] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtep-haswell'
+==> [2019-04-18-12:37:21.950488] Unloading module: xtpe-intel-knc
+==> [2019-04-18-12:37:21.958182] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:21.989908] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-intel-knc'
+==> [2019-04-18-12:37:22.002368] Unloading module: xtpe-interlagos
+==> [2019-04-18-12:37:22.010101] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:22.041804] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-interlagos'
+==> [2019-04-18-12:37:22.054282] Unloading module: xtpe-interlagos-cu
+==> [2019-04-18-12:37:22.061951] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:22.094215] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-interlagos-cu'
+==> [2019-04-18-12:37:22.106697] Unloading module: xtpe-istanbul
+==> [2019-04-18-12:37:22.114391] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:22.146946] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-istanbul'
+==> [2019-04-18-12:37:22.159547] Unloading module: xtpe-ivybridge
+==> [2019-04-18-12:37:22.167240] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:22.199400] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-ivybridge'
+==> [2019-04-18-12:37:22.211983] Unloading module: xtpe-mc8
+==> [2019-04-18-12:37:22.219697] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:22.252052] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-mc8'
+==> [2019-04-18-12:37:22.264657] Unloading module: xtpe-mc12
+==> [2019-04-18-12:37:22.272349] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:22.305142] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-mc12'
+==> [2019-04-18-12:37:22.317609] Unloading module: xtpe-mic-knl
+==> [2019-04-18-12:37:22.325291] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:22.358083] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-mic-knl'
+==> [2019-04-18-12:37:22.370529] Unloading module: xtpe-sandybridge
+==> [2019-04-18-12:37:22.378231] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:22.411001] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-sandybridge'
+==> [2019-04-18-12:37:22.423574] Unloading module: xtpe-shanghai
+==> [2019-04-18-12:37:22.431262] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:22.464028] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-shanghai'
+==> [2019-04-18-12:37:22.476680] Unloading module: xtpe-xeon
+==> [2019-04-18-12:37:22.484371] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:22.516959] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'xtpe-xeon'
+==> [2019-04-18-12:37:22.529499] Unloading module: craype-xeon
+==> [2019-04-18-12:37:22.537185] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:22.569975] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'craype-xeon'
+==> [2019-04-18-12:37:22.582401] Unloading module: craype-aarch64
+==> [2019-04-18-12:37:22.590118] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:22.621915] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'craype-aarch64'
+==> [2019-04-18-12:37:22.634335] Unloading module: craype-thunderx
+==> [2019-04-18-12:37:22.642021] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:22.673810] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'craype-thunderx'
+==> [2019-04-18-12:37:22.686248] Unloading module: craype-thunderx2
+==> [2019-04-18-12:37:22.693941] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:22.725670] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'unload' 'craype-thunderx2'
+==> [2019-04-18-12:37:22.738491] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'load' 'craype-arm-thunderx2'
+==> [2019-04-18-12:37:22.763983] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'load' 'craype-arm-thunderx2'
+==> [2019-04-18-12:37:22.789495] Loading module: cmake/3.12.1
+==> [2019-04-18-12:37:22.797202] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-18-12:37:22.829126] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'show' 'cmake/3.12.1'
+==> [2019-04-18-12:37:22.843089] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'load' 'cmake/3.12.1'
+==> [2019-04-18-12:37:22.856919] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'load' 'cmake/3.12.1'
+==> [2019-04-18-12:37:22.870397] Module load output of cmake/3.12.1:
+ModuleCmd_Load.c(244):ERROR:105: Unable to locate a modulefile for 'cmake/3.12.1'
+
+
+==> [2019-04-18-12:37:22.877042] Error: SyntaxError: invalid syntax (<string>, line 1)
+
+/pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py:784, in child_process:
+        781            tb_string = traceback.format_exc()
+        782
+        783            # build up some context from the offending package so we can
+  >>    784            # show that, too.
+        785            package_context = get_package_context(tb)
+        786
+        787            build_log = None
+
+
+Traceback (most recent call last):
+  File "/pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py", line 766, in child_process
+    setup_package(pkg, dirty=dirty)
+  File "/pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py", line 719, in setup_package
+    load_external_modules(pkg)
+  File "/pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/lib/spack/spack/build_environment.py", line 663, in load_external_modules
+    load_module(dep.external_module)
+  File "/pfs/cpscratch1/yellow/dantopa/repos/github/libraries/capulin-arm.ucx/lib/spack/spack/util/module_cmd.py", line 147, in load_module
+    exec(compile(load, '<string>', 'exec'))
+  File "<string>", line 1
+    ModuleCmd_Load.c(244):ERROR:105: Unable to locate a modulefile for 'cmake/3.12.1'
+                         ^
+SyntaxError: invalid syntax

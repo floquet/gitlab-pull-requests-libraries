@@ -1,0 +1,45 @@
+dantopa@cn2027:defaults $ cp darwispack install openmpi@4.0.1rc1 % pgi@18.7
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-ppc64le/pgi-18.7/util-macros-1.19.1-l6rvtxb7mpgwu2yfizddl5mbkbcbr6fu
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-ppc64le/pgi-18.7/libpciaccess-0.13.5-djjkhelusyvhwyfobfs57ltjoxlzrbtj
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-ppc64le/pgi-18.7/hwloc-1.11.11-26vcqforjrc7znsy3e2enxd42y5ihokv
+==> zlib is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-ppc64le/pgi-18.7/zlib-1.2.11-mublgoknh5xewrm33fc4otkxkjkgd2n3
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/openmpi/openmpi-4.0.1rc1.tar.bz2
+######################################################################## 100.0%
+==> Staging archive: /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/openmpi-4.0.1rc1-marycthlfxmfznfuuirj5lyyui6cgx7r/openmpi-4.0.1rc1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/openmpi-4.0.1rc1-marycthlfxmfznfuuirj5lyyui6cgx7r
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j160'
+
+3 errors found in build log:
+     6053    PGC-W-0155-Pointer value created from a nonlong integral type  (orted/pmix/pmix_server_gen.c: 373)
+     6054    PGC-S-0039-Use of undeclared variable rc (orted/pmix/pmix_server_gen.c: 373)
+     6055    PGC-S-0055-Illegal operand of indirection operator (*) (orted/pmix/pmix_server_gen.c: 375)
+     6056    PGC-S-0059-Struct or union required on left of . or -> (orted/pmix/pmix_server_gen.c: 375)
+     6057    PGC-F-0008-Error limit exceeded (orted/pmix/pmix_server_gen.c: 375)
+     6058    PGC/power Linux 18.7-0: compilation aborted
+  >> 6059    make[2]: *** [orted/pmix/pmix_server_gen.lo] Error 1
+     6060    make[2]: *** Waiting for unfinished jobs....
+     6061    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stage-X0H9SM/openmpi-4.0.1rc1/orte'
+  >> 6062    make[1]: *** [all-recursive] Error 1
+     6063    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stage-X0H9SM/openmpi-4.0.1rc1/orte'
+  >> 6064    make: *** [all-recursive] Error 1
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/openmpi-4.0.1rc1-marycthlfxmfznfuuirj5lyyui6cgx7r/openmpi-4.0.1rc1/spack-build.out

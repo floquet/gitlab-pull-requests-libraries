@@ -1,0 +1,53 @@
+topa1@rzansel61:xl $ date
+Tue Apr 30 17:17:46 PDT 2019
+
+topa1@rzansel61:xl $ pwd
+/usr/tcetmp/packages/xl
+
+topa1@rzansel61:xl $ ls -alh
+total 4.8G
+drwxrwsr-x 29 legendre tools 4.0K Apr 29 12:01 .
+drwxrwxr-x 42 gyllen   tools 4.0K Mar 25 16:40 ..
+drwxrwxr-x 22 roymuss  tools 4.0K Apr 29 12:05 install
+drwxrwxr-x  3 roymuss  tools  316 Feb  7 13:20 license
+drwx--S---  4 roymuss  tools  111 Nov  5 14:45 license-extension-B2-to-B6
+drwxrwxr-x 18 roymuss  tools 4.0K Jul 10  2018 old
+-rw-------  1 roymuss  tools 307M Nov  5 16:32 tce-xl-beta-2018.06.01.tgz
+-rw-------  1 roymuss  tools 308M Nov  6 09:52 tce-xl-beta-2018.09.13.tgz
+drwxrwxr-x 12 roymuss  tools  203 Oct 23  2018 xl-2018.10.22
+drwxrwxr-x 12 roymuss  tools  203 Oct 23  2018 xl-2018.10.22-old
+-rw-rw-r--  1 roymuss  tools 310M Oct 23  2018 xl-2018.10.22.tgz
+drwxrwxr-x 12 roymuss  tools  203 Dec 10 13:57 xl-2018.11.08
+-rw-------  1 roymuss  tools 289M Dec 10 13:58 xl-2018.11.08.tgz
+drwxrwxr-x 12 roymuss  tools  203 Nov 28 10:06 xl-2018.11.26
+-rw-------  1 roymuss  tools 289M Nov 28 10:07 xl-2018.11.26.tgz
+drwxrwxr-x 12 roymuss  tools  177 Feb  7 13:23 xl-2019.02.07
+drwxr-xr-x  9 roymuss  tools  120 Jan 25 00:34 xl-2019.02.07-no-license
+drwxrwxr-x 12 roymuss  tools  177 Mar 12 14:10 xl-2019.03.12
+drwxrwxr-x 12 roymuss  tools  177 Apr 22 12:11 xl-2019.04.19
+drwxrwxr-x 12 roymuss  tools  208 Apr 19  2018 xl-beta-2018.04.06
+-rw-rw-r--  1 roymuss  tools 308M Apr 19  2018 xl-beta-2018.04.06.tgz
+drwxrwxr-x 12 roymuss  tools  208 Jul 10  2018 xl-beta-2018.06.27
+-rw-rw-r--  1 roymuss  tools 308M Jul 10  2018 xl-beta-2018.06.27.tgz
+drwxrwxr-x 12 roymuss  tools  208 Jul 17  2018 xl-beta-2018.07.17
+-rw-------  1 roymuss  tools 308M Jul 17  2018 xl-beta-2018.07.17.tgz
+drwxrwxr-x 12 roymuss  tools  208 Aug  8  2018 xl-beta-2018.08.08
+-rw-------  1 roymuss  tools 308M Aug  8  2018 xl-beta-2018.08.08.tgz
+drwxrwxr-x 12 roymuss  tools  208 Aug 24  2018 xl-beta-2018.08.24
+-rw-------  1 roymuss  tools 308M Aug 24  2018 xl-beta-2018.08.24.tgz
+drwxrwxr-x 12 roymuss  tools  208 Sep 13  2018 xl-beta-2018.09.13
+-rw-------  1 roymuss  tools 308M Sep 13  2018 xl-beta-2018.09.13.tgz
+drwxrwxr-x 13 roymuss  tools  224 Oct  3  2018 xl-beta-2018.09.26
+-rw-------  1 roymuss  tools 308M Sep 26  2018 xl-beta-2018.09.26.tgz
+drwxrwxr-x 12 roymuss  tools  208 Oct 10  2018 xl-beta-2018.10.10
+drwxrwxr-x 12 roymuss  tools  208 Oct 10  2018 xl-beta-2018.10.10-bad
+-rw-------  1 roymuss  tools 308M Oct 10  2018 xl-beta-2018.10.10.tgz
+drwxrwxr-x 12 roymuss  tools  208 Oct 25  2018 xl-beta-2018.10.22
+-rw-------  1 roymuss  tools 310M Oct 25  2018 xl-beta-2018.10.22.tgz
+drwxrwxr-x 12 roymuss  tools  208 Oct 29  2018 xl-beta-2018.10.29
+-rw-------  1 roymuss  tools 288M Oct 29  2018 xl-beta-2018.10.29.tgz
+drwxrwxr-x 12 roymuss  tools  208 Nov  2 15:03 xl-beta-2018.11.02
+-rw-------  1 roymuss  tools 288M Nov  2 15:04 xl-beta-2018.11.02.tgz
+drwxrwxr-x 12 roymuss  tools  177 Mar 18 14:52 xl-test-2019.03.12
+drwxrwxr-x 12 roymuss  tools  177 Mar 22 10:44 xl-test-2019.03.22
+drwxrwxr-x 12 roymuss  tools  177 Apr 29 12:02 xl-test-2019.04.27

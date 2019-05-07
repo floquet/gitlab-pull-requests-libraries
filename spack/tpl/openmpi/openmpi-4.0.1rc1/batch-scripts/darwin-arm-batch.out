@@ -1,0 +1,907 @@
+Mon Mar 25 17:04:30 MDT 2019 [1m/home/dantopa/.mybash(B[m
+Mon Mar 25 17:04:30 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/platforms.sh(B[m
+attempting to mkdir /scratch/users/dantopa/repos/gitlab/node-queries/darwin/arm-cn823/dir-configuration
+directory of core scripts = ${core} = /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts
+Mon Mar 25 17:04:30 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/master.sh(B[m
+Mon Mar 25 17:04:30 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh(B[m
+Mon Mar 25 17:04:30 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh(B[m
+Mon Mar 25 17:04:31 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Mon Mar 25 17:04:31 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/gcc.sh(B[m
+Mon Mar 25 17:04:31 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh(B[m
+Mon Mar 25 17:04:31 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh: line 5: gonode: command not found
+Mon Mar 25 17:04:31 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Mon Mar 25 17:04:31 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/git.sh(B[m
+Mon Mar 25 17:04:31 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/ssh.sh(B[m
+Mon Mar 25 17:04:31 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/vim.sh(B[m
+Mon Mar 25 17:04:31 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bash.sh(B[m
+Mon Mar 25 17:04:31 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/finds.sh(B[m
+Mon Mar 25 17:04:31 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/cmake.sh(B[m
+Mon Mar 25 17:04:31 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/fortran.sh(B[m
+Mon Mar 25 17:04:31 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/copy-configuration.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh: line 33: sinfo_s: command not found
+Mon Mar 25 17:04:31 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks.sh(B[m
+Mon Mar 25 17:04:31 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-bitbucket.sh(B[m
+Mon Mar 25 17:04:31 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-github.sh(B[m
+Mon Mar 25 17:04:31 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-gitlab.sh(B[m
+Mon Mar 25 17:04:31 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/disk.sh(B[m
+[master 775e834] darwin-arm-cn823 Mon Mar 25 17:04:31 MDT 2019
+ 1 file changed, 15 insertions(+), 943 deletions(-)
+ rewrite spack/tpl/openmpi/openmpi-4.0.1rc1/batch-scripts/darwin-arm-batch.out (98%)
+Mon Mar 25 17:04:31 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh(B[m
+Mon Mar 25 17:04:31 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh(B[m
+Mon Mar 25 17:04:31 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Mon Mar 25 17:04:31 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh(B[m
+Mon Mar 25 17:04:31 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh: line 5: gonode: command not found
+Mon Mar 25 17:04:31 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/spack.sh(B[m
+Mon Mar 25 17:04:31 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Mon Mar 25 17:04:31 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/uname.sh(B[m
+Mon Mar 25 17:04:31 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/modules.sh(B[m
+Mon Mar 25 17:04:31 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/alias.sh(B[m
+Mon Mar 25 17:04:32 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh: line 11: myprompt: command not found
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh: line 33: sinfo_s: command not found
+[master 9faa4ff] darwin-arm-cn823 Mon Mar 25 17:04:31 MDT 2019
+ 1 file changed, 22 insertions(+)
+Mon Mar 25 17:04:35 MDT 2019 /tmp/slurmd/job5120055/slurm_script
+Mon Mar 25 17:04:37 MDT 2019 /scratch/users/dantopa/repos/gitlab/pull-requests/spack/tpl/openmpi/openmpi-4.0.1rc1/batch-scripts/sweep-openmpi.sh
+
+spack compilers
+==> Available compilers
+-- arm rhel7-aarch64 --------------------------------------------
+arm@19.1
+
+-- clang rhel7-aarch64 ------------------------------------------
+clang@18.4.2
+clang@18.4.1
+clang@18.4.0
+clang@7.0.0
+
+-- gcc rhel7-aarch64 --------------------------------------------
+gcc@8.2.0
+gcc@8.1.0
+gcc@7.1.0
+gcc@4.8.5
+
+-- gcc rhel7-ppc64le --------------------------------------------
+gcc@4.8.5
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+
+spack install openmpi @ 4.0.0 % arm@19.1 arch=linux-rhel7-aarch64  ^libpciaccess/6a4he35 ^hwloc/7gqvelc
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/libpciaccess-0.13.5-6a4he357fqas3e73eduk56vxa4ljss4g
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/hwloc-1.11.11-7gqvelczu57m6jqefc662tqbtmrrgcfp
+==> Installing zlib
+==> Searching for binary cache of zlib
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for zlib found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/zlib/zlib-1.2.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/zlib-1.2.11-plfxyeaq6nzfnd7opw7cedyhsbzh5v6l/zlib-1.2.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/zlib-1.2.11-plfxyeaq6nzfnd7opw7cedyhsbzh5v6l
+==> No patches needed for zlib
+==> Building zlib [Package]
+==> Executing phase: 'install'
+==> Successfully installed zlib
+  Fetch: 0.15s.  Build: 8.16s.  Total: 8.31s.
+[+] /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/arm-19.1/zlib-1.2.11-plfxyeaq6nzfnd7opw7cedyhsbzh5v6l
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/openmpi/openmpi-4.0.0.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/openmpi-4.0.0-5iminhdclxs4yiwi55woirln74cbglt4/openmpi-4.0.0.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/openmpi-4.0.0-5iminhdclxs4yiwi55woirln74cbglt4
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/openmpi-4.0.0-5iminhdclxs4yiwi55woirln74cbglt4/openmpi-4.0.0/configure' '--prefix=/scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/arm-19.1/openmpi-4.0.0-5iminhdclxs4yiwi55woirln74cbglt4' '--enable-shared' '--with-wrapper-ldflags=' '--enable-static' '--without-pmi' '--enable-mpi-cxx' '--with-zlib=/scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/arm-19.1/zlib-1.2.11-plfxyeaq6nzfnd7opw7cedyhsbzh5v6l' '--without-psm' '--without-libfabric' '--without-ucx' '--without-mxm' '--with-verbs' '--without-psm2' '--without-alps' '--without-lsf' '--without-sge' '--without-slurm' '--without-tm' '--without-loadleveler' '--disable-memchecker' '--with-hwloc=/scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/hwloc-1.11.11-7gqvelczu57m6jqefc662tqbtmrrgcfp' '--disable-java' '--disable-mpi-java' '--without-cuda' '--enable-cxx-exceptions'
+
+2 errors found in build log:
+     21    checking for suffix of object files... o
+     22    checking whether we are using the GNU C compiler... yes
+     23    checking whether /scratch/users/dantopa/new-spack/pr.openmpi.spack/l
+           ib/spack/env/arm/armclang accepts -g... yes
+     24    checking for /scratch/users/dantopa/new-spack/pr.openmpi.spack/lib/s
+           pack/env/arm/armclang option to accept ISO C89... none needed
+     25    checking whether /scratch/users/dantopa/new-spack/pr.openmpi.spack/l
+           ib/spack/env/arm/armclang understands -c and -o together... yes
+     26    checking how to run the C preprocessor... cpp\ -mcpu=thunderx2t99
+  >> 27    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-NbtCI
+           k/openmpi-4.0.0':
+  >> 28    configure: error: C preprocessor "cpp\ -mcpu=thunderx2t99" fails san
+           ity check
+     29    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/openmpi-4.0.0-5iminhdclxs4yiwi55woirln74cbglt4/openmpi-4.0.0/spack-build.out
+
+spack install openmpi @ 4.0.1rc1 % arm@19.1 arch=linux-rhel7-aarch64  ^libpciaccess/6a4he35 ^hwloc/7gqvelc
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/libpciaccess-0.13.5-6a4he357fqas3e73eduk56vxa4ljss4g
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/hwloc-1.11.11-7gqvelczu57m6jqefc662tqbtmrrgcfp
+==> zlib is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/arm-19.1/zlib-1.2.11-plfxyeaq6nzfnd7opw7cedyhsbzh5v6l
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/openmpi/openmpi-4.0.1rc1.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/openmpi-4.0.1rc1-mthof4ff6rhwh6vdurm5dltkhhvlwdqs/openmpi-4.0.1rc1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/openmpi-4.0.1rc1-mthof4ff6rhwh6vdurm5dltkhhvlwdqs
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/openmpi-4.0.1rc1-mthof4ff6rhwh6vdurm5dltkhhvlwdqs/openmpi-4.0.1rc1/configure' '--prefix=/scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/arm-19.1/openmpi-4.0.1rc1-mthof4ff6rhwh6vdurm5dltkhhvlwdqs' '--enable-shared' '--with-wrapper-ldflags=' '--enable-static' '--without-pmi' '--enable-mpi-cxx' '--with-zlib=/scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/arm-19.1/zlib-1.2.11-plfxyeaq6nzfnd7opw7cedyhsbzh5v6l' '--without-psm' '--without-libfabric' '--without-ucx' '--without-mxm' '--with-verbs' '--without-psm2' '--without-alps' '--without-lsf' '--without-sge' '--without-slurm' '--without-tm' '--without-loadleveler' '--disable-memchecker' '--with-hwloc=/scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/hwloc-1.11.11-7gqvelczu57m6jqefc662tqbtmrrgcfp' '--disable-java' '--disable-mpi-java' '--without-cuda' '--enable-cxx-exceptions'
+
+2 errors found in build log:
+     21    checking for suffix of object files... o
+     22    checking whether we are using the GNU C compiler... yes
+     23    checking whether /scratch/users/dantopa/new-spack/pr.openmpi.spack/l
+           ib/spack/env/arm/armclang accepts -g... yes
+     24    checking for /scratch/users/dantopa/new-spack/pr.openmpi.spack/lib/s
+           pack/env/arm/armclang option to accept ISO C89... none needed
+     25    checking whether /scratch/users/dantopa/new-spack/pr.openmpi.spack/l
+           ib/spack/env/arm/armclang understands -c and -o together... yes
+     26    checking how to run the C preprocessor... cpp\ -mcpu=thunderx2t99
+  >> 27    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-zLBQP
+           t/openmpi-4.0.1rc1':
+  >> 28    configure: error: C preprocessor "cpp\ -mcpu=thunderx2t99" fails san
+           ity check
+     29    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/openmpi-4.0.1rc1-mthof4ff6rhwh6vdurm5dltkhhvlwdqs/openmpi-4.0.1rc1/spack-build.out
+
+spack install openmpi @ 4.0.0 % clang@18.4.2 arch=linux-rhel7-aarch64  ^libpciaccess/6a4he35 ^hwloc/7gqvelc
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/libpciaccess-0.13.5-6a4he357fqas3e73eduk56vxa4ljss4g
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/hwloc-1.11.11-7gqvelczu57m6jqefc662tqbtmrrgcfp
+==> Installing zlib
+==> Searching for binary cache of zlib
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for zlib found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/cache/zlib/zlib-1.2.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/zlib-1.2.11-l5jyb2vg6symqzmhzu2gqlpzz42aawhs/zlib-1.2.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/zlib-1.2.11-l5jyb2vg6symqzmhzu2gqlpzz42aawhs
+==> No patches needed for zlib
+==> Building zlib [Package]
+==> Executing phase: 'install'
+==> Successfully installed zlib
+  Fetch: 0.01s.  Build: 3.72s.  Total: 3.73s.
+[+] /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/clang-18.4.2/zlib-1.2.11-l5jyb2vg6symqzmhzu2gqlpzz42aawhs
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/cache/openmpi/openmpi-4.0.0.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/openmpi-4.0.0-4xlazyjrus6jkorz5a3tw2shlp5pxgpw/openmpi-4.0.0.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/openmpi-4.0.0-4xlazyjrus6jkorz5a3tw2shlp5pxgpw
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/openmpi-4.0.0-4xlazyjrus6jkorz5a3tw2shlp5pxgpw/openmpi-4.0.0/configure' '--prefix=/scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/clang-18.4.2/openmpi-4.0.0-4xlazyjrus6jkorz5a3tw2shlp5pxgpw' '--enable-shared' '--with-wrapper-ldflags=' '--enable-static' '--without-pmi' '--enable-mpi-cxx' '--with-zlib=/scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/clang-18.4.2/zlib-1.2.11-l5jyb2vg6symqzmhzu2gqlpzz42aawhs' '--without-psm' '--without-libfabric' '--without-ucx' '--without-mxm' '--with-verbs' '--without-psm2' '--without-alps' '--without-lsf' '--without-sge' '--without-slurm' '--without-tm' '--without-loadleveler' '--disable-memchecker' '--with-hwloc=/scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/hwloc-1.11.11-7gqvelczu57m6jqefc662tqbtmrrgcfp' '--disable-java' '--disable-mpi-java' '--without-cuda' '--enable-cxx-exceptions'
+
+2 errors found in build log:
+     21    checking for suffix of object files... o
+     22    checking whether we are using the GNU C compiler... yes
+     23    checking whether /scratch/users/dantopa/new-spack/pr.openmpi.spack/l
+           ib/spack/env/clang/clang accepts -g... yes
+     24    checking for /scratch/users/dantopa/new-spack/pr.openmpi.spack/lib/s
+           pack/env/clang/clang option to accept ISO C89... none needed
+     25    checking whether /scratch/users/dantopa/new-spack/pr.openmpi.spack/l
+           ib/spack/env/clang/clang understands -c and -o together... yes
+     26    checking how to run the C preprocessor... armclang\ -E
+  >> 27    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-Yj2Ba
+           1/openmpi-4.0.0':
+  >> 28    configure: error: C preprocessor "armclang\ -E" fails sanity check
+     29    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/openmpi-4.0.0-4xlazyjrus6jkorz5a3tw2shlp5pxgpw/openmpi-4.0.0/spack-build.out
+
+spack install openmpi @ 4.0.1rc1 % clang@18.4.2 arch=linux-rhel7-aarch64  ^libpciaccess/6a4he35 ^hwloc/7gqvelc
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/libpciaccess-0.13.5-6a4he357fqas3e73eduk56vxa4ljss4g
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/hwloc-1.11.11-7gqvelczu57m6jqefc662tqbtmrrgcfp
+==> zlib is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/clang-18.4.2/zlib-1.2.11-l5jyb2vg6symqzmhzu2gqlpzz42aawhs
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/cache/openmpi/openmpi-4.0.1rc1.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/openmpi-4.0.1rc1-ew4ks575rhkzxtudcvzwqtt32j4yfcii/openmpi-4.0.1rc1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/openmpi-4.0.1rc1-ew4ks575rhkzxtudcvzwqtt32j4yfcii
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/openmpi-4.0.1rc1-ew4ks575rhkzxtudcvzwqtt32j4yfcii/openmpi-4.0.1rc1/configure' '--prefix=/scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/clang-18.4.2/openmpi-4.0.1rc1-ew4ks575rhkzxtudcvzwqtt32j4yfcii' '--enable-shared' '--with-wrapper-ldflags=' '--enable-static' '--without-pmi' '--enable-mpi-cxx' '--with-zlib=/scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/clang-18.4.2/zlib-1.2.11-l5jyb2vg6symqzmhzu2gqlpzz42aawhs' '--without-psm' '--without-libfabric' '--without-ucx' '--without-mxm' '--with-verbs' '--without-psm2' '--without-alps' '--without-lsf' '--without-sge' '--without-slurm' '--without-tm' '--without-loadleveler' '--disable-memchecker' '--with-hwloc=/scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/hwloc-1.11.11-7gqvelczu57m6jqefc662tqbtmrrgcfp' '--disable-java' '--disable-mpi-java' '--without-cuda' '--enable-cxx-exceptions'
+
+2 errors found in build log:
+     21    checking for suffix of object files... o
+     22    checking whether we are using the GNU C compiler... yes
+     23    checking whether /scratch/users/dantopa/new-spack/pr.openmpi.spack/l
+           ib/spack/env/clang/clang accepts -g... yes
+     24    checking for /scratch/users/dantopa/new-spack/pr.openmpi.spack/lib/s
+           pack/env/clang/clang option to accept ISO C89... none needed
+     25    checking whether /scratch/users/dantopa/new-spack/pr.openmpi.spack/l
+           ib/spack/env/clang/clang understands -c and -o together... yes
+     26    checking how to run the C preprocessor... armclang\ -E
+  >> 27    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-X72gi
+           G/openmpi-4.0.1rc1':
+  >> 28    configure: error: C preprocessor "armclang\ -E" fails sanity check
+     29    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/openmpi-4.0.1rc1-ew4ks575rhkzxtudcvzwqtt32j4yfcii/openmpi-4.0.1rc1/spack-build.out
+
+spack install openmpi @ 4.0.0 % clang@18.4.1 arch=linux-rhel7-aarch64  ^libpciaccess/6a4he35 ^hwloc/7gqvelc
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/libpciaccess-0.13.5-6a4he357fqas3e73eduk56vxa4ljss4g
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/hwloc-1.11.11-7gqvelczu57m6jqefc662tqbtmrrgcfp
+==> Installing zlib
+==> Searching for binary cache of zlib
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for zlib found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/cache/zlib/zlib-1.2.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/zlib-1.2.11-dxfo6gdemamlpqbnp2yndusec3lchwjz/zlib-1.2.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/zlib-1.2.11-dxfo6gdemamlpqbnp2yndusec3lchwjz
+==> No patches needed for zlib
+==> Building zlib [Package]
+==> Executing phase: 'install'
+==> Successfully installed zlib
+  Fetch: 0.01s.  Build: 3.43s.  Total: 3.44s.
+[+] /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/clang-18.4.1/zlib-1.2.11-dxfo6gdemamlpqbnp2yndusec3lchwjz
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/cache/openmpi/openmpi-4.0.0.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/openmpi-4.0.0-kd56mqi24qqnagbt5lalh5zsgqppeemp/openmpi-4.0.0.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/openmpi-4.0.0-kd56mqi24qqnagbt5lalh5zsgqppeemp
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/openmpi-4.0.0-kd56mqi24qqnagbt5lalh5zsgqppeemp/openmpi-4.0.0/configure' '--prefix=/scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/clang-18.4.1/openmpi-4.0.0-kd56mqi24qqnagbt5lalh5zsgqppeemp' '--enable-shared' '--with-wrapper-ldflags=' '--enable-static' '--without-pmi' '--enable-mpi-cxx' '--with-zlib=/scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/clang-18.4.1/zlib-1.2.11-dxfo6gdemamlpqbnp2yndusec3lchwjz' '--without-psm' '--without-libfabric' '--without-ucx' '--without-mxm' '--with-verbs' '--without-psm2' '--without-alps' '--without-lsf' '--without-sge' '--without-slurm' '--without-tm' '--without-loadleveler' '--disable-memchecker' '--with-hwloc=/scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/hwloc-1.11.11-7gqvelczu57m6jqefc662tqbtmrrgcfp' '--disable-java' '--disable-mpi-java' '--without-cuda' '--enable-cxx-exceptions'
+
+2 errors found in build log:
+     21    checking for suffix of object files... o
+     22    checking whether we are using the GNU C compiler... yes
+     23    checking whether /scratch/users/dantopa/new-spack/pr.openmpi.spack/l
+           ib/spack/env/clang/clang accepts -g... yes
+     24    checking for /scratch/users/dantopa/new-spack/pr.openmpi.spack/lib/s
+           pack/env/clang/clang option to accept ISO C89... none needed
+     25    checking whether /scratch/users/dantopa/new-spack/pr.openmpi.spack/l
+           ib/spack/env/clang/clang understands -c and -o together... yes
+     26    checking how to run the C preprocessor... armclang\ -E
+  >> 27    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-kyE_f
+           b/openmpi-4.0.0':
+  >> 28    configure: error: C preprocessor "armclang\ -E" fails sanity check
+     29    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/openmpi-4.0.0-kd56mqi24qqnagbt5lalh5zsgqppeemp/openmpi-4.0.0/spack-build.out
+
+spack install openmpi @ 4.0.1rc1 % clang@18.4.1 arch=linux-rhel7-aarch64  ^libpciaccess/6a4he35 ^hwloc/7gqvelc
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/libpciaccess-0.13.5-6a4he357fqas3e73eduk56vxa4ljss4g
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/hwloc-1.11.11-7gqvelczu57m6jqefc662tqbtmrrgcfp
+==> zlib is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/clang-18.4.1/zlib-1.2.11-dxfo6gdemamlpqbnp2yndusec3lchwjz
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/cache/openmpi/openmpi-4.0.1rc1.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/openmpi-4.0.1rc1-sxt2ystfjbdxs35akrhtmz7z5shmhmxd/openmpi-4.0.1rc1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/openmpi-4.0.1rc1-sxt2ystfjbdxs35akrhtmz7z5shmhmxd
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/openmpi-4.0.1rc1-sxt2ystfjbdxs35akrhtmz7z5shmhmxd/openmpi-4.0.1rc1/configure' '--prefix=/scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/clang-18.4.1/openmpi-4.0.1rc1-sxt2ystfjbdxs35akrhtmz7z5shmhmxd' '--enable-shared' '--with-wrapper-ldflags=' '--enable-static' '--without-pmi' '--enable-mpi-cxx' '--with-zlib=/scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/clang-18.4.1/zlib-1.2.11-dxfo6gdemamlpqbnp2yndusec3lchwjz' '--without-psm' '--without-libfabric' '--without-ucx' '--without-mxm' '--with-verbs' '--without-psm2' '--without-alps' '--without-lsf' '--without-sge' '--without-slurm' '--without-tm' '--without-loadleveler' '--disable-memchecker' '--with-hwloc=/scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/hwloc-1.11.11-7gqvelczu57m6jqefc662tqbtmrrgcfp' '--disable-java' '--disable-mpi-java' '--without-cuda' '--enable-cxx-exceptions'
+
+2 errors found in build log:
+     21    checking for suffix of object files... o
+     22    checking whether we are using the GNU C compiler... yes
+     23    checking whether /scratch/users/dantopa/new-spack/pr.openmpi.spack/l
+           ib/spack/env/clang/clang accepts -g... yes
+     24    checking for /scratch/users/dantopa/new-spack/pr.openmpi.spack/lib/s
+           pack/env/clang/clang option to accept ISO C89... none needed
+     25    checking whether /scratch/users/dantopa/new-spack/pr.openmpi.spack/l
+           ib/spack/env/clang/clang understands -c and -o together... yes
+     26    checking how to run the C preprocessor... armclang\ -E
+  >> 27    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-0eFYM
+           y/openmpi-4.0.1rc1':
+  >> 28    configure: error: C preprocessor "armclang\ -E" fails sanity check
+     29    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/openmpi-4.0.1rc1-sxt2ystfjbdxs35akrhtmz7z5shmhmxd/openmpi-4.0.1rc1/spack-build.out
+
+spack install openmpi @ 4.0.0 % clang@18.4.0 arch=linux-rhel7-aarch64  ^libpciaccess/6a4he35 ^hwloc/7gqvelc
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/libpciaccess-0.13.5-6a4he357fqas3e73eduk56vxa4ljss4g
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/hwloc-1.11.11-7gqvelczu57m6jqefc662tqbtmrrgcfp
+==> Installing zlib
+==> Searching for binary cache of zlib
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for zlib found: installing from source
+==> Error: ProcessError: Command exited with status 1:
+    '/opt/ohpc/admin/lmod/lmod/libexec/lmod' 'python' 'show' 'Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4.0'
+os.environ["__LMOD_REF_COUNT_MODULEPATH"] = "/scratch/users/dantopa/new-spack/pr.openmpi.spack/share/spack/modules/linux-rhel7-aarch64:1\;/opt/ohpc/pub/modulefiles:1\;/opt/arm/modulefiles:1\;/projects/darwin/modulefiles/aarch64:1";
+os.environ["MODULEPATH"] = "/scratch/users/dantopa/new-spack/pr.openmpi.spack/share/spack/modules/linux-rhel7-aarch64:/opt/ohpc/pub/modulefiles:/opt/arm/modulefiles:/projects/darwin/modulefiles/aarch64";
+os.environ["_ModuleTable001_"] = "X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPTcyMDAsWyJjX3Nob3J0VGltZSJdPTMuODk1ODQxMTIxNjczNixkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXt9LG1wYXRoQT17Ii9zY3JhdGNoL3VzZXJzL2RhbnRvcGEvbmV3LXNwYWNrL3ByLm9wZW5tcGkuc3BhY2svc2hhcmUvc3BhY2svbW9kdWxlcy9saW51eC1yaGVsNy1hYXJjaDY0IiwiL29wdC9vaHBjL3B1Yi9tb2R1bGVmaWxlcyIsIi9vcHQvYXJtL21vZHVsZWZpbGVzIiwiL3Byb2plY3RzL2Rhcndpbi9tb2R1bGVmaWxlcy9hYXJjaDY0Iix9LFsic3lzdGVtQmFzZU1QQVRIIl09Ii9vcHQvb2hwYy9wdWIvbW9kdWxlZmlsZXM6L29wdC9hcm0vbW9kdWxlZmlsZXM6L3Byb2plY3RzL2Rh";
+os.environ["_ModuleTable002_"] = "cndpbi9tb2R1bGVmaWxlcy9hYXJjaDY0Iix9";
+os.environ["_ModuleTable_Sz_"] = "2";
+
+false
+Lmod Warning: Failed to find the following module(s):
+"Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4.0" in your MODULEPATH
+Try:
+
+    $ module spider Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4.0
+
+to see if the module(s) are available across all compilers and MPI
+implementations.
+
+
+
+
+
+spack install openmpi @ 4.0.1rc1 % clang@18.4.0 arch=linux-rhel7-aarch64  ^libpciaccess/6a4he35 ^hwloc/7gqvelc
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/libpciaccess-0.13.5-6a4he357fqas3e73eduk56vxa4ljss4g
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/hwloc-1.11.11-7gqvelczu57m6jqefc662tqbtmrrgcfp
+==> Installing zlib
+==> Searching for binary cache of zlib
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for zlib found: installing from source
+==> Error: ProcessError: Command exited with status 1:
+    '/opt/ohpc/admin/lmod/lmod/libexec/lmod' 'python' 'show' 'Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4.0'
+os.environ["__LMOD_REF_COUNT_MODULEPATH"] = "/scratch/users/dantopa/new-spack/pr.openmpi.spack/share/spack/modules/linux-rhel7-aarch64:1\;/opt/ohpc/pub/modulefiles:1\;/opt/arm/modulefiles:1\;/projects/darwin/modulefiles/aarch64:1";
+os.environ["MODULEPATH"] = "/scratch/users/dantopa/new-spack/pr.openmpi.spack/share/spack/modules/linux-rhel7-aarch64:/opt/ohpc/pub/modulefiles:/opt/arm/modulefiles:/projects/darwin/modulefiles/aarch64";
+os.environ["_ModuleTable001_"] = "X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPTcyMDAsWyJjX3Nob3J0VGltZSJdPTMuODk1ODQxMTIxNjczNixkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXt9LG1wYXRoQT17Ii9zY3JhdGNoL3VzZXJzL2RhbnRvcGEvbmV3LXNwYWNrL3ByLm9wZW5tcGkuc3BhY2svc2hhcmUvc3BhY2svbW9kdWxlcy9saW51eC1yaGVsNy1hYXJjaDY0IiwiL29wdC9vaHBjL3B1Yi9tb2R1bGVmaWxlcyIsIi9vcHQvYXJtL21vZHVsZWZpbGVzIiwiL3Byb2plY3RzL2Rhcndpbi9tb2R1bGVmaWxlcy9hYXJjaDY0Iix9LFsic3lzdGVtQmFzZU1QQVRIIl09Ii9vcHQvb2hwYy9wdWIvbW9kdWxlZmlsZXM6L29wdC9hcm0vbW9kdWxlZmlsZXM6L3Byb2plY3RzL2Rh";
+os.environ["_ModuleTable002_"] = "cndpbi9tb2R1bGVmaWxlcy9hYXJjaDY0Iix9";
+os.environ["_ModuleTable_Sz_"] = "2";
+
+false
+Lmod Warning: Failed to find the following module(s):
+"Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4.0" in your MODULEPATH
+Try:
+
+    $ module spider Generic-AArch64/RHEL/7/arm-hpc-compiler/18.4.0
+
+to see if the module(s) are available across all compilers and MPI
+implementations.
+
+
+
+
+
+spack install openmpi @ 4.0.0 % clang@7.0.0 arch=linux-rhel7-aarch64  ^libpciaccess/6a4he35 ^hwloc/7gqvelc
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/libpciaccess-0.13.5-6a4he357fqas3e73eduk56vxa4ljss4g
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/hwloc-1.11.11-7gqvelczu57m6jqefc662tqbtmrrgcfp
+==> Installing zlib
+==> Searching for binary cache of zlib
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for zlib found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/cache/zlib/zlib-1.2.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/zlib-1.2.11-fnweg6v7ds3ie45b573klkzclcwvd63b/zlib-1.2.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/zlib-1.2.11-fnweg6v7ds3ie45b573klkzclcwvd63b
+==> No patches needed for zlib
+==> Building zlib [Package]
+==> Executing phase: 'install'
+==> Error: ProcessError: Command exited with status 1:
+    './configure' '--prefix=/scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/clang-7.0.0/zlib-1.2.11-fnweg6v7ds3ie45b573klkzclcwvd63b'
+See build log for details:
+  /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/zlib-1.2.11-fnweg6v7ds3ie45b573klkzclcwvd63b/zlib-1.2.11/spack-build.out
+
+spack install openmpi @ 4.0.1rc1 % clang@7.0.0 arch=linux-rhel7-aarch64  ^libpciaccess/6a4he35 ^hwloc/7gqvelc
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/libpciaccess-0.13.5-6a4he357fqas3e73eduk56vxa4ljss4g
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/hwloc-1.11.11-7gqvelczu57m6jqefc662tqbtmrrgcfp
+==> Installing zlib
+==> Searching for binary cache of zlib
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for zlib found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/cache/zlib/zlib-1.2.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/zlib-1.2.11-fnweg6v7ds3ie45b573klkzclcwvd63b/zlib-1.2.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/zlib-1.2.11-fnweg6v7ds3ie45b573klkzclcwvd63b
+==> No patches needed for zlib
+==> Building zlib [Package]
+==> Executing phase: 'install'
+==> Error: ProcessError: Command exited with status 1:
+    './configure' '--prefix=/scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/clang-7.0.0/zlib-1.2.11-fnweg6v7ds3ie45b573klkzclcwvd63b'
+See build log for details:
+  /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/zlib-1.2.11-fnweg6v7ds3ie45b573klkzclcwvd63b/zlib-1.2.11/spack-build.out
+
+spack install openmpi @ 4.0.0 % gcc@8.2.0 arch=linux-rhel7-aarch64  ^libpciaccess/6a4he35 ^hwloc/7gqvelc
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/libpciaccess-0.13.5-6a4he357fqas3e73eduk56vxa4ljss4g
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/hwloc-1.11.11-7gqvelczu57m6jqefc662tqbtmrrgcfp
+==> Installing zlib
+==> Searching for binary cache of zlib
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for zlib found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/cache/zlib/zlib-1.2.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/zlib-1.2.11-x5quqjkvnp3vz7yqq4ue3m6xby5ryq76/zlib-1.2.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/zlib-1.2.11-x5quqjkvnp3vz7yqq4ue3m6xby5ryq76
+==> No patches needed for zlib
+==> Building zlib [Package]
+==> Executing phase: 'install'
+==> Successfully installed zlib
+  Fetch: 0.01s.  Build: 3.26s.  Total: 3.26s.
+[+] /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-8.2.0/zlib-1.2.11-x5quqjkvnp3vz7yqq4ue3m6xby5ryq76
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/cache/openmpi/openmpi-4.0.0.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/openmpi-4.0.0-7k2vke3xwgd44c32rbqunaxpenoto7uc/openmpi-4.0.0.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/openmpi-4.0.0-7k2vke3xwgd44c32rbqunaxpenoto7uc
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/openmpi-4.0.0-7k2vke3xwgd44c32rbqunaxpenoto7uc/openmpi-4.0.0/configure' '--prefix=/scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-8.2.0/openmpi-4.0.0-7k2vke3xwgd44c32rbqunaxpenoto7uc' '--enable-shared' '--with-wrapper-ldflags=' '--enable-static' '--without-pmi' '--enable-mpi-cxx' '--with-zlib=/scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-8.2.0/zlib-1.2.11-x5quqjkvnp3vz7yqq4ue3m6xby5ryq76' '--without-psm' '--without-libfabric' '--without-ucx' '--without-mxm' '--with-verbs' '--without-psm2' '--without-alps' '--without-lsf' '--without-sge' '--without-slurm' '--without-tm' '--without-loadleveler' '--disable-memchecker' '--with-hwloc=/scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/hwloc-1.11.11-7gqvelczu57m6jqefc662tqbtmrrgcfp' '--disable-java' '--disable-mpi-java' '--without-cuda' '--enable-cxx-exceptions'
+
+2 errors found in build log:
+     21    checking for suffix of object files... o
+     22    checking whether we are using the GNU C compiler... yes
+     23    checking whether /scratch/users/dantopa/new-spack/pr.openmpi.spack/l
+           ib/spack/env/gcc/gcc accepts -g... yes
+     24    checking for /scratch/users/dantopa/new-spack/pr.openmpi.spack/lib/s
+           pack/env/gcc/gcc option to accept ISO C89... none needed
+     25    checking whether /scratch/users/dantopa/new-spack/pr.openmpi.spack/l
+           ib/spack/env/gcc/gcc understands -c and -o together... yes
+     26    checking how to run the C preprocessor... cpp\ -mcpu=thunderx2t99
+  >> 27    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-logru
+           Z/openmpi-4.0.0':
+  >> 28    configure: error: C preprocessor "cpp\ -mcpu=thunderx2t99" fails san
+           ity check
+     29    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/openmpi-4.0.0-7k2vke3xwgd44c32rbqunaxpenoto7uc/openmpi-4.0.0/spack-build.out
+
+spack install openmpi @ 4.0.1rc1 % gcc@8.2.0 arch=linux-rhel7-aarch64  ^libpciaccess/6a4he35 ^hwloc/7gqvelc
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/libpciaccess-0.13.5-6a4he357fqas3e73eduk56vxa4ljss4g
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/hwloc-1.11.11-7gqvelczu57m6jqefc662tqbtmrrgcfp
+==> zlib is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-8.2.0/zlib-1.2.11-x5quqjkvnp3vz7yqq4ue3m6xby5ryq76
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/cache/openmpi/openmpi-4.0.1rc1.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/openmpi-4.0.1rc1-yxqui2rv44xtsnuhbanc4rwmlkxozq4p/openmpi-4.0.1rc1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/openmpi-4.0.1rc1-yxqui2rv44xtsnuhbanc4rwmlkxozq4p
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Error: ProcessError: Command exited with status 1:
+    '/scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/openmpi-4.0.1rc1-yxqui2rv44xtsnuhbanc4rwmlkxozq4p/openmpi-4.0.1rc1/configure' '--prefix=/scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-8.2.0/openmpi-4.0.1rc1-yxqui2rv44xtsnuhbanc4rwmlkxozq4p' '--enable-shared' '--with-wrapper-ldflags=' '--enable-static' '--without-pmi' '--enable-mpi-cxx' '--with-zlib=/scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-8.2.0/zlib-1.2.11-x5quqjkvnp3vz7yqq4ue3m6xby5ryq76' '--without-psm' '--without-libfabric' '--without-ucx' '--without-mxm' '--with-verbs' '--without-psm2' '--without-alps' '--without-lsf' '--without-sge' '--without-slurm' '--without-tm' '--without-loadleveler' '--disable-memchecker' '--with-hwloc=/scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/hwloc-1.11.11-7gqvelczu57m6jqefc662tqbtmrrgcfp' '--disable-java' '--disable-mpi-java' '--without-cuda' '--enable-cxx-exceptions'
+
+2 errors found in build log:
+     21    checking for suffix of object files... o
+     22    checking whether we are using the GNU C compiler... yes
+     23    checking whether /scratch/users/dantopa/new-spack/pr.openmpi.spack/l
+           ib/spack/env/gcc/gcc accepts -g... yes
+     24    checking for /scratch/users/dantopa/new-spack/pr.openmpi.spack/lib/s
+           pack/env/gcc/gcc option to accept ISO C89... none needed
+     25    checking whether /scratch/users/dantopa/new-spack/pr.openmpi.spack/l
+           ib/spack/env/gcc/gcc understands -c and -o together... yes
+     26    checking how to run the C preprocessor... cpp\ -mcpu=thunderx2t99
+  >> 27    configure: error: in `/ram/tmp/dantopa/spack-stage/spack-stage-Thmlh
+           k/openmpi-4.0.1rc1':
+  >> 28    configure: error: C preprocessor "cpp\ -mcpu=thunderx2t99" fails san
+           ity check
+     29    See `config.log' for more details
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/openmpi-4.0.1rc1-yxqui2rv44xtsnuhbanc4rwmlkxozq4p/openmpi-4.0.1rc1/spack-build.out
+
+spack install openmpi @ 4.0.0 % gcc@8.1.0 arch=linux-rhel7-aarch64  ^libpciaccess/6a4he35 ^hwloc/7gqvelc
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/libpciaccess-0.13.5-6a4he357fqas3e73eduk56vxa4ljss4g
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/hwloc-1.11.11-7gqvelczu57m6jqefc662tqbtmrrgcfp
+==> Installing zlib
+==> Searching for binary cache of zlib
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for zlib found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/cache/zlib/zlib-1.2.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/zlib-1.2.11-765fojfirmuv4bgcfdp6viv76fl4fzsz/zlib-1.2.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/zlib-1.2.11-765fojfirmuv4bgcfdp6viv76fl4fzsz
+==> No patches needed for zlib
+==> Building zlib [Package]
+==> Executing phase: 'install'
+==> Error: ProcessError: Command exited with status 1:
+    './configure' '--prefix=/scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-8.1.0/zlib-1.2.11-765fojfirmuv4bgcfdp6viv76fl4fzsz'
+See build log for details:
+  /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/zlib-1.2.11-765fojfirmuv4bgcfdp6viv76fl4fzsz/zlib-1.2.11/spack-build.out
+
+spack install openmpi @ 4.0.1rc1 % gcc@8.1.0 arch=linux-rhel7-aarch64  ^libpciaccess/6a4he35 ^hwloc/7gqvelc
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/libpciaccess-0.13.5-6a4he357fqas3e73eduk56vxa4ljss4g
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/hwloc-1.11.11-7gqvelczu57m6jqefc662tqbtmrrgcfp
+==> Installing zlib
+==> Searching for binary cache of zlib
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for zlib found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/cache/zlib/zlib-1.2.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/zlib-1.2.11-765fojfirmuv4bgcfdp6viv76fl4fzsz/zlib-1.2.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/zlib-1.2.11-765fojfirmuv4bgcfdp6viv76fl4fzsz
+==> No patches needed for zlib
+==> Building zlib [Package]
+==> Executing phase: 'install'
+==> Error: ProcessError: Command exited with status 1:
+    './configure' '--prefix=/scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-8.1.0/zlib-1.2.11-765fojfirmuv4bgcfdp6viv76fl4fzsz'
+See build log for details:
+  /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/zlib-1.2.11-765fojfirmuv4bgcfdp6viv76fl4fzsz/zlib-1.2.11/spack-build.out
+
+spack install openmpi @ 4.0.0 % gcc@7.1.0 arch=linux-rhel7-aarch64  ^libpciaccess/6a4he35 ^hwloc/7gqvelc
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/libpciaccess-0.13.5-6a4he357fqas3e73eduk56vxa4ljss4g
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/hwloc-1.11.11-7gqvelczu57m6jqefc662tqbtmrrgcfp
+==> zlib is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-7.1.0/zlib-1.2.11-zsiftcm2ljpbv63ltipxr3no6lol6baa
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Error: ProcessError: Command exited with status 1:
+    '/opt/ohpc/admin/lmod/lmod/libexec/lmod' 'python' 'show' 'gcc/7.1.0'
+os.environ["__LMOD_REF_COUNT_MODULEPATH"] = "/scratch/users/dantopa/new-spack/pr.openmpi.spack/share/spack/modules/linux-rhel7-aarch64:1\;/opt/ohpc/pub/modulefiles:1\;/opt/arm/modulefiles:1\;/projects/darwin/modulefiles/aarch64:1";
+os.environ["MODULEPATH"] = "/scratch/users/dantopa/new-spack/pr.openmpi.spack/share/spack/modules/linux-rhel7-aarch64:/opt/ohpc/pub/modulefiles:/opt/arm/modulefiles:/projects/darwin/modulefiles/aarch64";
+os.environ["_ModuleTable001_"] = "X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPTcyMDAsWyJjX3Nob3J0VGltZSJdPTMuODk1ODQxMTIxNjczNixkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXt9LG1wYXRoQT17Ii9zY3JhdGNoL3VzZXJzL2RhbnRvcGEvbmV3LXNwYWNrL3ByLm9wZW5tcGkuc3BhY2svc2hhcmUvc3BhY2svbW9kdWxlcy9saW51eC1yaGVsNy1hYXJjaDY0IiwiL29wdC9vaHBjL3B1Yi9tb2R1bGVmaWxlcyIsIi9vcHQvYXJtL21vZHVsZWZpbGVzIiwiL3Byb2plY3RzL2Rhcndpbi9tb2R1bGVmaWxlcy9hYXJjaDY0Iix9LFsic3lzdGVtQmFzZU1QQVRIIl09Ii9vcHQvb2hwYy9wdWIvbW9kdWxlZmlsZXM6L29wdC9hcm0vbW9kdWxlZmlsZXM6L3Byb2plY3RzL2Rh";
+os.environ["_ModuleTable002_"] = "cndpbi9tb2R1bGVmaWxlcy9hYXJjaDY0Iix9";
+os.environ["_ModuleTable_Sz_"] = "2";
+
+false
+Lmod Warning: Failed to find the following module(s): "gcc/7.1.0" in your
+MODULEPATH
+Try:
+
+    $ module spider gcc/7.1.0
+
+to see if the module(s) are available across all compilers and MPI
+implementations.
+
+
+
+
+
+spack install openmpi @ 4.0.1rc1 % gcc@7.1.0 arch=linux-rhel7-aarch64  ^libpciaccess/6a4he35 ^hwloc/7gqvelc
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/libpciaccess-0.13.5-6a4he357fqas3e73eduk56vxa4ljss4g
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/hwloc-1.11.11-7gqvelczu57m6jqefc662tqbtmrrgcfp
+==> zlib is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-7.1.0/zlib-1.2.11-zsiftcm2ljpbv63ltipxr3no6lol6baa
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Error: ProcessError: Command exited with status 1:
+    '/opt/ohpc/admin/lmod/lmod/libexec/lmod' 'python' 'show' 'gcc/7.1.0'
+os.environ["__LMOD_REF_COUNT_MODULEPATH"] = "/scratch/users/dantopa/new-spack/pr.openmpi.spack/share/spack/modules/linux-rhel7-aarch64:1\;/opt/ohpc/pub/modulefiles:1\;/opt/arm/modulefiles:1\;/projects/darwin/modulefiles/aarch64:1";
+os.environ["MODULEPATH"] = "/scratch/users/dantopa/new-spack/pr.openmpi.spack/share/spack/modules/linux-rhel7-aarch64:/opt/ohpc/pub/modulefiles:/opt/arm/modulefiles:/projects/darwin/modulefiles/aarch64";
+os.environ["_ModuleTable001_"] = "X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPTcyMDAsWyJjX3Nob3J0VGltZSJdPTMuODk1ODQxMTIxNjczNixkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXt9LG1wYXRoQT17Ii9zY3JhdGNoL3VzZXJzL2RhbnRvcGEvbmV3LXNwYWNrL3ByLm9wZW5tcGkuc3BhY2svc2hhcmUvc3BhY2svbW9kdWxlcy9saW51eC1yaGVsNy1hYXJjaDY0IiwiL29wdC9vaHBjL3B1Yi9tb2R1bGVmaWxlcyIsIi9vcHQvYXJtL21vZHVsZWZpbGVzIiwiL3Byb2plY3RzL2Rhcndpbi9tb2R1bGVmaWxlcy9hYXJjaDY0Iix9LFsic3lzdGVtQmFzZU1QQVRIIl09Ii9vcHQvb2hwYy9wdWIvbW9kdWxlZmlsZXM6L29wdC9hcm0vbW9kdWxlZmlsZXM6L3Byb2plY3RzL2Rh";
+os.environ["_ModuleTable002_"] = "cndpbi9tb2R1bGVmaWxlcy9hYXJjaDY0Iix9";
+os.environ["_ModuleTable_Sz_"] = "2";
+
+false
+Lmod Warning: Failed to find the following module(s): "gcc/7.1.0" in your
+MODULEPATH
+Try:
+
+    $ module spider gcc/7.1.0
+
+to see if the module(s) are available across all compilers and MPI
+implementations.
+
+
+
+
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+
+spack find openmpi
+==> 20 installed packages
+-- linux-centos7-x86_64 / gcc@4.8.5 -----------------------------
+openmpi@4.0.1rc1
+
+-- linux-centos7-x86_64 / gcc@4.9.3 -----------------------------
+openmpi@4.0.1rc1
+
+-- linux-centos7-x86_64 / gcc@5.5.0 -----------------------------
+openmpi@4.0.1rc1
+
+-- linux-centos7-x86_64 / gcc@6.4.0 -----------------------------
+openmpi@4.0.1rc1
+
+-- linux-centos7-x86_64 / gcc@7.3.0 -----------------------------
+openmpi@4.0.1rc1
+
+-- linux-centos7-x86_64 / gcc@8.2.0 -----------------------------
+openmpi@4.0.1rc1
+
+-- linux-centos7-x86_64 / intel@17.0.6 --------------------------
+openmpi@4.0.0
+openmpi@4.0.1rc1
+
+-- linux-centos7-x86_64 / intel@18.0.3 --------------------------
+openmpi@4.0.0
+openmpi@4.0.1rc1
+
+-- linux-centos7-x86_64 / pgi@18.7 ------------------------------
+openmpi@4.0.1rc1
+
+-- linux-centos7-x86_64 / pgi@18.10 -----------------------------
+openmpi@4.0.1rc1
+
+-- linux-rhel7-aarch64 / gcc@4.8.5 ------------------------------
+openmpi@4.0.1rc1
+
+-- linux-rhel7-aarch64 / gcc@7.1.0 ------------------------------
+openmpi@4.0.1rc1
+
+-- linux-rhel7-ppc64le / gcc@4.8.5 ------------------------------
+openmpi@4.0.1rc1
+
+-- linux-rhel7-ppc64le / gcc@6.4.0 ------------------------------
+openmpi@4.0.1rc1
+
+-- linux-rhel7-ppc64le / gcc@7.3.0 ------------------------------
+openmpi@4.0.1rc1
+
+-- linux-rhel7-ppc64le / gcc@8.2.0 ------------------------------
+openmpi@4.0.1rc1
+
+-- linux-rhel7-ppc64le / pgi@18.7 -------------------------------
+openmpi@4.0.0
+
+-- linux-rhel7-ppc64le / pgi@18.10 ------------------------------
+openmpi@4.0.1rc1
+
+spack find -ldf openmpi
+==> 20 installed packages
+-- linux-centos7-x86_64 / gcc@4.8.5 -----------------------------
+kzuovcy    openmpi@4.0.1rc1%gcc
+bkkhvej        ^hwloc@1.11.11%gcc
+5chyfxo            ^libpciaccess@0.13.5%gcc
+bcnjbc3            ^libxml2@2.9.8%gcc
+tt2hkol            ^numactl@2.0.12%gcc
+64vg6e4        ^zlib@1.2.11%gcc
+
+
+-- linux-centos7-x86_64 / gcc@4.9.3 -----------------------------
+n4yal5o    openmpi@4.0.1rc1%gcc
+xvnhmjp        ^hwloc@1.11.11%gcc
+nqafs22            ^libpciaccess@0.13.5%gcc
+xr6jvqb            ^libxml2@2.9.8%gcc
+gyit553            ^numactl@2.0.12%gcc
+wabmm7g        ^zlib@1.2.11%gcc
+
+
+-- linux-centos7-x86_64 / gcc@5.5.0 -----------------------------
+q7io7u3    openmpi@4.0.1rc1%gcc
+2bjodks        ^hwloc@1.11.11%gcc
+ygiicn2            ^libpciaccess@0.13.5%gcc
+dyuna3l            ^libxml2@2.9.8%gcc
+ccmgitq            ^numactl@2.0.12%gcc
+ijtgxbh        ^zlib@1.2.11%gcc
+
+
+-- linux-centos7-x86_64 / gcc@6.4.0 -----------------------------
+nxpb6tg    openmpi@4.0.1rc1%gcc
+ydbwr4w        ^hwloc@1.11.11%gcc
+j6fsyhp            ^libpciaccess@0.13.5%gcc
+ltoyknu            ^libxml2@2.9.8%gcc
+2zmeci4            ^numactl@2.0.12%gcc
+ufwqfd4        ^zlib@1.2.11%gcc
+
+
+-- linux-centos7-x86_64 / gcc@7.3.0 -----------------------------
+6xsndio    openmpi@4.0.1rc1%gcc
+vrpknac        ^hwloc@1.11.11%gcc
+f5k35g4            ^libpciaccess@0.13.5%gcc
+m46g2kt            ^libxml2@2.9.8%gcc
+le6jhga            ^numactl@2.0.12%gcc
+zknfwan        ^zlib@1.2.11%gcc
+
+
+-- linux-centos7-x86_64 / gcc@8.2.0 -----------------------------
+tzz2rdp    openmpi@4.0.1rc1%gcc
+kpmr675        ^hwloc@1.11.11%gcc
+svkyphb            ^libpciaccess@0.13.5%gcc
+uvcs5lc            ^libxml2@2.9.8%gcc
+qwo625d            ^numactl@2.0.12%gcc
+6wdekzy        ^zlib@1.2.11%gcc
+
+
+-- linux-centos7-x86_64 / intel@17.0.6 --------------------------
+wtu35pd    openmpi@4.0.0%intel
+itb72kn        ^hwloc@1.11.11%intel
+5ywhccx            ^libpciaccess@0.13.5%intel
+rxyquml            ^libxml2@2.9.8%intel
+24xglv7            ^numactl@2.0.12%intel
+zlp4ddi        ^zlib@1.2.11%intel
+
+g5iwijp    openmpi@4.0.1rc1%intel
+itb72kn        ^hwloc@1.11.11%intel
+5ywhccx            ^libpciaccess@0.13.5%intel
+rxyquml            ^libxml2@2.9.8%intel
+24xglv7            ^numactl@2.0.12%intel
+zlp4ddi        ^zlib@1.2.11%intel
+
+
+-- linux-centos7-x86_64 / intel@18.0.3 --------------------------
+yz45xhc    openmpi@4.0.0%intel
+537d5od        ^hwloc@1.11.11%intel
+zrun5pc            ^libpciaccess@0.13.5%intel
+x6jborh            ^libxml2@2.9.8%intel
+caxqrj3            ^numactl@2.0.12%intel
+vonxam4        ^zlib@1.2.11%intel
+
+ntcxg4q    openmpi@4.0.1rc1%intel
+537d5od        ^hwloc@1.11.11%intel
+zrun5pc            ^libpciaccess@0.13.5%intel
+x6jborh            ^libxml2@2.9.8%intel
+caxqrj3            ^numactl@2.0.12%intel
+vonxam4        ^zlib@1.2.11%intel
+
+
+-- linux-centos7-x86_64 / pgi@18.7 ------------------------------
+jzbxgi2    openmpi@4.0.1rc1%pgi
+ba4lr3y        ^hwloc@1.11.11%pgi
+5chyfxo            ^libpciaccess@0.13.5%gcc
+dswnnxy            ^libxml2@2.9.8%pgi
+skrznzt            ^numactl@2.0.12%pgi
+wmz5d3r        ^zlib@1.2.11%pgi
+
+
+-- linux-centos7-x86_64 / pgi@18.10 -----------------------------
+prlk7v4    openmpi@4.0.1rc1%pgi
+tpsuyos        ^hwloc@1.11.11%pgi
+5chyfxo            ^libpciaccess@0.13.5%gcc
+ngeioqr            ^libxml2@2.9.8%pgi
+g5twfdt            ^numactl@2.0.12%pgi
+lmrbysj        ^zlib@1.2.11%pgi
+
+
+-- linux-rhel7-aarch64 / gcc@4.8.5 ------------------------------
+dzxmcbd    openmpi@4.0.1rc1%gcc
+7gqvelc        ^hwloc@1.11.11%gcc
+6a4he35            ^libpciaccess@0.13.5%gcc
+6a5uzd6            ^libxml2@2.9.8%gcc
+m5neuus            ^numactl@2.0.12%gcc
+67s2oqn        ^zlib@1.2.11%gcc
+
+
+-- linux-rhel7-aarch64 / gcc@7.1.0 ------------------------------
+5rcs25f    openmpi@4.0.1rc1%gcc
+izn5gbo        ^hwloc@1.11.11%gcc
+gmwtdrw            ^libpciaccess@0.13.5%gcc
+7sufcg5            ^libxml2@2.9.8%gcc
+eukhjxm            ^numactl@2.0.12%gcc
+zsiftcm        ^zlib@1.2.11%gcc
+
+
+-- linux-rhel7-ppc64le / gcc@4.8.5 ------------------------------
+4pnq7mp    openmpi@4.0.1rc1%gcc
+r6cylpu        ^hwloc@1.11.11%gcc
+uzm3xdv            ^libpciaccess@0.13.5%gcc
+trik6hj            ^libxml2@2.9.8%gcc
+pmgndwh            ^numactl@2.0.12%gcc
+4v3ticy        ^zlib@1.2.11%gcc
+
+
+-- linux-rhel7-ppc64le / gcc@6.4.0 ------------------------------
+atr22cn    openmpi@4.0.1rc1%gcc
+grntfnj        ^hwloc@1.11.11%gcc
+xsxy3sn            ^libpciaccess@0.13.5%gcc
+ch633d6            ^libxml2@2.9.8%gcc
+tcpcexo            ^numactl@2.0.12%gcc
+fvgnqf6        ^zlib@1.2.11%gcc
+
+
+-- linux-rhel7-ppc64le / gcc@7.3.0 ------------------------------
+ezty33b    openmpi@4.0.1rc1%gcc
+u522lpo        ^hwloc@1.11.11%gcc
+flx3yxj            ^libpciaccess@0.13.5%gcc
+obtfhh6            ^libxml2@2.9.8%gcc
+kbnsrgd            ^numactl@2.0.12%gcc
+p5okwa3        ^zlib@1.2.11%gcc
+
+
+-- linux-rhel7-ppc64le / gcc@8.2.0 ------------------------------
+rl4bntj    openmpi@4.0.1rc1%gcc
+bnthjtz        ^hwloc@1.11.11%gcc
+34jrd4x            ^libpciaccess@0.13.5%gcc
+odcrwuk            ^libxml2@2.9.8%gcc
+sjccaw6            ^numactl@2.0.12%gcc
+vgftsvf        ^zlib@1.2.11%gcc
+
+
+-- linux-rhel7-ppc64le / pgi@18.7 -------------------------------
+prznvmb    openmpi@4.0.0%pgi
+26vcqfo        ^hwloc@1.11.11%pgi
+djjkhel            ^libpciaccess@0.13.5%pgi
+bmi4ikh            ^libxml2@2.9.8%pgi
+34gi6jk            ^numactl@2.0.12%pgi
+mublgok        ^zlib@1.2.11%pgi
+
+
+-- linux-rhel7-ppc64le / pgi@18.10 ------------------------------
+w6jzznr    openmpi@4.0.1rc1%pgi
+ckoq5tz        ^hwloc@1.11.11%pgi
+tuuifqh            ^libpciaccess@0.13.5%pgi
+2tlntw3            ^libxml2@2.9.8%pgi
+qhlspkv            ^numactl@2.0.12%pgi
+ygyqqzn        ^zlib@1.2.11%pgi
+
+Mon Mar 25 17:07:56 MDT 2019

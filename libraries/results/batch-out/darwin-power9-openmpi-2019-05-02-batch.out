@@ -1,0 +1,805 @@
+Thu May  2 10:46:45 MDT 2019 [1m/home/dantopa/.mybash(B[m
+Thu May  2 10:46:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/platforms.sh(B[m
+attempting to mkdir /scratch/users/dantopa/repos/gitlab/node-queries/darwin/power9-cn2037/dir-configuration
+directory of core scripts = ${core} = /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts
+Thu May  2 10:46:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/master.sh(B[m
+Thu May  2 10:46:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh(B[m
+Thu May  2 10:46:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh(B[m
+Thu May  2 10:46:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Thu May  2 10:46:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/gcc.sh(B[m
+Thu May  2 10:46:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh(B[m
+Thu May  2 10:46:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh: line 5: gonode: command not found
+Thu May  2 10:46:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/git.sh(B[m
+Thu May  2 10:46:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Thu May  2 10:46:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/ssh.sh(B[m
+Thu May  2 10:46:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/vim.sh(B[m
+Thu May  2 10:46:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bash.sh(B[m
+Thu May  2 10:46:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/finds.sh(B[m
+Thu May  2 10:46:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/cmake.sh(B[m
+Thu May  2 10:46:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/fortran.sh(B[m
+Thu May  2 10:46:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/copy-configuration.sh(B[m
+cp: cannot stat ‘/home/dantopa/.libraries-darwin.sh’: No such file or directory
+Thu May  2 10:46:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks.sh(B[m
+Thu May  2 10:46:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-bitbucket.sh(B[m
+Thu May  2 10:46:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-github.sh(B[m
+Thu May  2 10:46:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-gitlab.sh(B[m
+Thu May  2 10:46:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/disk.sh(B[m
+Thu May  2 10:46:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh(B[m
+[master af7e318] darwin-power9-cn2037 Thu May  2 10:46:45 MDT 2019
+ 1 file changed, 18 insertions(+)
+ create mode 100644 libraries/tools/bash/darwin-power9-batch.out
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh: line 33: sinfo_s: command not found
+Thu May  2 10:46:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh(B[m
+Thu May  2 10:46:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Thu May  2 10:46:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh(B[m
+Thu May  2 10:46:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh(B[m
+Thu May  2 10:46:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/uname.sh(B[m
+Thu May  2 10:46:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/spack.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh: line 5: gonode: command not found
+Thu May  2 10:46:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/modules.sh(B[m
+Thu May  2 10:46:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Thu May  2 10:46:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/alias.sh(B[m
+Thu May  2 10:46:45 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh: line 11: myprompt: command not found
+[master dc7cbff] darwin-power9-cn2037 Thu May  2 10:46:45 MDT 2019
+ 1 file changed, 21 insertions(+)
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh: line 33: sinfo_s: command not found
+Thu May  2 10:46:46 MDT 2019 [1m/home/dantopa/libraries-darwin.sh(B[m
+Thu May  2 10:46:46 MDT 2019 /tmp/slurmd/job5232563/slurm_script
+source /home/dantopa/libraries-darwin.sh
+Thu May  2 10:46:46 MDT 2019 [1m/home/dantopa/libraries-darwin.sh(B[m
+source "${dir_tools}/bash/master-tpl-sweep.sh"
+Thu May  2 10:46:46 MDT 2019 /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh
+cd /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools
+source directories/libraries-darwin.sh
+Thu May  2 10:46:46 MDT 2019 [1mdirectories/libraries-darwin.sh(B[m
+source tpl-versions/versions-openmpi.sh
+Thu May  2 10:46:46 MDT 2019 [1mtpl-versions/versions-openmpi.sh(B[m
+4 openmpi versions loaded:
+4.0.1  3.1.4  3.0.4  2.1.6
+
+source compilers/compilers-darwin-power9.sh
+Thu May  2 10:46:46 MDT 2019 [1mcompilers/compilers-darwin-power9.sh(B[m
+9 Spack-recognized compilers loaded:
+clang@7.0.0 gcc@8.2.0  gcc@7.3.0  gcc@6.4.0  gcc@4.8.5 pgi@18.10  pgi@17.10  pgi@16.10 xl@16.1
+
+source klingons/darwin-power9-openmpi.sh
+/scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 37: klingons/darwin-power9-openmpi.sh: No such file or directory
+cd /scratch/users/dantopa/repos/spack/libraries/darwin-power9.openmpi
+. share/spack/setup-env.sh
+export spack_architecture='arch=linux-rhel7-ppc64le'
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+spack compilers
+==> Available compilers
+-- clang rhel7-ppc64le ------------------------------------------
+clang@7.0.0
+
+-- gcc rhel7-ppc64le --------------------------------------------
+gcc@8.2.0
+gcc@8.1.0
+gcc@7.3.0
+gcc@6.4.0
+gcc@4.8.5
+
+-- pgi rhel7-ppc64le --------------------------------------------
+pgi@18.10
+pgi@18.7
+pgi@17.10
+pgi@16.10
+
+-- xl rhel7-ppc64le ---------------------------------------------
+xl@16.1
+
+-- xl_r rhel7-ppc64le -------------------------------------------
+xl_r@16.1
+ls -alh etc/spack/defaults
+total 144K
+drwxrwxr-x 4 dantopa dantopa   14 May  2 10:02 .
+drwxrwxr-x 3 dantopa dantopa    3 Apr 24 10:19 ..
+-rw-rw-r-- 1 dantopa dantopa 5.0K May  2 10:38 compilers.yaml
+-rw-rw-r-- 1 dantopa dantopa 4.4K Apr 24 10:19 config.yaml
+drwxrwxr-x 2 dantopa dantopa    4 Apr 24 10:19 darwin
+-rw-rw-r-- 1 dantopa dantopa 5.0K Apr 24 10:30 darwin-compilers-linux-rhel7-ppc64le.yaml
+drwxrwxr-x 2 dantopa dantopa    3 Apr 24 10:19 linux
+-rw-rw-r-- 1 dantopa dantopa 2.8K May  2 10:38 lmod-modules.yaml
+-rw-rw-r-- 1 dantopa dantopa  136 May  2 10:38 mirrors.yaml
+-rw-rw-r-- 1 dantopa dantopa 3.7K May  2 10:38 modules.yaml
+-rw-rw-r-- 1 dantopa dantopa 3.1K May  2 10:38 packages.yaml
+-rw-rw-r-- 1 dantopa dantopa  530 Apr 24 10:19 release.yaml
+-rw-rw-r-- 1 dantopa dantopa  546 Apr 24 10:19 repos.yaml
+-rw-rw-r-- 1 dantopa dantopa 3.7K May  2 10:38 tcl-modules.yaml
+cat etc/spack/defaults/compilers.yaml
+# #  power9
+  #  - clang 7.0.0
+  #  - gcc  8.2.0  8.1.0  7.3.0  6.4.0  4.8.5*
+  #  - pgi  18.10  18.7  17.10  16.10
+  #  - xl  16.1
+compilers:
+  # # # clang
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc:  /projects/opt/ppc64le/clang/7.0.0/usr/local/bin/clang
+      cxx: /projects/opt/ppc64le/clang/7.0.0/usr/local/bin/clang++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec: clang@7.0.0
+    target: ppc64le
+  # # # gcc
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [gcc/8.2.0]
+    operating_system: rhel7
+    paths:
+      cc:  /projects/opt/ppc64le/gcc/8.2.0/bin/gcc
+      cxx: /projects/opt/ppc64le/gcc/8.2.0/bin/g++
+      f77: /projects/opt/ppc64le/gcc/8.2.0/bin/gfortran
+      fc:  /projects/opt/ppc64le/gcc/8.2.0/bin/gfortran
+    spec: gcc@8.2.0
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [gcc/8.1.0]
+    operating_system: rhel7
+    paths:
+      cc:  /projects/opt/ppc64le/gcc/8.1.0/bin/gcc
+      cxx: /projects/opt/ppc64le/gcc/8.1.0/bin/g++
+      f77: /projects/opt/ppc64le/gcc/8.1.0/bin/gfortran
+      fc:  /projects/opt/ppc64le/gcc/8.1.0/bin/gfortran
+    spec: gcc@8.1.0
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [gcc/7.3.0]
+    operating_system: rhel7
+    paths:
+      cc:  /projects/opt/ppc64le/gcc/7.3.0/bin/gcc
+      cxx: /projects/opt/ppc64le/gcc/7.3.0/bin/g++
+      f77: /projects/opt/ppc64le/gcc/7.3.0/bin/gfortran
+      fc:  /projects/opt/ppc64le/gcc/7.3.0/bin/gfortran
+    spec: gcc@7.3.0
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [gcc/6.4.0]
+    operating_system: rhel7
+    paths:
+      cc:  /projects/opt/ppc64le/gcc/6.4.0/bin/gcc
+      cxx: /projects/opt/ppc64le/gcc/6.4.0/bin/g++
+      f77: /projects/opt/ppc64le/gcc/6.4.0/bin/gfortran
+      fc:  /projects/opt/ppc64le/gcc/6.4.0/bin/gfortran
+    spec: gcc@6.4.0
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc:  /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec: gcc@4.8.5
+    target: ppc64le
+  # # # pgi
+
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [pgi/18.10]
+    operating_system: rhel7
+    paths:
+      cc:  /projects/opt/ppc64le/pgi/linuxpower/18.10/bin/pgcc
+      cxx: /projects/opt/ppc64le/pgi/linuxpower/18.10/bin/pgc++
+      f77: /projects/opt/ppc64le/pgi/linuxpower/18.10/bin/pgfortran
+      fc:  /projects/opt/ppc64le/pgi/linuxpower/18.10/bin/pgfortran
+    spec: pgi@18.10
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [pgi/18.7]
+    operating_system: rhel7
+    paths:
+      cc:  /projects/opt/ppc64le/pgi/linuxpower/18.7/bin/pgcc
+      cxx: /projects/opt/ppc64le/pgi/linuxpower/18.7/bin/pgc++
+      f77: /projects/opt/ppc64le/pgi/linuxpower/18.7/bin/pgfortran
+      fc:  /projects/opt/ppc64le/pgi/linuxpower/18.7/bin/pgfortran
+    spec: pgi@18.7
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [pgi/17.10]
+    operating_system: rhel7
+    paths:
+      cc:  /projects/opt/ppc64le/pgi/linuxpower/17.10/bin/pgcc
+      cxx: /projects/opt/ppc64le/pgi/linuxpower/17.10/bin/pgc++
+      f77: /projects/opt/ppc64le/pgi/linuxpower/17.10/bin/pgfortran
+      fc:  /projects/opt/ppc64le/pgi/linuxpower/17.10/bin/pgfortran
+    spec: pgi@17.10
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [pgi/16.10]
+    operating_system: rhel7
+    paths:
+      cc:  /projects/opt/ppc64le/pgi/pgi-16.10/linuxpower/16.10/bin/pgcc
+      cxx: /projects/opt/ppc64le/pgi/pgi-16.10/linuxpower/16.10/bin/pgc++
+      f77: /projects/opt/ppc64le/pgi/pgi-16.10/linuxpower/16.10/bin/pgfortran
+      fc:  /projects/opt/ppc64le/pgi/pgi-16.10/linuxpower/16.10/bin/pgfortran
+    spec: pgi@16.10
+    target: ppc64le
+  # # # xl
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags:
+      fflags: -qzerosize
+    modules: [ibm/xlc-16.1.1-xlf-16.1.1]
+    operating_system: rhel7
+    paths:
+      cc:  /projects/opt/ppc64le/ibm/xlc-16.1.1/xlC/16.1.1/bin/xlc
+      cxx: /projects/opt/ppc64le/ibm/xlc-16.1.1/xlC/16.1.1/bin/xlC
+      f77: /projects/opt/ppc64le/ibm/xlf-16.1.1/xlf/16.1.1/bin/xlf
+      fc:  /projects/opt/ppc64le/ibm/xlf-16.1.1/xlf/16.1.1/bin/xlf95
+    spec: xl@16.1
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags:
+      fflags: -qzerosize
+    modules: [ibm/xlc-16.1.1-xlf-16.1.1]
+    operating_system: rhel7
+    paths:
+      cc:  /projects/opt/ppc64le/ibm/xlc-16.1.1/xlC/16.1.1/bin/xlc_r
+      cxx: /projects/opt/ppc64le/ibm/xlc-16.1.1/xlC/16.1.1/bin/xlC_r
+      f77: /projects/opt/ppc64le/ibm/xlf-16.1.1/xlf/16.1.1/bin/xlf_r
+      fc:  /projects/opt/ppc64le/ibm/xlf-16.1.1/xlf/16.1.1/bin/xlf2008_r
+    spec: xl_r@16.1
+    target: ppc64le
+spack config get compilers
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /projects/opt/ppc64le/clang/7.0.0/usr/local/bin/clang
+      cxx: /projects/opt/ppc64le/clang/7.0.0/usr/local/bin/clang++
+      f77: /usr/bin/gfortran
+      fc: /usr/bin/gfortran
+    spec: clang@7.0.0
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/8.2.0
+    operating_system: rhel7
+    paths:
+      cc: /projects/opt/ppc64le/gcc/8.2.0/bin/gcc
+      cxx: /projects/opt/ppc64le/gcc/8.2.0/bin/g++
+      f77: /projects/opt/ppc64le/gcc/8.2.0/bin/gfortran
+      fc: /projects/opt/ppc64le/gcc/8.2.0/bin/gfortran
+    spec: gcc@8.2.0
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/8.1.0
+    operating_system: rhel7
+    paths:
+      cc: /projects/opt/ppc64le/gcc/8.1.0/bin/gcc
+      cxx: /projects/opt/ppc64le/gcc/8.1.0/bin/g++
+      f77: /projects/opt/ppc64le/gcc/8.1.0/bin/gfortran
+      fc: /projects/opt/ppc64le/gcc/8.1.0/bin/gfortran
+    spec: gcc@8.1.0
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/7.3.0
+    operating_system: rhel7
+    paths:
+      cc: /projects/opt/ppc64le/gcc/7.3.0/bin/gcc
+      cxx: /projects/opt/ppc64le/gcc/7.3.0/bin/g++
+      f77: /projects/opt/ppc64le/gcc/7.3.0/bin/gfortran
+      fc: /projects/opt/ppc64le/gcc/7.3.0/bin/gfortran
+    spec: gcc@7.3.0
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/6.4.0
+    operating_system: rhel7
+    paths:
+      cc: /projects/opt/ppc64le/gcc/6.4.0/bin/gcc
+      cxx: /projects/opt/ppc64le/gcc/6.4.0/bin/g++
+      f77: /projects/opt/ppc64le/gcc/6.4.0/bin/gfortran
+      fc: /projects/opt/ppc64le/gcc/6.4.0/bin/gfortran
+    spec: gcc@6.4.0
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc: /usr/bin/gfortran
+    spec: gcc@4.8.5
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/18.10
+    operating_system: rhel7
+    paths:
+      cc: /projects/opt/ppc64le/pgi/linuxpower/18.10/bin/pgcc
+      cxx: /projects/opt/ppc64le/pgi/linuxpower/18.10/bin/pgc++
+      f77: /projects/opt/ppc64le/pgi/linuxpower/18.10/bin/pgfortran
+      fc: /projects/opt/ppc64le/pgi/linuxpower/18.10/bin/pgfortran
+    spec: pgi@18.10
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/18.7
+    operating_system: rhel7
+    paths:
+      cc: /projects/opt/ppc64le/pgi/linuxpower/18.7/bin/pgcc
+      cxx: /projects/opt/ppc64le/pgi/linuxpower/18.7/bin/pgc++
+      f77: /projects/opt/ppc64le/pgi/linuxpower/18.7/bin/pgfortran
+      fc: /projects/opt/ppc64le/pgi/linuxpower/18.7/bin/pgfortran
+    spec: pgi@18.7
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/17.10
+    operating_system: rhel7
+    paths:
+      cc: /projects/opt/ppc64le/pgi/linuxpower/17.10/bin/pgcc
+      cxx: /projects/opt/ppc64le/pgi/linuxpower/17.10/bin/pgc++
+      f77: /projects/opt/ppc64le/pgi/linuxpower/17.10/bin/pgfortran
+      fc: /projects/opt/ppc64le/pgi/linuxpower/17.10/bin/pgfortran
+    spec: pgi@17.10
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/16.10
+    operating_system: rhel7
+    paths:
+      cc: /projects/opt/ppc64le/pgi/pgi-16.10/linuxpower/16.10/bin/pgcc
+      cxx: /projects/opt/ppc64le/pgi/pgi-16.10/linuxpower/16.10/bin/pgc++
+      f77: /projects/opt/ppc64le/pgi/pgi-16.10/linuxpower/16.10/bin/pgfortran
+      fc: /projects/opt/ppc64le/pgi/pgi-16.10/linuxpower/16.10/bin/pgfortran
+    spec: pgi@16.10
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags:
+      fflags: -qzerosize
+    modules:
+    - ibm/xlc-16.1.1-xlf-16.1.1
+    operating_system: rhel7
+    paths:
+      cc: /projects/opt/ppc64le/ibm/xlc-16.1.1/xlC/16.1.1/bin/xlc
+      cxx: /projects/opt/ppc64le/ibm/xlc-16.1.1/xlC/16.1.1/bin/xlC
+      f77: /projects/opt/ppc64le/ibm/xlf-16.1.1/xlf/16.1.1/bin/xlf
+      fc: /projects/opt/ppc64le/ibm/xlf-16.1.1/xlf/16.1.1/bin/xlf95
+    spec: xl@16.1
+    target: ppc64le
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags:
+      fflags: -qzerosize
+    modules:
+    - ibm/xlc-16.1.1-xlf-16.1.1
+    operating_system: rhel7
+    paths:
+      cc: /projects/opt/ppc64le/ibm/xlc-16.1.1/xlC/16.1.1/bin/xlc_r
+      cxx: /projects/opt/ppc64le/ibm/xlc-16.1.1/xlC/16.1.1/bin/xlC_r
+      f77: /projects/opt/ppc64le/ibm/xlf-16.1.1/xlf/16.1.1/bin/xlf_r
+      fc: /projects/opt/ppc64le/ibm/xlf-16.1.1/xlf/16.1.1/bin/xlf2008_r
+    spec: xl_r@16.1
+    target: ppc64le
+spack install openmpi @ 4.0.1 % clang@7.0.0  arch=linux-rhel7-ppc64le 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/clang-7.0.0/util-macros-1.19.1-3kyopixydtgnpmyyq6f7vcnpf2thqwwk
+spack install openmpi @ 4.0.1 % gcc@8.2.0  arch=linux-rhel7-ppc64le 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-8.2.0/openmpi-4.0.1-fnxfedqrrw76misoir2g6c2gaxj66fag
+spack install openmpi @ 4.0.1 % gcc@7.3.0  arch=linux-rhel7-ppc64le 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.0/openmpi-4.0.1-2iz2f5xsr35vlo6trflttyphgotqagar
+spack install openmpi @ 4.0.1 % gcc@6.4.0  arch=linux-rhel7-ppc64le 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-6.4.0/openmpi-4.0.1-sqjk33aedbqsol6jph4xfugaid7xlswp
+spack install openmpi @ 4.0.1 % gcc@4.8.5  arch=linux-rhel7-ppc64le 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/openmpi-4.0.1-tkze2gfc7cpy4qye5tu4qvuq6vx6uopj
+spack install openmpi @ 4.0.1 % pgi@18.10  arch=linux-rhel7-ppc64le 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-18.10/openmpi-4.0.1-sw6xtdt3n5nnmv7acomwl5bc53rp6hin
+spack install openmpi @ 4.0.1 % pgi@17.10  arch=linux-rhel7-ppc64le 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-17.10/openmpi-4.0.1-625f3b7n5heuqcumlddjqn63c5dsyk6d
+spack install openmpi @ 4.0.1 % pgi@16.10  arch=linux-rhel7-ppc64le 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-16.10/util-macros-1.19.1-x5kdgd5jg4lonc2p663jiod4ykxmhcqc
+spack install openmpi @ 4.0.1 % xl@16.1  arch=linux-rhel7-ppc64le 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.1/util-macros-1.19.1-tcfngius5m55spkimeko3a4bn4egqmm5
+spack install openmpi @ 3.1.4 % clang@7.0.0  arch=linux-rhel7-ppc64le 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/clang-7.0.0/util-macros-1.19.1-3kyopixydtgnpmyyq6f7vcnpf2thqwwk
+spack install openmpi @ 3.1.4 % gcc@8.2.0  arch=linux-rhel7-ppc64le 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-8.2.0/openmpi-3.1.4-2nrealqardkn3kkx26v5f4otplbqxujf
+spack install openmpi @ 3.1.4 % gcc@7.3.0  arch=linux-rhel7-ppc64le 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.0/openmpi-3.1.4-jxdcwfnwrier2r4upv4lph7knc4aloap
+spack install openmpi @ 3.1.4 % gcc@6.4.0  arch=linux-rhel7-ppc64le 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-6.4.0/openmpi-3.1.4-modtwyat3nxuldf4ke7ksc5lt52lfvmr
+spack install openmpi @ 3.1.4 % gcc@4.8.5  arch=linux-rhel7-ppc64le 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/openmpi-3.1.4-tv3vjxhnn2jj44qc6dkf6ri65ebxqcwn
+spack install openmpi @ 3.1.4 % pgi@18.10  arch=linux-rhel7-ppc64le 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-18.10/util-macros-1.19.1-mldraxpsgrs5xbwdy4hh4np7b4pdhryn
+spack install openmpi @ 3.1.4 % pgi@17.10  arch=linux-rhel7-ppc64le 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-17.10/openmpi-3.1.4-hmwh4o5qhsp5zvug2t2wlapimg5ex5sk
+spack install openmpi @ 3.1.4 % pgi@16.10  arch=linux-rhel7-ppc64le 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-16.10/util-macros-1.19.1-x5kdgd5jg4lonc2p663jiod4ykxmhcqc
+spack install openmpi @ 3.1.4 % xl@16.1  arch=linux-rhel7-ppc64le 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.1/util-macros-1.19.1-tcfngius5m55spkimeko3a4bn4egqmm5
+spack install openmpi @ 3.0.4 % clang@7.0.0  arch=linux-rhel7-ppc64le 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/clang-7.0.0/util-macros-1.19.1-3kyopixydtgnpmyyq6f7vcnpf2thqwwk
+spack install openmpi @ 3.0.4 % gcc@8.2.0  arch=linux-rhel7-ppc64le 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-8.2.0/openmpi-3.0.4-ww7e7zm2m5yg7fpk3l5f6z3jqbw6htzr
+spack install openmpi @ 3.0.4 % gcc@7.3.0  arch=linux-rhel7-ppc64le 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.0/openmpi-3.0.4-7u27rpr34wheobgf7klsqqvu7zqlp5b7
+spack install openmpi @ 3.0.4 % gcc@6.4.0  arch=linux-rhel7-ppc64le 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-6.4.0/openmpi-3.0.4-5wclfey6qgli524k7glh4yfq5ais7yfp
+spack install openmpi @ 3.0.4 % gcc@4.8.5  arch=linux-rhel7-ppc64le 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/openmpi-3.0.4-otirvfntqreagzb4e3wxit3rpaijw5kj
+spack install openmpi @ 3.0.4 % pgi@18.10  arch=linux-rhel7-ppc64le 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-18.10/openmpi-3.0.4-ck5kl5ashax3hpl6e2b5ppwjenhhgzg6
+spack install openmpi @ 3.0.4 % pgi@17.10  arch=linux-rhel7-ppc64le 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-17.10/openmpi-3.0.4-uodyippegpirvvxpvsca4mxnarzsuety
+spack install openmpi @ 3.0.4 % pgi@16.10  arch=linux-rhel7-ppc64le 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-16.10/util-macros-1.19.1-x5kdgd5jg4lonc2p663jiod4ykxmhcqc
+spack install openmpi @ 3.0.4 % xl@16.1  arch=linux-rhel7-ppc64le 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.1/util-macros-1.19.1-tcfngius5m55spkimeko3a4bn4egqmm5
+spack install openmpi @ 2.1.6 % clang@7.0.0  arch=linux-rhel7-ppc64le 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: [Errno 2] No such file or directory: '/home/dantopa/.spack/cache/tags/builtin-index.json'
+spack install openmpi @ 2.1.6 % gcc@8.2.0  arch=linux-rhel7-ppc64le 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-8.2.0/openmpi-2.1.6-7qb3bnnzsaas2c7uba5jvpkmhojleoxf
+spack install openmpi @ 2.1.6 % gcc@7.3.0  arch=linux-rhel7-ppc64le 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.0/openmpi-2.1.6-67q7d67wt3qkm7bklvw5vv2t4fuuebkb
+spack install openmpi @ 2.1.6 % gcc@6.4.0  arch=linux-rhel7-ppc64le 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-6.4.0/openmpi-2.1.6-w37zjffr2kdkno3j4uriegpp2mpzzyhc
+spack install openmpi @ 2.1.6 % gcc@4.8.5  arch=linux-rhel7-ppc64le 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/openmpi-2.1.6-nva7q77c7b6ccjcyzczo7amg2da2u7ih
+spack install openmpi @ 2.1.6 % pgi@18.10  arch=linux-rhel7-ppc64le 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-18.10/util-macros-1.19.1-mldraxpsgrs5xbwdy4hh4np7b4pdhryn
+spack install openmpi @ 2.1.6 % pgi@17.10  arch=linux-rhel7-ppc64le 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-17.10/openmpi-2.1.6-cvqehog73xtiummx7j3pr72zpx3swffg
+spack install openmpi @ 2.1.6 % pgi@16.10  arch=linux-rhel7-ppc64le 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-16.10/util-macros-1.19.1-x5kdgd5jg4lonc2p663jiod4ykxmhcqc
+spack install openmpi @ 2.1.6 % xl@16.1  arch=linux-rhel7-ppc64le 2>&1 >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/darwin-power9-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /scratch/users/dantopa/repos/spack/libraries/darwin-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.1/util-macros-1.19.1-tcfngius5m55spkimeko3a4bn4egqmm5
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+mkdir -p "${dir_results}/platform-order"
+mkdir -p "${dir_results}/tpl-order"
+mkdir -p "${dir_results}/graphs"
+spack find openmpi >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/platform-order/darwin-power9-openmpi.out
+spack find openmpi >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/openmpi-darwin-power9.out
+spack find -ldf openmpi  >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/openmpi-darwin-power9-ldf.out
+spack graph openmpi >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/graphs/openmpi-darwin-power9-graph.out
+spack compilers
+==> Available compilers
+-- clang rhel7-ppc64le ------------------------------------------
+clang@7.0.0
+
+-- gcc rhel7-ppc64le --------------------------------------------
+gcc@8.2.0
+gcc@8.1.0
+gcc@7.3.0
+gcc@6.4.0
+gcc@4.8.5
+
+-- pgi rhel7-ppc64le --------------------------------------------
+pgi@18.10
+pgi@18.7
+pgi@17.10
+pgi@16.10
+
+-- xl rhel7-ppc64le ---------------------------------------------
+xl@16.1
+
+-- xl_r rhel7-ppc64le -------------------------------------------
+xl_r@16.1
+spack find openmpi
+==> 22 installed packages
+-- linux-rhel7-ppc64le / gcc@4.8.5 ------------------------------
+openmpi@2.1.6
+openmpi@3.0.4
+openmpi@3.1.4
+openmpi@4.0.1
+
+-- linux-rhel7-ppc64le / gcc@6.4.0 ------------------------------
+openmpi@2.1.6
+openmpi@3.0.4
+openmpi@3.1.4
+openmpi@4.0.1
+
+-- linux-rhel7-ppc64le / gcc@7.3.0 ------------------------------
+openmpi@2.1.6
+openmpi@3.0.4
+openmpi@3.1.4
+openmpi@4.0.1
+
+-- linux-rhel7-ppc64le / gcc@8.2.0 ------------------------------
+openmpi@2.1.6
+openmpi@3.0.4
+openmpi@3.1.4
+openmpi@4.0.1
+
+-- linux-rhel7-ppc64le / pgi@17.10 ------------------------------
+openmpi@2.1.6
+openmpi@3.0.4
+openmpi@3.1.4
+openmpi@4.0.1
+
+-- linux-rhel7-ppc64le / pgi@18.10 ------------------------------
+openmpi@3.0.4
+openmpi@4.0.1
+spack find -ldf openmpi
+==> 22 installed packages
+-- linux-rhel7-ppc64le / gcc@4.8.5 ------------------------------
+nva7q77    openmpi@2.1.6%gcc 
+r6cylpu        ^hwloc@1.11.11%gcc 
+uzm3xdv            ^libpciaccess@0.13.5%gcc 
+trik6hj            ^libxml2@2.9.8%gcc 
+pmgndwh            ^numactl@2.0.12%gcc 
+
+otirvfn    openmpi@3.0.4%gcc 
+r6cylpu        ^hwloc@1.11.11%gcc 
+uzm3xdv            ^libpciaccess@0.13.5%gcc 
+trik6hj            ^libxml2@2.9.8%gcc 
+pmgndwh            ^numactl@2.0.12%gcc 
+4v3ticy        ^zlib@1.2.11%gcc 
+
+tv3vjxh    openmpi@3.1.4%gcc 
+r6cylpu        ^hwloc@1.11.11%gcc 
+uzm3xdv            ^libpciaccess@0.13.5%gcc 
+trik6hj            ^libxml2@2.9.8%gcc 
+pmgndwh            ^numactl@2.0.12%gcc 
+4v3ticy        ^zlib@1.2.11%gcc 
+
+tkze2gf    openmpi@4.0.1%gcc 
+r6cylpu        ^hwloc@1.11.11%gcc 
+uzm3xdv            ^libpciaccess@0.13.5%gcc 
+trik6hj            ^libxml2@2.9.8%gcc 
+pmgndwh            ^numactl@2.0.12%gcc 
+4v3ticy        ^zlib@1.2.11%gcc 
+
+
+-- linux-rhel7-ppc64le / gcc@6.4.0 ------------------------------
+w37zjff    openmpi@2.1.6%gcc 
+grntfnj        ^hwloc@1.11.11%gcc 
+xsxy3sn            ^libpciaccess@0.13.5%gcc 
+ch633d6            ^libxml2@2.9.8%gcc 
+tcpcexo            ^numactl@2.0.12%gcc 
+
+5wclfey    openmpi@3.0.4%gcc 
+grntfnj        ^hwloc@1.11.11%gcc 
+xsxy3sn            ^libpciaccess@0.13.5%gcc 
+ch633d6            ^libxml2@2.9.8%gcc 
+tcpcexo            ^numactl@2.0.12%gcc 
+fvgnqf6        ^zlib@1.2.11%gcc 
+
+modtwya    openmpi@3.1.4%gcc 
+grntfnj        ^hwloc@1.11.11%gcc 
+xsxy3sn            ^libpciaccess@0.13.5%gcc 
+ch633d6            ^libxml2@2.9.8%gcc 
+tcpcexo            ^numactl@2.0.12%gcc 
+fvgnqf6        ^zlib@1.2.11%gcc 
+
+sqjk33a    openmpi@4.0.1%gcc 
+grntfnj        ^hwloc@1.11.11%gcc 
+xsxy3sn            ^libpciaccess@0.13.5%gcc 
+ch633d6            ^libxml2@2.9.8%gcc 
+tcpcexo            ^numactl@2.0.12%gcc 
+fvgnqf6        ^zlib@1.2.11%gcc 
+
+
+-- linux-rhel7-ppc64le / gcc@7.3.0 ------------------------------
+67q7d67    openmpi@2.1.6%gcc 
+u522lpo        ^hwloc@1.11.11%gcc 
+flx3yxj            ^libpciaccess@0.13.5%gcc 
+obtfhh6            ^libxml2@2.9.8%gcc 
+kbnsrgd            ^numactl@2.0.12%gcc 
+
+7u27rpr    openmpi@3.0.4%gcc 
+u522lpo        ^hwloc@1.11.11%gcc 
+flx3yxj            ^libpciaccess@0.13.5%gcc 
+obtfhh6            ^libxml2@2.9.8%gcc 
+kbnsrgd            ^numactl@2.0.12%gcc 
+p5okwa3        ^zlib@1.2.11%gcc 
+
+jxdcwfn    openmpi@3.1.4%gcc 
+u522lpo        ^hwloc@1.11.11%gcc 
+flx3yxj            ^libpciaccess@0.13.5%gcc 
+obtfhh6            ^libxml2@2.9.8%gcc 
+kbnsrgd            ^numactl@2.0.12%gcc 
+p5okwa3        ^zlib@1.2.11%gcc 
+
+2iz2f5x    openmpi@4.0.1%gcc 
+u522lpo        ^hwloc@1.11.11%gcc 
+flx3yxj            ^libpciaccess@0.13.5%gcc 
+obtfhh6            ^libxml2@2.9.8%gcc 
+kbnsrgd            ^numactl@2.0.12%gcc 
+p5okwa3        ^zlib@1.2.11%gcc 
+
+
+-- linux-rhel7-ppc64le / gcc@8.2.0 ------------------------------
+7qb3bnn    openmpi@2.1.6%gcc 
+bnthjtz        ^hwloc@1.11.11%gcc 
+34jrd4x            ^libpciaccess@0.13.5%gcc 
+odcrwuk            ^libxml2@2.9.8%gcc 
+sjccaw6            ^numactl@2.0.12%gcc 
+
+ww7e7zm    openmpi@3.0.4%gcc 
+bnthjtz        ^hwloc@1.11.11%gcc 
+34jrd4x            ^libpciaccess@0.13.5%gcc 
+odcrwuk            ^libxml2@2.9.8%gcc 
+sjccaw6            ^numactl@2.0.12%gcc 
+vgftsvf        ^zlib@1.2.11%gcc 
+
+2nrealq    openmpi@3.1.4%gcc 
+bnthjtz        ^hwloc@1.11.11%gcc 
+34jrd4x            ^libpciaccess@0.13.5%gcc 
+odcrwuk            ^libxml2@2.9.8%gcc 
+sjccaw6            ^numactl@2.0.12%gcc 
+vgftsvf        ^zlib@1.2.11%gcc 
+
+fnxfedq    openmpi@4.0.1%gcc 
+bnthjtz        ^hwloc@1.11.11%gcc 
+34jrd4x            ^libpciaccess@0.13.5%gcc 
+odcrwuk            ^libxml2@2.9.8%gcc 
+sjccaw6            ^numactl@2.0.12%gcc 
+vgftsvf        ^zlib@1.2.11%gcc 
+
+
+-- linux-rhel7-ppc64le / pgi@17.10 ------------------------------
+cvqehog    openmpi@2.1.6%pgi 
+ebtztl3        ^hwloc@1.11.11%pgi 
+dy65i7h            ^libpciaccess@0.13.5%pgi 
+jvwtc75            ^libxml2@2.9.8%pgi 
+3biihzq            ^numactl@2.0.12%pgi 
+
+uodyipp    openmpi@3.0.4%pgi 
+ebtztl3        ^hwloc@1.11.11%pgi 
+dy65i7h            ^libpciaccess@0.13.5%pgi 
+jvwtc75            ^libxml2@2.9.8%pgi 
+3biihzq            ^numactl@2.0.12%pgi 
+djtus7b        ^zlib@1.2.11%pgi 
+
+hmwh4o5    openmpi@3.1.4%pgi 
+ebtztl3        ^hwloc@1.11.11%pgi 
+dy65i7h            ^libpciaccess@0.13.5%pgi 
+jvwtc75            ^libxml2@2.9.8%pgi 
+3biihzq            ^numactl@2.0.12%pgi 
+djtus7b        ^zlib@1.2.11%pgi 
+
+625f3b7    openmpi@4.0.1%pgi 
+ebtztl3        ^hwloc@1.11.11%pgi 
+dy65i7h            ^libpciaccess@0.13.5%pgi 
+jvwtc75            ^libxml2@2.9.8%pgi 
+3biihzq            ^numactl@2.0.12%pgi 
+djtus7b        ^zlib@1.2.11%pgi 
+
+
+-- linux-rhel7-ppc64le / pgi@18.10 ------------------------------
+ck5kl5a    openmpi@3.0.4%pgi 
+ckoq5tz        ^hwloc@1.11.11%pgi 
+tuuifqh            ^libpciaccess@0.13.5%pgi 
+2tlntw3            ^libxml2@2.9.8%pgi 
+qhlspkv            ^numactl@2.0.12%pgi 
+ygyqqzn        ^zlib@1.2.11%pgi 
+
+sw6xtdt    openmpi@4.0.1%pgi 
+ckoq5tz        ^hwloc@1.11.11%pgi 
+tuuifqh            ^libpciaccess@0.13.5%pgi 
+2tlntw3            ^libxml2@2.9.8%pgi 
+qhlspkv            ^numactl@2.0.12%pgi 
+ygyqqzn        ^zlib@1.2.11%pgi 
+
+mv  /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/darwin-power9-batch.out   /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/batch-out/darwin-power9-openmpi-2019-05-02-batch.out
+cd /scratch/users/dantopa/repos/gitlab/pull-requests/libraries
+git add -A .
+git commit -m "${USER} ${tpl} ${hpc} ${partition} ${ymd}"
+[master fea3134] dantopa openmpi darwin power9 2019-05-02
+ 10 files changed, 854 insertions(+), 1681 deletions(-)
+ rename libraries/{tools/bash/darwin-power9-batch.out => results/batch-out/darwin-power9-openmpi-2019-05-02-batch.out} (63%)
+ rewrite libraries/results/command-log/darwin-arm-openmpi-command.log (72%)
+ rewrite libraries/results/install-log/darwin-arm-openmpi-install.log (76%)
+ rewrite libraries/results/install-log/darwin-power9-openmpi-install.log (95%)
+Thu May  2 10:50:23 MDT 2019

@@ -1,0 +1,27 @@
+topa1@rzansel61:clang $ date
+Tue Apr 30 17:15:42 PDT 2019
+
+topa1@rzansel61:clang $ pwd
+/usr/tcetmp/packages/clang
+
+topa1@rzansel61:clang $ ls -alh
+total 8.0K
+drwxrwxr-x 17 gyllen tools  4.0K Apr 17 15:02 .
+drwxrwxr-x 42 gyllen tools  4.0K Mar 25 16:40 ..
+drwxrwxr-x  5 earl2  tools   137 Apr  7  2017 clang-3.9.1
+drwxrwxr-x  5 earl2  tools   137 Apr 21  2017 clang-4.0.0
+drwxrwx---  5 gyllen tools    63 Mar 11  2017 clang-coral-2017.02.09
+drwxrwx---  5 gyllen tools    63 Mar 11  2017 clang-coral-2017.03.08
+drwxrwxr-x  5 gyllen tools   228 Apr  7  2017 clang-coral-2017.03.15
+drwxrwxr-x  5 gyllen tools   228 Apr 12  2017 clang-coral-2017.03.29
+drwxrwxr-x  5 gyllen tools   228 May  3  2017 clang-coral-2017.05.03
+drwxrwxr-x  5 gyllen tools   228 May 19  2017 clang-coral-2017.05.19
+drwxrwxr-x  5 gyllen tools   228 Jun  8  2017 clang-coral-2017.06.08
+drwxrwxr-x  5 gyllen tools   228 Jun 12  2017 clang-coral-2017.06.12
+drwxrwxr-x  5 gyllen tools   228 Jun 14  2017 clang-coral-2017.06.14
+lrwxrwxrwx  1 gyllen gyllen   46 Jul 21  2017 clang-coral-2017.06.29 -> /usr/tce/packages/clang/clang-coral-2017.06.29
+drwxrwxr-x  4 earl2  tools   114 Apr 17 15:33 clang-upstream-2019.03.19
+drwxrwxr-x  4 gyllen tools   104 May  5  2017 xlflang-coral-2017.01.31
+drwxrwxr-x  4 gyllen tools   104 May 19  2017 xlflang-coral-2017.05.19
+drwxrwxr-x  4 gyllen tools   104 Jun  8  2017 xlflang-coral-2017.06.08
+lrwxrwxrwx  1 gyllen gyllen   48 Jul 21  2017 xlflang-coral-2017.06.27 -> /usr/tce/packages/clang/xlflang-coral-2017.06.27

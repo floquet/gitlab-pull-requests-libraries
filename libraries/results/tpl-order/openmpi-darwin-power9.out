@@ -1,5 +1,5 @@
-Wed Apr 24 17:36:16 MDT 2019
-/scratch/users/dantopa/new-spack/libraries/darwin-power9.openmpi
+Thu May 2 10:49:34 MDT 2019
+/scratch/users/dantopa/repos/spack/libraries/darwin-power9.openmpi
 spack find openmpi >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/openmpi-darwin-power9.out
 ==> 22 installed packages
 -- linux-rhel7-ppc64le / gcc@4.8.5 ------------------------------

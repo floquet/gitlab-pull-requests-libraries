@@ -1,0 +1,611 @@
+dantopa@cp-loginy:~ $ date
+Fri Mar 15 20:35:45 MDT 2019
+dantopa@cp-loginy:~ $ pwd
+/users/dantopa
+dantopa@cp-loginy:~ $ cat /lustre/cpscratch1/dantopa/repos/github/spack-develop-2019-03-13/scripts/capulin-standard-batch.out
+Fri Mar 15 19:30:14 MDT 2019 /var/spool/slurm/job314831/slurm_script
+Fri Mar 15 19:30:17 MDT 2019 /lustre/cpscratch1/dantopa/repos/github/spack-develop-2019-03-13/scripts/sweep-openmpi.sh
+
+spack compilers
+==> Available compilers
+-- cce cnl6-any -------------------------------------------------
+cce@9.0.0.27896
+cce@9.0.0.21672
+cce@9.0.0.21672
+cce@8.7.8
+cce@8.7.7
+cce@8.7.6
+cce@8.7.5
+cce@8.7.4
+
+-- gcc cnl6-any -------------------------------------------------
+gcc@8.2.0
+gcc@8.1.0
+gcc@7.3.0
+gcc@6.1.0
+
+-- gcc sles12-aarch64 -------------------------------------------
+gcc@4.8
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+
+spack install openmpi @ 4.0.0 % gcc@8.2.0 arch=cray-cnl6-arm_thunderx2
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/opt/spack/cray-cnl6-arm_thunderx2/gcc-8.2.0/util-macros-1.19.1-2fphte5pkttuw4heccbvdqo46yl42kgz
+==> libpciaccess is already installed in /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/opt/spack/cray-cnl6-arm_thunderx2/gcc-8.2.0/libpciaccess-0.13.5-kjzalvsvi44lprgksmtsqg6uug46ee2b
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> hwloc is already installed in /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/opt/spack/cray-cnl6-arm_thunderx2/gcc-8.2.0/hwloc-1.11.11-fyyzqamqvr76ywlymdi37fgpsctnes2x
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> zlib is already installed in /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/opt/spack/cray-cnl6-arm_thunderx2/gcc-8.2.0/zlib-1.2.11-qd2bcw64sso2rh74xxzrou42wwzs472m
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/openmpi/openmpi-4.0.0.tar.bz2
+==> Staging archive: /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/var/spack/stage/openmpi-4.0.0-6dhpwmg4ooimm5euir5r2lwrtxb5qi42/openmpi-4.0.0.tar.bz2
+==> Created stage in /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/var/spack/stage/openmpi-4.0.0-6dhpwmg4ooimm5euir5r2lwrtxb5qi42
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j224'
+
+5 errors found in build log:
+     9016    make[2]: Entering directory '/tmp/dantopa/spack-stage/spack-stage-
+             OKkQcC/openmpi-4.0.0/ompi/mpi/fortran/mpiext-use-mpi'
+     9017      PPFC     mpi-ext-module.lo
+     9018    mpi-ext-module.F90:29:132:
+     9019
+     9020           include '/pfs/cpscratch1/yellow/dantopa/repos/github/spack-
+             develop-2019-03-13/var/spack/stage/openmpi-4.0.0-6dhpwmg4ooimm5eui
+             r5r2lwrtxb5qi42/openmpi-4.0.0/ompi/mpiext/pcollreq/mpif-h/mpiext_p
+             collreq_mpifh.h'
+     9021
+
+             1
+  >> 9022    Error: Line truncated at (1) [-Werror=line-truncation]
+     9023    mpi-ext-module.F90:29:6:
+     9024
+     9025           include '/pfs/cpscratch1/yellow/dantopa/repos/github/spack-
+             develop-2019-03-13/var/spack/stage/openmpi-4.0.0-6dhpwmg4ooimm5eui
+             r5r2lwrtxb5qi42/openmpi-4.0.0/ompi/mpiext/pcollreq/mpif-h/mpiext_p
+             collreq_mpifh.h'
+     9026          1
+  >> 9027    Error: Unclassifiable statement at (1)
+     9028    f951: some warnings being treated as errors
+     9029    Makefile:1779: recipe for target 'mpi-ext-module.lo' failed
+  >> 9030    make[2]: *** [mpi-ext-module.lo] Error 1
+     9031    make[2]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-O
+             KkQcC/openmpi-4.0.0/ompi/mpi/fortran/mpiext-use-mpi'
+     9032    Makefile:3521: recipe for target 'all-recursive' failed
+  >> 9033    make[1]: *** [all-recursive] Error 1
+     9034    make[1]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-O
+             KkQcC/openmpi-4.0.0/ompi'
+     9035    Makefile:1896: recipe for target 'all-recursive' failed
+  >> 9036    make: *** [all-recursive] Error 1
+
+See build log for details:
+  /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/var/spack/stage/openmpi-4.0.0-6dhpwmg4ooimm5euir5r2lwrtxb5qi42/openmpi-4.0.0/spack-build.out
+
+spack install openmpi @ 4.0.1rc1 % gcc@8.2.0 arch=cray-cnl6-arm_thunderx2
+==> openmpi is already installed in /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/opt/spack/cray-cnl6-arm_thunderx2/gcc-8.2.0/openmpi-4.0.1rc1-etfu5ttipx5o55j2x5xmqhl6hri6jsjq
+
+spack install openmpi @ 4.0.0 % gcc@8.1.0 arch=cray-cnl6-arm_thunderx2
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/opt/spack/cray-cnl6-arm_thunderx2/gcc-8.1.0/util-macros-1.19.1-a5h5gosiq2oy5xf6j3qrf5l4k5kvuhuk
+==> libpciaccess is already installed in /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/opt/spack/cray-cnl6-arm_thunderx2/gcc-8.1.0/libpciaccess-0.13.5-tjh5hau2o6v2dkbdct2biriahmyk2aik
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> hwloc is already installed in /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/opt/spack/cray-cnl6-arm_thunderx2/gcc-8.1.0/hwloc-1.11.11-ujpw2fmxlw5va573vptiafntw6bzzq3o
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> zlib is already installed in /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/opt/spack/cray-cnl6-arm_thunderx2/gcc-8.1.0/zlib-1.2.11-exi3dggkd6h7fcsni7fvvsv7slimmhry
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/var/spack/cache/openmpi/openmpi-4.0.0.tar.bz2
+==> Staging archive: /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/var/spack/stage/openmpi-4.0.0-ic2q7nuujhpshppwr3zpuh7a5b2bopnn/openmpi-4.0.0.tar.bz2
+==> Created stage in /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/var/spack/stage/openmpi-4.0.0-ic2q7nuujhpshppwr3zpuh7a5b2bopnn
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j224'
+
+5 errors found in build log:
+     9004    make[2]: Entering directory '/tmp/dantopa/spack-stage/spack-stage-
+             obqN4L/openmpi-4.0.0/ompi/mpi/fortran/mpiext-use-mpi'
+     9005      PPFC     mpi-ext-module.lo
+     9006    mpi-ext-module.F90:29:132:
+     9007
+     9008           include '/pfs/cpscratch1/yellow/dantopa/repos/github/spack-
+             develop-2019-03-13/var/spack/stage/openmpi-4.0.0-ic2q7nuujhpshppwr
+             3zpuh7a5b2bopnn/openmpi-4.0.0/ompi/mpiext/pcollreq/mpif-h/mpiext_p
+             collreq_mpifh.h'
+     9009
+
+             1
+  >> 9010    Error: Line truncated at (1) [-Werror=line-truncation]
+     9011    mpi-ext-module.F90:29:6:
+     9012
+     9013           include '/pfs/cpscratch1/yellow/dantopa/repos/github/spack-
+             develop-2019-03-13/var/spack/stage/openmpi-4.0.0-ic2q7nuujhpshppwr
+             3zpuh7a5b2bopnn/openmpi-4.0.0/ompi/mpiext/pcollreq/mpif-h/mpiext_p
+             collreq_mpifh.h'
+     9014          1
+  >> 9015    Error: Unclassifiable statement at (1)
+     9016    f951: some warnings being treated as errors
+     9017    Makefile:1779: recipe for target 'mpi-ext-module.lo' failed
+  >> 9018    make[2]: *** [mpi-ext-module.lo] Error 1
+     9019    make[2]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-o
+             bqN4L/openmpi-4.0.0/ompi/mpi/fortran/mpiext-use-mpi'
+     9020    Makefile:3521: recipe for target 'all-recursive' failed
+  >> 9021    make[1]: *** [all-recursive] Error 1
+     9022    make[1]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-o
+             bqN4L/openmpi-4.0.0/ompi'
+     9023    Makefile:1896: recipe for target 'all-recursive' failed
+  >> 9024    make: *** [all-recursive] Error 1
+
+See build log for details:
+  /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/var/spack/stage/openmpi-4.0.0-ic2q7nuujhpshppwr3zpuh7a5b2bopnn/openmpi-4.0.0/spack-build.out
+
+spack install openmpi @ 4.0.1rc1 % gcc@8.1.0 arch=cray-cnl6-arm_thunderx2
+==> openmpi is already installed in /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/opt/spack/cray-cnl6-arm_thunderx2/gcc-8.1.0/openmpi-4.0.1rc1-f4cj6lntsl2eyx75qlm5wtdatvjxmp2u
+
+spack install openmpi @ 4.0.0 % gcc@7.3.0 arch=cray-cnl6-arm_thunderx2
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/opt/spack/cray-cnl6-arm_thunderx2/gcc-7.3.0/util-macros-1.19.1-nk67leoikezxd3bfntim6whicrxld2mr
+==> libpciaccess is already installed in /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/opt/spack/cray-cnl6-arm_thunderx2/gcc-7.3.0/libpciaccess-0.13.5-x7gsesv3u6o44h4rjc3fbhbtodg3oigp
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> hwloc is already installed in /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/opt/spack/cray-cnl6-arm_thunderx2/gcc-7.3.0/hwloc-1.11.11-escua5mpph6camwvxhs5g2dsxjo2x2sd
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> zlib is already installed in /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/opt/spack/cray-cnl6-arm_thunderx2/gcc-7.3.0/zlib-1.2.11-23nzrkzyaqvddc53zxncvnjbney2inkf
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/var/spack/cache/openmpi/openmpi-4.0.0.tar.bz2
+==> Staging archive: /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/var/spack/stage/openmpi-4.0.0-fucqg3kwzid2bnmugxhuqx5ro4adv4kw/openmpi-4.0.0.tar.bz2
+==> Created stage in /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/var/spack/stage/openmpi-4.0.0-fucqg3kwzid2bnmugxhuqx5ro4adv4kw
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j224'
+
+5 errors found in build log:
+     8999    make[2]: Entering directory '/tmp/dantopa/spack-stage/spack-stage-
+             oW2DNt/openmpi-4.0.0/ompi/mpi/fortran/mpiext-use-mpi'
+     9000      PPFC     mpi-ext-module.lo
+     9001    mpi-ext-module.F90:29:132:
+     9002
+     9003           include '/pfs/cpscratch1/yellow/dantopa/repos/github/spack-
+             develop-2019-03-13/var/spack/stage/openmpi-4.0.0-fucqg3kwzid2bnmug
+             xhuqx5ro4adv4kw/openmpi-4.0.0/ompi/mpiext/pcollreq/mpif-h/mpiext_p
+             collreq_mpifh.h'
+     9004
+
+             1
+  >> 9005    Error: Line truncated at (1) [-Werror=line-truncation]
+     9006    mpi-ext-module.F90:29:6:
+     9007
+     9008           include '/pfs/cpscratch1/yellow/dantopa/repos/github/spack-
+             develop-2019-03-13/var/spack/stage/openmpi-4.0.0-fucqg3kwzid2bnmug
+             xhuqx5ro4adv4kw/openmpi-4.0.0/ompi/mpiext/pcollreq/mpif-h/mpiext_p
+             collreq_mpifh.h'
+     9009          1
+  >> 9010    Error: Unclassifiable statement at (1)
+     9011    f951: some warnings being treated as errors
+     9012    Makefile:1779: recipe for target 'mpi-ext-module.lo' failed
+  >> 9013    make[2]: *** [mpi-ext-module.lo] Error 1
+     9014    make[2]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-o
+             W2DNt/openmpi-4.0.0/ompi/mpi/fortran/mpiext-use-mpi'
+     9015    Makefile:3521: recipe for target 'all-recursive' failed
+  >> 9016    make[1]: *** [all-recursive] Error 1
+     9017    make[1]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-o
+             W2DNt/openmpi-4.0.0/ompi'
+     9018    Makefile:1896: recipe for target 'all-recursive' failed
+  >> 9019    make: *** [all-recursive] Error 1
+
+See build log for details:
+  /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/var/spack/stage/openmpi-4.0.0-fucqg3kwzid2bnmugxhuqx5ro4adv4kw/openmpi-4.0.0/spack-build.out
+
+spack install openmpi @ 4.0.1rc1 % gcc@7.3.0 arch=cray-cnl6-arm_thunderx2
+==> openmpi is already installed in /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/opt/spack/cray-cnl6-arm_thunderx2/gcc-7.3.0/openmpi-4.0.1rc1-ip2hhy73eez2xeme2tiuasdoyrgfxbqx
+
+spack install openmpi @ 4.0.0 % gcc@6.1.0 arch=cray-cnl6-arm_thunderx2
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/opt/spack/cray-cnl6-arm_thunderx2/gcc-6.1.0/util-macros-1.19.1-5dqpcgblqjjny5srcilcautem5443rew
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/var/spack/stage/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je/libpciaccess-0.13.5.tar.gz
+==> Created stage in /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/var/spack/stage/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Error: ProcessError: Command exited with status 77:
+    '/pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/var/spack/stage/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je/libpciaccess-0.13.5/configure' '--prefix=/pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/opt/spack/cray-cnl6-arm_thunderx2/gcc-6.1.0/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /pfs/cpscratch1/yellow/dantopa/repos/github/spac
+           k-develop-2019-03-13/lib/spack/env/gcc/gcc
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/tmp/dantopa/spack-stage/spack-stage-PG8tvJ/li
+           bpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/var/spack/stage/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je/libpciaccess-0.13.5/spack-build.out
+
+spack install openmpi @ 4.0.1rc1 % gcc@6.1.0 arch=cray-cnl6-arm_thunderx2
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/opt/spack/cray-cnl6-arm_thunderx2/gcc-6.1.0/util-macros-1.19.1-5dqpcgblqjjny5srcilcautem5443rew
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/var/spack/stage/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je/libpciaccess-0.13.5.tar.gz
+==> Created stage in /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/var/spack/stage/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Error: ProcessError: Command exited with status 77:
+    '/pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/var/spack/stage/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je/libpciaccess-0.13.5/configure' '--prefix=/pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/opt/spack/cray-cnl6-arm_thunderx2/gcc-6.1.0/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je'
+
+2 errors found in build log:
+     7     checking for gawk... gawk
+     8     checking whether make sets $(MAKE)... yes
+     9     checking whether make supports nested variables... yes
+     10    checking for style of include used by make... GNU
+     11    checking for gcc... /pfs/cpscratch1/yellow/dantopa/repos/github/spac
+           k-develop-2019-03-13/lib/spack/env/gcc/gcc
+     12    checking whether the C compiler works... no
+  >> 13    configure: error: in `/tmp/dantopa/spack-stage/spack-stage-TCHpj0/li
+           bpciaccess-0.13.5':
+  >> 14    configure: error: C compiler cannot create executables
+     15    See `config.log' for more details
+
+See build log for details:
+  /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/var/spack/stage/libpciaccess-0.13.5-hw5dwyhfn3duugethyfvyfy5u3csa3je/libpciaccess-0.13.5/spack-build.out
+
+spack install openmpi @ 4.0.0 % gcc@4.8.5 arch=cray-cnl6-arm_thunderx2
+==> Error: No compilers with spec gcc@4.8.5 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+
+spack install openmpi @ 4.0.1rc1 % gcc@4.8.5 arch=cray-cnl6-arm_thunderx2
+==> Error: No compilers with spec gcc@4.8.5 found for operating system cnl6 and target arm_thunderx2.
+Run 'spack compiler find' to add compilers.
+
+spack install openmpi @ 4.0.0 % cce@9.0.0.27896 arch=cray-cnl6-arm_thunderx2
+==> Error: sequence item 2: expected string, NoneType found
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : generating module file
+
+spack install openmpi @ 4.0.1rc1 % cce@9.0.0.27896 arch=cray-cnl6-arm_thunderx2
+==> Error: sequence item 2: expected string, NoneType found
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : generating module file
+
+spack install openmpi @ 4.0.0 % cce@9.0.0.21672 arch=cray-cnl6-arm_thunderx2
+==> Error: Compiler configuration contains entries with duplicate specification (cce@9.0.0.21672, cray-cnl6-arm_thunderx2) in the following files:
+	/users/dantopa/.spack/cray/compilers.yaml: 2 times
+	/users/dantopa/.spack/compilers.yaml: 2 times
+
+spack install openmpi @ 4.0.1rc1 % cce@9.0.0.21672 arch=cray-cnl6-arm_thunderx2
+==> Error: Compiler configuration contains entries with duplicate specification (cce@9.0.0.21672, cray-cnl6-arm_thunderx2) in the following files:
+	/users/dantopa/.spack/cray/compilers.yaml: 2 times
+	/users/dantopa/.spack/compilers.yaml: 2 times
+
+spack install openmpi @ 4.0.0 % cce@9.0.0.21672 arch=cray-cnl6-arm_thunderx2
+==> Error: Compiler configuration contains entries with duplicate specification (cce@9.0.0.21672, cray-cnl6-arm_thunderx2) in the following files:
+	/users/dantopa/.spack/cray/compilers.yaml: 2 times
+	/users/dantopa/.spack/compilers.yaml: 2 times
+
+spack install openmpi @ 4.0.1rc1 % cce@9.0.0.21672 arch=cray-cnl6-arm_thunderx2
+==> Error: Compiler configuration contains entries with duplicate specification (cce@9.0.0.21672, cray-cnl6-arm_thunderx2) in the following files:
+	/users/dantopa/.spack/cray/compilers.yaml: 2 times
+	/users/dantopa/.spack/compilers.yaml: 2 times
+
+spack install openmpi @ 4.0.0 % cce@8.7.8 arch=cray-cnl6-arm_thunderx2
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : generating module file
+==> libtool@2.4.6 : registering into DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : generating module file
+==> pkg-config@0.29.2 : registering into DB
+==> Installing util-macros
+==> Searching for binary cache of util-macros
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for util-macros found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/util-macros/util-macros-1.19.1.tar.bz2
+==> Staging archive: /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/var/spack/stage/util-macros-1.19.1-ejwfuhtw4xok54wdnlphiv77a5tlnggj/util-macros-1.19.1.tar.bz2
+==> Created stage in /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/var/spack/stage/util-macros-1.19.1-ejwfuhtw4xok54wdnlphiv77a5tlnggj
+==> No patches needed for util-macros
+==> Building util-macros [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed util-macros
+  Fetch: 0.03s.  Build: 2.25s.  Total: 2.28s.
+[+] /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/opt/spack/cray-cnl6-arm_thunderx2/cce-8.7.8/util-macros-1.19.1-ejwfuhtw4xok54wdnlphiv77a5tlnggj
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/var/spack/stage/libpciaccess-0.13.5-ixjjk3tv2nfljulqrnamwxi4vrynutau/libpciaccess-0.13.5.tar.gz
+==> Created stage in /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/var/spack/stage/libpciaccess-0.13.5-ixjjk3tv2nfljulqrnamwxi4vrynutau
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j224'
+
+13 errors found in build log:
+     832    CC-2103 craycc: WARNING in command line
+     833      The -Werror=pointer-to-int-cast option is not supported or invali
+            d and will be ignored.
+     834    CC-571 craycc: ERROR
+     835      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     836
+     837    Makefile:539: recipe for target 'common_bridge.lo' failed
+  >> 838    make[2]: *** [common_bridge.lo] Error 1
+     839    make[2]: *** Waiting for unfinished jobs....
+     840    CC-571 craycc: ERROR
+     841      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     842
+     843    Makefile:539: recipe for target 'common_io.lo' failed
+  >> 844    make[2]: *** [common_io.lo] Error 1
+     845    CC-571 craycc: ERROR
+     846      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     847
+     848    CC-571 craycc: ERROR
+     849      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     850
+
+     ...
+
+     858      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     859
+     860    CC-571 craycc: ERROR
+     861      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     862
+     863    Makefile:539: recipe for target 'common_capability.lo' failed
+  >> 864    make[2]: *** [common_capability.lo] Error 1
+     865    Makefile:539: recipe for target 'common_map.lo' failed
+  >> 866    make[2]: *** [common_map.lo] Error 1
+     867    Makefile:539: recipe for target 'linux_sysfs.lo' failed
+  >> 868    make[2]: *** [linux_sysfs.lo] Error 1
+     869    Makefile:539: recipe for target 'common_device_name.lo' failed
+  >> 870    make[2]: *** [common_device_name.lo] Error 1
+     871    Makefile:539: recipe for target 'common_vgaarb.lo' failed
+  >> 872    make[2]: *** [common_vgaarb.lo] Error 1
+     873    Makefile:539: recipe for target 'common_iterator.lo' failed
+  >> 874    make[2]: *** [common_iterator.lo] Error 1
+     875    CC-571 craycc: ERROR
+     876      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     877
+     878    CC-571 craycc: ERROR
+     879      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     880
+     881    CC-571 craycc: ERROR
+     882      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     883
+     884    Makefile:539: recipe for target 'common_interface.lo' failed
+  >> 885    make[2]: *** [common_interface.lo] Error 1
+     886    Makefile:539: recipe for target 'common_init.lo' failed
+  >> 887    make[2]: *** [common_init.lo] Error 1
+     888    Makefile:539: recipe for target 'linux_devmem.lo' failed
+  >> 889    make[2]: *** [linux_devmem.lo] Error 1
+     890    make[2]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-5W
+            Eg_r/libpciaccess-0.13.5/src'
+     891    Makefile:503: recipe for target 'all-recursive' failed
+  >> 892    make[1]: *** [all-recursive] Error 1
+     893    make[1]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-5W
+            Eg_r/libpciaccess-0.13.5'
+     894    Makefile:412: recipe for target 'all' failed
+  >> 895    make: *** [all] Error 2
+
+See build log for details:
+  /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/var/spack/stage/libpciaccess-0.13.5-ixjjk3tv2nfljulqrnamwxi4vrynutau/libpciaccess-0.13.5/spack-build.out
+
+spack install openmpi @ 4.0.1rc1 % cce@8.7.8 arch=cray-cnl6-arm_thunderx2
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/opt/spack/cray-cnl6-arm_thunderx2/cce-8.7.8/util-macros-1.19.1-ejwfuhtw4xok54wdnlphiv77a5tlnggj
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Using cached archive: /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/var/spack/cache/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/var/spack/stage/libpciaccess-0.13.5-ixjjk3tv2nfljulqrnamwxi4vrynutau/libpciaccess-0.13.5.tar.gz
+==> Created stage in /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/var/spack/stage/libpciaccess-0.13.5-ixjjk3tv2nfljulqrnamwxi4vrynutau
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j224'
+
+13 errors found in build log:
+     835      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     836
+     837    CC-571 craycc: ERROR
+     838      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     839
+     840    Makefile:539: recipe for target 'linux_devmem.lo' failed
+  >> 841    make[2]: *** [linux_devmem.lo] Error 1
+     842    make[2]: *** Waiting for unfinished jobs....
+     843    CC-571 craycc: ERROR
+     844      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     845
+     846    CC-571 craycc: ERROR
+     847      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+
+     ...
+
+     859      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     860
+     861    CC-571 craycc: ERROR
+     862      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     863
+     864    Makefile:539: recipe for target 'common_bridge.lo' failed
+  >> 865    make[2]: *** [common_bridge.lo] Error 1
+     866    CC-571 craycc: ERROR
+     867      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     868
+     869    CC-571 craycc: ERROR
+     870      An invalid option "no-strict-aliasing" appears on the command lin
+            e.
+     871
+     872    Makefile:539: recipe for target 'common_map.lo' failed
+  >> 873    make[2]: *** [common_map.lo] Error 1
+     874    Makefile:539: recipe for target 'common_init.lo' failed
+  >> 875    make[2]: *** [common_init.lo] Error 1
+     876    Makefile:539: recipe for target 'common_device_name.lo' failed
+  >> 877    make[2]: *** [common_device_name.lo] Error 1
+     878    Makefile:539: recipe for target 'common_interface.lo' failed
+  >> 879    make[2]: *** [common_interface.lo] Error 1
+     880    Makefile:539: recipe for target 'common_vgaarb.lo' failed
+  >> 881    make[2]: *** [common_vgaarb.lo] Error 1
+     882    Makefile:539: recipe for target 'common_io.lo' failed
+  >> 883    make[2]: *** [common_io.lo] Error 1
+     884    Makefile:539: recipe for target 'common_iterator.lo' failed
+  >> 885    make[2]: *** [common_iterator.lo] Error 1
+     886    Makefile:539: recipe for target 'common_capability.lo' failed
+  >> 887    make[2]: *** [common_capability.lo] Error 1
+     888    Makefile:539: recipe for target 'linux_sysfs.lo' failed
+  >> 889    make[2]: *** [linux_sysfs.lo] Error 1
+     890    make[2]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-hf
+            P2nI/libpciaccess-0.13.5/src'
+     891    Makefile:503: recipe for target 'all-recursive' failed
+  >> 892    make[1]: *** [all-recursive] Error 1
+     893    make[1]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-hf
+            P2nI/libpciaccess-0.13.5'
+     894    Makefile:412: recipe for target 'all' failed
+  >> 895    make: *** [all] Error 2
+
+See build log for details:
+  /pfs/cpscratch1/yellow/dantopa/repos/github/spack-develop-2019-03-13/var/spack/stage/libpciaccess-0.13.5-ixjjk3tv2nfljulqrnamwxi4vrynutau/libpciaccess-0.13.5/spack-build.out
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+
+spack find openmpi
+==> 5 installed packages
+-- cray-cnl6-arm_thunderx2 / gcc@7.3.0 --------------------------
+openmpi@4.0.1rc1
+
+-- cray-cnl6-arm_thunderx2 / gcc@8.1.0 --------------------------
+openmpi@4.0.1rc1
+
+-- cray-cnl6-arm_thunderx2 / gcc@8.2.0 --------------------------
+openmpi@3.0.3
+openmpi@3.1.3
+openmpi@4.0.1rc1
+
+spack find -ldf openmpi
+==> 5 installed packages
+-- cray-cnl6-arm_thunderx2 / gcc@7.3.0 --------------------------
+ip2hhy7    openmpi@4.0.1rc1%gcc
+escua5m        ^hwloc@1.11.11%gcc
+x7gsesv            ^libpciaccess@0.13.5%gcc
+4wvodxv            ^libxml2@2.9.8%gcc
+7qperrt        ^numactl@2.0.12%gcc
+23nzrkz        ^zlib@1.2.11%gcc
+
+
+-- cray-cnl6-arm_thunderx2 / gcc@8.1.0 --------------------------
+f4cj6ln    openmpi@4.0.1rc1%gcc
+ujpw2fm        ^hwloc@1.11.11%gcc
+tjh5hau            ^libpciaccess@0.13.5%gcc
+uighs4m            ^libxml2@2.9.8%gcc
+5w536ib        ^numactl@2.0.12%gcc
+exi3dgg        ^zlib@1.2.11%gcc
+
+
+-- cray-cnl6-arm_thunderx2 / gcc@8.2.0 --------------------------
+x7sybcw    openmpi@3.0.3%gcc
+fyyzqam        ^hwloc@1.11.11%gcc
+kjzalvs            ^libpciaccess@0.13.5%gcc
+f6rwdah            ^libxml2@2.9.8%gcc
+4sxssb5        ^numactl@2.0.12%gcc
+qd2bcw6        ^zlib@1.2.11%gcc
+
+h5shicp    openmpi@3.1.3%gcc
+fyyzqam        ^hwloc@1.11.11%gcc
+kjzalvs            ^libpciaccess@0.13.5%gcc
+f6rwdah            ^libxml2@2.9.8%gcc
+4sxssb5        ^numactl@2.0.12%gcc
+qd2bcw6        ^zlib@1.2.11%gcc
+
+etfu5tt    openmpi@4.0.1rc1%gcc
+fyyzqam        ^hwloc@1.11.11%gcc
+kjzalvs            ^libpciaccess@0.13.5%gcc
+f6rwdah            ^libxml2@2.9.8%gcc
+4sxssb5        ^numactl@2.0.12%gcc
+qd2bcw6        ^zlib@1.2.11%gcc
+
+Fri Mar 15 20:20:15 MDT 2019

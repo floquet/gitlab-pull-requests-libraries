@@ -1,0 +1,245 @@
+dantopa@cn821:pr.libhio.spack $ spack install libhio@1.4.1.3 % gcc@4.8.5
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/util-macros-1.19.1-taxopdvexxiaknvfyhfpeu27t7t57ogv
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/libpciaccess-0.13.5-6a4he357fqas3e73eduk56vxa4ljss4g
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/hwloc-1.11.11-7gqvelczu57m6jqefc662tqbtmrrgcfp
+==> zlib is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/zlib-1.2.11-67s2oqnabyrxgoss5v72lgshbomfvmnf
+==> openmpi is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/openmpi-3.1.3-ps67voxaytpn7olenvf46lnap45s62tr
+==> hdf5 is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/hdf5-1.10.4-odgwlvxpcxsihulajmrnxtp4p2tqtltf
+==> autoconf@2.69 : externally installed in /usr
+==> autoconf@2.69 : already registered in DB
+==> json-c is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/json-c-0.13.1-lvuysqs26wymzylayhtyy2acmlblszji
+==> Installing libhio
+==> Searching for binary cache of libhio
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libhio found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/pr.libhio.spack/var/spack/cache/libhio/libhio-1.4.1.3.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/pr.libhio.spack/var/spack/stage/libhio-1.4.1.3-q6nnwiy6bi7ktnghdsngwamom23zpmgy/libhio-1.4.1.3.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/pr.libhio.spack/var/spack/stage/libhio-1.4.1.3-q6nnwiy6bi7ktnghdsngwamom23zpmgy
+==> No patches needed for libhio
+==> Building libhio [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libhio
+  Fetch: 0.02s.  Build: 50.58s.  Total: 50.60s.
+[+] /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/libhio-1.4.1.3-q6nnwiy6bi7ktnghdsngwamom23zpmgy
+dantopa@cn821:pr.libhio.spack $ spack install libhio@1.4.1.2 % gcc@4.8.5
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/util-macros-1.19.1-taxopdvexxiaknvfyhfpeu27t7t57ogv
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/libpciaccess-0.13.5-6a4he357fqas3e73eduk56vxa4ljss4g
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/hwloc-1.11.11-7gqvelczu57m6jqefc662tqbtmrrgcfp
+==> zlib is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/zlib-1.2.11-67s2oqnabyrxgoss5v72lgshbomfvmnf
+==> openmpi is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/openmpi-3.1.3-ps67voxaytpn7olenvf46lnap45s62tr
+==> hdf5 is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/hdf5-1.10.4-odgwlvxpcxsihulajmrnxtp4p2tqtltf
+==> autoconf@2.69 : externally installed in /usr
+==> autoconf@2.69 : already registered in DB
+==> json-c is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/json-c-0.13.1-lvuysqs26wymzylayhtyy2acmlblszji
+==> Installing libhio
+==> Searching for binary cache of libhio
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libhio found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/pr.libhio.spack/var/spack/cache/libhio/libhio-1.4.1.2.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/pr.libhio.spack/var/spack/stage/libhio-1.4.1.2-y6nwovff3qbdy242zc4x2toloz6xpcvm/libhio-1.4.1.2.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/pr.libhio.spack/var/spack/stage/libhio-1.4.1.2-y6nwovff3qbdy242zc4x2toloz6xpcvm
+==> Applied patch /scratch/users/dantopa/new-spack/pr.libhio.spack/var/spack/repos/builtin/packages/libhio/0001-spack-fix-for-spack-to-work-on-non-cray-systems.patch
+==> Building libhio [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libhio
+  Fetch: 0.02s.  Build: 47.45s.  Total: 47.47s.
+[+] /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/libhio-1.4.1.2-y6nwovff3qbdy242zc4x2toloz6xpcvm
+dantopa@cn821:pr.libhio.spack $ spack install libhio@1.4.1.3 ^openmpi@3.1.3 % gcc@4.8.5
+==> libhio is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/libhio-1.4.1.3-q6nnwiy6bi7ktnghdsngwamom23zpmgy
+dantopa@cn821:pr.libhio.spack $ spack install libhio@1.4.1.3 ^openmpi@4.0.1rc1 % gcc@4.8.5
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/util-macros-1.19.1-taxopdvexxiaknvfyhfpeu27t7t57ogv
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/libpciaccess-0.13.5-6a4he357fqas3e73eduk56vxa4ljss4g
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/hwloc-1.11.11-7gqvelczu57m6jqefc662tqbtmrrgcfp
+==> zlib is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/zlib-1.2.11-67s2oqnabyrxgoss5v72lgshbomfvmnf
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Warning: There is no checksum on file to fetch openmpi@4.0.1rc1 safely.
+==>   Fetch anyway? [y/N] y
+==> Fetching with no checksum.
+  Add a checksum or use --no-checksum to skip this check.
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/openmpi/openmpi-4.0.1rc1.tar.bz2
+######################################################################## 100.0%
+==> Staging archive: /scratch/users/dantopa/new-spack/pr.libhio.spack/var/spack/stage/openmpi-4.0.1rc1-dzxmcbdpvbsxm7fp3c6uqtce3d5epk5b/openmpi-4.0.1rc1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/pr.libhio.spack/var/spack/stage/openmpi-4.0.1rc1-dzxmcbdpvbsxm7fp3c6uqtce3d5epk5b
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 3.27s.  Build: 12m 13.36s.  Total: 12m 16.63s.
+[+] /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/openmpi-4.0.1rc1-dzxmcbdpvbsxm7fp3c6uqtce3d5epk5b
+==> Installing hdf5
+==> Searching for binary cache of hdf5
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hdf5 found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/pr.libhio.spack/var/spack/cache/hdf5/hdf5-1.10.4.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/pr.libhio.spack/var/spack/stage/hdf5-1.10.4-xjkvejq5tpcxkpy2t5df6h35eiix2ilm/hdf5-1.10.4.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/pr.libhio.spack/var/spack/stage/hdf5-1.10.4-xjkvejq5tpcxkpy2t5df6h35eiix2ilm
+==> No patches needed for hdf5
+==> Building hdf5 [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j256'
+
+6 errors found in build log:
+     2758     H5S_mpio_permute_type(const H5S_t *space, size_t elmt_size, hsize_t **permute,
+     2759     ^
+     2760    H5Smpio.c:622:1: warning: the frame size of 18640 bytes is larger than 16384 bytes [-Wframe-larger-than=]
+     2761     } /* H5S_mpio_permute_type() */
+     2762     ^
+     2763    H5Smpio.c: In function 'H5S_mpio_create_large_type':
+  >> 2764    H5Smpio.c:1503:25: error: call to 'MPI_Type_extent' declared with attribute error: MPI_Type_extent was removed in MPI-3.0.  Use MPI_Type_get_extent instead.
+     2765             MPI_Type_extent (old_type, &old_extent);
+     2766                             ^
+     2767    H5Smpio.c: In function 'H5S_mpio_hyper_type':
+  >> 2768    H5Smpio.c:882:29: error: call to 'MPI_Type_extent' declared with attribute error: MPI_Type_extent was removed in MPI-3.0.  Use MPI_Type_get_extent instead.
+     2769                 MPI_Type_extent (inner_type, &inner_extent);
+     2770                                 ^
+     2771    In function 'H5S_mpio_create_large_type',
+     2772        inlined from 'H5S_mpio_span_hyper_type' at H5Smpio.c:1023:40:
+  >> 2773    H5Smpio.c:1503:25: error: call to 'MPI_Type_extent' declared with attribute error: MPI_Type_extent was removed in MPI-3.0.  Use MPI_Type_get_extent instead.
+     2774             MPI_Type_extent (old_type, &old_extent);
+     2775                             ^
+  >> 2776    make[2]: *** [H5Smpio.lo] Error 1
+     2777    make[2]: *** Waiting for unfinished jobs....
+     2778    In file included from H5FDmpio.c:25:0:
+     2779    H5FDmpio.c: In function 'H5FD_mpio_fapl_get':
+     2780    H5private.h:2331:5: warning: 'ret_value' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     2781         return(ret_value);                                                        \
+     2782         ^
+
+     ...
+
+     2895             for (i = 0; i < size; i += 2) {
+     2896             ^
+     2897    H5Tconv.c:9304:9: warning: cannot optimize loop, the loop counter may overflow [-Wunsafe-loop-optimizations]
+     2898             for (i = 0; i < size; i += 2) {
+     2899             ^
+     2900    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stage-vkUYV3/hdf5-1.10.4/src'
+  >> 2901    make[1]: *** [all] Error 2
+     2902    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stage-vkUYV3/hdf5-1.10.4/src'
+  >> 2903    make: *** [all-recursive] Error 1
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/pr.libhio.spack/var/spack/stage/hdf5-1.10.4-xjkvejq5tpcxkpy2t5df6h35eiix2ilm/hdf5-1.10.4/spack-build.out
+dantopa@cn821:pr.libhio.spack $ spack install libhio@1.4.1.2 ^openmpi@4.0.1rc1 % gcc@4.8.5
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/util-macros-1.19.1-taxopdvexxiaknvfyhfpeu27t7t57ogv
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/libpciaccess-0.13.5-6a4he357fqas3e73eduk56vxa4ljss4g
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/hwloc-1.11.11-7gqvelczu57m6jqefc662tqbtmrrgcfp
+==> zlib is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/zlib-1.2.11-67s2oqnabyrxgoss5v72lgshbomfvmnf
+==> openmpi is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/openmpi-4.0.1rc1-dzxmcbdpvbsxm7fp3c6uqtce3d5epk5b
+==> Installing hdf5
+==> Searching for binary cache of hdf5
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hdf5 found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/pr.libhio.spack/var/spack/cache/hdf5/hdf5-1.10.4.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/pr.libhio.spack/var/spack/stage/hdf5-1.10.4-xjkvejq5tpcxkpy2t5df6h35eiix2ilm/hdf5-1.10.4.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/pr.libhio.spack/var/spack/stage/hdf5-1.10.4-xjkvejq5tpcxkpy2t5df6h35eiix2ilm
+==> No patches needed for hdf5
+==> Building hdf5 [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j256'
+
+6 errors found in build log:
+     2748     H5S_mpio_permute_type(const H5S_t *space, size_t elmt_size, hsize_t **permute,
+     2749     ^
+     2750    H5Smpio.c:622:1: warning: the frame size of 18640 bytes is larger than 16384 bytes [-Wframe-larger-than=]
+     2751     } /* H5S_mpio_permute_type() */
+     2752     ^
+     2753    H5Smpio.c: In function 'H5S_mpio_create_large_type':
+  >> 2754    H5Smpio.c:1503:25: error: call to 'MPI_Type_extent' declared with attribute error: MPI_Type_extent was removed in MPI-3.0.  Use MPI_Type_get_extent instead.
+     2755             MPI_Type_extent (old_type, &old_extent);
+     2756                             ^
+     2757    H5Smpio.c: In function 'H5S_mpio_hyper_type':
+  >> 2758    H5Smpio.c:882:29: error: call to 'MPI_Type_extent' declared with attribute error: MPI_Type_extent was removed in MPI-3.0.  Use MPI_Type_get_extent instead.
+     2759                 MPI_Type_extent (inner_type, &inner_extent);
+     2760                                 ^
+     2761    H5Tconv.c: At top level:
+     2762    H5Tconv.c:7483:5: warning: "H5T_CONV_INTERNAL_LLONG_LDOUBLE" is not defined [-Wundef]
+     2763     #if H5T_CONV_INTERNAL_LLONG_LDOUBLE
+     2764         ^
+     2765    In function 'H5S_mpio_create_large_type',
+     2766        inlined from 'H5S_mpio_span_hyper_type' at H5Smpio.c:1023:40:
+  >> 2767    H5Smpio.c:1503:25: error: call to 'MPI_Type_extent' declared with attribute error: MPI_Type_extent was removed in MPI-3.0.  Use MPI_Type_get_extent instead.
+     2768             MPI_Type_extent (old_type, &old_extent);
+     2769                             ^
+     2770    H5Tconv.c:7551:5: warning: "H5T_CONV_INTERNAL_ULLONG_LDOUBLE" is not defined [-Wundef]
+     2771     #if H5T_CONV_INTERNAL_ULLONG_LDOUBLE
+     2772         ^
+  >> 2773    make[2]: *** [H5Smpio.lo] Error 1
+     2774    make[2]: *** Waiting for unfinished jobs....
+     2775    H5Tconv.c:8247:5: warning: "H5T_CONV_INTERNAL_LDOUBLE_LLONG" is not defined [-Wundef]
+     2776     #if H5T_CONV_INTERNAL_LDOUBLE_LLONG
+     2777         ^
+     2778    In file included from H5FDmpio.c:25:0:
+     2779    H5FDmpio.c: In function 'H5FD_mpio_fapl_get':
+
+     ...
+
+     2895             for (i = 0; i < size; i += 2) {
+     2896             ^
+     2897    H5Tconv.c:9304:9: warning: cannot optimize loop, the loop counter may overflow [-Wunsafe-loop-optimizations]
+     2898             for (i = 0; i < size; i += 2) {
+     2899             ^
+     2900    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stage-OdnV17/hdf5-1.10.4/src'
+  >> 2901    make[1]: *** [all] Error 2
+     2902    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stage-OdnV17/hdf5-1.10.4/src'
+  >> 2903    make: *** [all-recursive] Error 1
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/pr.libhio.spack/var/spack/stage/hdf5-1.10.4-xjkvejq5tpcxkpy2t5df6h35eiix2ilm/hdf5-1.10.4/spack-build.out

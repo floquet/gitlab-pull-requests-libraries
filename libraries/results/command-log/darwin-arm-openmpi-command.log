@@ -1,4 +1,4 @@
-Mon Apr 29 10:38:57 MDT 2019
+Thu May 2 10:48:28 MDT 2019
 1 spack install openmpi @ 4.0.1 % gcc@8.2.0  arch=linux-rhel7-aarch64
 2 spack install openmpi @ 4.0.1 % gcc@8.1.0  arch=linux-rhel7-aarch64
 3 spack install openmpi @ 4.0.1 % gcc@7.1.0  arch=linux-rhel7-aarch64

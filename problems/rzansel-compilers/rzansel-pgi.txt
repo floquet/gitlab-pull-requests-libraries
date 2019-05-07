@@ -1,0 +1,23 @@
+topa1@rzansel61:pgi $ date
+Tue Apr 30 16:44:12 PDT 2019
+
+topa1@rzansel61:pgi $ pwd
+/usr/tce/packages/pgi
+
+topa1@rzansel61:pgi $ ls -alh
+total 4.0K
+drwxr-xr-x 15 root root  290 Apr 26 10:28 .
+drwxr-xr-x 31 root root 4.0K Apr 30 13:42 ..
+drwxr-xr-x  5 root root   93 Dec  6  2017 pgi-17.10
+drwxr-xr-x  5 root root  151 Oct 13  2017 pgi-17.4
+drwxr-xr-x  5 root root  121 Oct 13  2017 pgi-17.7
+drwxr-xr-x  5 root root  121 Oct 13  2017 pgi-17.9
+drwxr-xr-x  5 root root   93 Mar 26  2018 pgi-18.1
+drwxr-xr-x  5 root root   93 Dec  9 08:38 pgi-18.10
+drwxr-xr-x  5 root root   93 Mar 23  2018 pgi-18.3
+drwxr-xr-x  5 root root   93 May  8  2018 pgi-18.4
+drwxr-xr-x  5 root root  121 Sep  1  2018 pgi-18.5
+drwxr-xr-x  5 root root   93 Aug 15  2018 pgi-18.7
+drwxr-xr-x  5 root root   93 Mar 19 04:22 pgi-19.1
+drwxr-xr-x  5 root root   93 Apr 26 10:32 pgi-19.3
+drwxr-xr-x  2 root root   33 Oct  9  2018 pgi-license-exp-2023.09.30

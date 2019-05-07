@@ -1,0 +1,493 @@
+dantopa@cn120:pr-openmpi-4.0.1.spack $ date
+Tue Apr  2 16:35:00 MDT 2019
+dantopa@cn120:pr-openmpi-4.0.1.spack $ pwd
+/scratch/users/dantopa/new-spack/pr-openmpi-4.0.1.spack
+dantopa@cn120:pr-openmpi-4.0.1.spack $ git diff var/spack/repos/builtin/packages/openmpi/package.py
+diff --git a/var/spack/repos/builtin/packages/openmpi/package.py b/var/spack/repos/builtin/packages/openmpi/package.py
+index 2e7beb0..90bbe6f 100644
+--- a/var/spack/repos/builtin/packages/openmpi/package.py
++++ b/var/spack/repos/builtin/packages/openmpi/package.py
+@@ -388,6 +388,12 @@ class Openmpi(AutotoolsPackage):
+         if spec.satisfies('@3.0.0:', strict=True):
+             config_args.append('--with-zlib={0}'.format(spec['zlib'].prefix))
+
++        # Some scientific packages ignore deprecated/removed symbols.
++        # Re-enable them for now. See discussion at
++        # https://github.com/open-mpi/ompi/issues/6114#issuecomment-446279495
++        if spec.satisfies('@4.0.1:'):
++            config_args.append('--enable-mpi1-compatibility')
++
+         # Fabrics
+         config_args.extend(self.with_or_without('fabrics'))
+         # Schedulers
+dantopa@cn120:pr-openmpi-4.0.1.spack $ git add var/spack/repos/builtin/packages/openmpi/package.py
+dantopa@cn120:pr-openmpi-4.0.1.spack $ git diff HEAD
+diff --git a/var/spack/repos/builtin/packages/openmpi/package.py b/var/spack/repos/builtin/packages/openmpi/package.py
+index 2e7beb0..90bbe6f 100644
+--- a/var/spack/repos/builtin/packages/openmpi/package.py
++++ b/var/spack/repos/builtin/packages/openmpi/package.py
+@@ -388,6 +388,12 @@ class Openmpi(AutotoolsPackage):
+         if spec.satisfies('@3.0.0:', strict=True):
+             config_args.append('--with-zlib={0}'.format(spec['zlib'].prefix))
+
++        # Some scientific packages ignore deprecated/removed symbols.
++        # Re-enable them for now. See discussion at
++        # https://github.com/open-mpi/ompi/issues/6114#issuecomment-446279495
++        if spec.satisfies('@4.0.1:'):
++            config_args.append('--enable-mpi1-compatibility')
++
+         # Fabrics
+         config_args.extend(self.with_or_without('fabrics'))
+         # Schedulers
+dantopa@cn120:pr-openmpi-4.0.1.spack $ git checkout -b Add-Open-MPI-4.0.1
+fatal: A branch named 'Add-Open-MPI-4.0.1' already exists.
+dantopa@cn120:pr-openmpi-4.0.1.spack $ git commit -s
+Error detected while processing /home/dantopa/.vimrc:
+line  113:
+E538: No mouse support: mouse=a
+Press ENTER or type command to continue
+[Add-Open-MPI-4.0.1 c9abb5f] Turns on --enable-mpi1-compatibility for Open MPI 4.0+
+ 1 file changed, 6 insertions(+)
+dantopa@cn120:pr-openmpi-4.0.1.spack $ git diff --cached
+dantopa@cn120:pr-openmpi-4.0.1.spack $ git push floquet HEAD
+Username for 'https://github.com': floquet
+Password for 'https://floquet@github.com':
+To https://github.com/floquet/spack.git
+ ! [rejected]        HEAD -> Add-Open-MPI-4.0.1 (fetch first)
+error: failed to push some refs to 'https://github.com/floquet/spack.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first merge the remote changes (e.g.,
+hint: 'git pull') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+dantopa@cn120:pr-openmpi-4.0.1.spack $ git pull
+remote: Enumerating objects: 153, done.
+remote: Counting objects: 100% (153/153), done.
+remote: Compressing objects: 100% (21/21), done.
+remote: Total 274 (delta 136), reused 129 (delta 129), pack-reused 121
+Receiving objects: 100% (274/274), 145.67 KiB | 0 bytes/s, done.
+Resolving deltas: 100% (167/167), completed with 49 local objects.
+From https://github.com/spack/spack
+   9be9fee..ac7ac80  balay/xsdk-develop -> origin/balay/xsdk-develop
+   3dad835..1fb01b5  ceed-2.0   -> origin/ceed-2.0
+   007e168..7a28a61  develop    -> origin/develop
+   afaa999..3fe9168  features/stacks -> origin/features/stacks
+ + 120fa2e...183f401 features/use-module-interface -> origin/features/use-module-interface  (forced update)
+ * [new branch]      packages/branson -> origin/packages/branson
+ * [new branch]      packages/nut -> origin/packages/nut
+ * [new branch]      ross-7.0.1 -> origin/ross-7.0.1
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=<remote>/<branch> Add-Open-MPI-4.0.1
+
+dantopa@cn120:pr-openmpi-4.0.1.spack $ myurl
+https://github.com/spack/spack
+dantopa@cn120:pr-openmpi-4.0.1.spack $ git branch --set-upstream-to=spack/develop Add-Open-MPI-4.0.1
+error: the requested upstream branch 'spack/develop' does not exist
+hint:
+hint: If you are planning on basing your work on an upstream
+hint: branch that already exists at the remote, you may need to
+hint: run "git fetch" to retrieve it.
+hint:
+hint: If you are planning to push out a new local branch that
+hint: will track its remote counterpart, you may want to use
+hint: "git push -u" to set the upstream config as you push.
+dantopa@cn120:pr-openmpi-4.0.1.spack $ git pull origin master
+From https://github.com/spack/spack
+ * branch            master     -> FETCH_HEAD
+Performing inexact rename detection: 100% (6018/6018), done.
+Auto-merging lib/spack/spack/modules/common.py
+Auto-merging lib/spack/spack/binary_distribution.py
+Auto-merging lib/spack/docs/packaging_guide.rst
+Auto-merging .travis.yml
+CONFLICT (content): Merge conflict in .travis.yml
+Recorded preimage for '.travis.yml'
+Automatic merge failed; fix conflicts and then commit the result.
+dantopa@cn120:pr-openmpi-4.0.1.spack $ git status
+# On branch Add-Open-MPI-4.0.1
+# You have unmerged paths.
+#   (fix conflicts and run "git commit")
+#
+# Changes to be committed:
+#
+#	modified:   lib/spack/docs/packaging_guide.rst
+#	modified:   lib/spack/spack/binary_distribution.py
+#	modified:   lib/spack/spack/modules/common.py
+#
+# Unmerged paths:
+#   (use "git add <file>..." to mark resolution)
+#
+#	both modified:      .travis.yml
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	lib/spack/external/ruamel/yaml/.nfs000000001822e04500000b59
+dantopa@cn120:pr-openmpi-4.0.1.spack $ git stash
+.travis.yml: needs merge
+.travis.yml: needs merge
+.travis.yml: unmerged (9d26ec83fde3df15426a8c073461c8f5286ae851)
+.travis.yml: unmerged (d8f955a33275310ee611244e38c682c82d9bc429)
+.travis.yml: unmerged (ff7aa374c26db5269a15736b38e44b624e02a030)
+fatal: git-write-tree: error building trees
+Cannot save the current index state
+dantopa@cn120:pr-openmpi-4.0.1.spack $ lss
+total 260K
+drwxrwxr-x 10 dantopa dantopa   25 Apr  2 16:42 .
+drwxrwxr-x 41 dantopa dantopa   45 Apr  1 10:36 ..
+drwxrwxr-x  2 dantopa dantopa    7 Feb 21 14:55 bin
+-rw-rw-r--  1 dantopa dantopa  669 Jan 28 15:09 .codecov.yml
+-rw-rw-r--  1 dantopa dantopa 3.2K Nov 12 20:31 CODE_OF_CONDUCT.md
+-rw-rw-r--  1 dantopa dantopa  339 Nov 12 20:31 CONTRIBUTING.md
+-rw-rw-r--  1 dantopa dantopa 2.6K Nov 12 20:31 COPYRIGHT
+-rw-rw-r--  1 dantopa dantopa  725 Jan 28 15:09 .coveragerc
+-rw-rw-r--  1 dantopa dantopa  141 Jan 28 15:09 .dockerignore
+drwxrwxr-x  3 dantopa dantopa    3 Nov 12 20:31 etc
+-rw-rw-r--  1 dantopa dantopa  854 Jan 28 15:09 .flake8
+-rw-rw-r--  1 dantopa dantopa  805 Jan 28 15:09 .flake8_packages
+drwxrwxr-x  9 dantopa dantopa   21 Apr  2 16:43 .git
+drwxrwxr-x  3 dantopa dantopa    3 Nov 12 20:31 .github
+-rw-rw-r--  1 dantopa dantopa  414 Nov 12 20:31 .gitignore
+drwxrwxr-x  3 dantopa dantopa    3 Nov 12 20:31 lib
+-rw-rw-r--  1 dantopa dantopa  12K Nov 12 20:31 LICENSE-APACHE
+-rw-rw-r--  1 dantopa dantopa 1.2K Jan 28 15:09 LICENSE-MIT
+-rw-rw-r--  1 dantopa dantopa 6.0K Nov 12 20:31 .mailmap
+-rw-rw-r--  1 dantopa dantopa 1.2K Nov 12 20:31 NOTICE
+drwxrwxr-x  3 dantopa dantopa    3 Mar 27 11:17 opt
+-rw-rw-r--  1 dantopa dantopa 5.1K Jan 28 15:09 README.md
+drwxrwxr-x  3 dantopa dantopa    3 Nov 12 20:31 share
+-rw-rw-r--  1 dantopa dantopa 6.3K Apr  2 16:42 .travis.yml
+drwxrwxr-x  3 dantopa dantopa    3 Nov 12 20:31 var
+dantopa@cn120:pr-openmpi-4.0.1.spack $ vi .travis.yml
+dantopa@cn120:pr-openmpi-4.0.1.spack $ git add .travis.yml
+dantopa@cn120:pr-openmpi-4.0.1.spack $ git commit -m "Resolved by blasting docker files"
+Recorded resolution for '.travis.yml'.
+[Add-Open-MPI-4.0.1 552495d] Resolved by blasting docker files
+dantopa@cn120:pr-openmpi-4.0.1.spack $ git pull origin master
+From https://github.com/spack/spack
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+dantopa@cn120:pr-openmpi-4.0.1.spack $ git status
+# On branch Add-Open-MPI-4.0.1
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	lib/spack/external/ruamel/yaml/.nfs000000001822e04500000b59
+nothing added to commit but untracked files present (use "git add" to track)
+dantopa@cn120:pr-openmpi-4.0.1.spack $ git diff HEAD
+dantopa@cn120:pr-openmpi-4.0.1.spack $ git push floquet HEAD
+Username for 'https://github.com': floquet
+Password for 'https://floquet@github.com':
+To https://github.com/floquet/spack.git
+ ! [rejected]        HEAD -> Add-Open-MPI-4.0.1 (fetch first)
+error: failed to push some refs to 'https://github.com/floquet/spack.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first merge the remote changes (e.g.,
+hint: 'git pull') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+dantopa@cn120:pr-openmpi-4.0.1.spack $ git fetch
+remote: Enumerating objects: 14, done.
+remote: Counting objects: 100% (14/14), done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 14 (delta 3), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (14/14), done.
+From https://github.com/spack/spack
+   7a28a61..27a72cf  develop    -> origin/develop
+dantopa@cn120:pr-openmpi-4.0.1.spack $ git push floquet HEAD
+Username for 'https://github.com': floquet
+Password for 'https://floquet@github.com':
+To https://github.com/floquet/spack.git
+ ! [rejected]        HEAD -> Add-Open-MPI-4.0.1 (fetch first)
+error: failed to push some refs to 'https://github.com/floquet/spack.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first merge the remote changes (e.g.,
+hint: 'git pull') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+dantopa@cn120:pr-openmpi-4.0.1.spack $ git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=<remote>/<branch> Add-Open-MPI-4.0.1
+
+dantopa@cn120:pr-openmpi-4.0.1.spack $ git pull origin master
+From https://github.com/spack/spack
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+dantopa@cn120:pr-openmpi-4.0.1.spack $ git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=<remote>/<branch> Add-Open-MPI-4.0.1
+
+dantopa@cn120:pr-openmpi-4.0.1.spack $ git branch --set-upstream-to=origin/HEAD Add-Open-MPI-4.0.1
+Branch Add-Open-MPI-4.0.1 set up to track remote branch develop from origin.
+dantopa@cn120:pr-openmpi-4.0.1.spack $ git pull
+Error detected while processing /home/dantopa/.vimrc:
+line  113:
+E538: No mouse support: mouse=a
+Press ENTER or type command to continue
+Merge made by the 'recursive' strategy.
+ lib/spack/llnl/util/lang.py                                                                        |  62 +++++++++++++++++++++++++++++++-------------
+ lib/spack/spack/build_systems/intel.py                                                             |   7 ++---
+ lib/spack/spack/cmd/__init__.py                                                                    |  33 ++++++++++++++++--------
+ lib/spack/spack/cmd/test.py                                                                        |  16 ++++++++++--
+ lib/spack/spack/compiler.py                                                                        |  47 +++++++++++++++++++--------------
+ lib/spack/spack/compilers/arm.py                                                                   |  32 ++++++++++-------------
+ lib/spack/spack/compilers/cce.py                                                                   |   9 +++----
+ lib/spack/spack/compilers/clang.py                                                                 |  23 ++++++-----------
+ lib/spack/spack/compilers/gcc.py                                                                   |  22 +++++++++++-----
+ lib/spack/spack/compilers/intel.py                                                                 |  22 +++-------------
+ lib/spack/spack/compilers/nag.py                                                                   |  18 ++++---------
+ lib/spack/spack/compilers/pgi.py                                                                   |  27 ++++---------------
+ lib/spack/spack/compilers/xl.py                                                                    |  77 ++++++++++++++++++------------------------------------
+ lib/spack/spack/compilers/xl_r.py                                                                  |  89 ++-------------------------------------------------------------
+ lib/spack/spack/directives.py                                                                      |  16 +++++++++---
+ lib/spack/spack/extensions.py                                                                      | 123 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ lib/spack/spack/patch.py                                                                           |   9 +++++--
+ lib/spack/spack/schema/config.py                                                                   |   4 +++
+ lib/spack/spack/spec.py                                                                            |  47 +++++++++++++++++++++------------
+ lib/spack/spack/tengine.py                                                                         |   7 +++--
+ lib/spack/spack/test/cmd/test_compiler_cmd.py                                                      |   2 +-
+ lib/spack/spack/test/compilers.py                                                                  |  90 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ lib/spack/spack/test/conftest.py                                                                   |   9 ++++---
+ lib/spack/spack/test/llnl/util/lang.py                                                             |  20 ++++++++++++++
+ lib/spack/spack/test/patch.py                                                                      |  27 +++++++++++++++++++
+ var/spack/repos/builtin.mock/packages/dep-diamond-patch-mid1/mid1.patch                            |   1 +
+ var/spack/repos/builtin.mock/packages/dep-diamond-patch-mid1/package.py                            |  30 +++++++++++++++++++++
+ var/spack/repos/builtin.mock/packages/dep-diamond-patch-mid2/package.py                            |  33 ++++++++++++++++++++++++
+ var/spack/repos/builtin.mock/packages/dep-diamond-patch-top/package.py                             |  32 +++++++++++++++++++++++
+ var/spack/repos/builtin.mock/packages/dep-diamond-patch-top/top.patch                              |   1 +
+ var/spack/repos/builtin.mock/packages/patch/package.py                                             |   3 ++-
+ var/spack/repos/builtin/packages/branson/package.py                                                |   2 +-
+ var/spack/repos/builtin/packages/cmake/package.py                                                  |   1 +
+ var/spack/repos/builtin/packages/flux-core/package.py                                              |   1 +
+ var/spack/repos/builtin/packages/flux-sched/package.py                                             |   1 +
+ var/spack/repos/builtin/packages/hacckernels/package.py                                            |   2 +-
+ var/spack/repos/builtin/packages/hypre/package.py                                                  |   3 ++-
+ var/spack/repos/builtin/packages/hypre/superlu-dist-link-2.14.0.patch                              |  13 ++++++++++
+ var/spack/repos/builtin/packages/hypre/{superlu-dist-link.patch => superlu-dist-link-2.15.0.patch} |   0
+ var/spack/repos/builtin/packages/intel-mkl/package.py                                              |  14 ++++++++++
+ var/spack/repos/builtin/packages/intel-parallel-studio/package.py                                  |  14 ++++++++++
+ var/spack/repos/builtin/packages/kripke/package.py                                                 |   2 +-
+ var/spack/repos/builtin/packages/macsio/package.py                                                 |   4 ---
+ var/spack/repos/builtin/packages/miniqmc/package.py                                                |   4 +--
+ var/spack/repos/builtin/packages/nut/package.py                                                    |   6 ++---
+ var/spack/repos/builtin/packages/petsc/package.py                                                  |   6 +++--
+ var/spack/repos/builtin/packages/qmcpack/package.py                                                |   1 +
+ var/spack/repos/builtin/packages/random123/ibmxl.patch                                             |  11 ++++++++
+ var/spack/repos/builtin/packages/random123/package.py                                              |   2 ++
+ var/spack/repos/builtin/packages/slepc/package.py                                                  |   3 +++
+ var/spack/repos/builtin/packages/squashfs/package.py                                               |  32 +++++++++++++++++++++++
+ var/spack/repos/builtin/packages/superlu-dist/package.py                                           |   1 +
+ 52 files changed, 724 insertions(+), 337 deletions(-)
+ create mode 100644 lib/spack/spack/extensions.py
+ create mode 100644 var/spack/repos/builtin.mock/packages/dep-diamond-patch-mid1/mid1.patch
+ create mode 100644 var/spack/repos/builtin.mock/packages/dep-diamond-patch-mid1/package.py
+ create mode 100644 var/spack/repos/builtin.mock/packages/dep-diamond-patch-mid2/package.py
+ create mode 100644 var/spack/repos/builtin.mock/packages/dep-diamond-patch-top/package.py
+ create mode 100644 var/spack/repos/builtin.mock/packages/dep-diamond-patch-top/top.patch
+ create mode 100644 var/spack/repos/builtin/packages/hypre/superlu-dist-link-2.14.0.patch
+ rename var/spack/repos/builtin/packages/hypre/{superlu-dist-link.patch => superlu-dist-link-2.15.0.patch} (100%)
+ create mode 100644 var/spack/repos/builtin/packages/random123/ibmxl.patch
+ create mode 100644 var/spack/repos/builtin/packages/squashfs/package.py
+dantopa@cn120:pr-openmpi-4.0.1.spack $ git push
+fatal: The upstream branch of your current branch does not match
+the name of your current branch.  To push to the upstream branch
+on the remote, use
+
+    git push origin HEAD:develop
+
+To push to the branch of the same name on the remote, use
+
+    git push origin Add-Open-MPI-4.0.1
+
+dantopa@cn120:pr-openmpi-4.0.1.spack $ git push origin Add-Open-MPI-4.0.1
+Username for 'https://github.com': floquet
+Password for 'https://floquet@github.com':
+remote: Permission to spack/spack.git denied to floquet.
+fatal: unable to access 'https://github.com/spack/spack/': The requested URL returned error: 403
+dantopa@cn120:pr-openmpi-4.0.1.spack $ git push origin HEAD:develop
+Username for 'https://github.com': floquet
+Password for 'https://floquet@github.com':
+remote: Permission to spack/spack.git denied to floquet.
+fatal: unable to access 'https://github.com/spack/spack/': The requested URL returned error: 403
+dantopa@cn120:pr-openmpi-4.0.1.spack $ git push floquet HEAD
+Username for 'https://github.com': floquet
+Password for 'https://floquet@github.com':
+To https://github.com/floquet/spack.git
+ ! [rejected]        HEAD -> Add-Open-MPI-4.0.1 (fetch first)
+error: failed to push some refs to 'https://github.com/floquet/spack.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first merge the remote changes (e.g.,
+hint: 'git pull') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+dantopa@cn120:pr-openmpi-4.0.1.spack $ git pull
+Already up-to-date.
+dantopa@cn120:pr-openmpi-4.0.1.spack $ git status
+# On branch Add-Open-MPI-4.0.1
+# Your branch is ahead of 'origin/develop' by 36 commits.
+#   (use "git push" to publish your local commits)
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	lib/spack/external/ruamel/yaml/.nfs000000001822e04500000b59
+nothing added to commit but untracked files present (use "git add" to track)
+dantopa@cn120:pr-openmpi-4.0.1.spack $ git rm lib/spack/external/ruamel/yaml/.nfs000000001822e04500000b59
+fatal: pathspec 'lib/spack/external/ruamel/yaml/.nfs000000001822e04500000b59' did not match any files
+dantopa@cn120:pr-openmpi-4.0.1.spack $ cd lib/spack/external/ruamel/yaml/
+dantopa@cn120:yaml $ lss
+total 986K
+drwxrwxr-x 3 dantopa dantopa   49 Apr  1 18:39 .
+drwxrwxr-x 3 dantopa dantopa    5 Apr  1 12:28 ..
+-rw-rw-r-- 1 dantopa dantopa  14K Nov 12 20:31 comments.py
+-rw-rw-r-- 1 dantopa dantopa  23K Apr  1 18:39 comments.pyc
+-rw-rw-r-- 1 dantopa dantopa 2.5K Nov 12 20:31 compat.py
+-rw-rw-r-- 1 dantopa dantopa 4.1K Apr  1 12:28 compat.pyc
+-rw-rw-r-- 1 dantopa dantopa 6.6K Nov 12 20:31 composer.py
+-rw-rw-r-- 1 dantopa dantopa 6.3K Apr  1 18:39 composer.pyc
+-rw-rw-r-- 1 dantopa dantopa  261 Nov 12 20:31 configobjwalker.py
+-rw-rw-r-- 1 dantopa dantopa  44K Nov 12 20:31 constructor.py
+-rw-rw-r-- 1 dantopa dantopa  37K Apr  1 18:39 constructor.pyc
+-rw-rw-r-- 1 dantopa dantopa 5.3K Nov 12 20:31 dumper.py
+-rw-rw-r-- 1 dantopa dantopa 4.2K Apr  1 18:39 dumper.pyc
+-rw-rw-r-- 1 dantopa dantopa  49K Nov 12 20:31 emitter.py
+-rw-rw-r-- 1 dantopa dantopa  38K Apr  1 18:39 emitter.pyc
+-rw-rw-r-- 1 dantopa dantopa 2.7K Nov 12 20:31 error.py
+-rw-rw-r-- 1 dantopa dantopa 3.6K Apr  1 12:28 error.pyc
+-rw-rw-r-- 1 dantopa dantopa 2.9K Nov 12 20:31 events.py
+-rw-rw-r-- 1 dantopa dantopa 6.3K Apr  1 12:28 events.pyc
+-rw-rw-r-- 1 dantopa dantopa 3.0K Nov 12 20:31 __init__.py
+-rw-rw-r-- 1 dantopa dantopa 2.7K Apr  1 12:28 __init__.pyc
+-rw-rw-r-- 1 dantopa dantopa 1.1K Nov 12 20:31 LICENSE
+-rw-rw-r-- 1 dantopa dantopa 2.5K Nov 12 20:31 loader.py
+-rw-rw-r-- 1 dantopa dantopa 3.3K Apr  1 12:28 loader.pyc
+-rw-rw-r-- 1 dantopa dantopa  13K Nov 12 20:31 main.py
+-rw-rw-r-- 1 dantopa dantopa  15K Apr  1 12:28 main.pyc
+-rw-rw-r-- 1 dantopa dantopa    0 Apr  1 12:28 .nfs000000001822e04500000b59
+-rw-rw-r-- 1 dantopa dantopa 2.6K Nov 12 20:31 nodes.py
+-rw-rw-r-- 1 dantopa dantopa 3.7K Apr  1 12:28 nodes.pyc
+-rw-rw-r-- 1 dantopa dantopa  29K Nov 12 20:31 parser.py
+-rw-rw-r-- 1 dantopa dantopa  18K Apr  1 18:39 parser.pyc
+-rw-rw-r-- 1 dantopa dantopa 7.4K Nov 12 20:31 reader.py
+-rw-rw-r-- 1 dantopa dantopa 6.6K Apr  1 12:28 reader.pyc
+-rw-rw-r-- 1 dantopa dantopa 1.3K Nov 12 20:31 README.rst
+-rw-rw-r-- 1 dantopa dantopa  34K Nov 12 20:31 representer.py
+-rw-rw-r-- 1 dantopa dantopa  27K Apr  1 18:39 representer.pyc
+-rw-rw-r-- 1 dantopa dantopa  15K Nov 12 20:31 resolver.py
+-rw-rw-r-- 1 dantopa dantopa  13K Apr  1 18:39 resolver.pyc
+drwxrwxr-x 2 dantopa dantopa    3 Nov 12 20:31 .ruamel
+-rw-rw-r-- 1 dantopa dantopa 1.7K Nov 12 20:31 scalarstring.py
+-rw-rw-r-- 1 dantopa dantopa 3.4K Apr  1 18:39 scalarstring.pyc
+-rw-rw-r-- 1 dantopa dantopa  59K Nov 12 20:31 scanner.py
+-rw-rw-r-- 1 dantopa dantopa  40K Apr  1 18:39 scanner.pyc
+-rw-rw-r-- 1 dantopa dantopa 6.8K Nov 12 20:31 serializer.py
+-rw-rw-r-- 1 dantopa dantopa 6.4K Apr  1 18:39 serializer.pyc
+-rw-rw-r-- 1 dantopa dantopa   59 Nov 12 20:31 setup.cfg
+-rw-rw-r-- 1 dantopa dantopa 4.6K Nov 12 20:31 tokens.py
+-rw-rw-r-- 1 dantopa dantopa  11K Apr  1 12:28 tokens.pyc
+-rw-rw-r-- 1 dantopa dantopa 4.5K Nov 12 20:31 util.py
+dantopa@cn120:yaml $ rm ..nfs000000001822e04500000b59
+rm: cannot remove ‘..nfs000000001822e04500000b59’: No such file or directory
+dantopa@cn120:yaml $ rm ..nfs00000001822e04500000b59
+bash: m: command not found
+dantopa@cn120:yaml $ rm -f .nfs000000001822e04500000b59
+dantopa@cn120:yaml $ lss
+total 985K
+drwxrwxr-x 3 dantopa dantopa   48 Apr  2 16:52 .
+drwxrwxr-x 3 dantopa dantopa    5 Apr  1 12:28 ..
+-rw-rw-r-- 1 dantopa dantopa  14K Nov 12 20:31 comments.py
+-rw-rw-r-- 1 dantopa dantopa  23K Apr  1 18:39 comments.pyc
+-rw-rw-r-- 1 dantopa dantopa 2.5K Nov 12 20:31 compat.py
+-rw-rw-r-- 1 dantopa dantopa 4.1K Apr  1 12:28 compat.pyc
+-rw-rw-r-- 1 dantopa dantopa 6.6K Nov 12 20:31 composer.py
+-rw-rw-r-- 1 dantopa dantopa 6.3K Apr  1 18:39 composer.pyc
+-rw-rw-r-- 1 dantopa dantopa  261 Nov 12 20:31 configobjwalker.py
+-rw-rw-r-- 1 dantopa dantopa  44K Nov 12 20:31 constructor.py
+-rw-rw-r-- 1 dantopa dantopa  37K Apr  1 18:39 constructor.pyc
+-rw-rw-r-- 1 dantopa dantopa 5.3K Nov 12 20:31 dumper.py
+-rw-rw-r-- 1 dantopa dantopa 4.2K Apr  1 18:39 dumper.pyc
+-rw-rw-r-- 1 dantopa dantopa  49K Nov 12 20:31 emitter.py
+-rw-rw-r-- 1 dantopa dantopa  38K Apr  1 18:39 emitter.pyc
+-rw-rw-r-- 1 dantopa dantopa 2.7K Nov 12 20:31 error.py
+-rw-rw-r-- 1 dantopa dantopa 3.6K Apr  1 12:28 error.pyc
+-rw-rw-r-- 1 dantopa dantopa 2.9K Nov 12 20:31 events.py
+-rw-rw-r-- 1 dantopa dantopa 6.3K Apr  1 12:28 events.pyc
+-rw-rw-r-- 1 dantopa dantopa 3.0K Nov 12 20:31 __init__.py
+-rw-rw-r-- 1 dantopa dantopa 2.7K Apr  1 12:28 __init__.pyc
+-rw-rw-r-- 1 dantopa dantopa 1.1K Nov 12 20:31 LICENSE
+-rw-rw-r-- 1 dantopa dantopa 2.5K Nov 12 20:31 loader.py
+-rw-rw-r-- 1 dantopa dantopa 3.3K Apr  1 12:28 loader.pyc
+-rw-rw-r-- 1 dantopa dantopa  13K Nov 12 20:31 main.py
+-rw-rw-r-- 1 dantopa dantopa  15K Apr  1 12:28 main.pyc
+-rw-rw-r-- 1 dantopa dantopa 2.6K Nov 12 20:31 nodes.py
+-rw-rw-r-- 1 dantopa dantopa 3.7K Apr  1 12:28 nodes.pyc
+-rw-rw-r-- 1 dantopa dantopa  29K Nov 12 20:31 parser.py
+-rw-rw-r-- 1 dantopa dantopa  18K Apr  1 18:39 parser.pyc
+-rw-rw-r-- 1 dantopa dantopa 7.4K Nov 12 20:31 reader.py
+-rw-rw-r-- 1 dantopa dantopa 6.6K Apr  1 12:28 reader.pyc
+-rw-rw-r-- 1 dantopa dantopa 1.3K Nov 12 20:31 README.rst
+-rw-rw-r-- 1 dantopa dantopa  34K Nov 12 20:31 representer.py
+-rw-rw-r-- 1 dantopa dantopa  27K Apr  1 18:39 representer.pyc
+-rw-rw-r-- 1 dantopa dantopa  15K Nov 12 20:31 resolver.py
+-rw-rw-r-- 1 dantopa dantopa  13K Apr  1 18:39 resolver.pyc
+drwxrwxr-x 2 dantopa dantopa    3 Nov 12 20:31 .ruamel
+-rw-rw-r-- 1 dantopa dantopa 1.7K Nov 12 20:31 scalarstring.py
+-rw-rw-r-- 1 dantopa dantopa 3.4K Apr  1 18:39 scalarstring.pyc
+-rw-rw-r-- 1 dantopa dantopa  59K Nov 12 20:31 scanner.py
+-rw-rw-r-- 1 dantopa dantopa  40K Apr  1 18:39 scanner.pyc
+-rw-rw-r-- 1 dantopa dantopa 6.8K Nov 12 20:31 serializer.py
+-rw-rw-r-- 1 dantopa dantopa 6.4K Apr  1 18:39 serializer.pyc
+-rw-rw-r-- 1 dantopa dantopa   59 Nov 12 20:31 setup.cfg
+-rw-rw-r-- 1 dantopa dantopa 4.6K Nov 12 20:31 tokens.py
+-rw-rw-r-- 1 dantopa dantopa  11K Apr  1 12:28 tokens.pyc
+-rw-rw-r-- 1 dantopa dantopa 4.5K Nov 12 20:31 util.py
+dantopa@cn120:yaml $ sp
+/scratch/users/dantopa/new-spack/pr-openmpi-4.0.1.spack
+dantopa@cn120:pr-openmpi-4.0.1.spack $ git push
+fatal: The upstream branch of your current branch does not match
+the name of your current branch.  To push to the upstream branch
+on the remote, use
+
+    git push origin HEAD:develop
+
+To push to the branch of the same name on the remote, use
+
+    git push origin Add-Open-MPI-4.0.1
+
+dantopa@cn120:pr-openmpi-4.0.1.spack $ git push floquet HEAD
+Username for 'https://github.com': floquet
+Password for 'https://floquet@github.com':
+To https://github.com/floquet/spack.git
+ ! [rejected]        HEAD -> Add-Open-MPI-4.0.1 (fetch first)
+error: failed to push some refs to 'https://github.com/floquet/spack.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first merge the remote changes (e.g.,
+hint: 'git pull') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+dantopa@cn120:pr-openmpi-4.0.1.spack $ git status
+# On branch Add-Open-MPI-4.0.1
+# Your branch is ahead of 'origin/develop' by 36 commits.
+#   (use "git push" to publish your local commits)
+#
+nothing to commit, working directory clean

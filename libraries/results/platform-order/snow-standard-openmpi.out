@@ -1,3 +1,35 @@
-Mon Apr 29 10:16:16 MDT 2019
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools
+Mon Apr 29 10:45:12 MDT 2019
+/net/scratch4/dantopa/repos/spack/libraries/snow-standard.openmpi
 spack find openmpi >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/platform-order/snow-standard-openmpi.out
+==> 24 installed packages
+-- linux-rhel7-x86_64 / gcc@6.4.0 -------------------------------
+openmpi@2.1.6
+openmpi@3.0.3
+openmpi@3.0.4
+openmpi@3.1.3
+openmpi@3.1.4
+openmpi@4.0.1
+
+-- linux-rhel7-x86_64 / gcc@7.4.0 -------------------------------
+openmpi@2.1.6
+openmpi@3.0.3
+openmpi@3.0.4
+openmpi@3.1.3
+openmpi@3.1.4
+openmpi@4.0.1
+
+-- linux-rhel7-x86_64 / intel@17.0.4 ----------------------------
+openmpi@2.1.6
+openmpi@3.0.3
+openmpi@3.0.4
+openmpi@3.1.3
+openmpi@3.1.4
+openmpi@4.0.1
+
+-- linux-rhel7-x86_64 / intel@18.0.5 ----------------------------
+openmpi@2.1.6
+openmpi@3.0.3
+openmpi@3.0.4
+openmpi@3.1.3
+openmpi@3.1.4
+openmpi@4.0.1

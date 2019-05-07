@@ -1,0 +1,13 @@
+dantopa@nid00039:trinitite-standard.ucx $ spack install ucx @ 1.2.2 % intel@19.0.1
+==> Error: Conflicts in concretized spec "ucx@1.2.2%intel@19.0.1 arch=cray-cnl6-haswell/73ge7eb"
+List of matching conflicts for spec:
+
+    rdma-core@20%intel@19.0.1 build_type=RelWithDebInfo arch=cray-cnl6-haswell
+        ^cmake@3.14.2%intel@19.0.1~doc+ncurses+openssl~ownlibs~qt arch=cray-cnl6-haswell
+        ^libnl@3.3.0%intel@19.0.1 arch=cray-cnl6-haswell
+            ^bison@3.0.5%intel@19.0.1 arch=cray-cnl6-haswell
+            ^flex@2.6.4%intel@19.0.1+lex patches=09c22e5c6fef327d3e48eb23f0d610dcd3a35ab9207f12e0f875701c677978d3 arch=cray-cnl6-haswell
+            ^m4@1.4.18%intel@19.0.1 patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,c0a408fbffb7255fcc75e26bd8edab116fc81d216bfd18b473668b7739a4158e,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 +sigsegv arch=cray-cnl6-haswell
+        ^pkg-config@0.29.2%intel@19.0.1+internal_glib arch=cray-cnl6-haswell
+
+1. "%intel" conflicts with "rdma-core" [rdma-core cannot be built with intel (use gcc instead)]

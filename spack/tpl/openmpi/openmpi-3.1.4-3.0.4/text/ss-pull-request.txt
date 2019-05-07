@@ -1,0 +1,75 @@
+dantopa@ccscs5.lanl.gov:spack $ genesis
+Cloning into 'spack'...
+remote: Enumerating objects: 12, done.
+remote: Counting objects: 100% (12/12), done.
+remote: Compressing objects: 100% (11/11), done.
+remote: Total 152464 (delta 1), reused 6 (delta 0), pack-reused 152452
+Receiving objects: 100% (152464/152464), 53.28 MiB | 21.87 MiB/s, done.
+Resolving deltas: 100% (71649/71649), done.
+
+dantopa@ccscs5.lanl.gov:spack $ pwd
+/scratch/dantopa/repos/spack
+
+dantopa@ccscs5.lanl.gov:spack $ lss
+total 8.0K
+drwxr-x---  5 dantopa dantopa   69 Apr 18 09:42 .
+drwxr-x---  6 dantopa dantopa   60 Apr 15 16:50 ..
+drwxr-x---  4 dantopa dantopa   42 Apr 17 18:53 libraries
+drwxr-x--- 11 dantopa dantopa 4.0K Apr 15 17:26 pr-prelim.opempi-3.1.4.spack
+drwxr-x---  9 dantopa dantopa 4.0K Apr 18 09:42 spack
+
+dantopa@ccscs5.lanl.gov:spack $ date
+Thu Apr 18 09:43:41 MDT 2019
+
+dantopa@ccscs5.lanl.gov:spack $ pwd
+/scratch/dantopa/repos/spack
+
+dantopa@ccscs5.lanl.gov:spack $ cd spack/
+
+dantopa@ccscs5.lanl.gov:spack $ git pull
+Already up-to-date.
+
+dantopa@ccscs5.lanl.gov:spack $ floquet
+git remote add floquet https://github.com/floquet/spack.git
+
+dantopa@ccscs5.lanl.gov:spack $ vi var/spack/repos/builtin/packages/openmpi/package.py
+
+dantopa@ccscs5.lanl.gov:spack $ git diff var/spack/repos/builtin/packages/openmpi/package.py
+diff --git a/var/spack/repos/builtin/packages/openmpi/package.py b/var/spack/repos/builtin/packages/openmpi/package.py
+index 3f5f3a8..dadc4b5 100644
+--- a/var/spack/repos/builtin/packages/openmpi/package.py
++++ b/var/spack/repos/builtin/packages/openmpi/package.py
+@@ -75,6 +75,7 @@ class Openmpi(AutotoolsPackage):
+     version('3.1.2', sha256='c654ed847f34a278c52a15c98add40402b4a90f0c540779f1ae6c489af8a76c5')  # libmpi.so.40.10.2
+     version('3.1.1', sha256='3f11b648dd18a8b878d057e9777f2c43bf78297751ad77ae2cef6db0fe80c77c')  # libmpi.so.40.10.1
+     version('3.1.0', sha256='b25c044124cc859c0b4e6e825574f9439a51683af1950f6acda1951f5ccdf06c')  # libmpi.so.40.10.0
++    version('3.0.4', sha256='2ff4db1d3e1860785295ab95b03a2c0f23420cda7c1ae845c419401508a3c7b5')  # libmpi.so.40.00.5
+     version('3.0.3', sha256='fb228e42893fe6a912841a94cd8a0c06c517701ae505b73072409218a12cf066')  # libmpi.so.40.00.4
+     version('3.0.2', sha256='d2eea2af48c1076c53cabac0a1f12272d7470729c4e1cb8b9c2ccd1985b2fb06')  # libmpi.so.40.00.2
+     version('3.0.1', sha256='663450d1ee7838b03644507e8a76edfb1fba23e601e9e0b5b2a738e54acd785d')  # libmpi.so.40.00.1
+
+dantopa@ccscs5.lanl.gov:spack $ git add var/spack/repos/builtin/packages/openmpi/package.py
+
+dantopa@ccscs5.lanl.gov:spack $ git checkout -b Add-v3.0.4
+M	var/spack/repos/builtin/packages/openmpi/package.py
+Switched to a new branch 'Add-v3.0.4'
+
+dantopa@ccscs5.lanl.gov:spack $ git commit -s
+[Add-v3.0.4 7243ecf] Add Open MPI v3.0.4
+ 1 file changed, 1 insertion(+)
+
+dantopa@ccscs5.lanl.gov:spack $ git push floquet HEAD
+Username for 'https://github.com': floquet
+Password for 'https://floquet@github.com':
+Counting objects: 17, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (9/9), 1.25 KiB | 0 bytes/s, done.
+Total 9 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Add-v3.0.4' on GitHub by visiting:
+remote:      https://github.com/floquet/spack/pull/new/Add-v3.0.4
+remote:
+To https://github.com/floquet/spack.git
+ * [new branch]      HEAD -> Add-v3.0.4

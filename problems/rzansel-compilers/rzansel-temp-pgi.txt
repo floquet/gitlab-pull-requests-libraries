@@ -1,0 +1,24 @@
+topa1@rzansel61:pgi $ date
+Tue Apr 30 17:18:34 PDT 2019
+
+topa1@rzansel61:pgi $ pwd
+/usr/tcetmp/packages/pgi
+
+topa1@rzansel61:pgi $ ls -alh
+total 9.5G
+drwxrwxr-x 12 rhedges tools    328 Sep  1  2018 .
+drwxrwxr-x 42 gyllen  tools   4.0K Mar 25 16:40 ..
+drwxrwxr-x  5 roymuss tools   4.0K Oct  9  2018 install
+drwxrwxr-x  6 rhedges tools    177 Apr 28  2017 pgi-16.10
+drwxrwxr-x  8 roymuss tools    249 Apr 28  2017 pgi-17.1
+drwxrwxr-x  6 roymuss tools    168 Apr 28  2017 pgi-17.3
+-rw-rw-r--  1 roymuss tools   780M Apr  4  2017 pgi-17.3.tgz
+drwxrwxr-x  7 roymuss tools    189 May  5  2017 pgi-17.4
+drwxrwxr-x  7 roymuss tools    159 Sep 18  2017 pgi-17.7
+-rw-r--r--  1 roymuss roymuss 2.6G Aug  9  2017 pgi-17.7.tgz
+drwxrwxr-x  7 roymuss tools    159 Oct 11  2017 pgi-17.9
+-rw-------  1 roymuss roymuss 4.1G Oct 11  2017 pgi-17.9.tgz
+drwxrwxr-x  5 roymuss tools    163 Dec  7 13:58 pgi-18.5
+-rw-------  1 roymuss roymuss 2.1G Sep  1  2018 pgi-18.5-from-rzmanta.tgz
+drwxrwxr-x  3 roymuss roymuss   32 Sep  1  2018 pgi-18.5.deleteme
+drwxrwxr-x  5 roymuss tools     93 Aug 10  2018 pgi-18.7

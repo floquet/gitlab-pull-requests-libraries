@@ -1,90 +1,154 @@
-Mon Apr 29 10:16:16 MDT 2019
+Mon Apr 29 10:43:20 MDT 2019
 
 
-spack install openmpi @ 4.0.1 % gcc@8.2.0  arch=
+spack install openmpi @ 4.0.1 % gcc@8.2.0  arch=linux-rhel7-x86_64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
 
-spack install openmpi @ 4.0.1 % gcc@7.4.0  arch=
+spack install openmpi @ 4.0.1 % gcc@7.4.0  arch=linux-rhel7-x86_64
 
-spack install openmpi @ 4.0.1 % gcc@6.4.0  arch=
+spack install openmpi @ 4.0.1 % gcc@6.4.0  arch=linux-rhel7-x86_64
 
-spack install openmpi @ 4.0.1 % gcc@5.3.0  arch=
+spack install openmpi @ 4.0.1 % gcc@5.3.0  arch=linux-rhel7-x86_64
 
-spack install openmpi @ 4.0.1 % intel@19.0.1.144  arch=
+spack install openmpi @ 4.0.1 % intel@19.0.1.144  arch=linux-rhel7-x86_64
 
-spack install openmpi @ 4.0.1 % intel@18.0.5  arch=
+spack install openmpi @ 4.0.1 % intel@18.0.5  arch=linux-rhel7-x86_64
 
-spack install openmpi @ 4.0.1 % intel@17.0.4  arch=
+spack install openmpi @ 4.0.1 % intel@17.0.4  arch=linux-rhel7-x86_64
 
-spack install openmpi @ 4.0.1 % intel@16.0.3  arch=
+spack install openmpi @ 4.0.1 % intel@16.0.3  arch=linux-rhel7-x86_64
 
-spack install openmpi @ 4.0.1 % pgi@18.10  arch=
+spack install openmpi @ 4.0.1 % pgi@18.10  arch=linux-rhel7-x86_64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
 
-spack install openmpi @ 4.0.1 % pgi@17.10  arch=
+spack install openmpi @ 4.0.1 % pgi@17.10  arch=linux-rhel7-x86_64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
 
-spack install openmpi @ 4.0.1 % pgi@16.10  arch=
+spack install openmpi @ 4.0.1 % pgi@16.10  arch=linux-rhel7-x86_64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
 
-spack install openmpi @ 3.1.4 % gcc@8.2.0  arch=
+spack install openmpi @ 3.1.4 % gcc@8.2.0  arch=linux-rhel7-x86_64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
 
-spack install openmpi @ 3.1.4 % gcc@7.4.0  arch=
+spack install openmpi @ 3.1.4 % gcc@7.4.0  arch=linux-rhel7-x86_64
 
-spack install openmpi @ 3.1.4 % gcc@6.4.0  arch=
+spack install openmpi @ 3.1.4 % gcc@6.4.0  arch=linux-rhel7-x86_64
 
-spack install openmpi @ 3.1.4 % gcc@5.3.0  arch=
+spack install openmpi @ 3.1.4 % gcc@5.3.0  arch=linux-rhel7-x86_64
 
-spack install openmpi @ 3.1.4 % intel@19.0.1.144  arch=
+spack install openmpi @ 3.1.4 % intel@19.0.1.144  arch=linux-rhel7-x86_64
 
-spack install openmpi @ 3.1.4 % intel@18.0.5  arch=
+spack install openmpi @ 3.1.4 % intel@18.0.5  arch=linux-rhel7-x86_64
 
-spack install openmpi @ 3.1.4 % intel@17.0.4  arch=
+spack install openmpi @ 3.1.4 % intel@17.0.4  arch=linux-rhel7-x86_64
 
-spack install openmpi @ 3.1.4 % intel@16.0.3  arch=
+spack install openmpi @ 3.1.4 % intel@16.0.3  arch=linux-rhel7-x86_64
 
-spack install openmpi @ 3.1.4 % pgi@18.10  arch=
+spack install openmpi @ 3.1.4 % pgi@18.10  arch=linux-rhel7-x86_64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
 
-spack install openmpi @ 3.1.4 % pgi@17.10  arch=
+spack install openmpi @ 3.1.4 % pgi@17.10  arch=linux-rhel7-x86_64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
 
-spack install openmpi @ 3.1.4 % pgi@16.10  arch=
+spack install openmpi @ 3.1.4 % pgi@16.10  arch=linux-rhel7-x86_64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
 
-spack install openmpi @ 3.0.4 % gcc@8.2.0  arch=
+spack install openmpi @ 3.0.4 % gcc@8.2.0  arch=linux-rhel7-x86_64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
 
-spack install openmpi @ 3.0.4 % gcc@7.4.0  arch=
+spack install openmpi @ 3.0.4 % gcc@7.4.0  arch=linux-rhel7-x86_64
 
-spack install openmpi @ 3.0.4 % gcc@6.4.0  arch=
+spack install openmpi @ 3.0.4 % gcc@6.4.0  arch=linux-rhel7-x86_64
 
-spack install openmpi @ 3.0.4 % gcc@5.3.0  arch=
+spack install openmpi @ 3.0.4 % gcc@5.3.0  arch=linux-rhel7-x86_64
 
-spack install openmpi @ 3.0.4 % intel@19.0.1.144  arch=
+spack install openmpi @ 3.0.4 % intel@19.0.1.144  arch=linux-rhel7-x86_64
 
-spack install openmpi @ 3.0.4 % intel@18.0.5  arch=
+spack install openmpi @ 3.0.4 % intel@18.0.5  arch=linux-rhel7-x86_64
 
-spack install openmpi @ 3.0.4 % intel@17.0.4  arch=
+spack install openmpi @ 3.0.4 % intel@17.0.4  arch=linux-rhel7-x86_64
 
-spack install openmpi @ 3.0.4 % intel@16.0.3  arch=
+spack install openmpi @ 3.0.4 % intel@16.0.3  arch=linux-rhel7-x86_64
 
-spack install openmpi @ 3.0.4 % pgi@18.10  arch=
+spack install openmpi @ 3.0.4 % pgi@18.10  arch=linux-rhel7-x86_64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
 
-spack install openmpi @ 3.0.4 % pgi@17.10  arch=
+spack install openmpi @ 3.0.4 % pgi@17.10  arch=linux-rhel7-x86_64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
 
-spack install openmpi @ 3.0.4 % pgi@16.10  arch=
+spack install openmpi @ 3.0.4 % pgi@16.10  arch=linux-rhel7-x86_64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
 
-spack install openmpi @ 2.1.6 % gcc@8.2.0  arch=
+spack install openmpi @ 2.1.6 % gcc@8.2.0  arch=linux-rhel7-x86_64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
 
-spack install openmpi @ 2.1.6 % gcc@7.4.0  arch=
+spack install openmpi @ 2.1.6 % gcc@7.4.0  arch=linux-rhel7-x86_64
 
-spack install openmpi @ 2.1.6 % gcc@6.4.0  arch=
+spack install openmpi @ 2.1.6 % gcc@6.4.0  arch=linux-rhel7-x86_64
 
-spack install openmpi @ 2.1.6 % gcc@5.3.0  arch=
+spack install openmpi @ 2.1.6 % gcc@5.3.0  arch=linux-rhel7-x86_64
 
-spack install openmpi @ 2.1.6 % intel@19.0.1.144  arch=
+spack install openmpi @ 2.1.6 % intel@19.0.1.144  arch=linux-rhel7-x86_64
 
-spack install openmpi @ 2.1.6 % intel@18.0.5  arch=
+spack install openmpi @ 2.1.6 % intel@18.0.5  arch=linux-rhel7-x86_64
 
-spack install openmpi @ 2.1.6 % intel@17.0.4  arch=
+spack install openmpi @ 2.1.6 % intel@17.0.4  arch=linux-rhel7-x86_64
 
-spack install openmpi @ 2.1.6 % intel@16.0.3  arch=
+spack install openmpi @ 2.1.6 % intel@16.0.3  arch=linux-rhel7-x86_64
 
-spack install openmpi @ 2.1.6 % pgi@18.10  arch=
+spack install openmpi @ 2.1.6 % pgi@18.10  arch=linux-rhel7-x86_64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
 
-spack install openmpi @ 2.1.6 % pgi@17.10  arch=
+spack install openmpi @ 2.1.6 % pgi@17.10  arch=linux-rhel7-x86_64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
 
-spack install openmpi @ 2.1.6 % pgi@16.10  arch=
+spack install openmpi @ 2.1.6 % pgi@16.10  arch=linux-rhel7-x86_64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB

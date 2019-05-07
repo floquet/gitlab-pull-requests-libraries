@@ -1,0 +1,2 @@
+127914@pn1249300.lanl.gov:transfer-spack $ shasum -a 256 ucx-1.5.0.tar.gz
+84f6e4fa5740afebb9b1c8bb405c07206e58c56f83120dcfcd8dc89e4b7d7458  ucx-1.5.0.tar.gz

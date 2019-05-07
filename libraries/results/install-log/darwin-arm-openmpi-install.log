@@ -1,4 +1,4 @@
-Mon Apr 29 10:38:57 MDT 2019
+Thu May 2 10:48:28 MDT 2019
 
 
 spack install openmpi @ 4.0.1 % gcc@8.2.0  arch=linux-rhel7-aarch64
@@ -26,10 +26,6 @@ spack install openmpi @ 4.0.1 % clang@18.4.2  arch=linux-rhel7-aarch64
 ==> pkg-config@0.29.2 : already registered in DB
 
 spack install openmpi @ 4.0.1 % clang@18.4.1  arch=linux-rhel7-aarch64
-==> libtool@2.4.6 : externally installed in /usr
-==> libtool@2.4.6 : already registered in DB
-==> pkg-config@0.29.2 : externally installed in /usr
-==> pkg-config@0.29.2 : already registered in DB
 
 spack install openmpi @ 4.0.1 % clang@18.4.0  arch=linux-rhel7-aarch64
 ==> libtool@2.4.6 : externally installed in /usr

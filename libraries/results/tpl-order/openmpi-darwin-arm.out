@@ -1,4 +1,4 @@
-Mon Apr 29 10:41:12 MDT 2019
+Thu May 2 10:51:32 MDT 2019
 /scratch/users/dantopa/repos/spack/libraries/darwin-arm.openmpi
 spack find openmpi >> /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/openmpi-darwin-arm.out
 ==> 12 installed packages

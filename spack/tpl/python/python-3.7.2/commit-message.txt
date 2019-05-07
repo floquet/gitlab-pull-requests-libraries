@@ -1,0 +1,31 @@
+Add Python 3.7.2 updated
+
+Also add versions 3.7.1, 3.6.8, 3.6.7, 3.6.6. Does NOT alter preferred version (2.7.15).
+
+Supplants PR 10491 "Add Python 3.7.2" (https://github.com/spack/spack/pull/10491).
+
+Verification builds on LANL Darwin:
+
+**Intel Xeon**
+[+] /scratch/users/dantopa/new-spack/pr.new.python-3.7.2/general/opt/spack/linux-centos7-x86_64/gcc-4.8.5/python-3.7.2-d3p7vg6w2r563cpmwsmbgjbsiqc4j4fq
+[+] /scratch/users/dantopa/new-spack/pr.new.python-3.7.2/general/opt/spack/linux-centos7-x86_64/gcc-4.8.5/python-3.7.1-ibom6qj2z64egyaqz5htkwp5tr362il6
+[+] /scratch/users/dantopa/new-spack/pr.new.python-3.7.2/general/opt/spack/linux-centos7-x86_64/gcc-4.8.5/python-3.6.8-rkifc3c7mjgdglw27upiap767ut4wpkz
+[+] /scratch/users/dantopa/new-spack/pr.new.python-3.7.2/general/opt/spack/linux-centos7-x86_64/gcc-4.8.5/python-3.6.7-meuesn43twttt756exyzqgdhohjgipjq
+[+] /scratch/users/dantopa/new-spack/pr.new.python-3.7.2/general/opt/spack/linux-centos7-x86_64/gcc-4.8.5/python-3.6.6-qwnwme7otyuoqqudcglfmfy75t5npywl
+
+**Arm**
+[+] /scratch/users/dantopa/new-spack/pr.new.python-3.7.2/arm/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/python-3.7.2-qj27kzs4ttdqudm3hsi3pt57kv7lshco
+[+] /scratch/users/dantopa/new-spack/pr.new.python-3.7.2/arm/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/python-3.7.1-io5eneirgvpegy3tosvp6wq5ndf7yjis
+[+] /scratch/users/dantopa/new-spack/pr.new.python-3.7.2/arm/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/python-3.6.8-ej3vnvta2hbtrh7p5hokfqkuewxeqgsa
+[+] /scratch/users/dantopa/new-spack/pr.new.python-3.7.2/arm/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/python-3.6.7-l3qnue72ewppn2wxza3w6l62l7ijlque
+[+] /scratch/users/dantopa/new-spack/pr.new.python-3.7.2/arm/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/python-3.6.6-b55pdoqsr5bie4k5djd4vokm3nywhm45
+
+**Power9**
+[+] /scratch/users/dantopa/new-spack/pr.new.python-3.7.2/power9/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/python-3.7.2-cicayvl7ki4tswoqlljsmcetwqcnoh3x
+[+] /scratch/users/dantopa/new-spack/pr.new.python-3.7.2/power9/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/python-3.7.1-7vej3zvnvyj2jvz5lnxhnts3ok2fcxbp
+[+] /scratch/users/dantopa/new-spack/pr.new.python-3.7.2/power9/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/python-3.6.8-xijljmdanyrybcx2rv65qshycmbrfv6c
+[+] /scratch/users/dantopa/new-spack/pr.new.python-3.7.2/power9/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/python-3.6.7-vqdhzg7c3xxxregqmzxsqqfzxt2hajvq
+[+] /scratch/users/dantopa/new-spack/pr.new.python-3.7.2/power9/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/python-3.6.6-jf4bnsdwk3qjhtmvjjhblnrcz5dztfdq
+
+2019-02-05
+Signed-off-by: Daniel Topa <dantopa@lanl.gov>

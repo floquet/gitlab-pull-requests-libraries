@@ -1,0 +1,20 @@
+l127914@pn1249300.lanl.gov:bash-scripts $ gopull
+/Users/l127914/Documents/repos/gitlab/pull-requests
+
+l127914@pn1249300.lanl.gov:pull-requests $ cd spack/tpl/openmpi/
+l127914@pn1249300.lanl.gov:openmpi $ lss
+total 0
+drwxr-xr-x  3 l127914  staff   102B Mar 14 15:04 .
+drwxr-xr-x  8 l127914  staff   272B Mar 14 15:04 ..
+drwxr-xr-x  4 l127914  staff   136B Mar 14 15:17 openmpi-4.0.1rc
+
+l127914@pn1249300.lanl.gov:openmpi $ cd openmpi-4.0.1rc/
+l127914@pn1249300.lanl.gov:openmpi-4.0.1rc $ lss
+total 19216
+drwxr-xr-x  4 l127914  staff   136B Mar 14 15:17 .
+drwxr-xr-x  3 l127914  staff   102B Mar 14 15:04 ..
+-rw-r--r--@ 1 l127914  staff   9.4M Mar 14 15:17 openmpi-4.0.1rc1.tar.bz2
+drwxr-xr-x  3 l127914  staff   102B Mar 14 15:05 packages
+
+l127914@pn1249300.lanl.gov:openmpi-4.0.1rc $ shasum -a 256  openmpi-4.0.1rc1.tar.bz2
+b7acd0681df78512e9c620b0e23468b869507384e5b0a3845124a5de90ab06ee  openmpi-4.0.1rc1.tar.bz2

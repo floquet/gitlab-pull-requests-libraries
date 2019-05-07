@@ -3,10 +3,10 @@
 printf '%s\n' "$(date) $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
 
 export compilers=""
-export compilers="${compilers} clang@7.0.0"
-export compilers="${compilers} gcc@7.3.1  gcc@4.9.3  gcc@4.8.5"
-export compilers="${compilers} pgi@19.1   pgi@18.10  pgi@17.10"
-export compilers="${compilers} xl@16.1.2  xl@16.1.1  xl@16.1.0"
+export compilers="${compilers} clang@4.0.0  clang@3.9.1"
+export compilers="${compilers} gcc@8.2.0 gcc@7.3.1  gcc@4.9.3  gcc@4.8.5"
+export compilers="${compilers} pgi@19.1   pgi@18.10  pgi@18.7 pgi@17.10"
+export compilers="${compilers} xl@16.2  xl@16.1"
 
 census=( ${compilers} )
 echo "${#census[@]} Spack-recognized compilers loaded:"

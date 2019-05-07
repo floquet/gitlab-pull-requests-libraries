@@ -1,0 +1,95 @@
+dantopa@cp-loginy:spack-develop-2019-03-13 $ date
+Thu Mar 14 13:31:25 MDT 2019
+
+dantopa@cp-loginy:spack-develop-2019-03-13 $ module avail
+
+--------------------------------------------------------- /opt/cray/pe/perftools/7.0.4/modulefiles ---------------------------------------------------------
+perftools             perftools-lite-events perftools-lite-hbm    perftools-nwpc
+perftools-lite        perftools-lite-gpu    perftools-lite-loops  perftools-preload
+
+---------------------------------------------------------- /opt/cray/pe/craype/2.5.15/modulefiles ----------------------------------------------------------
+craype-aarch64       craype-hugepages2G   craype-hugepages8M   craype-hugepages64M  craype-hugepages512M
+craype-arm-thunderx2 craype-hugepages2M   craype-hugepages16M  craype-hugepages128M craype-network-aries
+craype-hugepages1G   craype-hugepages4M   craype-hugepages32M  craype-hugepages256M craype-network-none
+
+----------------------------------------------------------------- /opt/cray/pe/modulefiles -----------------------------------------------------------------
+PrgEnv-allinea/6.0.5(default)             cray-hdf5/1.10.2.0(default)               craype/2.5.17
+PrgEnv-cray/6.0.5(default)                cray-hdf5-parallel/1.10.2.0(default)      craype/2.5.17.3
+PrgEnv-gnu/6.0.5(default)                 cray-lgdb/3.0.10(default)                 gdb4hpc/3.0.10(default)
+atp/2.1.3(default)                        cray-libsci/18.07.1                       modules/3.2.11.1(default)
+atp/2.1.3_debug                           cray-libsci/18.11.1.2                     papi/5.6.0.3
+cce/8.7.4                                 cray-libsci/18.12.1(default)              papi/5.6.0.4(default)
+cce/8.7.5(default)                        cray-mpich/7.7.3                          papi/5.6.0.5
+cce/8.7.6                                 cray-mpich/7.7.4                          perftools/7.0.3
+cce/8.7.7                                 cray-mpich/7.7.4.4                        perftools/7.0.4(default)
+cce/8.7.8                                 cray-mpich/7.7.5(default)                 perftools/7.0.5
+cce/9.0.0.21672                           cray-mpich-abi/7.7.3                      perftools-base/7.0.3
+cce/9.0.0.21672-classic                   cray-mpich-abi/7.7.4                      perftools-base/7.0.4(default)
+cce/9.0.0.27896-sve-alpha                 cray-mpich-abi/7.7.5(default)             perftools-base/7.0.5
+cdt/18.09                                 cray-netcdf/4.6.1.2(default)              perftools-lite/7.0.3
+cdt/18.10                                 cray-netcdf/4.6.1.3                       perftools-lite/7.0.4(default)
+cdt/18.11clang                            cray-netcdf-hdf5parallel/4.6.1.2(default) perftools-lite/7.0.5
+cdt/18.12                                 cray-netcdf-hdf5parallel/4.6.1.3          pmi/5.0.13
+cdt/19.02                                 cray-openshmemx/8.0.1                     pmi/5.0.14(default)
+cray-ccdb/3.0.4(default)                  cray-snplauncher/7.7.3(default)           pmi-lib/5.0.13
+cray-cti/1.0.7(default)                   cray-snplauncher/7.7.4                    pmi-lib/5.0.14(default)
+cray-fftw/3.3.8.1(default)                cray-snplauncher/7.7.5                    stat/3.0.1.2(default)
+cray-fftw/3.3.8.2                         craype/2.5.15(default)                    stat/3.0.1.3
+cray-ga/5.3.0.9                           craype/2.5.16
+
+------------------------------------------------------------------ /opt/cray/modulefiles -------------------------------------------------------------------
+capmc/8.0.6000+5                                                           lustre-cray_ari_s_rhine/2.7.5.11_4.4.103-6.0.7.1_14.3__gaa9308031(default)
+
+--------------------------------------------------------------------- /opt/modulefiles ---------------------------------------------------------------------
+Base-opts/2.4.135-6.0.7.0_38.1__g718f891.ari(default) ddt/19.0.1.1(default)
+allinea/18.2.0                                        ddt-memdebug/19.0.1.1(default)
+allinea/19.0.0                                        forge/19.0.1.1(default)
+allinea/19.0.0.1(default)                             gcc/6.1.0
+cray-R/3.3.3(default)                                 gcc/7.3.0(default)
+cray-R/3.4.2                                          gcc/8.1.0
+cray-python/2.7.13.2(default)                         gcc/8.2.0
+cray-python/2.7.15.3                                  modules/3.2.6.7
+cray-python/3.6.1.2                                   slurm/18.08.3-1(default)
+cray-python/3.6.5.3
+
+-------------------------------------------------- /usr/projects/hpcsoft/modulefiles/cle6.0/capulin/misc ---------------------------------------------------
+deprecated       friendly-testing module-info      sandbox          use.own
+dot              module-git       null             support          user_contrib
+
+-------------------------------------------------- /usr/projects/hpcsoft/modulefiles/cle6.0/capulin/tools --------------------------------------------------
+cmake/3.12.1                fstools/1.0                 fstools/2.1                 nedit/5.5                   subversion/1.11.1(default)
+forge/18.3                  fstools/2.0                 hpctoolkit/2018.12(default) subversion/1.9.7
+
+--------------------------------------------------- /usr/projects/hpcsoft/modulefiles/cle6.0/capulin/viz ---------------------------------------------------
+paraview/5.5.2-osmesa(default)
+
+---------------------------------------------------------------- /opt/cray/ari/modulefiles -----------------------------------------------------------------
+aeld/1.3.2-6.0.7.0_36.2__g09d30e1.ari(default)                llm/21.3.530-6.0.7.0_39.1__g3b4230e.ari(default)
+alps/6.6.43-6.0.7.0_26.3__ga796da3.ari(default)               logcb/1.3.1-6.0.7.0_37.1__ga55b812.ari(default)
+alpsan/1.3.3-6.0.7.0_35.1__g82a1912.ari(default)              lustre-utils/2.3.5-6.0.7.0_37.2__g1ff87fe.ari(default)
+alpscomm/1.3.9-6.0.7.0_41.3__g6a98cc7.ari(default)            ncmd/1.3.6-6.0.7.0_30.1__g036045e.ari(default)
+apptermd/1.3.1-6.0.7.0_33.2__g4a70d82.ari(default)            nhm/5.7.2-6.0.7.0_2.1__g8895b35.ari(default)
+boot/2.2.6-6.0.7.0_36.2__g1518614.ari(default)                nodehealth/5.6.14-6.0.7.1_8.3__gd6a82f3.ari(default)
+ccm/2.5.4-6.0.7.0_31.3__g394754f.ari(default)                 nodestat/2.3.85-6.0.7.0_32.1__gc6218bb.ari(default)
+cnat/6.4.4-6.0.7.0_35.3__g4386fe6.ari(default)                pbs_hooks/1.1.0-6.0.7.0_33.1__g0d4730c.ari(default)
+codbc/2.5.105-6.0.7.0_32.1__g811bbf2.ari(default)             pdsh/2.27-6.0.7.0_43.1__g70b69a8.ari(default)
+comm_msg/1.2.3-6.0.7.0_38.1__g60fcb6d.ari(default)            rca/2.2.18-6.0.7.0_33.2__g2aa4f39.ari(default)
+configparse/2.4.37-6.0.7.0_33.2__g8b20596.ari(default)        rdma-credentials/1.2.21-6.0.7.0_35.1__g841ac46.ari(default)
+daemontools/1.3.1-6.0.7.0_32.1__gbf01d9d.ari(default)         rsipd/2.2.2-6.0.7.0_34.2__g747470b.ari(default)
+datawarp/3.0.7-6.0.7.1_5.49__gac1a401.ari(default)            rur/1.3.21-6.0.7.1_6.1__gbc1a3e3.ari(default)
+datawarp_cache/2.1.8-6.0.7.0_41.3__ga2ff338.ari(default)      sdb/3.3.775-6.0.7.0_32.2__gb339c00.ari(default)
+dmapp/7.1.1-6.0.7.0_34.3__g5a674e0.ari(default)               sh/2.4.43-6.0.7.0_30.1__gf08ecab.ari(default)
+dumpd/1.10.3-6.0.7.0_38.2__g9beb48a.ari(default)              socketauth/1.3.1-6.0.7.0_30.1__gfdd1da0.ari(default)
+dvs/2.7_2.2.117-6.0.7.1_9.1__gf817677(default)                swrap/1.3.1-6.0.7.0_30.2__gc085a9f.ari(default)
+dw_wlm/3.0.7-6.0.7.1_7.1__gebe0ea3.ari(default)               sysadm/2.4.132-6.0.7.0_30.1__gfacbd2d.ari(default)
+dws/3.0.9-6.0.7.1_5.40__gcb79c84.ari(default)                 system-config/3.5.2790-6.0.7.1_7.1__g7767d3c6.ari(default)
+gni/6.0.29.2-6.0.7.1_3.7__g07aa31c.ari(default)               sysutils/2.5.72-6.0.7.0_44.1__g0dd4e0a.ari(default)
+gni-headers/5.0.12.0-6.0.7.0_24.1__g3b1768f.ari(default)      udreg/2.3.2-6.0.7.0_33.11__g5196236.ari(default)
+hosts/2.5.107-6.0.7.0_33.2__g964cddc.ari(default)             udwcfs/2.1.9-6.0.7.0_39.3__g0ba2722.ari(default)
+hsn-proxy-gni/2.4.3-6.0.7.0_36.1__g1a268d8.ari(default)       udwfs/3.0.2-6.0.7.1_5.52__ga57b593.ari(default)
+imps/3.8.4032-6.0.7.1_8.1__ga6cebd3d.ari(default)             ugni/6.0.14.0-6.0.7.0_23.1__gea11d3d.ari(default)
+imps-distribution/3.3.332-6.0.7.0_35.1__g4901aa8.ari(default) wlm_detect/1.3.3-6.0.7.0_47.2__g7109084.ari(default)
+isvaccel/6.0.0-6.0.7.0_35.2__gf0c05b4.ari(default)            wlm_trans/1.5.5-6.0.7.0_34.3__g39383ca.ari(default)
+job/2.2.3-6.0.7.0_44.1__g6c4e934.ari(default)                 xpmem/2.2.15-6.0.7.1_5.11__g7549d06.ari(default)
+krca/2.2.4-6.0.7.1_5.38__g8505b97.ari(default)                xtgetconfig/2.3.90-6.0.7.0_30.1__g3d11e7d.ari(default)
+linux-nvme-ctl/0.0_2.1.3-6.0.7.0_32.12__g4b7b87e.ari(default) xtshutdown/2.4.145-6.0.7.0_33.2__g481fc65.ari(default)

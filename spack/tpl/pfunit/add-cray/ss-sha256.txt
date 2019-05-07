@@ -1,0 +1,49 @@
+dantopa@darwin-fe1.lanl.gov:scripts $ gopull
+/scratch/users/dantopa/repos/gitlab/pull-requests
+dantopa@darwin-fe1.lanl.gov:pull-requests $ git pull
+remote: Enumerating objects: 42, done.
+remote: Counting objects: 100% (41/41), done.
+remote: Compressing objects: 100% (25/25), done.
+remote: Total 30 (delta 9), reused 0 (delta 0)
+Unpacking objects: 100% (30/30), done.
+From gitlab.lanl.gov:dantopa/pull-requests
+   dc71e90..08f34b6  master     -> origin/master
+Updating dc71e90..08f34b6
+Fast-forward
+ spack/tpl/libhio/libhio-1.4.1.3/github pull request.png           | Bin 0 -> 413596 bytes
+ spack/tpl/libhio/libhio-1.4.1.3/libhio-1.4.1.3-commit-message.txt |  35 +++--------
+ spack/tpl/libhio/libhio-1.4.1.3/power9-debug.sh                   |  26 ++++++++
+ spack/tpl/libhio/libhio-1.4.1.3/ss libhio.txt                     | 227 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ spack/tpl/pfunit/add-cray/package/after-package.py                |  85 ++++++++++++++++++++++++++
+ spack/tpl/pfunit/add-cray/package/before-package.py               |  85 ++++++++++++++++++++++++++
+ 6 files changed, 430 insertions(+), 28 deletions(-)
+ create mode 100644 spack/tpl/libhio/libhio-1.4.1.3/github pull request.png
+ create mode 100644 spack/tpl/libhio/libhio-1.4.1.3/power9-debug.sh
+ create mode 100644 spack/tpl/libhio/libhio-1.4.1.3/ss libhio.txt
+ create mode 100644 spack/tpl/pfunit/add-cray/package/after-package.py
+ create mode 100644 spack/tpl/pfunit/add-cray/package/before-package.py
+dantopa@darwin-fe1.lanl.gov:pull-requests $ cd spack/tpl/pfunit/
+dantopa@darwin-fe1.lanl.gov:pfunit $ lss
+total 1.5K
+drwxrwxr-x 3 dantopa dantopa 3 Mar  7 20:40 .
+drwxrwxr-x 6 dantopa dantopa 6 Mar  7 20:40 ..
+drwxrwxr-x 3 dantopa dantopa 3 Mar  7 20:40 add-cray
+dantopa@darwin-fe1.lanl.gov:pfunit $ cd add-cray/
+dantopa@darwin-fe1.lanl.gov:add-cray $ wget https://github.com/Goddard-Fortran-Ecosystem/pFUnit/archive/3.2.9.tar.gz
+--2019-03-07 20:40:28--  https://github.com/Goddard-Fortran-Ecosystem/pFUnit/archive/3.2.9.tar.gz
+Resolving proxyout.lanl.gov (proxyout.lanl.gov)... 192.12.184.19
+Connecting to proxyout.lanl.gov (proxyout.lanl.gov)|192.12.184.19|:8080... connected.
+Proxy request sent, awaiting response... 302 Found
+Location: https://codeload.github.com/Goddard-Fortran-Ecosystem/pFUnit/tar.gz/3.2.9 [following]
+--2019-03-07 20:40:28--  https://codeload.github.com/Goddard-Fortran-Ecosystem/pFUnit/tar.gz/3.2.9
+Connecting to proxyout.lanl.gov (proxyout.lanl.gov)|192.12.184.19|:8080... connected.
+Proxy request sent, awaiting response... 200 OK
+Length: unspecified [application/x-gzip]
+Saving to: ‘3.2.9.tar.gz’
+
+    [   <=>                                                                                                ] 680,282     1.26MB/s   in 0.5s
+
+2019-03-07 20:40:29 (1.26 MB/s) - ‘3.2.9.tar.gz’ saved [680282]
+
+dantopa@darwin-fe1.lanl.gov:add-cray $ sha256sum 3.2.9.tar.gz
+403f9a150865700c8b4240fd033162b8d3e8aeefa265c50c5a6fe14c455fbabc  3.2.9.tar.gz

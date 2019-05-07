@@ -1,0 +1,414 @@
+Fri Mar 15 19:10:42 MDT 2019 /var/spool/slurm/job514981/slurm_script
+cp: cannot stat 'trinitite-compute-compilers.yaml': No such file or directory
+Fri Mar 15 19:10:44 MDT 2019 /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/spack/tpl/openmpi/openmpi-4.0.1rc1/batch-scripts/sweep-openmpi.sh
+
+spack compilers
+==> Available compilers
+-- cce cnl6-any -------------------------------------------------
+cce@9.0.0.21672
+cce@8.7.8
+cce@8.7.5
+cce@8.6.5
+
+-- gcc cnl6-any -------------------------------------------------
+gcc@8.2.0
+gcc@7.3.0
+gcc@6.3.0
+
+-- intel cnl6-any -----------------------------------------------
+intel@19.0.1
+intel@18.0.5
+intel@17.0.4
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+
+spack install openmpi @ 4.0.0 % gcc@8.2.0 arch=cray-cnl6-haswell
+==> Warning: No Spack mirrors are currently configured
+==> Installing libsigsegv
+==> Searching for binary cache of libsigsegv
+==> No binary for libsigsegv found: installing from source
+curl: (6) Could not resolve host: ftpmirror.gnu.org
+==> Fetching https://ftpmirror.gnu.org/libsigsegv/libsigsegv-2.11.tar.gz
+==> Fetching from https://ftpmirror.gnu.org/libsigsegv/libsigsegv-2.11.tar.gz failed.
+==> Error: FetchError: All fetchers failed for libsigsegv-2.11-keeiclnrycnoloci4l62oqwqdxven3t7
+
+/lustre/ttscratch1/dantopa/spack/pr.openmpi.spack/lib/spack/spack/package.py:962, in do_fetch:
+        959                raise FetchError("Will not fetch %s" %
+        960                                 self.spec.format('$_$@'), ck_msg)
+        961
+  >>    962        self.stage.create()
+        963        self.stage.fetch(mirror_only)
+        964        self._fetch_time = time.time() - start_time
+        965
+
+
+
+spack install openmpi @ 4.0.1rc1 % gcc@8.2.0 arch=cray-cnl6-haswell
+==> Warning: No Spack mirrors are currently configured
+==> Installing libsigsegv
+==> Searching for binary cache of libsigsegv
+==> No binary for libsigsegv found: installing from source
+curl: (6) Could not resolve host: ftpmirror.gnu.org
+==> Fetching https://ftpmirror.gnu.org/libsigsegv/libsigsegv-2.11.tar.gz
+==> Fetching from https://ftpmirror.gnu.org/libsigsegv/libsigsegv-2.11.tar.gz failed.
+==> Error: FetchError: All fetchers failed for libsigsegv-2.11-keeiclnrycnoloci4l62oqwqdxven3t7
+
+/lustre/ttscratch1/dantopa/spack/pr.openmpi.spack/lib/spack/spack/package.py:962, in do_fetch:
+        959                raise FetchError("Will not fetch %s" %
+        960                                 self.spec.format('$_$@'), ck_msg)
+        961
+  >>    962        self.stage.create()
+        963        self.stage.fetch(mirror_only)
+        964        self._fetch_time = time.time() - start_time
+        965
+
+
+
+spack install openmpi @ 4.0.0 % gcc@7.3.0 arch=cray-cnl6-haswell
+==> Warning: No Spack mirrors are currently configured
+==> Installing libsigsegv
+==> Searching for binary cache of libsigsegv
+==> No binary for libsigsegv found: installing from source
+curl: (6) Could not resolve host: ftpmirror.gnu.org
+==> Fetching https://ftpmirror.gnu.org/libsigsegv/libsigsegv-2.11.tar.gz
+==> Fetching from https://ftpmirror.gnu.org/libsigsegv/libsigsegv-2.11.tar.gz failed.
+==> Error: FetchError: All fetchers failed for libsigsegv-2.11-xvt6ng6xyjj4yjrmljxwua6tnxol3kmt
+
+/lustre/ttscratch1/dantopa/spack/pr.openmpi.spack/lib/spack/spack/package.py:962, in do_fetch:
+        959                raise FetchError("Will not fetch %s" %
+        960                                 self.spec.format('$_$@'), ck_msg)
+        961
+  >>    962        self.stage.create()
+        963        self.stage.fetch(mirror_only)
+        964        self._fetch_time = time.time() - start_time
+        965
+
+
+
+spack install openmpi @ 4.0.1rc1 % gcc@7.3.0 arch=cray-cnl6-haswell
+==> Warning: No Spack mirrors are currently configured
+==> Installing libsigsegv
+==> Searching for binary cache of libsigsegv
+==> No binary for libsigsegv found: installing from source
+curl: (6) Could not resolve host: ftpmirror.gnu.org
+==> Fetching https://ftpmirror.gnu.org/libsigsegv/libsigsegv-2.11.tar.gz
+==> Fetching from https://ftpmirror.gnu.org/libsigsegv/libsigsegv-2.11.tar.gz failed.
+==> Error: FetchError: All fetchers failed for libsigsegv-2.11-xvt6ng6xyjj4yjrmljxwua6tnxol3kmt
+
+/lustre/ttscratch1/dantopa/spack/pr.openmpi.spack/lib/spack/spack/package.py:962, in do_fetch:
+        959                raise FetchError("Will not fetch %s" %
+        960                                 self.spec.format('$_$@'), ck_msg)
+        961
+  >>    962        self.stage.create()
+        963        self.stage.fetch(mirror_only)
+        964        self._fetch_time = time.time() - start_time
+        965
+
+
+
+spack install openmpi @ 4.0.0 % gcc@6.3.0 arch=cray-cnl6-haswell
+==> Warning: No Spack mirrors are currently configured
+==> Installing libsigsegv
+==> Searching for binary cache of libsigsegv
+==> No binary for libsigsegv found: installing from source
+curl: (6) Could not resolve host: ftpmirror.gnu.org
+==> Fetching https://ftpmirror.gnu.org/libsigsegv/libsigsegv-2.11.tar.gz
+==> Fetching from https://ftpmirror.gnu.org/libsigsegv/libsigsegv-2.11.tar.gz failed.
+==> Error: FetchError: All fetchers failed for libsigsegv-2.11-d2meplwkj74j4hsoyfcwzc6mzixvp53i
+
+/lustre/ttscratch1/dantopa/spack/pr.openmpi.spack/lib/spack/spack/package.py:962, in do_fetch:
+        959                raise FetchError("Will not fetch %s" %
+        960                                 self.spec.format('$_$@'), ck_msg)
+        961
+  >>    962        self.stage.create()
+        963        self.stage.fetch(mirror_only)
+        964        self._fetch_time = time.time() - start_time
+        965
+
+
+
+spack install openmpi @ 4.0.1rc1 % gcc@6.3.0 arch=cray-cnl6-haswell
+==> Warning: No Spack mirrors are currently configured
+==> Installing libsigsegv
+==> Searching for binary cache of libsigsegv
+==> No binary for libsigsegv found: installing from source
+curl: (6) Could not resolve host: ftpmirror.gnu.org
+==> Fetching https://ftpmirror.gnu.org/libsigsegv/libsigsegv-2.11.tar.gz
+==> Fetching from https://ftpmirror.gnu.org/libsigsegv/libsigsegv-2.11.tar.gz failed.
+==> Error: FetchError: All fetchers failed for libsigsegv-2.11-d2meplwkj74j4hsoyfcwzc6mzixvp53i
+
+/lustre/ttscratch1/dantopa/spack/pr.openmpi.spack/lib/spack/spack/package.py:962, in do_fetch:
+        959                raise FetchError("Will not fetch %s" %
+        960                                 self.spec.format('$_$@'), ck_msg)
+        961
+  >>    962        self.stage.create()
+        963        self.stage.fetch(mirror_only)
+        964        self._fetch_time = time.time() - start_time
+        965
+
+
+
+spack install openmpi @ 4.0.0 % cce@9.0.0.21672 arch=cray-cnl6-haswell
+==> Warning: No Spack mirrors are currently configured
+==> Installing libsigsegv
+==> Searching for binary cache of libsigsegv
+==> No binary for libsigsegv found: installing from source
+curl: (6) Could not resolve host: ftpmirror.gnu.org
+==> Fetching https://ftpmirror.gnu.org/libsigsegv/libsigsegv-2.11.tar.gz
+==> Fetching from https://ftpmirror.gnu.org/libsigsegv/libsigsegv-2.11.tar.gz failed.
+==> Error: FetchError: All fetchers failed for libsigsegv-2.11-cmd64zyh4yfzrmsvlg7lsbcnfngmnxeg
+
+/lustre/ttscratch1/dantopa/spack/pr.openmpi.spack/lib/spack/spack/package.py:962, in do_fetch:
+        959                raise FetchError("Will not fetch %s" %
+        960                                 self.spec.format('$_$@'), ck_msg)
+        961
+  >>    962        self.stage.create()
+        963        self.stage.fetch(mirror_only)
+        964        self._fetch_time = time.time() - start_time
+        965
+
+
+
+spack install openmpi @ 4.0.1rc1 % cce@9.0.0.21672 arch=cray-cnl6-haswell
+==> Warning: No Spack mirrors are currently configured
+==> Installing libsigsegv
+==> Searching for binary cache of libsigsegv
+==> No binary for libsigsegv found: installing from source
+curl: (6) Could not resolve host: ftpmirror.gnu.org
+==> Fetching https://ftpmirror.gnu.org/libsigsegv/libsigsegv-2.11.tar.gz
+==> Fetching from https://ftpmirror.gnu.org/libsigsegv/libsigsegv-2.11.tar.gz failed.
+==> Error: FetchError: All fetchers failed for libsigsegv-2.11-cmd64zyh4yfzrmsvlg7lsbcnfngmnxeg
+
+/lustre/ttscratch1/dantopa/spack/pr.openmpi.spack/lib/spack/spack/package.py:962, in do_fetch:
+        959                raise FetchError("Will not fetch %s" %
+        960                                 self.spec.format('$_$@'), ck_msg)
+        961
+  >>    962        self.stage.create()
+        963        self.stage.fetch(mirror_only)
+        964        self._fetch_time = time.time() - start_time
+        965
+
+
+
+spack install openmpi @ 4.0.0 % cce@8.7.8 arch=cray-cnl6-haswell
+==> Warning: No Spack mirrors are currently configured
+==> Installing libsigsegv
+==> Searching for binary cache of libsigsegv
+==> No binary for libsigsegv found: installing from source
+curl: (6) Could not resolve host: ftpmirror.gnu.org
+==> Fetching https://ftpmirror.gnu.org/libsigsegv/libsigsegv-2.11.tar.gz
+==> Fetching from https://ftpmirror.gnu.org/libsigsegv/libsigsegv-2.11.tar.gz failed.
+==> Error: FetchError: All fetchers failed for libsigsegv-2.11-yvo6toeiyu4xihxcbef6xbplf63sch6z
+
+/lustre/ttscratch1/dantopa/spack/pr.openmpi.spack/lib/spack/spack/package.py:962, in do_fetch:
+        959                raise FetchError("Will not fetch %s" %
+        960                                 self.spec.format('$_$@'), ck_msg)
+        961
+  >>    962        self.stage.create()
+        963        self.stage.fetch(mirror_only)
+        964        self._fetch_time = time.time() - start_time
+        965
+
+
+
+spack install openmpi @ 4.0.1rc1 % cce@8.7.8 arch=cray-cnl6-haswell
+==> Warning: No Spack mirrors are currently configured
+==> Installing libsigsegv
+==> Searching for binary cache of libsigsegv
+==> No binary for libsigsegv found: installing from source
+curl: (6) Could not resolve host: ftpmirror.gnu.org
+==> Fetching https://ftpmirror.gnu.org/libsigsegv/libsigsegv-2.11.tar.gz
+==> Fetching from https://ftpmirror.gnu.org/libsigsegv/libsigsegv-2.11.tar.gz failed.
+==> Error: FetchError: All fetchers failed for libsigsegv-2.11-yvo6toeiyu4xihxcbef6xbplf63sch6z
+
+/lustre/ttscratch1/dantopa/spack/pr.openmpi.spack/lib/spack/spack/package.py:962, in do_fetch:
+        959                raise FetchError("Will not fetch %s" %
+        960                                 self.spec.format('$_$@'), ck_msg)
+        961
+  >>    962        self.stage.create()
+        963        self.stage.fetch(mirror_only)
+        964        self._fetch_time = time.time() - start_time
+        965
+
+
+
+spack install openmpi @ 4.0.0 % cce@8.7.5 arch=cray-cnl6-haswell
+==> Warning: No Spack mirrors are currently configured
+==> Installing libsigsegv
+==> Searching for binary cache of libsigsegv
+==> No binary for libsigsegv found: installing from source
+curl: (6) Could not resolve host: ftpmirror.gnu.org
+==> Fetching https://ftpmirror.gnu.org/libsigsegv/libsigsegv-2.11.tar.gz
+==> Fetching from https://ftpmirror.gnu.org/libsigsegv/libsigsegv-2.11.tar.gz failed.
+==> Error: FetchError: All fetchers failed for libsigsegv-2.11-2sxw3gpsacot4iwnspbvy6pw4sx7fnqv
+
+/lustre/ttscratch1/dantopa/spack/pr.openmpi.spack/lib/spack/spack/package.py:962, in do_fetch:
+        959                raise FetchError("Will not fetch %s" %
+        960                                 self.spec.format('$_$@'), ck_msg)
+        961
+  >>    962        self.stage.create()
+        963        self.stage.fetch(mirror_only)
+        964        self._fetch_time = time.time() - start_time
+        965
+
+
+
+spack install openmpi @ 4.0.1rc1 % cce@8.7.5 arch=cray-cnl6-haswell
+==> Warning: No Spack mirrors are currently configured
+==> Installing libsigsegv
+==> Searching for binary cache of libsigsegv
+==> No binary for libsigsegv found: installing from source
+curl: (6) Could not resolve host: ftpmirror.gnu.org
+==> Fetching https://ftpmirror.gnu.org/libsigsegv/libsigsegv-2.11.tar.gz
+==> Fetching from https://ftpmirror.gnu.org/libsigsegv/libsigsegv-2.11.tar.gz failed.
+==> Error: FetchError: All fetchers failed for libsigsegv-2.11-2sxw3gpsacot4iwnspbvy6pw4sx7fnqv
+
+/lustre/ttscratch1/dantopa/spack/pr.openmpi.spack/lib/spack/spack/package.py:962, in do_fetch:
+        959                raise FetchError("Will not fetch %s" %
+        960                                 self.spec.format('$_$@'), ck_msg)
+        961
+  >>    962        self.stage.create()
+        963        self.stage.fetch(mirror_only)
+        964        self._fetch_time = time.time() - start_time
+        965
+
+
+
+spack install openmpi @ 4.0.0 % cce@8.6.5 arch=cray-cnl6-haswell
+==> Warning: No Spack mirrors are currently configured
+==> Installing libsigsegv
+==> Searching for binary cache of libsigsegv
+==> No binary for libsigsegv found: installing from source
+curl: (6) Could not resolve host: ftpmirror.gnu.org
+==> Fetching https://ftpmirror.gnu.org/libsigsegv/libsigsegv-2.11.tar.gz
+==> Fetching from https://ftpmirror.gnu.org/libsigsegv/libsigsegv-2.11.tar.gz failed.
+==> Error: FetchError: All fetchers failed for libsigsegv-2.11-kjgobocoyl2k6ko32m664so544nnr7rc
+
+/lustre/ttscratch1/dantopa/spack/pr.openmpi.spack/lib/spack/spack/package.py:962, in do_fetch:
+        959                raise FetchError("Will not fetch %s" %
+        960                                 self.spec.format('$_$@'), ck_msg)
+        961
+  >>    962        self.stage.create()
+        963        self.stage.fetch(mirror_only)
+        964        self._fetch_time = time.time() - start_time
+        965
+
+
+
+spack install openmpi @ 4.0.1rc1 % cce@8.6.5 arch=cray-cnl6-haswell
+==> Warning: No Spack mirrors are currently configured
+==> Installing libsigsegv
+==> Searching for binary cache of libsigsegv
+==> No binary for libsigsegv found: installing from source
+curl: (6) Could not resolve host: ftpmirror.gnu.org
+==> Fetching https://ftpmirror.gnu.org/libsigsegv/libsigsegv-2.11.tar.gz
+==> Fetching from https://ftpmirror.gnu.org/libsigsegv/libsigsegv-2.11.tar.gz failed.
+==> Error: FetchError: All fetchers failed for libsigsegv-2.11-kjgobocoyl2k6ko32m664so544nnr7rc
+
+/lustre/ttscratch1/dantopa/spack/pr.openmpi.spack/lib/spack/spack/package.py:962, in do_fetch:
+        959                raise FetchError("Will not fetch %s" %
+        960                                 self.spec.format('$_$@'), ck_msg)
+        961
+  >>    962        self.stage.create()
+        963        self.stage.fetch(mirror_only)
+        964        self._fetch_time = time.time() - start_time
+        965
+
+
+
+spack install openmpi @ 4.0.0 % intel@18.0.5 arch=cray-cnl6-haswell
+==> Warning: No Spack mirrors are currently configured
+==> Installing libsigsegv
+==> Searching for binary cache of libsigsegv
+==> No binary for libsigsegv found: installing from source
+curl: (6) Could not resolve host: ftpmirror.gnu.org
+==> Fetching https://ftpmirror.gnu.org/libsigsegv/libsigsegv-2.11.tar.gz
+==> Fetching from https://ftpmirror.gnu.org/libsigsegv/libsigsegv-2.11.tar.gz failed.
+==> Error: FetchError: All fetchers failed for libsigsegv-2.11-jvm4qc4lk7mdxlzysablggnyojqch3km
+
+/lustre/ttscratch1/dantopa/spack/pr.openmpi.spack/lib/spack/spack/package.py:962, in do_fetch:
+        959                raise FetchError("Will not fetch %s" %
+        960                                 self.spec.format('$_$@'), ck_msg)
+        961
+  >>    962        self.stage.create()
+        963        self.stage.fetch(mirror_only)
+        964        self._fetch_time = time.time() - start_time
+        965
+
+
+
+spack install openmpi @ 4.0.1rc1 % intel@18.0.5 arch=cray-cnl6-haswell
+==> Warning: No Spack mirrors are currently configured
+==> Installing libsigsegv
+==> Searching for binary cache of libsigsegv
+==> No binary for libsigsegv found: installing from source
+curl: (6) Could not resolve host: ftpmirror.gnu.org
+==> Fetching https://ftpmirror.gnu.org/libsigsegv/libsigsegv-2.11.tar.gz
+==> Fetching from https://ftpmirror.gnu.org/libsigsegv/libsigsegv-2.11.tar.gz failed.
+==> Error: FetchError: All fetchers failed for libsigsegv-2.11-jvm4qc4lk7mdxlzysablggnyojqch3km
+
+/lustre/ttscratch1/dantopa/spack/pr.openmpi.spack/lib/spack/spack/package.py:962, in do_fetch:
+        959                raise FetchError("Will not fetch %s" %
+        960                                 self.spec.format('$_$@'), ck_msg)
+        961
+  >>    962        self.stage.create()
+        963        self.stage.fetch(mirror_only)
+        964        self._fetch_time = time.time() - start_time
+        965
+
+
+
+spack install openmpi @ 4.0.0 % intel@17.0.4 arch=cray-cnl6-haswell
+==> Warning: No Spack mirrors are currently configured
+==> Installing libsigsegv
+==> Searching for binary cache of libsigsegv
+==> No binary for libsigsegv found: installing from source
+curl: (6) Could not resolve host: ftpmirror.gnu.org
+==> Fetching https://ftpmirror.gnu.org/libsigsegv/libsigsegv-2.11.tar.gz
+==> Fetching from https://ftpmirror.gnu.org/libsigsegv/libsigsegv-2.11.tar.gz failed.
+==> Error: FetchError: All fetchers failed for libsigsegv-2.11-cixi4rz6gieydhabuqnqiydb25cfojiq
+
+/lustre/ttscratch1/dantopa/spack/pr.openmpi.spack/lib/spack/spack/package.py:962, in do_fetch:
+        959                raise FetchError("Will not fetch %s" %
+        960                                 self.spec.format('$_$@'), ck_msg)
+        961
+  >>    962        self.stage.create()
+        963        self.stage.fetch(mirror_only)
+        964        self._fetch_time = time.time() - start_time
+        965
+
+
+
+spack install openmpi @ 4.0.1rc1 % intel@17.0.4 arch=cray-cnl6-haswell
+==> Warning: No Spack mirrors are currently configured
+==> Installing libsigsegv
+==> Searching for binary cache of libsigsegv
+==> No binary for libsigsegv found: installing from source
+curl: (6) Could not resolve host: ftpmirror.gnu.org
+==> Fetching https://ftpmirror.gnu.org/libsigsegv/libsigsegv-2.11.tar.gz
+==> Fetching from https://ftpmirror.gnu.org/libsigsegv/libsigsegv-2.11.tar.gz failed.
+==> Error: FetchError: All fetchers failed for libsigsegv-2.11-cixi4rz6gieydhabuqnqiydb25cfojiq
+
+/lustre/ttscratch1/dantopa/spack/pr.openmpi.spack/lib/spack/spack/package.py:962, in do_fetch:
+        959                raise FetchError("Will not fetch %s" %
+        960                                 self.spec.format('$_$@'), ck_msg)
+        961
+  >>    962        self.stage.create()
+        963        self.stage.fetch(mirror_only)
+        964        self._fetch_time = time.time() - start_time
+        965
+
+
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+
+spack find openmpi
+==> No package matches the query: openmpi
+
+spack find -ldf openmpi
+==> No package matches the query: openmpi
+Fri Mar 15 19:14:12 MDT 2019

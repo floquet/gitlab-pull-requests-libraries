@@ -1,0 +1,297 @@
+dantopa@cn110:pr.libhio.spack $ spack install libhio@1.4.1.3 % gcc@4.8.5
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/util-macros-1.19.1-p66qdrtaslf2cq4wyc6mitrxzhnyujhc
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/libpciaccess-0.13.5-5chyfxo6gpmcf74gpv3sqni2aa6v5x57
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/hwloc-1.11.11-bkkhvejler5rcxoz6mufxxb7fm3qdqbe
+==> zlib is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/zlib-1.2.11-64vg6e4evdrlqgx7iicwhu2hs7lv6gpz
+==> openmpi is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/openmpi-3.1.3-pdfogzxfyi3pkzjj5wo5rvnedhl5b67a
+==> hdf5 is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/hdf5-1.10.4-gyrb67gixig44xb2zx55uh43ygam52ju
+==> autoconf@2.69 : externally installed in /usr
+==> autoconf@2.69 : already registered in DB
+==> json-c is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/json-c-0.13.1-iaq3vl7vqbzaxg6cq2xd5vorjmjh3mr3
+==> Installing libhio
+==> Searching for binary cache of libhio
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libhio found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/pr.libhio.spack/var/spack/cache/libhio/libhio-1.4.1.3.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/pr.libhio.spack/var/spack/stage/libhio-1.4.1.3-s4fnmesfp65trhks5qi3it5p73ssfpsp/libhio-1.4.1.3.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/pr.libhio.spack/var/spack/stage/libhio-1.4.1.3-s4fnmesfp65trhks5qi3it5p73ssfpsp
+==> No patches needed for libhio
+==> Building libhio [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libhio
+  Fetch: 0.10s.  Build: 31.10s.  Total: 31.20s.
+[+] /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/libhio-1.4.1.3-s4fnmesfp65trhks5qi3it5p73ssfpsp
+dantopa@cn110:pr.libhio.spack $ spack install libhio@1.4.1.2 % gcc@4.8.5
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/util-macros-1.19.1-p66qdrtaslf2cq4wyc6mitrxzhnyujhc
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/libpciaccess-0.13.5-5chyfxo6gpmcf74gpv3sqni2aa6v5x57
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/hwloc-1.11.11-bkkhvejler5rcxoz6mufxxb7fm3qdqbe
+==> zlib is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/zlib-1.2.11-64vg6e4evdrlqgx7iicwhu2hs7lv6gpz
+==> openmpi is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/openmpi-3.1.3-pdfogzxfyi3pkzjj5wo5rvnedhl5b67a
+==> hdf5 is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/hdf5-1.10.4-gyrb67gixig44xb2zx55uh43ygam52ju
+==> autoconf@2.69 : externally installed in /usr
+==> autoconf@2.69 : already registered in DB
+==> json-c is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/json-c-0.13.1-iaq3vl7vqbzaxg6cq2xd5vorjmjh3mr3
+==> Installing libhio
+==> Searching for binary cache of libhio
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libhio found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/libhio/libhio-1.4.1.2.tar.bz2
+######################################################################## 100.0%
+==> Staging archive: /scratch/users/dantopa/new-spack/pr.libhio.spack/var/spack/stage/libhio-1.4.1.2-fkgh5vqpijvwqywffmokgmsglqxwfrtl/libhio-1.4.1.2.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/pr.libhio.spack/var/spack/stage/libhio-1.4.1.2-fkgh5vqpijvwqywffmokgmsglqxwfrtl
+==> Applied patch /scratch/users/dantopa/new-spack/pr.libhio.spack/var/spack/repos/builtin/packages/libhio/0001-spack-fix-for-spack-to-work-on-non-cray-systems.patch
+==> Building libhio [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libhio
+  Fetch: 0.06s.  Build: 28.39s.  Total: 28.45s.
+[+] /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/libhio-1.4.1.2-fkgh5vqpijvwqywffmokgmsglqxwfrtl
+dantopa@cn110:pr.libhio.spack $ spack find -ldf libhio
+==> 4 installed packages
+-- linux-centos7-x86_64 / gcc@4.8.5 -----------------------------
+fkgh5vq    libhio@1.4.1.2%gcc
+fxe4hfn        ^bzip2@1.0.6%gcc
+gyrb67g        ^hdf5@1.10.4%gcc
+pdfogzx            ^openmpi@3.1.3%gcc
+bkkhvej                ^hwloc@1.11.11%gcc
+5chyfxo                    ^libpciaccess@0.13.5%gcc
+bcnjbc3                    ^libxml2@2.9.8%gcc
+tt2hkol                    ^numactl@2.0.12%gcc
+64vg6e4                ^zlib@1.2.11%gcc
+iaq3vl7        ^json-c@0.13.1%gcc
+
+s4fnmes    libhio@1.4.1.3%gcc
+fxe4hfn        ^bzip2@1.0.6%gcc
+gyrb67g        ^hdf5@1.10.4%gcc
+pdfogzx            ^openmpi@3.1.3%gcc
+bkkhvej                ^hwloc@1.11.11%gcc
+5chyfxo                    ^libpciaccess@0.13.5%gcc
+bcnjbc3                    ^libxml2@2.9.8%gcc
+tt2hkol                    ^numactl@2.0.12%gcc
+64vg6e4                ^zlib@1.2.11%gcc
+iaq3vl7        ^json-c@0.13.1%gcc
+
+
+-- linux-rhel7-aarch64 / gcc@4.8.5 ------------------------------
+y6nwovf    libhio@1.4.1.2%gcc
+c4sj2bh        ^bzip2@1.0.6%gcc
+odgwlvx        ^hdf5@1.10.4%gcc
+ps67vox            ^openmpi@3.1.3%gcc
+7gqvelc                ^hwloc@1.11.11%gcc
+6a4he35                    ^libpciaccess@0.13.5%gcc
+6a5uzd6                    ^libxml2@2.9.8%gcc
+m5neuus                    ^numactl@2.0.12%gcc
+67s2oqn                ^zlib@1.2.11%gcc
+lvuysqs        ^json-c@0.13.1%gcc
+
+q6nnwiy    libhio@1.4.1.3%gcc
+c4sj2bh        ^bzip2@1.0.6%gcc
+odgwlvx        ^hdf5@1.10.4%gcc
+ps67vox            ^openmpi@3.1.3%gcc
+7gqvelc                ^hwloc@1.11.11%gcc
+6a4he35                    ^libpciaccess@0.13.5%gcc
+6a5uzd6                    ^libxml2@2.9.8%gcc
+m5neuus                    ^numactl@2.0.12%gcc
+67s2oqn                ^zlib@1.2.11%gcc
+lvuysqs        ^json-c@0.13.1%gcc
+
+dantopa@cn110:pr.libhio.spack $ spack install libhio@1.4.1.3 ^openmpi@4.0.1rc1 % gcc@4.8.5
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/util-macros-1.19.1-p66qdrtaslf2cq4wyc6mitrxzhnyujhc
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/libpciaccess-0.13.5-5chyfxo6gpmcf74gpv3sqni2aa6v5x57
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/hwloc-1.11.11-bkkhvejler5rcxoz6mufxxb7fm3qdqbe
+==> zlib is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/zlib-1.2.11-64vg6e4evdrlqgx7iicwhu2hs7lv6gpz
+==> openmpi is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/openmpi-4.0.1rc1-kzuovcyfar6mfgzgeyj2ksb23qikryu2
+==> Installing hdf5
+==> Searching for binary cache of hdf5
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hdf5 found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/pr.libhio.spack/var/spack/cache/hdf5/hdf5-1.10.4.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/pr.libhio.spack/var/spack/stage/hdf5-1.10.4-imhalne4727w7tevb3jn3pmmgakwq7v4/hdf5-1.10.4.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/pr.libhio.spack/var/spack/stage/hdf5-1.10.4-imhalne4727w7tevb3jn3pmmgakwq7v4
+==> No patches needed for hdf5
+==> Building hdf5 [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j40'
+
+6 errors found in build log:
+     2719     H5S_mpio_permute_type(const H5S_t *space, size_t elmt_size, hsize_t **permute,
+     2720     ^
+     2721    H5Smpio.c:622:1: warning: the frame size of 18664 bytes is larger than 16384 bytes [-Wframe-larger-than=]
+     2722     } /* H5S_mpio_permute_type() */
+     2723     ^
+     2724    H5Smpio.c: In function 'H5S_mpio_create_large_type':
+  >> 2725    H5Smpio.c:1503:25: error: call to 'MPI_Type_extent' declared with attribute error: MPI_Type_extent was removed in MPI-3.0.  Use MPI_Type_get_extent instead.
+     2726             MPI_Type_extent (old_type, &old_extent);
+     2727                             ^
+     2728    H5T.c: In function 'H5T_cmp':
+     2729    H5T.c:4122:94: warning: assuming signed overflow does not occur when changing X +- C1 cmp C2 to X cmp C1 +- C2 [-Wstrict-overflow]
+     2730                     for(i = (int) dt1->shared->u.compnd.nmembs - 1, swapped = TRUE; swapped && i >= 0; --i) {
+     2731                                                                                                  ^
+
+     ...
+
+     2736                     for (i = (int) dt1->shared->u.enumer.nmembs - 1, swapped = TRUE; swapped && i >= 0; --i) {
+     2737                                                                                                   ^
+     2738    H5T.c:4225:94: warning: assuming signed overflow does not occur when changing X +- C1 cmp C2 to X cmp C1 +- C2 [-Wstrict-overflow]
+     2739                     for(i = (int) dt2->shared->u.enumer.nmembs - 1, swapped = TRUE; swapped && i >= 0; --i) {
+     2740                                                                                                  ^
+     2741    H5Smpio.c: In function 'H5S_mpio_hyper_type':
+  >> 2742    H5Smpio.c:882:29: error: call to 'MPI_Type_extent' declared with attribute error: MPI_Type_extent was removed in MPI-3.0.  Use MPI_Type_get_extent instead.
+     2743                 MPI_Type_extent (inner_type, &inner_extent);
+     2744                                 ^
+     2745    H5T.c:4222:15: warning: assuming signed overflow does not occur when simplifying range test [-Wstrict-overflow]
+     2746                 if(dt2->shared->u.enumer.nmembs > 1) {
+     2747                   ^
+     2748    H5T.c:4205:15: warning: assuming signed overflow does not occur when simplifying range test [-Wstrict-overflow]
+     2749                 if(dt1->shared->u.enumer.nmembs > 1) {
+     2750                   ^
+     2751    In function 'H5S_mpio_create_large_type',
+     2752        inlined from 'H5S_mpio_span_hyper_type' at H5Smpio.c:1023:40:
+  >> 2753    H5Smpio.c:1503:25: error: call to 'MPI_Type_extent' declared with attribute error: MPI_Type_extent was removed in MPI-3.0.  Use MPI_Type_get_extent instead.
+     2754             MPI_Type_extent (old_type, &old_extent);
+     2755                             ^
+  >> 2756    make[2]: *** [H5Smpio.lo] Error 1
+     2757    make[2]: *** Waiting for unfinished jobs....
+     2758    In file included from H5FDmpio.c:25:0:
+     2759    H5FDmpio.c: In function 'H5FD_mpio_fapl_get':
+     2760    H5private.h:2331:5: warning: 'ret_value' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     2761         return(ret_value);                                                        \
+     2762         ^
+
+     ...
+
+     2895             for (i = 0; i < size; i += 2) {
+     2896             ^
+     2897    H5Tconv.c:9304:9: warning: cannot optimize loop, the loop counter may overflow [-Wunsafe-loop-optimizations]
+     2898             for (i = 0; i < size; i += 2) {
+     2899             ^
+     2900    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stage-2DhRot/hdf5-1.10.4/src'
+  >> 2901    make[1]: *** [all] Error 2
+     2902    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stage-2DhRot/hdf5-1.10.4/src'
+  >> 2903    make: *** [all-recursive] Error 1
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/pr.libhio.spack/var/spack/stage/hdf5-1.10.4-imhalne4727w7tevb3jn3pmmgakwq7v4/hdf5-1.10.4/spack-build.out
+dantopa@cn110:pr.libhio.spack $ spack install libhio@1.4.1.2 ^openmpi@4.0.1rc1 % gcc@4.8.5
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/util-macros-1.19.1-p66qdrtaslf2cq4wyc6mitrxzhnyujhc
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/libpciaccess-0.13.5-5chyfxo6gpmcf74gpv3sqni2aa6v5x57
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/hwloc-1.11.11-bkkhvejler5rcxoz6mufxxb7fm3qdqbe
+==> zlib is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/zlib-1.2.11-64vg6e4evdrlqgx7iicwhu2hs7lv6gpz
+==> openmpi is already installed in /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/openmpi-4.0.1rc1-kzuovcyfar6mfgzgeyj2ksb23qikryu2
+==> Installing hdf5
+==> Searching for binary cache of hdf5
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hdf5 found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/pr.libhio.spack/var/spack/cache/hdf5/hdf5-1.10.4.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/pr.libhio.spack/var/spack/stage/hdf5-1.10.4-imhalne4727w7tevb3jn3pmmgakwq7v4/hdf5-1.10.4.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/pr.libhio.spack/var/spack/stage/hdf5-1.10.4-imhalne4727w7tevb3jn3pmmgakwq7v4
+==> No patches needed for hdf5
+==> Building hdf5 [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j40'
+
+6 errors found in build log:
+     2746         return(ret_value);                                                        \
+     2747         ^
+     2748    H5FDmpio.c:695:16: note: 'ret_value' was declared here
+     2749         void      *ret_value;       /* Return value */
+     2750                    ^
+     2751    H5Smpio.c: In function 'H5S_mpio_create_large_type':
+  >> 2752    H5Smpio.c:1503:25: error: call to 'MPI_Type_extent' declared with attribute error: MPI_Type_extent was removed in MPI-3.0.  Use MPI_Type_get_extent instead.
+     2753             MPI_Type_extent (old_type, &old_extent);
+     2754                             ^
+     2755    In file included from H5FDmpio.c:25:0:
+     2756    H5FDmpio.c: In function 'H5FD_mpio_init':
+     2757    H5private.h:2331:5: warning: 'ret_value' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     2758         return(ret_value);                                                        \
+
+     ...
+
+     2766         return(ret_value);                                                        \
+     2767         ^
+     2768    H5FDmpio.c:942:15: note: 'ret_value' was declared here
+     2769         H5FD_t   *ret_value;     /* Return value */
+     2770                   ^
+     2771    H5Smpio.c: In function 'H5S_mpio_hyper_type':
+  >> 2772    H5Smpio.c:882:29: error: call to 'MPI_Type_extent' declared with attribute error: MPI_Type_extent was removed in MPI-3.0.  Use MPI_Type_get_extent instead.
+     2773                 MPI_Type_extent (inner_type, &inner_extent);
+     2774                                 ^
+     2775    In function 'H5S_mpio_create_large_type',
+     2776        inlined from 'H5S_mpio_span_hyper_type' at H5Smpio.c:1023:40:
+  >> 2777    H5Smpio.c:1503:25: error: call to 'MPI_Type_extent' declared with attribute error: MPI_Type_extent was removed in MPI-3.0.  Use MPI_Type_get_extent instead.
+     2778             MPI_Type_extent (old_type, &old_extent);
+     2779                             ^
+  >> 2780    make[2]: *** [H5Smpio.lo] Error 1
+     2781    make[2]: *** Waiting for unfinished jobs....
+     2782    H5lib_settings.c:31:6: warning: size of 'H5libhdf5_settings' is 3973 bytes [-Wlarger-than=]
+     2783     char H5libhdf5_settings[]=
+     2784          ^
+     2785    In file included from H5SL.c:64:0:
+     2786    H5SL.c: In function 'H5SL_search':
+
+     ...
+
+     2895             for (i = 0; i < size; i += 2) {
+     2896             ^
+     2897    H5Tconv.c:9304:9: warning: cannot optimize loop, the loop counter may overflow [-Wunsafe-loop-optimizations]
+     2898             for (i = 0; i < size; i += 2) {
+     2899             ^
+     2900    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stage-JQrPIz/hdf5-1.10.4/src'
+  >> 2901    make[1]: *** [all] Error 2
+     2902    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stage-JQrPIz/hdf5-1.10.4/src'
+  >> 2903    make: *** [all-recursive] Error 1
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/pr.libhio.spack/var/spack/stage/hdf5-1.10.4-imhalne4727w7tevb3jn3pmmgakwq7v4/hdf5-1.10.4/spack-build.out
+dantopa@cn110:pr.libhio.spack $

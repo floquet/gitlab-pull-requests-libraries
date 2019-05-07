@@ -1,0 +1,126 @@
+dantopa@cn209:lib $ date
+Thu Apr 18 09:12:04 MDT 2019
+
+dantopa@cn209:spack $ spack location -i openmpi@3.1.4 /bjftvhy
+/scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/openmpi-3.1.4-bjftvhynq6wfiqkdjme7gyeeuiviu6vu
+
+dantopa@cn209:spack $ sp
+/scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack
+
+dantopa@cn209:pr-openmpi-3.1.4.spack $ cd opt/spack/linux-centos7-x86_64/gcc-4.8.5/openmpi-3.1.4-bjftvhynq6wfiqkdjme7gyeeuiviu6vu/
+
+dantopa@cn209:openmpi-3.1.4-bjftvhynq6wfiqkdjme7gyeeuiviu6vu $ lss
+total 170K
+drwxr-sr-x 8 dantopa dantopa  8 Apr 15 19:02 .
+drwxrwxr-x 8 dantopa dantopa  8 Apr 17 09:55 ..
+drwxr-sr-x 2 dantopa dantopa 41 Apr 15 19:02 bin
+drwxr-sr-x 2 dantopa dantopa  6 Apr 15 19:02 etc
+drwxr-sr-x 5 dantopa dantopa 25 Apr 15 19:02 include
+drwxr-sr-x 4 dantopa dantopa 45 Apr 15 19:02 lib
+drwxr-sr-x 5 dantopa dantopa  5 Apr 15 19:02 share
+drwxr-sr-x 4 dantopa dantopa  7 Apr 15 19:02 .spack
+
+dantopa@cn209:openmpi-3.1.4-bjftvhynq6wfiqkdjme7gyeeuiviu6vu $ cd lib
+
+dantopa@cn209:lib $ lss
+total 27M
+drwxr-sr-x 4 dantopa dantopa   45 Apr 15 19:02 .
+drwxr-sr-x 8 dantopa dantopa    8 Apr 15 19:02 ..
+-rw-r--r-- 1 dantopa dantopa 5.4M Apr 15 19:02 libmpi.a
+-rw-r--r-- 1 dantopa dantopa 962K Apr 15 19:02 libmpi_cxx.a
+-rwxr-xr-x 1 dantopa dantopa 2.4K Apr 15 19:02 libmpi_cxx.la
+lrwxrwxrwx 1 dantopa dantopa   21 Apr 15 19:02 libmpi_cxx.so -> libmpi_cxx.so.40.10.1
+lrwxrwxrwx 1 dantopa dantopa   21 Apr 15 19:02 libmpi_cxx.so.40 -> libmpi_cxx.so.40.10.1
+-rwxr-xr-x 1 dantopa dantopa 143K Apr 15 19:02 libmpi_cxx.so.40.10.1
+-rwxr-xr-x 1 dantopa dantopa 2.2K Apr 15 19:02 libmpi.la
+-rw-r--r-- 1 dantopa dantopa 928K Apr 15 19:02 libmpi_mpifh.a
+-rwxr-xr-x 1 dantopa dantopa 2.4K Apr 15 19:02 libmpi_mpifh.la
+lrwxrwxrwx 1 dantopa dantopa   23 Apr 15 19:02 libmpi_mpifh.so -> libmpi_mpifh.so.40.11.3
+lrwxrwxrwx 1 dantopa dantopa   23 Apr 15 19:02 libmpi_mpifh.so.40 -> libmpi_mpifh.so.40.11.3
+-rwxr-xr-x 1 dantopa dantopa 525K Apr 15 19:02 libmpi_mpifh.so.40.11.3
+lrwxrwxrwx 1 dantopa dantopa   17 Apr 15 19:02 libmpi.so -> libmpi.so.40.10.4
+lrwxrwxrwx 1 dantopa dantopa   17 Apr 15 19:02 libmpi.so.40 -> libmpi.so.40.10.4
+-rwxr-xr-x 1 dantopa dantopa 2.7M Apr 15 19:02 libmpi.so.40.10.4
+-rw-r--r-- 1 dantopa dantopa  18K Apr 15 19:02 libmpi_usempi.a
+-rwxr-xr-x 1 dantopa dantopa 2.6K Apr 15 19:02 libmpi_usempi.la
+lrwxrwxrwx 1 dantopa dantopa   24 Apr 15 19:02 libmpi_usempi.so -> libmpi_usempi.so.40.10.2
+lrwxrwxrwx 1 dantopa dantopa   24 Apr 15 19:02 libmpi_usempi.so.40 -> libmpi_usempi.so.40.10.2
+-rwxr-xr-x 1 dantopa dantopa  14K Apr 15 19:02 libmpi_usempi.so.40.10.2
+-rw-r--r-- 1 dantopa dantopa  44K Apr 15 19:02 libompitrace.a
+-rwxr-xr-x 1 dantopa dantopa 1.9K Apr 15 19:02 libompitrace.la
+lrwxrwxrwx 1 dantopa dantopa   23 Apr 15 19:02 libompitrace.so -> libompitrace.so.40.10.1
+lrwxrwxrwx 1 dantopa dantopa   23 Apr 15 19:02 libompitrace.so.40 -> libompitrace.so.40.10.1
+-rwxr-xr-x 1 dantopa dantopa  23K Apr 15 19:02 libompitrace.so.40.10.1
+-rw-r--r-- 1 dantopa dantopa 5.2M Apr 15 19:02 libopen-pal.a
+-rwxr-xr-x 1 dantopa dantopa 2.0K Apr 15 19:02 libopen-pal.la
+lrwxrwxrwx 1 dantopa dantopa   22 Apr 15 19:02 libopen-pal.so -> libopen-pal.so.40.10.4
+lrwxrwxrwx 1 dantopa dantopa   22 Apr 15 19:02 libopen-pal.so.40 -> libopen-pal.so.40.10.4
+-rwxr-xr-x 1 dantopa dantopa 2.9M Apr 15 19:02 libopen-pal.so.40.10.4
+-rw-r--r-- 1 dantopa dantopa 3.1M Apr 15 19:02 libopen-rte.a
+-rwxr-xr-x 1 dantopa dantopa 2.1K Apr 15 19:02 libopen-rte.la
+lrwxrwxrwx 1 dantopa dantopa   22 Apr 15 19:02 libopen-rte.so -> libopen-rte.so.40.10.4
+lrwxrwxrwx 1 dantopa dantopa   22 Apr 15 19:02 libopen-rte.so.40 -> libopen-rte.so.40.10.4
+-rwxr-xr-x 1 dantopa dantopa 1.5M Apr 15 19:02 libopen-rte.so.40.10.4
+-rw-r--r-- 1 dantopa dantopa 1.3M Apr 15 19:02 liboshmem.a
+-rwxr-xr-x 1 dantopa dantopa 2.4K Apr 15 19:02 liboshmem.la
+lrwxrwxrwx 1 dantopa dantopa   20 Apr 15 19:02 liboshmem.so -> liboshmem.so.40.10.2
+lrwxrwxrwx 1 dantopa dantopa   20 Apr 15 19:02 liboshmem.so.40 -> liboshmem.so.40.10.2
+-rwxr-xr-x 1 dantopa dantopa 670K Apr 15 19:02 liboshmem.so.40.10.2
+-rwxr-xr-x 1 dantopa dantopa 445K Apr 15 19:02 mpi.mod
+drwxr-sr-x 2 dantopa dantopa    5 Apr 15 19:02 openmpi
+drwxr-sr-x 2 dantopa dantopa    9 Apr 15 19:02 pkgconfig
+
+dantopa@cn209:pr-openmpi-3.1.4.spack $ spack location -i openmpi /5ienfvw
+/scratch/users/dantopa/new-spack/pr-openmpi-3.1.4.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/openmpi-3.0.4-5ienfvwpcxky3nz5jt3rygxzxzltkwm4
+
+dantopa@cn209:pr-openmpi-3.1.4.spack $ cd opt/spack/linux-centos7-x86_64/gcc-4.8.5/openmpi-3.0.4-5ienfvwpcxky3nz5jt3rygxzxzltkwm4/
+
+dantopa@cn209:openmpi-3.0.4-5ienfvwpcxky3nz5jt3rygxzxzltkwm4 $ cd lib/
+
+dantopa@cn209:lib $ lss
+total 27M
+drwxr-sr-x 4 dantopa dantopa   45 Apr 17 10:01 .
+drwxr-sr-x 8 dantopa dantopa    8 Apr 17 10:01 ..
+-rw-r--r-- 1 dantopa dantopa 5.2M Apr 17 10:01 libmpi.a
+-rw-r--r-- 1 dantopa dantopa 962K Apr 17 10:01 libmpi_cxx.a
+-rwxr-xr-x 1 dantopa dantopa 2.4K Apr 17 10:01 libmpi_cxx.la
+lrwxrwxrwx 1 dantopa dantopa   20 Apr 17 10:01 libmpi_cxx.so -> libmpi_cxx.so.40.0.1
+lrwxrwxrwx 1 dantopa dantopa   20 Apr 17 10:01 libmpi_cxx.so.40 -> libmpi_cxx.so.40.0.1
+-rwxr-xr-x 1 dantopa dantopa 143K Apr 17 10:01 libmpi_cxx.so.40.0.1
+-rwxr-xr-x 1 dantopa dantopa 2.2K Apr 17 10:01 libmpi.la
+-rw-r--r-- 1 dantopa dantopa 928K Apr 17 10:01 libmpi_mpifh.a
+-rwxr-xr-x 1 dantopa dantopa 2.4K Apr 17 10:01 libmpi_mpifh.la
+lrwxrwxrwx 1 dantopa dantopa   22 Apr 17 10:01 libmpi_mpifh.so -> libmpi_mpifh.so.40.1.4
+lrwxrwxrwx 1 dantopa dantopa   22 Apr 17 10:01 libmpi_mpifh.so.40 -> libmpi_mpifh.so.40.1.4
+-rwxr-xr-x 1 dantopa dantopa 525K Apr 17 10:01 libmpi_mpifh.so.40.1.4
+lrwxrwxrwx 1 dantopa dantopa   16 Apr 17 10:01 libmpi.so -> libmpi.so.40.0.5
+lrwxrwxrwx 1 dantopa dantopa   16 Apr 17 10:01 libmpi.so.40 -> libmpi.so.40.0.5
+-rwxr-xr-x 1 dantopa dantopa 2.6M Apr 17 10:01 libmpi.so.40.0.5
+-rw-r--r-- 1 dantopa dantopa  18K Apr 17 10:01 libmpi_usempi.a
+-rwxr-xr-x 1 dantopa dantopa 2.6K Apr 17 10:01 libmpi_usempi.la
+lrwxrwxrwx 1 dantopa dantopa   23 Apr 17 10:01 libmpi_usempi.so -> libmpi_usempi.so.40.0.2
+lrwxrwxrwx 1 dantopa dantopa   23 Apr 17 10:01 libmpi_usempi.so.40 -> libmpi_usempi.so.40.0.2
+-rwxr-xr-x 1 dantopa dantopa  14K Apr 17 10:01 libmpi_usempi.so.40.0.2
+-rw-r--r-- 1 dantopa dantopa  44K Apr 17 10:01 libompitrace.a
+-rwxr-xr-x 1 dantopa dantopa 1.9K Apr 17 10:01 libompitrace.la
+lrwxrwxrwx 1 dantopa dantopa   22 Apr 17 10:01 libompitrace.so -> libompitrace.so.40.0.1
+lrwxrwxrwx 1 dantopa dantopa   22 Apr 17 10:01 libompitrace.so.40 -> libompitrace.so.40.0.1
+-rwxr-xr-x 1 dantopa dantopa  23K Apr 17 10:01 libompitrace.so.40.0.1
+-rw-r--r-- 1 dantopa dantopa 5.1M Apr 17 10:01 libopen-pal.a
+-rwxr-xr-x 1 dantopa dantopa 1.9K Apr 17 10:01 libopen-pal.la
+lrwxrwxrwx 1 dantopa dantopa   21 Apr 17 10:01 libopen-pal.so -> libopen-pal.so.42.0.1
+lrwxrwxrwx 1 dantopa dantopa   21 Apr 17 10:01 libopen-pal.so.42 -> libopen-pal.so.42.0.1
+-rwxr-xr-x 1 dantopa dantopa 2.8M Apr 17 10:01 libopen-pal.so.42.0.1
+-rw-r--r-- 1 dantopa dantopa 3.0M Apr 17 10:01 libopen-rte.a
+-rwxr-xr-x 1 dantopa dantopa 2.1K Apr 17 10:01 libopen-rte.la
+lrwxrwxrwx 1 dantopa dantopa   21 Apr 17 10:01 libopen-rte.so -> libopen-rte.so.40.0.5
+lrwxrwxrwx 1 dantopa dantopa   21 Apr 17 10:01 libopen-rte.so.40 -> libopen-rte.so.40.0.5
+-rwxr-xr-x 1 dantopa dantopa 1.5M Apr 17 10:01 libopen-rte.so.40.0.5
+-rw-r--r-- 1 dantopa dantopa 1.3M Apr 17 10:01 liboshmem.a
+-rwxr-xr-x 1 dantopa dantopa 2.4K Apr 17 10:01 liboshmem.la
+lrwxrwxrwx 1 dantopa dantopa   19 Apr 17 10:01 liboshmem.so -> liboshmem.so.40.1.3
+lrwxrwxrwx 1 dantopa dantopa   19 Apr 17 10:01 liboshmem.so.40 -> liboshmem.so.40.1.3
+-rwxr-xr-x 1 dantopa dantopa 670K Apr 17 10:01 liboshmem.so.40.1.3
+-rwxr-xr-x 1 dantopa dantopa 445K Apr 17 10:01 mpi.mod
+drwxr-sr-x 2 dantopa dantopa    5 Apr 17 10:01 openmpi
+drwxr-sr-x 2 dantopa dantopa    9 Apr 17 10:01 pkgconfig

@@ -1,0 +1,174 @@
+Tue Apr  9 09:46:12 MDT 2019 [1m/home/dantopa/.mybash(B[m
+Tue Apr  9 09:46:12 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/platforms.sh(B[m
+attempting to mkdir /scratch/users/dantopa/repos/gitlab/node-queries/darwin/arm-cn816/dir-configuration
+directory of core scripts = ${core} = /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts
+Tue Apr  9 09:46:12 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/master.sh(B[m
+Tue Apr  9 09:46:12 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh(B[m
+Tue Apr  9 09:46:13 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh(B[m
+Tue Apr  9 09:46:13 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Tue Apr  9 09:46:13 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh(B[m
+Tue Apr  9 09:46:13 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh(B[m
+Tue Apr  9 09:46:13 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/gcc.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh: line 5: gonode: command not found
+Tue Apr  9 09:46:13 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/git.sh(B[m
+Tue Apr  9 09:46:13 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Tue Apr  9 09:46:13 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/ssh.sh(B[m
+Tue Apr  9 09:46:13 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/vim.sh(B[m
+Tue Apr  9 09:46:13 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bash.sh(B[m
+Tue Apr  9 09:46:13 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/finds.sh(B[m
+Tue Apr  9 09:46:13 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/cmake.sh(B[m
+Tue Apr  9 09:46:13 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/fortran.sh(B[m
+Tue Apr  9 09:46:13 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/copy-configuration.sh(B[m
+Tue Apr  9 09:46:13 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks.sh(B[m
+Tue Apr  9 09:46:13 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-bitbucket.sh(B[m
+Tue Apr  9 09:46:13 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-github.sh(B[m
+Tue Apr  9 09:46:13 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-gitlab.sh(B[m
+Tue Apr  9 09:46:13 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/disk.sh(B[m
+Tue Apr  9 09:46:13 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh: line 33: sinfo_s: command not found
+[master 7f533e6] darwin-arm-cn816 Tue Apr  9 09:46:13 MDT 2019
+ 1 file changed, 15 insertions(+), 34 deletions(-)
+ rewrite spack/tpl/openmpi/openmpi-3.1.4rc1/scripts/darwin-arm-batch.out (77%)
+Tue Apr  9 09:46:13 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh(B[m
+Tue Apr  9 09:46:13 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Tue Apr  9 09:46:13 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh(B[m
+Tue Apr  9 09:46:13 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/uname.sh(B[m
+Tue Apr  9 09:46:13 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh: line 5: gonode: command not found
+Tue Apr  9 09:46:13 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/spack.sh(B[m
+Tue Apr  9 09:46:13 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/modules.sh(B[m
+Tue Apr  9 09:46:13 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Tue Apr  9 09:46:13 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/alias.sh(B[m
+Tue Apr  9 09:46:13 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh: line 11: myprompt: command not found
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh: line 33: sinfo_s: command not found
+[master 844b159] darwin-arm-cn816 Tue Apr  9 09:46:13 MDT 2019
+ 1 file changed, 23 insertions(+)
+Tue Apr  9 09:46:17 MDT 2019 /tmp/slurmd/job5168199/slurm_script
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : generating module file
+==> libtool@2.4.6 : registering into DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : generating module file
+==> pkg-config@0.29.2 : registering into DB
+==> Installing util-macros
+==> Searching for binary cache of util-macros
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for util-macros found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/util-macros/util-macros-1.19.1.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/pr-openmpi.spack/var/spack/stage/util-macros-1.19.1-taxopdvexxiaknvfyhfpeu27t7t57ogv/util-macros-1.19.1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/pr-openmpi.spack/var/spack/stage/util-macros-1.19.1-taxopdvexxiaknvfyhfpeu27t7t57ogv
+==> No patches needed for util-macros
+==> Building util-macros [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed util-macros
+  Fetch: 0.15s.  Build: 1.66s.  Total: 1.80s.
+[+] /scratch/users/dantopa/new-spack/pr-openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/util-macros-1.19.1-taxopdvexxiaknvfyhfpeu27t7t57ogv
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/pr-openmpi.spack/var/spack/stage/libpciaccess-0.13.5-6a4he357fqas3e73eduk56vxa4ljss4g/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/pr-openmpi.spack/var/spack/stage/libpciaccess-0.13.5-6a4he357fqas3e73eduk56vxa4ljss4g
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libpciaccess
+  Fetch: 0.09s.  Build: 9.41s.  Total: 9.49s.
+[+] /scratch/users/dantopa/new-spack/pr-openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/libpciaccess-0.13.5-6a4he357fqas3e73eduk56vxa4ljss4g
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : generating module file
+==> libxml2@2.9.8 : registering into DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : generating module file
+==> numactl@2.0.12 : registering into DB
+==> Installing hwloc
+==> Searching for binary cache of hwloc
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hwloc found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/hwloc/hwloc-1.11.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/pr-openmpi.spack/var/spack/stage/hwloc-1.11.11-7gqvelczu57m6jqefc662tqbtmrrgcfp/hwloc-1.11.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/pr-openmpi.spack/var/spack/stage/hwloc-1.11.11-7gqvelczu57m6jqefc662tqbtmrrgcfp
+==> No patches needed for hwloc
+==> Building hwloc [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed hwloc
+  Fetch: 0.16s.  Build: 31.58s.  Total: 31.74s.
+[+] /scratch/users/dantopa/new-spack/pr-openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/hwloc-1.11.11-7gqvelczu57m6jqefc662tqbtmrrgcfp
+==> Installing zlib
+==> Searching for binary cache of zlib
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for zlib found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/zlib/zlib-1.2.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/pr-openmpi.spack/var/spack/stage/zlib-1.2.11-67s2oqnabyrxgoss5v72lgshbomfvmnf/zlib-1.2.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/pr-openmpi.spack/var/spack/stage/zlib-1.2.11-67s2oqnabyrxgoss5v72lgshbomfvmnf
+==> No patches needed for zlib
+==> Building zlib [Package]
+==> Executing phase: 'install'
+==> Successfully installed zlib
+  Fetch: 0.19s.  Build: 5.59s.  Total: 5.77s.
+[+] /scratch/users/dantopa/new-spack/pr-openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/zlib-1.2.11-67s2oqnabyrxgoss5v72lgshbomfvmnf
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Warning: There is no checksum on file to fetch openmpi@3.1.4rc1 safely.
+==> Error: FetchError: Will not fetch openmpi@3.1.4rc1
+    Add a checksum or use --no-checksum to skip this check.
+
+/scratch/users/dantopa/new-spack/pr-openmpi.spack/lib/spack/spack/package.py:962, in do_fetch:
+        959                    tty.msg("Fetching with no checksum.", ck_msg)
+        960
+        961            if not ignore_checksum:
+  >>    962                raise FetchError("Will not fetch %s" %
+        963                                 self.spec.format('$_$@'), ck_msg)
+        964
+        965        self.stage.create()
+
+
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/pr-openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/util-macros-1.19.1-taxopdvexxiaknvfyhfpeu27t7t57ogv
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/pr-openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/libpciaccess-0.13.5-6a4he357fqas3e73eduk56vxa4ljss4g
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/pr-openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/hwloc-1.11.11-7gqvelczu57m6jqefc662tqbtmrrgcfp
+==> zlib is already installed in /scratch/users/dantopa/new-spack/pr-openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/zlib-1.2.11-67s2oqnabyrxgoss5v72lgshbomfvmnf
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+curl: (37) Couldn't open file /usr/projects/draco/vendors/spack.mirror/openmpi/openmpi-3.0.4rc1.tar.bz2
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/openmpi/openmpi-3.0.4rc1.tar.bz2
+==> Fetching from file:///usr/projects/draco/vendors/spack.mirror/openmpi/openmpi-3.0.4rc1.tar.bz2 failed.
+==> Fetching http://www.open-mpi.org/software/ompi/v3.0/downloads/openmpi-3.0.4rc1.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/pr-openmpi.spack/var/spack/stage/openmpi-3.0.4rc1-cm6dk5ravwxhikdp5o6rjvo2sh5wyqom/openmpi-3.0.4rc1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/pr-openmpi.spack/var/spack/stage/openmpi-3.0.4rc1-cm6dk5ravwxhikdp5o6rjvo2sh5wyqom
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 1.87s.  Build: 11m 54.20s.  Total: 11m 56.07s.
+[+] /scratch/users/dantopa/new-spack/pr-openmpi.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/openmpi-3.0.4rc1-cm6dk5ravwxhikdp5o6rjvo2sh5wyqom
+Submitted batch job 5168210

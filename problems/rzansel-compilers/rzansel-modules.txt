@@ -1,0 +1,66 @@
+------------------------ /usr/tcetmp/modulefiles/Core ------------------------
+   StdEnv                        (L)      lrun/2018.10.18
+   archer/1.0.0                           makedepend/1.0.5
+   bsub-wrapper/1.0                       memcheckview/3.13.0
+   clang/coral-2017.11.09                 memcheckview/3.14.0   (D)
+   clang/coral-2017.12.06                 mpifileutils/0.9
+   clang/coral-2018.04.17                 petsc/3.7.6
+   clang/coral-2018.05.18                 petsc/3.8.3
+   clang/coral-2018.05.22                 petsc/3.9.0           (D)
+   clang/coral-2018.05.23                 pgi/17.4
+   clang/coral-2018.08.08                 pgi/17.7
+   clang/upstream-2018.12.03              pgi/17.9
+   clang/upstream-2019.03.19     (D)      pgi/17.10
+   clang/6.0.0                            pgi/18.1
+   cmake/3.7.2                            pgi/18.3
+   cmake/3.8.2                            pgi/18.4
+   cmake/3.9.2                   (D)      pgi/18.5
+   cmake/3.12.1                           pgi/18.7
+   coredump/cuda_fullcore                 pgi/18.10             (D)
+   coredump/cuda_lwcore                   pgi/19.1
+   coredump/fullcore                      pgi/19.3
+   coredump/lwcore               (D)      python/2.7.13
+   coredump/lwcore2                       python/2.7.14         (D)
+   cuda/9.0.176                           python/2.7.16
+   cuda/9.0.184                           python/3.6.4
+   cuda/9.1.76                            python/3.7.2
+   cuda/9.1.85                            scorep/3.0.0.save
+   cuda/9.2.64                            scorep/3.0.0
+   cuda/9.2.88                            scorep/2019.03.16
+   cuda/9.2.148                  (L,D)    scorep/2019.03.21     (D)
+   cuda/10.1.105                          setup-ssh-keys/1.0
+   debugCQEmpi                            tau/2.26.2
+   essl/sys-default                       tau/2.26.3            (D)
+   essl/6.1.0                             totalview/2018X.2.1
+   essl/6.1.0-1                  (D)      totalview/2018X.2.1.5
+   fftw/3.3.8                             totalview/2018X.3.3
+   flex/2.6.4                             totalview/2018X.3.5
+   gcc/4.9.3                     (D)      totalview/2018.0.5
+   gcc/7.2.1-redhat                       totalview/2018.1.12
+   gcc/7.3.1                              totalview/2018.2.2
+   git/2.9.3                              totalview/2018.3.8
+   git/2.20.0                    (D)      totalview/2019X.0.0.2
+   git-lfs/2.5.2                          totalview/2019.0.4    (D)
+   gmake/4.2.1                            valgrind/3.13.0
+   gsl/2.3                                valgrind/3.14.0       (D)
+   gsl/2.4                                vampir/9.5
+   gsl/2.5                       (D)      vampir/9.6            (D)
+   hwloc/1.11.10-cuda                     xl/beta-2018.06.27
+   ibmppt/alpha-2.4.0                     xl/beta-2018.07.17
+   ibmppt/beta-2.4.0                      xl/beta-2018.08.08
+   ibmppt/beta2-2.4.0                     xl/beta-2018.08.24
+   ibmppt/2.3                             xl/beta-2018.09.13
+   ibmppt/2.4.0                           xl/beta-2018.09.26
+   ibmppt/2.4.0.1                (D)      xl/beta-2018.10.10
+   ibmppt/2.4.0.2                         xl/beta-2018.10.29
+   ibmppt/2.4.0.3                         xl/beta-2018.11.02
+   lalloc/1.0                             xl/test-2019.03.12
+   lalloc/2.0                    (D)      xl/test-2019.03.22
+   lapack/3.8.0-gcc-4.9.3                 xl/test-2019.04.27
+   lapack/3.8.0-xl-2018.08.24    (D)      xl/2018.04.29
+   lapack/3.8.0-P8-gcc-4.9.3              xl/2018.05.18
+   lapack/3.8.0-P8-xl-2018.08.24          xl/2018.11.08
+   lapack/3.8.0-P9-gcc-4.9.3              xl/2018.11.26
+   lapack/3.8.0-P9-xl-2018.08.24          xl/2019.02.07         (L,D)
+   lmod/7.4.17                   (D)      xl/2019.04.19
+   lrun/2018.07.22               (D)

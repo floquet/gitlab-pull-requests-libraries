@@ -1,0 +1,53 @@
+topa1@rzansel61:packages $ date
+Tue Apr 30 17:16:58 PDT 2019
+
+topa1@rzansel61:packages $ pwd
+/usr/tcetmp/packages
+
+topa1@rzansel61:packages $ ls -alh
+total 28K
+drwxrwxr-x 42 gyllen   tools  4.0K Mar 25 16:40 .
+drwxrwxr-x 15 root     tools   307 Jan 31 15:58 ..
+drwxrwxr-x  4 roymuss  tools    80 Oct 18  2016 blas
+drwxrwxr-x 17 gyllen   tools  4.0K Apr 17 15:02 clang
+drwxrwxr-x 10 gyllen   tools   317 Mar 17  2017 clang-gpu
+drwxrwxr-x  5 roymuss  tools    71 Sep 11  2017 cmake
+drwxrwxr-x  3 gyllen   tools    25 Apr 18  2017 compiler-wrappers
+lrwxrwxrwx  1 gyllen   gyllen   15 Nov  1  2016 cuda -> /usr/local/cuda
+lrwxrwxrwx  1 gyllen   gyllen   19 Nov  1  2016 cuda-8.0 -> /usr/local/cuda-8.0
+drwxrwxr-x 13 gyllen   tools   298 Sep 29  2017 cuda-9.0.176
+drwxrwxr-x 13 gyllen   tools   325 Aug 30  2017 cuda-9.0rc1
+drwxrwxr-x  9 roymuss  tools   267 Aug 31  2018 essl
+drwxrwxr-x 10 roymuss  tools   264 Aug 29  2018 fftw
+drwxrwxr-x  4 roymuss  tools    49 Sep 20  2017 flex
+drwxrwsr-x  6 gyllen   tools   154 May 17  2018 gcc
+drwxrwsr-x  4 futral   deg      46 Apr  7  2017 gdrcopy
+drwxrwxr-x  2 gyllen   tools    31 Nov  2  2016 git
+drwxrwxr-x  2 gyllen   tools    33 Nov  9  2016 gmake
+drwxrwxr-x  6 roymuss  tools    84 Aug 29  2018 gsl
+drwxrwxr-x  3 rhedges  tools    19 Jul 25  2017 hdf5
+drwxrwxr-x 12 roymuss  tools  4.0K Dec 11 13:39 ibmppt
+drwxrwxr-x 14 roymuss  tools  4.0K Jan 24 13:42 lapack
+drwxrwxr-x  3 gyllen   tools    25 Oct 21  2016 ld-auto-rpath
+drwxrwxr-x  2 gyllen   tools    38 Nov  2  2016 makedepend
+drwxrwxr-x  5 gyllen   tools    64 Jul 26  2018 mpibind
+drwxrwxr-x  3 gyllen   tools    25 May  8  2017 mpibind.deleteme
+drwxrwxr-x  6 chcham   tools    76 May  8  2018 mpip
+drwxrwxr-x  5 roymuss  tools   100 Mar 23  2018 mpitrace
+drwxrwsr-x  7 futral   deg      91 Mar 20  2017 nvtx-pmpi
+drwxrwxr-x  6 roymuss  tools   187 Mar 24  2017 openmpi
+drwxrwxr-x  5 roymuss  tools   150 Jun 11  2018 petsc
+drwxrwxr-x 12 rhedges  tools   328 Sep  1  2018 pgi
+drwxrwxr-x  4 root     tools   152 Mar  8 11:25 python
+drwxrwxr-x  4 roymuss  tools    90 Oct 18  2016 scalapack
+drwxrwxr-x  8 chcham   tools   110 May 23  2017 scorep
+drwxrwxr-x  7 chcham   tools    95 Mar 18 09:47 scorep-master-2019-03-16
+drwxrwxr-x  7 chcham   tools    95 Mar 25 16:41 scorep-master-2019-03-21
+drwxrwsr-x  9 legendre tools   265 Oct 26  2016 spack
+drwxrwxr-x 14 roymuss  tools  4.0K Apr 25 07:10 spectrum-mpi
+drwxrwsr-x 17 legendre tools  4.0K May 23  2017 spectrum_mpi
+drwxrwxr-x  2 lee218   tools    95 Oct 17  2018 stat
+lrwxrwxrwx  1 gyllen   gyllen   17 May  1  2017 wrappers -> compiler-wrappers
+drwxrwsr-x 29 legendre tools  4.0K Apr 29 12:01 xl
+drwxrwxr-x  3 gyllen   tools    40 May  9  2017 xlflang
+drwxrwxr-x  3 gyllen   tools    22 Nov  1  2016 xsu

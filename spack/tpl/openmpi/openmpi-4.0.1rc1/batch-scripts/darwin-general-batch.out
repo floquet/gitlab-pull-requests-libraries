@@ -1,0 +1,236 @@
+Mon Mar 18 16:35:32 MDT 2019 [1m/home/dantopa/.mybash(B[m
+Mon Mar 18 16:35:32 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/platforms.sh(B[m
+attempting to mkdir /scratch/users/dantopa/repos/gitlab/node-queries/darwin/general-cn198/dir-configuration
+directory of core scripts = ${core} = /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts
+Mon Mar 18 16:35:32 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/master.sh(B[m
+Mon Mar 18 16:35:32 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh(B[m
+Mon Mar 18 16:35:32 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh(B[m
+Mon Mar 18 16:35:32 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Mon Mar 18 16:35:32 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh(B[m
+Mon Mar 18 16:35:32 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh(B[m
+Mon Mar 18 16:35:32 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/gcc.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh: line 5: gonode: command not found
+Mon Mar 18 16:35:32 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/git.sh(B[m
+Mon Mar 18 16:35:32 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Mon Mar 18 16:35:32 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/ssh.sh(B[m
+Mon Mar 18 16:35:32 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/vim.sh(B[m
+Mon Mar 18 16:35:32 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bash.sh(B[m
+Mon Mar 18 16:35:32 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/finds.sh(B[m
+Mon Mar 18 16:35:32 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/cmake.sh(B[m
+Mon Mar 18 16:35:32 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/copy-configuration.sh(B[m
+Mon Mar 18 16:35:32 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/fortran.sh(B[m
+Mon Mar 18 16:35:32 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks.sh(B[m
+Mon Mar 18 16:35:32 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-bitbucket.sh(B[m
+Mon Mar 18 16:35:32 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-github.sh(B[m
+Mon Mar 18 16:35:32 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-gitlab.sh(B[m
+Mon Mar 18 16:35:32 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/disk.sh(B[m
+Mon Mar 18 16:35:32 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh: line 33: sinfo_s: command not found
+[master 9790cc1] darwin-general-cn198 Mon Mar 18 16:35:32 MDT 2019
+ 2 files changed, 16 insertions(+), 37 deletions(-)
+ rewrite spack/tpl/openmpi/openmpi-4.0.1rc1/batch-scripts/darwin-general-batch.out (78%)
+Mon Mar 18 16:35:32 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh(B[m
+Mon Mar 18 16:35:32 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Mon Mar 18 16:35:32 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh(B[m
+Mon Mar 18 16:35:32 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh(B[m
+Mon Mar 18 16:35:32 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/spack.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh: line 5: gonode: command not found
+Mon Mar 18 16:35:32 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/uname.sh(B[m
+Mon Mar 18 16:35:32 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/modules.sh(B[m
+Mon Mar 18 16:35:32 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Mon Mar 18 16:35:32 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/alias.sh(B[m
+Mon Mar 18 16:35:32 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh: line 11: myprompt: command not found
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh: line 33: sinfo_s: command not found
+[master 28d41cc] darwin-general-cn198 Mon Mar 18 16:35:32 MDT 2019
+ 1 file changed, 23 insertions(+)
+Mon Mar 18 16:35:33 MDT 2019 /tmp/slurmd/job5102221/slurm_script
+Mon Mar 18 16:35:34 MDT 2019 /scratch/users/dantopa/repos/gitlab/pull-requests/spack/tpl/openmpi/openmpi-4.0.1rc1/batch-scripts/sweep-openmpi-II.sh
+
+spack compilers
+==> Available compilers
+-- gcc centos7-x86_64 -------------------------------------------
+gcc@8.2.0
+gcc@8.1.0
+gcc@7.3.0
+gcc@7.2.0
+gcc@6.4.0
+gcc@6.3.0
+gcc@5.5.0
+gcc@5.4.0
+gcc@4.9.3
+gcc@4.9.2
+gcc@4.8.5
+gcc@4.6.4
+
+-- gcc rhel7-aarch64 --------------------------------------------
+gcc@4.8.5
+
+-- gcc rhel7-ppc64le --------------------------------------------
+gcc@4.8.5
+
+-- intel centos7-x86_64 -----------------------------------------
+intel@18.0.3
+intel@18.0.2
+intel@17.0.6
+intel@17.0.1
+intel@16.0.4
+intel@16.0.3
+
+-- pgi centos7-x86_64 -------------------------------------------
+pgi@18.10
+pgi@18.7
+pgi@18.4
+pgi@18.3
+pgi@17.10
+pgi@17.4
+pgi@16.10
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+
+spack install openmpi @ 4.0.0 % gcc@8.2.0 arch=linux-centos7-x86_64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-centos7-x86_64/gcc-8.2.0/util-macros-1.19.1-4smpt37rsocd54ufitlrzzampd6iyp5z
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-centos7-x86_64/gcc-8.2.0/libpciaccess-0.13.5-svkyphbquafpjfs4tfsgr3wlmgfknhtu
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-centos7-x86_64/gcc-8.2.0/hwloc-1.11.11-kpmr675gpfrqmo5u2es2bfpc2z4nb52b
+==> zlib is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-centos7-x86_64/gcc-8.2.0/zlib-1.2.11-6wdekzyadff6repdb5bxinnzizvnn35t
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/openmpi/openmpi-4.0.0.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/openmpi-4.0.0-ddtfbukm6poojj4iquq6ltit4ft6go4y/openmpi-4.0.0.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/openmpi-4.0.0-ddtfbukm6poojj4iquq6ltit4ft6go4y
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j64'
+
+5 errors found in build log:
+     9084    make[2]: Entering directory `/ram/tmp/dantopa/spack-stage/spack-st
+             age-4qGxmW/openmpi-4.0.0/ompi/mpi/fortran/mpiext-use-mpi'
+     9085      PPFC     mpi-ext-module.lo
+     9086    mpi-ext-module.F90:29:132:
+     9087    
+     9088           include '/scratch/users/dantopa/new-spack/pr.openmpi.spack/
+             var/spack/stage/openmpi-4.0.0-ddtfbukm6poojj4iquq6ltit4ft6go4y/ope
+             nmpi-4.0.0/ompi/mpiext/pcollreq/mpif-h/mpiext_pcollreq_mpifh.h'
+     9089                                                                      
+                                                                               
+             1
+  >> 9090    Error: Line truncated at (1) [-Werror=line-truncation]
+     9091    mpi-ext-module.F90:29:6:
+     9092    
+     9093           include '/scratch/users/dantopa/new-spack/pr.openmpi.spack/
+             var/spack/stage/openmpi-4.0.0-ddtfbukm6poojj4iquq6ltit4ft6go4y/ope
+             nmpi-4.0.0/ompi/mpiext/pcollreq/mpif-h/mpiext_pcollreq_mpifh.h'
+     9094          1
+  >> 9095    Error: Unclassifiable statement at (1)
+     9096    f951: some warnings being treated as errors
+  >> 9097    make[2]: *** [mpi-ext-module.lo] Error 1
+     9098    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-sta
+             ge-4qGxmW/openmpi-4.0.0/ompi/mpi/fortran/mpiext-use-mpi'
+  >> 9099    make[1]: *** [all-recursive] Error 1
+     9100    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-sta
+             ge-4qGxmW/openmpi-4.0.0/ompi'
+  >> 9101    make: *** [all-recursive] Error 1
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/openmpi-4.0.0-ddtfbukm6poojj4iquq6ltit4ft6go4y/openmpi-4.0.0/spack-build.out
+spack install openmpi @ 4.0.0 % gcc@8.2.0 ^libpciaccess/5chyfxo arch=linux-centos7-x86_64
+==> Error: Unexpected token
+['openmpi', '@', '4.0.0', '%', 'gcc@8.2.0', '^libpciaccess/5chyfxo', 'arch=linux-centos7-x86_64']
+       ^
+
+spack install openmpi @ 4.0.1rc1 % gcc@8.2.0 arch=linux-centos7-x86_64
+==> openmpi is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-centos7-x86_64/gcc-8.2.0/openmpi-4.0.1rc1-tzz2rdp2rtymkk54w7vrsg6ft3zemy6s
+spack install openmpi @ 4.0.1rc1 % gcc@8.2.0 ^libpciaccess/5chyfxo arch=linux-centos7-x86_64
+==> Error: Unexpected token
+['openmpi', '@', '4.0.1rc1', '%', 'gcc@8.2.0', '^libpciaccess/5chyfxo', 'arch=linux-centos7-x86_64']
+       ^
+
+spack install openmpi @ 4.0.0 % gcc@7.3.0 arch=linux-centos7-x86_64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-centos7-x86_64/gcc-7.3.0/util-macros-1.19.1-ttsbvbkpzqvo7mondef6nb6lu7dxxp72
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-centos7-x86_64/gcc-7.3.0/libpciaccess-0.13.5-f5k35g4jnofnql3akgfs5iuhijsfbjsq
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-centos7-x86_64/gcc-7.3.0/hwloc-1.11.11-vrpknachibeddukex6lxpao5ext5jhko
+==> zlib is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-centos7-x86_64/gcc-7.3.0/zlib-1.2.11-zknfwanbwk6tnyaplsykwghx7cvnz4cr
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/cache/openmpi/openmpi-4.0.0.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/openmpi-4.0.0-tzy4tbsnktspcp2xqywkiy37njm4q2va/openmpi-4.0.0.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/openmpi-4.0.0-tzy4tbsnktspcp2xqywkiy37njm4q2va
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j64'
+
+5 errors found in build log:
+     9079    make[2]: Entering directory `/ram/tmp/dantopa/spack-stage/spack-st
+             age-s2oMbA/openmpi-4.0.0/ompi/mpi/fortran/mpiext-use-mpi'
+     9080      PPFC     mpi-ext-module.lo
+     9081    mpi-ext-module.F90:29:132:
+     9082    
+     9083           include '/scratch/users/dantopa/new-spack/pr.openmpi.spack/
+             var/spack/stage/openmpi-4.0.0-tzy4tbsnktspcp2xqywkiy37njm4q2va/ope
+             nmpi-4.0.0/ompi/mpiext/pcollreq/mpif-h/mpiext_pcollreq_mpifh.h'
+     9084                                                                      
+                                                                               
+             1
+  >> 9085    Error: Line truncated at (1) [-Werror=line-truncation]
+     9086    mpi-ext-module.F90:29:6:
+     9087    
+     9088           include '/scratch/users/dantopa/new-spack/pr.openmpi.spack/
+             var/spack/stage/openmpi-4.0.0-tzy4tbsnktspcp2xqywkiy37njm4q2va/ope
+             nmpi-4.0.0/ompi/mpiext/pcollreq/mpif-h/mpiext_pcollreq_mpifh.h'
+     9089          1
+  >> 9090    Error: Unclassifiable statement at (1)
+     9091    f951: some warnings being treated as errors
+  >> 9092    make[2]: *** [mpi-ext-module.lo] Error 1
+     9093    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-sta
+             ge-s2oMbA/openmpi-4.0.0/ompi/mpi/fortran/mpiext-use-mpi'
+  >> 9094    make[1]: *** [all-recursive] Error 1
+     9095    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-sta
+             ge-s2oMbA/openmpi-4.0.0/ompi'
+  >> 9096    make: *** [all-recursive] Error 1
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/pr.openmpi.spack/var/spack/stage/openmpi-4.0.0-tzy4tbsnktspcp2xqywkiy37njm4q2va/openmpi-4.0.0/spack-build.out
+spack install openmpi @ 4.0.0 % gcc@7.3.0 ^libpciaccess/5chyfxo arch=linux-centos7-x86_64
+==> Error: Unexpected token
+['openmpi', '@', '4.0.0', '%', 'gcc@7.3.0', '^libpciaccess/5chyfxo', 'arch=linux-centos7-x86_64']
+       ^
+
+spack install openmpi @ 4.0.1rc1 % gcc@7.3.0 arch=linux-centos7-x86_64
+==> openmpi is already installed in /scratch/users/dantopa/new-spack/pr.openmpi.spack/opt/spack/linux-centos7-x86_64/gcc-7.3.0/openmpi-4.0.1rc1-6xsndiokurzphbuzn4r5ivmaudenw2ti
+spack install openmpi @ 4.0.1rc1 % gcc@7.3.0 ^libpciaccess/5chyfxo arch=linux-centos7-x86_64
+==> Error: Unexpected token
+['openmpi', '@', '4.0.1rc1', '%', 'gcc@7.3.0', '^libpciaccess/5chyfxo', 'arch=linux-centos7-x86_64']
+       ^
+
+spack install openmpi @ 4.0.0 % gcc@6.4.0 arch=linux-centos7-x86_64
+slurmstepd: error: *** JOB 5102221 ON cn198 CANCELLED AT 2019-03-18T20:15:03 ***

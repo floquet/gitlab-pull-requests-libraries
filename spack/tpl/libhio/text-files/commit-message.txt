@@ -1,0 +1,127 @@
+Add libhio v1.4.1.3, 1.4.1.2
+
+Detail:
+– Comment out problematic versions 1.4.1.1, 1.4.1.0
+- Delineate problems caused by HDF5 when building libhio with Open MPI 4.0x
+
+# Confirmation builds:
+
+## Using Open MPI @ 3.1.3
+### Darwin general node cn110
+```
+[+] /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/libhio-1.4.1.3-s4fnmesfp65trhks5qi3it5p73ssfpsp
+[+] /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/libhio-1.4.1.2-fkgh5vqpijvwqywffmokgmsglqxwfrtl
+```
+
+### Darwin ARM node cn821
+```
+[+] /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/libhio-1.4.1.2-y6nwovff3qbdy242zc4x2toloz6xpcvm
+[+] /scratch/users/dantopa/new-spack/pr.libhio.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/openmpi-4.0.1rc1-dzxmcbdpvbsxm7fp3c6uqtce3d5epk5b
+```
+### Darwin Power9 node 2020
+```
+$ spack install libhio@1.4.1.3 % gcc@4.8.5
+$ spack install libhio@1.4.1.2 % gcc@4.8.5
+```
+Both builds failed with the same error
+```
+==> Installing libhio
+==> Executing phase: 'configure'
+==> Error: ProcessError: Command exited with status 1:
+configure: error: Could not find math libraries
+```
+
+## Build chains
+### Darwin general node cn110
+```
+-- linux-centos7-x86_64 / gcc@4.8.5 -----------------------------
+fkgh5vq    libhio@1.4.1.2%gcc
+fxe4hfn        ^bzip2@1.0.6%gcc
+gyrb67g        ^hdf5@1.10.4%gcc
+pdfogzx            ^openmpi@3.1.3%gcc
+bkkhvej                ^hwloc@1.11.11%gcc
+5chyfxo                    ^libpciaccess@0.13.5%gcc
+bcnjbc3                    ^libxml2@2.9.8%gcc
+tt2hkol                    ^numactl@2.0.12%gcc
+64vg6e4                ^zlib@1.2.11%gcc
+iaq3vl7        ^json-c@0.13.1%gcc
+
+s4fnmes    libhio@1.4.1.3%gcc
+fxe4hfn        ^bzip2@1.0.6%gcc
+gyrb67g        ^hdf5@1.10.4%gcc
+pdfogzx            ^openmpi@3.1.3%gcc
+bkkhvej                ^hwloc@1.11.11%gcc
+5chyfxo                    ^libpciaccess@0.13.5%gcc
+bcnjbc3                    ^libxml2@2.9.8%gcc
+tt2hkol                    ^numactl@2.0.12%gcc
+64vg6e4                ^zlib@1.2.11%gcc
+iaq3vl7        ^json-c@0.13.1%gcc
+```
+
+### Darwin ARM node cn821
+```
+-- linux-rhel7-aarch64 / gcc@4.8.5 ------------------------------
+ps67vox    openmpi@3.1.3%gcc
+7gqvelc        ^hwloc@1.11.11%gcc
+6a4he35            ^libpciaccess@0.13.5%gcc
+6a5uzd6            ^libxml2@2.9.8%gcc
+m5neuus            ^numactl@2.0.12%gcc
+67s2oqn        ^zlib@1.2.11%gcc
+
+dzxmcbd    openmpi@4.0.1rc1%gcc
+7gqvelc        ^hwloc@1.11.11%gcc
+6a4he35            ^libpciaccess@0.13.5%gcc
+6a5uzd6            ^libxml2@2.9.8%gcc
+m5neuus            ^numactl@2.0.12%gcc
+67s2oqn        ^zlib@1.2.11%gcc
+```
+
+### Darwin ARM node cn821
+```
+-- linux-rhel7-ppc64le / gcc@4.8.5 ------------------------------
+nygyhtf    openmpi@3.1.3%gcc
+r6cylpu        ^hwloc@1.11.11%gcc
+uzm3xdv            ^libpciaccess@0.13.5%gcc
+trik6hj            ^libxml2@2.9.8%gcc
+pmgndwh            ^numactl@2.0.12%gcc
+4v3ticy        ^zlib@1.2.11%gcc
+
+4pnq7mp    openmpi@4.0.1rc1%gcc
+r6cylpu        ^hwloc@1.11.11%gcc
+uzm3xdv            ^libpciaccess@0.13.5%gcc
+trik6hj            ^libxml2@2.9.8%gcc
+pmgndwh            ^numactl@2.0.12%gcc
+4v3ticy        ^zlib@1.2.11%gcc
+```
+
+## Using Open MPI @ 4.0.1rc1
+Darwin
+```
+$ spack install libhio@1.4.1.2 ^openmpi@4.0.1rc1 % gcc@4.8.5
+$ spack install libhio@1.4.1.2 ^openmpi@4.0.1rc1 % gcc@4.8.5
+```
+Both attempts failed in the same manner
+```
+==> Installing hdf5
+==> Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j40'
+H5Smpio.c:1503:25: error: call to 'MPI_Type_extent' declared with attribute error: MPI_Type_extent was removed in MPI-3.0.  Use MPI_Type_get_extent instead.
+```
+
+
+### Hardware details
+*Darwin general node cn110*
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                40
+On-line CPU(s) list:   0-39
+Thread(s) per core:    2
+Core(s) per socket:    10
+Socket(s):             2
+NUMA node(s):          4
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 63
+Model name:            Intel(R) Xeon(R) CPU E5-2660 v3 @ 2.60GHz

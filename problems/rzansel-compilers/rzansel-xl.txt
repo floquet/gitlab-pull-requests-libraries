@@ -1,0 +1,35 @@
+topa1@rzansel61:xl $ date
+Tue Apr 30 16:49:02 PDT 2019
+
+topa1@rzansel61:xl $ pwd
+/usr/tce/packages/xl
+
+topa1@rzansel61:xl $ ls -alh
+total 8.0K
+drwxr-xr-x 27 root root 4.0K Apr 29 13:04 .
+drwxr-xr-x 31 root root 4.0K Apr 30 13:42 ..
+drwxr-xr-x 12 root root  177 May 31  2018 xl-2018.04.29
+drwxr-xr-x 12 root root  177 May 30  2018 xl-2018.05.18
+drwxr-xr-x 12 root root  203 Dec 10 16:53 xl-2018.11.08
+drwxr-xr-x 12 root root  203 Dec 10 14:49 xl-2018.11.26
+drwxr-xr-x 12 root root  177 Feb  7 17:42 xl-2019.02.07
+drwxr-xr-x 12 root root  177 Apr 22 14:10 xl-2019.04.19
+drwxr-xr-x 12 root root  177 Oct 16  2017 xl-beta-2017.10.13
+drwxr-xr-x 12 root root  177 Dec  5  2017 xl-beta-2017.11.28
+drwxr-xr-x 12 root root  177 Feb  9  2018 xl-beta-2018.02.05
+drwxr-xr-x 12 root root  177 Feb 27  2018 xl-beta-2018.02.22
+drwxr-xr-x 12 root root  177 Mar 22  2018 xl-beta-2018.03.21
+drwxr-xr-x 12 root root  177 May  2  2018 xl-beta-2018.04.06
+drwxr-xr-x 12 root root  177 Jun  4  2018 xl-beta-2018.06.01
+drwxr-xr-x 12 root root  177 Dec  9 20:34 xl-beta-2018.06.27
+drwxr-xr-x 12 root root  208 Dec 10 11:53 xl-beta-2018.07.17
+drwxr-xr-x 12 root root  208 Dec 10 11:53 xl-beta-2018.08.08
+drwxr-xr-x 12 root root  208 Dec 10 11:50 xl-beta-2018.08.24
+drwxr-xr-x 12 root root  208 Dec 10 11:52 xl-beta-2018.09.13
+drwxr-xr-x 12 root root  208 Dec 10 16:54 xl-beta-2018.09.26
+drwxr-xr-x 12 root root  208 Dec 10 13:27 xl-beta-2018.10.10
+drwxr-xr-x 12 root root  208 Dec 10 16:53 xl-beta-2018.10.29
+drwxr-xr-x 12 root root  208 Dec 10 16:55 xl-beta-2018.11.02
+drwxr-xr-x 12 root root  177 Mar 19 04:38 xl-test-2019.03.12
+drwxr-xr-x 12 root root  177 Apr 10 11:58 xl-test-2019.03.22
+drwxr-xr-x 12 root root  177 Apr 29 13:05 xl-test-2019.04.27

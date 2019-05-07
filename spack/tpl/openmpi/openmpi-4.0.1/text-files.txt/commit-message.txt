@@ -1,0 +1,217 @@
+Add v 4.0.1
+- submitted 2019-03-27
+
+# Confirmation builds:
+
+## Locations
+```
+[+] /scratch/users/dantopa/new-spack/pr-openmpi-4.0.1.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/openmpi-4.0.1-rldccbaweier2wesl7x4fmj7qqpfsojp
+[+] /scratch/users/dantopa/new-spack/pr-openmpi-4.0.1.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/openmpi-4.0.1-hto7x2hrsz6rtcod4vnjvmdyhcmbpikt
+[+] /scratch/users/dantopa/new-spack/pr-openmpi-4.0.1.spack/opt/spack/linux-rhel7-ppc64le/gcc-4.8.5/openmpi-4.0.1-tkze2gfc7cpy4qye5tu4qvuq6vx6uopj
+```
+
+## Dependencies
+```
+$ spack find -ldf openmpi
+==> 3 installed packages
+-- linux-centos7-x86_64 / gcc@4.8.5 -----------------------------
+rldccba    openmpi@4.0.1%gcc
+bkkhvej        ^hwloc@1.11.11%gcc
+5chyfxo            ^libpciaccess@0.13.5%gcc
+bcnjbc3            ^libxml2@2.9.8%gcc
+tt2hkol            ^numactl@2.0.12%gcc
+64vg6e4        ^zlib@1.2.11%gcc
+
+
+-- linux-rhel7-aarch64 / gcc@4.8.5 ------------------------------
+hto7x2h    openmpi@4.0.1%gcc
+7gqvelc        ^hwloc@1.11.11%gcc
+6a4he35            ^libpciaccess@0.13.5%gcc
+6a5uzd6            ^libxml2@2.9.8%gcc
+m5neuus            ^numactl@2.0.12%gcc
+67s2oqn        ^zlib@1.2.11%gcc
+
+
+-- linux-rhel7-ppc64le / gcc@4.8.5 ------------------------------
+tkze2gf    openmpi@4.0.1%gcc
+r6cylpu        ^hwloc@1.11.11%gcc
+uzm3xdv            ^libpciaccess@0.13.5%gcc
+trik6hj            ^libxml2@2.9.8%gcc
+pmgndwh            ^numactl@2.0.12%gcc
+4v3ticy        ^zlib@1.2.11%gcc
+```
+
+# open-mpi.org
+download:   https://www.open-mpi.org/software/ompi/v4.0/
+change log: https://raw.githubusercontent.com/open-mpi/ompi/v4.0.x/NEWS
+
+4.0.1 -- 26 March, 2019
+--------------------
+- Update embedded PMIx to 3.1.2.
+- Fix an issue with Vader (shared-memory) transport on OS-X. Thanks
+  to Daniel Vollmer for reporting.
+- Fix a problem with the usNIC BTL Makefile.  Thanks to George Marselis
+  for reporting.
+- Fix an issue when using --enable-visibility configure option
+  and older versions of hwloc.  Thanks to Ben Menadue for reporting
+  and providing a fix.
+- Fix an issue with MPI_WIN_CREATE_DYNAMIC and MPI_GET from self.
+  thanks to Bart Janssens for reporting.
+- Fix an issue of excessive compiler warning messages from mpi.h
+  when using newer C++ compilers.  Thanks to @Shadow-fax for
+  reporting.
+- Fix a problem when building Open MPI using clang 5.0.
+- Fix a problem with MPI_WIN_CREATE when using UCX.  Thanks
+  to Adam Simpson for reporting.
+- Fix a memory leak encountered for certain MPI datatype
+  destructor operations.  Thanks to Axel Huebl for reporting.
+- Fix several problems with MPI RMA accumulate operations.
+  Thanks to Jeff Hammond for reporting.
+- Fix possible race condition in closing some file descriptors
+  during job launch using mpirun.  Thanks to Jason Williams
+  for reporting and providing a fix.
+- Fix a problem in OMPIO for large individual write operations.
+  Thanks to Axel Huebl for reporting.
+- Fix a problem with parsing of map-by ppr options to mpirun.
+  Thanks to David Rich for reporting.
+- Fix a problem observed when using the mpool hugepage component.  Thanks
+  to Hunter Easterday for reporting and fixing.
+- Fix valgrind warning generated when invoking certain MPI Fortran
+  data type creation functions.  Thanks to @rtoijala for reporting.
+- Fix a problem when trying to build with a PMIX 3.1 or newer
+  release.  Thanks to Alastair McKinstry for reporting.
+- Fix a problem encountered with building MPI F08 module files.
+  Thanks to Igor Andriyash and Axel Huebl for reporting.
+- Fix two memory leaks encountered for certain MPI-RMA usage patterns.
+  Thanks to Joseph Schuchart for reporting and fixing.
+- Fix a problem with the ORTE rmaps_base_oversubscribe MCA paramater.
+  Thanks to @iassiour for reporting.
+- Fix a problem with UCX PML default error handler for MPI communicators.
+  Thanks to Marcin Krotkiewski for reporting.
+- Fix various issues with OMPIO uncovered by the testmpio test suite.
+
+# Build environment
+
+sinfo -h -N -o %n/%f/%z/%m/%R
+
+<table>
+   <tr>
+    <td> </td>
+    <td>general</td>
+    <td>ARM</td>
+    <td>Power9</td>
+  </tr>
+  <tr>
+    <td>Node</td>
+    <td>cn138</td>
+    <td>cn821</td>
+    <td>cn2032</td>
+  </tr>
+  <tr>
+    <td>RAM</td>
+    <td>125 GB</td>
+    <td>255 GB </td>
+    <td>318 GB</td>
+  </tr>
+  <tr>
+    <td>CPU Vendor</td>
+    <td>intel</td>
+    <td>cavium </td>
+    <td>ibm</td>
+  </tr>
+  <tr>
+    <td>CPU Family</td>
+    <td>haswell</td>
+    <td>arm</td>
+    <td>ppc</td>
+  </tr>
+  <tr>
+    <td>CPU Model</td>
+    <td>E5-2660_v3</td>
+    <td>ThunderX2-B0</td>
+    <td>Power9</td>
+  </tr>
+  <tr>
+    <td>Base Clock</td>
+    <td>2.60 GHz</td>
+    <td>2.2 GHz </td>
+    <td>3.8 GHz</td>
+  </tr>
+  <tr>
+    <td>Sockets</td>
+    <td>2</td>
+    <td>2</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Cores/socket</td>
+    <td>10</td>
+    <td>32</td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td>Total cores</td>
+    <td>20</td>
+    <td>64</td>
+    <td>40</td>
+  </tr>
+  <tr>
+    <td>Threads/core</td>
+    <td>2</td>
+    <td>4</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>Total threads</td>
+    <td>20</td>
+    <td>256</td>
+    <td>160</td>
+  </tr>
+  <tr>
+    <td>HW Multithreading</td>
+    <td>yes</td>
+    <td>yes</td>
+    <td>yes</td>
+  </tr>
+  <tr>
+    <td>Infiniband</td>
+    <td>fdr</td>
+    <td>edr</td>
+    <td>edr</td>
+  </tr>
+  <tr>
+    <td>NUMA Domains</td>
+    <td>2</td>
+    <td>2</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td>Ethernet</td>
+    <td>10 Gb</td>
+    <td>1 Gb</td>
+    <td>1 Gb</td>
+  </tr>
+  <tr>
+    <td>GPU Count</td>
+    <td>1</td>
+    <td>0</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>GPU Vendor</td>
+    <td>nvidia</td>
+    <td>-</td>
+    <td>nvidia</td>
+  </tr>
+  <tr>
+    <td>GPU Model</td>
+    <td>Tesla_K40m</td>
+    <td>-</td>
+    <td>Tesla_V100-SXM2-16GB</td>
+  </tr>
+  <tr>
+    <td>SSD</td>
+    <td>yes</td>
+    <td>yes</td>
+    <td>no</td>
+  </tr>

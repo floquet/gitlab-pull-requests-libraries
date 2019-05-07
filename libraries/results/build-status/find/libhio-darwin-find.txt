@@ -1,8 +1,90 @@
-Thu Apr 25 09:39:08 MDT 2019 libraries/tools/bash/interrogater.sh
+Tue May 7 10:48:49 MDT 2019 interrogater.sh
 /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results
 
 
+partition: arm
+bin/spack compilers
+==> Available compilers
+-- arm rhel7-aarch64 --------------------------------------------
+arm@19.1
+
+-- clang rhel7-aarch64 ------------------------------------------
+clang@18.4.2
+clang@18.4.1
+clang@18.4.0
+clang@7.0.0
+
+-- gcc rhel7-aarch64 --------------------------------------------
+gcc@8.2.0
+gcc@8.1.0
+gcc@7.1.0
+gcc@4.8.5
+
+bin/spack find libhio
+==> 14 installed packages
+-- linux-rhel7-aarch64 / gcc@4.8.5 ------------------------------
+libhio@1.4.1.2
+libhio@1.4.1.2
+libhio@1.4.1.2
+libhio@1.4.1.3
+libhio@1.4.1.3
+libhio@1.4.1.3
+
+-- linux-rhel7-aarch64 / gcc@7.1.0 ------------------------------
+libhio@1.4.1.2
+libhio@1.4.1.2
+libhio@1.4.1.3
+libhio@1.4.1.3
+
+-- linux-rhel7-aarch64 / gcc@8.2.0 ------------------------------
+libhio@1.4.1.2
+libhio@1.4.1.2
+libhio@1.4.1.3
+libhio@1.4.1.3
+bin/spack compilers
+==> Available compilers
+-- arm rhel7-aarch64 --------------------------------------------
+arm@19.1
+
+-- clang rhel7-aarch64 ------------------------------------------
+clang@18.4.2
+clang@18.4.1
+clang@18.4.0
+clang@7.0.0
+
+-- gcc rhel7-aarch64 --------------------------------------------
+gcc@8.2.0
+gcc@8.1.0
+gcc@7.1.0
+gcc@4.8.5
+
+
 partition: general
+bin/spack compilers
+==> Available compilers
+-- gcc centos7-x86_64 -------------------------------------------
+gcc@8.2.0
+gcc@8.1.0
+gcc@7.3.0
+gcc@6.4.0
+gcc@4.8.5
+
+-- intel centos7-x86_64 -----------------------------------------
+intel@19.0.1.144
+intel@18.0.3
+intel@18.0.2
+intel@17.0.6
+intel@17.0.1
+intel@16.0.4
+
+-- pgi centos7-x86_64 -------------------------------------------
+pgi@18.10
+pgi@18.7
+pgi@18.4
+pgi@18.3
+pgi@17.10
+pgi@16.10
+
 bin/spack find libhio
 ==> 36 installed packages
 -- linux-centos7-x86_64 / gcc@4.8.5 -----------------------------
@@ -58,30 +140,80 @@ libhio@1.4.1.2
 libhio@1.4.1.2
 libhio@1.4.1.3
 libhio@1.4.1.3
+bin/spack compilers
+==> Available compilers
+-- gcc centos7-x86_64 -------------------------------------------
+gcc@8.2.0
+gcc@8.1.0
+gcc@7.3.0
+gcc@6.4.0
+gcc@4.8.5
 
-partition: arm
-bin/spack find libhio
-==> 14 installed packages
--- linux-rhel7-aarch64 / gcc@4.8.5 ------------------------------
-libhio@1.4.1.2
-libhio@1.4.1.2
-libhio@1.4.1.2
-libhio@1.4.1.3
-libhio@1.4.1.3
-libhio@1.4.1.3
+-- intel centos7-x86_64 -----------------------------------------
+intel@19.0.1.144
+intel@18.0.3
+intel@18.0.2
+intel@17.0.6
+intel@17.0.1
+intel@16.0.4
 
--- linux-rhel7-aarch64 / gcc@7.1.0 ------------------------------
-libhio@1.4.1.2
-libhio@1.4.1.2
-libhio@1.4.1.3
-libhio@1.4.1.3
+-- pgi centos7-x86_64 -------------------------------------------
+pgi@18.10
+pgi@18.7
+pgi@18.4
+pgi@18.3
+pgi@17.10
+pgi@16.10
 
--- linux-rhel7-aarch64 / gcc@8.2.0 ------------------------------
-libhio@1.4.1.2
-libhio@1.4.1.2
-libhio@1.4.1.3
-libhio@1.4.1.3
 
 partition: power9
+bin/spack compilers
+==> Available compilers
+-- clang rhel7-ppc64le ------------------------------------------
+clang@7.0.0
+
+-- gcc rhel7-ppc64le --------------------------------------------
+gcc@8.2.0
+gcc@8.1.0
+gcc@7.3.0
+gcc@6.4.0
+gcc@4.8.5
+
+-- pgi rhel7-ppc64le --------------------------------------------
+pgi@18.10
+pgi@18.7
+pgi@17.10
+pgi@16.10
+
+-- xl rhel7-ppc64le ---------------------------------------------
+xl@16.1
+
+-- xl_r rhel7-ppc64le -------------------------------------------
+xl_r@16.1
+
 bin/spack find libhio
 ==> No package matches the query: libhio
+bin/spack compilers
+==> Available compilers
+-- clang rhel7-ppc64le ------------------------------------------
+clang@7.0.0
+
+-- gcc rhel7-ppc64le --------------------------------------------
+gcc@8.2.0
+gcc@8.1.0
+gcc@7.3.0
+gcc@6.4.0
+gcc@4.8.5
+
+-- pgi rhel7-ppc64le --------------------------------------------
+pgi@18.10
+pgi@18.7
+pgi@17.10
+pgi@16.10
+
+-- xl rhel7-ppc64le ---------------------------------------------
+xl@16.1
+
+-- xl_r rhel7-ppc64le -------------------------------------------
+xl_r@16.1
+

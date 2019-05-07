@@ -1,6 +1,30 @@
-Mon Apr 29 13:37:33 MDT 2019 interrogater.sh
+Tue May 7 10:49:42 MDT 2019 interrogater.sh
 /lustre/cpscratch1/dantopa/repos/gitlab/pull-requests/libraries/results
 
 
 partition: arm
+bin/spack compilers
+==> Available compilers
+-- cce cnl6-any -------------------------------------------------
+cce@8.7.10
+cce@8.7.9
+
+-- gcc cnl6-any -------------------------------------------------
+gcc@8.3.0
+gcc@7.4.0
+gcc@7.3.0
+gcc@6.1.0
+
 bin/spack find pmix
+bin/spack compilers
+==> Available compilers
+-- cce cnl6-any -------------------------------------------------
+cce@8.7.10
+cce@8.7.9
+
+-- gcc cnl6-any -------------------------------------------------
+gcc@8.3.0
+gcc@7.4.0
+gcc@7.3.0
+gcc@6.1.0
+

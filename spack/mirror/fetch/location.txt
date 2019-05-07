@@ -1,0 +1,11 @@
+dantopa@cn120:scripts $ date
+Mon Apr  1 18:15:23 MDT 2019
+
+dantopa@cn120:scripts $ pwd
+/scratch/users/dantopa/new-spack/mymirror.spack/scripts
+
+dantopa@cn120:scripts $ lss
+total 39K
+drwxrwxr-x  2 dantopa dantopa   3 Mar 15 23:03 .
+drwxrwxr-x 13 dantopa dantopa  28 Apr  1 18:15 ..
+-rw-rw-r--  1 dantopa dantopa 15K Mar 15 23:02 new-fetcher.sh

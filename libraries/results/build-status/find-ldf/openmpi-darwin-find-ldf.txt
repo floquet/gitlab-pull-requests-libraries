@@ -1,5 +1,95 @@
-Thu Apr 25 09:39:13 MDT 2019 libraries/tools/bash/interrogater.sh
+Tue May 7 10:49:00 MDT 2019 interrogater.sh
 /scratch/users/dantopa/repos/gitlab/pull-requests/libraries/results
+
+
+partition: arm
+bin/spack find -ldf openmpi
+==> 12 installed packages
+-- linux-rhel7-aarch64 / gcc@4.8.5 ------------------------------
+pbveyqp    openmpi@2.1.6%gcc 
+7gqvelc        ^hwloc@1.11.11%gcc 
+6a4he35            ^libpciaccess@0.13.5%gcc 
+6a5uzd6            ^libxml2@2.9.8%gcc 
+m5neuus            ^numactl@2.0.12%gcc 
+
+cq2y6b3    openmpi@3.0.4%gcc 
+7gqvelc        ^hwloc@1.11.11%gcc 
+6a4he35            ^libpciaccess@0.13.5%gcc 
+6a5uzd6            ^libxml2@2.9.8%gcc 
+m5neuus            ^numactl@2.0.12%gcc 
+67s2oqn        ^zlib@1.2.11%gcc 
+
+pvq3s35    openmpi@3.1.4%gcc 
+7gqvelc        ^hwloc@1.11.11%gcc 
+6a4he35            ^libpciaccess@0.13.5%gcc 
+6a5uzd6            ^libxml2@2.9.8%gcc 
+m5neuus            ^numactl@2.0.12%gcc 
+67s2oqn        ^zlib@1.2.11%gcc 
+
+hto7x2h    openmpi@4.0.1%gcc 
+7gqvelc        ^hwloc@1.11.11%gcc 
+6a4he35            ^libpciaccess@0.13.5%gcc 
+6a5uzd6            ^libxml2@2.9.8%gcc 
+m5neuus            ^numactl@2.0.12%gcc 
+67s2oqn        ^zlib@1.2.11%gcc 
+
+
+-- linux-rhel7-aarch64 / gcc@7.1.0 ------------------------------
+xlsmwm7    openmpi@2.1.6%gcc 
+izn5gbo        ^hwloc@1.11.11%gcc 
+gmwtdrw            ^libpciaccess@0.13.5%gcc 
+7sufcg5            ^libxml2@2.9.8%gcc 
+eukhjxm            ^numactl@2.0.12%gcc 
+
+n2xcfjj    openmpi@3.0.4%gcc 
+izn5gbo        ^hwloc@1.11.11%gcc 
+gmwtdrw            ^libpciaccess@0.13.5%gcc 
+7sufcg5            ^libxml2@2.9.8%gcc 
+eukhjxm            ^numactl@2.0.12%gcc 
+zsiftcm        ^zlib@1.2.11%gcc 
+
+jnzsss4    openmpi@3.1.4%gcc 
+izn5gbo        ^hwloc@1.11.11%gcc 
+gmwtdrw            ^libpciaccess@0.13.5%gcc 
+7sufcg5            ^libxml2@2.9.8%gcc 
+eukhjxm            ^numactl@2.0.12%gcc 
+zsiftcm        ^zlib@1.2.11%gcc 
+
+vr5ymyk    openmpi@4.0.1%gcc 
+izn5gbo        ^hwloc@1.11.11%gcc 
+gmwtdrw            ^libpciaccess@0.13.5%gcc 
+7sufcg5            ^libxml2@2.9.8%gcc 
+eukhjxm            ^numactl@2.0.12%gcc 
+zsiftcm        ^zlib@1.2.11%gcc 
+
+
+-- linux-rhel7-aarch64 / gcc@8.2.0 ------------------------------
+6j4ltax    openmpi@2.1.6%gcc 
+3pau2kk        ^hwloc@1.11.11%gcc 
+vfd6u24            ^libpciaccess@0.13.5%gcc 
+fo65cwc            ^libxml2@2.9.8%gcc 
+opoop4g            ^numactl@2.0.12%gcc 
+
+kq7qda7    openmpi@3.0.4%gcc 
+3pau2kk        ^hwloc@1.11.11%gcc 
+vfd6u24            ^libpciaccess@0.13.5%gcc 
+fo65cwc            ^libxml2@2.9.8%gcc 
+opoop4g            ^numactl@2.0.12%gcc 
+x5quqjk        ^zlib@1.2.11%gcc 
+
+e5deleg    openmpi@3.1.4%gcc 
+3pau2kk        ^hwloc@1.11.11%gcc 
+vfd6u24            ^libpciaccess@0.13.5%gcc 
+fo65cwc            ^libxml2@2.9.8%gcc 
+opoop4g            ^numactl@2.0.12%gcc 
+x5quqjk        ^zlib@1.2.11%gcc 
+
+hkzjqqm    openmpi@4.0.1%gcc 
+3pau2kk        ^hwloc@1.11.11%gcc 
+vfd6u24            ^libpciaccess@0.13.5%gcc 
+fo65cwc            ^libxml2@2.9.8%gcc 
+opoop4g            ^numactl@2.0.12%gcc 
+x5quqjk        ^zlib@1.2.11%gcc 
 
 
 partition: general
@@ -306,96 +396,6 @@ zrun5pc            ^libpciaccess@0.13.5%intel
 x6jborh            ^libxml2@2.9.8%intel 
 caxqrj3            ^numactl@2.0.12%intel 
 vonxam4        ^zlib@1.2.11%intel 
-
-
-partition: arm
-bin/spack find -ldf openmpi
-==> 12 installed packages
--- linux-rhel7-aarch64 / gcc@4.8.5 ------------------------------
-pbveyqp    openmpi@2.1.6%gcc 
-7gqvelc        ^hwloc@1.11.11%gcc 
-6a4he35            ^libpciaccess@0.13.5%gcc 
-6a5uzd6            ^libxml2@2.9.8%gcc 
-m5neuus            ^numactl@2.0.12%gcc 
-
-cq2y6b3    openmpi@3.0.4%gcc 
-7gqvelc        ^hwloc@1.11.11%gcc 
-6a4he35            ^libpciaccess@0.13.5%gcc 
-6a5uzd6            ^libxml2@2.9.8%gcc 
-m5neuus            ^numactl@2.0.12%gcc 
-67s2oqn        ^zlib@1.2.11%gcc 
-
-pvq3s35    openmpi@3.1.4%gcc 
-7gqvelc        ^hwloc@1.11.11%gcc 
-6a4he35            ^libpciaccess@0.13.5%gcc 
-6a5uzd6            ^libxml2@2.9.8%gcc 
-m5neuus            ^numactl@2.0.12%gcc 
-67s2oqn        ^zlib@1.2.11%gcc 
-
-hto7x2h    openmpi@4.0.1%gcc 
-7gqvelc        ^hwloc@1.11.11%gcc 
-6a4he35            ^libpciaccess@0.13.5%gcc 
-6a5uzd6            ^libxml2@2.9.8%gcc 
-m5neuus            ^numactl@2.0.12%gcc 
-67s2oqn        ^zlib@1.2.11%gcc 
-
-
--- linux-rhel7-aarch64 / gcc@7.1.0 ------------------------------
-xlsmwm7    openmpi@2.1.6%gcc 
-izn5gbo        ^hwloc@1.11.11%gcc 
-gmwtdrw            ^libpciaccess@0.13.5%gcc 
-7sufcg5            ^libxml2@2.9.8%gcc 
-eukhjxm            ^numactl@2.0.12%gcc 
-
-n2xcfjj    openmpi@3.0.4%gcc 
-izn5gbo        ^hwloc@1.11.11%gcc 
-gmwtdrw            ^libpciaccess@0.13.5%gcc 
-7sufcg5            ^libxml2@2.9.8%gcc 
-eukhjxm            ^numactl@2.0.12%gcc 
-zsiftcm        ^zlib@1.2.11%gcc 
-
-jnzsss4    openmpi@3.1.4%gcc 
-izn5gbo        ^hwloc@1.11.11%gcc 
-gmwtdrw            ^libpciaccess@0.13.5%gcc 
-7sufcg5            ^libxml2@2.9.8%gcc 
-eukhjxm            ^numactl@2.0.12%gcc 
-zsiftcm        ^zlib@1.2.11%gcc 
-
-vr5ymyk    openmpi@4.0.1%gcc 
-izn5gbo        ^hwloc@1.11.11%gcc 
-gmwtdrw            ^libpciaccess@0.13.5%gcc 
-7sufcg5            ^libxml2@2.9.8%gcc 
-eukhjxm            ^numactl@2.0.12%gcc 
-zsiftcm        ^zlib@1.2.11%gcc 
-
-
--- linux-rhel7-aarch64 / gcc@8.2.0 ------------------------------
-6j4ltax    openmpi@2.1.6%gcc 
-3pau2kk        ^hwloc@1.11.11%gcc 
-vfd6u24            ^libpciaccess@0.13.5%gcc 
-fo65cwc            ^libxml2@2.9.8%gcc 
-opoop4g            ^numactl@2.0.12%gcc 
-
-kq7qda7    openmpi@3.0.4%gcc 
-3pau2kk        ^hwloc@1.11.11%gcc 
-vfd6u24            ^libpciaccess@0.13.5%gcc 
-fo65cwc            ^libxml2@2.9.8%gcc 
-opoop4g            ^numactl@2.0.12%gcc 
-x5quqjk        ^zlib@1.2.11%gcc 
-
-e5deleg    openmpi@3.1.4%gcc 
-3pau2kk        ^hwloc@1.11.11%gcc 
-vfd6u24            ^libpciaccess@0.13.5%gcc 
-fo65cwc            ^libxml2@2.9.8%gcc 
-opoop4g            ^numactl@2.0.12%gcc 
-x5quqjk        ^zlib@1.2.11%gcc 
-
-hkzjqqm    openmpi@4.0.1%gcc 
-3pau2kk        ^hwloc@1.11.11%gcc 
-vfd6u24            ^libpciaccess@0.13.5%gcc 
-fo65cwc            ^libxml2@2.9.8%gcc 
-opoop4g            ^numactl@2.0.12%gcc 
-x5quqjk        ^zlib@1.2.11%gcc 
 
 
 partition: power9

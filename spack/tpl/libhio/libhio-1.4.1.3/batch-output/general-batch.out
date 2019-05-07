@@ -1,0 +1,401 @@
+dantopa@cn2021:strawman.pr.libhio $ cat general-batch.out
+Thu Feb 21 17:52:52 MST 2019 /home/dantopa/.mybash
+Thu Feb 21 17:52:52 MST 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/platforms.sh
+attempting to mkdir /scratch/users/dantopa/repos/gitlab/node-queries/darwin/general-cn127/dir-configuration
+directory of core scripts = ${core} = /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts
+Thu Feb 21 17:52:52 MST 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/master.sh
+Thu Feb 21 17:52:52 MST 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh
+Thu Feb 21 17:52:52 MST 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh
+Thu Feb 21 17:52:52 MST 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+Thu Feb 21 17:52:52 MST 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh
+Thu Feb 21 17:52:52 MST 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/gcc.sh
+Thu Feb 21 17:52:52 MST 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh: line 5: gonode: command not found
+Thu Feb 21 17:52:52 MST 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/git.sh
+Thu Feb 21 17:52:52 MST 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+Thu Feb 21 17:52:52 MST 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/ssh.sh
+Thu Feb 21 17:52:52 MST 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/vim.sh
+Thu Feb 21 17:52:52 MST 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bash.sh
+Thu Feb 21 17:52:52 MST 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/finds.sh
+Thu Feb 21 17:52:52 MST 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/cmake.sh
+Thu Feb 21 17:52:52 MST 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/copy-configuration.sh
+Thu Feb 21 17:52:52 MST 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/fortran.sh
+Thu Feb 21 17:52:52 MST 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks.sh
+Thu Feb 21 17:52:52 MST 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-bitbucket.sh
+Thu Feb 21 17:52:52 MST 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-github.sh
+Thu Feb 21 17:52:52 MST 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-gitlab.sh
+Thu Feb 21 17:52:52 MST 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/disk.sh
+Thu Feb 21 17:52:52 MST 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh: line 33: sinfo_s: command not found
+Thu Feb 21 17:52:52 MST 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh
+Thu Feb 21 17:52:53 MST 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+Thu Feb 21 17:52:53 MST 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh
+Thu Feb 21 17:52:53 MST 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/spack.sh
+Thu Feb 21 17:52:53 MST 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/uname.sh
+Thu Feb 21 17:52:53 MST 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh: line 5: gonode: command not found
+fatal: Unable to create '/scratch/users/dantopa/new-spack/strawman.pr.libhio/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+Thu Feb 21 17:52:53 MST 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/modules.sh
+Thu Feb 21 17:52:53 MST 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh
+Thu Feb 21 17:52:53 MST 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/alias.sh
+fatal: Unable to create '/scratch/users/dantopa/new-spack/strawman.pr.libhio/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+Thu Feb 21 17:52:53 MST 2019, /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh: line 11: myprompt: command not found
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh: line 33: sinfo_s: command not found
+[develop b891c05] darwin-general-cn127 Thu Feb 21 17:52:54 MST 2019
+ 3 files changed, 212 insertions(+), 4 deletions(-)
+ create mode 100644 general-batch.out
+/usr/bin/python: No module named virtualenvwrapper
+virtualenvwrapper.sh: There was a problem running the initialization hooks.
+
+If Python could not import the module virtualenvwrapper.hook_loader,
+check that virtualenvwrapper has been installed for
+VIRTUALENVWRAPPER_PYTHON=/usr/bin/python and that PATH is
+set properly.
+Thu Feb 21 17:52:54 MST 2019 /tmp/slurmd/job5020073/slurm_script
+spack versions libhio
+==> Warning: Spack will not check SSL certificates. You need to update your Python to enable certificate verification.
+==> Warning: Spack will not check SSL certificates. You need to update your Python to enable certificate verification.
+  1.4.1.3
+  1.4.1.2
+  1.4.1.1
+  1.4.1.0
+  1.4.1.0-rc3
+  1.4.1.0-rc2
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+
+spack install libhio @ 1.4.1.3 % gcc @ 4.8.5
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : generating module file
+==> bzip2@1.0.6 : registering into DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : generating module file
+==> libtool@2.4.6 : registering into DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : generating module file
+==> pkg-config@0.29.2 : registering into DB
+==> Installing util-macros
+==> Searching for binary cache of util-macros
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for util-macros found: installing from source
+==> Warning: A dependency has updated CPATH, this may lead pkg-config to assume that the package is part of the system includes and omit it when invoked with '--cflags'.
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/util-macros/util-macros-1.19.1.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/util-macros-1.19.1-p66qdrtaslf2cq4wyc6mitrxzhnyujhc/util-macros-1.19.1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/util-macros-1.19.1-p66qdrtaslf2cq4wyc6mitrxzhnyujhc
+==> No patches needed for util-macros
+==> Building util-macros [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed util-macros
+  Fetch: 0.21s.  Build: 1.99s.  Total: 2.20s.
+[+] /scratch/users/dantopa/new-spack/strawman.pr.libhio/opt/spack/linux-centos7-x86_64/gcc-4.8.5/util-macros-1.19.1-p66qdrtaslf2cq4wyc6mitrxzhnyujhc
+==> Installing libpciaccess
+==> Searching for binary cache of libpciaccess
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libpciaccess found: installing from source
+==> Warning: A dependency has updated CPATH, this may lead pkg-config to assume that the package is part of the system includes and omit it when invoked with '--cflags'.
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/libpciaccess/libpciaccess-0.13.5.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/libpciaccess-0.13.5-5chyfxo6gpmcf74gpv3sqni2aa6v5x57/libpciaccess-0.13.5.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/libpciaccess-0.13.5-5chyfxo6gpmcf74gpv3sqni2aa6v5x57
+==> No patches needed for libpciaccess
+==> Building libpciaccess [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libpciaccess
+  Fetch: 0.16s.  Build: 14.04s.  Total: 14.19s.
+[+] /scratch/users/dantopa/new-spack/strawman.pr.libhio/opt/spack/linux-centos7-x86_64/gcc-4.8.5/libpciaccess-0.13.5-5chyfxo6gpmcf74gpv3sqni2aa6v5x57
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : generating module file
+==> libxml2@2.9.8 : registering into DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : generating module file
+==> numactl@2.0.12 : registering into DB
+==> Installing hwloc
+==> Searching for binary cache of hwloc
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hwloc found: installing from source
+==> Warning: A dependency has updated CPATH, this may lead pkg-config to assume that the package is part of the system includes and omit it when invoked with '--cflags'.
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/hwloc/hwloc-1.11.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/hwloc-1.11.11-bkkhvejler5rcxoz6mufxxb7fm3qdqbe/hwloc-1.11.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/hwloc-1.11.11-bkkhvejler5rcxoz6mufxxb7fm3qdqbe
+==> No patches needed for hwloc
+==> Building hwloc [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed hwloc
+  Fetch: 0.08s.  Build: 42.87s.  Total: 42.95s.
+[+] /scratch/users/dantopa/new-spack/strawman.pr.libhio/opt/spack/linux-centos7-x86_64/gcc-4.8.5/hwloc-1.11.11-bkkhvejler5rcxoz6mufxxb7fm3qdqbe
+==> Installing zlib
+==> Searching for binary cache of zlib
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for zlib found: installing from source
+==> Warning: A dependency has updated CPATH, this may lead pkg-config to assume that the package is part of the system includes and omit it when invoked with '--cflags'.
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/zlib/zlib-1.2.11.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/zlib-1.2.11-64vg6e4evdrlqgx7iicwhu2hs7lv6gpz/zlib-1.2.11.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/zlib-1.2.11-64vg6e4evdrlqgx7iicwhu2hs7lv6gpz
+==> No patches needed for zlib
+==> Building zlib [Package]
+==> Executing phase: 'install'
+==> Successfully installed zlib
+  Fetch: 0.15s.  Build: 4.79s.  Total: 4.95s.
+[+] /scratch/users/dantopa/new-spack/strawman.pr.libhio/opt/spack/linux-centos7-x86_64/gcc-4.8.5/zlib-1.2.11-64vg6e4evdrlqgx7iicwhu2hs7lv6gpz
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+==> Warning: A dependency has updated CPATH, this may lead pkg-config to assume that the package is part of the system includes and omit it when invoked with '--cflags'.
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/openmpi/openmpi-3.1.3.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/openmpi-3.1.3-pdfogzxfyi3pkzjj5wo5rvnedhl5b67a/openmpi-3.1.3.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/openmpi-3.1.3-pdfogzxfyi3pkzjj5wo5rvnedhl5b67a
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.19s.  Build: 14m 42.63s.  Total: 14m 42.82s.
+[+] /scratch/users/dantopa/new-spack/strawman.pr.libhio/opt/spack/linux-centos7-x86_64/gcc-4.8.5/openmpi-3.1.3-pdfogzxfyi3pkzjj5wo5rvnedhl5b67a
+==> Installing hdf5
+==> Searching for binary cache of hdf5
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for hdf5 found: installing from source
+==> Warning: A dependency has updated CPATH, this may lead pkg-config to assume that the package is part of the system includes and omit it when invoked with '--cflags'.
+curl: (37) Couldn't open file /usr/projects/draco/vendors/spack.mirror/hdf5/hdf5-1.10.4.tar.gz
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/hdf5/hdf5-1.10.4.tar.gz
+==> Fetching from file:///usr/projects/draco/vendors/spack.mirror/hdf5/hdf5-1.10.4.tar.gz failed.
+==> Fetching https://support.hdfgroup.org/ftp/HDF5/releases/hdf5-1.10/hdf5-1.10.4/src/hdf5-1.10.4.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/hdf5-1.10.4-gyrb67gixig44xb2zx55uh43ygam52ju/hdf5-1.10.4.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/hdf5-1.10.4-gyrb67gixig44xb2zx55uh43ygam52ju
+==> No patches needed for hdf5
+==> Building hdf5 [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed hdf5
+  Fetch: 15.67s.  Build: 2m 20.85s.  Total: 2m 36.51s.
+[+] /scratch/users/dantopa/new-spack/strawman.pr.libhio/opt/spack/linux-centos7-x86_64/gcc-4.8.5/hdf5-1.10.4-gyrb67gixig44xb2zx55uh43ygam52ju
+==> autoconf@2.69 : externally installed in /usr
+==> autoconf@2.69 : generating module file
+==> autoconf@2.69 : registering into DB
+==> Installing json-c
+==> Searching for binary cache of json-c
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for json-c found: installing from source
+==> Warning: A dependency has updated CPATH, this may lead pkg-config to assume that the package is part of the system includes and omit it when invoked with '--cflags'.
+curl: (37) Couldn't open file /usr/projects/draco/vendors/spack.mirror/json-c/json-c-0.13.1.tar.gz
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/json-c/json-c-0.13.1.tar.gz
+==> Fetching from file:///usr/projects/draco/vendors/spack.mirror/json-c/json-c-0.13.1.tar.gz failed.
+==> Fetching https://s3.amazonaws.com/json-c_releases/releases/json-c-0.13.1.tar.gz
+==> Staging archive: /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/json-c-0.13.1-iaq3vl7vqbzaxg6cq2xd5vorjmjh3mr3/json-c-0.13.1.tar.gz
+==> Created stage in /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/json-c-0.13.1-iaq3vl7vqbzaxg6cq2xd5vorjmjh3mr3
+==> No patches needed for json-c
+==> Building json-c [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed json-c
+  Fetch: 0.87s.  Build: 20.80s.  Total: 21.67s.
+[+] /scratch/users/dantopa/new-spack/strawman.pr.libhio/opt/spack/linux-centos7-x86_64/gcc-4.8.5/json-c-0.13.1-iaq3vl7vqbzaxg6cq2xd5vorjmjh3mr3
+==> Installing libhio
+==> Searching for binary cache of libhio
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libhio found: installing from source
+==> Warning: A dependency has updated CPATH, this may lead pkg-config to assume that the package is part of the system includes and omit it when invoked with '--cflags'.
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/libhio/libhio-1.4.1.3.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/libhio-1.4.1.3-s4fnmesfp65trhks5qi3it5p73ssfpsp/libhio-1.4.1.3.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/libhio-1.4.1.3-s4fnmesfp65trhks5qi3it5p73ssfpsp
+==> No patches needed for libhio
+==> Building libhio [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libhio
+  Fetch: 0.06s.  Build: 58.27s.  Total: 58.33s.
+[+] /scratch/users/dantopa/new-spack/strawman.pr.libhio/opt/spack/linux-centos7-x86_64/gcc-4.8.5/libhio-1.4.1.3-s4fnmesfp65trhks5qi3it5p73ssfpsp
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+
+spack install libhio @ 1.4.1.2 % gcc @ 4.8.5
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/strawman.pr.libhio/opt/spack/linux-centos7-x86_64/gcc-4.8.5/util-macros-1.19.1-p66qdrtaslf2cq4wyc6mitrxzhnyujhc
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/strawman.pr.libhio/opt/spack/linux-centos7-x86_64/gcc-4.8.5/libpciaccess-0.13.5-5chyfxo6gpmcf74gpv3sqni2aa6v5x57
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/strawman.pr.libhio/opt/spack/linux-centos7-x86_64/gcc-4.8.5/hwloc-1.11.11-bkkhvejler5rcxoz6mufxxb7fm3qdqbe
+==> zlib is already installed in /scratch/users/dantopa/new-spack/strawman.pr.libhio/opt/spack/linux-centos7-x86_64/gcc-4.8.5/zlib-1.2.11-64vg6e4evdrlqgx7iicwhu2hs7lv6gpz
+==> openmpi is already installed in /scratch/users/dantopa/new-spack/strawman.pr.libhio/opt/spack/linux-centos7-x86_64/gcc-4.8.5/openmpi-3.1.3-pdfogzxfyi3pkzjj5wo5rvnedhl5b67a
+==> hdf5 is already installed in /scratch/users/dantopa/new-spack/strawman.pr.libhio/opt/spack/linux-centos7-x86_64/gcc-4.8.5/hdf5-1.10.4-gyrb67gixig44xb2zx55uh43ygam52ju
+==> autoconf@2.69 : externally installed in /usr
+==> autoconf@2.69 : already registered in DB
+==> json-c is already installed in /scratch/users/dantopa/new-spack/strawman.pr.libhio/opt/spack/linux-centos7-x86_64/gcc-4.8.5/json-c-0.13.1-iaq3vl7vqbzaxg6cq2xd5vorjmjh3mr3
+==> Installing libhio
+==> Searching for binary cache of libhio
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libhio found: installing from source
+==> Warning: A dependency has updated CPATH, this may lead pkg-config to assume that the package is part of the system includes and omit it when invoked with '--cflags'.
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/libhio/libhio-1.4.1.2.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/libhio-1.4.1.2-fkgh5vqpijvwqywffmokgmsglqxwfrtl/libhio-1.4.1.2.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/libhio-1.4.1.2-fkgh5vqpijvwqywffmokgmsglqxwfrtl
+==> Applied patch /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/repos/builtin/packages/libhio/0001-spack-fix-for-spack-to-work-on-non-cray-systems.patch
+==> Building libhio [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed libhio
+  Fetch: 0.07s.  Build: 56.81s.  Total: 56.88s.
+[+] /scratch/users/dantopa/new-spack/strawman.pr.libhio/opt/spack/linux-centos7-x86_64/gcc-4.8.5/libhio-1.4.1.2-fkgh5vqpijvwqywffmokgmsglqxwfrtl
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+
+spack install libhio @ 1.4.1.1 % gcc @ 4.8.5
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/strawman.pr.libhio/opt/spack/linux-centos7-x86_64/gcc-4.8.5/util-macros-1.19.1-p66qdrtaslf2cq4wyc6mitrxzhnyujhc
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/strawman.pr.libhio/opt/spack/linux-centos7-x86_64/gcc-4.8.5/libpciaccess-0.13.5-5chyfxo6gpmcf74gpv3sqni2aa6v5x57
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/strawman.pr.libhio/opt/spack/linux-centos7-x86_64/gcc-4.8.5/hwloc-1.11.11-bkkhvejler5rcxoz6mufxxb7fm3qdqbe
+==> zlib is already installed in /scratch/users/dantopa/new-spack/strawman.pr.libhio/opt/spack/linux-centos7-x86_64/gcc-4.8.5/zlib-1.2.11-64vg6e4evdrlqgx7iicwhu2hs7lv6gpz
+==> openmpi is already installed in /scratch/users/dantopa/new-spack/strawman.pr.libhio/opt/spack/linux-centos7-x86_64/gcc-4.8.5/openmpi-3.1.3-pdfogzxfyi3pkzjj5wo5rvnedhl5b67a
+==> hdf5 is already installed in /scratch/users/dantopa/new-spack/strawman.pr.libhio/opt/spack/linux-centos7-x86_64/gcc-4.8.5/hdf5-1.10.4-gyrb67gixig44xb2zx55uh43ygam52ju
+==> autoconf@2.69 : externally installed in /usr
+==> autoconf@2.69 : already registered in DB
+==> json-c is already installed in /scratch/users/dantopa/new-spack/strawman.pr.libhio/opt/spack/linux-centos7-x86_64/gcc-4.8.5/json-c-0.13.1-iaq3vl7vqbzaxg6cq2xd5vorjmjh3mr3
+==> Installing libhio
+==> Searching for binary cache of libhio
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libhio found: installing from source
+==> Warning: A dependency has updated CPATH, this may lead pkg-config to assume that the package is part of the system includes and omit it when invoked with '--cflags'.
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/libhio/libhio-1.4.1.1.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/libhio-1.4.1.1-hwqe4r7aiuuhfe3dsfhkuvmlzak6r36y/libhio-1.4.1.1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/libhio-1.4.1.1-hwqe4r7aiuuhfe3dsfhkuvmlzak6r36y
+==> No patches needed for libhio
+==> Building libhio [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Error: ProcessError: Command exited with status 1:
+    '/usr/bin/autoreconf' '-ifv'
+
+2 errors found in build log:
+     13    libtoolize: copying file `m4/ltsugar.m4'
+     14    libtoolize: copying file `m4/ltversion.m4'
+     15    libtoolize: copying file `m4/lt~obsolete.m4'
+     16    autoreconf: running: /usr/bin/autoconf --force
+     17    autoreconf: running: /usr/bin/autoheader --force
+     18    autoreconf: running: automake --add-missing --copy --force-missing
+  >> 19    configure.ac:131: error: required file 'hdf5-hio/doc/Makefile.in' no
+           t found
+  >> 20    configure.ac:131: error: required file 'hdf5-hio/doc/doxygen.conf.in
+           ' not found
+     21    autoreconf: automake failed with exit status: 1
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/libhio-1.4.1.1-hwqe4r7aiuuhfe3dsfhkuvmlzak6r36y/libhio-1.4.1.1/spack-build.out
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+
+spack install libhio @ 1.4.1.0 % gcc @ 4.8.5
+==> bzip2@1.0.6 : externally installed in /usr
+==> bzip2@1.0.6 : already registered in DB
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/strawman.pr.libhio/opt/spack/linux-centos7-x86_64/gcc-4.8.5/util-macros-1.19.1-p66qdrtaslf2cq4wyc6mitrxzhnyujhc
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/strawman.pr.libhio/opt/spack/linux-centos7-x86_64/gcc-4.8.5/libpciaccess-0.13.5-5chyfxo6gpmcf74gpv3sqni2aa6v5x57
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/strawman.pr.libhio/opt/spack/linux-centos7-x86_64/gcc-4.8.5/hwloc-1.11.11-bkkhvejler5rcxoz6mufxxb7fm3qdqbe
+==> zlib is already installed in /scratch/users/dantopa/new-spack/strawman.pr.libhio/opt/spack/linux-centos7-x86_64/gcc-4.8.5/zlib-1.2.11-64vg6e4evdrlqgx7iicwhu2hs7lv6gpz
+==> openmpi is already installed in /scratch/users/dantopa/new-spack/strawman.pr.libhio/opt/spack/linux-centos7-x86_64/gcc-4.8.5/openmpi-3.1.3-pdfogzxfyi3pkzjj5wo5rvnedhl5b67a
+==> hdf5 is already installed in /scratch/users/dantopa/new-spack/strawman.pr.libhio/opt/spack/linux-centos7-x86_64/gcc-4.8.5/hdf5-1.10.4-gyrb67gixig44xb2zx55uh43ygam52ju
+==> autoconf@2.69 : externally installed in /usr
+==> autoconf@2.69 : already registered in DB
+==> json-c is already installed in /scratch/users/dantopa/new-spack/strawman.pr.libhio/opt/spack/linux-centos7-x86_64/gcc-4.8.5/json-c-0.13.1-iaq3vl7vqbzaxg6cq2xd5vorjmjh3mr3
+==> Installing libhio
+==> Searching for binary cache of libhio
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for libhio found: installing from source
+==> Warning: A dependency has updated CPATH, this may lead pkg-config to assume that the package is part of the system includes and omit it when invoked with '--cflags'.
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/libhio/libhio-1.4.1.0.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/libhio-1.4.1.0-5ir6fyn6e4r6ogvcnxbnpc2nuyj2fefi/libhio-1.4.1.0.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/libhio-1.4.1.0-5ir6fyn6e4r6ogvcnxbnpc2nuyj2fefi
+==> Applied patch /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/repos/builtin/packages/libhio/0001-configury-fix-a-problem-with-bz2-configury.patch
+==> Applied patch /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/repos/builtin/packages/libhio/0001-hdf5-make-docs-optional.patch
+==> Building libhio [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j40'
+
+6 errors found in build log:
+     249      CC       xexec_x-xexec_base.o
+     250      CC       xexec_x-xexec_fio.o
+     251      CC       xexec_x-xexec_hio.o
+     252      CC       xexec_x-xexec_mpi.o
+     253      CC       xexec_x-cw_misc.o
+     254      CCLD     xexec.x
+  >> 255    /usr/bin/ld: xexec_x-xexec_mpi.o: undefined reference to symbol 'MP
+            I_Init'
+  >> 256    /scratch/users/dantopa/new-spack/strawman.pr.libhio/opt/spack/linux
+            -centos7-x86_64/gcc-4.8.5/openmpi-3.1.3-pdfogzxfyi3pkzjj5wo5rvnedhl
+            5b67a/lib/libmpi.so.40: error adding symbols: DSO missing from comm
+            and line
+  >> 257    collect2: error: ld returned 1 exit status
+  >> 258    make[2]: *** [xexec.x] Error 1
+     259    make[2]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-UTM4Hq/libhio-1.4.1.0/test/xexec'
+  >> 260    make[1]: *** [all-recursive] Error 1
+     261    make[1]: Leaving directory `/ram/tmp/dantopa/spack-stage/spack-stag
+            e-UTM4Hq/libhio-1.4.1.0/test'
+  >> 262    make: *** [all-recursive] Error 1
+
+See build log for details:
+  /scratch/users/dantopa/new-spack/strawman.pr.libhio/var/spack/stage/libhio-1.4.1.0-5ir6fyn6e4r6ogvcnxbnpc2nuyj2fefi/libhio-1.4.1.0/spack-build.out
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files

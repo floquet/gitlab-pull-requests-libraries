@@ -1,0 +1,6 @@
+Hi Dan,
+We recently release UCX v1.5.0 https://github.com/openucx/ucx/releases/tag/v1.5.0
+Can you update Spack UCX version ?
+
+Thanks
+Pasha

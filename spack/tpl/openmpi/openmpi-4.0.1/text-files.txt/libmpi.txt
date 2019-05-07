@@ -1,0 +1,79 @@
+dantopa@darwin-fe2.lanl.gov:pr-openmpi-4.0.1.spack $ sfl openmpi
+==> 2 installed packages
+-- linux-centos7-x86_64 / gcc@4.8.5 -----------------------------
+rldccba    openmpi@4.0.1%gcc
+bkkhvej        ^hwloc@1.11.11%gcc
+5chyfxo            ^libpciaccess@0.13.5%gcc
+bcnjbc3            ^libxml2@2.9.8%gcc
+tt2hkol            ^numactl@2.0.12%gcc
+64vg6e4        ^zlib@1.2.11%gcc
+
+
+-- linux-rhel7-aarch64 / gcc@4.8.5 ------------------------------
+hto7x2h    openmpi@4.0.1%gcc
+7gqvelc        ^hwloc@1.11.11%gcc
+6a4he35            ^libpciaccess@0.13.5%gcc
+6a5uzd6            ^libxml2@2.9.8%gcc
+m5neuus            ^numactl@2.0.12%gcc
+67s2oqn        ^zlib@1.2.11%gcc
+
+dantopa@darwin-fe2.lanl.gov:pr-openmpi-4.0.1.spack $ spack location -i openmpi/rldccba
+/scratch/users/dantopa/new-spack/pr-openmpi-4.0.1.spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/openmpi-4.0.1-rldccbaweier2wesl7x4fmj7qqpfsojp
+
+dantopa@darwin-fe2.lanl.gov:pr-openmpi-4.0.1.spack $ cd opt/spack/linux-centos7-x86_64/gcc-4.8.5/openmpi-4.0.1-rldccbaweier2wesl7x4fmj7qqpfsojp/
+
+dantopa@darwin-fe2.lanl.gov:openmpi-4.0.1-rldccbaweier2wesl7x4fmj7qqpfsojp $ lss
+total 170K
+drwxr-sr-x 8 dantopa dantopa  8 Mar 27 11:50 .
+drwxrwxr-x 7 dantopa dantopa  7 Mar 27 11:43 ..
+drwxr-sr-x 2 dantopa dantopa 21 Mar 27 11:50 bin
+drwxr-sr-x 2 dantopa dantopa  6 Mar 27 11:50 etc
+drwxr-sr-x 3 dantopa dantopa 17 Mar 27 11:50 include
+drwxr-sr-x 4 dantopa dantopa 40 Mar 27 11:50 lib
+drwxr-sr-x 5 dantopa dantopa  5 Mar 27 11:50 share
+drwxr-sr-x 4 dantopa dantopa  7 Mar 27 11:50 .spack
+
+dantopa@darwin-fe2.lanl.gov:openmpi-4.0.1-rldccbaweier2wesl7x4fmj7qqpfsojp $ cd lib/
+
+dantopa@darwin-fe2.lanl.gov:lib $ lss
+total 27M
+drwxr-sr-x 4 dantopa dantopa   40 Mar 27 11:50 .
+drwxr-sr-x 8 dantopa dantopa    8 Mar 27 11:50 ..
+-rw-r--r-- 1 dantopa dantopa 5.6M Mar 27 11:50 libmpi.a
+-rw-r--r-- 1 dantopa dantopa 962K Mar 27 11:50 libmpi_cxx.a
+-rwxr-xr-x 1 dantopa dantopa 2.4K Mar 27 11:50 libmpi_cxx.la
+lrwxrwxrwx 1 dantopa dantopa   21 Mar 27 11:50 libmpi_cxx.so -> libmpi_cxx.so.40.20.0
+lrwxrwxrwx 1 dantopa dantopa   21 Mar 27 11:50 libmpi_cxx.so.40 -> libmpi_cxx.so.40.20.0
+-rwxr-xr-x 1 dantopa dantopa 143K Mar 27 11:50 libmpi_cxx.so.40.20.0
+-rwxr-xr-x 1 dantopa dantopa 2.2K Mar 27 11:50 libmpi.la
+-rw-r--r-- 1 dantopa dantopa 995K Mar 27 11:50 libmpi_mpifh.a
+-rwxr-xr-x 1 dantopa dantopa 2.4K Mar 27 11:50 libmpi_mpifh.la
+lrwxrwxrwx 1 dantopa dantopa   23 Mar 27 11:50 libmpi_mpifh.so -> libmpi_mpifh.so.40.20.1
+lrwxrwxrwx 1 dantopa dantopa   23 Mar 27 11:50 libmpi_mpifh.so.40 -> libmpi_mpifh.so.40.20.1
+-rwxr-xr-x 1 dantopa dantopa 561K Mar 27 11:50 libmpi_mpifh.so.40.20.1
+lrwxrwxrwx 1 dantopa dantopa   17 Mar 27 11:50 libmpi.so -> libmpi.so.40.20.1
+lrwxrwxrwx 1 dantopa dantopa   17 Mar 27 11:50 libmpi.so.40 -> libmpi.so.40.20.1
+-rwxr-xr-x 1 dantopa dantopa 2.8M Mar 27 11:50 libmpi.so.40.20.1
+-rw-r--r-- 1 dantopa dantopa  18K Mar 27 11:50 libmpi_usempi.a
+-rwxr-xr-x 1 dantopa dantopa 2.6K Mar 27 11:50 libmpi_usempi.la
+lrwxrwxrwx 1 dantopa dantopa   24 Mar 27 11:50 libmpi_usempi.so -> libmpi_usempi.so.40.20.0
+lrwxrwxrwx 1 dantopa dantopa   24 Mar 27 11:50 libmpi_usempi.so.40 -> libmpi_usempi.so.40.20.0
+-rwxr-xr-x 1 dantopa dantopa  14K Mar 27 11:50 libmpi_usempi.so.40.20.0
+-rw-r--r-- 1 dantopa dantopa  44K Mar 27 11:50 libompitrace.a
+-rwxr-xr-x 1 dantopa dantopa 1.9K Mar 27 11:50 libompitrace.la
+lrwxrwxrwx 1 dantopa dantopa   23 Mar 27 11:50 libompitrace.so -> libompitrace.so.40.20.0
+lrwxrwxrwx 1 dantopa dantopa   23 Mar 27 11:50 libompitrace.so.40 -> libompitrace.so.40.20.0
+-rwxr-xr-x 1 dantopa dantopa  23K Mar 27 11:50 libompitrace.so.40.20.0
+-rw-r--r-- 1 dantopa dantopa 6.1M Mar 27 11:50 libopen-pal.a
+-rwxr-xr-x 1 dantopa dantopa 2.0K Mar 27 11:50 libopen-pal.la
+lrwxrwxrwx 1 dantopa dantopa   22 Mar 27 11:50 libopen-pal.so -> libopen-pal.so.40.20.1
+lrwxrwxrwx 1 dantopa dantopa   22 Mar 27 11:50 libopen-pal.so.40 -> libopen-pal.so.40.20.1
+-rwxr-xr-x 1 dantopa dantopa 3.4M Mar 27 11:50 libopen-pal.so.40.20.1
+-rw-r--r-- 1 dantopa dantopa 3.0M Mar 27 11:50 libopen-rte.a
+-rwxr-xr-x 1 dantopa dantopa 2.1K Mar 27 11:50 libopen-rte.la
+lrwxrwxrwx 1 dantopa dantopa   22 Mar 27 11:50 libopen-rte.so -> libopen-rte.so.40.20.1
+lrwxrwxrwx 1 dantopa dantopa   22 Mar 27 11:50 libopen-rte.so.40 -> libopen-rte.so.40.20.1
+-rwxr-xr-x 1 dantopa dantopa 1.5M Mar 27 11:50 libopen-rte.so.40.20.1
+-rwxr-xr-x 1 dantopa dantopa 423K Mar 27 11:50 mpi.mod
+drwxr-sr-x 2 dantopa dantopa    5 Mar 27 11:50 openmpi
+drwxr-sr-x 2 dantopa dantopa    9 Mar 27 11:50 pkgconfig

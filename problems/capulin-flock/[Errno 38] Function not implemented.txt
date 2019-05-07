@@ -1,0 +1,84 @@
+dantopa@cp-loginy:spack-develop-2019-03-13 $ date
+Thu Mar 14 12:17:19 MDT 2019
+dantopa@cp-loginy:spack-develop-2019-03-13 $ pwd
+/lustre/cpscratch1/dantopa/repos/github/spack-develop-2019-03-13
+dantopa@cp-loginy:spack-develop-2019-03-13 $ spack -d install libelf
+==> [2019-03-14-12:17:22.529748] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-03-14-12:17:22.583951] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'avail' '-t' 'craype-'
+==> [2019-03-14-12:17:22.651700] '/usr/bin/env' '-' 'USER=dantopa' 'HOME=/users/dantopa' '/bin/bash' '--noprofile' '--norc' '-c' '. /etc/profile; module list -lt'
+==> [2019-03-14-12:17:23.525192] Found default modules:
+       modules/3.2.11.1
+       pdsh/2.27-6.0.7.0_43.1__g70b69a8.ari
+       nodestat/2.3.85-6.0.7.0_32.1__gc6218bb.ari
+       sdb/3.3.775-6.0.7.0_32.2__gb339c00.ari
+       udreg/2.3.2-6.0.7.0_33.11__g5196236.ari
+       ugni/6.0.14.0-6.0.7.0_23.1__gea11d3d.ari
+       gni-headers/5.0.12.0-6.0.7.0_24.1__g3b1768f.ari
+       dmapp/7.1.1-6.0.7.0_34.3__g5a674e0.ari
+       xpmem/2.2.15-6.0.7.1_5.11__g7549d06.ari
+       llm/21.3.530-6.0.7.0_39.1__g3b4230e.ari
+       nodehealth/5.6.14-6.0.7.1_8.3__gd6a82f3.ari
+       system-config/3.5.2790-6.0.7.1_7.1__g7767d3c6.ari
+       cnat/6.4.4-6.0.7.0_35.3__g4386fe6.ari
+       slurm/18.08.3-1
+       Base-opts/2.4.135-6.0.7.0_38.1__g718f891.ari
+       cce/8.7.5
+       craype-network-aries
+       craype/2.5.15
+       cray-libsci/18.12.1
+       pmi/5.0.14
+       atp/2.1.3
+       rca/2.2.18-6.0.7.0_33.2__g2aa4f39.ari
+       perftools-base/7.0.4
+       PrgEnv-cray/6.0.5
+       cray-mpich/7.7.5
+       craype-arm-thunderx2
+==> [2019-03-14-12:17:23.570067] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-03-14-12:17:23.617003] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'avail' 'PrgEnv-'
+==> [2019-03-14-12:17:23.823690] Reading config file /lustre/cpscratch1/dantopa/repos/github/spack-develop-2019-03-13/etc/spack/defaults/modules.yaml
+==> [2019-03-14-12:17:23.889724] Reading config file /lustre/cpscratch1/dantopa/repos/github/spack-develop-2019-03-13/etc/spack/defaults/config.yaml
+==> [2019-03-14-12:17:23.988800] Reading config file /lustre/cpscratch1/dantopa/repos/github/spack-develop-2019-03-13/etc/spack/defaults/repos.yaml
+==> [2019-03-14-12:17:24.218918] Reading config file /lustre/cpscratch1/dantopa/repos/github/spack-develop-2019-03-13/etc/spack/defaults/packages.yaml
+==> [2019-03-14-12:17:24.317221] READ LOCK: /users/dantopa/.spack/cache/tags/.builtin-index.json.lock[0:0] [Acquiring]
+==> [2019-03-14-12:17:24.319783] READ LOCK: /users/dantopa/.spack/cache/tags/.builtin-index.json.lock[0:0] [Acquired]
+==> [2019-03-14-12:17:24.321974] READ LOCK: /users/dantopa/.spack/cache/tags/.builtin-index.json.lock[0:0] [Released]
+==> [2019-03-14-12:17:24.328244] READ LOCK: /users/dantopa/.spack/cache/patches/.builtin-index.json.lock[0:0] [Acquiring]
+==> [2019-03-14-12:17:24.330525] READ LOCK: /users/dantopa/.spack/cache/patches/.builtin-index.json.lock[0:0] [Acquired]
+==> [2019-03-14-12:17:24.357115] READ LOCK: /users/dantopa/.spack/cache/patches/.builtin-index.json.lock[0:0] [Released]
+==> [2019-03-14-12:17:24.363710] READ LOCK: /users/dantopa/.spack/cache/providers/.builtin-index.json.lock[0:0] [Acquiring]
+==> [2019-03-14-12:17:24.366146] READ LOCK: /users/dantopa/.spack/cache/providers/.builtin-index.json.lock[0:0] [Acquired]
+==> [2019-03-14-12:17:24.420659] READ LOCK: /users/dantopa/.spack/cache/providers/.builtin-index.json.lock[0:0] [Released]
+==> [2019-03-14-12:17:24.436663] Reading config file /lustre/cpscratch1/dantopa/repos/github/spack-develop-2019-03-13/etc/spack/defaults/compilers.yaml
+==> [2019-03-14-12:17:24.499096] DATABASE LOCK TIMEOUT: 120s
+==> [2019-03-14-12:17:24.499216] PACKAGE LOCK TIMEOUT: No timeout
+==> [2019-03-14-12:17:24.501708] WRITE LOCK: /lustre/cpscratch1/dantopa/repos/github/spack-develop-2019-03-13/opt/spack/.spack-db/prefix_lock[6259439537645145778:1] [Acquiring]
+Traceback (most recent call last):
+  File "/lustre/cpscratch1/dantopa/repos/github/spack-develop-2019-03-13/bin/spack", line 48, in <module>
+    sys.exit(spack.main.main())
+  File "/lustre/cpscratch1/dantopa/repos/github/spack-develop-2019-03-13/lib/spack/spack/main.py", line 675, in main
+    return _invoke_command(command, parser, args, unknown)
+  File "/lustre/cpscratch1/dantopa/repos/github/spack-develop-2019-03-13/lib/spack/spack/main.py", line 446, in _invoke_command
+    return_val = command(parser, args)
+  File "/lustre/cpscratch1/dantopa/repos/github/spack-develop-2019-03-13/lib/spack/spack/cmd/install.py", line 325, in install
+    install_spec(args, kwargs, abstract, concrete)
+  File "/lustre/cpscratch1/dantopa/repos/github/spack-develop-2019-03-13/lib/spack/spack/cmd/install.py", line 197, in install_spec
+    install(spec, kwargs)
+  File "/lustre/cpscratch1/dantopa/repos/github/spack-develop-2019-03-13/lib/spack/spack/cmd/install.py", line 186, in install
+    spec.package.do_install(**kwargs)
+  File "/lustre/cpscratch1/dantopa/repos/github/spack-develop-2019-03-13/lib/spack/spack/package.py", line 1405, in do_install
+    partial = self.check_for_unfinished_installation(keep_prefix, restage)
+  File "/lustre/cpscratch1/dantopa/repos/github/spack-develop-2019-03-13/lib/spack/spack/package.py", line 1643, in check_for_unfinished_installation
+    with spack.store.db.prefix_write_lock(self.spec):
+  File "/usr/lib64/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/lustre/cpscratch1/dantopa/repos/github/spack-develop-2019-03-13/lib/spack/spack/database.py", line 257, in prefix_write_lock
+    prefix_lock.acquire_write()
+  File "/lustre/cpscratch1/dantopa/repos/github/spack-develop-2019-03-13/lib/spack/llnl/util/lock.py", line 279, in acquire_write
+    wait_time, nattempts = self._lock(fcntl.LOCK_EX, timeout=timeout)
+  File "/lustre/cpscratch1/dantopa/repos/github/spack-develop-2019-03-13/lib/spack/spack/util/lock.py", line 31, in _lock
+    return super(Lock, self)._lock(op, timeout)
+  File "/lustre/cpscratch1/dantopa/repos/github/spack-develop-2019-03-13/lib/spack/llnl/util/lock.py", line 140, in _lock
+    if self._poll_lock(op):
+  File "/lustre/cpscratch1/dantopa/repos/github/spack-develop-2019-03-13/lib/spack/llnl/util/lock.py", line 160, in _poll_lock
+    self._length, self._start, os.SEEK_SET)
+IOError: [Errno 38] Function not implemented

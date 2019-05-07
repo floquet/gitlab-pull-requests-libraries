@@ -1,145 +1,739 @@
-Mon Apr 29 10:16:16 MDT 2019 /var/spool/slurmd/job2818709/slurm_script
+Mon Apr 29 10:37:57 MDT 2019 /var/spool/slurmd/job2818748/slurm_script
+source /users/dantopa/libraries-snow.sh
+Mon Apr 29 10:37:57 MDT 2019 [1m/users/dantopa/libraries-snow.sh(B[m
 source "${dir_tools}/bash/master-tpl-sweep.sh"
-Mon Apr 29 10:16:16 MDT 2019 /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh
+Mon Apr 29 10:37:57 MDT 2019 /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh
 cd /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools
 source directories/libraries-snow.sh
-Mon Apr 29 10:16:16 MDT 2019 [1mdirectories/libraries-snow.sh(B[m
+Mon Apr 29 10:37:57 MDT 2019 [1mdirectories/libraries-snow.sh(B[m
 source tpl-versions/versions-openmpi.sh
-Mon Apr 29 10:16:16 MDT 2019 [1mtpl-versions/versions-openmpi.sh(B[m
+Mon Apr 29 10:37:57 MDT 2019 [1mtpl-versions/versions-openmpi.sh(B[m
 4 openmpi versions loaded:
 4.0.1  3.1.4  3.0.4  2.1.6
 
 source compilers/compilers-snow-standard.sh
-Mon Apr 29 10:16:16 MDT 2019 [1mcompilers/compilers-snow-standard.sh(B[m
+Mon Apr 29 10:37:57 MDT 2019 [1mcompilers/compilers-snow-standard.sh(B[m
 11 Spack-recognized compilers loaded:
 gcc@8.2.0  gcc@7.4.0  gcc@6.4.0  gcc@5.3.0 intel@19.0.1.144  intel@18.0.5  intel@17.0.4  intel@16.0.3 pgi@18.10  pgi@17.10  pgi@16.10
 
 source klingons/snow-standard-openmpi.sh
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 36: klingons/snow-standard-openmpi.sh: No such file or directory
-cd /net/scratch4/dantopa/spack/libraries/snow-standard.openmpi
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 39: cd: /net/scratch4/dantopa/spack/libraries/snow-standard.openmpi: No such file or directory
+/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 37: klingons/snow-standard-openmpi.sh: No such file or directory
+cd /net/scratch4/dantopa/repos/spack/libraries/snow-standard.openmpi
 . share/spack/setup-env.sh
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 42: share/spack/setup-env.sh: No such file or directory
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 45: spack: command not found
-export spack_architecture='arch='
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 46: spack: command not found
+export spack_architecture='arch=linux-rhel7-x86_64'
 spack clean -a
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 49: spack: command not found
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
 spack compilers
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 52: spack: command not found
+==> Available compilers
+-- gcc rhel7-x86_64 ---------------------------------------------
+gcc@8.2.0
+gcc@7.4.0
+gcc@6.4.0
+gcc@4.8.5
+
+-- intel rhel7-x86_64 -------------------------------------------
+intel@19.0.1
+intel@18.0.5
+intel@17.0.4
+
+-- pgi rhel7-x86_64 ---------------------------------------------
+pgi@18.10
+pgi@17.10
+pgi@16.10
 ls -alh etc/spack/defaults
-ls: cannot access etc/spack/defaults: No such file or directory
+total 450K
+drwxrwx--- 4 dantopa dantopa  13K Apr 16 12:03 .
+drwxrwx--- 3 dantopa dantopa  12K Jan 22 11:59 ..
+-rw-r----- 1 dantopa dantopa 5.5K Apr  4 12:57 compilers.yaml
+-rw-rw---- 1 dantopa dantopa 4.4K Apr  4 12:57 config.yaml
+drwxrwx--- 2 dantopa dantopa  12K Jan 22 11:59 darwin
+drwxrwx--- 2 dantopa dantopa  12K Jan 22 11:59 linux
+-rw-rw---- 1 dantopa dantopa 2.8K Apr  4 12:57 lmod-modules.yaml
+-rw-rw---- 1 dantopa dantopa  137 Apr  4 12:57 mirrors.yaml
+-rw-rw---- 1 dantopa dantopa 3.4K Apr  4 12:57 modules.yaml
+-rw-rw---- 1 dantopa dantopa 3.9K Apr  4 12:57 packages.yaml
+-rw-rw---- 1 dantopa dantopa  530 Apr  4 12:57 release.yaml
+-rw-rw---- 1 dantopa dantopa  546 Apr  4 12:57 repos.yaml
+-rw-r----- 1 dantopa dantopa 5.5K Apr  4 12:57 snow-toss-2019-03-compilers.yaml
+-rw-rw---- 1 dantopa dantopa 3.4K Apr  4 12:57 tcl-modules.yaml
 cat etc/spack/defaults/compilers.yaml
-cat: etc/spack/defaults/compilers.yaml: No such file or directory
+## gcc    4.8.5, 6.4.0, 7.4.0, 8.2.0
+## intel  17.0.4, 18.0.5, 19.0.1
+## pgi    16.10, 17.10, 18.10
+compilers:
+  #  #  gcc
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc:  /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc:  /usr/bin/gfortran
+    spec: gcc@4.8.5
+    target: x86_64
+    #
+- compiler:  #
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [gcc/6.4.0]
+    operating_system: rhel7
+    paths:
+      cc:  /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/gcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/g++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/gfortran
+      fc:  /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/gfortran
+    spec: gcc@6.4.0
+    target: x86_64
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/7.4.0
+    operating_system: rhel7
+    paths:
+      cc:  /yellow/usr/projects/hpcsoft/toss3/common/gcc/7.4.0/bin/gcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/gcc/7.4.0/bin/g++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/gcc/7.4.0/bin/gfortran
+      fc:  /yellow/usr/projects/hpcsoft/toss3/common/gcc/7.4.0/bin/gfortran
+    spec: gcc@7.4.0
+    target: x86_64
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - friendly-testing
+    - gcc/8.2.0
+    operating_system: rhel7
+    paths:
+      cc:  /projects/opt/rhel7/gcc/8.2.0/bin/gcc
+      cxx: /projects/opt/rhel7/gcc/8.2.0/bin/g++
+      f77: /projects/opt/rhel7/gcc/8.2.0/bin/gfortran
+      fc:  /projects/opt/rhel7/gcc/8.2.0/bin/gfortran
+    spec: gcc@8.2.0
+    target: x86_64
+  #  #  intel
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - intel/17.0.4
+    operating_system: rhel7
+    paths:
+      cc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/icc
+      cxx: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/icpc
+      f77: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/ifort
+      fc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/ifort
+    spec: intel@17.0.4
+    target: x86_64
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - friendly-testing
+    - intel/18.0.5
+    operating_system: rhel7
+    paths:
+      cc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/icc
+      cxx: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/icpc
+      f77: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/ifort
+      fc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/ifort
+    spec: intel@18.0.5
+    target: x86_64
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - friendly-testing
+    - intel/19.0.1
+    operating_system: rhel7
+    paths:
+      cc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.1.053/compilers_and_libraries_2019/linux/bin/intel64/icc
+      cxx: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.1.053/compilers_and_libraries_2019/linux/bin/intel64/icpc
+      f77: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.1.053/compilers_and_libraries_2019/linux/bin/intel64/ifort
+      fc:  /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.1.053/compilers_and_libraries_2019/linux/bin/intel64/ifort
+    spec: intel@19.0.1
+    target: x86_64
+  #  #  pgi
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/16.10
+    operating_system: rhel7
+    paths:
+      cc:  /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin/pgcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin/pgc++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin/pgfortran
+      fc:  /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin/pgfortran
+    spec: pgi@16.10
+    target: x86_64
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/17.10
+    operating_system: rhel7
+    paths:
+      cc:  /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/18.10/bin/pgcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/18.10/bin/pgc++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/18.10/bin/pgf77
+      fc:  /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/18.10/bin/pgf90
+    spec: pgi@17.10
+    target: x86_64
+    #
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/18.10
+    operating_system: rhel7
+    paths:
+      cc:  /yellow/usr/projects/hpcsoft/toss3/common/pgi/18.10/linux86-64/18.10/bin/pgcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/pgi/18.10/linux86-64/18.10/bin/pgc++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/pgi/18.10/linux86-64/18.10/bin/pgf77
+      fc:  /yellow/usr/projects/hpcsoft/toss3/common/pgi/18.10/linux86-64/18.10/bin/pgf90
+    spec: pgi@18.10
+    target: x86_64
 spack config get compilers
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 61: spack: command not found
-spack install openmpi @ 4.0.1 % gcc@8.2.0  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 4.0.1 % gcc@7.4.0  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 4.0.1 % gcc@6.4.0  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 4.0.1 % gcc@5.3.0  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 4.0.1 % intel@19.0.1.144  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 4.0.1 % intel@18.0.5  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 4.0.1 % intel@17.0.4  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 4.0.1 % intel@16.0.3  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 4.0.1 % pgi@18.10  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 4.0.1 % pgi@17.10  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 4.0.1 % pgi@16.10  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 3.1.4 % gcc@8.2.0  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 3.1.4 % gcc@7.4.0  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 3.1.4 % gcc@6.4.0  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 3.1.4 % gcc@5.3.0  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 3.1.4 % intel@19.0.1.144  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 3.1.4 % intel@18.0.5  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 3.1.4 % intel@17.0.4  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 3.1.4 % intel@16.0.3  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 3.1.4 % pgi@18.10  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 3.1.4 % pgi@17.10  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 3.1.4 % pgi@16.10  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 3.0.4 % gcc@8.2.0  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 3.0.4 % gcc@7.4.0  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 3.0.4 % gcc@6.4.0  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 3.0.4 % gcc@5.3.0  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 3.0.4 % intel@19.0.1.144  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 3.0.4 % intel@18.0.5  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 3.0.4 % intel@17.0.4  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 3.0.4 % intel@16.0.3  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 3.0.4 % pgi@18.10  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 3.0.4 % pgi@17.10  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 3.0.4 % pgi@16.10  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 2.1.6 % gcc@8.2.0  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 2.1.6 % gcc@7.4.0  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 2.1.6 % gcc@6.4.0  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 2.1.6 % gcc@5.3.0  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 2.1.6 % intel@19.0.1.144  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 2.1.6 % intel@18.0.5  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 2.1.6 % intel@17.0.4  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 2.1.6 % intel@16.0.3  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 2.1.6 % pgi@18.10  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 2.1.6 % pgi@17.10  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
-spack install openmpi @ 2.1.6 % pgi@16.10  arch= 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 79: spack: command not found
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel7
+    paths:
+      cc: /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc: /usr/bin/gfortran
+    spec: gcc@4.8.5
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/6.4.0
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/gcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/g++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/gfortran
+      fc: /yellow/usr/projects/hpcsoft/toss3/common/gcc/6.4.0/bin/gfortran
+    spec: gcc@6.4.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - gcc/7.4.0
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss3/common/gcc/7.4.0/bin/gcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/gcc/7.4.0/bin/g++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/gcc/7.4.0/bin/gfortran
+      fc: /yellow/usr/projects/hpcsoft/toss3/common/gcc/7.4.0/bin/gfortran
+    spec: gcc@7.4.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - friendly-testing
+    - gcc/8.2.0
+    operating_system: rhel7
+    paths:
+      cc: /projects/opt/rhel7/gcc/8.2.0/bin/gcc
+      cxx: /projects/opt/rhel7/gcc/8.2.0/bin/g++
+      f77: /projects/opt/rhel7/gcc/8.2.0/bin/gfortran
+      fc: /projects/opt/rhel7/gcc/8.2.0/bin/gfortran
+    spec: gcc@8.2.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - intel/17.0.4
+    operating_system: rhel7
+    paths:
+      cc: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/icc
+      cxx: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/icpc
+      f77: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/ifort
+      fc: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2017.4.056/compilers_and_libraries_2017/linux/bin/intel64/ifort
+    spec: intel@17.0.4
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - friendly-testing
+    - intel/18.0.5
+    operating_system: rhel7
+    paths:
+      cc: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/icc
+      cxx: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/icpc
+      f77: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/ifort
+      fc: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2018.4.057/compilers_and_libraries_2018/linux/bin/intel64/ifort
+    spec: intel@18.0.5
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - friendly-testing
+    - intel/19.0.1
+    operating_system: rhel7
+    paths:
+      cc: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.1.053/compilers_and_libraries_2019/linux/bin/intel64/icc
+      cxx: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.1.053/compilers_and_libraries_2019/linux/bin/intel64/icpc
+      f77: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.1.053/compilers_and_libraries_2019/linux/bin/intel64/ifort
+      fc: /usr/projects/hpcsoft/toss3/common/intel-clusterstudio/2019.1.053/compilers_and_libraries_2019/linux/bin/intel64/ifort
+    spec: intel@19.0.1
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/16.10
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin/pgcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin/pgc++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin/pgfortran
+      fc: /yellow/usr/projects/hpcsoft/toss3/common/pgi/16.10/linux86-64/16.10/bin/pgfortran
+    spec: pgi@16.10
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/17.10
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/18.10/bin/pgcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/18.10/bin/pgc++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/18.10/bin/pgf77
+      fc: /yellow/usr/projects/hpcsoft/toss3/common/pgi/17.10/linux86-64/18.10/bin/pgf90
+    spec: pgi@17.10
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules:
+    - pgi/18.10
+    operating_system: rhel7
+    paths:
+      cc: /yellow/usr/projects/hpcsoft/toss3/common/pgi/18.10/linux86-64/18.10/bin/pgcc
+      cxx: /yellow/usr/projects/hpcsoft/toss3/common/pgi/18.10/linux86-64/18.10/bin/pgc++
+      f77: /yellow/usr/projects/hpcsoft/toss3/common/pgi/18.10/linux86-64/18.10/bin/pgf77
+      fc: /yellow/usr/projects/hpcsoft/toss3/common/pgi/18.10/linux86-64/18.10/bin/pgf90
+    spec: pgi@18.10
+    target: x86_64
+spack install openmpi @ 4.0.1 % gcc@8.2.0  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /net/scratch4/.mdt2/dantopa/repos/spack/libraries/snow-standard.openmpi/opt/spack/linux-rhel7-x86_64/gcc-8.2.0/util-macros-1.19.1-qi2tteo2e6bidg3r5xxrs7iqdbhdr5hx
+spack install openmpi @ 4.0.1 % gcc@7.4.0  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /net/scratch4/.mdt2/dantopa/repos/spack/libraries/snow-standard.openmpi/opt/spack/linux-rhel7-x86_64/gcc-7.4.0/openmpi-4.0.1-stefmjjflhj7exssid323wlhrebtn664
+spack install openmpi @ 4.0.1 % gcc@6.4.0  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /net/scratch4/.mdt2/dantopa/repos/spack/libraries/snow-standard.openmpi/opt/spack/linux-rhel7-x86_64/gcc-6.4.0/openmpi-4.0.1-rbvkudxxyz2dtx5fgylwzfcirtsmc46s
+spack install openmpi @ 4.0.1 % gcc@5.3.0  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: No compilers with spec gcc@5.3.0 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 4.0.1 % intel@19.0.1.144  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: No compilers with spec intel@19.0.1.144 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 4.0.1 % intel@18.0.5  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /net/scratch4/.mdt2/dantopa/repos/spack/libraries/snow-standard.openmpi/opt/spack/linux-rhel7-x86_64/intel-18.0.5/openmpi-4.0.1-mj2exoh7jhd4hs67ivnsukinm2hokdvs
+spack install openmpi @ 4.0.1 % intel@17.0.4  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /net/scratch4/.mdt2/dantopa/repos/spack/libraries/snow-standard.openmpi/opt/spack/linux-rhel7-x86_64/intel-17.0.4/openmpi-4.0.1-6j7q3wkyttngkcmolyajaxoam3h5ungd
+spack install openmpi @ 4.0.1 % intel@16.0.3  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: No compilers with spec intel@16.0.3 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 4.0.1 % pgi@18.10  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /net/scratch4/.mdt2/dantopa/repos/spack/libraries/snow-standard.openmpi/opt/spack/linux-rhel7-x86_64/pgi-18.10/util-macros-1.19.1-uy5axk4iooak2l26lr3qrygdbzlanpsd
+spack install openmpi @ 4.0.1 % pgi@17.10  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /net/scratch4/.mdt2/dantopa/repos/spack/libraries/snow-standard.openmpi/opt/spack/linux-rhel7-x86_64/pgi-17.10/util-macros-1.19.1-ubfzjlnuuxdxcos4jhw64t5fycs3hbzr
+spack install openmpi @ 4.0.1 % pgi@16.10  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /net/scratch4/.mdt2/dantopa/repos/spack/libraries/snow-standard.openmpi/opt/spack/linux-rhel7-x86_64/pgi-16.10/util-macros-1.19.1-yir4ak2ltwr44psmxiqkiqprjg6swjv4
+spack install openmpi @ 3.1.4 % gcc@8.2.0  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /net/scratch4/.mdt2/dantopa/repos/spack/libraries/snow-standard.openmpi/opt/spack/linux-rhel7-x86_64/gcc-8.2.0/util-macros-1.19.1-qi2tteo2e6bidg3r5xxrs7iqdbhdr5hx
+spack install openmpi @ 3.1.4 % gcc@7.4.0  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /net/scratch4/.mdt2/dantopa/repos/spack/libraries/snow-standard.openmpi/opt/spack/linux-rhel7-x86_64/gcc-7.4.0/openmpi-3.1.4-qfsk52youf53ez6ye6kbrsjdbxbu26wd
+spack install openmpi @ 3.1.4 % gcc@6.4.0  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /net/scratch4/.mdt2/dantopa/repos/spack/libraries/snow-standard.openmpi/opt/spack/linux-rhel7-x86_64/gcc-6.4.0/openmpi-3.1.4-ay2ouotueyu2jyxyxlrwxmxzoaadeziw
+spack install openmpi @ 3.1.4 % gcc@5.3.0  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: No compilers with spec gcc@5.3.0 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 3.1.4 % intel@19.0.1.144  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: No compilers with spec intel@19.0.1.144 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 3.1.4 % intel@18.0.5  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /net/scratch4/.mdt2/dantopa/repos/spack/libraries/snow-standard.openmpi/opt/spack/linux-rhel7-x86_64/intel-18.0.5/openmpi-3.1.4-imuu3kyob4gvzo2we3lvrhlegsc57pod
+spack install openmpi @ 3.1.4 % intel@17.0.4  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /net/scratch4/.mdt2/dantopa/repos/spack/libraries/snow-standard.openmpi/opt/spack/linux-rhel7-x86_64/intel-17.0.4/openmpi-3.1.4-6fnoofphf52kalx3jirwb6ipye2vxm4o
+spack install openmpi @ 3.1.4 % intel@16.0.3  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: No compilers with spec intel@16.0.3 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 3.1.4 % pgi@18.10  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /net/scratch4/.mdt2/dantopa/repos/spack/libraries/snow-standard.openmpi/opt/spack/linux-rhel7-x86_64/pgi-18.10/util-macros-1.19.1-uy5axk4iooak2l26lr3qrygdbzlanpsd
+spack install openmpi @ 3.1.4 % pgi@17.10  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /net/scratch4/.mdt2/dantopa/repos/spack/libraries/snow-standard.openmpi/opt/spack/linux-rhel7-x86_64/pgi-17.10/util-macros-1.19.1-ubfzjlnuuxdxcos4jhw64t5fycs3hbzr
+spack install openmpi @ 3.1.4 % pgi@16.10  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /net/scratch4/.mdt2/dantopa/repos/spack/libraries/snow-standard.openmpi/opt/spack/linux-rhel7-x86_64/pgi-16.10/util-macros-1.19.1-yir4ak2ltwr44psmxiqkiqprjg6swjv4
+spack install openmpi @ 3.0.4 % gcc@8.2.0  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /net/scratch4/.mdt2/dantopa/repos/spack/libraries/snow-standard.openmpi/opt/spack/linux-rhel7-x86_64/gcc-8.2.0/util-macros-1.19.1-qi2tteo2e6bidg3r5xxrs7iqdbhdr5hx
+spack install openmpi @ 3.0.4 % gcc@7.4.0  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /net/scratch4/.mdt2/dantopa/repos/spack/libraries/snow-standard.openmpi/opt/spack/linux-rhel7-x86_64/gcc-7.4.0/openmpi-3.0.4-jk5aebp3ww5wldrkjiklcmwjsshnbi2d
+spack install openmpi @ 3.0.4 % gcc@6.4.0  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /net/scratch4/.mdt2/dantopa/repos/spack/libraries/snow-standard.openmpi/opt/spack/linux-rhel7-x86_64/gcc-6.4.0/openmpi-3.0.4-34ssp4a6wjzyejlsso4hsytjw3zsgv5p
+spack install openmpi @ 3.0.4 % gcc@5.3.0  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: No compilers with spec gcc@5.3.0 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 3.0.4 % intel@19.0.1.144  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: No compilers with spec intel@19.0.1.144 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 3.0.4 % intel@18.0.5  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /net/scratch4/.mdt2/dantopa/repos/spack/libraries/snow-standard.openmpi/opt/spack/linux-rhel7-x86_64/intel-18.0.5/openmpi-3.0.4-lhejpta57pitt25s7oeqok3cspcrvub6
+spack install openmpi @ 3.0.4 % intel@17.0.4  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /net/scratch4/.mdt2/dantopa/repos/spack/libraries/snow-standard.openmpi/opt/spack/linux-rhel7-x86_64/intel-17.0.4/openmpi-3.0.4-h4kvur5iwrtzlh5jwvxdzemg5do7prus
+spack install openmpi @ 3.0.4 % intel@16.0.3  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: No compilers with spec intel@16.0.3 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 3.0.4 % pgi@18.10  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /net/scratch4/.mdt2/dantopa/repos/spack/libraries/snow-standard.openmpi/opt/spack/linux-rhel7-x86_64/pgi-18.10/util-macros-1.19.1-uy5axk4iooak2l26lr3qrygdbzlanpsd
+spack install openmpi @ 3.0.4 % pgi@17.10  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /net/scratch4/.mdt2/dantopa/repos/spack/libraries/snow-standard.openmpi/opt/spack/linux-rhel7-x86_64/pgi-17.10/util-macros-1.19.1-ubfzjlnuuxdxcos4jhw64t5fycs3hbzr
+spack install openmpi @ 3.0.4 % pgi@16.10  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /net/scratch4/.mdt2/dantopa/repos/spack/libraries/snow-standard.openmpi/opt/spack/linux-rhel7-x86_64/pgi-16.10/util-macros-1.19.1-yir4ak2ltwr44psmxiqkiqprjg6swjv4
+spack install openmpi @ 2.1.6 % gcc@8.2.0  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /net/scratch4/.mdt2/dantopa/repos/spack/libraries/snow-standard.openmpi/opt/spack/linux-rhel7-x86_64/gcc-8.2.0/util-macros-1.19.1-qi2tteo2e6bidg3r5xxrs7iqdbhdr5hx
+spack install openmpi @ 2.1.6 % gcc@7.4.0  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /net/scratch4/.mdt2/dantopa/repos/spack/libraries/snow-standard.openmpi/opt/spack/linux-rhel7-x86_64/gcc-7.4.0/openmpi-2.1.6-sxs46cavin6fc7at5p4s3o7xlo4hy26i
+spack install openmpi @ 2.1.6 % gcc@6.4.0  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /net/scratch4/.mdt2/dantopa/repos/spack/libraries/snow-standard.openmpi/opt/spack/linux-rhel7-x86_64/gcc-6.4.0/openmpi-2.1.6-yedlal47pwtxbwydtcvnm7yzhk7jk2qe
+spack install openmpi @ 2.1.6 % gcc@5.3.0  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: No compilers with spec gcc@5.3.0 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 2.1.6 % intel@19.0.1.144  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: No compilers with spec intel@19.0.1.144 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 2.1.6 % intel@18.0.5  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /net/scratch4/.mdt2/dantopa/repos/spack/libraries/snow-standard.openmpi/opt/spack/linux-rhel7-x86_64/intel-18.0.5/openmpi-2.1.6-but4y5d4yjc5cudsoyxth54il5tvdiah
+spack install openmpi @ 2.1.6 % intel@17.0.4  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /net/scratch4/.mdt2/dantopa/repos/spack/libraries/snow-standard.openmpi/opt/spack/linux-rhel7-x86_64/intel-17.0.4/openmpi-2.1.6-vt6kpuuwaundnbs3j2xeb6z3peyt3n7y
+spack install openmpi @ 2.1.6 % intel@16.0.3  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: No compilers with spec intel@16.0.3 found for operating system rhel7 and target x86_64.
+Run 'spack compiler find' to add compilers.
+spack install openmpi @ 2.1.6 % pgi@18.10  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /net/scratch4/.mdt2/dantopa/repos/spack/libraries/snow-standard.openmpi/opt/spack/linux-rhel7-x86_64/pgi-18.10/util-macros-1.19.1-uy5axk4iooak2l26lr3qrygdbzlanpsd
+spack install openmpi @ 2.1.6 % pgi@17.10  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /net/scratch4/.mdt2/dantopa/repos/spack/libraries/snow-standard.openmpi/opt/spack/linux-rhel7-x86_64/pgi-17.10/util-macros-1.19.1-ubfzjlnuuxdxcos4jhw64t5fycs3hbzr
+spack install openmpi @ 2.1.6 % pgi@16.10  arch=linux-rhel7-x86_64 2>&1 >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/install-log/snow-standard-openmpi-install.log
+==> Error: Install prefix exists but contains no spec.yaml:
+  /net/scratch4/.mdt2/dantopa/repos/spack/libraries/snow-standard.openmpi/opt/spack/linux-rhel7-x86_64/pgi-16.10/util-macros-1.19.1-yir4ak2ltwr44psmxiqkiqprjg6swjv4
 spack clean -a
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 84: spack: command not found
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
 mkdir -p "${dir_results}/platform-order"
 mkdir -p "${dir_results}/tpl-order"
 mkdir -p "${dir_results}/graphs"
 spack find openmpi >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/platform-order/snow-standard-openmpi.out
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 100: spack: command not found
 spack find openmpi >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/openmpi-snow-standard.out
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 108: spack: command not found
 spack find -ldf openmpi  >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/tpl-order/openmpi-snow-standard-ldf.out
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 115: spack: command not found
 spack graph openmpi >> /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/graphs/openmpi-snow-standard-graph.out
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 123: spack: command not found
 spack compilers
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 127: spack: command not found
+==> Available compilers
+-- gcc rhel7-x86_64 ---------------------------------------------
+gcc@8.2.0
+gcc@7.4.0
+gcc@6.4.0
+gcc@4.8.5
+
+-- intel rhel7-x86_64 -------------------------------------------
+intel@19.0.1
+intel@18.0.5
+intel@17.0.4
+
+-- pgi rhel7-x86_64 ---------------------------------------------
+pgi@18.10
+pgi@17.10
+pgi@16.10
 spack find openmpi
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 130: spack: command not found
+==> 24 installed packages
+-- linux-rhel7-x86_64 / gcc@6.4.0 -------------------------------
+openmpi@2.1.6
+openmpi@3.0.3
+openmpi@3.0.4
+openmpi@3.1.3
+openmpi@3.1.4
+openmpi@4.0.1
+
+-- linux-rhel7-x86_64 / gcc@7.4.0 -------------------------------
+openmpi@2.1.6
+openmpi@3.0.3
+openmpi@3.0.4
+openmpi@3.1.3
+openmpi@3.1.4
+openmpi@4.0.1
+
+-- linux-rhel7-x86_64 / intel@17.0.4 ----------------------------
+openmpi@2.1.6
+openmpi@3.0.3
+openmpi@3.0.4
+openmpi@3.1.3
+openmpi@3.1.4
+openmpi@4.0.1
+
+-- linux-rhel7-x86_64 / intel@18.0.5 ----------------------------
+openmpi@2.1.6
+openmpi@3.0.3
+openmpi@3.0.4
+openmpi@3.1.3
+openmpi@3.1.4
+openmpi@4.0.1
 spack find -ldf openmpi
-/net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/master-tpl-sweep.sh: line 133: spack: command not found
+==> 24 installed packages
+-- linux-rhel7-x86_64 / gcc@6.4.0 -------------------------------
+yedlal4    openmpi@2.1.6%gcc 
+foboruk        ^hwloc@1.11.11%gcc 
+o53uqv7            ^libpciaccess@0.13.5%gcc 
+ao5x5ze            ^libxml2@2.9.8%gcc 
+jbuilf6            ^numactl@2.0.12%gcc 
+
+pvtns33    openmpi@3.0.3%gcc 
+foboruk        ^hwloc@1.11.11%gcc 
+o53uqv7            ^libpciaccess@0.13.5%gcc 
+ao5x5ze            ^libxml2@2.9.8%gcc 
+jbuilf6            ^numactl@2.0.12%gcc 
+w43e56t        ^zlib@1.2.11%gcc 
+
+34ssp4a    openmpi@3.0.4%gcc 
+foboruk        ^hwloc@1.11.11%gcc 
+o53uqv7            ^libpciaccess@0.13.5%gcc 
+ao5x5ze            ^libxml2@2.9.8%gcc 
+jbuilf6            ^numactl@2.0.12%gcc 
+w43e56t        ^zlib@1.2.11%gcc 
+
+st2ji54    openmpi@3.1.3%gcc 
+foboruk        ^hwloc@1.11.11%gcc 
+o53uqv7            ^libpciaccess@0.13.5%gcc 
+ao5x5ze            ^libxml2@2.9.8%gcc 
+jbuilf6            ^numactl@2.0.12%gcc 
+w43e56t        ^zlib@1.2.11%gcc 
+
+ay2ouot    openmpi@3.1.4%gcc 
+foboruk        ^hwloc@1.11.11%gcc 
+o53uqv7            ^libpciaccess@0.13.5%gcc 
+ao5x5ze            ^libxml2@2.9.8%gcc 
+jbuilf6            ^numactl@2.0.12%gcc 
+w43e56t        ^zlib@1.2.11%gcc 
+
+rbvkudx    openmpi@4.0.1%gcc 
+foboruk        ^hwloc@1.11.11%gcc 
+o53uqv7            ^libpciaccess@0.13.5%gcc 
+ao5x5ze            ^libxml2@2.9.8%gcc 
+jbuilf6            ^numactl@2.0.12%gcc 
+w43e56t        ^zlib@1.2.11%gcc 
+
+
+-- linux-rhel7-x86_64 / gcc@7.4.0 -------------------------------
+sxs46ca    openmpi@2.1.6%gcc 
+tkazfwt        ^hwloc@1.11.11%gcc 
+ucgnzc4            ^libpciaccess@0.13.5%gcc 
+4ixpolx            ^libxml2@2.9.8%gcc 
+ugwsdhh            ^numactl@2.0.12%gcc 
+
+x4j5xux    openmpi@3.0.3%gcc 
+tkazfwt        ^hwloc@1.11.11%gcc 
+ucgnzc4            ^libpciaccess@0.13.5%gcc 
+4ixpolx            ^libxml2@2.9.8%gcc 
+ugwsdhh            ^numactl@2.0.12%gcc 
+ml43mui        ^zlib@1.2.11%gcc 
+
+jk5aebp    openmpi@3.0.4%gcc 
+tkazfwt        ^hwloc@1.11.11%gcc 
+ucgnzc4            ^libpciaccess@0.13.5%gcc 
+4ixpolx            ^libxml2@2.9.8%gcc 
+ugwsdhh            ^numactl@2.0.12%gcc 
+ml43mui        ^zlib@1.2.11%gcc 
+
+7vgsi4q    openmpi@3.1.3%gcc 
+tkazfwt        ^hwloc@1.11.11%gcc 
+ucgnzc4            ^libpciaccess@0.13.5%gcc 
+4ixpolx            ^libxml2@2.9.8%gcc 
+ugwsdhh            ^numactl@2.0.12%gcc 
+ml43mui        ^zlib@1.2.11%gcc 
+
+qfsk52y    openmpi@3.1.4%gcc 
+tkazfwt        ^hwloc@1.11.11%gcc 
+ucgnzc4            ^libpciaccess@0.13.5%gcc 
+4ixpolx            ^libxml2@2.9.8%gcc 
+ugwsdhh            ^numactl@2.0.12%gcc 
+ml43mui        ^zlib@1.2.11%gcc 
+
+stefmjj    openmpi@4.0.1%gcc 
+tkazfwt        ^hwloc@1.11.11%gcc 
+ucgnzc4            ^libpciaccess@0.13.5%gcc 
+4ixpolx            ^libxml2@2.9.8%gcc 
+ugwsdhh            ^numactl@2.0.12%gcc 
+ml43mui        ^zlib@1.2.11%gcc 
+
+
+-- linux-rhel7-x86_64 / intel@17.0.4 ----------------------------
+vt6kpuu    openmpi@2.1.6%intel 
+vyowpxu        ^hwloc@1.11.11%intel 
+tm6ayg7            ^libpciaccess@0.13.5%intel 
+aojy5jp            ^libxml2@2.9.8%intel 
+hfvvqo6            ^numactl@2.0.12%intel 
+
+lmdylay    openmpi@3.0.3%intel 
+vyowpxu        ^hwloc@1.11.11%intel 
+tm6ayg7            ^libpciaccess@0.13.5%intel 
+aojy5jp            ^libxml2@2.9.8%intel 
+hfvvqo6            ^numactl@2.0.12%intel 
+cauhfyo        ^zlib@1.2.11%intel 
+
+h4kvur5    openmpi@3.0.4%intel 
+vyowpxu        ^hwloc@1.11.11%intel 
+tm6ayg7            ^libpciaccess@0.13.5%intel 
+aojy5jp            ^libxml2@2.9.8%intel 
+hfvvqo6            ^numactl@2.0.12%intel 
+cauhfyo        ^zlib@1.2.11%intel 
+
+4sp63kj    openmpi@3.1.3%intel 
+vyowpxu        ^hwloc@1.11.11%intel 
+tm6ayg7            ^libpciaccess@0.13.5%intel 
+aojy5jp            ^libxml2@2.9.8%intel 
+hfvvqo6            ^numactl@2.0.12%intel 
+cauhfyo        ^zlib@1.2.11%intel 
+
+6fnoofp    openmpi@3.1.4%intel 
+vyowpxu        ^hwloc@1.11.11%intel 
+tm6ayg7            ^libpciaccess@0.13.5%intel 
+aojy5jp            ^libxml2@2.9.8%intel 
+hfvvqo6            ^numactl@2.0.12%intel 
+cauhfyo        ^zlib@1.2.11%intel 
+
+6j7q3wk    openmpi@4.0.1%intel 
+vyowpxu        ^hwloc@1.11.11%intel 
+tm6ayg7            ^libpciaccess@0.13.5%intel 
+aojy5jp            ^libxml2@2.9.8%intel 
+hfvvqo6            ^numactl@2.0.12%intel 
+cauhfyo        ^zlib@1.2.11%intel 
+
+
+-- linux-rhel7-x86_64 / intel@18.0.5 ----------------------------
+but4y5d    openmpi@2.1.6%intel 
+iegddt7        ^hwloc@1.11.11%intel 
+awuq6lx            ^libpciaccess@0.13.5%intel 
+7fsp6x4            ^libxml2@2.9.8%intel 
+lgsjhfx            ^numactl@2.0.12%intel 
+
+d6fbttz    openmpi@3.0.3%intel 
+iegddt7        ^hwloc@1.11.11%intel 
+awuq6lx            ^libpciaccess@0.13.5%intel 
+7fsp6x4            ^libxml2@2.9.8%intel 
+lgsjhfx            ^numactl@2.0.12%intel 
+6nlmvd2        ^zlib@1.2.11%intel 
+
+lhejpta    openmpi@3.0.4%intel 
+iegddt7        ^hwloc@1.11.11%intel 
+awuq6lx            ^libpciaccess@0.13.5%intel 
+7fsp6x4            ^libxml2@2.9.8%intel 
+lgsjhfx            ^numactl@2.0.12%intel 
+6nlmvd2        ^zlib@1.2.11%intel 
+
+ax3krhb    openmpi@3.1.3%intel 
+iegddt7        ^hwloc@1.11.11%intel 
+awuq6lx            ^libpciaccess@0.13.5%intel 
+7fsp6x4            ^libxml2@2.9.8%intel 
+lgsjhfx            ^numactl@2.0.12%intel 
+6nlmvd2        ^zlib@1.2.11%intel 
+
+imuu3ky    openmpi@3.1.4%intel 
+iegddt7        ^hwloc@1.11.11%intel 
+awuq6lx            ^libpciaccess@0.13.5%intel 
+7fsp6x4            ^libxml2@2.9.8%intel 
+lgsjhfx            ^numactl@2.0.12%intel 
+6nlmvd2        ^zlib@1.2.11%intel 
+
+mj2exoh    openmpi@4.0.1%intel 
+iegddt7        ^hwloc@1.11.11%intel 
+awuq6lx            ^libpciaccess@0.13.5%intel 
+7fsp6x4            ^libxml2@2.9.8%intel 
+lgsjhfx            ^numactl@2.0.12%intel 
+6nlmvd2        ^zlib@1.2.11%intel 
+
 mv  /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/tools/bash/snow-standard-batch.out   /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries/results/batch-out/snow-standard-openmpi-2019-04-29-batch.out
-cd /net/scratch4/dantopa/repos/gitlab/pull-requests
+cd /net/scratch4/dantopa/repos/gitlab/pull-requests/libraries
 git add -A .
+git commit -m "${USER} ${tpl} ${hpc} ${partition} ${ymd}"
+[master 9a7c6a3] dantopa openmpi snow standard 2019-04-29
+ 7 files changed, 1197 insertions(+), 289 deletions(-)
+ rewrite libraries/results/batch-out/snow-standard-openmpi-2019-04-29-batch.out (89%)
+ rewrite libraries/results/command-log/snow-standard-openmpi-command.log (100%)
+ rewrite libraries/results/install-log/snow-standard-openmpi-install.log (98%)
+ rewrite libraries/results/tpl-order/openmpi-snow-standard-ldf.out (78%)
+Mon Apr 29 10:47:56 MDT 2019

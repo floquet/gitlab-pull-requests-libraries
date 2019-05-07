@@ -1,0 +1,8 @@
+l127914@pn1249300.lanl.gov:openmpi $ date
+Wed Mar 27 10:43:37 MDT 2019
+
+l127914@pn1249300.lanl.gov:openmpi $ pwd
+/Users/l127914/Documents/repos/gitlab/transfer-spack/openmpi
+
+l127914@pn1249300.lanl.gov:openmpi $ shasum -a 256 openmpi-4.0.1.tar.bz2 
+cce7b6d20522849301727f81282201d609553103ac0b09162cf28d102efb9709  openmpi-4.0.1.tar.bz2

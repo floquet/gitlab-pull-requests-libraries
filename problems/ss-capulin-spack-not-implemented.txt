@@ -1,0 +1,44 @@
+dantopa@cp-loginy:capulin-arm.openmpi $ spack find openmpi
+==> Error: [Errno 38] Function not implemented
+dantopa@cp-loginy:capulin-arm.openmpi $ spack -d find openmpi
+==> [2019-04-29-10:11:36.633688] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-29-10:11:36.679813] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'avail' '-t' 'craype-'
+==> [2019-04-29-10:11:36.766260] '/usr/bin/env' '-i' '/bin/bash' '-lc' 'echo $CRAY_CPU_TARGET'
+==> [2019-04-29-10:11:37.454452] Found default module:arm-thunderx2
+==> [2019-04-29-10:11:37.488175] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'list'
+==> [2019-04-29-10:11:37.526334] '/opt/cray/pe/modules/3.2.11.1/bin/modulecmd' 'python' 'avail' 'PrgEnv-'
+==> [2019-04-29-10:11:37.728095] Reading config file /lustre/cpscratch1/dantopa/repos/spack/libraries/capulin-arm.openmpi/etc/spack/defaults/modules.yaml
+==> [2019-04-29-10:11:37.785323] Reading config file /lustre/cpscratch1/dantopa/repos/spack/libraries/capulin-arm.openmpi/etc/spack/defaults/config.yaml
+==> [2019-04-29-10:11:37.813480] Imported find from built-in commands
+==> [2019-04-29-10:11:37.814790] Imported find from built-in commands
+==> [2019-04-29-10:11:37.867296] DATABASE LOCK TIMEOUT: 120s
+==> [2019-04-29-10:11:37.867396] PACKAGE LOCK TIMEOUT: No timeout
+==> [2019-04-29-10:11:37.868119] READ LOCK: /lustre/cpscratch1/dantopa/repos/spack/libraries/capulin-arm.openmpi/opt/spack/.spack-db/lock[0:0] [Acquiring]
+Traceback (most recent call last):
+  File "/lustre/cpscratch1/dantopa/repos/spack/libraries/capulin-arm.openmpi/bin/spack", line 48, in <module>
+    sys.exit(spack.main.main())
+  File "/lustre/cpscratch1/dantopa/repos/spack/libraries/capulin-arm.openmpi/lib/spack/spack/main.py", line 695, in main
+    return _invoke_command(command, parser, args, unknown)
+  File "/lustre/cpscratch1/dantopa/repos/spack/libraries/capulin-arm.openmpi/lib/spack/spack/main.py", line 446, in _invoke_command
+    return_val = command(parser, args)
+  File "/lustre/cpscratch1/dantopa/repos/spack/libraries/capulin-arm.openmpi/lib/spack/spack/cmd/find.py", line 148, in find
+    results = args.specs(**q_args)
+  File "/lustre/cpscratch1/dantopa/repos/spack/libraries/capulin-arm.openmpi/lib/spack/spack/cmd/common/arguments.py", line 68, in _specs
+    for s in spack.store.db.query(spec, **kwargs):
+  File "/lustre/cpscratch1/dantopa/repos/spack/libraries/capulin-arm.openmpi/lib/spack/spack/database.py", line 1045, in query
+    local_results = set(self.query_local(*args, **kwargs))
+  File "/lustre/cpscratch1/dantopa/repos/spack/libraries/capulin-arm.openmpi/lib/spack/spack/database.py", line 1034, in query_local
+    with self.read_transaction():
+  File "/lustre/cpscratch1/dantopa/repos/spack/libraries/capulin-arm.openmpi/lib/spack/llnl/util/lock.py", line 377, in __enter__
+    if self._enter() and self._acquire_fn:
+  File "/lustre/cpscratch1/dantopa/repos/spack/libraries/capulin-arm.openmpi/lib/spack/llnl/util/lock.py", line 399, in _enter
+    return self._lock.acquire_read(self._timeout)
+  File "/lustre/cpscratch1/dantopa/repos/spack/libraries/capulin-arm.openmpi/lib/spack/llnl/util/lock.py", line 253, in acquire_read
+    wait_time, nattempts = self._lock(fcntl.LOCK_SH, timeout=timeout)
+  File "/lustre/cpscratch1/dantopa/repos/spack/libraries/capulin-arm.openmpi/lib/spack/spack/util/lock.py", line 31, in _lock
+    return super(Lock, self)._lock(op, timeout)
+  File "/lustre/cpscratch1/dantopa/repos/spack/libraries/capulin-arm.openmpi/lib/spack/llnl/util/lock.py", line 140, in _lock
+    if self._poll_lock(op):
+  File "/lustre/cpscratch1/dantopa/repos/spack/libraries/capulin-arm.openmpi/lib/spack/llnl/util/lock.py", line 160, in _poll_lock
+    self._length, self._start, os.SEEK_SET)
+IOError: [Errno 38] Function not implemented

@@ -1,0 +1,14 @@
+topa1@rzansel61:gcc $ date
+Tue Apr 30 16:45:40 PDT 2019
+
+topa1@rzansel61:gcc $ pwd
+/usr/tce/packages/gcc
+
+topa1@rzansel61:gcc $ ls -alh
+total 4.0K
+drwxr-xr-x  5 root root  101 Sep 27  2018 .
+drwxr-xr-x 31 root root 4.0K Apr 30 13:42 ..
+drwxr-xr-x  4 root root  112 Jul 21  2017 gcc-4.9.3
+lrwxrwxrwx  1 root root   38 Sep 27  2018 gcc-7.2.1 -> /usr/tce/packages/gcc/gcc-7.2.1-redhat
+drwxr-xr-x  4 root root   88 Sep 27  2018 gcc-7.2.1-redhat
+drwxr-xr-x  4 root root   88 Sep 27  2018 gcc-7.3.1

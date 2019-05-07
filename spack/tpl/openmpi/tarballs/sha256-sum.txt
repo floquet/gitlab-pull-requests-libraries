@@ -1,0 +1,18 @@
+l127914@pn1249300.lanl.gov:tarballs $ date
+Tue Apr  9 09:19:03 MDT 2019
+
+l127914@pn1249300.lanl.gov:tarballs $ pwd
+/Users/l127914/Documents/repos/gitlab/pull-requests/spack/tpl/openmpi/tarballs
+
+l127914@pn1249300.lanl.gov:tarballs $ lss
+total 36656
+drwxr-xr-x@ 4 l127914  staff   136B Apr  9 09:17 .
+drwxr-xr-x  8 l127914  staff   272B Apr  9 09:17 ..
+-rw-r--r--@ 1 l127914  staff   8.9M Apr  9 09:16 openmpi-3.0.4rc1.tar.bz2
+-rw-r--r--@ 1 l127914  staff   9.0M Apr  9 09:17 openmpi-3.1.4rc1.tar.bz2
+
+l127914@pn1249300.lanl.gov:tarballs $ shasum -a 256 openmpi-3.0.4rc1.tar.bz2
+a87f40ca19efee94ab388011afca8179a628c66dc21627c501dfb1e83161910c  openmpi-3.0.4rc1.tar.bz2
+
+l127914@pn1249300.lanl.gov:tarballs $ shasum -a 256 openmpi-3.1.4rc1.tar.bz2
+2b86c39aa7c828327136df109478178f6bb358c64c8ae4ba04fa452eec67f489  openmpi-3.1.4rc1.tar.bz2

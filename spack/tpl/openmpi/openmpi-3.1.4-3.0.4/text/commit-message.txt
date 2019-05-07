@@ -1,0 +1,40 @@
+Add Open MPI v3.0.4
+
+tarball posted 2019-04-15
+https://www.open-mpi.org/software/ompi/v3.0/
+
+dantopa@cn209:openmpi-3.0.4-5ienfvwpcxky3nz5jt3rygxzxzltkwm4 $ cd lib/
+
+dantopa@cn209:lib $ ls -alh
+total 27M
+...
+lrwxrwxrwx 1 dantopa dantopa   16 Apr 17 10:01 libmpi.so -> libmpi.so.40.0.5
+
+confirmation builds Darwin (LANL):
+
+x86_64
+-- linux-centos7-x86_64 / gcc@4.8.5 -----------------------------
+5ienfvw    openmpi@3.0.4%gcc
+bkkhvej        ^hwloc@1.11.11%gcc
+5chyfxo            ^libpciaccess@0.13.5%gcc
+bcnjbc3            ^libxml2@2.9.8%gcc
+tt2hkol            ^numactl@2.0.12%gcc
+64vg6e4        ^zlib@1.2.11%gcc
+
+ARM
+-- linux-rhel7-aarch64 / gcc@4.8.5 ------------------------------
+cq2y6b3    openmpi@3.0.4%gcc
+7gqvelc        ^hwloc@1.11.11%gcc
+6a4he35            ^libpciaccess@0.13.5%gcc
+6a5uzd6            ^libxml2@2.9.8%gcc
+m5neuus            ^numactl@2.0.12%gcc
+67s2oqn        ^zlib@1.2.11%gcc
+
+Power9
+-- linux-rhel7-ppc64le / gcc@4.8.5 ------------------------------
+otirvfn    openmpi@3.0.4%gcc
+r6cylpu        ^hwloc@1.11.11%gcc
+uzm3xdv            ^libpciaccess@0.13.5%gcc
+trik6hj            ^libxml2@2.9.8%gcc
+pmgndwh            ^numactl@2.0.12%gcc
+4v3ticy        ^zlib@1.2.11%gcc

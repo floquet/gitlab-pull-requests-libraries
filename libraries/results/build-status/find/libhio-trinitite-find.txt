@@ -1,8 +1,23 @@
-Tue Apr 30 09:28:44 MDT 2019 libraries/tools/bash/interrogater.sh
+Tue May 7 10:50:10 MDT 2019 interrogater.sh
 /lustre/ttscratch1/dantopa/repos/gitlab/pull-requests/libraries/results
 
 
 partition: standard
+bin/spack compilers
+==> Available compilers
+-- cce cnl6-any -------------------------------------------------
+cce@8.7.9
+cce@8.7.8
+
+-- gcc cnl6-any -------------------------------------------------
+gcc@8.2.0
+gcc@7.3.0
+gcc@6.3.0
+
+-- intel cnl6-any -----------------------------------------------
+intel@19.0.1
+intel@18.0.5
+
 bin/spack find libhio
 ==> 6 installed packages
 -- cray-cnl6-haswell / gcc@7.3.0 --------------------------------
@@ -16,3 +31,18 @@ libhio@1.4.1.3
 -- cray-cnl6-haswell / intel@18.0.5 -----------------------------
 libhio@1.4.1.2
 libhio@1.4.1.3
+bin/spack compilers
+==> Available compilers
+-- cce cnl6-any -------------------------------------------------
+cce@8.7.9
+cce@8.7.8
+
+-- gcc cnl6-any -------------------------------------------------
+gcc@8.2.0
+gcc@7.3.0
+gcc@6.3.0
+
+-- intel cnl6-any -----------------------------------------------
+intel@19.0.1
+intel@18.0.5
+

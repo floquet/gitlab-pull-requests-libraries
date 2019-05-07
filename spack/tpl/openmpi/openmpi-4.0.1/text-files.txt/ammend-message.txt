@@ -1,0 +1,7 @@
+Restore preferred version:
+    version('3.1.3', preferred=True, sha256='8be04307c00f51401d3fb9d837321781ea7c79f2a5a4a2e5d4eaedc874087ab6')  # libmpi.so.40.10.3
+
+Thanks to @davyden:
+noticed that netlib-scalapack-2.0.2 does not like the new version, which is not a surprise as it was released in 2012. But the problem is that it's a default provider for ScaLAPACK. So perhaps we should keep 3.1.3 as preferred.
+
+Subsequent PR will address backwards compatibility.

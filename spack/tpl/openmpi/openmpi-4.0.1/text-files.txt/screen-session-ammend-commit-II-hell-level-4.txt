@@ -1,0 +1,457 @@
+dantopa@darwin-fe2.lanl.gov:new-spack $ cd pr-openmpi-4.0.1.spack/
+dantopa@darwin-fe2.lanl.gov:pr-openmpi-4.0.1.spack $ git remote add floquet https://github.com/floquet/spack.git
+fatal: remote floquet already exists.
+dantopa@darwin-fe2.lanl.gov:pr-openmpi-4.0.1.spack $ mothership
+* remote origin
+  Fetch URL: https://github.com/spack/spack
+  Push  URL: https://github.com/spack/spack
+  HEAD branch: develop
+  Remote branches:
+    FASTMath/ATPESC18                                                  tracked
+    PR/pymock                                                          tracked
+    amklinv/amanzi                                                     tracked
+    autotools-cflags                                                   tracked
+    balay/fix-petsc-3.11.0-xlf                                         tracked
+    balay/test                                                         tracked
+    balay/update-petsc-3.10.4                                          tracked
+    balay/xsdk-develop                                                 tracked
+    barry/ceed                                                         tracked
+    boost-intel-toolset                                                tracked
+    bugfix/flag-propagation-into-concrete-specs                        tracked
+    bugfix/m4_sierra_gcc_2                                             tracked
+    bugfix/mirrors_use_path_expansions                                 tracked
+    bugfix/multiarch-detection                                         tracked
+    bugfix/permissions-suid-sgid                                       tracked
+    bugfix/py-backports-shutil                                         tracked
+    bugfix/rpath-ubuntu17                                              tracked
+    bugfix/setup-env                                                   tracked
+    bugfix/yaml-cpp-libc++-compatibility                               tracked
+    cdash/xsdk                                                         tracked
+    cdash_report_docs                                                  tracked
+    ceed-2.0                                                           tracked
+    cray-libsci-and-ver                                                tracked
+    cwsmith/simmodsuite                                                tracked
+    cwsmith/zoltanInt64                                                tracked
+    default-cmake-build-type-empty                                     tracked
+    develop                                                            tracked
+    docs/linux-containers-on-cray                                      tracked
+    efischer/170105-PyPIToSpack                                        tracked
+    efischer/190121-SetupEnv                                           tracked
+    efischer/Python3Fixes                                              tracked
+    efischer/docs2                                                     tracked
+    enh/py-h5py                                                        tracked
+    external_prefix                                                    tracked
+    features/anonymous_specs-fix                                       tracked
+    features/better-spec-hash-lookup                                   tracked
+    features/cflags-resuse                                             tracked
+    features/codeclimate                                               tracked
+    features/combinatorial-spec-set                                    tracked
+    features/context                                                   tracked
+    features/context_setup                                             tracked
+    features/ecp19-tutorial                                            tracked
+    features/env-improvements-release                                  tracked
+    features/fix-cc-wrapper                                            tracked
+    features/improve-format-strings                                    tracked
+    features/install-compilers-as-needed                               tracked
+    features/libs-command                                              tracked
+    features/make-libelf-default-elf                                   tracked
+    features/more-coverage                                             tracked
+    features/multi-download                                            tracked
+    features/package-hash                                              tracked
+    features/rstudio                                                   tracked
+    features/setup_py                                                  tracked
+    features/sh-commpatible-setup-env                                  tracked
+    features/shebang-warning-to-msg                                    tracked
+    features/stacks                                                    tracked
+    features/stat_coral_test                                           tracked
+    features/tty-output                                                tracked
+    features/use-module-interface                                      tracked
+    features/view-with-env                                             tracked
+    fish-shell-1                                                       tracked
+    fix_cc                                                             tracked
+    flags-and-hashes                                                   tracked
+    gartung-patch-perl                                                 tracked
+    gh-pages                                                           tracked
+    gsl_bgq_fix                                                        tracked
+    hpcryptdeps                                                        tracked
+    implicit-variables-setup                                           tracked
+    keita_xsdk_031                                                     tracked
+    libyogrt-v1.24                                                     tracked
+    master                                                             tracked
+    mfem                                                               tracked
+    mfu-cmake                                                          tracked
+    mfu-v0.9                                                           tracked
+    ordered-compiler-names                                             tracked
+    package/archer                                                     tracked
+    package/python-update                                              tracked
+    packages/branson                                                   tracked
+    packages/kokkos                                                    tracked
+    packages/libhio                                                    tracked
+    packages/matplotlib-3.0.0                                          tracked
+    packages/mvapich-2.3.1                                             tracked
+    packages/oss-python-include                                        tracked
+    packages/pruners-mpi                                               tracked
+    packages/py-espresso                                               tracked
+    packages/pynetcdffix                                               tracked
+    packages/snap                                                      tracked
+    packages/tce                                                       tracked
+    packages/tulip                                                     tracked
+    packages/util-linux-fixes                                          tracked
+    pkg/cquery                                                         tracked
+    proto/sys-packages-old                                             tracked
+    refactor/remove-parse-anonymous-spec                               tracked
+    refs/remotes/origin/balay/fix-hypre-2.0.14-superlu-dist-dependency stale (use 'git remote prune' to remove)
+    refs/remotes/origin/balay/fix-petsc-xsdk-0.2.0                     stale (use 'git remote prune' to remove)
+    refs/remotes/origin/balay/jthies/xsdk-add-phist                    stale (use 'git remote prune' to remove)
+    refs/remotes/origin/balay/omega-h-update-gcc-dependency            stale (use 'git remote prune' to remove)
+    refs/remotes/origin/balay/petsc-fix-cc-in-petscvariables           stale (use 'git remote prune' to remove)
+    refs/remotes/origin/balay/petsc-python3                            stale (use 'git remote prune' to remove)
+    refs/remotes/origin/balay/py-petsc4py-3.10.1                       stale (use 'git remote prune' to remove)
+    refs/remotes/origin/balay/trilinos-12.14.1                         stale (use 'git remote prune' to remove)
+    refs/remotes/origin/balay/update-superlu-dist-v6.1.0-checksum      stale (use 'git remote prune' to remove)
+    refs/remotes/origin/balay/xsdk-0.4.0                               stale (use 'git remote prune' to remove)
+    refs/remotes/origin/bugfix/clang-mixed-compiler-names              stale (use 'git remote prune' to remove)
+    refs/remotes/origin/bugfix/correct_install_path_scheme_defaults    stale (use 'git remote prune' to remove)
+    refs/remotes/origin/bugfix/environment-symlinks                    stale (use 'git remote prune' to remove)
+    refs/remotes/origin/bugfix/install-use-cache                       stale (use 'git remote prune' to remove)
+    refs/remotes/origin/bugfix/multimethod-inheritance                 stale (use 'git remote prune' to remove)
+    refs/remotes/origin/bugfix/no-ignored-files-in-license-check       stale (use 'git remote prune' to remove)
+    refs/remotes/origin/bugfix/symlink-relocation                      stale (use 'git remote prune' to remove)
+    refs/remotes/origin/bugfix/use-cache                               stale (use 'git remote prune' to remove)
+    refs/remotes/origin/cdash_report_clean_results                     stale (use 'git remote prune' to remove)
+    refs/remotes/origin/cwsmith/pumi-simmodsuite                       stale (use 'git remote prune' to remove)
+    refs/remotes/origin/docs/sc18-basic-usage-tutorial-update          stale (use 'git remote prune' to remove)
+    refs/remotes/origin/efischer/161221-FixSetup                       stale (use 'git remote prune' to remove)
+    refs/remotes/origin/efischer/161221-Spackenv-base                  stale (use 'git remote prune' to remove)
+    refs/remotes/origin/efischer/170808-FixSetup                       stale (use 'git remote prune' to remove)
+    refs/remotes/origin/efischer/180426-FixConfigMerging               stale (use 'git remote prune' to remove)
+    refs/remotes/origin/features/allow-overwrite-nonexistent           stale (use 'git remote prune' to remove)
+    refs/remotes/origin/features/ccache                                stale (use 'git remote prune' to remove)
+    refs/remotes/origin/features/configurable-package-permissions      stale (use 'git remote prune' to remove)
+    refs/remotes/origin/features/env-improvements                      stale (use 'git remote prune' to remove)
+    refs/remotes/origin/features/env-tutorial                          stale (use 'git remote prune' to remove)
+    refs/remotes/origin/features/flag-handlers-in-package-scope        stale (use 'git remote prune' to remove)
+    refs/remotes/origin/features/install-default-use-cache             stale (use 'git remote prune' to remove)
+    refs/remotes/origin/features/launchmon-ppc64le                     stale (use 'git remote prune' to remove)
+    refs/remotes/origin/features/projections                           stale (use 'git remote prune' to remove)
+    refs/remotes/origin/fix-mysqldb1                                   stale (use 'git remote prune' to remove)
+    refs/remotes/origin/get_buildid_from_cdash                         stale (use 'git remote prune' to remove)
+    refs/remotes/origin/issue-10809                                    stale (use 'git remote prune' to remove)
+    refs/remotes/origin/mysqldb1-fix-depends                           stale (use 'git remote prune' to remove)
+    refs/remotes/origin/optionally-save-all-deps-to-yaml               stale (use 'git remote prune' to remove)
+    refs/remotes/origin/packages/cabana                                stale (use 'git remote prune' to remove)
+    refs/remotes/origin/packages/gromacs                               stale (use 'git remote prune' to remove)
+    refs/remotes/origin/packages/intel_19_3                            stale (use 'git remote prune' to remove)
+    refs/remotes/origin/packages/ipython_fixes                         stale (use 'git remote prune' to remove)
+    refs/remotes/origin/packages/miniamr                               stale (use 'git remote prune' to remove)
+    refs/remotes/origin/packages/nut                                   stale (use 'git remote prune' to remove)
+    refs/remotes/origin/packages/pfunit                                stale (use 'git remote prune' to remove)
+    refs/remotes/origin/packages/py_qtawesome                          stale (use 'git remote prune' to remove)
+    refs/remotes/origin/packages/stat-4.0.1                            stale (use 'git remote prune' to remove)
+    refs/remotes/origin/patch_atlas_num_threads                        stale (use 'git remote prune' to remove)
+    refs/remotes/origin/python-2.6-can-fail                            stale (use 'git remote prune' to remove)
+    refs/remotes/origin/tutorial/update-basic-usage-output             stale (use 'git remote prune' to remove)
+    refs/remotes/origin/wip                                            stale (use 'git remote prune' to remove)
+    releases/v0.10.0                                                   tracked
+    releases/v0.11.0                                                   tracked
+    releases/v0.11.1                                                   tracked
+    releases/v0.11.2                                                   tracked
+    releases/v0.12                                                     tracked
+    ross-7.0.1                                                         tracked
+    s3-binary-mirror                                                   tracked
+    shorten-install-status-help                                        tracked
+    specific-targets                                                   tracked
+    testing/coverage-package                                           tracked
+    testing/wip_xsdk                                                   tracked
+    topic-libSplash160                                                 tracked
+    tutorials/advanced_packaging                                       tracked
+    v-dobrev/detect-batch-system                                       tracked
+    v-dobrev/extend-default-spec-queries                               tracked
+    v-dobrev/hypre-update                                              tracked
+  Local branches configured for 'git pull':
+    Add-Open-MPI-4.0.1 merges with remote develop
+    develop            merges with remote develop
+  Local ref configured for 'git push':
+    develop pushes to develop (local out of date)
+dantopa@darwin-fe2.lanl.gov:pr-openmpi-4.0.1.spack $ git checkout -b Add-Open-MPI-4.0.1
+fatal: A branch named 'Add-Open-MPI-4.0.1' already exists.
+dantopa@darwin-fe2.lanl.gov:pr-openmpi-4.0.1.spack $ git diff var/spack/repos/builtin/packages/openmpi/package.py
+dantopa@darwin-fe2.lanl.gov:pr-openmpi-4.0.1.spack $ spack edit openmpi
+dantopa@darwin-fe2.lanl.gov:pr-openmpi-4.0.1.spack $ git diff var/spack/repos/builtin/packages/openmpi/package.py
+diff --git a/var/spack/repos/builtin/packages/openmpi/package.py b/var/spack/repos/builtin/packages/openmpi/package.py
+index 90bbe6f..6b95786 100644
+--- a/var/spack/repos/builtin/packages/openmpi/package.py
++++ b/var/spack/repos/builtin/packages/openmpi/package.py
+@@ -391,7 +391,7 @@ class Openmpi(AutotoolsPackage):
+         # Some scientific packages ignore deprecated/removed symbols.
+         # Re-enable them for now. See discussion at
+         # https://github.com/open-mpi/ompi/issues/6114#issuecomment-446279495
+-        if spec.satisfies('@4.0.1:'):
++        if spec.satisfies('@4.0:'):
+             config_args.append('--enable-mpi1-compatibility')
+
+         # Fabrics
+dantopa@darwin-fe2.lanl.gov:pr-openmpi-4.0.1.spack $ git status
+# On branch Add-Open-MPI-4.0.1
+# Your branch is ahead of 'origin/develop' by 36 commits.
+#   (use "git push" to publish your local commits)
+#
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   var/spack/repos/builtin/packages/openmpi/package.py
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+dantopa@darwin-fe2.lanl.gov:pr-openmpi-4.0.1.spack $ git add var/spack/repos/builtin/packages/openmpi/package.py
+dantopa@darwin-fe2.lanl.gov:pr-openmpi-4.0.1.spack $ git commit -s
+Error detected while processing /home/dantopa/.vimrc:
+line  113:
+E538: No mouse support: mouse=a
+Press ENTER or type command to continue
+[Add-Open-MPI-4.0.1 c1f296b] Turns on --enable-mpi1-compatibility for Open MPI 4.0+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+dantopa@darwin-fe2.lanl.gov:pr-openmpi-4.0.1.spack $ git push floquet HEAD
+Username for 'https://github.com': floquet
+Password for 'https://floquet@github.com':
+To https://github.com/floquet/spack.git
+ ! [rejected]        HEAD -> Add-Open-MPI-4.0.1 (fetch first)
+error: failed to push some refs to 'https://github.com/floquet/spack.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first merge the remote changes (e.g.,
+hint: 'git pull') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+dantopa@darwin-fe2.lanl.gov:pr-openmpi-4.0.1.spack $ git push --help
+dantopa@darwin-fe2.lanl.gov:pr-openmpi-4.0.1.spack $
+dantopa@darwin-fe2.lanl.gov:pr-openmpi-4.0.1.spack $ git pull
+remote: Enumerating objects: 10, done.
+remote: Counting objects: 100% (10/10), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 10 (delta 4), reused 10 (delta 4), pack-reused 0
+Unpacking objects: 100% (10/10), done.
+From https://github.com/spack/spack
+   1fb01b5..ac1aa20  ceed-2.0   -> origin/ceed-2.0
+Already up-to-date.
+dantopa@darwin-fe2.lanl.gov:pr-openmpi-4.0.1.spack $ git push floquet HEAD
+Username for 'https://github.com': floquet
+Password for 'https://floquet@github.com':
+To https://github.com/floquet/spack.git
+ ! [rejected]        HEAD -> Add-Open-MPI-4.0.1 (fetch first)
+error: failed to push some refs to 'https://github.com/floquet/spack.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first merge the remote changes (e.g.,
+hint: 'git pull') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+dantopa@darwin-fe2.lanl.gov:pr-openmpi-4.0.1.spack $ mothership
+* remote origin
+  Fetch URL: https://github.com/spack/spack
+  Push  URL: https://github.com/spack/spack
+  HEAD branch: develop
+  Remote branches:
+    FASTMath/ATPESC18                                                  tracked
+    PR/pymock                                                          tracked
+    amklinv/amanzi                                                     tracked
+    autotools-cflags                                                   tracked
+    balay/fix-petsc-3.11.0-xlf                                         tracked
+    balay/test                                                         tracked
+    balay/update-petsc-3.10.4                                          tracked
+    balay/xsdk-develop                                                 tracked
+    barry/ceed                                                         tracked
+    boost-intel-toolset                                                tracked
+    bugfix/flag-propagation-into-concrete-specs                        tracked
+    bugfix/m4_sierra_gcc_2                                             tracked
+    bugfix/mirrors_use_path_expansions                                 tracked
+    bugfix/multiarch-detection                                         tracked
+    bugfix/permissions-suid-sgid                                       tracked
+    bugfix/py-backports-shutil                                         tracked
+    bugfix/rpath-ubuntu17                                              tracked
+    bugfix/setup-env                                                   tracked
+    bugfix/yaml-cpp-libc++-compatibility                               tracked
+    cdash/xsdk                                                         tracked
+    cdash_report_docs                                                  tracked
+    ceed-2.0                                                           tracked
+    cray-libsci-and-ver                                                tracked
+    cwsmith/simmodsuite                                                tracked
+    cwsmith/zoltanInt64                                                tracked
+    default-cmake-build-type-empty                                     tracked
+    develop                                                            tracked
+    docs/linux-containers-on-cray                                      tracked
+    efischer/170105-PyPIToSpack                                        tracked
+    efischer/190121-SetupEnv                                           tracked
+    efischer/Python3Fixes                                              tracked
+    efischer/docs2                                                     tracked
+    enh/py-h5py                                                        tracked
+    external_prefix                                                    tracked
+    features/anonymous_specs-fix                                       tracked
+    features/better-spec-hash-lookup                                   tracked
+    features/cflags-resuse                                             tracked
+    features/codeclimate                                               tracked
+    features/combinatorial-spec-set                                    tracked
+    features/context                                                   tracked
+    features/context_setup                                             tracked
+    features/ecp19-tutorial                                            tracked
+    features/env-improvements-release                                  tracked
+    features/fix-cc-wrapper                                            tracked
+    features/improve-format-strings                                    tracked
+    features/install-compilers-as-needed                               tracked
+    features/libs-command                                              tracked
+    features/make-libelf-default-elf                                   tracked
+    features/more-coverage                                             tracked
+    features/multi-download                                            tracked
+    features/package-hash                                              tracked
+    features/rstudio                                                   tracked
+    features/setup_py                                                  tracked
+    features/sh-commpatible-setup-env                                  tracked
+    features/shebang-warning-to-msg                                    tracked
+    features/stacks                                                    tracked
+    features/stat_coral_test                                           tracked
+    features/tty-output                                                tracked
+    features/use-module-interface                                      tracked
+    features/view-with-env                                             tracked
+    fish-shell-1                                                       tracked
+    fix_cc                                                             tracked
+    flags-and-hashes                                                   tracked
+    gartung-patch-perl                                                 tracked
+    gh-pages                                                           tracked
+    gsl_bgq_fix                                                        tracked
+    hpcryptdeps                                                        tracked
+    implicit-variables-setup                                           tracked
+    keita_xsdk_031                                                     tracked
+    libyogrt-v1.24                                                     tracked
+    master                                                             tracked
+    mfem                                                               tracked
+    mfu-cmake                                                          tracked
+    mfu-v0.9                                                           tracked
+    ordered-compiler-names                                             tracked
+    package/archer                                                     tracked
+    package/python-update                                              tracked
+    packages/branson                                                   tracked
+    packages/kokkos                                                    tracked
+    packages/libhio                                                    tracked
+    packages/matplotlib-3.0.0                                          tracked
+    packages/mvapich-2.3.1                                             tracked
+    packages/oss-python-include                                        tracked
+    packages/pruners-mpi                                               tracked
+    packages/py-espresso                                               tracked
+    packages/pynetcdffix                                               tracked
+    packages/snap                                                      tracked
+    packages/tce                                                       tracked
+    packages/tulip                                                     tracked
+    packages/util-linux-fixes                                          tracked
+    pkg/cquery                                                         tracked
+    proto/sys-packages-old                                             tracked
+    refactor/remove-parse-anonymous-spec                               tracked
+    refs/remotes/origin/balay/fix-hypre-2.0.14-superlu-dist-dependency stale (use 'git remote prune' to remove)
+    refs/remotes/origin/balay/fix-petsc-xsdk-0.2.0                     stale (use 'git remote prune' to remove)
+    refs/remotes/origin/balay/jthies/xsdk-add-phist                    stale (use 'git remote prune' to remove)
+    refs/remotes/origin/balay/omega-h-update-gcc-dependency            stale (use 'git remote prune' to remove)
+    refs/remotes/origin/balay/petsc-fix-cc-in-petscvariables           stale (use 'git remote prune' to remove)
+    refs/remotes/origin/balay/petsc-python3                            stale (use 'git remote prune' to remove)
+    refs/remotes/origin/balay/py-petsc4py-3.10.1                       stale (use 'git remote prune' to remove)
+    refs/remotes/origin/balay/trilinos-12.14.1                         stale (use 'git remote prune' to remove)
+    refs/remotes/origin/balay/update-superlu-dist-v6.1.0-checksum      stale (use 'git remote prune' to remove)
+    refs/remotes/origin/balay/xsdk-0.4.0                               stale (use 'git remote prune' to remove)
+    refs/remotes/origin/bugfix/clang-mixed-compiler-names              stale (use 'git remote prune' to remove)
+    refs/remotes/origin/bugfix/correct_install_path_scheme_defaults    stale (use 'git remote prune' to remove)
+    refs/remotes/origin/bugfix/environment-symlinks                    stale (use 'git remote prune' to remove)
+    refs/remotes/origin/bugfix/install-use-cache                       stale (use 'git remote prune' to remove)
+    refs/remotes/origin/bugfix/multimethod-inheritance                 stale (use 'git remote prune' to remove)
+    refs/remotes/origin/bugfix/no-ignored-files-in-license-check       stale (use 'git remote prune' to remove)
+    refs/remotes/origin/bugfix/symlink-relocation                      stale (use 'git remote prune' to remove)
+    refs/remotes/origin/bugfix/use-cache                               stale (use 'git remote prune' to remove)
+    refs/remotes/origin/cdash_report_clean_results                     stale (use 'git remote prune' to remove)
+    refs/remotes/origin/cwsmith/pumi-simmodsuite                       stale (use 'git remote prune' to remove)
+    refs/remotes/origin/docs/sc18-basic-usage-tutorial-update          stale (use 'git remote prune' to remove)
+    refs/remotes/origin/efischer/161221-FixSetup                       stale (use 'git remote prune' to remove)
+    refs/remotes/origin/efischer/161221-Spackenv-base                  stale (use 'git remote prune' to remove)
+    refs/remotes/origin/efischer/170808-FixSetup                       stale (use 'git remote prune' to remove)
+    refs/remotes/origin/efischer/180426-FixConfigMerging               stale (use 'git remote prune' to remove)
+    refs/remotes/origin/features/allow-overwrite-nonexistent           stale (use 'git remote prune' to remove)
+    refs/remotes/origin/features/ccache                                stale (use 'git remote prune' to remove)
+    refs/remotes/origin/features/configurable-package-permissions      stale (use 'git remote prune' to remove)
+    refs/remotes/origin/features/env-improvements                      stale (use 'git remote prune' to remove)
+    refs/remotes/origin/features/env-tutorial                          stale (use 'git remote prune' to remove)
+    refs/remotes/origin/features/flag-handlers-in-package-scope        stale (use 'git remote prune' to remove)
+    refs/remotes/origin/features/install-default-use-cache             stale (use 'git remote prune' to remove)
+    refs/remotes/origin/features/launchmon-ppc64le                     stale (use 'git remote prune' to remove)
+    refs/remotes/origin/features/projections                           stale (use 'git remote prune' to remove)
+    refs/remotes/origin/fix-mysqldb1                                   stale (use 'git remote prune' to remove)
+    refs/remotes/origin/get_buildid_from_cdash                         stale (use 'git remote prune' to remove)
+    refs/remotes/origin/issue-10809                                    stale (use 'git remote prune' to remove)
+    refs/remotes/origin/mysqldb1-fix-depends                           stale (use 'git remote prune' to remove)
+    refs/remotes/origin/optionally-save-all-deps-to-yaml               stale (use 'git remote prune' to remove)
+    refs/remotes/origin/packages/cabana                                stale (use 'git remote prune' to remove)
+    refs/remotes/origin/packages/gromacs                               stale (use 'git remote prune' to remove)
+    refs/remotes/origin/packages/intel_19_3                            stale (use 'git remote prune' to remove)
+    refs/remotes/origin/packages/ipython_fixes                         stale (use 'git remote prune' to remove)
+    refs/remotes/origin/packages/miniamr                               stale (use 'git remote prune' to remove)
+    refs/remotes/origin/packages/nut                                   stale (use 'git remote prune' to remove)
+    refs/remotes/origin/packages/pfunit                                stale (use 'git remote prune' to remove)
+    refs/remotes/origin/packages/py_qtawesome                          stale (use 'git remote prune' to remove)
+    refs/remotes/origin/packages/stat-4.0.1                            stale (use 'git remote prune' to remove)
+    refs/remotes/origin/patch_atlas_num_threads                        stale (use 'git remote prune' to remove)
+    refs/remotes/origin/python-2.6-can-fail                            stale (use 'git remote prune' to remove)
+    refs/remotes/origin/tutorial/update-basic-usage-output             stale (use 'git remote prune' to remove)
+    refs/remotes/origin/wip                                            stale (use 'git remote prune' to remove)
+    releases/v0.10.0                                                   tracked
+    releases/v0.11.0                                                   tracked
+    releases/v0.11.1                                                   tracked
+    releases/v0.11.2                                                   tracked
+    releases/v0.12                                                     tracked
+    ross-7.0.1                                                         tracked
+    s3-binary-mirror                                                   tracked
+    shorten-install-status-help                                        tracked
+    specific-targets                                                   tracked
+    testing/coverage-package                                           tracked
+    testing/wip_xsdk                                                   tracked
+    topic-libSplash160                                                 tracked
+    tutorials/advanced_packaging                                       tracked
+    v-dobrev/detect-batch-system                                       tracked
+    v-dobrev/extend-default-spec-queries                               tracked
+    v-dobrev/hypre-update                                              tracked
+  Local branches configured for 'git pull':
+    Add-Open-MPI-4.0.1 merges with remote develop
+    develop            merges with remote develop
+  Local ref configured for 'git push':
+    develop pushes to develop (local out of date)
+dantopa@darwin-fe2.lanl.gov:pr-openmpi-4.0.1.spack $ spack edit openmpi
+dantopa@darwin-fe2.lanl.gov:pr-openmpi-4.0.1.spack $ git push --force-with-lease floquet HEAD
+error: unknown option `force-with-lease'
+usage: git push [<options>] [<repository> [<refspec>...]]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --repo <repository>   repository
+    --all                 push all refs
+    --mirror              mirror all refs
+    --delete              delete refs
+    --tags                push tags (can't be used with --all or --mirror)
+    -n, --dry-run         dry run
+    --porcelain           machine-readable output
+    -f, --force           force updates
+    --recurse-submodules[=<check>]
+                          control recursive pushing of submodules
+    --thin                use thin pack
+    --receive-pack <receive-pack>
+                          receive pack program
+    --exec <receive-pack>
+                          receive pack program
+    -u, --set-upstream    set upstream for git pull/status
+    --progress            force progress reporting
+    --prune               prune locally removed refs
+    --no-verify           bypass pre-push hook
+    --follow-tags         push missing but relevant tags
+
+dantopa@darwin-fe2.lanl.gov:pr-openmpi-4.0.1.spack $ git push --force floquet HEAD
+Username for 'https://github.com': floquet
+Password for 'https://floquet@github.com':
+Counting objects: 525, done.
+Delta compression using up to 56 threads.
+Compressing objects: 100% (194/194), done.
+Writing objects: 100% (323/323), 50.92 KiB | 0 bytes/s, done.
+Total 323 (delta 169), reused 175 (delta 75)
+remote: Resolving deltas: 100% (169/169), completed with 64 local objects.
+To https://github.com/floquet/spack.git
+ + c211118...c1f296b HEAD -> Add-Open-MPI-4.0.1 (forced update)

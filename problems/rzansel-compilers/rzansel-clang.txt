@@ -1,0 +1,26 @@
+topa1@rzansel61:clang $ date
+Tue Apr 30 16:34:12 PDT 2019
+
+topa1@rzansel61:clang $ pwd
+/usr/tce/packages/clang
+
+topa1@rzansel61:clang $ ls -alh
+total 8.0K
+drwxr-xr-x 18 root root 4.0K Mar 21 10:45 .
+drwxr-xr-x 31 root root 4.0K Apr 30 13:42 ..
+drwxr-xr-x  5 root root  137 Sep  4  2018 clang-6.0.0
+drwxr-xr-x  5 root root  228 Oct 17  2017 clang-coral-2017.10.13
+drwxr-xr-x  5 root root  248 Nov 29  2017 clang-coral-2017.11.09
+drwxr-xr-x  5 root root  248 Dec  7  2017 clang-coral-2017.12.06
+drwxr-xr-x  5 root root  248 May  2  2018 clang-coral-2018.04.17
+drwxr-xr-x  5 root root  248 May 18  2018 clang-coral-2018.05.18
+drwxr-xr-x  5 root root  248 May 23  2018 clang-coral-2018.05.22
+drwxr-xr-x  5 root root  248 May 23  2018 clang-coral-2018.05.23
+drwxr-xr-x  5 root root  248 Aug  8  2018 clang-coral-2018.08.08
+drwxr-xr-x  5 root root  248 Sep 28  2018 clang-upstream-2018.09.24
+drwxr-xr-x  5 root root  248 Oct  2  2018 clang-upstream-2018.10.02
+drwxr-xr-x  5 root root  248 Oct 22  2018 clang-upstream-2018.10.19
+drwxr-xr-x  5 root root  248 Nov  9 15:48 clang-upstream-2018.11.09
+drwxr-xr-x  5 root root  248 Dec  7 15:11 clang-upstream-2018.12.03
+drwxr-xr-x  5 root root  248 Apr 30 11:27 clang-upstream-2019.03.19
+drwxr-xr-x  4 root root  104 Jul 21  2017 xlflang-coral-2017.06.27

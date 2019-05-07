@@ -1,0 +1,103 @@
+Wed Mar 27 11:27:35 MDT 2019 [1m/home/dantopa/.mybash(B[m
+Wed Mar 27 11:27:36 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/platforms.sh(B[m
+attempting to mkdir /scratch/users/dantopa/repos/gitlab/node-queries/darwin/arm-cn821/dir-configuration
+directory of core scripts = ${core} = /scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts
+Wed Mar 27 11:27:36 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/master.sh(B[m
+Wed Mar 27 11:27:36 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh(B[m
+Wed Mar 27 11:27:36 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh(B[m
+Wed Mar 27 11:27:36 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Wed Mar 27 11:27:36 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh(B[m
+Wed Mar 27 11:27:36 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/gcc.sh(B[m
+Wed Mar 27 11:27:36 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh(B[m
+Wed Mar 27 11:27:36 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh: line 5: gonode: command not found
+Wed Mar 27 11:27:36 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/git.sh(B[m
+Wed Mar 27 11:27:36 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/ssh.sh(B[m
+Wed Mar 27 11:27:36 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/vim.sh(B[m
+Wed Mar 27 11:27:36 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bash.sh(B[m
+Wed Mar 27 11:27:36 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/finds.sh(B[m
+Wed Mar 27 11:27:36 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/cmake.sh(B[m
+Wed Mar 27 11:27:36 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/fortran.sh(B[m
+Wed Mar 27 11:27:36 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/copy-configuration.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh: line 33: sinfo_s: command not found
+Wed Mar 27 11:27:36 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks.sh(B[m
+Wed Mar 27 11:27:36 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-bitbucket.sh(B[m
+Wed Mar 27 11:27:36 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-github.sh(B[m
+Wed Mar 27 11:27:37 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/bookmarks-gitlab.sh(B[m
+Wed Mar 27 11:27:37 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/disk.sh(B[m
+Wed Mar 27 11:27:37 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info.sh(B[m
+Wed Mar 27 11:27:37 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-proc.sh(B[m
+Wed Mar 27 11:27:37 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Wed Mar 27 11:27:37 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh(B[m
+Wed Mar 27 11:27:37 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-git.sh: line 5: gonode: command not found
+Wed Mar 27 11:27:37 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/uname.sh(B[m
+Wed Mar 27 11:27:37 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/slurm.sh(B[m
+Wed Mar 27 11:27:37 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/spack.sh(B[m
+Wed Mar 27 11:27:37 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/modules.sh(B[m
+[master 710d145] darwin-arm-cn821 Wed Mar 27 11:27:36 MDT 2019
+ 2 files changed, 133 insertions(+)
+ create mode 100644 spack/tpl/openmpi/openmpi-4.0.1/bash/output/darwin-arm-batch.out
+Wed Mar 27 11:27:37 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/alias.sh(B[m
+Wed Mar 27 11:27:37 MDT 2019, [1m/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh(B[m
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/environment.sh: line 11: myprompt: command not found
+/scratch/users/dantopa/repos/gitlab/bash-scripts/core-scripts/info-slurm.sh: line 33: sinfo_s: command not found
+[master c50f2f0] darwin-arm-cn821 Wed Mar 27 11:27:37 MDT 2019
+ 1 file changed, 11 insertions(+)
+Wed Mar 27 11:27:41 MDT 2019 /tmp/slurmd/job5128682/slurm_script
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing cached information on repositories
+==> Removing python cache files
+spack install openmpi@4.0.1 % gcc@4.8.5 arch=linux-rhel7-aarch64
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /scratch/users/dantopa/new-spack/pr-openmpi-4.0.1.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/util-macros-1.19.1-taxopdvexxiaknvfyhfpeu27t7t57ogv
+==> libpciaccess is already installed in /scratch/users/dantopa/new-spack/pr-openmpi-4.0.1.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/libpciaccess-0.13.5-6a4he357fqas3e73eduk56vxa4ljss4g
+==> libxml2@2.9.8 : externally installed in /usr
+==> libxml2@2.9.8 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /scratch/users/dantopa/new-spack/pr-openmpi-4.0.1.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/hwloc-1.11.11-7gqvelczu57m6jqefc662tqbtmrrgcfp
+==> zlib is already installed in /scratch/users/dantopa/new-spack/pr-openmpi-4.0.1.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/zlib-1.2.11-67s2oqnabyrxgoss5v72lgshbomfvmnf
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches in /usr/projects/draco/vendors/spack.mirror/build_cache
+==> No binary for openmpi found: installing from source
+curl: (37) Couldn't open file /usr/projects/draco/vendors/spack.mirror/openmpi/openmpi-4.0.1.tar.bz2
+==> Fetching file:///usr/projects/draco/vendors/spack.mirror/openmpi/openmpi-4.0.1.tar.bz2
+==> Fetching from file:///usr/projects/draco/vendors/spack.mirror/openmpi/openmpi-4.0.1.tar.bz2 failed.
+==> Fetching http://www.open-mpi.org/software/ompi/v4.0/downloads/openmpi-4.0.1.tar.bz2
+==> Staging archive: /scratch/users/dantopa/new-spack/pr-openmpi-4.0.1.spack/var/spack/stage/openmpi-4.0.1-hto7x2hrsz6rtcod4vnjvmdyhcmbpikt/openmpi-4.0.1.tar.bz2
+==> Created stage in /scratch/users/dantopa/new-spack/pr-openmpi-4.0.1.spack/var/spack/stage/openmpi-4.0.1-hto7x2hrsz6rtcod4vnjvmdyhcmbpikt
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 2.91s.  Build: 13m 20.48s.  Total: 13m 23.39s.
+[+] /scratch/users/dantopa/new-spack/pr-openmpi-4.0.1.spack/opt/spack/linux-rhel7-aarch64/gcc-4.8.5/openmpi-4.0.1-hto7x2hrsz6rtcod4vnjvmdyhcmbpikt
+Architecture:          aarch64
+Byte Order:            Little Endian
+CPU(s):                256
+On-line CPU(s) list:   0-255
+Thread(s) per core:    4
+Core(s) per socket:    32
+Socket(s):             2
+NUMA node(s):          2
+Model:                 0
+BogoMIPS:              400.00
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              32768K
+NUMA node0 CPU(s):     0-127
+NUMA node1 CPU(s):     128-255
+Flags:                 fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics cpuid asimdrdm
+/tmp/slurmd/job5128682/slurm_script: line 33: show_names: command not found
+Linux cn821 4.14.0-115.2.2.el7a.aarch64 #1 SMP Mon Nov 5 12:30:15 EST 2018 aarch64 aarch64 aarch64 GNU/Linux
+Submitted batch job 5128716

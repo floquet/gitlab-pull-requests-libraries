@@ -1,0 +1,22 @@
+						General		ARM
+Node: 					n7			cn821
+Partition: 				general		arm
+RAM:					1511GB		255GB
+CPU Vendor: 			Intel
+CPU Family:				sandybridge	ThunderX2-B0
+CPU Model:				E5-4650L_0
+Base clock:				2.60GHz
+Sockets:				4
+Cores/socket:			8
+Total cores:			32
+Threads/core:			2
+Total threads:			64
+Hardware
+	multithreading:		yes
+Infiniband:				none
+NUMA domains:			4
+Ethernet:				10Gb
+GPU count:				0
+GPU vendor:				-		no	no	yes
+
+cn821	arm	255GB	cavium	arm	ThunderX2-B0	2.2GHz	2	32	64	4	256	yes	edr	2	1Gb	0	-		no	yes	no	hp
