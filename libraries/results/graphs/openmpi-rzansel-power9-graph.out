@@ -1,0 +1,25 @@
+Tue May 7 19:06:15 PDT 2019
+/usr/workspace/wsrzc/topa1/repos/spack/libraries/rzansel-power9.openmpi
+spack graph openmpi >> /usr/workspace/wsrzc/topa1/repos/Github/gitlab-pull-requests-libraries/libraries/results/graphs/openmpi-rzansel-power9-graph.out
+o  openmpi
+|\
+| |\
+o | |  zlib
+ / /
+| o  hwloc
+|/| 
+| |\
+| | |\
+| | | o  libpciaccess
+| | |/| 
+| |/| | 
+| | | |\
+| | | o |  util-macros
+| | |  /
+| o | |  pkg-config
+|  / /
+o | |  numactl
+ / /
+o |  libxml2
+ /
+o  libtool

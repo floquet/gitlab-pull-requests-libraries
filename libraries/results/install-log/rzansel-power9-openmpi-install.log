@@ -794,3 +794,535 @@ spack install openmpi @ 3.1.4 % pgi@18.7  arch=linux-rhel7-ppc64le
 ==> Executing phase: 'autoreconf'
 ==> Executing phase: 'configure'
 ==> Executing phase: 'build'
+
+spack install openmpi @ 3.1.4 % pgi@17.10  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-17.10/util-macros-1.19.1-ao4zgmpb6usiklhsh36smkhkdgjdtdgn
+==> libpciaccess is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-17.10/libpciaccess-0.13.5-dy65i7h5q2jb43avosgtmgjuqfq43qyf
+==> libxml2@2.9.9 : externally installed in /usr
+==> libxml2@2.9.9 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-17.10/hwloc-1.11.11-bbid4daptk2c2ypawxw5dho2qr25k4ig
+==> zlib is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-17.10/zlib-1.2.11-djtus7bgda7vbkc6szkviz4gvsgjn7md
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/cache/openmpi/openmpi-3.1.4.tar.bz2
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/stage/openmpi-3.1.4-vxqjbdkyywfy3ww3n2fv5cqsxp2kevgs/openmpi-3.1.4.tar.bz2
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/stage/openmpi-3.1.4-vxqjbdkyywfy3ww3n2fv5cqsxp2kevgs
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install openmpi @ 3.1.4 % xl@16.2  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.2/util-macros-1.19.1-qmf7uld5y7k7f437fn6wq52usfzpio27
+==> libpciaccess is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.2/libpciaccess-0.13.5-6shkaxjtv4rnnmrvfx6mwhahzxuk5c7b
+==> libxml2@2.9.9 : externally installed in /usr
+==> libxml2@2.9.9 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.2/hwloc-1.11.11-fllqdwpgfh5u43pmi6hwyv42qe3c76jl
+==> zlib is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.2/zlib-1.2.11-pdvkqyec2mpltm4btxsw6uaucfnxapij
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/cache/openmpi/openmpi-3.1.4.tar.bz2
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/stage/openmpi-3.1.4-cdjrxps57giz2wjwd7evrm6woor52k4n/openmpi-3.1.4.tar.bz2
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/stage/openmpi-3.1.4-cdjrxps57giz2wjwd7evrm6woor52k4n
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install openmpi @ 3.1.4 % xl@16.1  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.1/util-macros-1.19.1-tcfngius5m55spkimeko3a4bn4egqmm5
+==> libpciaccess is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.1/libpciaccess-0.13.5-lq2srmbiltnl3igxtxc5oncnfzyat6si
+==> libxml2@2.9.9 : externally installed in /usr
+==> libxml2@2.9.9 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.1/hwloc-1.11.11-2vc67x7xcxoqavm6tnvr4hbcfj6dpfrz
+==> zlib is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.1/zlib-1.2.11-cx7rtvagkpnjod4wpcgpkvnm2zduvlf3
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/cache/openmpi/openmpi-3.1.4.tar.bz2
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/stage/openmpi-3.1.4-ohtnyymun2jcjgoo4zt2zi6zxol24hlp/openmpi-3.1.4.tar.bz2
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/stage/openmpi-3.1.4-ohtnyymun2jcjgoo4zt2zi6zxol24hlp
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install openmpi @ 3.0.4 % clang@4.0.0  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/clang-4.0.0/util-macros-1.19.1-fqtag6rg4v33md4a5tebo4iso556yeio
+==> libpciaccess is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/clang-4.0.0/libpciaccess-0.13.5-dswp76cwfhtflq5tlsewukkikp3vja6x
+==> libxml2@2.9.9 : externally installed in /usr
+==> libxml2@2.9.9 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/clang-4.0.0/hwloc-1.11.11-j5zyfkkt72ov63dosb7dgbdas6psxx6m
+==> zlib is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/clang-4.0.0/zlib-1.2.11-5g7ho5vexajo534poogbuty6b6c3ugoc
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for openmpi found: installing from source
+==> Fetching /usr/workspace/wsrzc/topa1/spack-home/mirror/openmpi/openmpi-3.0.4.tar.bz2
+==> Fetching from /usr/workspace/wsrzc/topa1/spack-home/mirror/openmpi/openmpi-3.0.4.tar.bz2 failed.
+==> Fetching http://www.open-mpi.org/software/ompi/v3.0/downloads/openmpi-3.0.4.tar.bz2
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/stage/openmpi-3.0.4-sbk7odemxn3hl4n4emohmlcvlgu6jy57/openmpi-3.0.4.tar.bz2
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/stage/openmpi-3.0.4-sbk7odemxn3hl4n4emohmlcvlgu6jy57
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 3.45s.  Build: 8m 51.74s.  Total: 8m 55.19s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/clang-4.0.0/openmpi-3.0.4-sbk7odemxn3hl4n4emohmlcvlgu6jy57
+
+spack install openmpi @ 3.0.4 % clang@3.9.1  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/clang-3.9.1/util-macros-1.19.1-cfgk4qq2bkknmdkxvfbxtynaosvynlsr
+==> libpciaccess is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/clang-3.9.1/libpciaccess-0.13.5-kw3ovmobgjg6skfhlfgjbnvtal3ppcqn
+==> libxml2@2.9.9 : externally installed in /usr
+==> libxml2@2.9.9 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/clang-3.9.1/hwloc-1.11.11-jpxbv67hkorlvlpxlj6ucpos5kacgxcm
+==> zlib is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/clang-3.9.1/zlib-1.2.11-eo5z5e2dbv3nrvn4la6zmcop5appdb3n
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/cache/openmpi/openmpi-3.0.4.tar.bz2
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/stage/openmpi-3.0.4-ac7v5a3ieeoy2qsbzcgmsdfb4hyjftrk/openmpi-3.0.4.tar.bz2
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/stage/openmpi-3.0.4-ac7v5a3ieeoy2qsbzcgmsdfb4hyjftrk
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.04s.  Build: 8m 41.86s.  Total: 8m 41.90s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/clang-3.9.1/openmpi-3.0.4-ac7v5a3ieeoy2qsbzcgmsdfb4hyjftrk
+
+spack install openmpi @ 3.0.4 % gcc@8.2.0  arch=linux-rhel7-ppc64le
+
+spack install openmpi @ 3.0.4 % gcc@7.3.1  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.1/util-macros-1.19.1-4xtacz6nhy2pavwc5orry7t2rw5utf2f
+==> libpciaccess is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.1/libpciaccess-0.13.5-nevqxc6dt7pex5oukbhqcivkv2agq5i7
+==> libxml2@2.9.9 : externally installed in /usr
+==> libxml2@2.9.9 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.1/hwloc-1.11.11-6ptczrnkxqr5rrbsibtij2bqqrxdwmmw
+==> zlib is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.1/zlib-1.2.11-tz7eup7srlwdjquzfgfsyjrwt3k73jkv
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/cache/openmpi/openmpi-3.0.4.tar.bz2
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/stage/openmpi-3.0.4-r4ftqezytjho4i57i3v6gvr7z36vmbbw/openmpi-3.0.4.tar.bz2
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/stage/openmpi-3.0.4-r4ftqezytjho4i57i3v6gvr7z36vmbbw
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.04s.  Build: 10m 24.61s.  Total: 10m 24.65s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.1/openmpi-3.0.4-r4ftqezytjho4i57i3v6gvr7z36vmbbw
+
+spack install openmpi @ 3.0.4 % gcc@4.9.3  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+
+spack install openmpi @ 3.0.4 % gcc@4.8.5  arch=linux-rhel7-ppc64le
+
+spack install openmpi @ 3.0.4 % pgi@19.1  arch=linux-rhel7-ppc64le
+
+spack install openmpi @ 3.0.4 % pgi@18.10  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-18.10/util-macros-1.19.1-mldraxpsgrs5xbwdy4hh4np7b4pdhryn
+==> libpciaccess is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-18.10/libpciaccess-0.13.5-tuuifqhuodpxphvj2455uzqursorzbwr
+==> libxml2@2.9.9 : externally installed in /usr
+==> libxml2@2.9.9 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-18.10/hwloc-1.11.11-imurl7zt67vxjisuowxyy5c7jc6f3pe5
+==> zlib is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-18.10/zlib-1.2.11-ygyqqzne7bmtohiyllxfxaiwqybbrnz2
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/cache/openmpi/openmpi-3.0.4.tar.bz2
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/stage/openmpi-3.0.4-klopdaeuizp3qzu2bqqwn453oetsm4qe/openmpi-3.0.4.tar.bz2
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/stage/openmpi-3.0.4-klopdaeuizp3qzu2bqqwn453oetsm4qe
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install openmpi @ 3.0.4 % pgi@18.7  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-18.7/util-macros-1.19.1-l6rvtxb7mpgwu2yfizddl5mbkbcbr6fu
+==> libpciaccess is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-18.7/libpciaccess-0.13.5-djjkhelusyvhwyfobfs57ltjoxlzrbtj
+==> libxml2@2.9.9 : externally installed in /usr
+==> libxml2@2.9.9 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-18.7/hwloc-1.11.11-ont2xpnakorn75jhxisxpsldbvaeziv6
+==> zlib is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-18.7/zlib-1.2.11-mublgoknh5xewrm33fc4otkxkjkgd2n3
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/cache/openmpi/openmpi-3.0.4.tar.bz2
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/stage/openmpi-3.0.4-dwu52jwbcc3x5cvjhkcwab25zwy75jjh/openmpi-3.0.4.tar.bz2
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/stage/openmpi-3.0.4-dwu52jwbcc3x5cvjhkcwab25zwy75jjh
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install openmpi @ 3.0.4 % pgi@17.10  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-17.10/util-macros-1.19.1-ao4zgmpb6usiklhsh36smkhkdgjdtdgn
+==> libpciaccess is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-17.10/libpciaccess-0.13.5-dy65i7h5q2jb43avosgtmgjuqfq43qyf
+==> libxml2@2.9.9 : externally installed in /usr
+==> libxml2@2.9.9 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-17.10/hwloc-1.11.11-bbid4daptk2c2ypawxw5dho2qr25k4ig
+==> zlib is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-17.10/zlib-1.2.11-djtus7bgda7vbkc6szkviz4gvsgjn7md
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/cache/openmpi/openmpi-3.0.4.tar.bz2
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/stage/openmpi-3.0.4-ipm22utr6mogzsvqieysxgjvtzar3wul/openmpi-3.0.4.tar.bz2
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/stage/openmpi-3.0.4-ipm22utr6mogzsvqieysxgjvtzar3wul
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install openmpi @ 3.0.4 % xl@16.2  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.2/util-macros-1.19.1-qmf7uld5y7k7f437fn6wq52usfzpio27
+==> libpciaccess is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.2/libpciaccess-0.13.5-6shkaxjtv4rnnmrvfx6mwhahzxuk5c7b
+==> libxml2@2.9.9 : externally installed in /usr
+==> libxml2@2.9.9 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.2/hwloc-1.11.11-fllqdwpgfh5u43pmi6hwyv42qe3c76jl
+==> zlib is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.2/zlib-1.2.11-pdvkqyec2mpltm4btxsw6uaucfnxapij
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/cache/openmpi/openmpi-3.0.4.tar.bz2
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/stage/openmpi-3.0.4-vrenmh72euhyleebxs2d52mnockj2ct6/openmpi-3.0.4.tar.bz2
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/stage/openmpi-3.0.4-vrenmh72euhyleebxs2d52mnockj2ct6
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install openmpi @ 3.0.4 % xl@16.1  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.1/util-macros-1.19.1-tcfngius5m55spkimeko3a4bn4egqmm5
+==> libpciaccess is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.1/libpciaccess-0.13.5-lq2srmbiltnl3igxtxc5oncnfzyat6si
+==> libxml2@2.9.9 : externally installed in /usr
+==> libxml2@2.9.9 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.1/hwloc-1.11.11-2vc67x7xcxoqavm6tnvr4hbcfj6dpfrz
+==> zlib is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.1/zlib-1.2.11-cx7rtvagkpnjod4wpcgpkvnm2zduvlf3
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/cache/openmpi/openmpi-3.0.4.tar.bz2
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/stage/openmpi-3.0.4-dbrzngvnhzxdshqw7fs7vcfsop3aci2a/openmpi-3.0.4.tar.bz2
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/stage/openmpi-3.0.4-dbrzngvnhzxdshqw7fs7vcfsop3aci2a
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install openmpi @ 2.1.6 % clang@4.0.0  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/clang-4.0.0/util-macros-1.19.1-fqtag6rg4v33md4a5tebo4iso556yeio
+==> libpciaccess is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/clang-4.0.0/libpciaccess-0.13.5-dswp76cwfhtflq5tlsewukkikp3vja6x
+==> libxml2@2.9.9 : externally installed in /usr
+==> libxml2@2.9.9 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/clang-4.0.0/hwloc-1.11.11-j5zyfkkt72ov63dosb7dgbdas6psxx6m
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for openmpi found: installing from source
+==> Fetching /usr/workspace/wsrzc/topa1/spack-home/mirror/openmpi/openmpi-2.1.6.tar.bz2
+==> Fetching from /usr/workspace/wsrzc/topa1/spack-home/mirror/openmpi/openmpi-2.1.6.tar.bz2 failed.
+==> Fetching http://www.open-mpi.org/software/ompi/v2.1/downloads/openmpi-2.1.6.tar.bz2
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/stage/openmpi-2.1.6-blavloiwlphmc5dsezegwddp4s4detn6/openmpi-2.1.6.tar.bz2
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/stage/openmpi-2.1.6-blavloiwlphmc5dsezegwddp4s4detn6
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 3.15s.  Build: 7m 35.58s.  Total: 7m 38.72s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/clang-4.0.0/openmpi-2.1.6-blavloiwlphmc5dsezegwddp4s4detn6
+
+spack install openmpi @ 2.1.6 % clang@3.9.1  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/clang-3.9.1/util-macros-1.19.1-cfgk4qq2bkknmdkxvfbxtynaosvynlsr
+==> libpciaccess is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/clang-3.9.1/libpciaccess-0.13.5-kw3ovmobgjg6skfhlfgjbnvtal3ppcqn
+==> libxml2@2.9.9 : externally installed in /usr
+==> libxml2@2.9.9 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/clang-3.9.1/hwloc-1.11.11-jpxbv67hkorlvlpxlj6ucpos5kacgxcm
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/cache/openmpi/openmpi-2.1.6.tar.bz2
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/stage/openmpi-2.1.6-ku3trzakrvtr6a7qxeg5o3ygjvdloqtv/openmpi-2.1.6.tar.bz2
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/stage/openmpi-2.1.6-ku3trzakrvtr6a7qxeg5o3ygjvdloqtv
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.14s.  Build: 7m 26.97s.  Total: 7m 27.11s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/clang-3.9.1/openmpi-2.1.6-ku3trzakrvtr6a7qxeg5o3ygjvdloqtv
+
+spack install openmpi @ 2.1.6 % gcc@8.2.0  arch=linux-rhel7-ppc64le
+
+spack install openmpi @ 2.1.6 % gcc@7.3.1  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.1/util-macros-1.19.1-4xtacz6nhy2pavwc5orry7t2rw5utf2f
+==> libpciaccess is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.1/libpciaccess-0.13.5-nevqxc6dt7pex5oukbhqcivkv2agq5i7
+==> libxml2@2.9.9 : externally installed in /usr
+==> libxml2@2.9.9 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.1/hwloc-1.11.11-6ptczrnkxqr5rrbsibtij2bqqrxdwmmw
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/cache/openmpi/openmpi-2.1.6.tar.bz2
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/stage/openmpi-2.1.6-ubsd6yakmc44ueln3v4p3ys4lppa2i5u/openmpi-2.1.6.tar.bz2
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/stage/openmpi-2.1.6-ubsd6yakmc44ueln3v4p3ys4lppa2i5u
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+==> Executing phase: 'install'
+==> Successfully installed openmpi
+  Fetch: 0.04s.  Build: 8m 47.96s.  Total: 8m 48.00s.
+[+] /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/gcc-7.3.1/openmpi-2.1.6-ubsd6yakmc44ueln3v4p3ys4lppa2i5u
+
+spack install openmpi @ 2.1.6 % gcc@4.9.3  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+
+spack install openmpi @ 2.1.6 % gcc@4.8.5  arch=linux-rhel7-ppc64le
+
+spack install openmpi @ 2.1.6 % pgi@19.1  arch=linux-rhel7-ppc64le
+
+spack install openmpi @ 2.1.6 % pgi@18.10  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-18.10/util-macros-1.19.1-mldraxpsgrs5xbwdy4hh4np7b4pdhryn
+==> libpciaccess is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-18.10/libpciaccess-0.13.5-tuuifqhuodpxphvj2455uzqursorzbwr
+==> libxml2@2.9.9 : externally installed in /usr
+==> libxml2@2.9.9 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-18.10/hwloc-1.11.11-imurl7zt67vxjisuowxyy5c7jc6f3pe5
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/cache/openmpi/openmpi-2.1.6.tar.bz2
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/stage/openmpi-2.1.6-ueyuxj6efhhbzrvypzcu36krpmfzqcix/openmpi-2.1.6.tar.bz2
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/stage/openmpi-2.1.6-ueyuxj6efhhbzrvypzcu36krpmfzqcix
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install openmpi @ 2.1.6 % pgi@18.7  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-18.7/util-macros-1.19.1-l6rvtxb7mpgwu2yfizddl5mbkbcbr6fu
+==> libpciaccess is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-18.7/libpciaccess-0.13.5-djjkhelusyvhwyfobfs57ltjoxlzrbtj
+==> libxml2@2.9.9 : externally installed in /usr
+==> libxml2@2.9.9 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-18.7/hwloc-1.11.11-ont2xpnakorn75jhxisxpsldbvaeziv6
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/cache/openmpi/openmpi-2.1.6.tar.bz2
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/stage/openmpi-2.1.6-kzkc7gkn323jua6irgyylzciikb7onaf/openmpi-2.1.6.tar.bz2
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/stage/openmpi-2.1.6-kzkc7gkn323jua6irgyylzciikb7onaf
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install openmpi @ 2.1.6 % pgi@17.10  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-17.10/util-macros-1.19.1-ao4zgmpb6usiklhsh36smkhkdgjdtdgn
+==> libpciaccess is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-17.10/libpciaccess-0.13.5-dy65i7h5q2jb43avosgtmgjuqfq43qyf
+==> libxml2@2.9.9 : externally installed in /usr
+==> libxml2@2.9.9 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/pgi-17.10/hwloc-1.11.11-bbid4daptk2c2ypawxw5dho2qr25k4ig
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/cache/openmpi/openmpi-2.1.6.tar.bz2
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/stage/openmpi-2.1.6-inwibluic6ua3co6353psuljv55ur4yh/openmpi-2.1.6.tar.bz2
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/stage/openmpi-2.1.6-inwibluic6ua3co6353psuljv55ur4yh
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+==> Executing phase: 'build'
+
+spack install openmpi @ 2.1.6 % xl@16.2  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.2/util-macros-1.19.1-qmf7uld5y7k7f437fn6wq52usfzpio27
+==> libpciaccess is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.2/libpciaccess-0.13.5-6shkaxjtv4rnnmrvfx6mwhahzxuk5c7b
+==> libxml2@2.9.9 : externally installed in /usr
+==> libxml2@2.9.9 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.2/hwloc-1.11.11-fllqdwpgfh5u43pmi6hwyv42qe3c76jl
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/cache/openmpi/openmpi-2.1.6.tar.bz2
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/stage/openmpi-2.1.6-rnqphrqqxk5evtcvtdry5n4fjkk3rbtm/openmpi-2.1.6.tar.bz2
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/stage/openmpi-2.1.6-rnqphrqqxk5evtcvtdry5n4fjkk3rbtm
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
+
+spack install openmpi @ 2.1.6 % xl@16.1  arch=linux-rhel7-ppc64le
+==> libtool@2.4.6 : externally installed in /usr
+==> libtool@2.4.6 : already registered in DB
+==> pkg-config@0.29.2 : externally installed in /usr
+==> pkg-config@0.29.2 : already registered in DB
+==> util-macros is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.1/util-macros-1.19.1-tcfngius5m55spkimeko3a4bn4egqmm5
+==> libpciaccess is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.1/libpciaccess-0.13.5-lq2srmbiltnl3igxtxc5oncnfzyat6si
+==> libxml2@2.9.9 : externally installed in /usr
+==> libxml2@2.9.9 : already registered in DB
+==> numactl@2.0.12 : externally installed in /usr
+==> numactl@2.0.12 : already registered in DB
+==> hwloc is already installed in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/opt/spack/linux-rhel7-ppc64le/xl-16.1/hwloc-1.11.11-2vc67x7xcxoqavm6tnvr4hbcfj6dpfrz
+==> Installing openmpi
+==> Searching for binary cache of openmpi
+==> Finding buildcaches on /usr/workspace/wsrzc/topa1/spack-home/mirror
+==> No binary for openmpi found: installing from source
+==> Using cached archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/cache/openmpi/openmpi-2.1.6.tar.bz2
+==> Staging archive: /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/stage/openmpi-2.1.6-2yannvvf2anv4zieg2gsvanxkowxgqfb/openmpi-2.1.6.tar.bz2
+==> Created stage in /usr/WS1/topa1/repos/spack/libraries/rzansel-power9.openmpi/var/spack/stage/openmpi-2.1.6-2yannvvf2anv4zieg2gsvanxkowxgqfb
+==> No patches needed for openmpi
+==> Building openmpi [AutotoolsPackage]
+==> Executing phase: 'autoreconf'
+==> Executing phase: 'configure'
